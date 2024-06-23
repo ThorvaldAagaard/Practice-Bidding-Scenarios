@@ -1,0 +1,17 @@
+generate 10000000
+
+produce 50
+
+GoodS = spades(south)>4 and top5(south,spades)>2
+GoodH = hearts(south)>4 and top5(south,hearts)>2
+GoodD = diamonds(south)>4 and top5(south,diamonds)>2
+GoodC = clubs(south)>4 and top5(south,clubs)>2
+
+condition
+
+hcp(east)>11 and hcp(east)<15 and
+(GoodS or GoodH or GoodD or GoodC) and 
+hcp(south)>8
+
+
+action printpbn

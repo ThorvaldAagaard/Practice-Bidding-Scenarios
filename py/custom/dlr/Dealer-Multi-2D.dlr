@@ -1,0 +1,16 @@
+generate 10000000
+
+produce 50
+
+w2S = spades(south)==6 and top5(south,spades)>2 and hcp(south,spades)>4 and hearts(south)<4
+w2H = hearts(south)==6 and top5(south,hearts)>2 and hcp(south,hearts)>4 and spades(south)<4
+
+condition
+
+hcp(south)>5 and hcp(south)<11 and 
+(w2S or w2H)
+or
+(hcp(south)>16 and hcp(south)<25 and shape(south, any 4441))
+
+
+action printpbn

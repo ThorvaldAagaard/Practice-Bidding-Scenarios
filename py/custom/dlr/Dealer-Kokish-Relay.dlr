@@ -1,0 +1,13 @@
+generate 10000000
+
+produce 50
+
+
+condition
+
+hcp(south)>21 and hcp(south)<28
+and hcp(north)<8
+and (hcp(south)>24 or (heart(south)>4 and shape(south,any 74xx +any 64xx +any 54xx)))
+
+
+action printpbn

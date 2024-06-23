@@ -1,0 +1,13 @@
+generate 10000000
+
+produce 50
+
+
+condition
+
+hcp(south)>14
+and hcp(north)>7
+and shape(north, any 54xx+ any 55xx +any 65xx)
+
+
+action printpbn
