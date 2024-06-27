@@ -316,6 +316,10 @@ echo dealerv2 ./dlr/Dealer-1m-1x-2m.dlr  -s 3719138420
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-1m-1x-2m.dlr -s  3719138420 > ./pbn/Dealer-1m-1x-2m.pbn 
 echo dealerv2 ./dlr/Dealer-Losing-Trick-Count.dlr  -s 4266580388 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Losing-Trick-Count.dlr -s  4266580388 > ./pbn/Dealer-Losing-Trick-Count.pbn 
+echo dealerv2 ./dlr/Dealer-WeXOppsPreempt.dlr  -s 773200825 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-WeXOppsPreempt.dlr -s  773200825 > ./pbn/Dealer-WeXOppsPreempt.pbn 
+echo dealerv2 ./dlr/Dealer-WeXOppsWeak2.dlr  -s 3337525065 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-WeXOppsWeak2.dlr -s  3337525065 > ./pbn/Dealer-WeXOppsWeak2.pbn 
 echo dealerv2 ./dlr/Gavin-3-card-Limit-Raise.dlr  -s 531502028 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-3-card-Limit-Raise.dlr -s  531502028 > ./pbn/Gavin-3-card-Limit-Raise.pbn 
 echo dealerv2 ./dlr/Gavin-3-Under-Invitational-Jump.dlr  -s 1245440392 
