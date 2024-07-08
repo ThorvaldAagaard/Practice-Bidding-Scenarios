@@ -3,21 +3,29 @@ setDealerCode(`
 
 dealer south 
 
+# Define cover cards
+coverCards = top2(north,hearts) + top2(north,spades) + top2(north,diamonds) + top2(north,clubs)
+
+# Define normal opener
 hcOpener = hcp(south)>11
-w2Opener = shape(south,any 6xxx-xxx6) and hcp(south)>6 and hcp(south)<11
-w3Opener = shape(south,any 8xxx+7xxx) and hcp(south)>6 and hcp(south)<11
+w2Opener = hcp(south)>5 and hcp(south)<12 and shape(south,any 6xxx-xxx6)
+w3Opener = hcp(south)>5 and hcp(south)<12 and shape(south,any 9xxx+any 8xxx+any 7xxx)
 normalOpener = (hcOpener or w2Opener or w3Opener)
 
-losTrkOpener = (losers(south)<8 and hcp(south)>7) and not normalOpener
+# Define Losing Trick Count opener
+ltcOpener = (losers(south)<8 and hcp(south)>7) and not normalOpener
 
-pass         = not (losTrkOpener or normalOpener)
+game = coverCards > 3
+part = coverCards < 4
 
-losTrkOpener and hcp(north)<6 and shape(north,xxxx-any 7xxx-any 6xxx)
+ltcOpener
 
 action
-average "losTrkOpener  " 100 * losTrkOpener,
-average "normalOpener  " 100 * normalOpener,
-average "pass          " 100 * pass,
+average "opener's HCP    " hcp(south),
+average "responder's HCP " hcp(north),
+average "combined HCP    " hcp(south) + hcp(north),
+
+frequency "A's or K's    " (coverCards,0,7),
 
 `,"S",false);
 Script
