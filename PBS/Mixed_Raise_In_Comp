@@ -1,0 +1,39 @@
+Script,MixedRaiseInComp
+setDealerCode(`
+
+dealer west
+
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Calm-Opponents
+
+# West opens 1C, 1D, 1H
+wSpades = spades(west)<5
+wRange = hcp(west)>11 and hcp(west)<15
+wOpens = wRange and wSpades
+
+
+# North overcalls 1H or 1S, South has 6-10 HCP and 4-Card Support 
+
+nSpades = spades(north)>4 and spades(south)>3 and hcp(north,spades)>4
+nHearts = hearts(north)>4 and hearts(south)>3 and hcp(north,hearts)>4
+nShape  = shape(north,xxxx-any 76xx-any 75xx- any 65xx- any 55xx)  // Kill the 2-suited hands
+sShape  = shape(south,xxxx-any 4333)
+nRange = hcp(north)>9 and hcp(north)<18
+sRange = hcp(south)>6 and hcp(south)<11
+nOvercalls = (nSpades or nHearts) and nShape and sShape and nRange and sRange
+
+wOpens and nOvercalls and calmEast
+
+produce 1000
+action
+average "N/S Spades" 100 * nSpades,
+average "N/S Hearts" 100 * nHearts,
+
+`,"W",true)
+Script
+Button,Mixed Raise in Comp,\n\
+---  Opponents open 1C/1D/1H.  We overcall one 1H/1S. Partner has\n\
+4-card support and makes a mixed raise.\n\
+%MixedRaiseInComp%
+
+
+
