@@ -19,7 +19,7 @@ if produce:
     sys.stderr.write("producing " + str(produce)+ "\n")
 
 # Directory containing the files
-directory_path = './../..'
+directory_path = './../../PBS'
 
 # Regular expression pattern to match text enclosed in backticks spanning multiple lines
 pattern = r'`(.*?)`'
@@ -92,7 +92,10 @@ def process_extracted_text(extracted_text, dealer):
             lines.remove(line)      
             generate_added = True   
     if not generate_added:        
-        processed_text.append(f"generate 10000000\n")
+        if generate is not None:
+            processed_text.append(f"generate {generate}\n")
+        else:
+            processed_text.append(f"generate 20000000\n")
 
     for line in lines[:]:  # Iterate through a copy of the original list
         ## Check if there is a generate that should be overwritten
@@ -104,7 +107,10 @@ def process_extracted_text(extracted_text, dealer):
             lines.remove(line)    
             produce_added = True   
     if not produce_added:        
-        processed_text.append(f"produce 50\n")
+        if produce is not None:
+            processed_text.append(f"produce {produce}\n")
+        else:
+            processed_text.append(f"produce 100\n")
 
     if dealer != None and not nodealer :
         processed_text.append(f"dealer {dealer}\n")
@@ -173,8 +179,6 @@ def process_extracted_text(extracted_text, dealer):
 n_files = 0
 for filename in os.listdir(directory_path):
     file_path = os.path.join(directory_path, filename)
-    # Check if it's a file
-    if os.path.isfile(file_path) and (filename.startswith('Dealer') or filename.startswith('Gavin') or (filename.startswith('Basic'))):
-        extract_text_in_backticks(file_path)
-        n_files = n_files + 1
+    extract_text_in_backticks(file_path)
+    n_files = n_files + 1
 sys.stderr.write(f"number of .dlr files = {str(n_files)}\n")

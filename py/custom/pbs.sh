@@ -1,346 +1,354 @@
-echo dealerv2 ./dlr/Dealer-1-Notrump-With-Singleton.dlr  -s 3346293582 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-1-Notrump-With-Singleton.dlr -s  3346293582 > ./pbn/Dealer-1-Notrump-With-Singleton.pbn 
-echo dealerv2 ./dlr/Dealer-1-Notrump.dlr  -s 61734202 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-1-Notrump.dlr -s  61734202 > ./pbn/Dealer-1-Notrump.pbn 
-echo dealerv2 ./dlr/Dealer-1N-5Mand6-m.dlr  -s 3443621045 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-1N-5Mand6-m.dlr -s  3443621045 > ./pbn/Dealer-1N-5Mand6-m.pbn 
-echo dealerv2 ./dlr/Dealer-2N-and-3C-Response.dlr  -s 1187328101 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-and-3C-Response.dlr -s  1187328101 > ./pbn/Dealer-2N-and-3C-Response.pbn 
-echo dealerv2 ./dlr/Dealer-2N-and-Balanced.dlr  -s 2668310178 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-and-Balanced.dlr -s  2668310178 > ./pbn/Dealer-2N-and-Balanced.pbn 
-echo dealerv2 ./dlr/Dealer-2N-and-MSS.dlr  -s 2951107429 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-and-MSS.dlr -s  2951107429 > ./pbn/Dealer-2N-and-MSS.pbn 
-echo dealerv2 ./dlr/Dealer-2N-and-Transfers.dlr  -s 1169415092 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-and-Transfers.dlr -s  1169415092 > ./pbn/Dealer-2N-and-Transfers.pbn 
-echo dealerv2 ./dlr/Dealer-2N-and-1-Minor.dlr  -s 3700805628 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-and-1-Minor.dlr -s  3700805628 > ./pbn/Dealer-2N-and-1-Minor.pbn 
-echo dealerv2 ./dlr/Dealer-2N-Puppet.dlr  -s 3585391918 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-Puppet.dlr -s  3585391918 > ./pbn/Dealer-2N-Puppet.pbn 
-echo dealerv2 ./dlr/Dealer-2N-Puppet-Leveled.dlr  -s 662938400 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-Puppet-Leveled.dlr -s  662938400 > ./pbn/Dealer-2N-Puppet-Leveled.pbn 
-echo dealerv2 ./dlr/Dealer-2N-Smolen.dlr  -s 563168438 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-Smolen.dlr -s  563168438 > ./pbn/Dealer-2N-Smolen.pbn 
-echo dealerv2 ./dlr/Dealer-2N-Smolen-Leveled.dlr  -s 241121191 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-Smolen-Leveled.dlr -s  241121191 > ./pbn/Dealer-2N-Smolen-Leveled.pbn 
-echo dealerv2 ./dlr/Dealer-2N-Smolen-Leveled-copy.dlr  -s 2173524099 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2N-Smolen-Leveled-copy.dlr -s  2173524099 > ./pbn/Dealer-2N-Smolen-Leveled-copy.pbn 
-echo dealerv2 ./dlr/Dealer-2NT.dlr  -s 1731603501 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-2NT.dlr -s  1731603501 > ./pbn/Dealer-2NT.pbn 
-echo dealerv2 ./dlr/Dealer-3-Under-Invitational-Jump.dlr  -s 25359870 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-3-Under-Invitational-Jump.dlr -s  25359870 > ./pbn/Dealer-3-Under-Invitational-Jump.pbn 
-echo dealerv2 ./dlr/Dealer-3N.dlr  -s 3641193840 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-3N.dlr -s  3641193840 > ./pbn/Dealer-3N.pbn 
-echo dealerv2 ./dlr/Dealer-3N-over-LHO-3x.dlr  -s 1492021847 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-3N-over-LHO-3x.dlr -s  1492021847 > ./pbn/Dealer-3N-over-LHO-3x.pbn 
-echo dealerv2 ./dlr/Dealer-3N-over-RHO-3x.dlr  -s 339001673 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-3N-over-RHO-3x.dlr -s  339001673 > ./pbn/Dealer-3N-over-RHO-3x.pbn 
-echo dealerv2 ./dlr/Dealer-After1M-2M.dlr  -s 1780627452 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-After1M-2M.dlr -s  1780627452 > ./pbn/Dealer-After1M-2M.pbn 
-echo dealerv2 ./dlr/Dealer-Bergen-Raises.dlr  -s 437868537 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Bergen-Raises.dlr -s  437868537 > ./pbn/Dealer-Bergen-Raises.pbn 
-echo dealerv2 ./dlr/Dealer-Bergen-Thrump-X-after-Preempt.dlr  -s 3557904629 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Bergen-Thrump-X-after-Preempt.dlr -s  3557904629 > ./pbn/Dealer-Bergen-Thrump-X-after-Preempt.pbn 
-echo dealerv2 ./dlr/Dealer-Better-Minor-Lebensohl.dlr  -s 2235253548 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Better-Minor-Lebensohl.dlr -s  2235253548 > ./pbn/Dealer-Better-Minor-Lebensohl.pbn 
-echo dealerv2 ./dlr/Dealer-Dealing-with-Ovecalls-Strong.dlr  -s 3238006405 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Dealing-with-Ovecalls-Strong.dlr -s  3238006405 > ./pbn/Dealer-Dealing-with-Ovecalls-Strong.pbn 
-echo dealerv2 ./dlr/Dealer-Dealing-with-Overcalls-Weak.dlr  -s 949089968 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Dealing-with-Overcalls-Weak.dlr -s  949089968 > ./pbn/Dealer-Dealing-with-Overcalls-Weak.pbn 
-echo dealerv2 ./dlr/Dealer-DONT.dlr  -s 273256210 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-DONT.dlr -s  273256210 > ./pbn/Dealer-DONT.pbn 
-echo dealerv2 ./dlr/Dealer-Double-Showing-2-Suits.dlr  -s 1482790394 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Double-Showing-2-Suits.dlr -s  1482790394 > ./pbn/Dealer-Double-Showing-2-Suits.pbn 
-echo dealerv2 ./dlr/Dealer-Drury.dlr  -s 3734105720 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Drury.dlr -s  3734105720 > ./pbn/Dealer-Drury.pbn 
-echo dealerv2 ./dlr/Dealer-FourthSuitForcing.dlr  -s 1356417765 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-FourthSuitForcing.dlr -s  1356417765 > ./pbn/Dealer-FourthSuitForcing.pbn 
-echo dealerv2 ./dlr/Dealer-Gambling-3N.dlr  -s 3711540581 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Gambling-3N.dlr -s  3711540581 > ./pbn/Dealer-Gambling-3N.pbn 
-echo dealerv2 ./dlr/Dealer-Game-Forcing-2C.dlr  -s 432934531 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Game-Forcing-2C.dlr -s  432934531 > ./pbn/Dealer-Game-Forcing-2C.pbn 
-echo dealerv2 ./dlr/Dealer-Gerber-after-NT.dlr  -s 3513221636 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Gerber-after-NT.dlr -s  3513221636 > ./pbn/Dealer-Gerber-after-NT.pbn 
-echo dealerv2 ./dlr/Dealer-Going-for-Blood.dlr  -s 2665049486 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Going-for-Blood.dlr -s  2665049486 > ./pbn/Dealer-Going-for-Blood.pbn 
-echo dealerv2 ./dlr/Dealer-Inverted-Minors.dlr  -s 3427001533 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Inverted-Minors.dlr -s  3427001533 > ./pbn/Dealer-Inverted-Minors.pbn 
-echo dealerv2 ./dlr/Dealer-Jacoby-2N-Leveled.dlr  -s 2213933306 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Jacoby-2N-Leveled.dlr -s  2213933306 > ./pbn/Dealer-Jacoby-2N-Leveled.pbn 
-echo dealerv2 ./dlr/Dealer-Jacoby-2N.dlr  -s 609353515 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Jacoby-2N.dlr -s  609353515 > ./pbn/Dealer-Jacoby-2N.pbn 
-echo dealerv2 ./dlr/Dealer-Jacoby-2N-4x-void.dlr  -s 1247218528 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Jacoby-2N-4x-void.dlr -s  1247218528 > ./pbn/Dealer-Jacoby-2N-4x-void.pbn 
-echo dealerv2 ./dlr/Dealer-Jacoby-2N-4x-void-Leveled.dlr  -s 172808389 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Jacoby-2N-4x-void-Leveled.dlr -s  172808389 > ./pbn/Dealer-Jacoby-2N-4x-void-Leveled.pbn 
-echo dealerv2 ./dlr/Dealer-Jordan-2N.dlr  -s 2853982395 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Jordan-2N.dlr -s  2853982395 > ./pbn/Dealer-Jordan-2N.pbn 
-echo dealerv2 ./dlr/Dealer-Jump-Overcalls.dlr  -s 273431057 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Jump-Overcalls.dlr -s  273431057 > ./pbn/Dealer-Jump-Overcalls.pbn 
-echo dealerv2 ./dlr/Dealer-Kokish-Relay.dlr  -s 3532852258 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Kokish-Relay.dlr -s  3532852258 > ./pbn/Dealer-Kokish-Relay.pbn 
-echo dealerv2 ./dlr/Dealer-Leaping-Michael.dlr  -s 1792181633 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Leaping-Michael.dlr -s  1792181633 > ./pbn/Dealer-Leaping-Michael.pbn 
-echo dealerv2 ./dlr/Dealer-Lebensohl-Over-Weak-2.dlr  -s 547556381 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Lebensohl-Over-Weak-2.dlr -s  547556381 > ./pbn/Dealer-Lebensohl-Over-Weak-2.pbn 
-echo dealerv2 ./dlr/Dealer-Lebensohl.dlr  -s 1453900324 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Lebensohl.dlr -s  1453900324 > ./pbn/Dealer-Lebensohl.pbn 
-echo dealerv2 ./dlr/Dealer-Major-Opener.dlr  -s 693697142 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Major-Opener.dlr -s  693697142 > ./pbn/Dealer-Major-Opener.pbn 
-echo dealerv2 ./dlr/Dealer-Major-Suit-Fit.dlr  -s 1279233 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Major-Suit-Fit.dlr -s  1279233 > ./pbn/Dealer-Major-Suit-Fit.pbn 
-echo dealerv2 ./dlr/Dealer-McCabe-After-Weak-2.dlr  -s 3437795972 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-McCabe-After-Weak-2.dlr -s  3437795972 > ./pbn/Dealer-McCabe-After-Weak-2.pbn 
-echo dealerv2 ./dlr/Dealer-McCabe-after-WJO.dlr  -s 4184700317 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-McCabe-after-WJO.dlr -s  4184700317 > ./pbn/Dealer-McCabe-after-WJO.pbn 
-echo dealerv2 ./dlr/Dealer-Meckwell.dlr  -s 251936945 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Meckwell.dlr -s  251936945 > ./pbn/Dealer-Meckwell.pbn 
-echo dealerv2 ./dlr/Dealer-Minor-Slams.dlr  -s 2640059924 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Minor-Slams.dlr -s  2640059924 > ./pbn/Dealer-Minor-Slams.pbn 
-echo dealerv2 ./dlr/Dealer-Minor-Suit-Opener.dlr  -s 737951458 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Minor-Suit-Opener.dlr -s  737951458 > ./pbn/Dealer-Minor-Suit-Opener.pbn 
-echo dealerv2 ./dlr/Dealer-Minor-Suit-Stayman.dlr  -s 1318533351 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Minor-Suit-Stayman.dlr -s  1318533351 > ./pbn/Dealer-Minor-Suit-Stayman.pbn 
-echo dealerv2 ./dlr/Dealer-Misfit.dlr  -s 3247232792 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Misfit.dlr -s  3247232792 > ./pbn/Dealer-Misfit.pbn 
-echo dealerv2 ./dlr/Dealer-Misfit-06-10.dlr  -s 2422936817 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Misfit-06-10.dlr -s  2422936817 > ./pbn/Dealer-Misfit-06-10.pbn 
-echo dealerv2 ./dlr/Dealer-Misfit-11-12.dlr  -s 2110553371 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Misfit-11-12.dlr -s  2110553371 > ./pbn/Dealer-Misfit-11-12.pbn 
-echo dealerv2 ./dlr/Dealer-Misfit-13-Plus.dlr  -s 254342138 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Misfit-13-Plus.dlr -s  254342138 > ./pbn/Dealer-Misfit-13-Plus.pbn 
-echo dealerv2 ./dlr/Dealer-Mitchell-Stayman.dlr  -s 2917580216 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Mitchell-Stayman.dlr -s  2917580216 > ./pbn/Dealer-Mitchell-Stayman.pbn 
-echo dealerv2 ./dlr/Dealer-MixedRiaseInComp.dlr  -s 3539375747 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-MixedRiaseInComp.dlr -s  3539375747 > ./pbn/Dealer-MixedRiaseInComp.pbn 
-echo dealerv2 ./dlr/Dealer-Multi-2D.dlr  -s 3300028218 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Multi-2D.dlr -s  3300028218 > ./pbn/Dealer-Multi-2D.pbn 
-echo dealerv2 ./dlr/Dealer-Multi-Landy.dlr  -s 33459748 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Multi-Landy.dlr -s  33459748 > ./pbn/Dealer-Multi-Landy.pbn 
-echo dealerv2 ./dlr/Dealer-Namyats-Strong.dlr  -s 762689850 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Namyats-Strong.dlr -s  762689850 > ./pbn/Dealer-Namyats-Strong.pbn 
-echo dealerv2 ./dlr/Dealer-Namyats-Weak.dlr  -s 3620616119 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Namyats-Weak.dlr -s  3620616119 > ./pbn/Dealer-Namyats-Weak.pbn 
-echo dealerv2 ./dlr/Dealer-Ned-2S.dlr  -s 3355762531 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Ned-2S.dlr -s  3355762531 > ./pbn/Dealer-Ned-2S.pbn 
-echo dealerv2 ./dlr/Dealer-Ned-Weak-Two.dlr  -s 677473282 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Ned-Weak-Two.dlr -s  677473282 > ./pbn/Dealer-Ned-Weak-Two.pbn 
-echo dealerv2 ./dlr/Dealer-Ned-3-Level-Resp-to-1N.dlr  -s 2154276965 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Ned-3-Level-Resp-to-1N.dlr -s  2154276965 > ./pbn/Dealer-Ned-3-Level-Resp-to-1N.pbn 
-echo dealerv2 ./dlr/Dealer-Ned-Weak-Two.dlr  -s 1970496565 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Ned-Weak-Two.dlr -s  1970496565 > ./pbn/Dealer-Ned-Weak-Two.pbn 
-echo dealerv2 ./dlr/Dealer-Negative-Free-Bid.dlr  -s 1239794017 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Negative-Free-Bid.dlr -s  1239794017 > ./pbn/Dealer-Negative-Free-Bid.pbn 
-echo dealerv2 ./dlr/Dealer-Negative-Double.dlr  -s 1201321337 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Negative-Double.dlr -s  1201321337 > ./pbn/Dealer-Negative-Double.pbn 
-echo dealerv2 ./dlr/Dealer-New-Minor-Forcing.dlr  -s 3958306786 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-New-Minor-Forcing.dlr -s  3958306786 > ./pbn/Dealer-New-Minor-Forcing.pbn 
-echo dealerv2 ./dlr/Dealer-Non-Leaping-Michaels-After-2Bid.dlr  -s 2003019570 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Non-Leaping-Michaels-After-2Bid.dlr -s  2003019570 > ./pbn/Dealer-Non-Leaping-Michaels-After-2Bid.pbn 
-echo dealerv2 ./dlr/Dealer-Non-Leaping-Michaels-After-3Bid.dlr  -s 2507849904 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Non-Leaping-Michaels-After-3Bid.dlr -s  2507849904 > ./pbn/Dealer-Non-Leaping-Michaels-After-3Bid.pbn 
-echo dealerv2 ./dlr/Dealer-Notrump-18-19.dlr  -s 3822610755 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Notrump-18-19.dlr -s  3822610755 > ./pbn/Dealer-Notrump-18-19.pbn 
-echo dealerv2 ./dlr/Dealer-Opp-Redoubles.dlr  -s 1327579680 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opp-Redoubles.dlr -s  1327579680 > ./pbn/Dealer-Opp-Redoubles.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-2-Suited-Overcalls.dlr  -s 3180421183 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-2-Suited-Overcalls.dlr -s  3180421183 > ./pbn/Dealer-Opps-2-Suited-Overcalls.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Double-1-NT.dlr  -s 3025750837 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Double-1-NT.dlr -s  3025750837 > ./pbn/Dealer-Opps-Double-1-NT.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Double-Jacoby.dlr  -s 675605361 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Double-Jacoby.dlr -s  675605361 > ./pbn/Dealer-Opps-Double-Jacoby.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Double-Stayman.dlr  -s 3125397407 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Double-Stayman.dlr -s  3125397407 > ./pbn/Dealer-Opps-Double-Stayman.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Gambling-3N.dlr  -s 2452274068 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Gambling-3N.dlr -s  2452274068 > ./pbn/Dealer-Opps-Gambling-3N.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Multi-2D.dlr  -s 2285781497 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Multi-2D.dlr -s  2285781497 > ./pbn/Dealer-Opps-Multi-2D.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Overcall-1NT.dlr  -s 2088140493 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Overcall-1NT.dlr -s  2088140493 > ./pbn/Dealer-Opps-Overcall-1NT.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Overcall-StaymanJacoby.dlr  -s 3723960473 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Overcall-StaymanJacoby.dlr -s  3723960473 > ./pbn/Dealer-Opps-Overcall-StaymanJacoby.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Preempt.dlr  -s 757377702 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Preempt.dlr -s  757377702 > ./pbn/Dealer-Opps-Preempt.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Preemptive-Overcall.dlr  -s 2929893045 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Preemptive-Overcall.dlr -s  2929893045 > ./pbn/Dealer-Opps-Preemptive-Overcall.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Takeout-X.dlr  -s 269997042 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Takeout-X.dlr -s  269997042 > ./pbn/Dealer-Opps-Takeout-X.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Takeout-X-We-XX.dlr  -s 809514135 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Takeout-X-We-XX.dlr -s  809514135 > ./pbn/Dealer-Opps-Takeout-X-We-XX.pbn 
-echo dealerv2 ./dlr/Dealer-Opps-Weak-Two.dlr  -s 2433854174 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Opps-Weak-Two.dlr -s  2433854174 > ./pbn/Dealer-Opps-Weak-Two.pbn 
-echo dealerv2 ./dlr/Dealer-Overcalls.dlr  -s 2258642106 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Overcalls.dlr -s  2258642106 > ./pbn/Dealer-Overcalls.pbn 
-echo dealerv2 ./dlr/Dealer-Power-Double-Balanced.dlr  -s 444638113 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Power-Double-Balanced.dlr -s  444638113 > ./pbn/Dealer-Power-Double-Balanced.pbn 
-echo dealerv2 ./dlr/Dealer-Power-Double-Unbalanced.dlr  -s 400486401 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Power-Double-Unbalanced.dlr -s  400486401 > ./pbn/Dealer-Power-Double-Unbalanced.pbn 
-echo dealerv2 ./dlr/Dealer-Preempt-X-XX.dlr  -s 2998792632 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Preempt-X-XX.dlr -s  2998792632 > ./pbn/Dealer-Preempt-X-XX.pbn 
-echo dealerv2 ./dlr/Dealer-Preempts.dlr  -s 405885961 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Preempts.dlr -s  405885961 > ./pbn/Dealer-Preempts.pbn 
-echo dealerv2 ./dlr/Dealer-Responsive-Double.dlr  -s 2007102611 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Responsive-Double.dlr -s  2007102611 > ./pbn/Dealer-Responsive-Double.pbn 
-echo dealerv2 ./dlr/Dealer-Reverses.dlr  -s 189414843 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Reverses.dlr -s  189414843 > ./pbn/Dealer-Reverses.pbn 
-echo dealerv2 ./dlr/Dealer-Robot-Free-Bid.dlr  -s 231971860 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Robot-Free-Bid.dlr -s  231971860 > ./pbn/Dealer-Robot-Free-Bid.pbn 
-echo dealerv2 ./dlr/Dealer-Rule-of-2.dlr  -s 2602657745 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Rule-of-2.dlr -s  2602657745 > ./pbn/Dealer-Rule-of-2.pbn 
-echo dealerv2 ./dlr/Dealer-Rule-of-16.dlr  -s 416695390 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Rule-of-16.dlr -s  416695390 > ./pbn/Dealer-Rule-of-16.pbn 
-echo dealerv2 ./dlr/Dealer-Rule-of-16-15.dlr  -s 1462457652 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Rule-of-16-15.dlr -s  1462457652 > ./pbn/Dealer-Rule-of-16-15.pbn 
-echo dealerv2 ./dlr/Dealer-Rule-of-16-16.dlr  -s 1377718173 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Rule-of-16-16.dlr -s  1377718173 > ./pbn/Dealer-Rule-of-16-16.pbn 
-echo dealerv2 ./dlr/Dealer-Rule-of-16-17.dlr  -s 3233092909 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Rule-of-16-17.dlr -s  3233092909 > ./pbn/Dealer-Rule-of-16-17.pbn 
-echo dealerv2 ./dlr/Dealer-Rule-of-16-18.dlr  -s 999661548 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Rule-of-16-18.dlr -s  999661548 > ./pbn/Dealer-Rule-of-16-18.pbn 
-echo dealerv2 ./dlr/Dealer-Runout-after-1N-X.dlr  -s 2863431767 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Runout-after-1N-X.dlr -s  2863431767 > ./pbn/Dealer-Runout-after-1N-X.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-1C-3-Suit-Resp.dlr  -s 599485722 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-1C-3-Suit-Resp.dlr -s  599485722 > ./pbn/Dealer-SCS-1C-3-Suit-Resp.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-1C-3-Suit-Resp-5-7.dlr  -s 756492972 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-1C-3-Suit-Resp-5-7.dlr -s  756492972 > ./pbn/Dealer-SCS-1C-3-Suit-Resp-5-7.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-1C-54-Resp.dlr  -s 522705551 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-1C-54-Resp.dlr -s  522705551 > ./pbn/Dealer-SCS-1C-54-Resp.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-1C-55_-Resp.dlr  -s 2012609999 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-1C-55_-Resp.dlr -s  2012609999 > ./pbn/Dealer-SCS-1C-55_-Resp.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-1C-any-5-7-Resp.dlr  -s 2247231004 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-1C-any-5-7-Resp.dlr -s  2247231004 > ./pbn/Dealer-SCS-1C-any-5-7-Resp.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-1C-any-0-4-Resp.dlr  -s 3259078503 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-1C-any-0-4-Resp.dlr -s  3259078503 > ./pbn/Dealer-SCS-1C-any-0-4-Resp.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-1C-any-8-Plus-Resp.dlr  -s 819384818 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-1C-any-8-Plus-Resp.dlr -s  819384818 > ./pbn/Dealer-SCS-1C-any-8-Plus-Resp.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-Major-Open-2-Suit-Resp.dlr  -s 4242712937 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-Major-Open-2-Suit-Resp.dlr -s  4242712937 > ./pbn/Dealer-SCS-Major-Open-2-Suit-Resp.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-Major-with-2nd-Suit.dlr  -s 833723429 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-Major-with-2nd-Suit.dlr -s  833723429 > ./pbn/Dealer-SCS-Major-with-2nd-Suit.pbn 
-echo dealerv2 ./dlr/Dealer-SCS-Two-Clubs.dlr  -s 519442681 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SCS-Two-Clubs.dlr -s  519442681 > ./pbn/Dealer-SCS-Two-Clubs.pbn 
-echo dealerv2 ./dlr/Dealer-Serious.dlr  -s 1116912079 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Serious.dlr -s  1116912079 > ./pbn/Dealer-Serious.pbn 
-echo dealerv2 ./dlr/Dealer-Size-Asking-Minor-Suit-Stayman.dlr  -s 3698742848 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Size-Asking-Minor-Suit-Stayman.dlr -s  3698742848 > ./pbn/Dealer-Size-Asking-Minor-Suit-Stayman.pbn 
-echo dealerv2 ./dlr/Dealer-Slam-after-NT.dlr  -s 797085856 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Slam-after-NT.dlr -s  797085856 > ./pbn/Dealer-Slam-after-NT.pbn 
-echo dealerv2 ./dlr/Dealer-Slam-after-Stayman.dlr  -s 3949524181 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Slam-after-Stayman.dlr -s  3949524181 > ./pbn/Dealer-Slam-after-Stayman.pbn 
-echo dealerv2 ./dlr/Dealer-Slam-after-Xfer.dlr  -s 3171416718 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Slam-after-Xfer.dlr -s  3171416718 > ./pbn/Dealer-Slam-after-Xfer.pbn 
-echo dealerv2 ./dlr/Dealer-Slam-after-Sta-Jac-2.dlr  -s 100343461 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Slam-after-Sta-Jac-2.dlr -s  100343461 > ./pbn/Dealer-Slam-after-Sta-Jac-2.pbn 
-echo dealerv2 ./dlr/Dealer-Slam-after-Stayman-or-Jacoby.dlr  -s 2439496552 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Slam-after-Stayman-or-Jacoby.dlr -s  2439496552 > ./pbn/Dealer-Slam-after-Stayman-or-Jacoby.pbn 
-echo dealerv2 ./dlr/Dealer-Smolen.dlr  -s 1677926134 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Smolen.dlr -s  1677926134 > ./pbn/Dealer-Smolen.pbn 
-echo dealerv2 ./dlr/Dealer-Soloway-Jump-Shift-Type-1.dlr  -s 3702589663 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Soloway-Jump-Shift-Type-1.dlr -s  3702589663 > ./pbn/Dealer-Soloway-Jump-Shift-Type-1.pbn 
-echo dealerv2 ./dlr/Dealer-Soloway-Jump-Shift-Type-2.dlr  -s 699087932 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Soloway-Jump-Shift-Type-2.dlr -s  699087932 > ./pbn/Dealer-Soloway-Jump-Shift-Type-2.pbn 
-echo dealerv2 ./dlr/Dealer-Soloway-Jump-Shift-Type-3.dlr  -s 1445926081 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Soloway-Jump-Shift-Type-3.dlr -s  1445926081 > ./pbn/Dealer-Soloway-Jump-Shift-Type-3.pbn 
-echo dealerv2 ./dlr/Dealer-Soloway-Jump-Shift-Type-4.dlr  -s 3971806517 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Soloway-Jump-Shift-Type-4.dlr -s  3971806517 > ./pbn/Dealer-Soloway-Jump-Shift-Type-4.pbn 
-echo dealerv2 ./dlr/Dealer-Soloway-Jump-Shift.dlr  -s 3018961531 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Soloway-Jump-Shift.dlr -s  3018961531 > ./pbn/Dealer-Soloway-Jump-Shift.pbn 
-echo dealerv2 ./dlr/Dealer-Spiral-Raise.dlr  -s 3974150678 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Spiral-Raise.dlr -s  3974150678 > ./pbn/Dealer-Spiral-Raise.pbn 
-echo dealerv2 ./dlr/Dealer-Spiral-Raises-with-3.dlr  -s 2948296160 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Spiral-Raises-with-3.dlr -s  2948296160 > ./pbn/Dealer-Spiral-Raises-with-3.pbn 
-echo dealerv2 ./dlr/Dealer-Splinters.dlr  -s 3663956990 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Splinters.dlr -s  3663956990 > ./pbn/Dealer-Splinters.pbn 
-echo dealerv2 ./dlr/Dealer-SplintersByOpener.dlr  -s 3531089763 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-SplintersByOpener.dlr -s  3531089763 > ./pbn/Dealer-SplintersByOpener.pbn 
-echo dealerv2 ./dlr/Dealer-Stayman.dlr  -s 2806060607 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Stayman.dlr -s  2806060607 > ./pbn/Dealer-Stayman.pbn 
-echo dealerv2 ./dlr/Dealer-Support-Double.dlr  -s 4098909409 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Support-Double.dlr -s  4098909409 > ./pbn/Dealer-Support-Double.pbn 
-echo dealerv2 ./dlr/Dealer-Takeout-Double.dlr  -s 2703620628 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Takeout-Double.dlr -s  2703620628 > ./pbn/Dealer-Takeout-Double.pbn 
-echo dealerv2 ./dlr/Dealer-Texas-or-Jacoby.dlr  -s 3001157753 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Texas-or-Jacoby.dlr -s  3001157753 > ./pbn/Dealer-Texas-or-Jacoby.pbn 
-echo dealerv2 ./dlr/Dealer-Texas-Transfer.dlr  -s 4043255435 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Texas-Transfer.dlr -s  4043255435 > ./pbn/Dealer-Texas-Transfer.pbn 
-echo dealerv2 ./dlr/Dealer-Tislevoll-after-Opps-Preempt.dlr  -s 4199836824 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Tislevoll-after-Opps-Preempt.dlr -s  4199836824 > ./pbn/Dealer-Tislevoll-after-Opps-Preempt.pbn 
-echo dealerv2 ./dlr/Dealer-Transfers-after-1M-X.dlr  -s 2461613893 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Transfers-after-1M-X.dlr -s  2461613893 > ./pbn/Dealer-Transfers-after-1M-X.pbn 
-echo dealerv2 ./dlr/Dealer-Trap-Pass.dlr  -s 4117229340 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Trap-Pass.dlr -s  4117229340 > ./pbn/Dealer-Trap-Pass.pbn 
-echo dealerv2 ./dlr/Dealer-Trap-Pass-Maybe.dlr  -s 1618075782 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Trap-Pass-Maybe.dlr -s  1618075782 > ./pbn/Dealer-Trap-Pass-Maybe.pbn 
-echo dealerv2 ./dlr/Dealer-Two-Way-Game-Try.dlr  -s 3539432304 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Two-Way-Game-Try.dlr -s  3539432304 > ./pbn/Dealer-Two-Way-Game-Try.pbn 
-echo dealerv2 ./dlr/Dealer-Two-Way-Size-Ask.dlr  -s 1148811699 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Two-Way-Size-Ask.dlr -s  1148811699 > ./pbn/Dealer-Two-Way-Size-Ask.pbn 
-echo dealerv2 ./dlr/Dealer-Two-Way-New-Minor-Forcing-aka-xyNT.dlr  -s 42893809 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Two-Way-New-Minor-Forcing-aka-xyNT.dlr -s  42893809 > ./pbn/Dealer-Two-Way-New-Minor-Forcing-aka-xyNT.pbn 
-echo dealerv2 ./dlr/Dealer-TwoNotrump.dlr  -s 439947970 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-TwoNotrump.dlr -s  439947970 > ./pbn/Dealer-TwoNotrump.pbn 
-echo dealerv2 ./dlr/Dealer-TwoOverOne.dlr  -s 499258109 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-TwoOverOne.dlr -s  499258109 > ./pbn/Dealer-TwoOverOne.pbn 
-echo dealerv2 ./dlr/Dealer-TwoSuitedOvercalls.dlr  -s 2334307713 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-TwoSuitedOvercalls.dlr -s  2334307713 > ./pbn/Dealer-TwoSuitedOvercalls.pbn 
-echo dealerv2 ./dlr/Dealer-VicsMajRespStr.dlr  -s 2247781720 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-VicsMajRespStr.dlr -s  2247781720 > ./pbn/Dealer-VicsMajRespStr.pbn 
-echo dealerv2 ./dlr/Dealer-W2-X-XX.dlr  -s 1739701313 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-W2-X-XX.dlr -s  1739701313 > ./pbn/Dealer-W2-X-XX.pbn 
-echo dealerv2 ./dlr/Dealer-We-Overcall-1N.dlr  -s 2105581125 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-We-Overcall-1N.dlr -s  2105581125 > ./pbn/Dealer-We-Overcall-1N.pbn 
-echo dealerv2 ./dlr/Dealer-We-Overcall.dlr  -s 752843349 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-We-Overcall.dlr -s  752843349 > ./pbn/Dealer-We-Overcall.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-2-Bids.dlr  -s 1745504718 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-2-Bids.dlr -s  1745504718 > ./pbn/Dealer-Weak-2-Bids.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-2-Bids-Lax.dlr  -s 1918853752 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-2-Bids-Lax.dlr -s  1918853752 > ./pbn/Dealer-Weak-2-Bids-Lax.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-2-Bids-Lax-Leveled.dlr  -s 3469686765 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-2-Bids-Lax-Leveled.dlr -s  3469686765 > ./pbn/Dealer-Weak-2-Bids-Lax-Leveled.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-2-Bids-Leveled.dlr  -s 3236549061 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-2-Bids-Leveled.dlr -s  3236549061 > ./pbn/Dealer-Weak-2-Bids-Leveled.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-NT-09-12.dlr  -s 1851319379 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-NT-09-12.dlr -s  1851319379 > ./pbn/Dealer-Weak-NT-09-12.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-NT-09-15.dlr  -s 2187102922 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-NT-09-15.dlr -s  2187102922 > ./pbn/Dealer-Weak-NT-09-15.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-NT-10-12.dlr  -s 2320600414 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-NT-10-12.dlr -s  2320600414 > ./pbn/Dealer-Weak-NT-10-12.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-NT-10-13.dlr  -s 213028801 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-NT-10-13.dlr -s  213028801 > ./pbn/Dealer-Weak-NT-10-13.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-NT-13-15.dlr  -s 2585849764 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-NT-13-15.dlr -s  2585849764 > ./pbn/Dealer-Weak-NT-13-15.pbn 
-echo dealerv2 ./dlr/Dealer-Weak-NT-14-15.dlr  -s 3217061583 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Weak-NT-14-15.dlr -s  3217061583 > ./pbn/Dealer-Weak-NT-14-15.pbn 
-echo dealerv2 ./dlr/Dealer-XYZ.dlr  -s 439940097 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-XYZ.dlr -s  439940097 > ./pbn/Dealer-XYZ.pbn 
-echo dealerv2 ./dlr/Dealer-1m-1x-2m.dlr  -s 3719138420 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-1m-1x-2m.dlr -s  3719138420 > ./pbn/Dealer-1m-1x-2m.pbn 
-echo dealerv2 ./dlr/Dealer-Losing-Trick-Count.dlr  -s 4266580388 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-Losing-Trick-Count.dlr -s  4266580388 > ./pbn/Dealer-Losing-Trick-Count.pbn 
-echo dealerv2 ./dlr/Dealer-WeXOppsPreempt.dlr  -s 773200825 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-WeXOppsPreempt.dlr -s  773200825 > ./pbn/Dealer-WeXOppsPreempt.pbn 
-echo dealerv2 ./dlr/Dealer-WeXOppsWeak2.dlr  -s 3337525065 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealer-WeXOppsWeak2.dlr -s  3337525065 > ./pbn/Dealer-WeXOppsWeak2.pbn 
-echo dealerv2 ./dlr/Gavin-3-card-Limit-Raise.dlr  -s 531502028 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-3-card-Limit-Raise.dlr -s  531502028 > ./pbn/Gavin-3-card-Limit-Raise.pbn 
-echo dealerv2 ./dlr/Gavin-3-Under-Invitational-Jump.dlr  -s 1245440392 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-3-Under-Invitational-Jump.dlr -s  1245440392 > ./pbn/Gavin-3-Under-Invitational-Jump.pbn 
-echo dealerv2 ./dlr/Gavin-4-card-Limit-Raise.dlr  -s 1244493260 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-4-card-Limit-Raise.dlr -s  1244493260 > ./pbn/Gavin-4-card-Limit-Raise.pbn 
-echo dealerv2 ./dlr/Gavin-Mixed-Raise.dlr  -s 1057856683 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-Mixed-Raise.dlr -s  1057856683 > ./pbn/Gavin-Mixed-Raise.pbn 
-echo dealerv2 ./dlr/Gavin-PassedHandResponseStructure.dlr  -s 790365974 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-PassedHandResponseStructure.dlr -s  790365974 > ./pbn/Gavin-PassedHandResponseStructure.pbn 
-echo dealerv2 ./dlr/Gavin-Semi-Constructive-Raise.dlr  -s 879638694 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-Semi-Constructive-Raise.dlr -s  879638694 > ./pbn/Gavin-Semi-Constructive-Raise.pbn 
-echo dealerv2 ./dlr/Gavin-Semi-Forcing-NT-with-Fit.dlr  -s 1139363116 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-Semi-Forcing-NT-with-Fit.dlr -s  1139363116 > ./pbn/Gavin-Semi-Forcing-NT-with-Fit.pbn 
-echo dealerv2 ./dlr/Gavin-Strong-Splinter.dlr  -s 2910452182 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-Strong-Splinter.dlr -s  2910452182 > ./pbn/Gavin-Strong-Splinter.pbn 
-echo dealerv2 ./dlr/Gavin-Transfers-after-2N-Rebid-Bal.dlr  -s 391920974 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-Transfers-after-2N-Rebid-Bal.dlr -s  391920974 > ./pbn/Gavin-Transfers-after-2N-Rebid-Bal.pbn 
-echo dealerv2 ./dlr/Gavin-Transfers-after-2N-Rebid-Unb.dlr  -s 3711579258 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-Transfers-after-2N-Rebid-Unb.dlr -s  3711579258 > ./pbn/Gavin-Transfers-after-2N-Rebid-Unb.pbn 
-echo dealerv2 ./dlr/Gavin-Transfers-after-2N-Rebid-Weak.dlr  -s 3196054138 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-Transfers-after-2N-Rebid-Weak.dlr -s  3196054138 > ./pbn/Gavin-Transfers-after-2N-Rebid-Weak.pbn 
-echo dealerv2 ./dlr/Gavin-Weak-Splinter.dlr  -s 3668802044 
-./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin-Weak-Splinter.dlr -s  3668802044 > ./pbn/Gavin-Weak-Splinter.pbn 
+echo dealerv2 ./dlr/1m_1x_2m.dlr  -s 2891263746 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/1m_1x_2m.dlr -s  2891263746 > ./pbn/1m_1x_2m.pbn 
+echo dealerv2 ./dlr/1N.dlr  -s 2332967294 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/1N.dlr -s  2332967294 > ./pbn/1N.pbn 
+echo dealerv2 ./dlr/1N_5M_and_6m.dlr  -s 3692169087 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/1N_5M_and_6m.dlr -s  3692169087 > ./pbn/1N_5M_and_6m.pbn 
+echo dealerv2 ./dlr/1N_with_Singleton.dlr  -s 3621261507 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/1N_with_Singleton.dlr -s  3621261507 > ./pbn/1N_with_Singleton.pbn 
+echo dealerv2 ./dlr/2NT.dlr  -s 185170271 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2NT.dlr -s  185170271 > ./pbn/2NT.pbn 
+echo dealerv2 ./dlr/2N_and_1_Minor.dlr  -s 2165675891 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2N_and_1_Minor.dlr -s  2165675891 > ./pbn/2N_and_1_Minor.pbn 
+echo dealerv2 ./dlr/2N_and_3C_Response.dlr  -s 3954447875 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2N_and_3C_Response.dlr -s  3954447875 > ./pbn/2N_and_3C_Response.pbn 
+echo dealerv2 ./dlr/2N_and_Balanced.dlr  -s 516096115 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2N_and_Balanced.dlr -s  516096115 > ./pbn/2N_and_Balanced.pbn 
+echo dealerv2 ./dlr/2N_and_MSS.dlr  -s 4224805401 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2N_and_MSS.dlr -s  4224805401 > ./pbn/2N_and_MSS.pbn 
+echo dealerv2 ./dlr/2N_and_Transfers.dlr  -s 2516391059 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2N_and_Transfers.dlr -s  2516391059 > ./pbn/2N_and_Transfers.pbn 
+echo dealerv2 ./dlr/2N_Puppet.dlr  -s 260087362 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2N_Puppet.dlr -s  260087362 > ./pbn/2N_Puppet.pbn 
+echo dealerv2 ./dlr/2N_Puppet_Leveled.dlr  -s 3687673909 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2N_Puppet_Leveled.dlr -s  3687673909 > ./pbn/2N_Puppet_Leveled.pbn 
+echo dealerv2 ./dlr/2N_Smolen.dlr  -s 2701219213 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2N_Smolen.dlr -s  2701219213 > ./pbn/2N_Smolen.pbn 
+echo dealerv2 ./dlr/2N_Smolen_Leveled.dlr  -s 1860926235 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/2N_Smolen_Leveled.dlr -s  1860926235 > ./pbn/2N_Smolen_Leveled.pbn 
+echo dealerv2 ./dlr/3N.dlr  -s 3581293721 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/3N.dlr -s  3581293721 > ./pbn/3N.pbn 
+echo dealerv2 ./dlr/3N_over_LHO_3x.dlr  -s 3760278909 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/3N_over_LHO_3x.dlr -s  3760278909 > ./pbn/3N_over_LHO_3x.pbn 
+echo dealerv2 ./dlr/3N_over_RHO_3x.dlr  -s 654942245 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/3N_over_RHO_3x.dlr -s  654942245 > ./pbn/3N_over_RHO_3x.pbn 
+echo dealerv2 ./dlr/3_Under_Invitational_Jump.dlr  -s 3543225006 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/3_Under_Invitational_Jump.dlr -s  3543225006 > ./pbn/3_Under_Invitational_Jump.pbn 
+echo dealerv2 ./dlr/After_1M_2M.dlr  -s 2619693839 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/After_1M_2M.dlr -s  2619693839 > ./pbn/After_1M_2M.pbn 
+echo dealerv2 ./dlr/Any_5422_with_15-17.dlr  -s 720800937 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Any_5422_with_15-17.dlr -s  720800937 > ./pbn/Any_5422_with_15-17.pbn 
+echo dealerv2 ./dlr/Bergen_Raises.dlr  -s 2074686450 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Bergen_Raises.dlr -s  2074686450 > ./pbn/Bergen_Raises.pbn 
+echo dealerv2 ./dlr/Bergen_Thrump_X_after_Preempt.dlr  -s 4098118793 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Bergen_Thrump_X_after_Preempt.dlr -s  4098118793 > ./pbn/Bergen_Thrump_X_after_Preempt.pbn 
+echo dealerv2 ./dlr/Better_Minor_Lebensohl.dlr  -s 2954596572 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Better_Minor_Lebensohl.dlr -s  2954596572 > ./pbn/Better_Minor_Lebensohl.pbn 
+echo dealerv2 ./dlr/Dealing_with_Ovecalls_Strong.dlr  -s 1443079554 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealing_with_Ovecalls_Strong.dlr -s  1443079554 > ./pbn/Dealing_with_Ovecalls_Strong.pbn 
+echo dealerv2 ./dlr/Dealing_with_Overcalls_Weak.dlr  -s 1498544967 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Dealing_with_Overcalls_Weak.dlr -s  1498544967 > ./pbn/Dealing_with_Overcalls_Weak.pbn 
+echo dealerv2 ./dlr/DONT.dlr  -s 1155202081 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/DONT.dlr -s  1155202081 > ./pbn/DONT.pbn 
+echo dealerv2 ./dlr/Double_Showing_2_Suits.dlr  -s 754103139 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Double_Showing_2_Suits.dlr -s  754103139 > ./pbn/Double_Showing_2_Suits.pbn 
+echo dealerv2 ./dlr/Drury.dlr  -s 2482351398 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Drury.dlr -s  2482351398 > ./pbn/Drury.pbn 
+echo dealerv2 ./dlr/Forcing_Pass.dlr  -s 3545405088 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Forcing_Pass.dlr -s  3545405088 > ./pbn/Forcing_Pass.pbn 
+echo dealerv2 ./dlr/Fourth_Suit_Forcing.dlr  -s 704588052 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Fourth_Suit_Forcing.dlr -s  704588052 > ./pbn/Fourth_Suit_Forcing.pbn 
+echo dealerv2 ./dlr/Gambling_3N.dlr  -s 313429746 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gambling_3N.dlr -s  313429746 > ./pbn/Gambling_3N.pbn 
+echo dealerv2 ./dlr/Game_Forcing_2C.dlr  -s 1734655697 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Game_Forcing_2C.dlr -s  1734655697 > ./pbn/Game_Forcing_2C.pbn 
+echo dealerv2 ./dlr/Gavin_3-Card_Limit_Raise.dlr  -s 1734981680 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_3-Card_Limit_Raise.dlr -s  1734981680 > ./pbn/Gavin_3-Card_Limit_Raise.pbn 
+echo dealerv2 ./dlr/Gavin_3_Under_Invitational_Jump.dlr  -s 2374593209 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_3_Under_Invitational_Jump.dlr -s  2374593209 > ./pbn/Gavin_3_Under_Invitational_Jump.pbn 
+echo dealerv2 ./dlr/Gavin_4-Card_Limit_Raise.dlr  -s 2220430178 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_4-Card_Limit_Raise.dlr -s  2220430178 > ./pbn/Gavin_4-Card_Limit_Raise.pbn 
+echo dealerv2 ./dlr/Gavin_Mixed_Raise.dlr  -s 3406616267 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_Mixed_Raise.dlr -s  3406616267 > ./pbn/Gavin_Mixed_Raise.pbn 
+echo dealerv2 ./dlr/Gavin_Passed_Hand_Response_Structure.dlr  -s 771364535 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_Passed_Hand_Response_Structure.dlr -s  771364535 > ./pbn/Gavin_Passed_Hand_Response_Structure.pbn 
+echo dealerv2 ./dlr/Gavin_Semi-Constructive_Raise.dlr  -s 1005587663 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_Semi-Constructive_Raise.dlr -s  1005587663 > ./pbn/Gavin_Semi-Constructive_Raise.pbn 
+echo dealerv2 ./dlr/Gavin_Semi-Forcing_NT_with_Fit.dlr  -s 2062353273 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_Semi-Forcing_NT_with_Fit.dlr -s  2062353273 > ./pbn/Gavin_Semi-Forcing_NT_with_Fit.pbn 
+echo dealerv2 ./dlr/Gavin_Strong_Splinter.dlr  -s 3292964743 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_Strong_Splinter.dlr -s  3292964743 > ./pbn/Gavin_Strong_Splinter.pbn 
+echo dealerv2 ./dlr/Gavin_Transfers_after_2N_Rebid_Bal.dlr  -s 3715794435 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_Transfers_after_2N_Rebid_Bal.dlr -s  3715794435 > ./pbn/Gavin_Transfers_after_2N_Rebid_Bal.pbn 
+echo dealerv2 ./dlr/Gavin_Transfers_after_2N_Rebid_Unb.dlr  -s 1771744641 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_Transfers_after_2N_Rebid_Unb.dlr -s  1771744641 > ./pbn/Gavin_Transfers_after_2N_Rebid_Unb.pbn 
+echo dealerv2 ./dlr/Gavin_Transfers_after_2N_Rebid_Weak.dlr  -s 3106449302 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_Transfers_after_2N_Rebid_Weak.dlr -s  3106449302 > ./pbn/Gavin_Transfers_after_2N_Rebid_Weak.pbn 
+echo dealerv2 ./dlr/Gavin_Weak_Splinter.dlr  -s 1751509506 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gavin_Weak_Splinter.dlr -s  1751509506 > ./pbn/Gavin_Weak_Splinter.pbn 
+echo dealerv2 ./dlr/Gerber_after_NT.dlr  -s 685476597 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Gerber_after_NT.dlr -s  685476597 > ./pbn/Gerber_after_NT.pbn 
+echo dealerv2 ./dlr/Going_for_Blood.dlr  -s 1435040801 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Going_for_Blood.dlr -s  1435040801 > ./pbn/Going_for_Blood.pbn 
+echo dealerv2 ./dlr/Good_Bad_2N.dlr  -s 2366741937 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Good_Bad_2N.dlr -s  2366741937 > ./pbn/Good_Bad_2N.pbn 
+echo dealerv2 ./dlr/Inverted_Minors.dlr  -s 28163890 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Inverted_Minors.dlr -s  28163890 > ./pbn/Inverted_Minors.pbn 
+echo dealerv2 ./dlr/Jacoby_2N.dlr  -s 1892080493 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Jacoby_2N.dlr -s  1892080493 > ./pbn/Jacoby_2N.pbn 
+echo dealerv2 ./dlr/Jacoby_2N_4x_void.dlr  -s 1003627256 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Jacoby_2N_4x_void.dlr -s  1003627256 > ./pbn/Jacoby_2N_4x_void.pbn 
+echo dealerv2 ./dlr/Jacoby_2N_4x_void_Leveled.dlr  -s 3241528802 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Jacoby_2N_4x_void_Leveled.dlr -s  3241528802 > ./pbn/Jacoby_2N_4x_void_Leveled.pbn 
+echo dealerv2 ./dlr/Jacoby_2N_Leveled.dlr  -s 720134955 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Jacoby_2N_Leveled.dlr -s  720134955 > ./pbn/Jacoby_2N_Leveled.pbn 
+echo dealerv2 ./dlr/Jordan_2N.dlr  -s 3915040721 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Jordan_2N.dlr -s  3915040721 > ./pbn/Jordan_2N.pbn 
+echo dealerv2 ./dlr/Jump_Overcalls.dlr  -s 1157233820 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Jump_Overcalls.dlr -s  1157233820 > ./pbn/Jump_Overcalls.pbn 
+echo dealerv2 ./dlr/Kokish_Relay.dlr  -s 2402844351 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Kokish_Relay.dlr -s  2402844351 > ./pbn/Kokish_Relay.pbn 
+echo dealerv2 ./dlr/Leaping_Michael.dlr  -s 1334553865 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Leaping_Michael.dlr -s  1334553865 > ./pbn/Leaping_Michael.pbn 
+echo dealerv2 ./dlr/Lebensohl.dlr  -s 1045353636 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Lebensohl.dlr -s  1045353636 > ./pbn/Lebensohl.pbn 
+echo dealerv2 ./dlr/Lebensohl_Over_Weak_2.dlr  -s 447033051 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Lebensohl_Over_Weak_2.dlr -s  447033051 > ./pbn/Lebensohl_Over_Weak_2.pbn 
+echo dealerv2 ./dlr/Losing_Trick_Count.dlr  -s 1686673187 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Losing_Trick_Count.dlr -s  1686673187 > ./pbn/Losing_Trick_Count.pbn 
+echo dealerv2 ./dlr/Major_Opener.dlr  -s 3640601042 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Major_Opener.dlr -s  3640601042 > ./pbn/Major_Opener.pbn 
+echo dealerv2 ./dlr/Major_Suit_Fit.dlr  -s 2488497921 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Major_Suit_Fit.dlr -s  2488497921 > ./pbn/Major_Suit_Fit.pbn 
+echo dealerv2 ./dlr/McCabe_After_Weak_2.dlr  -s 4090391175 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/McCabe_After_Weak_2.dlr -s  4090391175 > ./pbn/McCabe_After_Weak_2.pbn 
+echo dealerv2 ./dlr/McCabe_after_WJO.dlr  -s 3111372290 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/McCabe_after_WJO.dlr -s  3111372290 > ./pbn/McCabe_after_WJO.pbn 
+echo dealerv2 ./dlr/Meckwell.dlr  -s 3737841403 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Meckwell.dlr -s  3737841403 > ./pbn/Meckwell.pbn 
+echo dealerv2 ./dlr/Minor_Slams.dlr  -s 3535921653 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Minor_Slams.dlr -s  3535921653 > ./pbn/Minor_Slams.pbn 
+echo dealerv2 ./dlr/Minor_Suit_Opener.dlr  -s 4220627057 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Minor_Suit_Opener.dlr -s  4220627057 > ./pbn/Minor_Suit_Opener.pbn 
+echo dealerv2 ./dlr/Minor_Suit_Stayman.dlr  -s 1093406511 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Minor_Suit_Stayman.dlr -s  1093406511 > ./pbn/Minor_Suit_Stayman.pbn 
+echo dealerv2 ./dlr/Misfit.dlr  -s 3485045227 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Misfit.dlr -s  3485045227 > ./pbn/Misfit.pbn 
+echo dealerv2 ./dlr/Misfit_06-10.dlr  -s 2570696291 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Misfit_06-10.dlr -s  2570696291 > ./pbn/Misfit_06-10.pbn 
+echo dealerv2 ./dlr/Misfit_11-12.dlr  -s 499218854 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Misfit_11-12.dlr -s  499218854 > ./pbn/Misfit_11-12.pbn 
+echo dealerv2 ./dlr/Misfit_13-Plus.dlr  -s 293285836 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Misfit_13-Plus.dlr -s  293285836 > ./pbn/Misfit_13-Plus.pbn 
+echo dealerv2 ./dlr/Mitchell_Stayman.dlr  -s 2468261799 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Mitchell_Stayman.dlr -s  2468261799 > ./pbn/Mitchell_Stayman.pbn 
+echo dealerv2 ./dlr/Mixed_Raise_In_Comp.dlr  -s 1312347259 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Mixed_Raise_In_Comp.dlr -s  1312347259 > ./pbn/Mixed_Raise_In_Comp.pbn 
+echo dealerv2 ./dlr/Multi_2D.dlr  -s 2157938862 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Multi_2D.dlr -s  2157938862 > ./pbn/Multi_2D.pbn 
+echo dealerv2 ./dlr/Multi_Landy.dlr  -s 1688767912 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Multi_Landy.dlr -s  1688767912 > ./pbn/Multi_Landy.pbn 
+echo dealerv2 ./dlr/Namyats_Strong.dlr  -s 3902837593 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Namyats_Strong.dlr -s  3902837593 > ./pbn/Namyats_Strong.pbn 
+echo dealerv2 ./dlr/Namyats_Weak.dlr  -s 3620769643 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Namyats_Weak.dlr -s  3620769643 > ./pbn/Namyats_Weak.pbn 
+echo dealerv2 ./dlr/Ned_2S.dlr  -s 2923242449 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Ned_2S.dlr -s  2923242449 > ./pbn/Ned_2S.pbn 
+echo dealerv2 ./dlr/Ned_3-Level_Resp_to_1N.dlr  -s 1427329899 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Ned_3-Level_Resp_to_1N.dlr -s  1427329899 > ./pbn/Ned_3-Level_Resp_to_1N.pbn 
+echo dealerv2 ./dlr/Ned_Weak_Two.dlr  -s 2087133316 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Ned_Weak_Two.dlr -s  2087133316 > ./pbn/Ned_Weak_Two.pbn 
+echo dealerv2 ./dlr/Ned_Weak_Two_Leveled.dlr  -s 3401575681 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Ned_Weak_Two_Leveled.dlr -s  3401575681 > ./pbn/Ned_Weak_Two_Leveled.pbn 
+echo dealerv2 ./dlr/Negative_Double.dlr  -s 75727419 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Negative_Double.dlr -s  75727419 > ./pbn/Negative_Double.pbn 
+echo dealerv2 ./dlr/Negative_Free_Bid.dlr  -s 2810261565 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Negative_Free_Bid.dlr -s  2810261565 > ./pbn/Negative_Free_Bid.pbn 
+echo dealerv2 ./dlr/New_Minor_Forcing.dlr  -s 2131275252 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/New_Minor_Forcing.dlr -s  2131275252 > ./pbn/New_Minor_Forcing.pbn 
+echo dealerv2 ./dlr/Non_Leaping_Michaels_After_2-Bid.dlr  -s 3552256171 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Non_Leaping_Michaels_After_2-Bid.dlr -s  3552256171 > ./pbn/Non_Leaping_Michaels_After_2-Bid.pbn 
+echo dealerv2 ./dlr/Non_Leaping_Michaels_After_3-Bid.dlr  -s 2329821446 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Non_Leaping_Michaels_After_3-Bid.dlr -s  2329821446 > ./pbn/Non_Leaping_Michaels_After_3-Bid.pbn 
+echo dealerv2 ./dlr/Notrump_18-19.dlr  -s 2121697924 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Notrump_18-19.dlr -s  2121697924 > ./pbn/Notrump_18-19.pbn 
+echo dealerv2 ./dlr/Opps_2-Suited_Overcalls.dlr  -s 673952756 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_2-Suited_Overcalls.dlr -s  673952756 > ./pbn/Opps_2-Suited_Overcalls.pbn 
+echo dealerv2 ./dlr/Opps_Bid_Over_GF_2C.dlr  -s 1591772795 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Bid_Over_GF_2C.dlr -s  1591772795 > ./pbn/Opps_Bid_Over_GF_2C.pbn 
+echo dealerv2 ./dlr/Opps_Double_1_NT.dlr  -s 3898326479 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Double_1_NT.dlr -s  3898326479 > ./pbn/Opps_Double_1_NT.pbn 
+echo dealerv2 ./dlr/Opps_Double_Jacoby.dlr  -s 1971793723 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Double_Jacoby.dlr -s  1971793723 > ./pbn/Opps_Double_Jacoby.pbn 
+echo dealerv2 ./dlr/Opps_Double_Stayman.dlr  -s 1723039462 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Double_Stayman.dlr -s  1723039462 > ./pbn/Opps_Double_Stayman.pbn 
+echo dealerv2 ./dlr/Opps_Gambling_3N.dlr  -s 1086662586 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Gambling_3N.dlr -s  1086662586 > ./pbn/Opps_Gambling_3N.pbn 
+echo dealerv2 ./dlr/Opps_Multi_2D.dlr  -s 1854263486 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Multi_2D.dlr -s  1854263486 > ./pbn/Opps_Multi_2D.pbn 
+echo dealerv2 ./dlr/Opps_Open_1N_15-17.dlr  -s 1901318981 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Open_1N_15-17.dlr -s  1901318981 > ./pbn/Opps_Open_1N_15-17.pbn 
+echo dealerv2 ./dlr/Opps_Overcall_1NT.dlr  -s 2154429305 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Overcall_1NT.dlr -s  2154429305 > ./pbn/Opps_Overcall_1NT.pbn 
+echo dealerv2 ./dlr/Opps_Overcall_Stayman_or_Jacoby.dlr  -s 922531058 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Overcall_Stayman_or_Jacoby.dlr -s  922531058 > ./pbn/Opps_Overcall_Stayman_or_Jacoby.pbn 
+echo dealerv2 ./dlr/Opps_Preempt.dlr  -s 709858189 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Preempt.dlr -s  709858189 > ./pbn/Opps_Preempt.pbn 
+echo dealerv2 ./dlr/Opps_Preemptive_Overcall.dlr  -s 2450815603 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Preemptive_Overcall.dlr -s  2450815603 > ./pbn/Opps_Preemptive_Overcall.pbn 
+echo dealerv2 ./dlr/Opps_Takeout_X.dlr  -s 561602679 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Takeout_X.dlr -s  561602679 > ./pbn/Opps_Takeout_X.pbn 
+echo dealerv2 ./dlr/Opps_Takeout_X_We_XX.dlr  -s 956684520 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Takeout_X_We_XX.dlr -s  956684520 > ./pbn/Opps_Takeout_X_We_XX.pbn 
+echo dealerv2 ./dlr/Opps_Weak_Two.dlr  -s 409310565 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opps_Weak_Two.dlr -s  409310565 > ./pbn/Opps_Weak_Two.pbn 
+echo dealerv2 ./dlr/Opp_Redoubles.dlr  -s 439159410 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Opp_Redoubles.dlr -s  439159410 > ./pbn/Opp_Redoubles.pbn 
+echo dealerv2 ./dlr/Overcalls.dlr  -s 158260592 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Overcalls.dlr -s  158260592 > ./pbn/Overcalls.pbn 
+echo dealerv2 ./dlr/Power_Double_Balanced.dlr  -s 848245560 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Power_Double_Balanced.dlr -s  848245560 > ./pbn/Power_Double_Balanced.pbn 
+echo dealerv2 ./dlr/Power_Double_Unbalanced.dlr  -s 1077611343 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Power_Double_Unbalanced.dlr -s  1077611343 > ./pbn/Power_Double_Unbalanced.pbn 
+echo dealerv2 ./dlr/Preempts.dlr  -s 3396698703 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Preempts.dlr -s  3396698703 > ./pbn/Preempts.pbn 
+echo dealerv2 ./dlr/Preempt_X_XX.dlr  -s 2819078641 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Preempt_X_XX.dlr -s  2819078641 > ./pbn/Preempt_X_XX.pbn 
+echo dealerv2 ./dlr/Responsive_Double.dlr  -s 128694283 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Responsive_Double.dlr -s  128694283 > ./pbn/Responsive_Double.pbn 
+echo dealerv2 ./dlr/Reverses.dlr  -s 287961852 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Reverses.dlr -s  287961852 > ./pbn/Reverses.pbn 
+echo dealerv2 ./dlr/Robot_Free_Bid.dlr  -s 4245995861 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Robot_Free_Bid.dlr -s  4245995861 > ./pbn/Robot_Free_Bid.pbn 
+echo dealerv2 ./dlr/Rule_of_16.dlr  -s 3254787973 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Rule_of_16.dlr -s  3254787973 > ./pbn/Rule_of_16.pbn 
+echo dealerv2 ./dlr/Rule_of_16-15.dlr  -s 1401875641 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Rule_of_16-15.dlr -s  1401875641 > ./pbn/Rule_of_16-15.pbn 
+echo dealerv2 ./dlr/Rule_of_16-16.dlr  -s 1245215712 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Rule_of_16-16.dlr -s  1245215712 > ./pbn/Rule_of_16-16.pbn 
+echo dealerv2 ./dlr/Rule_of_16-17.dlr  -s 2498049171 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Rule_of_16-17.dlr -s  2498049171 > ./pbn/Rule_of_16-17.pbn 
+echo dealerv2 ./dlr/Rule_of_16-18.dlr  -s 2609774278 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Rule_of_16-18.dlr -s  2609774278 > ./pbn/Rule_of_16-18.pbn 
+echo dealerv2 ./dlr/Rule_of_2.dlr  -s 370411928 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Rule_of_2.dlr -s  370411928 > ./pbn/Rule_of_2.pbn 
+echo dealerv2 ./dlr/Runout_after_1N_X.dlr  -s 257875093 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Runout_after_1N_X.dlr -s  257875093 > ./pbn/Runout_after_1N_X.pbn 
+echo dealerv2 ./dlr/SCS_1C_3-Suit_Resp.dlr  -s 3652934037 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_1C_3-Suit_Resp.dlr -s  3652934037 > ./pbn/SCS_1C_3-Suit_Resp.pbn 
+echo dealerv2 ./dlr/SCS_1C_3-Suit_Resp_5-7.dlr  -s 3969920200 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_1C_3-Suit_Resp_5-7.dlr -s  3969920200 > ./pbn/SCS_1C_3-Suit_Resp_5-7.pbn 
+echo dealerv2 ./dlr/SCS_1C_54_Resp.dlr  -s 1479642701 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_1C_54_Resp.dlr -s  1479642701 > ./pbn/SCS_1C_54_Resp.pbn 
+echo dealerv2 ./dlr/SCS_1C_55_Resp.dlr  -s 1666997507 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_1C_55_Resp.dlr -s  1666997507 > ./pbn/SCS_1C_55_Resp.pbn 
+echo dealerv2 ./dlr/SCS_1C_any_0-4_Resp.dlr  -s 2393784585 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_1C_any_0-4_Resp.dlr -s  2393784585 > ./pbn/SCS_1C_any_0-4_Resp.pbn 
+echo dealerv2 ./dlr/SCS_1C_any_5-7_Resp.dlr  -s 2134247359 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_1C_any_5-7_Resp.dlr -s  2134247359 > ./pbn/SCS_1C_any_5-7_Resp.pbn 
+echo dealerv2 ./dlr/SCS_1C_any_8plus_Resp.dlr  -s 1406558156 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_1C_any_8plus_Resp.dlr -s  1406558156 > ./pbn/SCS_1C_any_8plus_Resp.pbn 
+echo dealerv2 ./dlr/SCS_Major_Open_2-Suit_Resp.dlr  -s 1647842006 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_Major_Open_2-Suit_Resp.dlr -s  1647842006 > ./pbn/SCS_Major_Open_2-Suit_Resp.pbn 
+echo dealerv2 ./dlr/SCS_Major_with_2nd_Suit.dlr  -s 3529819497 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_Major_with_2nd_Suit.dlr -s  3529819497 > ./pbn/SCS_Major_with_2nd_Suit.pbn 
+echo dealerv2 ./dlr/SCS_Two_Clubs.dlr  -s 1418488017 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/SCS_Two_Clubs.dlr -s  1418488017 > ./pbn/SCS_Two_Clubs.pbn 
+echo dealerv2 ./dlr/Serious.dlr  -s 3384594885 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Serious.dlr -s  3384594885 > ./pbn/Serious.pbn 
+echo dealerv2 ./dlr/Size_Asking_Minor_Suit_Stayman.dlr  -s 1821046204 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Size_Asking_Minor_Suit_Stayman.dlr -s  1821046204 > ./pbn/Size_Asking_Minor_Suit_Stayman.pbn 
+echo dealerv2 ./dlr/Slam_after_NT.dlr  -s 3204653083 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Slam_after_NT.dlr -s  3204653083 > ./pbn/Slam_after_NT.pbn 
+echo dealerv2 ./dlr/Slam_after_Stayman.dlr  -s 1081613611 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Slam_after_Stayman.dlr -s  1081613611 > ./pbn/Slam_after_Stayman.pbn 
+echo dealerv2 ./dlr/Slam_after_Stayman_or_Jacoby_w30plus.dlr  -s 162242298 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Slam_after_Stayman_or_Jacoby_w30plus.dlr -s  162242298 > ./pbn/Slam_after_Stayman_or_Jacoby_w30plus.pbn 
+echo dealerv2 ./dlr/Slam_after_Stayman_or_Jacoby_w31plus.dlr  -s 2837373929 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Slam_after_Stayman_or_Jacoby_w31plus.dlr -s  2837373929 > ./pbn/Slam_after_Stayman_or_Jacoby_w31plus.pbn 
+echo dealerv2 ./dlr/Slam_after_Transfer.dlr  -s 1295789500 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Slam_after_Transfer.dlr -s  1295789500 > ./pbn/Slam_after_Transfer.pbn 
+echo dealerv2 ./dlr/Smolen.dlr  -s 522629608 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Smolen.dlr -s  522629608 > ./pbn/Smolen.pbn 
+echo dealerv2 ./dlr/Soloway_Jump_Shift.dlr  -s 3912780044 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Soloway_Jump_Shift.dlr -s  3912780044 > ./pbn/Soloway_Jump_Shift.pbn 
+echo dealerv2 ./dlr/Soloway_Jump_Shift_Type-1.dlr  -s 2005237709 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Soloway_Jump_Shift_Type-1.dlr -s  2005237709 > ./pbn/Soloway_Jump_Shift_Type-1.pbn 
+echo dealerv2 ./dlr/Soloway_Jump_Shift_Type-2.dlr  -s 3506018772 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Soloway_Jump_Shift_Type-2.dlr -s  3506018772 > ./pbn/Soloway_Jump_Shift_Type-2.pbn 
+echo dealerv2 ./dlr/Soloway_Jump_Shift_Type-3.dlr  -s 1216834372 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Soloway_Jump_Shift_Type-3.dlr -s  1216834372 > ./pbn/Soloway_Jump_Shift_Type-3.pbn 
+echo dealerv2 ./dlr/Soloway_Jump_Shift_Type-4.dlr  -s 4125872962 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Soloway_Jump_Shift_Type-4.dlr -s  4125872962 > ./pbn/Soloway_Jump_Shift_Type-4.pbn 
+echo dealerv2 ./dlr/Spiral_Raise.dlr  -s 2841191422 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Spiral_Raise.dlr -s  2841191422 > ./pbn/Spiral_Raise.pbn 
+echo dealerv2 ./dlr/Spiral_Raises_with_3.dlr  -s 2539019921 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Spiral_Raises_with_3.dlr -s  2539019921 > ./pbn/Spiral_Raises_with_3.pbn 
+echo dealerv2 ./dlr/Splinters.dlr  -s 1644037471 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Splinters.dlr -s  1644037471 > ./pbn/Splinters.pbn 
+echo dealerv2 ./dlr/Splinters_By_Opener.dlr  -s 923413034 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Splinters_By_Opener.dlr -s  923413034 > ./pbn/Splinters_By_Opener.pbn 
+echo dealerv2 ./dlr/Stayman.dlr  -s 1991766285 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Stayman.dlr -s  1991766285 > ./pbn/Stayman.pbn 
+echo dealerv2 ./dlr/Support_Double.dlr  -s 4279771674 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Support_Double.dlr -s  4279771674 > ./pbn/Support_Double.pbn 
+echo dealerv2 ./dlr/Takeout_Double.dlr  -s 373562187 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Takeout_Double.dlr -s  373562187 > ./pbn/Takeout_Double.pbn 
+echo dealerv2 ./dlr/Texas_or_Jacoby.dlr  -s 3446359061 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Texas_or_Jacoby.dlr -s  3446359061 > ./pbn/Texas_or_Jacoby.pbn 
+echo dealerv2 ./dlr/Texas_Transfer.dlr  -s 360521226 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Texas_Transfer.dlr -s  360521226 > ./pbn/Texas_Transfer.pbn 
+echo dealerv2 ./dlr/Tislevoll_after_Opps_Preempt.dlr  -s 3793143875 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Tislevoll_after_Opps_Preempt.dlr -s  3793143875 > ./pbn/Tislevoll_after_Opps_Preempt.pbn 
+echo dealerv2 ./dlr/Transfers_after_1M_X.dlr  -s 1854725018 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Transfers_after_1M_X.dlr -s  1854725018 > ./pbn/Transfers_after_1M_X.pbn 
+echo dealerv2 ./dlr/Trap_Pass.dlr  -s 4072665526 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Trap_Pass.dlr -s  4072665526 > ./pbn/Trap_Pass.pbn 
+echo dealerv2 ./dlr/Trap_Pass_Maybe.dlr  -s 2882766888 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Trap_Pass_Maybe.dlr -s  2882766888 > ./pbn/Trap_Pass_Maybe.pbn 
+echo dealerv2 ./dlr/Two-Suited_Overcalls.dlr  -s 3863174559 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two-Suited_Overcalls.dlr -s  3863174559 > ./pbn/Two-Suited_Overcalls.pbn 
+echo dealerv2 ./dlr/Two-Way_Game_Try.dlr  -s 2087996734 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two-Way_Game_Try.dlr -s  2087996734 > ./pbn/Two-Way_Game_Try.pbn 
+echo dealerv2 ./dlr/Two-Way_New_Minor_Forcing_aka_xyNT.dlr  -s 2457093974 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two-Way_New_Minor_Forcing_aka_xyNT.dlr -s  2457093974 > ./pbn/Two-Way_New_Minor_Forcing_aka_xyNT.pbn 
+echo dealerv2 ./dlr/Two-Way_Size_Ask.dlr  -s 720348874 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two-Way_Size_Ask.dlr -s  720348874 > ./pbn/Two-Way_Size_Ask.pbn 
+echo dealerv2 ./dlr/Two_Notrump.dlr  -s 4072406226 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two_Notrump.dlr -s  4072406226 > ./pbn/Two_Notrump.pbn 
+echo dealerv2 ./dlr/Two_Over_One.dlr  -s 1205364623 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two_Over_One.dlr -s  1205364623 > ./pbn/Two_Over_One.pbn 
+echo dealerv2 ./dlr/Vics_2C_Relay.dlr  -s 1223271034 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Vics_2C_Relay.dlr -s  1223271034 > ./pbn/Vics_2C_Relay.pbn 
+echo dealerv2 ./dlr/W2_X_XX.dlr  -s 1459920088 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/W2_X_XX.dlr -s  1459920088 > ./pbn/W2_X_XX.pbn 
+echo dealerv2 ./dlr/Weak_2_Bids.dlr  -s 2375816220 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_2_Bids.dlr -s  2375816220 > ./pbn/Weak_2_Bids.pbn 
+echo dealerv2 ./dlr/Weak_2_Bids_Lax.dlr  -s 1945857466 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_2_Bids_Lax.dlr -s  1945857466 > ./pbn/Weak_2_Bids_Lax.pbn 
+echo dealerv2 ./dlr/Weak_2_Bids_Lax_Leveled.dlr  -s 1269396160 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_2_Bids_Lax_Leveled.dlr -s  1269396160 > ./pbn/Weak_2_Bids_Lax_Leveled.pbn 
+echo dealerv2 ./dlr/Weak_2_Bids_Leveled.dlr  -s 839326713 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_2_Bids_Leveled.dlr -s  839326713 > ./pbn/Weak_2_Bids_Leveled.pbn 
+echo dealerv2 ./dlr/Weak_NT_09-12.dlr  -s 2918960087 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_09-12.dlr -s  2918960087 > ./pbn/Weak_NT_09-12.pbn 
+echo dealerv2 ./dlr/Weak_NT_09-15.dlr  -s 862316551 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_09-15.dlr -s  862316551 > ./pbn/Weak_NT_09-15.pbn 
+echo dealerv2 ./dlr/Weak_NT_10-12.dlr  -s 2311609453 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_10-12.dlr -s  2311609453 > ./pbn/Weak_NT_10-12.pbn 
+echo dealerv2 ./dlr/Weak_NT_10-13.dlr  -s 2024317934 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_10-13.dlr -s  2024317934 > ./pbn/Weak_NT_10-13.pbn 
+echo dealerv2 ./dlr/Weak_NT_13-15.dlr  -s 1756333780 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_13-15.dlr -s  1756333780 > ./pbn/Weak_NT_13-15.pbn 
+echo dealerv2 ./dlr/Weak_NT_14-15.dlr  -s 3405591228 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_14-15.dlr -s  3405591228 > ./pbn/Weak_NT_14-15.pbn 
+echo dealerv2 ./dlr/We_Overcall.dlr  -s 2955793565 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/We_Overcall.dlr -s  2955793565 > ./pbn/We_Overcall.pbn 
+echo dealerv2 ./dlr/We_Overcall_1N.dlr  -s 1783846550 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/We_Overcall_1N.dlr -s  1783846550 > ./pbn/We_Overcall_1N.pbn 
+echo dealerv2 ./dlr/We_X_Opps_Preempt.dlr  -s 679336078 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/We_X_Opps_Preempt.dlr -s  679336078 > ./pbn/We_X_Opps_Preempt.pbn 
+echo dealerv2 ./dlr/We_X_Opps_Weak_2.dlr  -s 796997175 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/We_X_Opps_Weak_2.dlr -s  796997175 > ./pbn/We_X_Opps_Weak_2.pbn 
+echo dealerv2 ./dlr/XYZ.dlr  -s 2724969914 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/XYZ.dlr -s  2724969914 > ./pbn/XYZ.pbn 
