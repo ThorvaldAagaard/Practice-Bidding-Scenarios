@@ -158,6 +158,9 @@ def process_extracted_text(extracted_text, dealer):
             if response.status_code == 200:
                 content = response.text  # Content of the URL
                 processed_text.append(content)
+            else:
+                sys.stderr.write(f"Error fetching URL: {url} {response.status_code}\n")
+                
             lines.remove(line) 
 
     if not condition:

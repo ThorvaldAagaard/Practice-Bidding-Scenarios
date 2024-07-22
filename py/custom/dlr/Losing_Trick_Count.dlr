@@ -1,0 +1,19 @@
+generate 400000000
+
+produce 500
+
+coverCards = top2(north,hearts) + top2(north,spades) + top2(north,diamonds) + top2(north,clubs)
+hcOpener = hcp(south)>11
+w2Opener = hcp(south)>5 and hcp(south)<12 and shape(south,any 6xxx-xxx6)
+w3Opener = hcp(south)>5 and hcp(south)<12 and shape(south,any 9xxx+any 8xxx+any 7xxx)
+normalOpener = (hcOpener or w2Opener or w3Opener)
+ltcOpener = (losers(south)<8 and hcp(south)>7) and not normalOpener
+game = coverCards > 3
+part = coverCards < 4
+
+condition
+
+ltcOpener
+
+
+action printpbn
