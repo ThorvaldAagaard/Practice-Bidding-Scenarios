@@ -3,30 +3,44 @@ setDealerCode(`
 
 # Two-Way Game Tries
 dealer south
+produce 1000
 
-# Calculate Total Points for North (tp) for North
-v1 = shape(north, any 0xxx) ? 5 : 0  // allow for 2 voids
+# Calculate Dummy Points for responder North (dp)
+v1 = shape(north, any 0xxx) ? 5 : 0 // allow for 2 voids
 v2 = shape(north, any 00xx) ? 5 : 0
 s1 = shape(north, any 1xxx) ? 3 : 0 // allow for 2 singletons
 s2 = shape(north, any 11xx) ? 3 : 0
 d1 = shape(north, any 2xxx) ? 1 : 0 // allow for 3 doubletons
 d2 = shape(north, any 22xx) ? 1 : 0
 d3 = shape(north, any 222x) ? 1 : 0
-tp = v1+v2+s1+s2+d1+d2+d3 + hcp(north)
+dp = v1+v2+s1+s2+d1+d2+d3 + hcp(north)
+
+# Calculate Length Points for opener South (lp)
+lp1 = spades(south)>4 ? spades(south)-4 : 0
+lp2 = hearts(south)>4 ? hearts(south)-4 : 0
+lp3 = diamonds(south)>4 ? diamonds(south)-4 : 0
+lp4 = clubs(south)>4 ? clubs(south)-4 : 0
+lp = lp1+lp2+lp3+lp4 + hcp(south)
+
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Calm-Opponents
 
 # Define openers
-sOpener = spades(south) >= hearts(south) >= 5
-hOpener = hearts(south) > 5 and hearts(south) >= diamonds(south) and hearts(south) >=clubs(south) and not sOpener
-dOpener = diamonds(south) >= clubs(south) and not (sOpener or hOpener)
-cOpener = not sOpener and not hOpener and not dOpener
+nt5332 = shape(south,any 5332) and hcp(south)>14 and hcp(south)<18
+sOpener = spades(south)>4 and spades(south)>=hearts(south) and spades(south)>=diamonds(south) and spades(south)>=clubs(south) and not nt5332
+hOpener = hearts(south)>4 and hearts(south)>=diamonds(south) and hearts(south)>=clubs(south) and not sOpener and not nt5332
 
 # Define suit fit
-Fs = spades(south) + spades(north)>7 and spades(north)>2 and sOpener 
-Fh = hearts(south) + hearts(north)>7 and hearts(north)>2 and hOpener
+sFit = sOpener and spades(north)>2 and spades(north)<5
+hFit = hOpener and hearts(north)>2 and hearts(north)<5
 
-(Fs or Fh) and shape(south,xxxx -any 5332) and hcp(south)>11 and hcp(south)<20 and
-tp>6 and tp<11
+(sFit or hFit) and lp>15 and lp<18 and dp>5 and dp<11 and calmWest
 
+action
+average "spade fit" 100 * sFit,
+average "heart fit" 100 * hFit,
+average "hcp(south)" hcp(south),
+average "hcp(north)" hcp(north),
+frequency "hcp(south)" (hcp(south),14,18),
 
 `, "S", true);
 Script

@@ -294,8 +294,11 @@ Import,McCabeOverWJO,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/
 Import,MajorSuitFit,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Major_Suit_Fit
 Import,After1M2M,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/After_1M_2M
 Import,Reverses,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Reverses
+Import,ReverseByResponder,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Reverse_By_Responder
 Import,Notrump,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/1N
 Import,Notrump5M6m,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/1N_5M_and_6m
+Import,JacobyTransfer,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Jacoby_Transfer
+Import,JacobySuperAccept,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Jacoby_Super-Accept
 
 Import,Preempts,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Preempts
 Import,NegativeDouble,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Negative_Double
@@ -471,7 +474,7 @@ Import,RespTo1Minor,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/b
 
 Option,Practice Table
 
-Button,Bidding Scenarios (click headers to open/close),,width=100% backgroundColor=lightyellow
+Button,Bidding Scenarios (click headers to open/close),,width=100% backgroundColor=LemonChiffon
 
 Button,Start Bidding Tbl,%setBiddingTable%,width=35% backgroundColor=lightgreen
 Button,Start Teaching Tbl,%setTeachingTable%,width=38% backgroundColor=lightgreen
@@ -505,7 +508,9 @@ Import,NewMinorForce
 Import,XYZ
 Import,xyNT
 Import,InvJump3Under
+Button,---
 Import,Reverses
+Import,ReverseByResponder
 Import,Notrump18-19
 Import,SplinterByOpener
 #Button,---
@@ -554,6 +559,9 @@ Import,NotrumpWithSingleton
 
 Import,Stayman
 Import,Smolen
+Import,JacobyTransfer
+Import,JacobySuperAccept
+#
 Import,StrongAfterNT
 Import,SlamAfterStayman
 Import,SlamAfterTransfer
@@ -681,12 +689,14 @@ Import,SolowayJumpShift
 Import,RobotFreeBid
 Import,MinorSuitStayman
 Import,Lebensohl
+Import,LebensohlOverWeak2
+Import,MixedRaiseInComp
 Button,---
 Import,BalancedPower
 Import,UnbalPowerDoubles
 
 
-Button,Robots won’t understand - Partner Needed,,width=100% backgroundColor=lightyellow
+Button,Robots won’t understand - Partner Needed,,width=100% backgroundColor=LemonChiffon
 Button,Gavin’s Major Suit Response Structure,,width=100% backgroundColor=lightblue
 
 Import,SemiForcingNT
@@ -747,6 +757,6 @@ Import,Vics2CRelay
 Import,Any5422
 
 
-Button,-- Facebook: Practice Bidding Scenarios --,https://www.facebook.com/groups/598917089100836\n,width=100% backgroundColor=lightyellow
+Button,-- Facebook: Practice Bidding Scenarios --,https://www.facebook.com/groups/598917089100836\n,width=100% backgroundColor=LemonChiffon
 
 Option
