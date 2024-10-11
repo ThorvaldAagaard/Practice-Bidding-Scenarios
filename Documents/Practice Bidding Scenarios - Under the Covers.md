@@ -103,11 +103,11 @@ This program reads all of through all of the files in the PBS folder -- one for 
 
 ### makePBN.py
 
-This program reads the files in the dlr folder and creates Windows commands that will create corresponding pbn files.  These commands are put into DOS command file 'run.cmd' which resides in the PBS root directory.  To run this, switch to the py folder and enter the following.
+This program reads the files in the dlr folder and creates Windows commands that will create corresponding pbn files.  These commands are put into DOS command file 'makePBN.cmd' which resides in the PBS root directory.  To run this, switch to the py folder and enter the following.
 
-    python3 makePBN.py > ../run.cmd
+    python3 makePBN.py
 
-Here's an example of a record the run.cmd:
+Here's an example of a record the makePBN.cmd:
 
     P:\dealer P:\dlr\Dealer-3N-over-LHO-3x-W.dlr -s=675264029 >P:\pbn\Dealer-3N-over-LHO-3x-W.pbn
 
@@ -115,19 +115,19 @@ The first P:\dealer invokes the dealer.exe with 3 parameters, 1. the file to rea
 
 If my code is the same and the seed is the same, it will produce the same hands each time it's run.  The seed is derived from the filename.  If/When I want to produce new files, I can change the seed.
 
-[CTRL-Click here to see run.cmd](<https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/run.cmd>)
+[CTRL-Click here to see makePBN.cmd](<https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/makePBN.cmd>)
 
 And, then go to Window's Command Prompt, switch to the PBS root directory and enter:
 
-    run.cmd
+    makePBN.cmd
 
 this one runs a while (currently about 1 hour and 25 minutes for 179 scenarios).  It prints out the name of each file so you can see what's happening.
 
 ### commentStats.py
 
-Most of the pbn files include some statistics.  They are ignored by BBO; but, some other programs don't like them.  So, this program converts them into comment lines that are part of the pbn standard -- lines beginning with a % are ignored.  This program changes all of the statistics to comments by adding a % and a space to the beginning of the line.  It also prints out the statistics for all of the files.  Switch to the py directory and enter the following to create the stats.txt file in the PBS root directory:
+Most of the pbn files include some statistics.  They are ignored by BBO; but, some other programs don't like them.  So, this program converts them into comment lines that are part of the pbn standard -- lines beginning with a % are ignored.  This program changes all of the statistics to comments by adding a % and a space to the beginning of the line.  It also prints out the statistics for all of the files and puts the results in stats.txt.  Switch to the py directory and enter the following to create the stats.txt file in the PBS root directory:
 
-    python3 commentStats.py > ../stats.txt
+    python3 commentStats.py
 
 [CTRL-Click here to see stats.txt](<https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/stats.txt>)
 
@@ -150,6 +150,32 @@ Switch to the py folder and enter the following:
 This program reads all files in the pbn-rotated-for-4-players folder and creates corresponding files in the lin-rotated-for-four-players folder.  These have the extension '.lin'.  Switch to the py folder and enter the following:
 
     python3 PBNtoLIN.py
+
+### makeBBA.py
+
+This program reads all .pbn files from the /pbn folder and creates a DOS command file for running BBA.exe. The BBA archive file is created in the /bba directory.  It's in .pbn format.
+
+Switch to the py folder and enter the following:
+
+    python3 makeBBA.py
+
+This will create makeBBA.cmd.  **CAUTION** -- read the rest of this.
+          
+The code appends to the archive file if it already exists; so, we need to delete the existing file.  makeBBA.cmd has two DOS commands for each scenario.  One is to delete the existing archive file, and the other to create a new one.
+
+The normal use case is to update the bba files for a few scenarios -- Open makeBBA.cmd in a text editor, select the ones you want to update and copy/paste the code to a DOS command prompt OR to a small updateBBA.cmd file.
+
+These pbn files are large.  Creating/updating all of these files at once will cause an issue with GitHub.  I recommend doing about 50 at a time -- copy/paste 50, run updateBBA.cmd, sync 50, and repeat.
+
+### bbaSummary.py
+
+This program reads all of the files from the bba folder and creates corresponding files with three different summaries:
+
+    1. a one-line record of each deal, showing the hands, auctions, notes, and more.
+    2. a sorted summary of the auctions
+    3. a sorted summary of the BBA 'notes' (alerts)
+
+This file is in .txt format.
 
 ### mix4.py
 
@@ -177,14 +203,14 @@ I've had a lot of help with this project.
 
 *Thorvald Aagaard* began using my code to create deals for training Ben.  He's discovered many bugs for me to fix.  Since I've begun working with pbn and lin files, Thorvald has been a mentor an coach.
 
+*Edward Piwowar*'s, Bridge Bidding Analyser, has been a big help as I have progressed from the BBO Practice Table to creating pbn and lin files.  BBA enables me to see how the deals are bid and what conventions are used.  I use this information to adjust the deal constraints.
+
+*Bob Richardson*'s, Double Dummy Solver, helps me assess the Bridge Bidding Analyser's bidding. 
+
 
 ## Regrets
 
 If I had a do-over
  - I'd get rid of the .txt extension on the PBS.txt file
  - I'd give all of my wappered files a common extension, maybe .pbs
- - I'd put them all in a like-named folder -- DONE 7/18/2024
- - I'd get rid of the Dealer, Gavin prefixes to the names -- DONE 7/18/2024
- - I'd get rid of spaces & special characters in filenames -- DONE 7/18/2024
  
- To fix this at this point, I'd have to write another .py to make the changes.

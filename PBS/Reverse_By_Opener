@@ -1,0 +1,28 @@
+Script,ReverseByOpener
+setDealerCode(`
+
+# Reverse By Opener
+dealer south
+
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Calm-Opponents
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Predict-Opening-1-Bid
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Predict-Response-to-1-BId
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Predict-Openers-Rebid
+
+reverse = (HNS or DSH or DNH or DNS or CHD or CSD or CSH or CND or CNH or CNS) 
+reverse and hcp(south)>16 and hcp(south)<20 and hcp(north)>5 and hcp(north)<13 and calmOpps
+
+`)
+Script
+Button,Reverse By Opener,\n\
+--- Reverse By Opener\n\
+Reverses show 5+ cards in the suit openedand 4+ cards in the suit rebid.  They are\n\
+natural and Game Forcing.  Possible Reverses by Opener are...\n\
+  • 1!H - 1N - 2!S\n\
+  • 1!D - 1!S - 2!H\n\
+  • 1!D - 1N - 2!H/2!S\n\
+  • 1!C - 1!H - 2!D\n\
+  • 1!C - 1!S - 2!D/2!H\n\
+  • 1!C - 1N - 2!D/2!H/1!S\n\
+Reverses are NOT a convention.  If you don't have Game Forcing strength，don't reverse.\n\
+%ReverseByOpener%
