@@ -89,6 +89,42 @@ This file contains almost 800 lines of code.
 
 BBOalert caches the url of the -PBS.txt file.  Thus, each time you start BBO, BBOalert is reloaded, and it in-turn reloads -PBS.txt and each and every one of the packaged dealer code files.  Everything is up to date.  I started BBO, just now.  14,127 records were imported.  With the BBOalert tab open, click the dark blue Data tab at the top left to see it.
 
+## Folders in the Practice-Bidding-Scenarios GitHub repository
+
+1. PBS -- scenario files with Dealer code wrapped in code to import into BBOalert and create the buttons to load the code into BBO Practice Table Deal Source/Advanced.
+2. dlr -- Dealer code striped from PBS files with Imports resolved
+3. pbn -- dlr files are run through BBO's Dealer to create pbn files
+4. pbn-rotated-for-4-players -- pbn files are rotated for 4-handed play
+5. lin-rotated-for-four-players -- rotated pbn files are converted to lin format for use with BBO
+6. bba -- pbn files are run through Bridge Bidding Analyser (BBA) to add bidding
+7. bba-filtered -- bba files are filtered to select only those that are bid as intended.  Note:  Rick Wilson came up with this idea and wrote the code. It uses regular expressions to filter deals based on how they are bid by BBA.
+8. bba-filtered-out -- bba files are NOT bid as intended
+
+The following table shows the relationship between the files in the various folders.  The folders below all have files that ard derived from and correspond to those in the PBS folder.
+
+| Program | from | to | Content | Created by |
+| -------------------- | ------------------------------ | ----------------------------------------- | ------------- | ---------------- |
+| extract.py   |  PBS | dlr | Dealer code | |
+| makePBN.py | dlr | makePBN.cmd | CMD code | |
+| makePBN.cmd | dlr | pbn | pbn files | |
+| commentStats.py | pbn | pbn | pbn files| |
+| rotate.py | pbn | pbn-rotated-for-4-players | pbn files | |
+| PBNtoLIN.py. | pbn-rotated-for-4-players | lin-rotated-for-4-players | lin files  | |
+| makeBBA.py | pbn | makeBBA.cmd | CMD code| |
+| makeBBA.cmd | pbn | bba | pbn files | |
+| bbaSummary.py | bba | bba-summary | txt files | |
+| makeFiltered.cmd  | bba | bba-filtered & bba-filtered-out | pbn & pdf files | Rick Wilson |
+
+Other folders:
+- bbsa -- Bridge Bidding Analyser Convention Cards
+- build-scripts -- Windows CMD Programs to run BBA, Dealer, and Filter
+- Documents -- Documentation for the Practice-Bidding-Scenarios GitHub repository
+- lin -- lin files for BBO Practice Table.  It just has one mixed.lin file, today.
+- misc -- everything has to go somewhere
+- py -- Python programs (see below)
+- script -- BBO Dealer code fragments that are Imported into PBS files
+- TESTING
+
 ## Special Programs for pbn and lin files
 
 Since we have all of these scenarios, I wanted to leverage them.  I've created python programs that use the dlr files to create pbn, rotated pbn, and rotated lin files that can be used elsewhere.  When scenarios are updated or new scenarios are created, the following programs are in the py folder of the PBS root directory and are used to create/update the pbn and lin files.
@@ -176,6 +212,10 @@ This program reads all of the files from the bba folder and creates correspondin
     3. a sorted summary of the BBA 'notes' (alerts)
 
 This file is in .txt format.
+
+### Filter.js
+
+This is Rick Wilson's idea and code.  It reads the files from the bba folder and creates corresponding files in the bba-filtered and bba-filtered-out folders.  It's in .js format.  This is the code that is invoked by makeFiltered.cmd to create pbn and pdf files corresponding to the files in the bba folder.
 
 ### mix4.py
 

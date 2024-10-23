@@ -38,7 +38,9 @@ def process_file(filename):
             if auction == True:
                 if line.startswith('['):
                     # this marks the end of this auction; save the bidding.'
-                    bidding = '-'.join(this_auction.split()).replace('Pass', 'P').replace('-P-P-P','')
+                    this_auction = this_auction.replace(' =','=')
+                    this_auction = this_auction.replace('Pass', 'P')
+                    bidding = '-'.join(this_auction.split()).replace('-P-P-P','')
                     auction = False
                 else:
                     this_auction = this_auction + ' ' + line
@@ -46,7 +48,7 @@ def process_file(filename):
                 # the next line(s) are the auction
                 auction = True
             if line.startswith('[Note'):
-                note = line[9:-2].capitalize()
+                note = line[9].upper() + line[10:-2]   # upper case the first letter
                 if note not in notes:
                     notes[note] = 1
                 else:
@@ -85,11 +87,15 @@ def process_file(filename):
         txt = str(results[result])
         f.write(txt.rjust(5) + '  ' + result +'\n')
 
-    f.write('\n   -- Sorted Summary of Notes --\n\n')
+    f.write('\n   -- Sorted Summary of Notes (the first character is forced to upper case) --\n\n')
     for note in dict(sorted(notes.items())):
         txt = str(notes[note])
         f.write(txt.rjust(5) + '  ' + note +'\n')
 
 for file in os.listdir('/Users/adavidbailey/Practice-Bidding-Scenarios/bba/'):
+    n_files = 0
     if file.endswith(".pbn"):
         process_file(file)
+        n_files += 1
+        if n_files > 2:
+            break
