@@ -1,6 +1,6 @@
+# button-text: Opps X Notrump
+# scenario-title: Opponents X Notrump
 # Opps_Double_1_NT
-generate 100000000
-produce 500
 dealer south
 
 

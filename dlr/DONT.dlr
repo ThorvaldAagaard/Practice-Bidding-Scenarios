@@ -1,6 +1,6 @@
+# button-text: DONT (Lev)
+# scenario-title: 15-17 Notrump Opening and DONT action.
 # DONT
-generate 100000000
-produce 500
 dealer east
 
 

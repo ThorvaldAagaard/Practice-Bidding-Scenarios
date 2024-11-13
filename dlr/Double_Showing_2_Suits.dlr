@@ -1,6 +1,6 @@
+# button-text: Responsive Double
+# scenario-title: Responsive Double
 # Double_Showing_2_Suits
-generate 100000000
-produce 500
 dealer west
 
 ##### Responsive Double #####

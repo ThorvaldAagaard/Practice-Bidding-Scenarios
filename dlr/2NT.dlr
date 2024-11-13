@@ -1,8 +1,10 @@
+# button-text: 2 NT (20-21)
+# scenario-title: 20-21 Notrump and any Response.
 # 2NT
-generate 100000000
-produce 500
 dealer south
 
+
+# auction-filter: Auction.....\n2NT.Pass.
 
 ### 2N and any response
 

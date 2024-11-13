@@ -1,6 +1,6 @@
+# button-text: Soloway Jump Shift
+# scenario-title: Soloway Jump Shift
 # Soloway_Jump_Shift
-generate 100000000
-produce 500
 dealer south
 
 

@@ -1,6 +1,6 @@
+# button-text: Opps Preempt Overcall
+# scenario-title: Opponents Preemptive Overcall
 # Opps_Preemptive_Overcall
-generate 100000000
-produce 500
 dealer north
 
 

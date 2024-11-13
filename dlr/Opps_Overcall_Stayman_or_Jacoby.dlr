@@ -1,6 +1,6 @@
+# button-text: Opps Overcall S/J
+# scenario-title: Opponent overcalls our Stayman/Jacoby bid
 # Opps_Overcall_Stayman_or_Jacoby
-generate 100000000
-produce 500
 dealer south
 
 

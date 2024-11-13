@@ -1,6 +1,6 @@
+# button-text: Takeout Doubles
+# scenario-title: Takeout Doubles
 # Takeout_Double
-generate 100000000
-produce 500
 dealer east
 
 

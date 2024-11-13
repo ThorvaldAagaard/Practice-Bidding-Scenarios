@@ -1,7 +1,12 @@
+# button-text: Strong Club & 0-4 Resp
+# scenario-title: Strong Club with any 0-4 Response
 # SCS_1C_any_0-4_Resp
-generate 100000000
-produce 500
 dealer south
+
+
+# convention-card: Precision
+# auction-filter: Auction.....[\s\S][\s\S]?1C
+
 
 
 # South has 15+

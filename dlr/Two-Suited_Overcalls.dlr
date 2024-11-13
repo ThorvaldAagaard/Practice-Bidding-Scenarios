@@ -1,6 +1,6 @@
+# button-text: 2-Suit Overcalls
+# scenario-title: 2-Suit Overcalls
 # Two-Suited_Overcalls
-generate 100000000
-produce 500
 dealer east
 
 

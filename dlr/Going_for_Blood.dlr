@@ -1,6 +1,6 @@
+# button-text: Going for Blood
+# scenario-title: Going for Blood
 # Going_for_Blood
-generate 100000000
-produce 500
 dealer south
 
 

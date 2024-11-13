@@ -1,6 +1,8 @@
 Script,NotrumpWith1
-setDealerCode(
-`
+setDealerCode(`
+
+# convention-card:
+# auction-filter: Auction.....\\n1NT.
 
 # 1 Notrump Opening with a singleton honor
 

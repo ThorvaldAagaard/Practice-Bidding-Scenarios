@@ -1,6 +1,6 @@
+# button-text: Slam after Notrump
+# scenario-title: Slam after Notrump
 # Slam_after_NT
-generate 100000000
-produce 500
 dealer south
 
 

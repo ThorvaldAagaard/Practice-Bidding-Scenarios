@@ -1,6 +1,6 @@
+# button-text: Major Opener
+# scenario-title: Major Opener
 # Major_Opener
-generate 100000000
-produce 500
 dealer south
 
 

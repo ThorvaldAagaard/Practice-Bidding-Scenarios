@@ -1,6 +1,6 @@
+# button-text: Jump Overcalls
+# scenario-title: Jump Overcalls
 # Jump_Overcalls
-generate 100000000
-produce 500
 dealer east
 
 

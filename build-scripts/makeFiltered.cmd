@@ -53,7 +53,8 @@ SET note=Note ...
 %filter%Double_Showing_2_Suits.pbn 				"%auction%1[CDHS]+\sPass+\s[12][CDHS]\s+X"			%output%Double_Showing_2_Suits.pbn	%filter_flag%
 %filter%Drury.pbn 								"%note%Reverse drury"								%output%Drury.pbn					%filter_flag%
 :: Forcing_Pass.pbn "BBA doens't play this(?)"
-%filter%Fourth_Suit_Forcing.pbn 				"%note%Fourth suit"									%output%Fourth_Suit_Forcing.pbn		%filter_flag%
+%filter%Fourth_Suit_Forcing.pbn 	"%note%Fourth suit"												%output%Fourth_Suit_Forcing.pbn		%filter_flag%
+%filter%Fourth_Bid_Inviting.pbn 	"1[CDHS].*Pass.*1[DHSN].*Pass\n.*Pass.*(2NT|3C|D|H|S)"	%output%Fourth_Bid_Inviting.pbn		%filter_flag%
 %filter%Gambling_3N.pbn							"%note%Gambling"									%output%Gambling_3N.pbn				%filter_flag%
 %filter%Game_Forcing_2C.pbn 					"%auction%2C"										%output%Game_Forcing_2C.pbn			%filter_flag%
 %filter%Game_Overcalls.pbn 						"%auction%[123][CDHS]\s+(4[HS]|5[CD])"				%output%Game_Overcalls.pbn			%filter_flag%
@@ -115,6 +116,7 @@ SET note=Note ...
 :: Non_Leaping_Michaels_After_2-Bid.pbn "BBA doesn't support this convention"
 :: Non_Leaping_Michaels_After_3-Bid.pbn "BBA doesn't support this convention"
 %filter%Notrump_18-19.pbn 						"."													%output%Notrump_18-19.pbn			%filter_flag%
+%filter%NT_Splinter.pbn							"%note%Splinter"									%output%NT_Splinter.pbn				%filter_flag%
 %filter%Opp_Redoubles.pbn						"%auction%1[CDHSN]T?\s+X\s+XX"						%output%Opp_Redoubles.pbn			%filter_flag%
 %filter%Opps_2-Suited_Overcalls.pbn 			"(%note%Michaels)|(%note%Unusual)"					%output%Opps_2-Suited_Overcalls.pbn	%filter_flag%
 %filter%Opps_Bid_Over_GF_2C.pbn					"%auction%2C\s+[234X]"								%output%Opps_Bid_Over_GF_2C.pbn		%filter_flag%
@@ -174,7 +176,6 @@ SET note=Note ...
 :: Spiral_Raise.pbn "BBA doesn't support this convention"
 :: Spiral_Raises_with_3.pbn "BBA doesn't support this convention"
 %filter%Splinters.pbn 							"%note%Splinter"									%output%Splinters.pbn					%filter_flag%
-%filter%Splinters_After_Notrump.pbn				"%note%Splinter"									%output%Splinters_After_Notrump.pbn		%filter_flag%
 %filter%Splinters_By_Opener.pbn 				"%note%Splinter"									%output%Splinters_By_Opener.pbn			%filter_flag%
 %filter%Stayman.pbn 							"%note%Stayman"										%output%Stayman.pbn						%filter_flag%
 %filter%Support_Double.pbn						"%note%Support double"								%output%Support_Double.pbn				%filter_flag%

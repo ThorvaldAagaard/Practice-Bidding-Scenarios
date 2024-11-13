@@ -1,9 +1,11 @@
+# button-text: GIB Notrump
+# scenario-title: GIB Notrump Opening
 # 1N_GIB
-generate 100000000
-produce 500
 dealer south
 
 
+# convention-card:
+# auction-filter: Auction.....\n1NT.
 # 1 Notrump GIB
 
 ##### Imported Script -- GIB 1 Notrump #####

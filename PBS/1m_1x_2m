@@ -1,6 +1,9 @@
 Script,OneMinorTwoMinor
 setDealerCode(`
 
+# convention-card:
+# auction-filter: (Auction.....[\s\S][\s\S]1C.*[\s\S][\s\S]2C)|(Auction.....[\s\S][\s\S]1D.*[\s\S][\s\S]2D)
+
 # South Open's 1 of a Minor
 dealer south
 produce 1000
@@ -26,5 +29,6 @@ average "south length    " sLength,
 `,"S",true);
 Script
 
-Button,1m-1x-2m,--- 1m-1x-2m\n\
+Button,1m-1x-2m,\n\
+--- 1m-1x-2m\n\
 %OneMinorTwoMinor%

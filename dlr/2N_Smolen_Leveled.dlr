@@ -1,8 +1,11 @@
+# button-text: (Lev)
+# scenario-title: 20-21 Notrump and Smolen Response.
 # 2N_Smolen_Leveled
-generate 100000000
-produce 500
 dealer south
 
+
+# convention-card:
+# auction-filter: Auction.....\n2NT.Pass.3C
 
 ### 2N w/Smolen with Game/Slam leveled
 

@@ -1,6 +1,6 @@
+# button-text: 1m & Mixed Raise
+# scenario-title: Minor Opening w/Mixed Raise
 # Minor_Suit_Opener_Mixed_Raise
-generate 100000000
-produce 500
 dealer south
 
 

@@ -1,8 +1,11 @@
+# button-text: 1C 3-Suit
+# scenario-title: 1C with 3-Suit Response
 # SCS_1C_3-Suit_Resp
-generate 100000000
-produce 500
 dealer south
 
+
+# convention-card: Precision
+# auction-filter: Auction.....[\s\S][\s\S]?1C
 
 # Strong Club System: 1C & 3 suited response 8+ HCP
 

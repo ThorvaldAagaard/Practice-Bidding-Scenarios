@@ -1,6 +1,6 @@
+# button-text: Gambling 3N
+# scenario-title: Gambling 3N
 # Gambling_3N
-generate 100000000
-produce 500
 dealer south
 
 

@@ -1,6 +1,6 @@
+# button-text: Inverted Minors
+# scenario-title: Inverted Minors
 # Inverted_Minors
-generate 100000000
-produce 500
 dealer south
 
 
