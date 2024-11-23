@@ -136,6 +136,7 @@ HH = oH and hN>2 and not HS
 HN = oH and not (HS or HH)
 ##### End of Predict Response to 1-Bid ##### 
 
+
 ##### Predict Opener's Rebid #####
 CDH = CD and sRH
 CDS = CD and sRS and not (CDH)
@@ -200,11 +201,11 @@ HNN = HN and sRN and not (HNC or HND or HNH or HNS)
 ##### End of Predict Opener's Rebid #####
 
 CDNHorS = CDN and shape(north,4x5x+x45x+4x6x+x46x)
-CHNS    = CHN and shape(south,45xx+46xx)
+CHNS    = CHN and shape(north,45xx+46xx)
 CDCHorS = CDC and shape(north,4x5x+x45x+4x6x+x46x)
-CHCS    = CHC and shape(south,45xx+46xx)
-DHNS    = DHN and shape(south,45xx+46xx)
-DHDS    = DHD and shape(south,45xx+46xx)
+CHCS    = CHC and shape(north,45xx+46xx)
+DHNS    = DHN and shape(north,45xx+46xx)
+DHDS    = DHD and shape(north,45xx+46xx)
 
 condition
 

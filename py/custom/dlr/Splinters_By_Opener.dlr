@@ -119,8 +119,6 @@ Cshort = (shape(south,xxx1) and (top4(south,clubs)   ==0 or hascard(south,AC)) o
 Dshort = (shape(south,xx1x) and (top4(south,diamonds)==0 or hascard(south,AD)) or shape(south,xx0x))
 Hshort = (shape(south,x1xx) and (top4(south,hearts)  ==0 or hascard(south,AH)) or shape(south,x0xx))
 Sshort = (shape(south,1xxx) and (top4(south,spades)  ==0 or hascard(south,AS)) or shape(south,0xxx))
-CD3H = CD and d>4 and Hshort
-CD3S = CD and d>4 and Sshort
 CH3D = CH and h>3 and Dshort  // invite
 CH3S = CH and h>3 and Sshort
 CS3D = CS and s>3 and Dshort  // invite
@@ -132,7 +130,7 @@ DS3H = DS and s>3 and Hshort  // invite
 HS4C = HS and s>3 and Cshort
 HS4D = HS and s>3 and Dshort
 jReverse   = (CH3D or CS3D or CS3H or DS3H) and hcp(south)>12 and hcp(south)<22
-jJumpShift = (CD3H or CD3S or CH3S or DH4C or DH3S or DS4C or HS4C or HS4D) and hcp(south)>15 and hcp(south)<19
+jJumpShift = (CH3S or DH4C or DH3S or DS4C or HS4C or HS4D) and hcp(south)>15 and hcp(south)<19
 northOK = 1
 sOpens = jReverse or jJumpShift
 northRange = hcp(north)>5  and hcp(north)<17  // no jump shifts

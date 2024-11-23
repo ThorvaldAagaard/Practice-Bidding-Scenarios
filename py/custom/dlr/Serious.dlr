@@ -73,7 +73,7 @@ levelTheDeal = levGame or levSlam or levGrand
 
 condition
 
-nOpens and majorFit and (game or slam or grand)
+nOpens and majorFit and (game or slam or grand) and hcp(north)<16
 and levelTheDeal
 
 

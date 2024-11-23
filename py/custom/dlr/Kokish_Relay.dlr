@@ -2,12 +2,14 @@ generate 400000000
 
 produce 500
 
+sHearts = hcp(south)>21 and hearts(south)>4 and shape(south,any 74xx +any 64xx +any 54xx)
+sNT     = hcp(south)>24 and hcp(south)<28 and shape(south,any 5332+any 4432+any 4333) and not sHearts
+s2C     = sHearts or sNT
+n2D = hcp(north)<9
 
 condition
 
-hcp(south)>21 and hcp(south)<28
-and hcp(north)<8
-and (hcp(south)>24 or (heart(south)>4 and shape(south,any 74xx +any 64xx +any 54xx)))
+s2C and n2D
 
 
 action printpbn

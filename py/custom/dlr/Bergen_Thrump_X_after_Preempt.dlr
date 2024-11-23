@@ -4,8 +4,6 @@ produce 500
 
 produce 500
 
-produce 500
-
 PSE = spades(east)>6   and top4(east,spades)==2   and top3(south, spades)==0   and spades(south)>1
 PHE = hearts(east)>6   and top4(east,hearts)==2   and top3(south, hearts)==0   and hearts(south)>1   and spades(south)<5
 PDE = diamonds(east)>6 and top4(east,diamonds)==2 and top3(south, diamonds)==0 and diamonds(south)>1 and spades(south)<5 and hearts(south)<5

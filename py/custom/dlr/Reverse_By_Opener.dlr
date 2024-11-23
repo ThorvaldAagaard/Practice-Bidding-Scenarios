@@ -136,6 +136,7 @@ HH = oH and hN>2 and not HS
 HN = oH and not (HS or HH)
 ##### End of Predict Response to 1-Bid ##### 
 
+
 ##### Predict Opener's Rebid #####
 CDH = CD and sRH
 CDS = CD and sRS and not (CDH)
@@ -199,7 +200,8 @@ HNS = HN and sRS and not (HNC or HND or HNH)
 HNN = HN and sRN and not (HNC or HND or HNH or HNS)
 ##### End of Predict Opener's Rebid #####
 
-reverse = (HNS or DSH or DNH or DNS or CHD or CSD or CSH or CND or CNH or CNS) 
+sShape = shape(south,any 54xx+any 64xx)
+reverse = (HNS or DSH or DNH or DNS or CHD or CSD or CSH or CND or CNH or CNS) and sShape
 
 condition
 

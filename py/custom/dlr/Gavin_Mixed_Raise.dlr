@@ -16,9 +16,7 @@ MajorFit = (SpadeFit or HeartFit)
 
 condition
 
-hcp(north)>10 and hcp(north)<15 and
-MajorFit and
-tp>7 and tp<11
+hcp(north)>10 and hcp(north)<15 and MajorFit and tp>7 and tp<11
 
 
 action printpbn

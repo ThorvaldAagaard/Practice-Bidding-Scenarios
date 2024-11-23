@@ -120,20 +120,20 @@ def process_extracted_text(extracted_text, dealer):
     for line in lines[:]:  # Iterate through a copy of the original list
         if removerest:
             lines.remove(line)             
-        if line.startswith("predeal"):
+        if line.startswith("predeal "):
             processed_text.append(line)
             lines.remove(line)             
-        if line.startswith("dealer"):
+        if line.startswith("dealer "):
             if not nodealer and dealer is None:
                 processed_text.append(line)
             lines.remove(line)             
-        if line.startswith("vulnerable"):
+        if line.startswith("vulnerable "):
             processed_text.append(line)
             lines.remove(line)             
-        if line.startswith("opener"):
+        if line.startswith("opener "):
             processed_text.append(line)
             lines.remove(line)             
-        if line.startswith("action"):
+        if line.startswith("action ") or line == "action":
             lines.remove(line)             
             removerest = True
             
@@ -181,6 +181,7 @@ def process_extracted_text(extracted_text, dealer):
 # List all files in the directory
 n_files = 0
 for filename in os.listdir(directory_path):
+    #if filename == "Forcing_NT":
     file_path = os.path.join(directory_path, filename)
     extract_text_in_backticks(file_path)
     n_files = n_files + 1

@@ -42,15 +42,15 @@ calmOpps = calmEast and calmWest
 
 ##### End of Imported Script: Define Calm Opponents #####
 
-nt5332 = shape(south,any 5332) and hcp(south)>14 and hcp(south)<18
-sOpener = spades(south)>4 and spades(south)>=hearts(south) and spades(south)>=diamonds(south) and spades(south)>=clubs(south) and not nt5332
-hOpener = hearts(south)>4 and hearts(south)>=diamonds(south) and hearts(south)>=clubs(south) and not sOpener and not nt5332
+sOpener = spades(south)>4 and spades(south)>=hearts(south) and spades(south)>=diamonds(south) and spades(south)>=clubs(south)
+hOpener = hearts(south)>4 and hearts(south)>=diamonds(south) and hearts(south)>=clubs(south) and not sOpener
 sFit = sOpener and spades(north)>2 and spades(north)<5
-hFit = hOpener and hearts(north)>2 and hearts(north)<5
+hFit = hOpener and hearts(north)>2 and hearts(north)<5 and spades(north)<4 
+fit  = (sFit or hFit) and shape(north,any 0xxx+any 1xxx+any 22xx)
 
 condition
 
-(sFit or hFit) and lp>15 and lp<18 and dp>5 and dp<11 and calmWest
+(sFit or hFit) and lp>15 and lp<18 and dp>5 and dp<11 and calmWest and shape(south,any 61xx+any 51xx)
 
 
 action printpbn
