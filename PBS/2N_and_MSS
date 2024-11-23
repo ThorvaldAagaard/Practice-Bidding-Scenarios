@@ -1,8 +1,9 @@
 Script,TwoNTandMSS
 setDealerCode(`
 
-# convention-card: 21GF-WJS-MSS
-# auction-filter: Auction.....\\n2NT.Pass.3S
+# Select MSS after 1N and 2N
+# convention-card: 21GF-MSS
+# auction-filter: Auction.....\\n2NT.Pass.3S.
 ### 2N and Minor Suit Stayman (MSS)
 
 Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Predict-Opening-1-Bid
@@ -38,7 +39,7 @@ average "Slam         " 100 * slam,
 
 `,"S",true)
 Script
-Button,2 NT and MSS,\n\
+Button,2NT - MSS,\n\
 ---  20-21 Notrump and Minor-suit Stayman response.  The responder has at least\n\
 5-4 in the minors.  The deal is leveled to make game or slam at about the same frequency.\n\
 %TwoNTandMSS%

@@ -4,16 +4,11 @@
 dealer south
 
 
-# convention-card: 21GF-3UJ
-# auction-filter: 1[DHS].Pass.3[CDH].
-
-#### BridgeComposer ends the filter at the |
-#### The filter should be: ^1S.Pass.3[CDH]|^1H.Pass.3[CS]|^1D.Pass.3C
-#### The auction-filter used above gets the same results.  ####
+# convention-card: 21GF-3-Under-Inv-Jump
+# auction-filter: 1D.Pass.3C|1H.Pass.3[CD]|1S.Pass.3[CDH]
 
 # Robot 3 Under Invitational Jump (9-11 HCP)
 
-#Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Predict-Opening-1-Bid
 ##### Imported Script -- Predict Opening 1-Bid #####
 
 # Calculate length points for South (lengthPoints)
@@ -73,8 +68,6 @@ oneClub = oC
 
 ##### End of Imported Script -- Predict Opening 1-Bid #####
 # Defines oneClub, oneSpade, oneHeart, oneDiamond
-
-#Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Calm-Opponents
 ##### Imported Script: Define Calm Opponents #####
 
 # Avoid concentration of values
@@ -101,6 +94,7 @@ calmWest = (unbalWest and noConWest and hcp(west)<8) or (balWest and hcp(west)<1
 calmOpps = calmEast and calmWest
 
 ##### End of Imported Script: Define Calm Opponents #####
+
 # Define calmWest, calmEast, and calmOpps
 
 # Define NoFit

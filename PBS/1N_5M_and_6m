@@ -2,7 +2,7 @@ Script,Notrump5M6m
 setDealerCode(`
 
 # convention-card:
-# auction-filter: Auction.....\\n1NT.Pass.2[DH].Pass\n2[HS].Pass.3[CD]
+# auction-filter: Auction.....\\n1NT.Pass.2[DH].Pass\n2[HS].Pass.3[CD].
 
 # Import Define-1N and Leveling
 Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Define-1N
@@ -36,7 +36,7 @@ frequency  "ntPoints  "  (ntPoints   , 14, 18),
 
 `,"S",true)
 Script
-Button,1NT w/5M & 6+m (Lev),\n\
+Button,1NT w/5M-6+m (Lev),\n\
 ---  15-17 Notrump Opening with 5M and 6+m response.\n\
 2452+2425+2245+2254+4522 +any 4333，4432，or 5332 distribution.\n\
 Those 5422 hands are the ones where you are likely to have to reverse to show your suits.\n\

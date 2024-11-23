@@ -1,7 +1,9 @@
 Script,InvitationalJump
-setDealerCode(
-`
-produce 1000
+setDealerCode(`
+
+# convention-card: 21GF-3-Under-Inv-Jump
+# auction-filter: .
+
 dealer north
 
 # Gavin's 3 Under Invitational Jump (11-12 HCP)

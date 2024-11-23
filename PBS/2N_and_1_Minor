@@ -2,7 +2,7 @@ Script,TwoNTandOneMinor
 setDealerCode(`
 
 # convention-card:
-# auction-filter: Auction.....\\n2NT.Pass.([4567][CD])
+# auction-filter: Auction.....\\n2NT.Pass.([4567][CD]).
 
 # Dealer 2N and 1-Minor
 
@@ -39,7 +39,7 @@ average "Slam         " 100 * slam,
 
 `,"S",true)
 Script
-Button,2 NT and 1 Minor,\n\
+Button,2NT - 1m,\n\
 ---  20-21 Notrump and one Minor-suit.  The responder's hand is\n\
 leveled to make game or slam at about the same frequency.\n\
 %TwoNTandOneMinor%

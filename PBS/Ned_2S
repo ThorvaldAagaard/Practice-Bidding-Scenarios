@@ -1,18 +1,31 @@
 Script,Ned2Spade
 setDealerCode(`
 
+# convention-card: 21GF-MSS
+# auction-filter: Note...:Minor Suit
+
 # Ned's 2S
 dealer north
 
-# North opens 1N
-nO = hcp(north)>14 and hcp(north)<18 and shape(north, any 4333 +any 4432 +any 5332)
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/GIB-1N
+# Defines gibNT
 
-# South bids 2S
-sR = hcp(south)>5 and shape(south, xxx7+xxx6+xx7x+xx6x+xx66+xx65+xx56+xx55+xx54+xx45) and spades(south)<4 and hearts(south)<4
+# Copied from We_Overcall_NT_then_MSS
+# North bids 2S - MSS
+mss = (shape(north,xx55+xx54+xx45) and hcp(north)>7) or (shape(north, xx75+xx65+xx57+xx56) and hcp(north)>5)
+# Copied from We_Overcall_NT_then_MST
 
-nO and sR
+# North transfers to Clubs(2S) or Diamonds (2N)
+mst = (shape(north,xxx7+xxx6+xx9x+xx8x+xx7x+xx6x) and hcp(north)>7) or (shape(north,xxx9+xxx8+xx9x+xx8x) and hcp(north)>5)
+nR2 = mss or mst
 
-`,"N",false)
+# The original Ned's 2S...
+# North bids 2S
+#nR = hcp(north)>5 and shape(north, xxx7+xxx6+xx7x+xx6x+xx66+xx65+xx56+xx55+xx54+xx45) and spades(north)<4 and hearts(north)<4
+
+gibNT and nR2
+
+`,"S",false)
 Script
 Button,Ned’s 2 Spades,\n\
 --- Ned’s 2 Spades\n\

@@ -1,0 +1,31 @@
+Script,MinorSuitTransfer
+setDealerCode(`
+
+# Enable both MST and MSS
+# convention-card: 21GF-MSTandMSS
+# auction-filter: 1NT Pass 2[SN]
+
+# Minor Suit Transfer
+dealer south
+
+# enable both MSS and MST
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/GIB-1N
+# Defines gibNT
+
+# West passes
+
+# North transfers to Clubs(2S) or Diamonds (2N)
+nResponds = (shape(north,xxx7+xxx6+xx7x+xx6x) and hcp(north)>7) or (shape(north,xxx9+xxx8+xx9x+xx8x) and hcp(north)>5)
+
+# Now do it
+gibNT and nResponds
+
+`, "S", true);
+Script
+Button,Minor Suit Transfer,\n\
+--- Minor Suit Transfer\n\
+There are multiple ways to play MST; this is how GIB plays it...\n\
+After partner opens 1NT，responder bids the strain below their minor...\n\
+• 2N for !C\n\
+• 3!C for !D.\n\
+%MinorSuitTransfer%

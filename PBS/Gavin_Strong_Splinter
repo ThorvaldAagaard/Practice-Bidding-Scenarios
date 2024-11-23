@@ -1,6 +1,8 @@
 Script,DirectSplinter
 setDealerCode(`
 
+# auction-filter: .
+
 # Strong Splinter (12-15 HCP)
 dealer north
 
