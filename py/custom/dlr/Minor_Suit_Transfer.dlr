@@ -19,7 +19,7 @@ nResponds = (shape(north,xxx7+xxx6+xx7x+xx6x) and hcp(north)>7) or (shape(north,
 
 condition
 
-gibNT and nResponds
+gibNT and nResponds and shape(north,xxxx-4xxx-5xxx-x4xx-x5xx)  // Kill the major suits
 
 
 action printpbn

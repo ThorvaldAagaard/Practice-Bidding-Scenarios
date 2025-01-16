@@ -70,20 +70,16 @@ SC = (GoodS and GoodC)
 HD = (GoodH and GoodD)
 HC = (GoodH and GoodC)
 DC = (GoodD and GoodC)
-oneS = oS and (HD or HC or DC)  // Michaels or Michaels or Unusual NT
-oneH = oH and (SD or SC or DC)  // Michaels or Michaels or Unusual NT
-oneD = oD and (SH or HC)        // Michaels or Unusual NT  - no way to show SC
-oneC = oC and (SH or HD)        // Michaels or Unusual NT  - no way to show SD
+oneS = oS and (HD or HC or DC)  // Michaels, Michaels/Top&Bottom, Unusual NT
+oneH = oH and (SD or SC or DC)  // Michaels, Michaels/Top&Bottom, Unusual NT
+oneD = oD and (SH or SC or HC)  // Michaels, Top&Bottom, Unusual NT
+oneC = oC and (SH or SD or HD)  // Michaels, Top&Bottom, Unusual NT
 oSuit = (oneS or oneH or oneD or oneC) and shape(south,any xxxx-8xxx-7xxx-6xxx)
-oRange = hcp(south)>11 and hcp(south)<15
-iWeak   = losers(west)<8 and hcp(west)>7  and hcp(west)<12
+oRange = hcp(south)>11 and hcp(south)<22
+iWeak   = losers(west)<8 and hcp(west)>5  and hcp(west)<12
 iStrong = losers(west)<5 and hcp(west)>14 and hcp(west)<20
 iRange = iWeak or iStrong
-wHCP    = iWeak   ? hcp(west)    : 0
-wLosers = iWeak   ? losers(west) : 0
-sHCP    = iStrong ? hcp(west)    : 0
-sLosers = iStrong ? losers(west) : 0
-rRange = hcp(north)>7
+rRange = hcp(north)>6
 
 condition
 

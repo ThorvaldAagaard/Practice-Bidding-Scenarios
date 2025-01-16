@@ -154,8 +154,6 @@ keep985 = not keep015
 keep   = 1
 keep0  = 0
 ### End of Imported Leveling Code ###
-### See -Stats-Leveling for statistics on these values ###
-### Example of how to generate Statistics for Leveling ###
 
 lx4 = x4 and keep56
 lx3 = x3 and keep06

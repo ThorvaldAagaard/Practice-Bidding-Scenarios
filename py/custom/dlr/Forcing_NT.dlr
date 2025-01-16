@@ -126,8 +126,8 @@ lMin = noFit and ngfRange and longMinor  // overlaps w/3-under inv jump
 nFit = noFit and ngfRange and not lMin
 forcingNT = (wFit or iFit or lMin or nFit) and noSpadeBid
 rebidM  = shape(south, any 7xxx+any 6xxx)
-rebidN  = shape(south, any 5332+any 5422) and hcp(south)>17 and hcp(south)<20
-reverse = shape(south, 45xx+46xx+56xx) and hcp(south)>16 and hcp(south)<22
+rebidN  = shape(south, any 5332+any 5422) and hcp(south)>17 and hcp(south)<20 and not rebidM
+reverse = shape(south, 45xx+46xx+56xx) and hcp(south)>16 and hcp(south)<22    and not (rebidM or rebidN)
 newSuit = not(rebidM or rebidN or reverse)
 openerRebid = rebidM or rebidN or reverse or newSuit
 ### Imported Leveling Code ###
@@ -167,13 +167,11 @@ keep985 = not keep015
 keep   = 1
 keep0  = 0
 ### End of Imported Leveling Code ###
-### See -Stats-Leveling for statistics on these values ###
-### Example of how to generate Statistics for Leveling ###
 
 wFitLev = wFit and keep
 iFitLev = iFit and keep81
-lMinLev = lMin and keep
-nFitLev = nFit and keep015
+lMinLev = lMin and keep89
+nFitLev = nFit and keep25
 levelResponse = wFitLev or nFitLev or iFitLev or lMinLev
 rMajLev = rebidM  and keep015
 rNTLev  = rebidN  and keep25
@@ -185,7 +183,6 @@ levelTheDeal = levelResponse and levelRebid
 condition
 
 oneMajor and forcingNT and openerRebid and calmWest
-and levelTheDeal
 
 
 action printpbn

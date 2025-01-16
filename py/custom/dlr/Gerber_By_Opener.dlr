@@ -49,8 +49,6 @@ keep985 = not keep015
 keep   = 1
 keep0  = 0
 ### End of Imported Leveling Code ###
-### See -Stats-Leveling for statistics on these values ###
-### Example of how to generate Statistics for Leveling ###
 
 level1m = s1mn2N and keep
 level2C = s2Cn2N  and keep53

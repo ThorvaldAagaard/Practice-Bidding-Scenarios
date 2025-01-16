@@ -1,0 +1,10 @@
+generate 400000000
+
+produce 500
+
+
+condition
+
+
+
+action printpbn

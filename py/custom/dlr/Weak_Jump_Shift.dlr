@@ -161,8 +161,6 @@ keep985 = not keep015
 keep   = 1
 keep0  = 0
 ### End of Imported Leveling Code ###
-### See -Stats-Leveling for statistics on these values ###
-### Example of how to generate Statistics for Leveling ###
 
 levForce1  = force1  and keep75
 levForce2  = force2  and keep

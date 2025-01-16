@@ -44,8 +44,14 @@ echo dealerv2 ./dlr/After_Opp_Overcalls.dlr  -s 718534587
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/After_Opp_Overcalls.dlr -s  718534587 > ./pbn/After_Opp_Overcalls.pbn 
 echo dealerv2 ./dlr/After_Partner_Overcalls.dlr  -s 4140658757 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/After_Partner_Overcalls.dlr -s  4140658757 > ./pbn/After_Partner_Overcalls.pbn 
+echo dealerv2 ./dlr/Anything_Goes.dlr  -s 2250429046 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Anything_Goes.dlr -s  2250429046 > ./pbn/Anything_Goes.pbn 
+echo dealerv2 ./dlr/Any_5422_with_15-16.dlr  -s 247184912 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Any_5422_with_15-16.dlr -s  247184912 > ./pbn/Any_5422_with_15-16.pbn 
 echo dealerv2 ./dlr/Any_5422_with_15-17.dlr  -s 720800937 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Any_5422_with_15-17.dlr -s  720800937 > ./pbn/Any_5422_with_15-17.pbn 
+echo dealerv2 ./dlr/Balancing.dlr  -s 2099917410 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Balancing.dlr -s  2099917410 > ./pbn/Balancing.pbn 
 echo dealerv2 ./dlr/Bergen_Raises.dlr  -s 2074686450 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Bergen_Raises.dlr -s  2074686450 > ./pbn/Bergen_Raises.pbn 
 echo dealerv2 ./dlr/Bergen_Thrump_X_after_Preempt.dlr  -s 4098118793 
@@ -62,6 +68,10 @@ echo dealerv2 ./dlr/Double_Showing_2_Suits.dlr  -s 754103139
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Double_Showing_2_Suits.dlr -s  754103139 > ./pbn/Double_Showing_2_Suits.pbn 
 echo dealerv2 ./dlr/Drury.dlr  -s 2482351398 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Drury.dlr -s  2482351398 > ./pbn/Drury.pbn 
+echo dealerv2 ./dlr/Equal_Level_Conversion.dlr  -s 4032179825 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Equal_Level_Conversion.dlr -s  4032179825 > ./pbn/Equal_Level_Conversion.pbn 
+echo dealerv2 ./dlr/Exit_Transfers.dlr  -s 2808956805 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Exit_Transfers.dlr -s  2808956805 > ./pbn/Exit_Transfers.pbn 
 echo dealerv2 ./dlr/Flannery.dlr  -s 57123041 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Flannery.dlr -s  57123041 > ./pbn/Flannery.pbn 
 echo dealerv2 ./dlr/Forcing_NT.dlr  -s 2115436961 
@@ -150,6 +160,8 @@ echo dealerv2 ./dlr/McCabe_after_WJO.dlr  -s 3111372290
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/McCabe_after_WJO.dlr -s  3111372290 > ./pbn/McCabe_after_WJO.pbn 
 echo dealerv2 ./dlr/Meckwell.dlr  -s 3737841403 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Meckwell.dlr -s  3737841403 > ./pbn/Meckwell.pbn 
+echo dealerv2 ./dlr/Minorwood.dlr  -s 667380894 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Minorwood.dlr -s  667380894 > ./pbn/Minorwood.pbn 
 echo dealerv2 ./dlr/Minor_Slams.dlr  -s 3535921653 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Minor_Slams.dlr -s  3535921653 > ./pbn/Minor_Slams.pbn 
 echo dealerv2 ./dlr/Minor_Suit_Opener.dlr  -s 4220627057 
@@ -160,6 +172,8 @@ echo dealerv2 ./dlr/Minor_Suit_Opener_Inv_Raise.dlr  -s 3860185339
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Minor_Suit_Opener_Inv_Raise.dlr -s  3860185339 > ./pbn/Minor_Suit_Opener_Inv_Raise.pbn 
 echo dealerv2 ./dlr/Minor_Suit_Opener_Mixed_Raise.dlr  -s 421744460 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Minor_Suit_Opener_Mixed_Raise.dlr -s  421744460 > ./pbn/Minor_Suit_Opener_Mixed_Raise.pbn 
+echo dealerv2 ./dlr/Minor_Suit_Opener_Resp_Structure.dlr  -s 2206399760 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Minor_Suit_Opener_Resp_Structure.dlr -s  2206399760 > ./pbn/Minor_Suit_Opener_Resp_Structure.pbn 
 echo dealerv2 ./dlr/Minor_Suit_Stayman.dlr  -s 1093406511 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Minor_Suit_Stayman.dlr -s  1093406511 > ./pbn/Minor_Suit_Stayman.pbn 
 echo dealerv2 ./dlr/Minor_Suit_Transfer.dlr  -s 3245096361 
@@ -176,6 +190,8 @@ echo dealerv2 ./dlr/Mitchell_Stayman.dlr  -s 2468261799
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Mitchell_Stayman.dlr -s  2468261799 > ./pbn/Mitchell_Stayman.pbn 
 echo dealerv2 ./dlr/Mixed_Raise_In_Comp.dlr  -s 1312347259 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Mixed_Raise_In_Comp.dlr -s  1312347259 > ./pbn/Mixed_Raise_In_Comp.pbn 
+echo dealerv2 ./dlr/Muiderberg_Two_Bids.dlr  -s 4197061340 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Muiderberg_Two_Bids.dlr -s  4197061340 > ./pbn/Muiderberg_Two_Bids.pbn 
 echo dealerv2 ./dlr/Multi_2D.dlr  -s 2157938862 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Multi_2D.dlr -s  2157938862 > ./pbn/Multi_2D.pbn 
 echo dealerv2 ./dlr/Multi_Landy.dlr  -s 1688767912 
@@ -204,6 +220,10 @@ echo dealerv2 ./dlr/Notrump_18-19.dlr  -s 2121697924
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Notrump_18-19.dlr -s  2121697924 > ./pbn/Notrump_18-19.pbn 
 echo dealerv2 ./dlr/NT_Splinter.dlr  -s 938280644 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/NT_Splinter.dlr -s  938280644 > ./pbn/NT_Splinter.pbn 
+echo dealerv2 ./dlr/OBAR_BIDS.dlr  -s 1677212204 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/OBAR_BIDS.dlr -s  1677212204 > ./pbn/OBAR_BIDS.pbn 
+echo dealerv2 ./dlr/OBAR_BIDS11.dlr  -s 2786718164 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/OBAR_BIDS11.dlr -s  2786718164 > ./pbn/OBAR_BIDS11.pbn 
 echo dealerv2 ./dlr/Open_In_Fourth_Seat.dlr  -s 3321400968 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Open_In_Fourth_Seat.dlr -s  3321400968 > ./pbn/Open_In_Fourth_Seat.pbn 
 echo dealerv2 ./dlr/Opps_2-Suited_Overcalls.dlr  -s 673952756 
@@ -310,6 +330,10 @@ echo dealerv2 ./dlr/Slam_after_Transfer.dlr  -s 1295789500
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Slam_after_Transfer.dlr -s  1295789500 > ./pbn/Slam_after_Transfer.pbn 
 echo dealerv2 ./dlr/Smolen.dlr  -s 522629608 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Smolen.dlr -s  522629608 > ./pbn/Smolen.pbn 
+echo dealerv2 ./dlr/Smolen_Invitational.dlr  -s 2296287221 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Smolen_Invitational.dlr -s  2296287221 > ./pbn/Smolen_Invitational.pbn 
+echo dealerv2 ./dlr/Snapdragon_Double.dlr  -s 2375920039 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Snapdragon_Double.dlr -s  2375920039 > ./pbn/Snapdragon_Double.pbn 
 echo dealerv2 ./dlr/Soloway_Jump_Shift.dlr  -s 3912780044 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Soloway_Jump_Shift.dlr -s  3912780044 > ./pbn/Soloway_Jump_Shift.pbn 
 echo dealerv2 ./dlr/Soloway_Jump_Shift_Type-1.dlr  -s 2005237709 
@@ -340,6 +364,10 @@ echo dealerv2 ./dlr/Texas_Transfer.dlr  -s 360521226
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Texas_Transfer.dlr -s  360521226 > ./pbn/Texas_Transfer.pbn 
 echo dealerv2 ./dlr/Tislevoll_after_Opps_Preempt.dlr  -s 3793143875 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Tislevoll_after_Opps_Preempt.dlr -s  3793143875 > ./pbn/Tislevoll_after_Opps_Preempt.pbn 
+echo dealerv2 ./dlr/Too_Strong_for_Overcall.dlr  -s 1953708670 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Too_Strong_for_Overcall.dlr -s  1953708670 > ./pbn/Too_Strong_for_Overcall.pbn 
+echo dealerv2 ./dlr/Too_Strong_for_Overcall4th.dlr  -s 888958393 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Too_Strong_for_Overcall4th.dlr -s  888958393 > ./pbn/Too_Strong_for_Overcall4th.pbn 
 echo dealerv2 ./dlr/Transfers_after_1M_X.dlr  -s 1854725018 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Transfers_after_1M_X.dlr -s  1854725018 > ./pbn/Transfers_after_1M_X.pbn 
 echo dealerv2 ./dlr/Trap_Pass.dlr  -s 4072665526 
@@ -354,6 +382,8 @@ echo dealerv2 ./dlr/Two-Way_New_Minor_Forcing_aka_xyNT.dlr  -s 2457093974
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two-Way_New_Minor_Forcing_aka_xyNT.dlr -s  2457093974 > ./pbn/Two-Way_New_Minor_Forcing_aka_xyNT.pbn 
 echo dealerv2 ./dlr/Two-Way_Size_Ask.dlr  -s 720348874 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two-Way_Size_Ask.dlr -s  720348874 > ./pbn/Two-Way_Size_Ask.pbn 
+echo dealerv2 ./dlr/Two_NT_in_Fourth_Seat.dlr  -s 855285376 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two_NT_in_Fourth_Seat.dlr -s  855285376 > ./pbn/Two_NT_in_Fourth_Seat.pbn 
 echo dealerv2 ./dlr/Two_Over_One.dlr  -s 1205364623 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Two_Over_One.dlr -s  1205364623 > ./pbn/Two_Over_One.pbn 
 echo dealerv2 ./dlr/Vics_2C_Relay.dlr  -s 1223271034 
@@ -378,6 +408,8 @@ echo dealerv2 ./dlr/Weak_NT_10-12.dlr  -s 2311609453
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_10-12.dlr -s  2311609453 > ./pbn/Weak_NT_10-12.pbn 
 echo dealerv2 ./dlr/Weak_NT_10-13.dlr  -s 2024317934 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_10-13.dlr -s  2024317934 > ./pbn/Weak_NT_10-13.pbn 
+echo dealerv2 ./dlr/Weak_NT_11-16.dlr  -s 1453836784 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_11-16.dlr -s  1453836784 > ./pbn/Weak_NT_11-16.pbn 
 echo dealerv2 ./dlr/Weak_NT_13-15.dlr  -s 1756333780 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/Weak_NT_13-15.dlr -s  1756333780 > ./pbn/Weak_NT_13-15.pbn 
 echo dealerv2 ./dlr/Weak_NT_14-15.dlr  -s 3405591228 
@@ -400,6 +432,8 @@ echo dealerv2 ./dlr/We_Overcall_NT_then_Stayman.dlr  -s 1205115483
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/We_Overcall_NT_then_Stayman.dlr -s  1205115483 > ./pbn/We_Overcall_NT_then_Stayman.pbn 
 echo dealerv2 ./dlr/We_Overcall_NT_then_Texas.dlr  -s 1281663513 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/We_Overcall_NT_then_Texas.dlr -s  1281663513 > ./pbn/We_Overcall_NT_then_Texas.pbn 
+echo dealerv2 ./dlr/We_Overcall_Their_2C.dlr  -s 987353190 
+./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/We_Overcall_Their_2C.dlr -s  987353190 > ./pbn/We_Overcall_Their_2C.pbn 
 echo dealerv2 ./dlr/We_X_Opps_Preempt.dlr  -s 679336078 
 ./../../../Dealer-Version-2-/Prod/dealerv2  ./dlr/We_X_Opps_Preempt.dlr -s  679336078 > ./pbn/We_X_Opps_Preempt.pbn 
 echo dealerv2 ./dlr/We_X_Opps_Weak_2.dlr  -s 796997175 
