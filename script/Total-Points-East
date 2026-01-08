@@ -1,0 +1,21 @@
+##### Imported Script - Calculate Total Points for East #####
+
+## Calculate TP for East
+# Calculate East's Short-Suit Penalty Points
+eSP = spades(east)<3   and hcp(east,spades)>0   ? 1 : 0
+eHP = hearts(east)<3   and hcp(east,hearts)>0   ? 1 : 0
+eDP = diamonds(east)<3 and hcp(east,diamonds)>0 ? 1 : 0
+eCP = clubs(east)<3    and hcp(east,clubs)>0    ? 1 : 0
+
+# Calculate East's Short-Suit Points
+ev1 = shape(east, any 0xxx) ? 3 : 0 // allow for 1 void
+es1 = shape(east, any 1xxx) ? 2 : 0 // allow for 2 singletons
+es2 = shape(east, any 11xx) ? 2 : 0
+ed1 = shape(east, any 2xxx) ? 1 : 0 // allow for 3 doubletons
+ed2 = shape(east, any 22xx) ? 1 : 0
+ed3 = shape(east, any 222x) ? 1 : 0
+
+# Calculate East's Total Points
+eTP = hcp(east) + ev1+es1+es2+ed1+ed2+ed3 -eSP-eHP-eDP-eCP
+
+### End of Calculate TP for East ###

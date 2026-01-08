@@ -11,22 +11,34 @@ Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/scri
 Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Predict-Opening-1-Bid
 # defines oneSpade, oneHeart, gibNT
 
-# Calculate Total Points for North (tp)
-v1 = shape(north, any 0xxx) ? 5 : 0
-s1 = shape(north, any 1xxx) ? 3 : 0
-d1 = shape(north, any 2xxx) ? 1 : 0 // allow for 3 doubletons
-d2 = shape(north, any 22xx) ? 1 : 0
-d3 = shape(north, any 222x) ? 1 : 0
-tp = v1+s1+d1+d2+d3 + hcp(north)
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/TP
+# defines tpNorth
 
 # South opens 1H or 1S
 oneMajor = (oneSpade or oneHeart) and hcp(south)>11 and hcp(south)<20 and not gibNT
 
-# Defining fit
+# Define Direct Raises
+oneM2M = ((oneSpade and spades(north)>2) or (oneHeart and hearts(north)>2)) and tpNorth > 5 and tpNorth < 11
+oneM3M = ((oneSpade and spades(north)>3) or (oneHeart and hearts(north)>3)) and tpNorth > 9 and tpNorth < 13
+oneM4M = ((oneSpade and spades(north)>4) or (oneHeart and hearts(north)>4)) and tpNorth > 3 and hcp(north)<9
+noDirectRaise = not (oneM2M or oneM3M or oneM4M)
+
+# Define other fits
 spadeFit = oneSpade and spades(north)>2
 heartFit = oneHeart and hearts(north)>2
 fit = spadeFit or heartFit
-noFit = not fit
+
+spadeFit3 = spadeFit and spades(north)==3
+heartFit3 = heartFit and hearts(north)==3
+fit3 = spadeFit3 or heartFit3
+noFit = not fit and not fit3
+
+# Define 3-level invites
+threeClubs    = clubs(north)>5    and hcp(north,clubs)>1 
+threeDiamonds = diamonds(north)>5 and hcp(north,diamonds)>1
+threeHearts   = hearts(north)>5   and hcp(north,hearts)>1   and oneSpade
+invite = noFit and (threeClubs or threeDiamonds or threeHearts) and hcp(north)>8 and hcp(north)<12
+noInvite = not invite
 
 # Avoid 1H - 1S
 noSpadeBid = not(oneHeart and spades(north)>3)
@@ -37,16 +49,16 @@ longD = diamonds(north)>5
 longMinor = (longC or longD)
 
 # Define ranges - TP for raises; otherwise HCP
-wRange = tp>4 and tp<8
-iRange = tp>10 and tp<13
-ngfRange = hcp(north)>5 and hcp(north)<13
+wRange = tpNorth>4 and tpNorth<8
+iRange = tpNorth>10 and tpNorth<13
+ngfRange = hcp(north)>5 and hcp(north)<12 and tpNorth<13
 
 # Defining hand types for Forcing NT
-wFit = fit and wRange
-iFit = fit and iRange
+wFit = fit  and wRange
+iFit = fit3 and iRange
 lMin = noFit and ngfRange and longMinor  // overlaps w/3-under inv jump
 nFit = noFit and ngfRange and not lMin
-forcingNT = (wFit or iFit or lMin or nFit) and noSpadeBid
+forcingNT = (wFit or iFit or lMin or nFit) and noSpadeBid and noDirectRaise and noInvite
 
 # Defining Opener's rebids
 rebidM  = shape(south, any 7xxx+any 6xxx)
@@ -59,16 +71,16 @@ Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/scri
 
 # Level Responses
 wFitLev = wFit and keep
-iFitLev = iFit and keep81
-lMinLev = lMin and keep89
-nFitLev = nFit and keep25
+iFitLev = iFit and keep75
+lMinLev = lMin and keep75
+nFitLev = nFit and keep015
 levelResponse = wFitLev or nFitLev or iFitLev or lMinLev
 
 # Level Rebids
-rMajLev = rebidM  and keep015
-rNTLev  = rebidN  and keep25
+rMajLev = rebidM  and keep06
+rNTLev  = rebidN  and keep47
 rRevLev = reverse and keep
-rNSLev  = newSuit and keep015
+rNSLev  = newSuit and keep03
 levelRebid = rMajLev or rNTLev or rRevLev or rNSLev
 
 levelTheDeal = levelResponse and levelRebid
@@ -76,12 +88,12 @@ levelTheDeal = levelResponse and levelRebid
 ## Now Do it
 # South opens 1 H/S and North bids 1N Forcing and South Rebids
 oneMajor and forcingNT and openerRebid and calmWest
-#and levelTheDeal
+and levelTheDeal
 
 produce 5000
 action
-average "fit 5-7 TP         " 100 * wFit,
-average "fit 11-12 TP       " 100 * iFit,
+average "fit 5-7 TP w/3+    " 100 * wFit,
+average "fit 11-12 TP w/3   " 100 * iFit,
 average "no fit, long minor " 100 * lMin,
 average "no fit 6-12 HCP    " 100 * nFit,
 average "-------------------" 100 * (wFit + iFit + lMin + nFit),
@@ -97,7 +109,7 @@ Button,Forcing NT (Lev),\n\
 --- Forcing NT (Leveled)\n\
 Partner opens an Responder has a non-Game Forcing hand with...\n\
 • 5-7 TP with fit\n\
-• 11-12 TP with fit\n\
+• 11-12 TP with 3-card fit\n\
 • Long minor without fit\n\
 • 6-12 HCP without fit\n\
 Then Opener Rebids...\n\
@@ -105,5 +117,5 @@ Then Opener Rebids...\n\
 • 2NT\n\
 • Reverse\n\
 • New Suit\n\
-These are leveled such that the responses and rebids at about the same frequency.\n\
+These are leveled so that the responses and rebids at about the same frequency.\n\
 %ForcingNT%

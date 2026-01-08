@@ -58,20 +58,17 @@ exit /b
 
 :foundFilter
 
-:: ----------------- Replace all \\n with \r?\n --------------------
+:: ----------------- Replace all \\n and \n with \r?\n --------------------
 
 :: Store the input parameter
 set inputString="%this_filter%"
 
+:: Replace \\n and \n with a newline
+set "outputString=!inputString:\\n=\n!"
+set "outputString=!outputString:\n=\r?\n!!"
 
-:: Replace \\n with a real newline (using a caret and actual newlines)
-set outputString=!inputString:\\n=\r?\n!
-rem Yay!!  Either of these strings work; [\s\S][\s\S] or \r?\n
-
-:: echo inputString: !inputString!
-:: echo outputString: !outputString!
-
-:: ------------------ Thank You, ChatGPT! --------------------------------
+:: echo Input:  !inputString!
+:: echo Output: !outputString!
 
 :: echo cscript /nologo S:\Filter.js P:\bba\%scenario%.pbn !outputString! P:\bba-filtered\%scenario%.pbn --PDF /noui
 cscript /nologo S:\Filter.js P:\bba\%scenario%.pbn !outputString! P:\bba-filtered\%scenario%.pbn --PDF /noui >nul
@@ -79,4 +76,4 @@ cscript /nologo S:\Filter.js P:\bba\%scenario%.pbn !outputString! P:\bba-filtere
 
 endlocal
 
-exit /b
+exit

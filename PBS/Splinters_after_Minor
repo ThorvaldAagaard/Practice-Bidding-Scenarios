@@ -1,0 +1,73 @@
+Script,Splinters_after_Minor
+setDealerCode(`
+
+# auction-filter: Note..1.Splinter
+
+# Splinters
+dealer south
+
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Calm-Opponents
+# Defines calmWest
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/TP
+# Defines tpSouth, tpNorth
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Predict-Opening-1-Bid
+# Defines oneClub, oneDiamond, gibNT
+
+noMajor = spades(north)<4 and hearts(north)<4
+
+# Minimum strength requires extra length
+sLen  = hcp(south)==11 and tpSouth==12 ? 6 : 4    // improve suit length to avoid pass
+sTop4 = hcp(south)==11 and tpSouth==12 ? 2 : 0    // improve suit quality to avoid Pass
+nLen  = tpNorth==14 ? 6 : 5
+
+// avoid Jacoby JS to 2D
+jacobyJS = diamonds(north)>4 and tpNorth>16
+cFit = oneClub    and clubs(south)   >=sLen and top4(south,clubs)   >=sTop4 and shape(south,any 1xxx +any 0xxx) and noMajor and clubs(north)   >=nLen and not jacobyJS
+dFit = oneDiamond and diamonds(south)>=sLen and top4(south,diamonds)>=sTop4 and shape(south,any 1xxx +any 0xxx) and noMajor and diamonds(north)>=nLen
+fit = cFit or dFit
+
+strong2  = hcp(south)>21 or tpSouth>22 or losers(south)<5
+gib2NT   = shape(south, any 5332) and (hcp(south)==20 or hcp(south)==21)
+
+
+sShape = shape(south,any 8xxx +any 7xxx +any 6xxx +any 5xxx +any 4xxx -any 84xx -any 75xx -any 65xx)
+sOpens = hcp(south)>10 and tpSouth>11 and sShape and not (strong2 or gibNT or gib2NT)
+
+# GIB uses a Jacoby 2N response with 16 TP and a singleton
+balInvite = shape(north,any 1xxx) and (hcp(north)==11 or hcp(north)==12)
+
+# North Splinters w/4-card support and any shortness
+anyShortness = shape(north,any 1xxx +any 0xxx)
+
+nSplinters = fit and tpNorth>13 and anyShortness and not balInvite
+
+part  = (tpNorth + tpSouth)<26
+game  = (tpNorth + tpSouth)<33 and not part
+slam  = (tpNorth + tpSouth)<37 and not (part or game)
+grand =                            not (part or game or slam)
+
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Leveling
+lev1 = part  and keep
+lev2 = game  and keep70
+lev3 = slam  and keep
+lev4 = grand and keep
+levelTheDeal = lev1 or lev2 or lev3 or lev4
+
+sOpens and calmWest and nSplinters
+and levelTheDeal
+
+action
+average "Part Score" 100 * part,
+average "Game"       100 * game,
+average "Slam"       100 * slam,
+average "Grand"      100 * grand,
+
+`,"S",true)
+Script
+Button,Splinters after Minor,\n\
+--- Splinter Bids are double jumps.  They show a singleton or void in the suit bid and support\n\
+in support of opener's minor (at least 9-cards).\n\
+GIB splinters with a singleton A，K，or Q.  Some players do NOT.\n\
+• After 1!C a jump to 3!D，3!H，or 3!S\n\
+• After 1!D a jump to 3!H，3!S，or 4!C\n\
+%Splinters_after_Minor%

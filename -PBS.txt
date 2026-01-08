@@ -1,6 +1,9 @@
 //BBOalert, Bidding Scenarios
 //BBOalert, Bidding Scenarios - version 3.0
-Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/setDealerCode.js
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/js/setDealerCode.js
+//Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/PBNcapture.js
+Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/PBNcapture.js
+Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/PBStooltips.js
 
 // Pause
 Script,onLogin,setTimeout(setOptionsOff, 200);
@@ -248,12 +251,13 @@ function delay(duration) {
 
 For each individual doc file where the code is defined you should :
 - add BBOalert code to define the script and the button
-- publish the files as web page
-- add the Import statements with the URL od published web pages
+- publish the files to gitHub
+- add the Import statements with the URL of gitHub file
 
 ### SORTED by Script Name -- everything except Strong Club System
 
 Import,After1M2M,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/After_1M_2M
+Import,After1x1N,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/After_1x_1N
 Import,After2Passes,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/After_2_Passes
 Import,After3Passes,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/After_3_Passes
 Import,AfterOppOvercalls,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/After_Opp_Overcalls
@@ -265,12 +269,16 @@ Import,Benjamin2D,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blo
 Import,BergenRaises,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Bergen_Raises
 Import,BergenThrumpX,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Bergen_Thrump_X_after_Preempt
 Import,BetterMinorLebensohl,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Better_Minor_Lebensohl
+Import,Cappelletti,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Cappelletti
 Import,DealingWithOvercallsStrong,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Dealing_with_Ovecalls_Strong
 Import,DealingWithOvercallsWeak,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Dealing_with_Overcalls_Weak
 Import,DONT,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/DONT
+Import,DoubleByAdvancer,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Double_by_Advancer
 Import,DoubleDouble,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Double_double
+Import,DoubleShowing2Suits,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Double_Showing_2_Suits
 Import,Drury,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Drury
 Import,EqualLevConv,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Equal_Level_Conversion
+Import,ExclusionAfter1M,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Exclusion_After_1M
 Import,ExclusionStayJac,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Exclusion_After_Sta_Jac
 Import,ExitTransfers,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Exit_Transfers
 Import,Flannery,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Flannery
@@ -285,9 +293,16 @@ Import,GameOvercalls,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/
 Import,Gazzilli,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gazzilli
 Import,GerberByOpener,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gerber_By_Opener
 Import,GerberByResponder,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gerber_By_Responder
+Import,GibNt,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/GIB_1N
+Import,GibNt5422,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/GIB_1N5422
+Import,GibNtP2C,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/GIB_1N-P-2C
+Import,GibNtP2CBid,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/GIB_1N-P-2C-BID
+Import,GibOcW4,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/GIB_Overcall_with_4
+Import,GibRespTo1C,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/GIB_1C-P-Resp
 Import,GoingForBlood,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Going_for_Blood
 Import,GoodBad2N,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Good_Bad_2N
 Import,Goulash,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Goulash
+Import,GrandSlamForce,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Grand_Slam_Force
 Import,GrandSlamInvite,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Grand_Slam_Invite
 Import,Impossible2S,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Impossible_2S
 Import,InvertedMinors,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Inverted_Minors
@@ -305,9 +320,10 @@ Import,JumpCuebidWeak,https://github.com/ADavidBailey/Practice-Bidding-Scenarios
 Import,JumpOvercalls,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Jump_Overcalls
 Import,KokishRelay,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Kokish_Relay
 Import,LeapingMichaels,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Leaping_Michaels
-Import,LebensohlAfter2X-P-P,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Lebensohl_After_2X_P_P
+Import,LebensohlVsW2Bal,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Lebensohl_vs_Opps_W2_Bal
+Import,LebensohlVsW2Combo,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Lebensohl_vs_Opps_W2_Bal_or_Dir
+Import,LebensohlVsW2Dir,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Lebensohl_vs_Opps_W2_Dir
 Import,Lebensohl,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Lebensohl
-Import,LebensohlOverWeak2,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Lebensohl_Over_Weak_2
 Import,LimitRaise3Card,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gavin_3-card_Limit_Raise
 Import,LimitRaise4Card,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gavin_4-card_Limit_Raise
 Import,LosingTrickCount,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Losing_Trick_Count
@@ -351,7 +367,6 @@ Import,Notrump,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/m
 Import,Notrump18-19,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Notrump_18-19
 Import,Notrump5431,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/5431_After_NT
 Import,Notrump5M6m,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/1N_5M_and_6m
-Import,NotrumpGIB,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/1N_GIB
 Import,NotrumpWithSingleton,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/1N_with_Singleton
 Import,NtAfter1m,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/1m-1_2_or_3_NT
 Import,NToverLHO3x,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/3N_over_LHO_3x
@@ -367,6 +382,7 @@ Import,OpenInFourth15,https://github.com/ADavidBailey/Practice-Bidding-Scenarios
 Import,OpenInFourth16,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Open_In_Fourth_16
 Import,OppRedoubles,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Opp_Redoubles
 Import,Opps2-suitedOvercalls,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Opps_2-Suited_Overcalls
+Import,OppsBalUnusualNT,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Opps_Bal_Unusual_2N
 Import,OppsBidOverGF2C,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Opps_Bid_Over_GF_2C
 Import,OppsGambling,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Opps_Gambling_3N
 Import,OppsMulti2D,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Opps_Multi_2D
@@ -383,9 +399,11 @@ Import,OppsXNotrump,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/b
 Import,OppsXStayman,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Opps_Double_Stayman
 Import,Overcalls,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Overcalls
 Import,PassedHandRespStr,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gavin_Passed_Hand_Response_Structure
+Import,PreemptKeycard,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Preempt_Keycard
 Import,Preempt_X_XX,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Preempt_X_XX
 Import,PreemptiveRaise,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Preemptive_Raise
 Import,Preempts,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Preempts
+Import,ResponseTo1C,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Resp_to_1C
 Import,ResponsiveDouble,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Responsive_Double
 Import,ReverseAfterTwoOverOne,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Reverse_After_Two_Over_One
 Import,ReverseByOpener,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Reverse_By_Opener
@@ -399,6 +417,7 @@ Import,RobotFreeBid,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/b
 #Import,RuleOf16,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Rule_of_16
 Import,RuleOf2,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Rule_of_2
 Import,Runout,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Runout_after_1N_X
+Import,SandwichNtBPH,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/GIB_Sandwich_NT_BPH
 Import,Scrambling2NT,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Scrambling_2NT
 Import,SemiConstructiveRaise,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gavin_Semi-Constructive_Raise
 Import,SemiForcingNT,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gavin_Semi-Forcing_NT_with_Fit
@@ -421,13 +440,15 @@ Import,SolowayJumpShiftType4,https://github.com/ADavidBailey/Practice-Bidding-Sc
 Import,Spear,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Spear
 Import,SpiralRaise,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Spiral_Raise
 Import,SpiralRaise3only,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Spiral_Raises_with_3
+Import,SplinterAfterMinor,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Splinters_after_Minor
 Import,SplinterByOpener,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Splinters_By_Opener
 Import,Splinters,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Splinters
-Import,Stayman,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Stayman
+Import,DropDeadCrawling,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/DropDead_Crawling
 Import,StrongAfterNT,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Slam_after_NT
 Import,StrongSplinter,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gavin_Strong_Splinter
 Import,Suction,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Suction
 Import,SupportDouble,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Support_Double
+Import,SupportXbyAdvancer,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/SupportX_by_Advancer
 Import,TakeoutDoubles,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Takeout_Double
 Import,Texas,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Texas_Transfer
 Import,TexasOrJacoby,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Texas_or_Jacoby
@@ -443,6 +464,7 @@ Import,TrapPass,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/
 Import,TrapPassMaybe,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Trap_Pass_Maybe
 Import,TrapPassOpener,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Trap_Pass_Opener
 Import,TrapPassOpenerMaybe,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Trap_Pass_Opener_Maybe
+Import,TwoNT,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/2N
 Import,TwoNTand1Minor,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/2N_and_1_Minor
 Import,TwoNTand3C,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/2N_and_3C_Response
 Import,TwoNTandBalanced,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/2N_and_Balanced
@@ -450,14 +472,13 @@ Import,TwoNTandMSS,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/bl
 Import,TwoNTandXfer,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/2N_and_Transfers
 Import,TwoNTin4thSeat,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Two_NT_in_Fourth_Seat
 Import,TwoNTPuppet,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/2N_Puppet
-Import,TwoNTPuppetLev,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/2N_Puppet_Leveled
 Import,TwoNTSmolen,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/2N_Smolen
-Import,TwoNTSmolenLev,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/2N_Smolen_Leveled
 Import,TwoOverOne,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Two_Over_One
 Import,TwoSuitedOvercalls,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Two-Suited_Overcalls
 Import,TwoWayGameTry,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Two-Way_Game_Try
 Import,UnbalPowerDoubles,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Power_Double_Unbalanced
 Import,Vics2CRelay,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Vics_2C_Relay
+Import,VicsBalRespTo1m,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Vics_Bal_Resp_to_1m
 Import,Weak2_X_XX,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/W2_X_XX
 Import,WeakJumpShift,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Weak_Jump_Shift
 Import,WeakSplinter,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Gavin_Weak_Splinter
@@ -476,7 +497,7 @@ Import,WeOvercallNtThenTexas,https://github.com/ADavidBailey/Practice-Bidding-Sc
 Import,WeOvercallTheir2C,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/We_Overcall_Their_2C
 Import,WeXOppsPreempt,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/We_X_Opps_Preempt
 Import,WeXOppsWeak2,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/We_X_Opps_Weak_2
-Import,XferAfter1MX,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Transfers_after_1M_X
+Import,XferAfter1MX,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Xfer_after_1M_X
 Import,xyNT,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/Two-Way_New_Minor_Forcing_aka_xyNT
 Import,XYZ,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/PBS/XYZ
 
@@ -516,12 +537,14 @@ Button,Minor Suit Sequences,,width=100% backgroundColor=lightblue
 Import,MinorOpener
 Import,OneMinorTwoMinor
 Import,InvertedMinors
-Button,---
 Import,MinorGameOrSlam
-#Button,---
+Import,SplinterAfterMinor
+Button,---
 
 Button,Minor/Major Sequences,,width=100% backgroundColor=lightblue
 
+Import,GibRespTo1C
+Import,ResponseTo1C
 Import,FourthSuitForcing
 Import,FourthBidInviting
 Import,NewMinorForce
@@ -558,7 +581,11 @@ Button,Major Suit Sequences,,width=100% backgroundColor=lightblue
 
 Import,MajorOpener
 Import,MajorSuitFit
+Import,ExclusionAfter1M
+Button,---
 Import,ForcingNT
+Button,---
+Import,GrandSlamForce
 Import,SlamAfterMajor
 
 Import,Impossible2S
@@ -598,29 +625,38 @@ Import,SolowayJumpShiftType4
 
 Button,Notrump Sequences,,width=100% backgroundColor=lightblue
 
-Import,Notrump
-Import,NotrumpWithSingleton
-Import,NotrumpGIB
-Import,TwoNTin4thSeat
+
+Import,GibNt
+Import,GibNt5422
+Import,GibNtP2C
 Button,---
-Button,---
-Import,Stayman
 Import,JacobyTransfer
-Button,---
+Import,JacobySuperAccept
 Import,Texas
+Import,TexasOrJacoby
+#Button,---
 Import,MinorSuitStayman
 Import,MinorSuitTransfer
 Import,MSTorMSS
-Import,SizeAskingMSS
-
+Button,---
 Import,Smolen
-Import,SmolenInv
 Import,NTSplinter
+Import,Runout
+Button,---
+
+Button,---
+Button,---
+Import,Notrump
+Import,NotrumpWithSingleton
+Import,DropDeadCrawling
+#Button,---
+Import,SizeAskingMSS
+Import,SmolenInv
+#Button,---
 Import,Notrump5M6m
 
 Button,---
 Button,---
-#Button,---
 Import,GrandSlamInvite
 Import,StrongAfterNT
 Import,SlamAfterStayman
@@ -628,26 +664,30 @@ Import,SlamAfterTransfer
 Import,SlamAfterStaJac30
 Import,SlamAfterStaJac31
 Import,ExclusionStayJac
-#Button,---
 Button,---
-Import,TexasOrJacoby
-Import,JacobySuperAccept
-Import,Runout
+Button,---
+Button,---
 Import,Notrump18-19
 Button,---
 Button,---
-Import,TwoNTSmolen
-Import,TwoNTSmolenLev
-Import,TwoNTPuppet
-Import,TwoNTPuppetLev
+Button,---
+Import,TwoNT
+#Button,---
 Import,TwoNTand3C
+#Button,---
+Import,TwoNTSmolen
+Import,TwoNTPuppet
 Import,TwoNTandBalanced
 Import,TwoNTandXfer
 Import,TwoNTandMSS
 Import,TwoNTand1Minor
+Import,TwoNTin4thSeat
+Button,---
+Button,---
+Button,---
 Import,ThreeNT
-Button,---
-Button,---
+#Button,---
+#Button,---
 #Import,RuleOf16
 #Import,Rule15
 #Import,Rule16
@@ -671,23 +711,28 @@ Import,Multi2D
 Import,OppsMulti2D
 Import,Preempts
 Import,OppsPreempt
+Import,PreemptKeycard
+Import,SlamAfterPreempt
+#Button,---
 Import,Gambling
 Import,OppsGambling
-Import,SlamAfterPreempt
-Button,---
+#Button,---
 Import,NToverRHO3x
 Import,NToverLHO3x
 
 Button,We Compete in Their Auctions,,width=100% backgroundColor=lightblue
 Import,Overcalls
 Import,Snapdragon
+Import,SupportXbyAdvancer
+Button,---
 Import,TooStrongForOvercall
 Import,TooStrongForOvercall4th
 Import,Balancing
 Button,---
 Import,OBARBIDS
 Import,OBARBIDS11
-Import,Scrambling2NT
+Import,Scrambling_2NT
+Import,SandwichNtBPH
 Button,---
 Import,AfterPartnerOvercalls
 Import,JumpOvercalls
@@ -696,7 +741,8 @@ Import,JumpCuebidWeak
 Import,JumpCuebidStrong
 Import,McCabeOverWJO
 Import,GameOvercalls
-#Button,---
+Button,---
+Button,---
 Import,WeOvercall1N
 Import,WeOvercallNtThenGerber
 Import,WeOvercallNtThenStayman
@@ -705,13 +751,17 @@ Import,WeOvercallNtThenSmolen
 Import,WeOvercallNtThenTexas
 Import,WeOvercallNtThenMSS
 Import,WeOvercallNtThenMST
+Button,---
+Button,---
 Import,WeOvercallTheir2C
 Button,---
 Import,TakeoutDoubles
 Import,OppRedoubles
+Import,DoubleShowing2Suits
+Import,DoubleByAdvancer
+#Button,---
 Import,TrapPassOpener
 Import,TrapPassOpenerMaybe
-#Button,---
 Import,Weak2_X_XX
 Import,Preempt_X_XX
 Import,TwoSuitedOvercalls
@@ -722,16 +772,21 @@ Import,NonLeapingMichaelsAfter2
 #Button,---
 Import,BalancedPower
 Import,UnbalPowerDoubles
-Import,LebensohlOverWeak2
-Import,LebensohlAfter2X-P-P
+Import,LebensohlVsW2Dir
+Import,LebensohlVsW2Bal
+Import,LebensohlVsW2Combo
 Import,BetterMinorLebensohl
+
 Button,---
+Button,---
+Import,Cappelletti
+Import,OppsOpen1N
 Import,MultiLandy
 Import,Meckwell
 Import,DONT
 Import,Suction
 Button,---
-Import,OppsOpen1N
+Button,---
 
 Import,RuleOf2
 Import,MixedRaiseInComp
@@ -746,22 +801,24 @@ Button,They Compete in Our Auctions,,width=100% backgroundColor=lightblue
 Import,SupportDouble
 Import,NegativeDouble
 Import,DoubleDouble
-Button,---
-Import,AfterOppOvercalls
-Import,XferAfter1MX
 Import,MaximalDouble
+Import,AfterOppOvercalls
 Button,---
 Import,TrapPass
 Import,TrapPassMaybe
-Button,---
 Import,DealingWithOvercallsWeak
 Import,DealingWithOvercallsStrong
 
 Import,OppsTakeoutX
+Import,XferAfter1MX
+
 Import,EqualLevConv
 Import,ResponsiveDouble
 Import,OppsTakeoutXWeXX
+Import,GibOcW4
+#Button,---
 Import,OppsOvercall1NT
+Import,After1x1N
 Import,MitchellStayman
 Import,Opps2-suitedOvercalls
 Import,BergenThrumpX
@@ -778,6 +835,9 @@ Import,Lebensohl
 Import,OppsBidOverGF2C
 Import,GoodBad2N
 Import,ForcingPass
+Import,GibNtP2CBid
+Button,---
+Import,OppsBalUnusualNT
 
 Button,Bidding with BBO Robots,,width=100% backgroundColor=lightblue
 Import,Drury
@@ -791,7 +851,7 @@ Import,MinorSuitTransfer
 Import,NTSplinter
 Button,---
 Import,Lebensohl
-Import,LebensohlOverWeak2
+Import,LebensohlVsW2Combo
 Import,MixedRaiseInComp
 Button,---
 Import,BalancedPower
@@ -871,6 +931,7 @@ Import,ResponsiveDouble
 Import,NegativeFreeBid
 
 Import,Vics2CRelay
+Import,VicsBalRespTo1m
 Import,Any5422
 Import,MiniMaxiRoman
 Import,Spear

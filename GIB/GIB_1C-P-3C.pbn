@@ -1,0 +1,579 @@
+
+[Event "autoCapture"]
+[Board "203"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:73.J82.JT4.AJ863 K984.T76.A765.K7 AJ65.A94.K93.QT2 QT2.KQ53.Q82.954"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "207"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:AJ9.76.K94.98532 6543.K985.T85.AK K2.Q432.AJ7.QJT7 QT87.AJT.Q632.64"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "211"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:K84.AJ9.85.T9864 AJ7.QT73.JT62.73 652.6542.AQ4.AK5 QT93.K8.K973.QJ2"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "215"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:JT4.K32.54.Q7532 K97.985.KT3.KJ84 A62.AQT.AJ2.AT96 Q853.J764.Q9876."]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "219"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:62.T85.982.AK654 J97.A643.QT.JT83 KQT3.KJ7.AK6.Q72 A854.Q92.J7543.9"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "223"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:A4.J75.863.QT862 753.QT3.A752.A73 QJT9.A864.K9.KJ5 K862.K92.QJT4.94"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "227"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:7.A97.J974.QJT97 Q8653.J85.AT32.4 AJ9.KQ63.Q8.AK32 KT42.T42.K65.865"]
+[Contract "5C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3H      Pass    5C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "231"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:J92.85.J85.A9732 T76.KQJ.KQ94.T54 AQ85.A963.A6.KJ8 K43.T742.T732.Q6"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "235"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:76.A4.QJ74.QT953 843.K873.T65.K74 AQJ.QT9.A92.AJ86 KT952.J652.K83.2"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "239"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:JT.QT.T943.QJ432 Q9.J632.AKJ5.T85 A752.AK74.6.AK96 K8643.985.Q872.7"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "243"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:A9.542.76.KJ8754 Q432.K97.J842.AT KJ75.AJT3.AK.Q63 T86.Q86.QT953.92"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "247"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:75.QJ7.AT9.QT875 QT6.K962.Q8752.3 AK84.AT84.3.AKJ9 J932.53.KJ64.642"]
+[Contract "5C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+4C      Pass    5C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "251"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:93.Q98.982.AQJT3 AK5.A42.T754.874 QJ76.K753.K6.K95 T842.JT6.AQJ3.62"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "255"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:T5.QJ2.AJT.J6542 A7643.963.532.K7 QJ8.AKT4.K6.AQ83 K92.875.Q9874.T9"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "259"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:9.J72.J97.AJT642 KJ84.864.T653.98 QT75.AKQ5.AQ.Q53 A632.T93.K842.K7"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "263"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:T9.Q52.QJ2.K7642 J75.T93.KT83.AQ8 AKQ8.K864.75.JT3 6432.AJ7.A964.95"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "267"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:75.T9.AQ53.Q9875 AQ63.753.8762.J6 KJT8.KJ62.4.AKT3 942.AQ84.KJT9.42"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "271"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:K92.9.AT72.QT854 QJ5.T653.Q985.A7 AT3.QJ84.KJ3.K62 8764.AK72.64.J93"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "275"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:T86.8.KQT.KJ6543 943.K974.7652.Q2 KJ75.AQT5.A3.AT9 AQ2.J632.J984.87"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "279"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:T4.76.JT87.AKT53 K63.K93.Q543.862 QJ97.AJT5.A6.Q94 A852.Q842.K92.J7"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "283"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:643.A7.T74.AT972 KJ.QT92.A853.J86 AQ85.K43.Q96.K43 T972.J865.KJ2.Q5"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "287"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:KT.T54.Q95.A9753 J97.A62.KT43.T62 A83.KJ3.AJ7.KQ84 Q6542.Q987.862.J"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "291"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:93.985.AT4.QJ984 A854.JT.KQ98.T73 J762.A432.J6.AK6 KQT.KQ76.7532.52"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "295"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:964.J2.A65.J9643 QT8.T985.J9432.A KJ73.AQ76.K.KQT8 A52.K43.QT87.752"]
+[Contract "5C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3H      Pass    4C      Pass
+5C      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "299"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:A8.73.9843.AJ876 QT92.JT854.QT5.Q J74.Q92.AK6.KT53 K653.AK6.J72.942"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "303"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:T2.98.A965.87542 Q76.KQT4.JT7.JT3 8543.AJ2.KQ4.AKQ AKJ9.7653.832.96"]
+[Contract "5C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3S      Pass    4C      Pass
+5C      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "307"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:63.Q97.KJ6.Q9432 A942.T43.AT75.J6 QJ87.AK62.Q9.AKT KT5.J85.8432.875"]
+[Contract "5C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3H      Pass    5C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "311"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:Q3.J94.KJT.75432 T876.87.962.AKJ6 KJ54.AKQ.AQ3.T98 A92.T6532.8754.Q"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "315"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:AK2.J95.J9.T9843 Q75.T76.AT63.QJ6 J983.AK4.Q42.A52 T64.Q832.K875.K7"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "319"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:832.T4.T43.AJT87 AK6.Q753.J752.95 QJ.KJ82.AK8.KQ43 T9754.A96.Q96.62"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "323"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:T3.85.K98.Q98542 9764.QT63.6432.A KQ2.AKJ7.QT.KJ76 AJ85.942.AJ75.T3"]
+[Contract "5C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3H      Pass    4C      Pass
+5C      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "327"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:Q4.JT7.QJ4.KT943 9873.Q642.A872.6 AKJ5.K8.T5.AQJ52 T62.A953.K963.87"]
+[Contract "5C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3S      Pass    5C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "331"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:Q84.K2.652.QT853 T952.Q864.KT83.9 A73.AJ93.A97.AJ6 KJ6.T75.QJ4.K742"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "335"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:A5.QJ.J632.JT874 J92.8432.K875.A3 KQ84.KT75.4.KQ62 T763.A96.AQT9.95"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "339"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:K94.T4.J82.AJ982 J2.KJ82.A743.T54 A865.AQ63.QT.Q63 QT73.975.K965.K7"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "343"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:AT8.T5.742.KQT97 K97.A73.QJ65.J64 QJ52.J842.AT.A52 643.KQ96.K983.83"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "347"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:J.A92.Q986.T9643 KQT9.Q865.K54.82 A85.KJT7.JT.AKQ5 76432.43.A732.J7"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "351"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:985.6.T984.KQ752 AQ6.KT85.J7.T643 KT73.QJ9.AK6.AJ8 J42.A7432.Q532.9"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "355"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:74.A8.Q532.J8742 KJ32.Q975.64.A93 AQ9.KJ4.AJT.KT65 T865.T632.K987.Q"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "359"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:93.62.K653.AJ954 K65.9853.AJT2.QT AQT2.KJT7.9.K876 J874.AQ4.Q874.32"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "363"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:T94.6.KT63.AJ982 KQ5.J75.9875.KQ7 AJ8.AKT2.AQ.6543 7632.Q9843.J42.T"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "367"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:KQ7.Q7.952.QT983 98653.J62.QT73.7 AT.T853.AKJ.AK42 J42.AK94.864.J65"]
+[Contract "5C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3H      Pass    5C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "371"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:Q2.J43.K93.Q8753 A976.87.J64.AT94 K854.AQ6.AQ8.KJ6 JT3.KT952.T752.2"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "375"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:K98.97.975.AQ954 Q65.T83.AT83.K73 AJ4.K642.KJ2.J86 T732.AQJ5.Q64.T2"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "379"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:85.Q75.532.AJT73 642.AT86.JT986.Q KQT3.KJ4.A.K9865 AJ97.932.KQ74.42"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "383"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:754.J64.JT.AQJ53 Q962.Q873.A82.T2 AK83.AT5.KQ9.K98 JT.K92.76543.764"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "387"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:K.653.742.KT9652 A875.T84.KJT.J84 Q62.KQJ9.A83.AQ7 JT943.A72.Q965.3"]
+[Contract "3NT"]
+[Auction "S"]
+1C      Pass    3C      Pass
+3NT     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "391"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:QJ8.QT4.52.QJT42 T54.J653.AQ83.93 AK32.972.K76.A65 976.AK8.JT94.K87"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "395"]
+[Dealer "S"]
+[Vulnerable "none"]
+[Deal "N:K2.653.K5.Q97642 T753.Q84.QJ73.A3 AJ6.AKJ7.T64.JT5 Q984.T92.A982.K8"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "399"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:T96.J7.T97.AQT95 J843.T65.AJ62.K6 K75.A832.KQ3.J72 AQ2.KQ94.854.843"]
+[Contract "3C"]
+[Auction "S"]
+1C      Pass    3C      Pass
+Pass    Pass    
+

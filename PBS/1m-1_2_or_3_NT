@@ -1,14 +1,16 @@
 Script,NtAfter1m
 setDealerCode(`
 
-# South opens 1C or 1D with no other constraints
-# North has any 4333 hand with the following ranges
-#
-#  6-9  with at least Qxx in each unbid suit -- no requirement for opener's suit
-# 10-12 with at least Kxx or QJx in each unbid suit AND at least Qxx in the opener's suit
-# 13-15 same as 10-12
+/*
+South opens 1C or 1D with no other constraints
+North has any 4333 hand with the following ranges
 
-# auction-filter: Auction.....\\n1[CD].Pass.[123]NT
+ 6-9  with at least Qxx in each unbid suit -- no requirement for opener's suit
+10-12 with at least Kxx or QJx in each unbid suit AND at least Qxx in the opener's suit
+13-15 same as 10-12
+
+auction-filter: Auction.....\n1[CD] +Pass +
+*/
 
 dealer south
 
@@ -16,6 +18,8 @@ Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/scri
 # Defines calmWest
 Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Predict-Opening-1-Bid
 # Defines oneClub, oneDiamond
+Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/TP
+# Defines tpSouth
 
 # Define suit quality for NT -- Qxx opener's suit and Kxx or QJx in unbid suits
 nC2 = hcp(north,clubs)>1         // at least Qxx
@@ -28,7 +32,11 @@ nM3 = hcp(north,hearts)>2 and hcp(north,spades)>2
 # Define North's response ranges
 n1 = hcp(north)>5  and hcp(north)<10
 n2 = hcp(north)>9  and hcp(north)<13
-n3 = hcp(north)>13 and hcp(north)<16
+n3 = hcp(north)>12 and hcp(north)<16
+
+# For opening with minimum values, require extra suit length
+sMin = hcp(south)<12 and tpSouth<13
+sShape = sMin ? shape(south,any 7xxx+any 6xxx) : shape(south, xxxx)
 
 # South bids 1C or 1D and North responds 1N or 2/3N
 s1Cn1N = oneClub    and nD2 and nM2 and n1           // 1C - 1N with 2 hcp in unbid suits
@@ -46,8 +54,10 @@ s1m3N  = s1Cn3N or s1Dn3N
 nAny4   = shape(north,any 4333)   // any 4333
 nMajor4 = shape(north,4333+3433)  // either major
 
+sRange = tpSouth>11 and hcp(south)>10 and tpSouth<22 and hcp(south)<23
+
 # Now do it
-(s1m1N or s1m2N or s1m3N) and calmWest and (nAny4 or nMajor4)
+(s1m1N or s1m2N or s1m3N) and sRange and sShape and calmWest and (nAny4 or nMajor4)
 
 action
 

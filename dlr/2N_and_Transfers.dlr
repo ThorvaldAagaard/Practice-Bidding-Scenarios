@@ -4,8 +4,10 @@
 dealer south
 
 
-# convention-card:
-# auction-filter: Auction.....\\n2NT.Pass.[34][DH].
+/*
+convention-card:
+auction-filter: Auction.....\n2NT?.*Pass.*[34][DH] +
+*/
 
 ### 2N and Transfers ###
 
@@ -41,7 +43,7 @@ twoNT   = TwoNtShape and hcp(south)>19 and hcp(south)<22
 threeNT = TwoNtShape and hcp(south)>24 and hcp(south)<28
 
 # Define Game Forcing 2C
-case1 = hcp(south)>22
+case1 = hcp(south)>21
 case2 = hcp(south)>18 and losers(south)<5 and (spades(south)>5 or hearts(south)>5)
 case3 = hcp(south)>18 and losers(south)<4 and (diamonds(south)>5 or clubs(south)>5)
 gameForce2C = (case1 or case2 or case3) and not threeNT
@@ -68,19 +70,29 @@ oneClub    = oC
 
 ##### End of Imported Script -- Predict Opening 1-Bid #####
 
-### NORTH Constraints ###
+### NORTH ###
+
+# Define suit lengths
+cN = clubs(north)
+dN = diamonds(north)
+hN = hearts(north)
+sN = spades(north)
+
 # Calculate strength for North -- hcp plus 1 for every card over 4 in any suit 
-nlp1 = spades(north)>4 ? spades(north)-4 : 0
-nlp2 = hearts(north)>4 ? hearts(north)-4 : 0
-nlp3 = diamonds(north)>4 ? diamonds(north)-4 : 0
-nlp4 = clubs(north)>4 ? clubs(north)-4 : 0
+nlp1 = sN>4 ? sN-4 : 0
+nlp2 = hN>4 ? hN-4 : 0
+nlp3 = dN>4 ? dN-4 : 0
+nlp4 = cN>4 ? cN-4 : 0
 strength = nlp1 + nlp2 + nlp3 + nlp4 + hcp(north)
 
-jacoby = shape(north,5xxx+x5xx-any 6xxx- any 55xx)
-texas  = shape(north,6xxx+x6xx-any 65xx-any 55xx)
-
+# Define objective
+weak = strength<5
 game = strength>4 and strength<12
 slam = strength>11
+
+# Define Responses
+texas    = (sN>5 or hN>5) and (game or slam)
+jacoby   = ((sN>4 and hN<4) or (hN>4 and sN<4)) and not texas  // no strength requirement
 
 ### Imported Leveling Code ###
 c1 = hascard(west,2C)

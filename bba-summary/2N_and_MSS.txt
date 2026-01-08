@@ -3,672 +3,683 @@
                         -- Sorted by Board Number --
 brd# dlr contract score  par     north            east             south            west             | auction...   | notes
 ---- --- -------- -----  ------  ---------------- ---------------- ---------------- ---------------- | ------------------------- 
-1     S  6N-S       990          T3.A8.KJT4.QJT74 J5.KJ632.872.986 AK92.T5.AQ63.AK3 Q8764.Q974.95.52 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-2     S  7C-S      2140          AQ8.8.KJ863.KT75 J.Q6532.QT942.42 K96.AKJT.A5.AQ96 T75432.974.7.J83 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen and !S king
-3     S  3N-S       430          J8.QT.KQT32.QT54 A965.K982.975.96 QT73.AJ3.AJ6.AKJ K42.7654.84.8732 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-4     S  6N-S      1440          Q2.KJ.AT864.Q873 A98765.9876..JT6 K43.A2.KQJ92.AK4 JT.QT543.753.952 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-5     S  6N-S      1440          Q8.K3.KQ876.QJT6 J76.QT5.953.K932 AK95.A9742.AJ.A8 T432.J86.T42.754 | 1H-P-2D-P-2S-P-3C-P-4N=1=-P-5C=2=-P-6N | Blackwood 0314, for !C | A=0/5 or 3/5
-6     S  3N-S       400          54.Q9.J863.KT963 JT9832.J3.T972.8 A6.AKT62.AQ.QJ75 KQ7.8754.K54.A42 | 2N-P-3N
-7     S  3N-S       600          JT8.3.KQ652.T852 65.KJT92.JT987.9 K94.A7654.A3.AKQ AQ732.Q8.4.J7643 | 2N-P-3N
-8     S  6N-S       990          AK.Q2.QJT5.QJT96 T843.AT74.9742.2 QJ76.K53.AK6.AK8 952.J986.83.7543 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6N | Minor Suit Stayman after 2NT | Artificial
-9     S  4S-S       450          K93.4.J8652.K764 Q82.QJ7.Q7.JT852 A654.AK965.K3.AQ JT7.T832.AT94.93 | 1H-P-1N=1=-P-2S-P-3S-P-3N-P-4S | Forcing 1NT
-10    S  6C-S      1370          K.Q92.KQ654.K874 J43.AJT653.93.53 AQ8.K87.AJ7.AQ92 T97652.4.T82.JT6 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-11    S  7D-S      1440          4.74.KT875.AKQ75 JT632.J965.J4.32 AKQ7.A8.AQ632.JT 985.KQT32.9.9864 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-12    S  7D-S      -100          93.J6.AKT7.AT653 74.KQT84.932.874 AQJ5.A7.QJ86.KQJ KT862.9532.54.92 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5S=4=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1
-13    S  6D-S      1370          93.J4.KQJ97.KJT3 T62.KT962.32.975 KQJ85.AQ.AT86.A6 A74.8753.54.Q842 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-14    S  6N-S       990          A2.QT.AJ82.87653 JT93.82.QT763.92 Q85.AK965.K5.AKQ K764.J743.94.JT4 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-15    S  3N-S       600          T6.94.K974.AT962 AQ875.T2.AT865.5 K2.AKQJ5.QJ2.KJ4 J943.8763.3.Q873 | 2N-P-3N
-16    S  6C-S       920          A42.7.A742.QJ975 JT98753.Q53.5.32 KQ.AKJ96.KQ.K864 6.T842.JT9863.AT | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5H=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=0
-17    S  3N-S       460          J9.85.J872.AKT86 Q83.Q9643.965.J2 AK64.KJT7.AKQ.94 T752.A2.T43.Q753 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-18    S  3N-S       660          Q2.8.KQ752.KT942 AJ76.KT542.T.J76 KT94.AQJ6.A8.AQ8 853.973.J9643.53 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-19    S  5D-S       -50          8.9.Q98654.Q9854 JT973.QT8654.T7. AKQ54.KJ.KJ32.A7 62.A732.A.KJT632 | 2N-P-4S=1=-P-5D | Minors
-20    S  3N-S       630          T4.7.K9654.A8743 98652.98.JT2.QJ5 AKQJ.AQ53.Q73.K9 73.KJT642.A8.T62 | 2N-P-3N
-21    S  3N-S      -100          652.4.A8542.Q986 K43.9753.KJT.542 J8.AKQT6.Q7.AKJ7 AQT97.J82.963.T3 | 2N-P-3N
-22    S  6N-S       -50          3.T84.AK943.A942 JT92.Q7532.Q7.T7 AKQ86.AK6.JT5.QJ 754.J9.862.K8653 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-23    S  6C-S      1370          KT.63.AK863.J982 Q753.T8.T754.A73 A86.AKQJ7.J2.KQT J942.9542.Q9.654 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6C | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-24    S  3N-S       430          4.T76.KQ85.KT985 AT72.85.T9643.72 KQ53.AKJ4.A7.QJ6 J986.Q932.J2.A43 | 2N-P-3N
-25    S  5C-N       400          Q.Q83.QJ63.Q9876 AT987.JT75.52.53 K6.AK92.KT98.AKJ J5432.64.A74.T42 | 2N-P-3S=1=-X-4D-P-5C | Minor Suit Stayman after 2NT
-26    S  3N-N       690          .873.AK987.K9874 J4.QJT5.JT63.Q52 AKT96.AK94.Q2.AJ Q87532.62.54.T63 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-27    S  3N-S       430          3.KQ5.QT975.J985 T972.A93.862.T63 AQ854.642.AK4.AK KJ6.JT87.J3.Q742 | 2N-P-3N
-28    S  3N-S       630          5.T2.K8752.A9642 QJ96.AJ83.T94.J5 AKT7.KQ6.A3.KQT8 8432.9754.QJ6.73 | 2N-P-3N
-29    S  3N-S       630          J86.5.K7653.KT54 52.QJ973.842.982 Q3.AK82.AQJT.AJ7 AKT974.T64.9.Q63 | 2N-P-3N
-30    S  3N-S       430          932.J.AT75.K9765 754.KQT98654..J4 AKQ8.A2.J4.AQT82 JT6.73.KQ98632.3 | 2N-3D-3N
-31    S  6N-S      1440          9.A7.AK942.JT542 6432.JT92.T86.Q9 AK5.KQ5.J753.AK7 QJT87.8643.Q.863 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5H=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
-32    S  3N-S       400          4.KJ8.Q7432.JT76 865.Q962.A96.K98 AKQT3.A73.J5.AQ4 J972.T54.KT8.532 | 2N-P-3N
-33    S  6C-S       920          4.J72.AKQ3.QJT83 QJ7652.A653.T4.7 AKT9.KQT.J7.AK62 83.984.98652.954 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-34    S  3N-S       660          J9.54.AQ63.Q8754 KT76542.73.J75.6 Q83.AKJ8.KT8.AK9 A.QT962.942.JT32 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-35    S  3N-S       400          86.32.AKJT9.9752 J9543.KJ97.Q85.4 AQ.AQT6.732.AKJ6 KT72.854.64.QT83 | 2N-P-3N
-36    S  6D-S      1370          KT4.J.QJ86.KQ987 762.T653.T43.T52 AJ93.AK9.A975.AJ Q85.Q8742.K2.643 | 2N-P-3S=1=-P-4D=2=-P-6D | Minor Suit Stayman after 2NT | Artificial
-37    S  6C-S      1370          6.J95.AQ92.KJ753 KQT9.T8642.3.Q84 AJ743.AK3.KJ.A96 852.Q7.T87654.T2 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6C | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-38    S  3N-N       490          J6.Q7.AKJ5.J9654 T742.432.QT9.872 AKQ8.AJ965.63.AK 953.KT8.8742.QT3 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
-39    S  6D-S      1370          K93.4.Q9765.KQJ6 JT65.QT32..T8532 AQ8.KJ95.AK83.A7 742.A876.JT42.94 | 2N-P-3S=1=-P-4D=2=-P-6D | Minor Suit Stayman after 2NT | Artificial
-40    S  5D-N       -50          6.3.AT9762.76542 T9872.K876.54.T9 AKQ.AJ95.J83.KQ8 J543.QT42.KQ.AJ3 | 2N-P-4S=1=-P-5C-P-5D | Minors
-41    S  3N-S       400          972.Q.T7542.A964 QT5.874.K986.J85 AK63.AJT3.AQ3.K2 J84.K9652.J.QT73 | 2N-P-3N
-42    S  3N-S       600          T95.7.JT854.KQ84 AJ4.K65.K963.T76 KQ87.AQT4.AQ2.A5 632.J9832.7.J932 | 2N-P-3N
-43    S  6N-S       990          6.K8.AKJT4.87654 9432.9542.Q65.K9 AKQT5.AQJ.87.A32 J87.T763.932.QJT | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-44    S  3N-S       600          3.763.T987.AQ972 9764.T52.K52.T86 KQJT.AK8.A43.KJ5 A852.QJ94.QJ6.43 | 2N-P-3N
-45    S  3N-S       600          7.542.J652.AJ765 KQJ6.QT9.T973.K9 AT952.AK7.AK.Q42 843.J863.Q84.T83 | 2N-P-3N
-46    S  3N-N       460          .A6.KQT43.K97643 T987643.JT32..J2 AKQJ5.KQ75.J9.A5 2.984.A87652.QT8 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-47    S  3N-S       630          J62.6.J864.AQT93 T94.A732.32.J865 A85.KJT54.AKQ.K4 KQ73.Q98.T975.72 | 2N-P-3N
-48    S  6N-S       990          KQ.J5.KQ953.K875 932.98763.T742.6 JT.AKQ2.AJ8.AJ32 A87654.T4.6.QT94 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-49    S  5D-S       420          A7.Q3.Q432.A5432 4.8762.K75.QJT97 KQ3.AKJ4.AT86.K6 JT98652.T95.J9.8 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-50    S  5C-S       620          K7.Q3.K832.JT752 932.KJT84.AJT5.4 AQ86.A76.Q6.AKQ6 JT54.952.974.983 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4S=5=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Cue bid, a !S stopper
-51    S  7D-S      1440          7.872.AQT84.AJ74 K52.KJ963.6.T632 AJ84.AQT.KJ95.KQ QT963.54.732.985 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-52    S  7N-S      2220          K6.A6.QJT9.KQ632 J7543.J987.8.954 A98.KQ3.AK4.AJT7 QT2.T542.76532.8 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-53    S  3N-N       660          Q8.43.KQ32.QJ975 K4.QJ9752.J75.T2 AJ763.AK86.A9.A6 T952.T.T864.K843 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-54    S  6N-S       990          A2.A2.QJT94.A832 7543.T976.82.T94 KQT96.KJ.AK3.KJ6 J8.Q8543.765.Q75 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-55    S  3N-N       660          J8.76.K9432.AQJ5 A74.985.JT875.32 KT653.AKJ4.AQ.K6 Q92.QT32.6.T9874 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-56    S  6N-S      1020          42.8.KQJ94.AKT84 J7.J964.T8753.72 AKQ3.AQT72.A6.Q3 T9865.K53.2.J965 | 1H-P-2D-P-2S-P-3C-P-4N=1=-P-5H=2=-P-5N=3=-P-6D=4=-P-6N | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=0 | King ask by 5NT | K=1
-57    S  6NX-S     1230          K95.Q.KJ987.Q953 8643.T963.T.T864 AT2.AJ54.A52.AK7 QJ7.K872.Q643.J2 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N-X | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-58    S  3N-S       660          J4.K9.KT64.J9743 KT7632.J76.32.T6 A8.Q82.AQ975.AKQ Q95.AT543.J8.852 | 2N-P-3N
-59    S  3N-S       460          T.K43.Q8732.KJT5 952.7652.AJ54.Q8 AKQ83.AJT.KT.A74 J764.Q98.96.9632 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-60    S  7CX-S     -200          3.87.AT832.KQJ73 KT876.T5.KQ96.95 AQ4.AKQ6.J4.AT42 J952.J9432.75.86 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-7C-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-61    S  6N-S      1440          Q.Q87.KQ987.A873 AT6542.J2.54.T95 KJ73.AK.A62.KQJ2 98.T96543.JT3.64 | 2N-P-3S=1=-X-4C-P-6N | Minor Suit Stayman after 2NT
-62    S  6N-S       -50          A4.J8.KJT72.QT96 T532.Q7.Q94.A432 KQJ6.AK94.A86.K8 987.T6532.53.J75 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-63    S  6N-S      1440          J4.92.A9876.AQJ5 86532.T6.K4.KT72 AKQ9.AKQ3.QJ.864 T7.J8754.T532.93 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-64    S  3N-S       430          62.KJ.QT543.Q952 KJT5.76532.J.864 AQ43.Q9.AK962.AJ 987.AT84.87.KT73 | 2N-P-3N
-65    S  4N-S       460          AT.T8.QJ765.A976 KJ52.Q6432.T3.53 Q93.AKJ95.A8.KQJ 8764.7.K942.T842 | 2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-66    S  3N-S       630          K.JT6.K9743.9876 Q764.AQ4.JT8.J54 AJT5.K8.AQ5.AKT2 9832.97532.62.Q3 | 2N-P-3N
-67    S  3N-S       460          Q.A6.J9543.KT973 A7.KT7432.QT6.85 K9842.QJ5.AK.AQJ JT653.98.872.642 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-68    S  5C-N       620          83.T9.T642.AKQT6 J9654.3.KQ9873.8 AKT.AK654.AJ.J54 Q72.QJ872.5.9732 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
-69    S  6D-S      1390          9.Q8.AK764.Q8543 KQJ863.T942.8.72 A5.AK6.QT952.AKT T742.J753.J3.J96 | 2N-P-3S=1=-X-4D-P-6D | Minor Suit Stayman after 2NT
-70    S  5C-S       420          KQ.J7.QT97.QJ972 T6432.K932.J432. AJ87.AT8.AK.A863 95.Q654.865.KT54 | 2N-P-3S=1=-P-4C=2=-P-4S=3=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-71    S  3N-S       600          74.95.AT54.Q9765 9853.63.732.KT84 AKJ.AK42.986.AJ2 QT62.QJT87.KQJ.3 | 2N-P-3N
-72    S  6C-S       920          T65.Q.J954.KQJT4 QJ97432.875.82.5 AK.AJ42.KQT.A973 8.KT963.A763.862 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-73    S  3N-S       490          84.32.AKJ75.Q982 J32.KQJ987.9632. AK97.AT4.QT8.AK5 QT65.65.4.JT7643 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-74    S  3N-S       600          .Q94.KJT63.JT954 KJ873.J653..A872 AQ654.AK.A984.K6 T92.T872.Q752.Q3 | 2N-P-3N
-75    S  3N-S       400          86.Q2.KT93.J9874 A943.64.J654.AT5 KQJ.KT98.AQ87.KQ T752.AJ753.2.632 | 2N-P-3N
-76    S  3N-S       660          A.Q86.Q9654.T975 Q98732.94.872.K8 654.AKT2.AKJ.AQ4 KJT.J753.T3.J632 | 2N-P-3N
-77    S  3N-S       600          5.K87.JT742.QT97 AJ873.Q62.953.42 KQ92.AT94.KQ.AK8 T64.J53.A86.J653 | 2N-P-3N
-78    S  6N-S       -50          T95.7.AJ92.KQJ74 K763.J9865.Q743. AQ8.AK42.KT5.A63 J42.QT3.86.T9852 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-79    S  3N-S       600          Q.JT2.96542.K964 J865432.983.3.T8 AK.Q7654.KQT.AQ2 T97.AK.AJ87.J753 | 2N-P-3N
-80    S  6N-S       990          J85.9.AQ43.KQ862 T6.J75432.8752.3 A72.AKQT.KT6.AJT KQ943.86.J9.9754 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-81    S  3N-S       460          943.Q.JT983.AQ52 86.T7653.K642.97 AKJT.AJ84.A7.KJT Q752.K92.Q5.8643 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-82    S  3N-S       630          5.QJ9.JT743.Q984 K9863.T52.Q985.5 A7.AK764.K6.AKT2 QJT42.83.A2.J763 | 2N-P-3N
-83    S  6D-S       -50          KQ5.T.K7632.QT54 873.J7532.J5.876 AT42.KQ4.AT98.AK J96.A986.Q4.J932 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-84    S  6C-S      1370          5.J84.KQJ73.A964 JT9832.Q9.42.832 AQ4.AK32.A8.KJT5 K76.T765.T965.Q7 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
-85    S  3N-S       600          87.JT.J842.KJT65 A6.97652.976.742 KQ952.AK.AKT3.Q9 JT43.Q843.Q5.A83 | 2N-P-3N
-86    S  6N-S       990          7.J92.AK96.AJT65 T54.KT83.2.98432 AKQ93.AQ7.543.KQ J862.654.QJT87.7 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-87    S  3N-S       630          KT7.7.J962.KJT85 8542.AQ54.Q43.Q7 AQ9.K8632.AKT.A4 J63.JT9.875.9632 | 2N-P-3N
-88    S  3N-S       460          Q3.87.QJ962.A642 T972.T5.AT4.T975 A865.AK96.K3.KQJ KJ4.QJ432.875.83 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-89    S  3N-S       430          98.32.T982.AKT87 .J9864.AKQ753.92 AK4.AKQT7.J6.QJ4 QJT76532.5.4.653 | 2N-3S-3N
-90    S  4H-S       680          4.A96.KT643.KJ82 73.43.J875.97654 AKJ5.KQT52.AQ.QT QT9862.J87.92.A3 | 1H-2S-3H-P-3S=1=-P-4D=2=-P-4H | Cue bid, a !S stopper | Cue bid, a !D stopper
-91    S  3N-S       400          9.7.AJT843.98542 A8742.J942.96.KT K6.AKQ83.KQ75.QJ QJT53.T65.2.A763 | 2N-P-3N
-92    S  6N-S      1470          Q3.JT.A8652.KQJ7 984.Q8432.JT.985 AKT2.A76.KQ3.AT6 J765.K95.974.432 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-93    S  5D-S       620          K7.43.AQ64.QT642 98.95.J73.K98753 AQ.AKT82.K952.AJ JT65432.QJ76.T8. | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-94    S  3N-S       430          2.Q65.A8542.QT72 K98753.KT432.Q9. AQJT4.A98.K6.AK9 6.J7.JT73.J86543 | 2N-P-3N
-95    S  7C-S      -100          T92.3.AQJ3.KQT42 J8764.9764.KT8.7 AK5.AKJ.97.AJ983 Q3.QT852.6542.65 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-96    S  3N-S       460          6.A2.QJT85.JT865 J8.T983.7642.943 AQ73.QJ7.AK9.KQ7 KT9542.K654.3.A2 | 2N-P-3N
-97    S  7C-S       -50          A.AJ2.T742.K8732 QT76.K843.96.654 KJ4.QT7.AK8.AQJ9 98532.965.QJ53.T | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5S=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
-98    S  6D-S      -100          A3.T4.9753.KQ954 T74.AK8763..T762 K92.QJ5.AKQ64.AJ QJ865.92.JT82.83 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-99    S  3N-S       430          Q9.7.QJ975.Q9542 T7432.AJ932.63.8 AKJ.KQT54.AK2.J6 865.86.T84.AKT73 | 2N-P-3N
-100   S  6N-S      -100          Q95.4.J854.AKJ65 AT43.JT93.9.8742 KJ76.AKQ8.AQ6.Q9 82.7652.KT732.T3 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-101   S  3N-S       600          J6.Q4.JT852.Q986 A4.AJT.973.JT752 KQ93.K976.AKQ.K4 T8752.8532.64.A3 | 2N-P-3N
-102   S  7N-S      1520          4.4.AKQ752.QJT52 T72.Q98653.63.86 AKQ5.AJ.984.AK97 J9863.KT72.JT.43 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-103   S  7DX-S     2330          7.A74.A6432.A643 T8542.532.T.JT97 AJ6.KQJ6.KQJ9.K5 KQ93.T98.875.Q82 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5S=4=-P-7D-P-P-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1
-104   S  3N-S       400          J73.8.JT864.A753 954.J32.Q9752.T4 KT8.AKQ6.A3.KJ96 AQ62.T9754.K.Q82 | 2N-P-3N
-105   S  3N-S       430          82.T8.AQJ92.J842 KJ74.7642.764.T5 AQT65.A53.K3.AK7 93.KQJ9.T85.Q963 | 2N-P-3N
-106   S  6D-S      1370          983.5.AKJ6.KJ532 J64.98742.32.T96 AKQ2.AQ6.T985.AQ T75.KJT3.Q74.874 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-6D=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | No !D queen
-107   S  6D-S       920          2.A6.T7643.KQ754 K87654.KT9.J9.92 AQJ9.Q73.AK52.A8 T3.J8542.Q8.JT63 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-6D=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | No !D queen
-108   S  6C-S      1370          86.62.AT876.KQ93 JT743.Q9754.42.8 K5.AK3.KQJ3.AJT7 AQ92.JT8.95.6542 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5H=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=0
-109   S  1S-S       110          6.7.K6542.Q87652 T73.T8543.JT73.J AQJ52.AKQJ.98.K4 K984.962.AQ.AT93 | 1S
-110   S  3N-S       460          A5.Q2.KT62.98752 Q62.J96.J874.T64 KT94.AT4.AQ3.AKJ J873.K8753.95.Q3 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-111   S  3N-S       600          Q2.J5.K974.JT962 A75.T74.T8532.Q7 KJ43.AK6.AQ.K854 T986.Q9832.J6.A3 | 2N-P-3N
-112   S  6C-S       920          2.K87.KJT72.A765 J864.J932.53.Q43 AT7.AQ6.AQ8.KJ92 KQ953.T54.964.T8 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
-113   S  6D-S       920          Q8.Q8.KQT86.Q842 T5432.7652.32.KT AK.KJT4.AJ97.AJ5 J976.A93.54.9763 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-114   S  7N-S      2220          T9.K7.AKQ4.QT972 76543.JT3.J92.84 AK.AQ5.T865.AKJ3 QJ82.98642.73.65 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-115   S  3N-N       490          J8.94.KT93.AK952 A9654.87.J8765.8 KQ72.AKQ63.A2.Q3 T3.JT52.Q4.JT764 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
-116   S  3N-S       630          J42.9.AKJ5.J8542 753.KJ8652.93.96 AKQT6.AQ3.Q86.KT 98.T74.T742.AQ73 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-117   S  7N-S      -200          T.7.KT876.AQT532 432.J9642.5.K974 AKJ7.AT8.AQJ9.J6 Q9865.KQ53.432.8 | 2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5C=6=-P-5H-P-5S=7=-P-7N | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-118   S  6C-S       940          A.J72.AQ632.J862 QJ953.843.T95.T9 76.AKT6.KJ4.AKQ3 KT842.Q95.87.754 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-5N=5=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen no !S king
-119   S  3N-S       600          3.3.T65432.KQJ62 T75.AQ96542.J7.5 AK92.KJT7.KQ.AT9 QJ864.8.A98.8743 | 2N-P-3N
-120   S  6D-S       920          Q87.8.QT764.KQ84 KT93.764.K53.765 AJ65.AK.A982.AJT 42.QJT9532.J.932 | 2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper
-121   S  3N-S       400          Q3.54.K975.QT765 T8654.K72.T62.84 AJ2.AQJ6.QJ.AJ92 K97.T983.A843.K3 | 2N-P-3N
-122   S  6C-S      1370          63.AJ.Q986.KJ985 JT84.K76542.754. AKQ2.QT.AJ2.AT62 975.983.KT3.Q743 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
-123   S  3N-S       400          K.J82.J754.J7652 QJ863.953.KT6.K4 AT72.AQ6.A932.AQ 954.KT74.Q8.T983 | 2N-P-3N
-124   S  3N-S      -100          T.7.J9653.KQ9654 Q862.J9632.KT7.2 J54.AKQ5.AQ2.AT8 AK973.T84.84.J73 | 2N-P-3N
-125   S  3N-S       600          Q4.65.QT632.Q962 AT6.872.K987.KT5 K972.AKJ.AJ4.A74 J853.QT943.5.J83 | 2N-P-3N
-126   S  3N-S       460          QJ7.9.J965.A7642 T8432.743.QT4.Q8 AK9.KT862.AK8.KJ 65.AQJ5.732.T953 | 2N-P-3N
-127   S  3N-N       660          J9.K8.KJ63.J6543 876.T73.T982.K87 KT54.AQJ94.A7.AQ AQ32.652.Q54.T92 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
-128   S  6N-S       990          J.QJ9.AKT87.9832 KQ9542.T64.94.75 AT76.AK53.J3.AKJ 83.872.Q652.QT64 | 2N-P-3S=1=-X-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-129   S  3N-S       460          KJ4.J.Q9763.QT54 Q976.KQ652.J82.3 A8.AT984.AKT.AJ9 T532.73.54.K8762 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-130   S  6DX-S     -200          Q8.Q.QJ742.K8764 AT5.JT53.T3.AJT3 KJ.AK74.AK985.Q9 976432.9862.6.52 | 2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-6D-X | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper
-131   S  6N-S       990          QJT.Q.QJT94.AT83 842.8765.763.742 AK96.AT2.A2.KQ65 753.KJ943.K85.J9 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-5S=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen and !S king
-132   S  6C-S      1370          A.2.KT9653.KT954 J743.T875.7.J763 K8.KJ9.AQJ4.AQ82 QT9652.AQ643.82. | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5S=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
-133   S  5C-S       600          Q.J63.QJT74.KT62 AT96.QT9754.86.4 K875.AK.AK.QJ985 J432.82.9532.A73 | 2N-P-3S=1=-P-4C=2=-P-4S=3=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-134   S  3N-S       400          T65.4.QJT53.KT76 J7.86532.987.Q52 AQ2.AKQ.64.AJ984 K9843.JT97.AK2.3 | 2N-P-3N
-135   S  6N-S      1440          5.A53.K6543.A632 642.QT6.Q9.JT985 AKQ3.KJ4.AJT.K74 JT987.9872.872.Q | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-136   S  7N-S      1520          6.AK3.KQJ85.AJT6 T854.87.T964.942 AKQ2.Q642.A7.KQ3 J973.JT95.32.875 | 2N-P-3S=1=-P-3N=2=-P-7N | Minor Suit Stayman after 2NT | Artificial
-137   S  6D-S       920          J72..AQ952.QJ953 T65.KQT963.T8.A6 AKQ4.A5.KJ43.K84 983.J8742.76.T72 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-138   S  3N-S       600          Q8.95.QJT9.J9842 K5.T84.A8742.T76 AJ6.AKQJ3.53.KQ5 T97432.762.K6.A3 | 2N-P-3N
-139   S  3N-S       430          3.K82.JT985.KT62 9864.A7543.42.54 AKQJT.J6.AK3.QJ7 752.QT9.Q76.A983 | 2N-P-3N
-140   S  5D-N       600          6.J2.KQ652.KT542 KQT42.T4.JT93.76 A87.AK987.A7.AJ9 J953.Q653.84.Q83 | 2N-P-3S=1=-X-3N=2=-4S-5D | Minor Suit Stayman after 2NT | Artificial
-141   S  3N-S       690          AQ.T2.Q954.KJ864 64.964.T72.97532 K2.AKJ83.AKJ6.QT JT98753.Q75.83.A | 2N-3S-3N
-142   S  3N-S       400          T3.85.A8432.QJT4 KQ9764.KT73.T.K2 A52.AQJ42.KQ.A86 J8.96.J9765.9753 | 2N-P-3N
-143   S  6N-S      1440          AQ7.7.KJ82.QT654 JT93.KJ863.Q.J97 K64.AQT2.A54.AK8 852.954.T9763.32 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-144   S  3N-S       460          K2.JT.QT974.Q753 Q974.K82.62.JT98 A5.AQ3.KJ853.AK6 JT863.97654.A.42 | 2N-P-3N
-145   S  3N-S       400          Q8.T7.KJ43.J8752 654.K863.A986.T4 AKT9.A954.Q7.AK6 J732.QJ2.T52.Q93 | 2N-P-3N
-146   S  3N-S       600          874.7.AJT52.J985 T3.JT9543.Q3.KT4 AKJ2.AKQ6.964.A6 Q965.82.K87.Q732 | 2N-P-3N
-147   S  3N-S       460          JT.Q7.K863.KJ842 973.JT954.5.Q976 AQ54.AK83.QJ7.A5 K862.62.AT942.T3 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-148   S  3N-S       600          4.T3.KQT93.86542 T97653.J6.J762.A KJ.AK72.A4.KQT97 AQ82.Q9854.85.J3 | 2N-P-3N
-149   S  3N-S      -100          JT6.5.A9852.K752 K42.T98743.643.9 AQ7.Q2.KQJ.AQT86 9853.AKJ6.T7.J43 | 2N-P-3N
-150   S  5D-N       420          5.3.AQJ85.A97643 97.QJ9864.6432.T AK862.AK.KT7.QJ2 QJT43.T752.9.K85 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-5D | Minor Suit Stayman after 2NT | Artificial
-151   S  3N-S       630          5.QJT.AJT97.9765 QT984.63.843.QJ8 K73.AK952.K6.AK4 AJ62.874.Q52.T32 | 2N-P-3N
-152   S  4N-S       460          QT.K6.8632.AQT65 J8764.9853.5.842 AK.AJ742.KJT.KJ9 9532.QT.AQ974.73 | 2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-153   S  3N-S       430          QJ.J7.QJ984.Q643 7643.9652.KT72.T AK98.AQT4.A63.A9 T52.K83.5.KJ8752 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-154   S  6N-S      1440          72.A4.QJ973.KJ64 QJ543.J982.T65.5 AK986.KQ.AK8.Q83 T.T7653.42.AT972 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-155   S  6N-S       990          A.53.Q9853.KQ974 K8532.KJ642.J7.5 QJ.AQ7.AKT4.AT62 T9764.T98.62.J83 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-156   S  3N-S      -200          4.98.KJ954.Q8764 T83.AK742.83.952 KQJ92.JT5.AQ.AKJ A765.Q63.T762.T3 | 2N-P-3N
-157   S  3N-S       630          63.2.KJ987.KJ987 KJ2.QJT74.632.Q6 AQ97.A85.AQ4.A54 T854.K963.T5.T32 | 2N-P-3N
-158   S  4N-S       460          73.AJ.KT53.KT853 J652.963.A87.J96 AKQ84.Q52.QJ.AQ2 T9.KT874.9642.74 | 2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-159   S  3N-S       600          65.63.AQ965.9765 K874.98742.J4.QT AJ2.AKJ.T7.AKJ84 QT93.QT5.K832.32 | 2N-P-3N
-160   S  6C-S       920          K.K54.KJ762.T754 T653.J62.Q985.Q8 AJ.AQ9.AT4.AJ962 Q98742.T873.3.K3 | 2N-P-3S=1=-P-4C=2=-P-6C | Minor Suit Stayman after 2NT | Artificial
-161   S  7N-N       -50          K.KQ8.Q9542.KQ82 J7654..KT73.J653 AQT98.AJT9.AJ.A9 32.765432.86.T74 | 1S-P-2D-P-3H-P-3N-P-7N
-162   S  3N-S       600          4.973.AT876.QT54 KQ5.JT6.J532.K97 A32.AK84.KQ4.A63 JT9876.Q52.9.J82 | 2N-P-3N
-163   S  3N-S       400          AT.43.T7642.KT94 7.98652.AK85.852 KJ83.AKQ.Q9.AJ76 Q96542.JT7.J3.Q3 | 2N-P-3N
-164   S  3N-S       630          6.KT8.T952.A9762 753.96542.AJ.854 AQ98.AQ7.K74.KQJ KJT42.J3.Q863.T3 | 2N-P-3N
-165   S  6D-S      -100          K.Q6.A8542.J9543 865.J8532.Q6.862 AT7.AK4.T973.AKQ QJ9432.T97.KJ.T7 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-166   S  7N-S      1520          QT7.K.AKJ2.T9754 84.J98762.Q74.J3 AKJ9.AT5.T95.AKQ 6532.Q43.863.862 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6N-P-7N | Minor Suit Stayman after 2NT | Artificial
-167   S  6N-S      1440          AJT.2.A875.QJT94 Q98.KT754.6.7653 K7.AQJ3.KQJT3.A2 65432.986.942.K8 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-168   S  3N-S       460          J64.8.KQ974.KJ42 KT87.K943.J5.765 AQ9.A652.A62.AQT 532.QJT7.T83.983 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-169   S  6N-S       990          Q43.A.J982.A5432 T982.KJ652.Q54.6 AK765.Q7.AKT.KJT J.T9843.763.Q987 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-170   S  2S-S       140          74.42.QJ53.KJT85 KJT85.T5.972.764 Q632.AQJ96.AK.A9 A9.K873.T864.Q32 | 1H-P-1N=1=-P-2S | Forcing 1NT
-171   S  6D-S       920          T3.QJ.QJ973.AJT5 9754.9843.K.K862 AK8.AK62.A852.Q4 QJ62.T75.T64.973 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-172   S  3N-N       660          Q7.J3.Q876.KJT65 8653.K92.9542.87 AKT9.AQ864.KJ.A4 J42.T75.AT3.Q932 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
-173   S  3N-S       600          8.975.J943.AJ876 T97532.J62.QT72. KQ6.AKT.A65.KQ95 AJ4.Q843.K8.T432 | 2N-P-3N
-174   S  3N-S       460          932.4.J8653.AK94 QJT764.8762.A4.Q AK5.AKQ93.KQ9.85 8.JT5.T72.JT7632 | 2N-P-3N
-175   S  3N-S       630          T.K92.K9865.JT54 98432.84.32.KQ76 KQ6.AT3.AQJT.A93 AJ75.QJ765.74.82 | 2N-P-3N
-176   S  6D-S       920          T83.Q.AJ765.KQT8 J752.T2.KT93.J95 AK.AK764.Q842.A4 Q964.J9853..7632 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-177   S  3N-S       460          62..QJT743.KQT76 K8.KQ87543.65.85 AQ94.A6.AK982.A9 JT753.JT92..J432 | 2N-P-3N
-178   S  6N-S      -100          3.T76.AKT4.KJT52 T42.AQ83.72.8643 AKQ95.KJ4.Q63.AQ J876.952.J985.97 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-179   S  6N-S       -50          J9.A.J9652.KQ973 762.82.T743.T852 AT5.KJ965.AK.AJ6 KQ843.QT743.Q8.4 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-5H-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-180   S  3N-S       600          T.932.KQ92.AT962 9653.Q4.JT765.84 AKQ82.J65.A3.KQJ J74.AKT87.84.753 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-181   S  6N-S      1440          AQ8.6.KT43.QJ874 JT93.8432.J2.T63 K76.AKJ97.AQ9.K5 542.QT5.8765.A92 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-182   S  6N-S       -50          6.QJ3.9752.AKJ76 T9742.9.AKT4.953 AKQ8.AK8.QJ3.QT8 J53.T76542.86.42 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-183   S  6N-S      -100          8.K92.Q9874.AQ93 A65.874.JT53.T42 KQJ74.QJT.AK6.KJ T932.A653.2.8765 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-184   S  6N-S       990          93.73.AQ765.KQT2 QJ8.JT9542.32.73 AK54.AK8.JT4.AJ4 T762.Q6.K98.9865 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-185   S  3N-N       460          54.T4.K643.AQJ72 8763.Q65.AT95.65 AKQT9.AK87.J8.K8 J2.J932.Q72.T943 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-186   S  3N-S       630          T6.73.AQ865.JT54 QJ8732.652.3.872 AK5.AT4.KJT74.AQ 94.KQJ98.92.K963 | 2N-P-3N
-187   S  6D-S       940          .K54.AJ432.AJT83 KT87543.T2.T.Q94 AQ2.AQJ87.KQ7.K5 J96.963.9865.762 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
-188   S  6C-S      1370          753.6.KQJ72.AJ96 JT64.Q832.943.32 AK8.AK7.A86.Q854 Q92.JT954.T5.KT7 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-189   S  6N-S      1470          JT4.5.AKT83.AJ75 983.J7642.95.T93 AKQ62.AK.J76.K64 75.QT983.Q42.Q82 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-190   S  6D-S       920          2.T96.KJ643.KQJT JT8654.J.87.9852 AK.AQ872.AT95.A4 Q973.K543.Q2.763 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-6D=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | No !D queen
-191   S  3N-S       660          A.9.KJT974.T7542 QJ543.QT74.53.J6 K762.AK63.AQ8.KQ T98.J852.62.A983 | 2N-P-3N
-192   S  6C-S       920          T83.Q.KQ963.Q965 Q76.7632.T852.82 A5.K85.AJ7.AKJT4 KJ942.AJT94.4.73 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-X-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-193   S  3N-S       460          43.AT.A9872.J975 JT75.Q973.KJT.T8 AKQ6.K542.Q4.AK6 982.J86.653.Q432 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-194   S  3N-S       600          K93.4.8654.QJ754 J8754.J983.3.T86 A6.AQT62.KQJ.A92 QT2.K75.AT972.K3 | 2N-P-3N
-195   S  6N-S       990          65.83.KQJ4.AQJ94 J932.QJ976.T83.2 AKQ.AKT54.A76.T7 T874.2.952.K8653 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-196   S  6C-S      1370          7.AT4.AJT93.9843 K6432.J97.542.65 AQ8.KQ63.Q6.AKJT JT95.852.K87.Q72 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-197   S  7C-S      2140          K.5.KJT32.AT8654 J974.K9874.Q985. AQ.AQ6.A764.KQ72 T86532.JT32..J93 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-198   S  3N-S       400          .A6.J9872.Q97654 T852.K52.K54.KJ8 AK4.QJT97.AQ.AT2 QJ9763.843.T63.3 | 2N-P-3N
-199   S  6N-S      1440          K87.8.A8542.KQJ3 62.QT43.QJT.8764 AQ43.AK75.K6.A52 JT95.J962.973.T9 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-200   S  3N-S       400          K2.T7.A9842.T942 98643.A852.3.QJ5 AJ.KQ.KQJT5.A876 QT75.J9643.76.K3 | 2N-P-3N
-201   S  6N-S       990          Q9.65.AQJ52.QJT8 J87643.872.T.763 A2.AKT4.K973.AK5 KT5.QJ93.864.942 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5
-202   S  3N-S       600          J7.43.QJT53.KT97 Q94.T9652.8762.5 KT.AQ7.A94.AQJ42 A86532.KJ8.K.863 | 2N-P-3N
-203   S  5C-S       420          73.Q9.QJ64.KJT64 QJ96.K842.T972.9 AKT42.A3.K8.AQ85 85.JT765.A53.732 | 2N-P-3S=1=-P-4C=2=-P-5C | Minor Suit Stayman after 2NT | Artificial
-204   S  5C-S       620          Q9.KQ.KT84.QT876 JT873.J642.97.K3 AK.A985.AJ5.AJ92 6542.T73.Q632.54 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-205   S  5D-S       600          K7.T8.J9874.KQ84 954.Q543.62.JT53 Q82.AKJ.AQT3.A76 AJT63.9762.K5.92 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-206   S  3N-S       400          3.Q64.KJT97.8652 KJ9742.AT32.543. AT.KJ5.A62.AKQ97 Q865.987.Q8.JT43 | 2N-P-3N
-207   S  3N-S       630          J.QT3.A932.J9876 Q87642.864.T6.A2 AKT.AKJ92.K84.Q4 953.75.QJ75.KT53 | 2N-P-3N
-208   S  6N-S       990          5.KT7.K9653.KQJT 987.985.QT72.982 AKT.AJ6.AJ84.A75 QJ6432.Q432..643 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-6D=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | No !D queen
-209   S  3N-S       400          62.T4.QJT95.KJ75 9753.9872.873.T9 AQ8.AKJ6.A6.Q864 KJT4.Q53.K42.A32 | 2N-P-3N
-210   S  7C-S      2140          T32.7.AKJ82.K432 Q96.QT543.973.95 AK5.AJ86.Q6.AQJ6 J874.K92.T54.T87 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5C=6=-P-5H-P-5S=7=-P-7C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen and !S king
-211   S  6C-S       920          K63.Q.QJ73.QJ983 Q92.J952.K986.42 AJ4.A64.AT4.AK76 T875.KT873.52.T5 | 2N-P-3S=1=-P-4C=2=-P-4H=3=-P-4S=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !D stopper
-212   S  3N-S       630          K93.7.KQT98.T765 AT64.8532.52.Q94 Q7.AJ94.AJ6.AKJ2 J852.KQT6.743.83 | 2N-P-3N
-213   S  3N-S       600          AT.65.QT642.JT75 9.KQT84.KJ93.842 KJ32.AJ72.A75.AK Q87654.93.8.Q963 | 2N-P-3N
-214   S  3N-N       430          J2.JT.A543.Q9764 9654.Q7652.J2.J2 AQ73.AK843.T8.AK KT8.9.KQ976.T853 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
-215   S  3N-S       630          Q8.73.QT952.K542 J42.KJ98.864.J86 AKT9.AQT5.KJ.AT7 7653.642.A73.Q93 | 2N-P-3N
-216   S  6S-S      1010          A54.3.AK863.T862 J9863.J854.T2.Q5 KQT72.AKQ2.Q4.AJ .T976.J975.K9743 | 1S-P-1N=1=-P-3H-P-3S-P-3N=2=-P-4D=3=-P-4N=4=-P-5H=5=-P-6S | Forcing 1NT | Cue bid, surplus | Cue bid, a !D stopper | Blackwood 0314, for !S | A=2/5 or 5/5, Q(S)=0
-217   S  3N-S       460          T.AT4.K976.QJ865 863.Q9862.T83.92 AQ97.K73.A54.AKT KJ542.J5.QJ2.743 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-218   S  6N-S      1440          KQ.9.KT765.A8432 JT85.432.QJ32.T5 A742.AKT8.A4.KQ6 963.QJ765.98.J97 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-219   S  5C-S       400          T5.J8.KQ743.K963 KJ62.765.J8652.4 Q84.AK2.A9.AQJ85 A973.QT943.T.T72 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-220   S  5C-S       600          72.AQ.QJ984.T964 J85.932.AT52.A87 AKQ4.K84.K6.KQJ3 T963.JT765.73.52 | 2N-P-3S=1=-P-4C=2=-P-4H=3=-P-4S=4=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !D stopper
-221   S  3N-S       600          62.Q.T7543.KT542 A753.JT86.J9.AJ9 K8.AK974.AKQ6.Q6 QJT94.532.82.873 | 2N-P-3N
-222   S  6N-S      1020          KQ9..KQ953.KQJ43 862.QT76.JT84.62 AJ54.AK952.A2.A8 T73.J843.76.T975 | 1H-P-2D-P-2S-P-3C-P-4N=1=-P-5D=2=-P-6D-P-6S=3=-P-6N | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen and !S king
-223   S  6N-S      1440          982.K.KQ952.AT75 T765.762.J84.Q63 AKQJ4.QJ8.A3.K84 3.AT9543.T76.J92 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-224   S  3N-S       -50          76.A3.Q6542.9872 983.T985.KJ7.AK4 AKQJ2.KQJ.AT9.J5 T54.7642.83.QT63 | 2N-P-3N
-225   S  6N-S       -50          J2.AT.J9753.KQ74 T954.J52.T642.J3 AK73.K94.AK8.A92 Q86.Q8763.Q.T865 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-226   S  5D-S       620          86.74.K9642.AQT8 T72.QT983.T8.J64 AKJ94.AJ.AJ73.K5 Q53.K652.Q5.9732 | 2N-P-3S=1=-P-4D=2=-P-5D | Minor Suit Stayman after 2NT | Artificial
-227   S  3N-S       490          J4.9.K8753.KQJ43 87.J763.T62.8765 AT92.AQ4.AQ9.AT9 KQ653.KT852.J4.2 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-228   S  7D-S      2140          T6.A6.K765.AQ962 KJ.T9854.JT3.T73 A93.KQJ3.AQ42.KJ Q87542.72.98.854 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5S=4=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1
-229   S  5C-S       640          Q84.T.AK853.T985 KT53.K6532.976.J A2.A874.QJ2.AKQ4 J976.QJ9.T4.7632 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-230   S  6N-S       990          A9.A5.Q974.J9642 J4.QJ984.852.A75 KQ87.K7.AK6.KQT3 T6532.T632.JT3.8 | 2N-P-3S=1=-P-4C=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5S=6=-P-6N | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
-231   S  6N-S      1440          6.A82.K954.A7652 J42.QJT964.J86.8 AKT83.K5.AQ2.KQ4 Q975.73.T73.JT93 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-232   S  3N-S       460          T86.J.AQJT3.QJ85 KJ952.Q943.5.732 AQ.AK765.942.AK6 743.T82.K876.T94 | 2N-P-3S=1=-X-3N=2= | Minor Suit Stayman after 2NT | Artificial
-233   S  3N-S       400          843.J.J9864.A864 JT.QT765.QT2.T97 AKQ75.AK3.K7.Q52 962.9842.A53.KJ3 | 2N-P-3N
-234   S  7N-S      2220          Q.2.K98754.AKQ86 JT532.943.QJ.J42 AK7.AKQ8.AT32.T3 9864.JT765.6.975 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-235   S  7N-S      1520          A5.J.KQ963.AQJ97 J982.Q9765.8.T52 KQ6.AK83.AJT2.K8 T743.T42.754.643 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5H=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
-236   S  3N-S       600          T97.K.J987.QT982 Q65.J2.AQT32.A74 AKJ.AQT5.K5.KJ65 8432.987643.64.3 | 2N-P-3N
-237   S  6C-S      1370          QJ3.K.QT52.AT943 T985.Q9632.763.7 AK2.AJ8.K9.KQJ82 764.T754.AJ84.65 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-238   S  3N-S       400          JT.62.KT95.QT875 8.J953.J742.KJ94 AK74.AKT4.Q83.A2 Q96532.Q87.A6.63 | 2N-P-3N
-239   S  5D-S       620          T7.54.K8652.AQ96 86542.QT986.4.T8 AKJ.AJ2.QJT9.KJ2 Q93.K73.A73.7543 | 2N-P-3S=1=-P-4D=2=-P-5D | Minor Suit Stayman after 2NT | Artificial
-240   S  4N-S       460          T.JT3.A963.AQT97 98765.52.72.8653 AKQ.KQ98.QT5.KJ4 J432.A764.KJ84.2 | 2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-241   S  6C-N       -50          .76.KQ865.KQ7654 86542.QT532.J3.2 AKQJ7.J9.A74.AJ8 T93.AK84.T92.T93 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
-242   S  3N-S       600          Q8.84.J873.A8642 J43.97652.A654.K AK5.AKT.KT2.QJ75 T9762.QJ3.Q9.T93 | 2N-P-3N
-243   S  7DX-S     -100          542.8.A854.AQJ74 3.T9643.T62.T852 AKQJ6.A7.KQJ9.96 T987.KQJ52.73.K3 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-7D-P-P-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-244   S  6C-S      1370          T.AJT.8654.AJT65 A8743.9652.JT97. K6.K83.AKQ3.KQ92 QJ952.Q74.2.8743 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5S=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
-245   S  6N-S      1440          83.AK.A8654.A652 6542.T2.JT97.K74 AKQJ.Q5.KQ3.QJT8 T97.J987643.2.93 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-246   S  3N-S       460          J.T74.KQ76.QT872 QT2.KJ62.AT4.J96 AK984.AQ5.J2.AK4 7653.983.9853.53 | 2N-P-3N
-247   S  3N-S       600          5.QT4.A7652.J854 KJ974.985.Q943.7 AQ62.AK63.KT.A62 T83.J72.J8.KQT93 | 2N-P-3N
-248   S  5D-S       400          Q3.52.QT853.KQ54 AKT7652.Q63.4.T7 J84.AKJ4.AK72.AJ 9.T987.J96.98632 | 2N-P-3S=1=-X-4D-P-5D | Minor Suit Stayman after 2NT
-249   S  6C-S       920          J.KT5.KJ92.QJ643 A64.9643.Q83.T75 KQ53.A2.AT4.AK92 T9872.QJ87.765.8 | 2N-P-3S=1=-P-4C=2=-P-6C | Minor Suit Stayman after 2NT | Artificial
-250   S  3N-S       600          J4.5.K9843.J9543 T3.QJ9762.T2.Q76 K876.A83.AQ75.AK AQ952.KT4.J6.T82 | 2N-P-3N
-251   S  7C-S      1440          97.AK.AT93.QJ973 QJ8653.T952.J5.4 AK4.Q876.KQ.AK65 T2.J43.87642.T82 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-252   S  6N-S      1470          J.AJ6.AK84.JT854 9652.T52.QJ32.72 AKQ7.K74.65.AKQ3 T843.Q983.T97.96 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen and !S king
-253   S  6N-S      1440          KQ.5.AQ853.JT874 9.T9763.JT76.K53 A8762.AK8.K92.AQ JT543.QJ42.4.962 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-254   S  7C-S      1440          Q4.JT.KQT7.AJ765 J975.K9873.J2.T9 AK832.A6.A4.KQ82 T6.Q542.98653.43 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-5S=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen and !S king
-255   S  6N-S      1440          A.T76.KQJ73.K542 85.Q52.98652.Q93 KQJ.AK93.AT4.AT6 T976432.J84..J87 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-256   S  3N-S       430          A86.8.Q942.QJT64 7432.T9764.75.K2 QJT95.AQ3.AK3.A5 K.KJ52.JT86.9873 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-257   S  3N-S       400          3.432.J7542.KQ94 QT9762.Q7.98.A85 AKJ.KT86.AKQT.J2 854.AJ95.63.T763 | 2N-P-3N
-258   S  3N-S       600          832.4.AJ852.JT74 754.Q863.K64.K52 AKQJ.AK5.QT73.Q6 T96.JT972.9.A983 | 2N-P-3N
-259   S  3N-S       -50          74.K9.K942.T9852 KJT95.63.T873.Q4 Q8.AQJ4.AJ5.AK76 A632.T8752.Q6.J3 | 2N-P-3N
-260   S  5D-S       620          A3.T9.AKT62.8763 98764.53.Q97.T92 KQJ5.AKQ.J543.A4 T2.J87642.8.KQJ5 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-261   S  6C-S      1370          KJ3.9.KQ652.A832 QT964.64.JT874.7 A52.AKQT.A3.QJT9 87.J87532.9.K654 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-262   S  6C-S       920          J.Q7.K8763.KJ643 Q9863.KT63..T952 AKT74.AJ.Q4.AQ87 52.98542.AJT952. | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-263   S  3N-S       600          63.6.Q9532.KJ764 AQT85.J72.84.T85 KJ94.AKT5.KJ6.AQ 72.Q9843.AT7.932 | 2N-P-3N
-264   S  6D-S       -50          J4.AK.87654.QJ96 Q965.872..KT8742 K8.QJ54.AKQJ3.A3 AT732.T963.T92.5 | 2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5C=6=-P-6D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=0/5 or 3/5
-265   S  6C-S       940          K82.K.K976.QJ986 QT43.JT62.Q32.52 AJ95.A73.A5.AK74 76.Q9854.JT84.T3 | 2N-P-3S=1=-P-4C=2=-P-6C | Minor Suit Stayman after 2NT | Artificial
-266   S  6C-N      -100          8.K.KJT76.Q87643 9754.75.9542.KJ2 KQ32.AQJT.A3.AT9 AJT6.986432.Q8.5 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
-267   S  3N-S       400          84.J3.Q763.AT874 JT52.K987.AJ42.6 AKQ.A54.KT9.KQ52 9763.QT62.85.J93 | 2N-P-3N
-268   S  3N-S       600          8.T97.AQT3.JT852 Q943.K32.KJ72.Q9 AKJ7.AJ4.964.AK6 T652.Q865.85.743 | 2N-P-3N
-269   S  3N-S       660          K.A93.T9732.J854 J762.J864.J4.972 AT53.KQ5.K6.AKQ6 Q984.T72.AQ85.T3 | 2N-P-3N
-270   S  6N-S       990          A3.95.AK64.KJ975 T65.Q32.98732.Q3 KQ97.AKJ7.QJT.A8 J842.T864.5.T642 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6N | Minor Suit Stayman after 2NT | Artificial
-271   S  5D-S       620          72.QJ.A653.KT764 9854.K2.J942.953 AQ.AT74.KQT87.AJ KJT63.98653..Q82 | 2N-P-3S=1=-P-4D=2=-P-5D | Minor Suit Stayman after 2NT | Artificial
-272   S  3N-S       460          75.32.AQT92.KT96 64.J7654.J75.J84 AKQ8.KQT9.K8.A52 JT932.A8.643.Q73 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-273   S  7N-S      1520          K5.A2.KJ983.A732 JT4.J63.T.QJT964 AQ.KQ875.AQ75.K5 987632.T94.642.8 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5S=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1
-274   S  4S-S       650          J54.9.J986.AJ864 9763.J754.K2.KQ3 AKT8.AKT62.AQ.97 Q2.Q83.T7543.T52 | 1H-P-1N=1=-P-2S-P-3S-P-3N-P-4S | Forcing 1NT
-275   S  3N-S       460          KQ7.3.Q9863.J953 5.QJ962.J72.A874 AJT9.AT.AK4.KQT6 86432.K8754.T5.2 | 2N-P-3N
-276   S  3N-S       660          5.95.AJ852.KQ653 AKT3.J43.QT6.984 QJ642.AKQ.K7.AJ7 987.T8762.943.T2 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-277   S  3N-S       630          T5.63.T943.AKT94 Q9742.J95.Q62.83 AK8.A8742.AK7.QJ J63.KQT.J85.7652 | 2N-P-3N
-278   S  3N-S       -50          J6.83.T982.KQT95 T73.JT962.QJ5.42 AKQ85.75.AK6.AJ8 942.AKQ4.743.763 | 2N-P-3N
-279   S  6D-S      1370          Q2.54.QJ72.AQ632 KT73.QT3.T853.74 AJ9.AK762.AK6.J5 8654.J98.94.KT98 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6D | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-280   S  3N-N       460          Q8.T8.KT953.AJT3 9753.J6.7642.975 KJT62.AK93.A8.KQ A4.Q7542.QJ.8642 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-281   S  6C-S       920          2.T.AT943.AJT532 A87.QJ873.85.Q86 KQJT.AK4.KQ.K974 96543.9652.J762. | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5H=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=0
-282   S  3N-S       600          JT.JT.T9873.A764 8764.98762..J952 K953.AK3.AK42.KT AQ2.Q54.QJ65.Q83 | 2N-P-3N
-283   S  3N-S       430          6.832.K976.KJT84 AT72.KT96.T43.Q5 KQ53.AQ74.AQ2.A9 J984.J5.J85.7632 | 2N-P-3N
-284   S  6N-S      1440          63.Q.AQJ86.QJ964 AJT75.T53.T97.K8 KQ2.AKJ92.K42.A2 984.8764.53.T753 | 2N-P-3S=1=-X-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-285   S  6D-N      1370          2.Q.KQ6542.KJ952 AJ543.T98432.98. KT87.AK65.A3.AQ3 Q96.J7.JT7.T8764 | 2N-P-3S=1=-X-3N=2=-P-4D-P-5D-P-6D | Minor Suit Stayman after 2NT | Artificial
-286   S  3N-S       430          82.T4.K6542.KJ75 93.KQ985.QT73.86 AKT6.A763.A8.AQ9 QJ754.J2.J9.T432 | 2N-P-3N
-287   S  5D-S       600          6.J95.KQT98.QJT6 A973.32.32.A9874 K4.AKQT7.AJ65.K5 QJT852.864.74.32 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-288   S  3N-S       460          QT6.K.QJ72.QT982 J8432.93.93.7654 95.AQT76.AK5.AKJ AK7.J8542.T864.3 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-289   S  3N-S       -50          J8.Q5.9842.QJT72 T742.T983.QT3.A4 AQ.AKJ42.K76.K96 K9653.76.AJ5.853 | 2N-P-3N
-290   S  7D-S      2140          KQT.J.9743.AJT86 J72.KQT654.T65.Q A643.A9.AKQ2.K42 985.8732.J8.9753 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen and !C king
-291   S  7N-S      1520          KJ.QJ.AJ985.KQ94 Q4.T863.76.J7653 AT73.AK7.KQT4.A2 98652.9542.32.T8 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-5N=5=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
-292   S  3N-S       630          2.A5.T9873.Q7542 T8654.KJ98.QJ2.T AKQ7.T62.A5.AKJ9 J93.Q743.K64.863 | 2N-P-3N
-293   S  3N-S       690          Q.92.KQJ76.98752 KJ984.JT54.985.Q A53.A73.AT.AKJT6 T762.KQ86.432.43 | 2N-P-3N
-294   S  4N-S       490          T74..A9542.AKT54 Q98.J9543.T87.J2 KJ6.AKQ8.KQ3.Q86 A532.T762.J6.973 | 2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-295   S  3N-S       600          J2.T4.7532.KQJ62 T875.K873.K984.7 AQ.AQJ52.AT.A854 K9643.96.QJ6.T93 | 2N-P-3N
-296   S  3N-N       460          J6.Q8.JT76.AJ653 KT98743.2.Q832.8 AQ52.AJ965.A5.KQ .KT743.K94.T9742 | 1H-P-1N=1=-3S-3N | Forcing 1NT
-297   S  6N-S       990          4.AK4.KQ984.8643 QT97653.J85.J6.J AK8.QT92.A5.AK97 J2.763.T732.QT52 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
-298   S  5D-S       620          Q9.KJ.JT82.KJ754 T76.QT8742..QT92 AK8.A6.AQ954.A83 J5432.953.K763.6 | 2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper
-299   S  4N-S       490          .A42.AKT96.97642 J98654.97.875.JT AKQ.KJT65.Q42.KQ T732.Q83.J3.A853 | 2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-300   S  3N-S       660          2.KJ8.Q764.QJT92 T97.QT93.A82.A64 AKQ3.A652.KJ.K87 J8654.74.T953.53 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-301   S  5D-S       620          AT.J2.K874.K8743 J865.T954.QT93.5 KQ9.KQ73.AJ62.AQ 7432.A86.5.JT962 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-302   S  6C-N       920          .T.AQJ863.KT7654 T742.K86543.95.Q AKQ63.A97.K7.A32 J985.QJ2.T42.J98 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5D-P-6C | Minor Suit Stayman after 2NT | Artificial
-303   S  3N-S       600          K72.K.J954.T8642 865.JT743.83.Q97 AQT9.A96.AKQ6.J5 J43.Q852.T72.AK3 | 2N-P-3N
-304   S  6D-S       920          KT6.7.AJ74.J9543 Q543.T932.K92.76 A9.AKQJ5.Q653.AT J872.864.T8.KQ82 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-305   S  5D-S       420          K4.76.KQ97.QT765 J963.QT954.J62.8 AT72.AK8.A543.AJ Q85.J32.T8.K9432 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-306   S  6N-S      1440          74.K5.KQT43.KT73 9.JT8642.7652.J8 AK52.AQ7.J8.AQ92 QJT863.93.A9.654 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5C=6=-P-6N | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5
-307   S  6D-S       920          K.QJ.T9753.KJ975 T9.KT7653.J62.32 A73.A98.AK84.AQ4 QJ86542.42.Q.T86 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-4N=4=-P-5C=5=-P-6D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper | Blackwood 0314, for !D | A=0/5 or 3/5
-308   S  6N-S      1470          73.A2.K8432.AQ65 8652.9764.95.J92 AKQJ.KQ3.AQ6.T84 T94.JT85.JT7.K73 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-309   S  3N-S       660          K4.T7.KJ83.QJT54 963.96542.AQT.96 AQJ85.AQ8.974.AK T72.KJ3.652.8732 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-310   S  3N-S       400          J6.92.QT873.K864 AQT85.AJ54.4.T52 K7.Q87.AKJ9.AQJ9 9432.KT63.652.73 | 2N-P-3N
-311   S  3N-S       660          86.A2.J9642.A864 742.43.AT87.JT72 AKQ.J9875.KQ5.KQ JT953.KQT6.3.953 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-312   S  3N-S       460          6.JT8.K743.AKJ43 754.K75.JT62.T96 AQ.AQ942.AQ.Q875 KJT9832.63.985.2 | 2N-3S-3N
-313   S  3N-S       460          A7.T7.K976.K9875 QT85.Q964.54.JT2 K9632.AK.AQ2.A64 J4.J8532.JT83.Q3 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-314   S  3N-S       660          75.K2.Q876.KT965 A8642.T74.T42.J3 KT.AJ965.AK9.AQ7 QJ93.Q83.J53.842 | 2N-P-3N
-315   S  7CX-S     1630          3.A73.KJ653.QJ73 9864.T42.T7.9865 AKQ2.65.A42.AKT2 JT75.KQJ98.Q98.4 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-7C-P-P-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-316   S  3N-S       600          Q9.K3.JT654.T974 KJT72.T7.Q3.K865 A865.AQJ94.A8.AQ 43.8652.K972.J32 | 1H-P-P-1S-2N-P-3N
-317   S  7C-S      -100          3.K2.AJT87.Q8752 KJ9.JT97654.4.94 AQ5.A8.Q653.AKJ3 T87642.Q3.K92.T6 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-318   S  3N-S       430          .QJ.T97643.KQT54 JT853.T98.Q2.J96 AK76.A753.AJ.A82 Q942.K642.K85.73 | 2N-P-3N
-319   S  7C-S      -100          K.43.AJT72.AQ954 T632.T86.9853.J6 AJ9.AKQJ.Q4.K732 Q8754.9752.K6.T8 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-320   S  7C-S       -50          T95.A.AQ93.QT954 642.Q97542.642.8 AQJ3.K6.K7.AKJ72 K87.JT83.JT85.63 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-321   S  6N-S       -50          A.K84.K842.J9743 T43.Q953.QJ63.Q6 KQ8.AT762.AT5.AK J97652.J.97.T852 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-322   S  3N-S       690          J.QT.KQ532.QJ643 Q875.A52.T.T9852 AK963.K63.A8.AK7 T42.J9874.J9764. | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-323   S  3N-S       400          Q.976.JT953.K763 AT74.JT54.2.T985 J92.AK8.AKQ64.A4 K8653.Q32.87.QJ2 | 2N-P-3N
-324   S  3N-N       690          97.86.Q862.AKQ94 832.KQJ42.JT.T32 AKJT4.AT93.AK.J7 Q65.75.97543.865 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-325   S  6N-S      1440          T9.73.AK653.AT53 Q2.QJ8654.T972.6 AK.AKT92.QJ.KJ72 J876543..84.Q984 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
-326   S  6N-S      1020          AK9.9.KJ874.AT73 QJT652.J65.96.82 73.AKQ43.AQT.KQ9 84.T872.532.J654 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-327   S  3N-S       600          85.KT.K8643.7542 T974.98.QJ72.AJT AKJ.QJ6.A9.KQ986 Q632.A75432.T5.3 | 2N-P-3N
-328   S  3N-S       400          7.92.A7652.QT872 J93.KQJ8543.9.64 AK82.A7.QJ3.AK95 QT654.T6.KT84.J3 | 2N-P-3N
-329   S  3N-S       400          5.J96.AJ64.J8542 QT762.Q875.85.Q6 AK.K42.KT93.AK97 J9843.AT3.Q72.T3 | 2N-P-3N
-330   S  6C-S      1370          T3.KJ.KT976.A632 87642.8762.83.87 AKJ.A94.A42.KJT9 Q95.QT53.QJ5.Q54 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5D=6=-P-5H-P-6C=7= | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
-331   S  6C-S       920          J4.K.AQ864.J9853 73.QT84.JT952.T7 AQ.A7532.K3.AK64 KT98652.J96.7.Q2 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
-332   S  7D-S      2140          K5.K3.KJ95.KT643 QJT832.Q9.63.J82 A97.AT4.AQT2.AQ9 64.J87652.874.75 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-5N=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
-333   S  7C-S      -100          5.Q85.KQJ54.KT83 QT93.3.T986.Q654 A7.AK2.A72.AJ972 KJ8642.JT9764.3. | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-5N=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen no !S king
-334   S  3N-S       490          K.K9.76532.KJ874 QT632.J762.K9.53 A987.AQ3.AJ4.AQ9 J54.T854.QT8.T62 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-335   S  3N-S       600          T2.J.T9762.KQT92 QJ9543.Q874.K3.J AK7.K62.AQ85.A85 86.AT953.J4.7643 | 2N-P-3N
-336   S  3N-S       400          6.J92.QJT3.KT965 T98732.5.K654.Q2 AKQJ.Q863.A8.A84 54.AKT74.972.J73 | 2N-P-3N
-337   S  6C-S       -50          J53.Q.KQJ83.A853 862.T86532.742.Q AKQ.KJ7.A6.KT942 T974.A94.T95.J76 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-338   S  3N-S       600          2.983.KT532.A872 Q7654.KT4.Q76.J9 AKJ.AQ652.J8.KQ4 T983.J7.A94.T653 | 2N-P-3N
-339   S  5D-S       400          QT.Q4.JT72.KJ954 AJ86.A985.9654.T K954.K76.AKQ3.AQ 732.JT32.8.87632 | 2N-P-3S=1=-P-4D=2=-P-5D | Minor Suit Stayman after 2NT | Artificial
-340   S  3N-S       630          J6.T2.AQ765.J864 5432.J95.KT.T972 AT8.AKQ73.J83.AQ KQ97.864.942.K53 | 2N-P-3N
-341   S  6N-S      -100          6.AJ4.K853.KT864 KT873.K973.JT9.7 AQJ52.Q86.AQ6.AQ 94.T52.742.J9532 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-342   S  5N-S       490          A3.53.AT972.K852 QT985.62.653.T96 64.AKQJ4.KJ4.AQJ KJ72.T987.Q8.743 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-5H-P-5N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-343   S  4N-S       660          7.J73.AJ87.AJ432 J8642.AQT42.9.97 AKT9.K96.KQ6.KQ6 Q53.85.T5432.T85 | 2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-344   S  3N-N       400          AQ9.8.J832.T8654 853.QJT5.QT96.Q7 KT76.AK976.AK.K9 J42.432.754.AJ32 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
-345   S  3N-S       -50          T9.T7.Q9854.KJT3 Q8742.8642.2.875 653.AK.AK76.AQ94 AKJ.QJ953.JT3.62 | 2N-P-3N
-346   S  6C-S      1370          87.97.AQJ85.A543 JT3.QT652.9642.Q AK.AKJ4.K3.K9872 Q96542.83.T7.JT6 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5C=6=-P-5H-P-6C=7= | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
-347   S  6N-S       990          KQ2.5.QT985.A964 J987.T96.AJ7.T32 A64.AKQJ4.K42.K5 T53.8732.63.QJ87 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-348   S  5D-S       620          73.Q6.KT863.KJ87 QT654.K872.5.654 AK8.A43.AQ42.AT2 J92.JT95.J97.Q93 | 2N-P-3S=1=-P-4D=2=-P-5D | Minor Suit Stayman after 2NT | Artificial
-349   S  5D-S       620          T9.A5.JT93.KJ642 QJ743.T7643.82.T AK52.Q8.AKQ4.Q97 86.KJ92.765.A853 | 2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper
-350   S  1H-S       170          94.J8.J9863.A986 KJ63.QT54.Q2.QJ7 A875.AK762.AK.K4 QT2.93.T754.T532 | 1H
-351   S  6N-S      1440          96.T2.AQT2.AJT82 KT8742.754.J83.6 AJ5.AKQ3.K4.K754 Q3.J986.9765.Q93 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
-352   S  6D-S       920          76.K.A9542.KQJ98 Q32.9542.J86.653 AKT4.AQT8.KT7.AT J985.J763.Q3.742 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
-353   S  3N-S       460          K8.K.87643.AT532 Q6542.Q8762.T.97 AT9.AJT5.AQ2.KQ6 J73.943.KJ95.J84 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-354   S  7N-S      2220          K.JT9.AKJ2.KQ764 8764.652.765.T32 AQJ2.AKQ7.84.A95 T953.843.QT93.J8 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-7N | Minor Suit Stayman after 2NT | Artificial
-355   S  3N-S       430          Q84.T.T9863.KQJT 652.KQJ8752.Q74. A7.A9643.AKJ2.A8 KJT93..5.9765432 | 2N-P-3N
-356   S  3N-S       630          Q.QJ7.JT865.Q985 942.T95.97432.J4 A875.A843.AKQ.K6 KJT63.K62..AT732 | 2N-P-3N
-357   S  6N-S      1470          K.AJ5.KQT3.T9632 642.KQ.9764.8754 AQJ3.963.AJ5.AKQ T9875.T8742.82.J | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-358   S  5C-S       440          K7.Q8.KQT52.Q763 9843.6432.743.82 AJT5.AJ.A98.AK95 Q62.KT975.J6.JT4 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4S=5=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Cue bid, a !S stopper
-359   S  3N-S       600          Q.Q82.K9864.T875 AT984.6543.72.92 K632.AK7.AT.KQJ4 J75.JT9.QJ53.A63 | 2N-P-3N
-360   S  3N-S       520          Q65.2.K542.AT876 87.KQJ63.JT97.J2 AKJT2.AT.A86.KQ9 943.98754.Q3.543 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-361   S  6DX-S     -100          6.98.Q9842.AQJ74 983.AKQ742.T63.8 AKJ7.JT3.AKJ7.K6 QT542.65.5.T9532 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-362   S  6C-S      1370          52.KQ.AJ73.JT743 96.T5432.QT652.2 AQJ83.A6.K4.AK95 KT74.J987.98.Q86 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5D=6=-P-5H-P-6C=7= | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
-363   S  6N-S      1020          Q87.2.AJ64.KQJT8 542.JT985.QT85.9 AKJT3.AQ76.K7.A4 96.K43.932.76532 | 1S-P-2C-P-3H-P-4S-P-4N=1=-P-5D=2=-P-6C-P-6N=3= | Blackwood 0314, for !S | A=1/5 or 4/5 | !S queen no !D king no !H king
-364   S  5D-S       620          A8.T6.QJ53.QT876 QT43.94.AT74.J54 K52.AKJ.K986.AK9 J976.Q87532.2.32 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-365   S  6N-S      -100          Q32.K.J9642.KQ85 94.JT654.83.JT74 K65.AQ983.AK7.A9 AJT87.72.QT5.632 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-366   S  6N-S       990          A9.5.98643.AK964 T532.Q9743.KQ.83 KQJ7.AK2.A75.QJ2 864.JT86.JT2.T75 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-367   S  6N-S      1440          A2.Q9.KT65.K8763 T9765.JT72.983.T J4.AK4.AQJ4.AJ92 KQ83.8653.72.Q54 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
-368   S  6C-S       -50          QJT.T.KQ865.QJ53 87.A9863.T743.T9 K6.KQ52.AJ9.AK76 A95432.J74.2.842 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-369   S  7C-S       -50          5.843.KQJ3.KQ982 KT983.76.876.T63 A62.AQJ9.A4.AJ75 QJ74.KT52.T952.4 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-370   S  6N-S      1470          J94.A.AK964.QJ76 T652.652.J753.93 AQ8.KQ93.QT2.AKT K73.JT874.8.8542 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-371   S  6C-S       940          54.JT.AQT98.AT54 K972.98764.J3.87 A83.AKQ2.K4.KQ63 QJT6.53.7652.J92 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5C=6=-P-5H-P-5N=7=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen no !S king
-372   S  3N-S       600          95.J2.AJ87.QT764 Q64.Q9763.T952.J AKJ.A84.KQ63.K93 T8732.KT5.4.A852 | 2N-P-3N
-373   S  6N-S      -100          KQ.Q2.T975.KQT74 9742.643.K63.863 AJT6.AKJ.QJ.AJ52 853.T9875.A842.9 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-374   S  6N-S      1020          AQ.Q3.K9652.AT72 642.J654.J874.Q6 KJ83.AK9.AQT.K85 T975.T872.3.J943 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-375   S  3N-S       600          J.87.KT643.Q7652 KT9732.K932.98.8 A64.AQ6.AQ75.KJ4 Q85.JT54.J2.AT93 | 2N-P-3N
-376   S  3SX-W      500          .732.AKQ74.AT652 42.JT854.532.J93 KQ87.AKQ.J96.KQ7 AJT9653.96.T8.84 | 2N-3S-X
-377   S  3N-S       460          J93.K.KT432.J976 8742.AJ72.J65.Q8 AKQ5.Q83.AQ8.AT2 T6.T9654.97.K543 | 2N-P-3N
-378   S  3N-S       600          T.Q.A87543.JT972 A98654.742.Q6.84 KQJ7.AJ6.T92.AKQ 32.KT9853.KJ.653 | 2N-P-3N
-379   S  6C-S       920          AJ.J3.KQ972.JT53 T754.T8654.83.82 98.AQ2.AJ6.AKQ64 KQ632.K97.T54.97 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5D=6=-P-5H-P-5N=7=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen no !S king
-380   S  3N-S       600          J8.T7.7652.AJ654 T94.Q9532.QJ84.2 A6.AK4.AT93.KQT9 KQ7532.J86.K.873 | 2N-P-3N
-381   S  6C-S      1370          J7.63.KQT6.AT843 T94.72.J95432.Q6 AK6.AQT4.A8.KJ97 Q8532.KJ985.7.52 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4N=4=-P-5D=5=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Blackwood 0314, for !C | A=1/5 or 4/5
-382   S  3N-S       400          62.T.JT974.KQ964 KQT87.J76.32.853 A3.AKQ5.AK86.JT7 J954.98432.Q5.A2 | 2N-P-3N
-383   S  6N-S      1470          53.KT.AKQJ6.KT53 862.853.973.J972 AKQ4.AJ72.T84.AQ JT97.Q964.52.864 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-384   S  6D-S       920          AQ4.5.JT52.KJT82 K73.T973.Q94.753 T8.AK2.AK763.AQ6 J9652.QJ864.8.94 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-6D=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | No !D queen
-385   S  3N-S       460          2.J32.A852.KT764 K8653.865.T6.Q92 A7.AKQT.K94.AJ85 QJT94.974.QJ73.3 | 2N-P-3N
-386   S  6C-S      1370          KQ2.6.KJ93.QJ983 8764.875.Q862.65 AJ5.KQT.AT7.AK74 T93.AJ9432.54.T2 | 2N-P-3S=1=-P-4C=2=-P-6C | Minor Suit Stayman after 2NT | Artificial
-387   S  3N-S       400          96.T9.A753.KT876 AQJ753.763.T64.5 KT8.AQJ84.KQ8.AJ 42.K52.J92.Q9432 | 2N-P-3N
-388   S  3N-S       630          2.752.AJT7.AT985 J974.KJ6.654.K64 AKQ.AQ84.K93.QJ7 T8653.T93.Q82.32 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-389   S  3N-N       690          J3.Q3.T987.AKQT9 K96.J987.J3.8762 AQ742.AK52.AK.43 T85.T64.Q6542.J5 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-390   S  1H-S       140          754.8.AJ84.J9876 J632.K43.KT952.T AKT9.AJ952.Q3.AK Q8.QT76.76.Q5432 | 1H
-391   S  3N-S       660          T6.K9.A9764.JT54 J972.543.82.K872 A53.AJ2.KQJ3.AQ6 KQ84.QT876.T5.93 | 2N-P-3N
-392   S  3N-S       490          T85.K.AT96.AJ642 K43.J8543.87.KT7 AQ7.AQT7.KQJ.Q53 J962.962.5432.98 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-393   S  6N-S       990          543.J.A764.AKJ86 AJ2.T862.832.T93 KQT6.AKQ9.KJT.Q7 987.7543.Q95.542 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6N | Minor Suit Stayman after 2NT | Artificial
-394   S  3N-S       600          9.K42.Q876.J8764 J7652.3.A543.QT2 AK8.AT987.K9.AK9 QT43.QJ65.JT2.53 | 2N-P-3N
-395   S  6N-S       990          AQJ.K.QJ52.T8542 T.QT87532.64.973 K9632.A4.AK3.KQJ 8754.J96.T987.A6 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-396   S  3N-N       690          QJ.3.AT963.KJ643 32.97652.QJ872.9 AK985.AKJ4.54.AQ T764.QT8.K.T8752 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-397   S  3N-S       630          T5.94.QJT82.A754 97432.K875.95.J2 AKJ86.A3.AK.QT86 Q.QJT62.7643.K93 | 2N-P-3N
-398   S  6N-S       990          2.874.AKJT4.K763 QT97.93.Q92.J542 AK85.AK62.73.AQ9 J643.QJT5.865.T8 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-399   S  6C-S      1370          8.972.AJ632.KQ75 QJT9642.T43..982 AK.KQ.K954.AJT64 753.AJ865.QT87.3 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5H=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=0
-400   S  3N-S       460          J.K54.KQ654.QT92 Q4.862.98732.763 A76.AQJ7.AJT.KJ5 KT98532.T93..A84 | 2N-3S-3N
-401   S  5D-N       420          T.7.Q75432.AQJ93 K976.K9842.T6.54 AQ54.AQJ.AJ9.KT6 J832.T653.K8.872 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5D | Minor Suit Stayman after 2NT | Artificial
-402   S  6D-S      -100          AQ4.2.7632.KQ743 986.Q9873.JT.T96 K2.AK654.KQ54.AJ JT753.JT.A98.852 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-403   S  3N-S       430          43.K5.QT73.KJT92 JT75.Q4.K94.8754 AKQ.JT87.AJ6.AQ6 9862.A9632.852.3 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-404   S  3N-N       660          32.Q4.K832.AT862 65.T62.QJT9654.K AKT4.AK873.A7.Q9 QJ987.J95..J7543 | 1H-P-1N=1=-3D-3N | Forcing 1NT
-405   S  6N-S      1440          J96.8.AQ975.KJ75 T75.T63.T863.Q82 AKQ82.KJ4.KJ2.A4 43.AQ9752.4.T963 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-406   S  6N-S       990          K8.Q3.J7543.AQJ6 76532.T74.AQ86.4 AQT.AKJ.KT.KT852 J94.98652.92.973 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-407   S  6N-S      1440          K7.43.AT72.KQ763 54.JT86.J653.T85 AQJ32.KQ5.KQ8.A4 T986.A972.94.J92 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6N | Minor Suit Stayman after 2NT | Artificial
-408   S  6D-S       940          QT.5.K9642.AQJ87 KJ9832.QT872.3.9 A54.AK64.AQJT.K6 76.J93.875.T5432 | 2N-P-3S=1=-X-4D-P-6D | Minor Suit Stayman after 2NT
-409   S  6N-S       990          9.A63.T875.AQJ85 QT743.J98754.4.4 AK52.KT2.AKJ.KT9 J86.Q.Q9632.7632 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-410   S  3N-S       660          2.A86.QJ987.QT72 763.Q7543.T63.84 AKT94.KT2.AK4.A5 QJ85.J9.52.KJ963 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-411   S  3N-S       430          K8..QJ9653.JT872 9654.J9832.T2.A4 AT7.AKT5.AK8.K65 QJ32.Q764.74.Q93 | 2N-P-3N
-412   S  5C-S       620          65.QT.AJ643.KT75 QT984.J432.85.42 AJ7.K86.KQ7.AQJ8 K32.A975.T92.963 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-413   S  6N-S      1440          K93.7.AQ743.A642 J7652.T52.52.T75 AQ8.AKQ63.T9.KQ8 T4.J984.KJ86.J93 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-414   S  7D-S      1440          93.K9.9874.AKQ74 K87.8432.63.T932 A654.AQ6.AKQT.J5 QJT2.JT75.J52.86 | 2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5D=6=-P-5H-P-5N=7=-P-7D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
-415   S  7D-S      2140          T.KT2.AJT42.KQ93 Q852.Q983.8.JT72 AK74.AJ7.KQ96.A4 J963.654.753.865 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-5S=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen and !S king
-416   S  6D-S       920          Q.JT9.KT87.K8754 JT8.KQ653.J2.962 AK62.A8.Q643.AQJ 97543.742.A95.T3 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-417   S  3N-S       400          763.Q.KJ65.T9874 AJ2.J6432.T97.A6 KQ94.AT9.AQ32.KQ T85.K875.84.J532 | 2N-P-3N
-418   S  3N-S       660          J74.T.QT32.KQ854 QT952.J987.J.T92 AK.Q64.AK874.A76 863.AK532.965.J3 | 2N-P-3N
-419   S  3N-S       460          32.QJ.QT543.A742 QJT87.9652.8.JT8 A95.KT74.AKJ.KQ6 K64.A83.9762.953 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-420   S  6D-S      1370          2.KT.KT954.AQT54 T9753.J52.873.93 KQJ8.A864.AQ6.KJ A64.Q973.J2.8762 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
-421   S  3N-S       630          KT.94.KJ75.T7652 8643.T65.Q432.84 AQJ9.A87.T8.AKQ9 752.KQJ32.A96.J3 | 2N-P-3N
-422   S  3N-S       400          T.Q76.KJ543.T942 QJ432.432.AT8.J8 AK876.AJ8.96.AKQ 95.KT95.Q72.7653 | 2N-P-3N
-423   S  6N-S      1470          KQ5.K.98542.A942 J9.8652.763.JT63 AT432.A94.AKJ.KQ 876.QJT73.QT.875 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-424   S  3N-S       400          Q32.4.Q985.QT764 J75.J7653.KT.J98 A6.AKQ.A7632.A52 KT984.T982.J4.K3 | 2N-P-3N
-425   S  3N-S       460          J8.J2.QT83.AQT86 53.964.J97652.97 AK62.AK85.AK4.43 QT974.QT73..KJ52 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-426   S  6N-S      1440          Q.Q62.T654.AKJ52 32.J9754.J832.96 AK654.A83.AK9.Q8 JT987.KT.Q7.T743 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-427   S  3N-S       430          J32.4.AQ53.T9652 AT965.J852.JT.74 KQ.AQ3.K876.AQJ8 874.KT976.942.K3 | 2N-P-3N
-428   S  3N-N       660          62.75.AJT76.AJ73 T8.K63.9852.T654 AK75.AJT94.KQ.K8 QJ943.Q82.43.Q92 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
-429   S  3N-N       600          A.9.T7643.K86542 T963.QT742.A2.J7 QJ754.AKJ8.K5.AQ K82.653.QJ98.T93 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-430   S  3N-S       400          K84.5.QJ863.9654 Q975.Q7632.52.87 T2.KJ.AKT97.AKQT AJ63.AT984.4.J32 | 2N-P-3N
-431   S  6C-S      1370          T.QJ9.KQJT2.T975 KJ62.876.986.Q42 A74.AT.A43.AKJ86 Q9853.K5432.75.3 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-432   S  3N-S       400          8.T7.AJ842.JT876 QT9653.652.6.A94 A2.AKQ8.KQ953.K5 KJ74.J943.T7.Q32 | 2N-P-3N
-433   S  5D-S       420          K5.T4.QJ973.QJ98 A973.KJ952.82.T2 Q842.A6.AKT54.AK JT6.Q873.6.76543 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-434   S  3N-S       600          95.93.JT853.KQJ9 AJ74.J6542.Q.752 Q62.AK8.AK94.AT6 KT83.QT7.762.843 | 2N-P-3N
-435   S  4H-S       480          3.T92.K985.KQJT7 654.J5.Q7642.984 AQT2.AKQ63.J3.A5 KJ987.874.AT.632 | 1H-1S-2H-P-4H
-436   S  6N-S      -100          KT4.9.KQ543.QJ43 9862.A85.82.T952 AQJ.KQJ62.AT9.K7 753.T743.J76.A86 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-437   S  5C-S       640          .KT3.KQ732.Q9532 QT72.Q86542.9.84 A5.A97.AJT8.AKJ7 KJ98643.J.654.T6 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4S=5=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Cue bid, a !S stopper
-438   S  7D-S      1440          5.K4.K9742.AJ853 QJ63.JT765.6.Q64 AT4.AQ3.AQJT.K92 K9872.982.853.T7 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !C king
-439   S  3N-S       600          5.JT7.JT874.AT75 KQ876.Q53.953.QJ A3.A842.AKQ6.K98 JT942.K96.2.6432 | 2N-P-3N
-440   S  3N-S       430          Q3.87.J983.KQ864 JT9854.QJ942.T.A AK72.A6.AKQ76.72 6.KT53.542.JT953 | 2N-P-3N
-441   S  3N-S       400          J8.K5.Q9763.T876 QT72.JT82.T5.J95 K954.AQ43.A4.AK2 A63.976.KJ82.Q43 | 2N-P-3N
-442   S  7D-S      2140          K.Q64.K8754.AT92 Q9872.93.J62.K84 A5.AKJT7.AQT9.Q3 JT643.852.3.J765 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5N=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen no !S king no !C king
-443   S  6H-S       980          4.T54.K532.AKQ86 J7532.762.T87.J7 AKQ8.AQJ83.A6.92 T96.K9.QJ94.T543 | 1H-P-1N=1=-P-2S-P-6H | Forcing 1NT
-444   S  6C-N      1370          K7..J8643.KQ8543 JT86.T873.AT.976 AQ432.AJ5.KQ5.AJ 95.KQ9642.972.T2 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6C | Minor Suit Stayman after 2NT | Artificial
-445   S  6C-S      1390          2.A9.QJ872.QJ952 J8765.QJ42.64.63 AK93.83.AK.AK874 QT4.KT765.T953.T | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-446   S  3N-S       430          A.654.T743.QJT96 KT942.982.A92.K5 QJ6.AKQ3.KQ8.A43 8753.JT7.J65.872 | 2N-P-3N
-447   S  3N-S       660          7.J43.A8432.KT87 A9832.8765.QT9.2 KJT4.AK.KJ5.AQ65 Q65.QT92.76.J943 | 2N-P-3N
-448   S  7D-S       -50          A42.8.J8532.AQJ6 JT763.T72.6.K754 K8.AKQ6.AKQT4.T9 Q95.J9543.97.832 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-449   S  5C-S       420          75.T7.AQJ54.QT85 Q9.J98654.986.72 A642.KQ3.K3.AKJ6 KJT83.A2.T72.943 | 2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-450   S  6N-S      1440          T.542.Q975.AKQT5 Q985.T76.JT32.98 AJ763.AKJ.AK.643 K42.Q983.864.J72 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6N | Minor Suit Stayman after 2NT | Artificial
-451   S  3N-S       430          4.962.KT875.KJ98 QJT9753.T854.32. AK86.AQ7.A4.AT52 2.KJ3.QJ96.Q7643 | 2N-P-3N
-452   S  6N-S      1440          A2.A6.JT62.K8642 J9763.JT5.Q97.Q3 KT.KQ82.AK5.AJ97 Q854.9743.843.T5 | 2N-P-3S=1=-P-4C=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5H=6=-P-6N | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=0
-453   S  6N-S      -100          Q8.2.Q9653.AKT63 KT942.853.T.9842 AJ5.KQJ97.AK7.Q5 763.AT64.J842.J7 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-454   S  6C-S       920          9.K43.KJT85.A987 763.QT986.Q976.J KQJ2.AJ.A3.KQ432 AT854.752.42.T65 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-455   S  3N-S       600          J7.A2.J653.T7654 QT864.97.K982.KJ AK92.J65.AQ.AQ82 53.KQT843.T74.93 | 2N-P-3N
-456   S  3N-S       430          4.KJ5.J942.QJT98 6.QT8432.KQ86.K7 AKJ97.A96.A53.A2 QT8532.7.T7.6543 | 2N-P-3N
-457   S  6N-S       -50          J.A73.KT74.K9865 5432.Q94.J52.T32 AQT9.KT2.AQ9.AJ4 K876.J865.863.Q7 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-458   S  3N-S       600          J9.75.J532.A9764 K86542.QJT832..J AQT3.A6.AKT7.K52 7.K94.Q9864.QT83 | 2N-P-3N
-459   S  6C-S       -50          4.KQ4.J974.KT987 AT83.96.KT8532.5 KQ96.A5.AQ6.AJ64 J752.JT8732..Q32 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-460   S  3N-S       630          J6.K6.9753.QT843 T9875.AJ5.T2.J65 AKQ2.43.AJ4.AK97 43.QT9872.KQ86.2 | 2N-P-3N
-461   S  5C-N       620          J.9.KJ987.AJ8643 AQ6432.Q752.T3.9 KT87.AK3.AQ2.KQ2 95.JT864.654.T75 | 2N-P-3S=1=-X-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
-462   S  7C-S      1440          KQ.2.K8643.A9654 JT87653.976.J.83 A9.AQJT3.A7.KQ72 42.K854.QT952.JT | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-5N=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen no !S king
-463   S  6N-S      1440          95.A4.KJ32.A7432 7.QJT7.QT986.T96 AKJ84.K92.A5.KQJ QT632.8653.74.85 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-464   S  3N-S       400          6.JT8.J964.AJ542 KT983.92.T2.KT96 AQJ5.KQ.AQ853.Q8 742.A76543.K7.73 | 2N-P-3N
-465   S  6N-S       990          Q5.65.AQJT5.KT86 K73.J9842.4.9543 AJT82.AK.K86.AQ7 964.QT73.9732.J2 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-466   S  6N-S      -100          9.AJ7.KQ532.JT74 8765.Q986.9874.K AKJ.KT53.AJT.A98 QT432.42.6.Q6532 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-467   S  6N-S       990          AT2.Q.AJ986.Q752 K853.873.754.J94 QJ96.AKJ.K32.AK6 74.T96542.QT.T83 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-468   S  3N-S       600          9.T63.KT76.KJ943 QT753.AKQ84.2.85 AKJ.J975.AQJ5.AT 8642.2.9843.Q762 | 2N-P-3N
-469   S  3N-S       600          52.J9.KJT72.J752 QT.542.Q854.QT84 AK74.AQ63.A93.K6 J9863.KT87.6.A93 | 2N-P-3N
-470   S  6N-S       990          93.Q5.KQ753.AK87 A62.J9742.86.653 KQT7.AKT.AJT.QJ9 J854.863.942.T42 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-471   S  6N-S      1470          A8.K9.QJ632.KQ52 JT5.T753.954.J94 K942.AQ62.AK7.A3 Q763.J84.T8.T876 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-472   S  3N-S       400          J.T93.KJT87.JT73 A963.A854.Q542.6 KQ872.KJ.A3.AK54 T54.Q762.96.Q982 | 2N-P-3N
-473   S  3N-S       430          9.983.J974.KQJ96 Q74.KJT2.A52.852 AKJ8.AQ7.KT3.A74 T6532.654.Q86.T3 | 2N-P-3N
-474   S  3N-S       660          9.KQ5.K9762.QT54 AJT86.T.JT8.K862 KQ32.A987.AQ3.AJ 754.J6432.54.973 | 2N-P-3S=1=-X-3N=2= | Minor Suit Stayman after 2NT | Artificial
-475   S  6D-S       920          4.532.AJ642.AQ94 K8753.KT64.T.872 AJ.AQJ9.KQ975.K3 QT962.87.83.JT65 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !C king
-476   S  6N-S      -100          Q.J43.KQ42.AT853 KT2.92.98753.Q97 A865.AKQ7.AT.K42 J9743.T865.J6.J6 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-477   S  5D-S       600          .A9.Q9843.QJ8753 JT97532.54.5.KT6 AKQ8.KT3.KJ76.A9 64.QJ8762.AT2.42 | 2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5C=6=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=0/5 or 3/5
-478   S  3N-S       460          8.T53.KQJ92.QT52 T74.A96.A6.J8764 AKJ62.KQJ.T85.AK Q953.8742.743.93 | 2N-P-3N
-479   S  3N-S       660          43.K7.QT943.AT84 J765.654.J852.Q9 AK92.AJ9.AK7.J76 QT8.QT832.6.K532 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-480   S  3N-S       430          K2.K3.J864.J8752 QT43.J764.92.AT4 A987.AQ9.KQT.KQ6 J65.T852.A753.93 | 2N-P-3N
-481   S  3N-N       460          84.J8.AJ43.K7654 T53.K92.Q52.J982 AK62.AQ743.KT.AT QJ97.T65.9876.Q3 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
-482   S  3N-S       630          J4.9.QT974.AJ874 A72.QT72.62.QT52 KQ3.AKJ8.KJ53.K9 T9865.6543.A8.63 | 2N-P-3N
-483   S  6N-S       -50          Q7.T8.QJ862.AQ95 942.KJ92.A93.T62 AKJ8.AQ4.KT54.K7 T653.7653.7.J843 | 2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-484   S  3N-S       600          64.J5.JT832.AT82 QJ8.T763.K65.QJ4 K932.AKQ.AQ.K975 AT75.9842.974.63 | 2N-P-3N
-485   S  3N-S       630          7.T95.J8542.AK62 982.K743.T6.JT84 AQ43.AQJ8.AQ9.Q5 KJT65.62.K73.973 | 2N-P-3N
-486   S  6N-S       -50          K4.Q6.A976.QJT65 532.T85.JT53.K43 AQ76.AJ74.KQ2.A7 JT98.K932.84.982 | 2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-487   S  6N-S      1440          K.J82.KJ64.AQJ43 643.K7653.987.75 AQJ5.AQ9.A32.KT6 T9872.T4.QT5.982 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6N | Minor Suit Stayman after 2NT | Artificial
-488   S  7C-S      1440          AK6.6.AJ742.J862 7.T87.T8653.T975 542.AKQ4.K9.AKQ3 QJT983.J9532.Q.4 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-5N=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen no !S king
-489   S  6N-S       990          A.Q2.86542.KQT85 J94.KJ975.Q73.62 KQ763.A64.AK.A94 T852.T83.JT9.J73 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-490   S  7C-S      2140          A98.5.K8542.KJ54 QT73.JT9.T73.963 654.AKQ7.AQ.AQ82 KJ2.86432.J96.T7 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-5N=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen no !S king
-491   S  3N-S       460          932.5.KJT6.KQ952 Q86.642.8754.J86 KJ754.AK8.AQ.AT4 AT.QJT973.932.73 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-492   S  6N-S      -100          K.Q83.87532.AQ75 86542.T752.JT6.4 AJ73.AJ9.AK4.KJ9 QT9.K64.Q9.T8632 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-493   S  3N-N       660          Q.KQ9.QJ842.7652 985.J765.T75.KQT AJ432.A843.AK.A4 KT76.T2.963.J983 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-494   S  5D-S       400          K5.T9.QJ53.QJ965 AJ64.KJ8542.4.84 T2.AQ63.AK82.AK2 Q9873.7.T976.T73 | 2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-495   S  3N-S       660          T2.72.AKQ75.6542 Q87.AK954.T42.98 AKJ3.QJ83.J6.AKQ 9654.T6.983.JT73 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-496   S  3N-S       430          J6.97.QT872.AJ92 T85.Q432.K5.T875 Q972.AKJ.AJ6.KQ4 AK43.T865.943.63 | 2N-P-3N
-497   S  6N-S       990          A83.A.AJ86.T9874 95.QJ9754.932.K5 KQT4.K3.KQ7.AQJ3 J762.T862.T54.62 | 2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-498   S  3N-S       600          94.T5.KT874.AJT6 T7653.832.AJ2.K4 AQ.AKQJ9.Q9.Q985 KJ82.764.653.732 | 2N-P-3N
-499   S  5D-S       420          96.KJ.AJ762.T964 Q54.T98765.T9.J8 AKT82.A2.KQ85.KQ J73.Q43.43.A7532 | 2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper
-500   S  3N-S       600          97.K4.T8753.K864 J53.JT976.Q962.T AKQ8.AQ32.AJ.J52 T642.85.K4.AQ973 | 2N-P-3N
+1     S  6C-N       920          J.J.AJT83.Q98654 T97653.943.64.32 AKQ8.Q87.K92.AK7 42.AKT652.Q75.JT | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+2     S  6C-N      1370          Q.6.K8654.Q87654 AJ8742.K.JT973.2 K93.AT982.AQ.AKT T65.QJ7543.2.J93 | 2N-P-6C
+3     S  4H-S       450          62.2.AQJ42.QJ854 AKJT75.943.63.32 94.AKQJT.KT7.AK6 Q83.8765.985.T97 | 1H-P-1N=1=-2S-3S=2=-P-4H | Forcing 1NT | Strength cue bid
+4     S  5C-N       620          K.K5.KJ965.T9642 T.QJ876.T84.QJ73 A9642.A9.AQ7.AK5 QJ8753.T432.32.8 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
+5     S  6C-S      1370          .K53.AQT32.Q9643 Q875.A9842.98.T8 AKT3.Q6.KJ7.AKJ2 J9642.JT7.654.75 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+6     S  5C-S       400          63.8.KJ964.T9543 J75.KT54.8753.72 AQ9.A976.T2.AKQJ KT842.QJ32.AQ.86 | 2N-P-4S=1=-P-5C | Minors
+7     S  5C-S       640          A.3.J98542.AK843 J743.KQT97.T76.T KQ6.AJ82.AK.QJ92 T9852.654.Q3.765 | 2N-P-3S=1=-P-4C-P-4H=2=-X-5C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+8     S  3N-S       400          J62..KT763.J9642 QT94.98754.J2.KT AK53.AK32.94.AQ5 87.QJT6.AQ85.873 | 2N-P-3N
+9     S  6D-N       920          .76.QJ8543.AJT98 432.Q9432.T6.Q72 AQT97.AK8.A92.K5 KJ865.JT5.K7.643 | 2N-P-6D
+10    S  3N-S       630          K4..KJ7432.98642 Q963.AQT982.9.J7 A87.K765.AQT.AK5 JT52.J43.865.QT3 | 2N-P-3N
+11    S  3N-S       400          4.T7.AT732.KT862 KQT985.Q6.J6.Q74 AJ62.AK85.K9.AJ5 73.J9432.Q854.93 | 2N-P-3N
+12    S  3N-S       600          62.J.K7542.QT432 KT85.A96.Q3.9876 AJ.KQ43.AJ86.AJ5 Q9743.T8752.T9.K | 2N-P-3N
+13    S  6C-S      1370          K7.5.KJ864.KT983 T865.Q943.95.742 QJ2.AT8.AQ3.AQJ6 A943.KJ762.T72.5 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+14    S  3N-S       430          Q6.4.Q9542.KQT62 T972.AQ85.T3.954 AK8.KJT32.A87.AJ J543.976.KJ6.873 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
+15    S  6C-S      1390          JT.2.AKQJ9.98743 Q982.K76.765.T52 AK7.AJ84.T2.AKJ6 6543.QT953.843.Q | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+16    S  5C-S       400          62.6.A9543.T8765 K8.KT87.QT62.KJ9 AQJ94.A9.KJ8.AQ4 T753.QJ5432.7.32 | 2N-P-4S=1=-P-5C | Minors
+17    S  3N-S       400          J98..87542.A9863 T64.QT9654.Q93.7 AK32.AJ7.KT6.KQ2 Q75.K832.AJ.JT54 | 2N-P-3N
+18    S  3N-N       660          2.5.Q7643.AKT986 JT96.T983.A.J542 AKQ84.AK74.K9.Q3 753.QJ62.JT852.7 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+19    S  6C-N       -50          .65.T8542.KJ9743 J975.KT74.Q73.A8 AK862.AQ3.AJ9.Q2 QT43.J982.K6.T65 | 2N-P-4S=1=-P-5D-P-6C | Minors
+20    S  6C-S      1370          9..AKQ943.T98653 8652.Q953.T6.K42 AK3.AKT86.J5.AQ7 QJT74.J742.872.J | 2N-P-3S=1=-P-3N=2=-P-4D-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+21    S  6D-S      1370          AJ.J.J9742.AQT54 862.QT985.K53.32 KQT5.AK73.AQT.K8 9743.642.86.J976 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+22    S  6N-S       990          3.8.KQJT85.KQJ87 QT9765.Q9753..94 KJ8.AKJ62.A32.A6 A42.T4.9764.T532 | 1H-P-2D-P-3N-P-4D-P-4N=1=-P-5D=2=-P-5H-P-6C=3=-P-6N | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen and !C king
+23    S  6C-S      1390          .Q.AQT652.QJT752 6543.JT96.743.43 KT82.AK74.K9.AK9 AQJ97.8532.J8.86 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+24    S  3N-S       460          QJ.9.KJ532.KT843 T862.QJT62.7.J97 A54.AK87.AQ8.A62 K973.543.T964.Q5 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
+25    S  7C-S      1440          .KJ9.AK863.QT843 K976432.83.754.6 QJ8.AQT.QJ2.AKJ7 AT5.76542.T9.952 | 2N-P-3S=1=-P-4C-P-4N=2=-P-5C=3=-P-7C | Minor Suit Stayman after 2NT | Blackwood 0314, for !C | A=0/5 or 3/5
+26    S  5D-S       600          J87..Q8754.AQ762 A.76532.632.K853 KT53.AKQT.AK9.JT Q9642.J984.JT.94 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-5D | Minor Suit Stayman after 2NT | Artificial
+27    S  3N-S       400          75.8.KJT32.JT874 AQ42.JT953.74.Q6 K986.AK76.AQ5.A5 JT3.Q42.986.K932 | 2N-P-3N
+28    S  3N-S       630          86.T.AKT74.J9654 J752.Q842.Q9.KT2 AKQ3.AJ3.J82.AQ7 T94.K9765.653.83 | 2N-P-3N
+29    S  6C-N      -100          8.J.Q8762.KQ8732 A95.QT7652.K93.9 KJT74.AK.A54.AJ6 Q632.9843.JT.T54 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+30    S  2H-S       110          3.T8.Q9643.QJ965 KJ9.J72.KJ5.T872 AT862.AQ43.A2.AK Q754.K965.T87.43 | 1S-P-P-X-2H
+31    S  3N-S       600          9.74.JT642.KQJ74 J75.T983.K93.965 AKT2.K52.AQ7.A32 Q8643.AQJ6.85.T8 | 2N-P-3N
+32    S  3N-S       460          .Q87.QT654.KT982 AJ963.9653.73.64 Q42.AKJ4.AK8.A53 KT875.T2.J92.QJ7 | 2N-P-3N
+33    S  5D-S       400          63.5.KT874.J8743 Q75.KQT932.653.6 AK82.AJ87.AJ9.K9 JT94.64.Q2.AQT52 | 2N-P-4S=1=-P-5D | Minors
+34    S  6C-S      1370          Q9.5.KQJ63.QT542 JT732.A8432.97.6 AK6.Q97.AT4.AK98 854.KJT6.852.J73 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+35    S  3N-S       430          8.86.K8653.KJ842 QT9753.A5.J4.A96 AK4.KQJ72.AQ9.Q7 J62.T943.T72.T53 | 2N-P-3N
+36    S  6N-N      1440          Q6.6.KQ865.AJ652 T8752.T754.J97.8 KJ3.AKQ93.A2.K93 A94.J82.T43.QT74 | 1H-P-1N=1=-P-3N-P-6N | Forcing 1NT
+37    S  3N-S       600          J.72.AJ854.J8762 AT876.KJ.963.T93 KQ2.AQ854.KQ.A54 9543.T963.T72.KQ | 2N-P-3N
+38    S  6C-N       920          .982.KQJ64.KT865 KT9863.A7643.9.2 AQ52.KJ5.AT2.AQ4 J74.QT.8753.J973 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+39    S  6CX-N     -200          .72.KT954.QT9743 KJ42.QT.A3.KJ652 AQ65.AK53.QJ7.A8 T9873.J9864.862. | 2N-P-6C-X
+40    S  6D-N       920          J.6.AJ6532.KQT64 T8752.J98732.9.9 AK96.KT4.KQT.AJ5 Q43.AQ5.874.8732 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5D-P-6D | Minor Suit Stayman after 2NT | Artificial
+41    S  7N-S      1520          T.A5.QJ654.KJT94 6432.98643.T2.76 AK9.KT72.AK87.A2 QJ875.QJ.93.Q853 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+42    S  6D-S      -100          7.Q6.A9643.QJ984 J942.9875.T.T765 AQT6.JT4.KQJ5.AK K853.AK32.872.32 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-6C=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !C king
+43    S  5C-S       440          J3.A.97542.AKJ86 K9654.J4.QT86.42 AQ82.KQ8.AK.Q975 T7.T976532.J3.T3 | 2N-P-3S=1=-P-4C-P-4H=2=-P-5C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+44    S  6D-S      1370          9.K7.JT752.KQT93 84.QJT3.963.J865 QJ76.A95.AKQ4.A2 AKT532.8642.8.74 | 2N-P-3S=1=-P-4D-P-4H=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+45    S  3N-S       600          6.32.KJ962.J7632 K987.Q875.T53.A4 AQJ4.KJT6.A8.KQ5 T532.A94.Q74.T98 | 2N-P-3N
+46    S  5C-N       420          Q74..J7652.KQJ96 T95.KT832.K93.82 AKJ8.AJ95.AT.A54 632.Q764.Q84.T73 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
+47    S  7D-S      -100          76..KQJT87.KT876 9832.T9753.542.5 AQJ.AJ6.A963.A94 KT54.KQ842..QJ32 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+48    S  3N-S       400          T73..JT982.KT987 J95.KJ863.75.A54 AK4.A75.AKQ63.J6 Q862.QT942.4.Q32 | 2N-P-3N
+49    S  3N-S       400          2.T2.Q9654.AT876 T9865.6.AJT.QJ42 AKJ3.AK3.K873.K9 Q74.QJ98754.2.53 | 2N-3H-3N
+50    S  3N-N       630          84.3.KJ842.AT964 JT9.Q98.QT97.Q52 AQ6.AKJ65.A6.K87 K7532.T742.53.J3 | 1H-P-1N=1=-P-3N | Forcing 1NT
+51    S  7D-S       -50          82.K.QJT82.AJ742 J54.T87642.73.86 AK97.A3.AK964.QT QT63.QJ95.5.K953 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+52    S  3N-N       660          QJ2..A6532.K9543 98.KQ92.QJT4.T62 AK64.AJT75.K8.AJ T753.8643.97.Q87 | 1H-P-1N=1=-P-2S-P-2N-P-3N | Forcing 1NT
+53    S  6D-S      1370          K8.2.87653.KQJ75 QT542.AQ974.2.T2 A3.K853.AKQT9.A6 J976.JT6.J4.9843 | 2N-P-3S=1=-P-4D-P-4H=2=-X-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+54    S  6C-N       -50          Q5.Q.K8753.QJ854 T9863.J2.A9642.K AK7.AKT65.QJ.A93 J42.98743.T.T762 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+55    S  3N-S       630          5.J5.J9652.AJ976 Q932.Q7432.Q3.T3 AJ.AK9.A84.KQ852 KT8764.T86.KT7.4 | 2N-P-3N
+56    S  6D-S       920          5.AT.KQJ92.Q7632 A87642.874.T.984 KQJT.KQ32.A86.AJ 93.J965.7543.KT5 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+57    S  5D-N       400          T.2.K97632.JT974 52.A9865.QJ4.K65 AK8.QJ743.AT5.AQ QJ97643.KT.8.832 | 2N-3S-5D
+58    S  3N-S       600          7.96.KQ742.J8762 KQT54.T7.T83.Q43 A63.AJ85.AJ96.AK J982.KQ432.5.T95 | 2N-P-3N
+59    S  3N-S       430          .Q73.QT765.QJT74 T987643.AJ.KJ.65 AK5.KT985.A9.AK9 QJ2.642.8432.832 | 2N-P-3N
+60    S  6C-N      1370          .Q9.A8654.Q65432 72.JT6532.973.A9 AJ5.AK8.KQT2.KJ8 KQT98643.74.J.T7 | 2N-4S-6C
+61    S  3N-S       600          8.9.KQ863.J98652 JT654.J82.T4.KT4 AQ932.AK5.J72.AQ K7.QT7643.A95.73 | 2N-P-3N
+62    S  5C-S       420          J.2.J97532.AKQ73 A754.QJ64.T86.54 K2.AK7.AKQ4.JT86 QT9863.T9853..92 | 2N-P-3S=1=-P-4C-P-4H=2=-P-5C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+63    S  7N-S      2220          6.3.AQJ54.KJ9543 J9842.KQT872..T8 AQT.AJ6.K732.AQ6 K753.954.T986.72 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+64    S  1H-S       110          T97..J8754.KJ762 843.T9732.Q.T984 QJ2.AKJ84.AKT.Q5 AK65.Q65.9632.A3 | 1H
+65    S  3N-S       400          32.T.AJ653.J9865 Q86.AJ843.Q94.42 AKJ4.K975.K82.AQ T975.Q62.T7.KT73 | 2N-P-3N
+66    S  6D-S      1390          5.J3.KQ942.AK643 K96.Q986.3.JT985 AQJ4.AK54.A85.Q7 T8732.T72.JT76.2 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+67    S  3N-S       400          T84..Q8653.KJT94 9.JT97643.97.Q72 K732.AKQ.AKJT.65 AQJ65.852.42.A83 | 2N-P-3N
+68    S  3N-N       660          K97..AQ874.J9743 T8542.K876.63.T6 AQJ3.AQJT4.T9.AK 6.9532.KJ52.Q852 | 1H-P-1N=1=-P-2S-P-2N-P-3N | Forcing 1NT
+69    S  3N-S       630          86.K.KQ975.J9532 AQT4.AT2.JT3.T76 KJ952.QJ8.A6.AKQ 73.976543.842.84 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
+70    S  3N-S       400          9.84.KQ432.JT652 Q832.QJT632.95.4 K654.AK95.JT.AKQ AJT7.7.A876.9873 | 2N-P-3N
+71    S  6C-N      1370          5.5.QJ732.AQ9862 K86.KJ3.T86.JT53 AQJ.AQ98.A95.K74 T97432.T7642.K4. | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+72    S  3N-N       490          Q.95.KQ875.KQ964 T98642.8743.94.8 AKJ3.AKJ62.AT.J7 75.QT.J632.AT532 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+73    S  6N-S      -100          5.95.AT843.A8764 KT6432.76.92.Q95 AQJ8.AQ83.QJ7.KJ 97.KJT42.K65.T32 | 2N-P-6N
+74    S  3N-S       600          .JT8.KT643.J8762 KJT986.KQ9.Q95.9 AQ4.A762.AJ82.KQ 7532.543.7.AT543 | 2N-P-3N
+75    S  6C-N       940          K9.K.K9754.A8654 6432.T8542.Q32.J AJ75.AJ6.AJT.KQ3 QT8.Q973.86.T972 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+76    S  7D-S      -100          .3.AQJT98.Q97632 T953.QJ965.6.J84 AQ8.AKT8.K532.A5 KJ7642.742.74.KT | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+77    S  6C-N      1370          8.J.KJ842.K96542 T96.T9876.QT9.QT KQ43.AK54.A73.AJ AJ752.Q32.65.873 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6C | Minor Suit Stayman after 2NT | Artificial
+78    S  3N-S       400          4.3.KJT62.K87642 32.972.A843.AT95 AK5.AKQJ5.75.QJ3 QJT9876.T864.Q9. | 1H-3S-P-P-3N
+79    S  7N-S      2220          976..K8762.AKT96 T82.JT75.T5.Q752 AK3.AK93.AJ93.J4 QJ54.Q8642.Q4.83 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-6D=4=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | No !D queen
+80    S  7C-S      1440          .AQ5.KJ852.J8653 KJT65.7632.974.4 AQ94.KT9.A6.AK92 8732.J84.QT3.QT7 | 2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
+81    S  7D-S       -50          .96.KQ8642.KJ843 Q2.JT8542.3.9765 AKJ7.AK7.JT75.AT T986543.Q3.A9.Q2 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+82    S  6C-S      1370          53.3.AQT62.QJ972 T8742.J92.J83.54 KJ9.AK6.K54.AKT3 AQ6.QT8754.97.86 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+83    S  7N-S      1520          T.T5.KQJT4.KJT52 K86.Q963.865.876 A9543.AK.A7.AQ43 QJ72.J8742.932.9 | 2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-P-4N=4=-P-5D=5=-P-5H-P-5N=6=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen no !S king
+84    S  3N-S       600          .765.AJT94.J8542 AT95432.AJ2.6.T6 KQJ6.KQT4.Q7.AK7 87.983.K8532.Q93 | 2N-P-3N
+85    S  3N-N       690          T.J7.KQJ94.A7543 J853.64.T865.J96 AK9.AKQT5.72.KQT Q7642.9832.A3.82 | 1H-P-1N=1=-P-3N | Forcing 1NT
+86    S  6C-N       920          K.J4.KJ653.Q9542 J6432.T8.942.KJ8 AQT8.AQ7.A87.AT7 975.K96532.QT.63 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+87    S  4N-S       630          .95.KQ8652.JT982 J97543.2.3.AQ754 AKQ8.AT.AJT94.K6 T62.KQJ87643.7.3 | 2N-4H-4N
+88    S  6N-S      -100          42.A.Q9872.QJ952 T65.JT86432..K76 AKQ9.Q95.AJT6.A8 J873.K7.K543.T43 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-6N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+89    S  5C-S       -50          83.9.A8432.76542 KJ642.KT5.Q95.AT AQ.AQJ62.KJ6.QJ8 T975.8743.T7.K93 | 2N-P-4S=1=-P-5C | Minors
+90    S  5C-S       620          Q.9.QJ8542.KQT84 JT73.KT8432.73.J AK65.AQ.KT9.A763 9842.J765.A6.952 | 2N-P-3S=1=-P-4C-P-4H=2=-P-5C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+91    S  3N-N       520          5.65.KQ965.AQ974 KJ9832.T874.42.J AQ.AKJ32.A83.K65 T764.Q9.JT7.T832 | 1H-P-1N=1=-P-3N | Forcing 1NT
+92    S  6C-N      1390          JT3..AT652.KQ764 Q7.KT973.J974.52 AK92.AQ52.K8.AJ3 8654.J864.Q3.T98 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+93    S  6C-S      1370          2.K3.AT972.K7432 QT963.JT876.6.QJ AK75.A9.KQJ.AT98 J84.Q542.8543.65 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+94    S  5C-S       400          4.42.Q8753.Q9854 KT753.AQT86.JT6. A82.KJ5.A9.AKJT7 QJ96.973.K42.632 | 2N-P-4S=1=-P-5C | Minors
+95    S  6DX-N     1540          96.Q.QJT97.KT543 3.K98754.65432.A AK875.A2.AK.QJ92 QJT42.JT63.8.876 | 2N-P-3S=1=-P-4C-P-4H=2=-P-4S=3=-P-4N=4=-P-5C=5=-P-6D-X | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=0/5 or 3/5
+96    S  6C-S       940          A9.Q.KJT53.AT743 J76.J9753.Q84.65 K83.AK64.A7.KQJ9 QT542.T82.962.82 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+97    S  3N-S       490          42.2.T9854.KQ942 KQJT83.KQJ4.J63. A9.A873.AKQ2.AT3 765.T965.7.J8765 | 2N-P-3N
+98    S  6D-N      -100          .52.AK8642.J9862 JT87432.4.3.QT53 AK6.KJ86.QJ5.AK4 Q95.AQT973.T97.7 | 2N-P-6D
+99    S  3N-S       400          96.9.Q7643.AJT92 Q85432.JT2.52.Q7 K7.AKQ5.AJ9.K864 AJT.87643.KT8.53 | 2N-P-3N
+100   S  3N-N       660          T4.A.K9632.QT974 97.87542.AT874.5 AK62.KQT63.J5.AK QJ853.J9.Q.J8632 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+101   S  6C-N      1390          Q4.J.AK432.AJT53 JT9872.Q83.5.642 AK5.AKT2.J76.KQ9 63.97654.QT98.87 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+102   S  7N-S       -50          8.K6.KQ832.K9643 J752.Q853.76.QT7 AQ.AJ7.AJT95.AJ2 KT9643.T942.4.85 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+103   S  6D-S      1370          KT.K.QT963.KJ852 Q7532.J9876.4.43 A8.AQ32.AKJ5.Q96 J964.T54.872.AT7 | 2N-P-3S=1=-P-4D-P-5C=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, surplus
+104   S  3N-S       430          7.86.AQJ95.T9752 J52.QT42.K642.J6 AK6.AK9.T873.AK8 QT9843.J753..Q43 | 2N-P-3N
+105   S  3N-N       460          J.32.KJ982.KQ963 964.9.7653.J8542 AKT87.AKJ5.Q4.AT Q532.QT8764.AT.7 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+106   S  3N-S       630          5.85.K7543.KQ764 KQT4.KT962.JT6.T AJ3.AQJ4.A98.A52 98762.73.Q2.J983 | 2N-P-3N
+107   S  3N-S       460          763..KQ764.QJ843 K942.KT8652.83.6 QT5.AQ3.AJ.AKT75 AJ8.J974.T952.92 | 2N-P-3N
+108   S  6C-S      1390          4.6.AKJ972.QJ953 KT52.QT932.QT6.7 AJ96.AKJ.43.AK86 Q873.8754.85.T42 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+109   S  3H-S       140          J.74.98642.AQT62 852.Q982.KQ53.75 KQT74.AK63.AJ.K9 A963.JT5.T7.J843 | 1S-P-1N=1=-P-3H | Forcing 1NT
+110   S  6C-S       920          4.Q.KJ875.KJ8432 KQ872.AT86.932.9 A65.KJ.AQ64.AQ76 JT93.975432.T.T5 | 2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
+111   S  3N-S       630          5.QT.KQ863.T9752 964.87532.J942.8 KQ2.J94.AT.AKQJ4 AJT873.AK6.75.63 | 2N-P-3N
+112   S  6C-N       920          .AT3.KJ986.KJ852 T98752.J92.732.9 AK6.KQ86.AQT.QT3 QJ43.754.54.A764 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+113   S  6D-S       920          8.A7.KT943.KQ764 T73.T62.Q5.AJ982 AKQ.KQJ.AJ876.53 J96542.98543.2.T | 2N-P-3S=1=-P-4D-P-4N=2=-P-5H=3=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
+114   S  7C-S      -100          A3..AJ9865.JT932 J8765.QT93.T72.7 K2.AKJ85.Q4.AK84 QT94.7642.K3.Q65 | 1H-P-1N=1=-P-3C-P-4N=2=-P-5C=3=-P-5D-P-6C=4=-P-7C | Forcing 1NT | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
+115   S  3N-S       430          Q3.7.JT762.KQT65 972.Q96542.43.83 KT6.K83.AKQ98.AJ AJ854.AJT.5.9742 | 2N-P-3N
+116   S  3N-S       600          5.87.KT985.Q7632 KT97.KJ6.Q743.A4 AQ2.AQT43.AJ.KJT J8643.952.62.985 | 2N-P-3N
+117   S  7N-S      2220          Q.AJ.QJ643.AJ532 T85432.T9872.8.4 AK9.KQ4.AKT5.Q76 J76.653.972.KT98 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+118   S  3N-S       400          6.92.85432.KQT94 9852.KQ54.K7.876 KJ3.A83.AQJT6.AJ AQT74.JT76.9.532 | 2N-P-3N
+119   S  3N-S       600          T8..AJT74.J97654 K753.J98752.Q5.8 AQJ2.AQT.K982.AT 964.K643.63.KQ32 | 2N-P-3N
+120   S  3N-N       460          J9.2.AKJ85.Q9643 K84.875.9642.852 AQ75.AJ943.QT.AK T632.KQT6.73.JT7 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+121   S  3N-S       430          3.K8.KQ952.J9865 854.T975.T4.AT74 KQ.AJ432.AJ63.KQ AJT9762.Q6.87.32 | 2N-3S-3N
+122   S  3N-S      -300          83.J.JT865.QJ942 KT4.9643.93.T763 AQ75.Q2.KQ42.AK8 J962.AKT875.A7.5 | 2N-P-3N
+123   S  6CX-N     -100          62.2.AQJ43.KJ852 987.J963.98762.3 KQJ4.KQ8.KT5.AQ6 AT53.AT754..T974 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C-P-P-X | Minor Suit Stayman after 2NT | Artificial
+124   S  3N-N       660          .JT3.T9876.AKJ74 J9876.A62.J42.82 AKQT4.K97.AKQ.65 532.Q854.53.QT93 | 1S-P-1N=1=-P-3N | Forcing 1NT
+125   S  6H-S      1430          .J54.AK753.T8754 QT96.T7.8642.K92 A8.AKQ83.JT.AQJ6 KJ75432.962.Q9.3 | 1H-3S-P-P-4C-P-4N=1=-P-5C=2=-P-6H | Blackwood 0314, for !C | A=0/5 or 3/5
+126   S  6C-N       940          97..KQ962.AJ7653 JT62.QT7432.T8.9 A5.AKJ96.AJ.KT42 KQ843.85.7543.Q8 | 1H-P-1N=1=-P-3N-P-4C-P-4D=2=-P-5C-P-6C | Forcing 1NT | Cue bid, a !D stopper
+127   S  1S-S       110          7.T.Q8642.KT9642 KT82.Q863.KT75.5 AJ543.AKJ2.J9.AQ Q96.9754.A3.J873 | 1S
+128   S  6N-S       990          4.Q8.K9842.AKQT3 9653.J.JT65.J986 AQJT7.AK.AQ73.52 K82.T9765432..74 | 2N-3H-6N
+129   S  6D-N       920          .65.AJ8752.AT765 K7654.Q7.96.9832 AQJ2.AK42.K4.KJ4 T983.JT983.QT3.Q | 2N-P-3S=1=-P-3N=2=-P-4D-P-5C-P-6D | Minor Suit Stayman after 2NT | Artificial
+130   S  6C-N      1390          .874.KJT54.AQ952 QJT95.J2.987.863 AK86.AT96.AQ.KJ7 7432.KQ53.632.T4 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+131   S  3N-S      -150          9.85.AT852.J9652 T.JT962.Q743.K74 AKJ2.Q4.KJ9.AQT8 Q876543.AK73.6.3 | 2N-P-3N
+132   S  5D-S       600          T.83.J9874.QJT72 KJ76542.T74.Q3.K AQ9.AQJ.AT652.A8 83.K9652.K.96543 | 2N-P-4S=1=-P-5D | Minors
+133   S  6N-S      1440          Q.92.KQ942.AKT96 82.J8653.T73.853 AKJ75.KQ7.AJ.Q72 T9643.AT4.865.J4 | 1S-P-2D-P-3N-P-6N
+134   S  6C-S       920          82.6.KQ984.AT542 J7653.T853.T72.7 KQ4.AK7.AJ3.KJ96 AT9.QJ942.65.Q83 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+135   S  3N-S       630          9.J6.JT984.AJ532 K853.AQT72.63.97 AQJT2.K4.AKQ5.QT 764.9853.72.K864 | 2N-P-3N
+136   S  6C-S       940          .64.AKJ953.K9732 K74.Q532.T864.65 AT6.AK97.Q7.AQJ8 QJ98532.JT8.2.T4 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+137   S  3N-S       430          63.T.QJ986.AJ642 Q94.842.AT754.Q5 AKT2.AQJ3.K2.KT8 J875.K9765.3.973 | 2N-P-3N
+138   S  6D-S      1370          J.T4.AT864.AQJ62 QT96.Q7.QJ32.T73 AK7.AK653.K75.K9 85432.J982.9.854 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+139   S  3N-N       460          5.J9.AQ953.KT765 Q943.7652.J84.J2 AKJ87.AQ84.T7.AQ T62.KT3.K62.9843 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+140   S  5D-S       620          73.2.QT743.Q9652 Q982.KJ98.AJ8.87 AK5.A74.K652.AKT JT64.QT653.9.J43 | 2N-P-4S=1=-P-5D | Minors
+141   S  5C-N       620          K.Q9.KQJ65.J8542 T5432.T8.T.KQ763 A87.AKJ3.A94.AT9 QJ96.76542.8732. | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
+142   S  3N-S       400          6.83.AJ975.JT942 Q852.962.842.K65 AKT4.AT7.KT.AQ87 J973.KQJ54.Q63.3 | 2N-P-3N
+143   S  3N-S      -100          72.6.KQT52.97653 Q85.T73.A87643.8 AKJ3.KQ8.J9.AQJ4 T964.AJ9542..KT2 | 2N-P-3N
+144   S  6D-N       920          .T4.QJT832.AK983 97532.K8752.75.J AKQJ.AJ96.A6.Q74 T864.Q3.K94.T652 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5C-P-6D | Minor Suit Stayman after 2NT | Artificial
+145   S  6C-N       -50          J.7.QJ975.J98762 KT94.K863.632.A3 A8.AQJ95.AKT8.K5 Q76532.T42.4.QT4 | 2N-P-6C
+146   S  3N-S       600          7.54.JT987.KQJ94 T9.KT93.Q542.T72 KQJ5.QJ2.AK3.A86 A86432.A876.6.53 | 2N-P-3N
+147   S  3N-S       400          T8.T.Q6432.K9864 J9752.QJ975.J7.5 AK4.A642.A985.AJ Q63.K83.KT.QT732 | 2N-P-3N
+148   S  4HX-W      500          543..QJ975.KQ654 QJ72.Q7.632.J983 AK986.AJ5.AT8.AT T.KT986432.K4.72 | 2N-4H-X
+149   S  6D-S      1390          J.K5.Q7652.KT972 K652.Q942.J43.J4 A943.A6.AKT98.AQ QT87.JT873..8653 | 2N-P-3S=1=-P-4D-P-5C=2=-P-6D | Minor Suit Stayman after 2NT | Cue bid, surplus
+150   S  5D-S       400          .97.AT984.T98543 QT7.J8653.J73.K2 AK864.KQ4.KQ6.A7 J9532.AT2.52.QJ6 | 2N-P-4S=1=-P-5D | Minors
+151   S  3N-N       690          QT.8.AT762.QJT92 KJ2.T962.983.853 A8.AKQJ5.K5.A764 976543.743.QJ4.K | 1H-P-1N=1=-P-3N | Forcing 1NT
+152   S  1H-S       140          652..KQ632.J9872 JT.K9762.T54.QT6 KQ74.QJ854.AJ.AK A983.AT3.987.543 | 1H
+153   S  6C-N       920          J62..KQ872.KJ932 Q7.AQ86432.94.Q6 AKT8.KJ97.AJ.AT5 9543.T5.T653.874 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+154   S  3N-S       600          54.4.J8764.AT832 KQ.8732.T532.974 JT986.AK5.AKQ.KJ A732.QJT96.9.Q65 | 2N-P-3N
+155   S  3N-S       400          4.42.A7654.KT987 T9762.65.QJ82.A6 AKJ.KQJ8.KT.QJ42 Q853.AT973.93.53 | 2N-P-3N
+156   S  6D-S      1370          4.J4.AKT75.QJ742 JT8732.9.Q83.T85 AQ5.AQ762.J62.AK K96.KT853.94.963 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+157   S  3N-N       660          4.J8.KQT95.QJ762 KT983.T3.73.A953 AQJ2.AKQ94.A2.84 765.7652.J864.KT | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+158   S  6D-S       920          .632.KQ986.AT732 KT97532.8754.3.9 AJ4.AQJ9.AJT2.K6 Q86.KT.754.QJ854 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-X-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+159   S  3N-S       660          93.3.Q8764.KQ987 AT85.QJT98.T.JT2 KQ72.A7.AK532.A5 J64.K6542.J9.643 | 2N-P-3N
+160   S  6C-S       920          J.J3.KQ985.KQ765 T987543.Q94.4.42 KQ2.AK.AJ62.AT83 A6.T87652.T73.J9 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+161   S  6C-N       920          K.92.KQT93.QT984 J853.K873.72.K72 A6.AQJT5.A64.AJ3 QT9742.64.J85.65 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+162   S  3N-S       630          QT3..JT965.AJ743 8765.QJ9654.43.Q KJ942.AK2.AK8.K2 A.T873.Q72.T9865 | 2N-P-3N
+163   S  6D-N       920          J.7.AQJT72.86432 9632.KT5.843.QJ9 AKT4.A98.K96.AK5 Q875.QJ6432.5.T7 | 2N-P-6D
+164   S  3N-N       630          2.A2.J7643.QJT98 JT86.QT9.QT8.642 KQ73.J8753.AK.AK A954.K64.952.753 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+165   S  3N-N       600          5.42.AJ654.Q9654 AQ976.QJT5.T2.82 K843.AK963.KQ.AJ JT2.87.9873.KT73 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+166   S  7D-S       -50          8.J.KQ974.KT9542 J9753.K64.T52.Q6 AK.AT97.AJ63.A87 QT642.Q8532.8.J3 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+167   S  6D-S      1370          Q2.J.QJT97.K8652 9865.T8765.6.J74 AKT73.Q43.AK2.A9 J4.AK92.8543.QT3 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+168   S  6N-N       990          3.AT.AJ865.QJ763 JT8764.Q96..KT54 AKQ52.KJ.KT32.A8 9.875432.Q974.92 | 1S-P-1N=1=-P-3N-P-6N | Forcing 1NT
+169   S  6D-S       940          .K8.98632.KQJT32 A963.JT94.QT4.75 KT52.AQ2.AKJ5.A9 QJ874.7653.7.864 | 2N-P-3S=1=-P-4D-P-4H=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+170   S  7D-S      2140          .J76.QT764.AK873 KQ9876.982.3.J65 AJT.AQ43.AKJ9.Q2 5432.KT5.852.T94 | 2N-P-3S=1=-X-4D=2=-P-4N=3=-P-5D=4=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5
+171   S  3N-S       430          Q97..K7643.QJ742 J3.AKT85.82.K965 AKT2.Q73.AQJT.A8 8654.J9642.95.T3 | 2N-P-3N
+172   S  6C-S      1370          94.2.K6543.AK954 AJT8.QT943.QT9.3 KQ.AK8.AJ87.QJ76 76532.J765.2.T82 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+173   S  3N-S       600          82.4.KJ963.Q9875 QT95.KJ9653.T8.J AKJ3.AQ87.A4.KT2 764.T2.Q752.A643 | 2N-P-3N
+174   S  1H-S       140          84.8.QJ965.QJ752 97632.754.T3.AK8 AJ.AKJ62.AK87.96 KQT5.QT93.42.T43 | 1H
+175   S  3N-N       690          9.Q4.QT962.KQ875 KQJ64.5.K753.T96 A32.AKJ97.AJ8.A4 T875.T8632.4.J32 | 1H-P-1N=1=-P-3N | Forcing 1NT
+176   S  5C-N       440          9.A5.QJ962.QT985 K864.642.8753.J6 AQ75.JT8.AKT.AK4 JT32.KQ973.4.732 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
+177   S  6C-S       920          2.AT.KQJ32.K8653 JT8643.Q.AT94.92 AKQ.KJ84.85.AQJT 975.976532.76.74 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+178   S  6D-S      1370          A9.6.JT986.KQT93 JT432.QJ954.5.85 KQ5.A732.AQ43.AJ 876.KT8.K72.7642 | 2N-P-3S=1=-P-4D-P-4H=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+179   S  3N-S       430          2.J9.AJ854.QT832 QT76543.K.Q763.K AK.AQ63.KT9.AJ75 J98.T87542.2.964 | 2N-P-3N
+180   S  3N-S       630          K8.5.Q7542.Q8643 T974.73.AK93.K95 AQJ63.AKQ.86.AJ2 52.JT98642.JT.T7 | 2N-P-3N
+181   S  3N-S       630          3.98.QJ854.KT632 T54.AQJ53.973.97 KQ86.K74.AK6.AQ8 AJ972.T62.T2.J54 | 2N-P-3N
+182   S  3N-S       400          T.94.AT964.JT542 96.QJ63.J732.987 KQJ52.K8.KQ8.AK6 A8743.AT752.5.Q3 | 2N-P-3N
+183   S  3N-S       600          85.6.JT752.KQT76 AQ7.JT97.Q964.82 K932.AK42.AK8.A5 JT64.Q853.3.J943 | 2N-P-3N
+184   S  6D-S       920          5.K.QJ732.KJ8752 JT3.AT9632.T96.9 AQ6.QJ.AK854.AT6 K98742.8754..Q43 | 2N-P-3S=1=-P-4D-P-5C=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, surplus
+185   S  5D-S       400          Q5.K.Q9873.QT654 K432.T7543.64.K7 AJ76.QJ6.AKJT.A9 T98.A982.52.J832 | 2N-P-3S=1=-P-4D-P-5C=2=-P-5D | Minor Suit Stayman after 2NT | Cue bid, surplus
+186   S  6D-S      1370          T.J5.KQ862.AQT94 Q9743.A32.T4.862 AKJ5.K864.AJ3.KJ 862.QT97.975.753 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+187   S  3N-S       430          5.82.JT963.AQ852 97643.JT5.KQ7.J9 AK.AK963.A82.K74 QJT82.Q74.54.T63 | 2N-P-3N
+188   S  6D-N      -100          .85.KQ8762.A9852 87643.J.AJT.QJT7 AKQJ.AK64.94.K64 T952.QT9732.53.3 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5C-P-6D | Minor Suit Stayman after 2NT | Artificial
+189   S  3N-S       690          .JT2.AK942.KJ987 .Q98543.763.T653 AQT43.AK7.JT8.AQ KJ987652.6.Q5.42 | 2N-3S-3N
+190   S  3N-S       400          9.T4.QJT94.QJT92 JT532.AJ6.763.65 KQ.KQ93.K52.AK84 A8764.8752.A8.73 | 2N-P-3N
+191   S  1H-S       140          52.4.J9873.KQ972 Q8743.85.Q4.T654 AKT6.AKQ93.T5.A8 J9.JT762.AK62.J3 | 1H
+192   S  3N-S       400          73.6.T9764.KQ743 652.JT32.QJ532.T AT84.AQ85.AK.A85 KQJ9.K974.8.J962 | 2N-P-3N
+193   S  3N-S       400          .Q63.T9763.AJT86 J932.4.J854.Q742 A75.AKT87.AQ.K95 KQT864.J952.K2.3 | 2N-P-3N
+194   S  6D-S      -100          T.K6.A7532.QJ842 7643.974.T9.AK63 AKQ.AQ5.KQJ8.T75 J9852.JT832.64.9 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-5S=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
+195   S  6C-S       940          3.5.KQ8654.A8752 QJ76.9632.7.QT43 A5.AKQ8.AT3.KJ96 KT9842.JT74.J92. | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+196   S  3N-S       660          J.A2.KJ743.J7542 Q872.T83.T5.Q986 AT.KQ764.A86.AK3 K96543.J95.Q92.T | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
+197   S  6C-N      1370          82.5.AQ872.A9842 KT9653.KJ84.95.3 AQJ.AQT7.KJT.KT6 74.9632.643.QJ75 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+198   S  3N-S       400          T2.2.KJT65.JT954 9863.AJ983.973.6 AKJ.K765.AQ8.A82 Q754.QT4.42.KQ73 | 2N-P-3N
+199   S  3N-N       690          K95..AJ643.K8654 JT76.J3.Q875.JT9 A43.AKQ54.K92.A2 Q82.T98762.T.Q73 | 1H-P-1N=1=-P-3N | Forcing 1NT
+200   S  3N-N       490          K8.K.QT974.K9754 632.J75.J52.AT82 AQJT9.AT64.AK.Q6 754.Q9832.863.J3 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+201   S  3N-N       460          7.QJ.KQ852.Q9863 J95.7543.AJT4.T4 AKQ42.AK.963.A52 T863.T9862.7.KJ7 | 1S-P-1N=1=-P-3N | Forcing 1NT
+202   S  3N-S       630          5.T4.AJT53.QT872 J9632.J96.K82.54 A84.AK853.Q9.AKJ KQT7.Q72.764.963 | 2N-P-3N
+203   S  3N-S       400          T.76.Q7652.A9843 J762.T8432.K3.76 AKQ9.AK9.T84.KJ2 8543.QJ5.AJ9.QT5 | 2N-P-3N
+204   S  6D-S      1370          84.T.QJ854.KQ852 KQ3.QJ932.32.T94 AJT95.K6.AKT6.AJ 762.A8754.97.763 | 2N-P-3S=1=-P-4D-P-5C=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, surplus
+205   S  3N-S       600          42.7.KQJ83.76542 T876.QJT9.2.KJ98 KQ3.AK542.AT5.AT AJ95.863.9764.Q3 | 2N-P-3N
+206   S  6D-S       920          3.AJ.JT642.KJ743 K752.K98542.85.2 AQJ4.Q7.AQ97.AQ5 T986.T63.K3.T986 | 2N-P-3S=1=-P-4D-P-4H=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+207   S  3N-N       630          96.J.AKT82.T6542 Q2.Q8653.9763.73 AKJ84.AK97.QJ.Q9 T753.T42.54.AKJ8 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+208   S  6C-N       920          9.63.KQT85.AT975 QJ43.QT9.J7632.6 AK862.AJ7.A9.KJ8 T75.K8542.4.Q432 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+209   S  3N-S       430          Q6.9.AJ532.87642 T97532.632.K96.K AKJ.KJT4.Q7.AQJ5 84.AQ875.T84.T93 | 2N-P-3N
+210   S  7N-S      -100          AKT..KT865.QJ543 Q6.J753.QJ94.T96 75.AKQ9.A732.AK8 J98432.T8642..72 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-6D=4=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | No !D queen
+211   S  3N-S       430          JT4..QJ962.KT863 9832.K743.53.J75 AK.AT962.KT84.AQ Q765.QJ85.A7.942 | 2N-P-3N
+212   S  7D-S      -100          Q72..KJT76.AJ984 AT98543.J9.53.63 KJ6.AKQ7.AQ82.Q5 .T865432.94.KT72 | 2N-P-3S=1=-X-4D=2=-P-4N=3=-P-5S=4=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1
+213   S  1H-S       110          3.4.JT854.K98742 KT854.765.Q963.T AQ76.AQT82.A2.AJ J92.KJ93.K7.Q653 | 1H
+214   S  6D-S       920          T2.9.QJT87.AQJ72 A976.T643.3.8653 KQ3.AQ82.AK64.KT J854.KJ75.952.94 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+215   S  6N-S      1440          A.J7.KT983.K9863 8764.T832.J72.Q4 QJ95.AK64.AQ6.A2 KT32.Q95.54.JT75 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
+216   S  6C-N       940          .5.KQ9542.T97643 QT93.T9874.J3.J8 854.AK32.A86.AKQ AKJ762.QJ6.T7.52 | 2N-P-6C
+217   S  3N-S       400          9.98.JT862.AT852 6542.J74.Q54.976 AKT83.A65.AK3.K4 QJ7.KQT32.97.QJ3 | 2N-P-3N
+218   S  3N-S      -100          6.J9.J7653.K8742 T43.AT75.KQ82.95 AK872.Q8.A9.AQJT QJ95.K6432.T4.63 | 2N-P-3N
+219   S  5C-S       -50          9.96.JT984.KT965 AT7.JT87.7652.84 KQ854.AQ5.AQ.QJ7 J632.K432.K3.A32 | 2N-P-4S=1=-P-5C | Minors
+220   S  3N-S       600          .754.K9543.A9854 J842.J63.QJ76.T2 KQ93.AK8.AT2.KJ6 AT765.QT92.8.Q73 | 2N-P-3N
+221   S  3N-S       630          Q3.4.J8764.KJT84 JT754.J753.KT93. A6.AKT9.AQ5.A532 K982.Q862.2.Q976 | 2N-P-3N
+222   S  3N-S       400          5.95.T9542.AK853 QJT97.K62.63.764 AK84.AQ87.KQJ.J2 632.JT43.A87.QT9 | 2N-P-3N
+223   S  5D-N       620          J9..AQJT64.JT987 63.J854.8753.642 AK752.AKT.K92.K5 QT84.Q97632..AQ3 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5D | Minor Suit Stayman after 2NT | Artificial
+224   S  6N-S      1020          A.QT.AT964.KT543 9862.K864.J32.98 KQJT7.AJ9.K85.AQ 543.7532.Q7.J762 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6N | Minor Suit Stayman after 2NT | Artificial
+225   S  4SX-W      800          3.84.AQ975.KJT74 AJ.T952.863.8632 K94.AKJ73.KT.AQ9 QT87652.Q6.J42.5 | 1H-3S-X-4S-X
+226   S  3N-N       630          K5.9.98642.A9764 94.J653.JT3.QT52 AQ872.AKQT.Q5.KJ JT63.8742.AK7.83 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+227   S  6C-N       940          Q72..AJ432.AQ854 K93.543.QT9.9763 AJ854.AKQ.K7.KJ2 T6.JT98762.865.T | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+228   S  6C-N      -100          6.2.KT854.KJT964 A9832.QT86.6.872 KQJT4.AK9.A32.A5 75.J7543.QJ97.Q3 | 2N-P-6C
+229   S  6D-S      1370          4.T9.A7654.KQT53 JT98.5432.3.8764 K72.AKJ.KQ98.AJ9 AQ653.Q876.JT2.2 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-5S=4=-X-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
+230   S  3N-S       460          764..KJ863.QJT76 A92.T942.T542.85 KT53.A73.AQ7.AK2 QJ8.KQJ865.9.943 | 2N-P-3N
+231   S  3N-N       660          .Q52.JT842.AKJ65 852.973.A9763.87 AKJ96.AKJT.KQ.92 QT743.864.5.QT43 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+232   S  7N-S       -50          A7.3.Q8754.KJ642 6432.QT86.JT93.3 KQJ8.A92.AK.AT75 T95.KJ754.62.Q98 | 2N-P-3S=1=-P-4C-P-4H=2=-P-4S=3=-P-4N=4=-P-5C=5=-P-5D-P-6C=6=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
+233   S  3N-N       430          Q3.9.JT986.KJ765 T85.KQ76542.3.A2 AKJ76.A8.AK52.Q9 942.JT3.Q74.T843 | 1S-P-1N=1=-3H-3N | Forcing 1NT
+234   S  6H-S      1430          .K52.AQ975.A7542 QJT4.Q9.J643.JT3 AK65.AJT76.KT.KQ 98732.843.82.986 | 1H-P-2D-P-2S-P-4H-P-4N=1=-P-5C=2=-P-5D-P-5H=3=-P-6H | Blackwood 0314, for !H | A=0/5 or 3/5 | No !H queen
+235   S  3N-N       490          73.3.AK863.QJ984 Q52.Q6542.JT9.52 AKJT8.AK8.Q5.AT3 964.JT97.742.K76 | 1S-P-1N=1=-P-3N | Forcing 1NT
+236   S  3N-S       630          .QT4.KT854.QJ984 T98763.95.3.7652 AK5.KJ7.QJ762.AK QJ42.A8632.A9.T3 | 2N-P-3N
+237   S  3N-N       630          82.3.AK974.Q9875 973.QJ964.J82.T4 AKJT4.AK72.T3.AJ Q65.T85.Q65.K632 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+238   S  4N-S       460          JT.K.QJ765.AT653 A86.QT9.8432.QJ2 KQ7.AJ87.AKT.K94 95432.65432.9.87 | 2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
+239   S  6D-S      1370          Q5.Q.Q7542.KJT53 K8764.AJT75.T.Q6 AJ92.K92.AKJ8.A9 T3.8643.963.8742 | 2N-P-3S=1=-P-4D-P-5C=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, surplus
+240   S  6D-S       920          T.Q9.KJ652.KQ976 J932.KT542.7.AJ4 AKQ.AJ7.AQ943.T2 87654.863.T8.853 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-5S=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
+241   S  3N-S       400          86.3.AJ642.JT974 K95.K842.T5.KQ86 AQ72.AQT.KQ97.A5 JT43.J9765.83.32 | 2N-P-3N
+242   S  3N-S       630          Q4.4.Q9542.KT852 K98.T986.873.J97 AJ762.KJ7.AKJ.A4 T53.AQ532.T6.Q63 | 2N-P-3N
+243   S  6D-S       920          2.AT.QJ975.KJ873 JT865.Q6532..Q54 KQ97.KJ.AK86.A96 A43.9874.T432.T2 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+244   S  3N-S       630          62.5.AJT62.K9732 QJ93.AJT8.K973.5 AK875.KQ6.Q5.AQ6 T4.97432.84.JT84 | 2N-P-3N
+245   S  6C-N      1370          T.T5.AQ982.AQ652 963.Q82.KT54.J73 AKQ7.AKJ3.J6.K98 J8542.9764.73.T4 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+246   S  7D-S      1440          42.T.K7654.AQ984 KT63.J972.9.JT72 AQ.AK64.AT832.K5 J9875.Q853.QJ.63 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-6D=4=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | No !D queen
+247   S  6D-S      -100          J7.Q.AQ872.QT865 QT65.JT9432..K92 AK98.AK.J953.AJ7 432.8765.KT64.43 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+248   S  6C-S       940          .AK5.KJ763.98754 KQ93.T762.Q92.QT AJ74.QJ4.A5.AKJ2 T8652.983.T84.63 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+249   S  5C-S       440          Q.J.Q8754.AQ9732 K75432.K9862.9.4 AT.AQ74.AK3.K865 J986.T53.JT62.JT | 2N-P-3S=1=-P-4C-P-4H=2=-P-5C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+250   S  6N-S      1440          T8.9.QT742.AQ986 KQ6.JT752.93.J72 A32.AQ64.AKJ5.K4 J9754.K83.86.T53 | 2N-P-6N
+251   S  6C-N       920          2.A8.QJ852.KQT43 9764.J543.K43.75 AKQ5.KT7.A97.A96 JT83.Q962.T6.J82 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+252   S  6D-N      1370          .J.KJT843.AKJ942 T8743.T32.52.T75 KQ.AKQ94.A97.Q83 AJ9652.8765.Q6.6 | 1H-2S-3D-3S-4S=1=-P-4N=2=-P-5H=3=-P-6D | Limit raise or better in !D | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
+253   S  3N-S       660          7.42.QT954.AJ862 A3.KJ97.873.9543 Q96.AQ65.AK2.KQT KJT8542.T83.J6.7 | 2N-3S-3N
+254   S  6N-N       -50          QJ..AQ7632.JT764 876.T98.K8.Q9832 AKT.AKQ53.JT9.A5 95432.J7642.54.K | 1H-P-1N=1=-P-3N-P-4D-P-4H=2=-P-5C=3=-P-6N | Forcing 1NT | Cue bid, a !H stopper | Cue bid, surplus
+255   S  7N-S      2220          6.QJ.AQJT9.AQJ32 K9852.8754.52.T4 AQJ7.AK2.K864.K6 T43.T963.73.9875 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+256   S  6D-N       920          5.7.KT9832.QT865 J976432.QT3.Q5.7 K8.AJ98.AJ7.AKJ9 AQT.K6542.64.432 | 2N-P-6D
+257   S  3N-S       400          .JT2.Q8654.QJ953 AKT.Q86.J93.K876 Q6532.AK5.AK7.A2 J9874.9743.T2.T4 | 2N-P-3N
+258   S  5C-N       620          Q6.5.AT875.KT632 87542.T87.J632.7 AJ9.AKQ4.KQ9.Q95 KT3.J9632.4.AJ84 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
+259   S  3N-S       460          J9.3.QT752.KQJT7 Q753.AT.8643.653 AK.KQ974.AJ9.A84 T8642.J8652.K.92 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
+260   S  3N-S      -200          .8.QJ8542.JT9732 T9754.743.63.Q85 AKQJ3.QJ62.K9.A6 862.AKT95.AT7.K4 | 1S-2H-P-P-2N-P-3C-P-3N
+261   S  6C-S      1370          AQ5..KJT82.97432 72.KT98752.96.85 KJ.AQJ3.A54.AJT6 T98643.64.Q73.KQ | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+262   S  6C-N       -50          .43.T9864.KQJ653 KT964.2.J732.A82 AQJ.AQT5.AK5.T97 87532.KJ9876.Q.4 | 2N-P-6C
+263   S  3N-N       690          Q6.2.KQ652.QJ987 T32.KJ63.JT4.T52 AK94.AQT74.A3.A6 J875.985.987.K43 | 1H-P-1N=1=-P-2S-P-2N-P-3N | Forcing 1NT
+264   S  5C-S       400          5.T2.T9543.KJT97 T6432.64.AJ76.Q4 A87.AQJ5.KQ2.A82 KQJ9.K9873.8.653 | 2N-P-4S=1=-P-5C | Minors
+265   S  6N-N       990          .J63.AQT94.KQT72 8643.T982.7532.A AKQT9.AK7.KJ8.83 J752.Q54.6.J9654 | 1S-P-1N=1=-P-3N-P-4N=2=-P-6N | Forcing 1NT | Quantitative 4NT
+266   S  3N-N       690          J4.Q.KQ982.QJ754 98732.83.JT65.T6 AKQ65.KJ52.A4.A3 T.AT9764.73.K982 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+267   S  6C-S       920          3.4.AK9542.AT974 J852.T965.763.52 Q94.AKQ.QJT.KQJ3 AKT76.J8732.8.86 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+268   S  3N-N       690          73.T.KT943.AK763 T64.J974.J62.T85 AKJ5.AQ532.A8.QJ Q982.K86.Q75.942 | 1H-P-1N=1=-P-2S-P-2N-P-3N | Forcing 1NT
+269   S  3N-S       630          .K32.QJ532.QT542 987542.T84.T4.A6 AQT6.AQJ9.A98.K9 KJ3.765.K76.J873 | 2N-P-3N
+270   S  3N-S       400          4.J6.K7642.JT932 JT8763.Q8.T93.Q7 A2.AT953.AJ5.AK4 KQ95.K742.Q8.865 | 2N-P-3N
+271   S  6N-S      1470          .52.AK653.QJT653 7432.84.JT974.94 A6.AKQ63.82.AK72 KQJT985.JT97.Q.8 | 1H-3S-X-4S-4N=1=-P-5D=2=-P-6N | Blackwood 0314 | A=1/4 or 4/4
+272   S  3N-N       490          62.J.KJT43.KQT42 93.Q98654.A8.J87 AKQJT.AK3.95.A65 8754.T72.Q762.93 | 1S-P-1N=1=-P-3N | Forcing 1NT
+273   S  7D-S       -50          3.Q.T8532.AK9874 J85.KJ8.Q64.QT52 AKQ9.A75.AK97.J6 T7642.T96432.J.3 | 2N-P-3S=1=-P-4D-P-4H=2=-P-4S=3=-P-4N=4=-P-5D=5=-P-5H-P-6D=6=-P-7D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=1/5 or 4/5 | No !D queen
+274   S  3N-N       690          6.K2.AQ975.J9432 5.QJ9653.J64.QT8 AKQ73.A84.KT.A65 JT9842.T7.832.K7 | 1S-P-1N=1=-P-3N | Forcing 1NT
+275   S  3N-N       430          9.Q4.A9764.QT953 T43.T87.K83.AJ42 AKQJ.AK932.T2.K8 87652.J65.QJ5.76 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+276   S  3N-S       660          J4.T.KQ864.QJ764 8763.J9754.J5.T8 AT.AKQ32.A3.K952 KQ952.86.T972.A3 | 1H-1S-2D=1=-P-3N | 1X-(Y)-2Z forcing
+277   S  3N-S       630          54.T.J9743.KQT96 T98.KQ97654.QT5. AKQJ.A83.K2.A854 7632.J2.A86.J732 | 2N-P-3N
+278   S  6C-N       920          Q6.A.J8765.K7632 JT53.T9874.KQT.4 AK42.K65.A42.AQJ 987.QJ32.93.T985 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+279   S  5D-S      -100          4.32.JT974.QJT94 JT876.AK64.53.K3 AK95.T9.AKQ6.A76 Q32.QJ875.82.852 | 2N-P-4S=1=-P-5D | Minors
+280   S  6DX-N     1090          JT..QJ8762.QJ986 Q98653.6543.T5.4 AK7.QJT9.K4.AK52 42.AK872.A93.T73 | 2N-P-6D-P-P-X
+281   S  7N-S      1520          7.72.KQT76.KQT62 953.KQ9653.J.J85 AKJ.A84.A8543.A9 QT8642.JT.92.743 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+282   S  3N-N       660          62.7.JT642.AKQT2 87.JT9542.85.J98 AKQ54.KQ3.AQ7.65 JT93.A86.K93.743 | 1S-P-1N=1=-P-3N | Forcing 1NT
+283   S  6D-S       920          K.Q4.Q8732.A7652 Q652.J953.9.KT43 AJ98.AK7.AKT4.J9 T743.T862.J65.Q8 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+284   S  6D-S      1370          7.K.KJT72.Q95432 J95.Q86432.953.7 AQ2.A5.AQ864.AT6 KT8643.JT97..KJ8 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
+285   S  6N-N      1470          A.K3.KQ972.K8743 JT4.J9654.J864.9 KQ875.AQT2.AT.AJ 9632.87.53.QT652 | 1S-P-2D-P-3H-P-3N-P-6N
+286   S  3N-S       430          T95..A8762.KJ764 Q864.Q62.KJ53.83 AKJ7.A98.Q4.AQ92 32.KJT7543.T9.T5 | 2N-3H-3N
+287   S  6C-S      1370          Q.74.KQ865.K9864 T4.JT83.T742.J75 AK632.K2.AJ.AQT2 J9875.AQ965.93.3 | 2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-X-4N=4=-P-5C=5=-P-5D-P-5H=6=-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen and !H king
+288   S  6C-S       940          J.Q7.AQJ74.AT954 K7543.T9632.65.8 AQ6.AK84.KT.KQ73 T982.J5.9832.J62 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+289   S  5D-S       420          6.T.985432.AT942 JT4.KQ642.T7.QJ5 AK87.A953.KQJ.K6 Q9532.J87.A6.873 | 2N-P-4S=1=-P-5D | Minors
+290   S  6C-S      1370          J9.6.AJ984.AT874 KT85432.J9.T6.K2 AQ6.AKQ4.K5.Q653 7.T87532.Q732.J9 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+291   S  3N-S       400          9.52.QJ754.KT653 7643.KQ763.63.42 AKT.AT4.A92.AJ97 QJ852.J98.KT8.Q8 | 2N-P-3N
+292   S  6CX-S     1540          K.KJ.KJ865.97532 J862.98542.Q973. AQT9.AQ7.A4.KJ84 7543.T63.T2.AQT6 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C-P-P-X | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+293   S  6C-N      1370          74.T.KQJT5.KJT74 JT65.9874.987.A9 AKQ.AK653.A4.852 9832.QJ2.632.Q63 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+294   S  3N-S       400          J5.Q.AT853.T8542 A962.J6543.972.7 Q84.AK8.KQ64.AQ6 KT73.T972.J.KJ93 | 2N-P-3N
+295   S  4N-S       690          93.K.QT853.AQJ86 42.9876.KJ2.9432 AQ6.AQJ42.A64.K5 KJT875.T53.97.T7 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
+296   S  6C-N       940          3.K.KJ862.KT8763 KJ7.732.QT7543.4 AQ4.AJT84.A9.AQ5 T98652.Q965..J92 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+297   S  5D-S       -50          Q5.3.QJ854.QJ952 J9632.T765.73.63 AT8.KQJ92.KT6.AK K74.A84.A92.T874 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-5D | Minor Suit Stayman after 2NT | Artificial
+298   S  6C-N      1370          73.5.AJ854.KQ863 98652.T972.Q96.T AKQ.KJ64.KT2.AJ9 JT4.AQ83.73.7542 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+299   S  6C-N       920          .92.KQT95.J97643 JT8.QJ63.J43.KT8 AK9.AT84.A86.AQ5 Q765432.K75.72.2 | 2N-P-6C
+300   S  7D-S      2140          .AJ3.QT765.AKT52 QT732.98542.J.76 AKJ9.KQT6.AK4.93 8654.7.9832.QJ84 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-7D | Minor Suit Stayman after 2NT | Artificial
+301   S  3N-S       660          T72..A7652.KJ984 J84.Q95432.K43.6 AKQ5.A6.JT9.AQ73 963.KJT87.Q8.T52 | 2N-P-3N
+302   S  5C-N       420          .32.KQT92.AQ6532 T952.Q9854.75.94 AKJ63.KJ6.A8.KJT Q874.AT7.J643.87 | 1S-P-1N=1=-P-3N-P-4C-P-4D=2=-P-4N=3=-P-5C=4= | Forcing 1NT | Cue bid, a !D stopper | Blackwood 0314, for !C | A=0/5 or 3/5
+303   S  6D-N      -100          3.K.AJT932.JT875 J975.T9862.7.AKQ AKQ4.AQ73.KQ5.43 T862.J54.864.962 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5D-P-6D | Minor Suit Stayman after 2NT | Artificial
+304   S  3N-S       400          6.T2.KT876.QT742 J72.765.J53.AKJ9 AK4.AK98.AQ4.863 QT9853.QJ43.92.5 | 2N-P-3N
+305   S  7N-S      -100          .K73.A7652.KT532 QT9862.J42.93.76 A7.AQ5.KQJT4.A94 KJ543.T986.8.QJ8 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
+306   S  7N-S      2220          8.AQ.AQ532.K8642 T43.K84.94.JT953 AKQJ9.J7.KT76.AQ 7652.T96532.J8.7 | 1S-P-2D-P-3D-P-4D-P-4N=1=-P-5S=2=-P-5N=3=-P-6D=4=-P-7N | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1 | King ask by 5NT | K=1
+307   S  3N-S       430          84.J.J8642.AQ973 A2.T9852.T3.KJ86 KJT9.AK7.AKQ.T42 Q7653.Q643.975.5 | 2N-P-3N
+308   S  6C-N      1370          T.9.QT762.KQJT86 8762.J62.J93.972 AK94.AQT4.A8.A43 QJ53.K8753.K54.5 | 2N-P-6C
+309   S  6D-S      1370          A.95.Q9642.KQJ97 T96542.K864.T.T8 KJ8.AQJ72.AJ3.A4 Q73.T3.K875.6532 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+310   S  6C-N       940          J.97.AKQ64.AJ432 T543.JT82.T83.96 AQ97.AKQ5.52.KQT K862.643.J97.875 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+311   S  3N-S       600          83.2.KQ854.98754 95.AKT864.T92.QJ AJT74.QJ7.AJ3.AK KQ62.953.76.T632 | 2N-P-3N
+312   S  6D-N       -50          Q.T.QJT932.Q7542 T32.Q96532.A86.J AK6.KJ74.K5.AKT6 J98754.A8.74.983 | 2N-P-6D
+313   S  3N-N       430          6.2.K9842.KQT543 KT.T53.AJ763.J96 AQ987.AKQ6.QT.A7 J5432.J9874.5.82 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+314   S  7D-S      -100          .KQ.QJ863.JT9865 Q7532.T984.74.42 AK9.765.AKT92.AK JT864.AJ32.5.Q73 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+315   S  6C-S       940          9.T7.AQ862.AKT98 Q854.J853.T9754. AK63.AK4.K3.QJ63 JT72.Q962.J.7542 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+316   S  6N-S      1470          6.A3.AQJ63.KQJ52 T973.J97.T2.9863 AKQJ8.K65.K98.A4 542.QT842.754.T7 | 1S-P-2D-P-3N-P-6N
+317   S  6D-S      1370          QT.8.JT975.AKQ65 J842.J965.4.9743 AK6.AQ7.AQ83.J82 9753.KT432.K62.T | 2N-P-3S=1=-P-4D-P-4H=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+318   S  6D-S       920          Q.QJ.KT853.QT943 A942.65.J62.J652 K763.AT82.AQ9.AK JT85.K9743.74.87 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+319   S  7N-S      -200          T.Q3.KQT52.AJT72 QJ652.T874.6.854 A974.AKJ.AJ74.K6 K83.9652.983.Q93 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+320   S  3N-S       400          T.J7.K8764.QJT54 98632.KT94.3.A98 AKQ.AQ86.AJT9.76 J754.532.Q52.K32 | 2N-P-3N
+321   S  3N-S       430          T5.K.J7532.KT976 QJ876.QT6.94.Q85 AK4.AJ97.A6.AJ42 932.85432.KQT8.3 | 2N-P-3N
+322   S  3N-S      -300          3.J2.T8642.AQ862 T9876.9763.3.J75 KQ52.Q5.AKQJ5.KT AJ4.AKT84.97.943 | 2N-P-3N
+323   S  3N-N       490          2.KT.AK873.Q8752 54.J862.942.JT93 AKQ93.Q543.Q5.AK JT876.A97.JT6.64 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+324   S  6C-N      -100          6.T.AJ982.QJT984 T532.A87.KT43.63 AKQ8.KQ94.Q5.A75 J974.J6532.76.K2 | 2N-P-6C
+325   S  6C-N      1370          5.T9.KJT72.AQ642 T97432.J.Q864.97 KQJ.AQ853.A3.KJ8 A86.K7642.95.T53 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+326   S  3N-S       430          8.K3.A8762.JT543 Q532.QJ65.JT3.KQ AKT7.A72.KQ.A972 J964.T984.954.86 | 2N-P-3N
+327   S  3N-S       630          6.QT.AQT98.T9876 K87.J972.53.K432 AJ94.AK3.K764.AQ QT532.8654.J2.J5 | 2N-P-3N
+328   S  3N-S       400          .Q85.J9542.KT852 AT72.JT962.73.74 Q93.A7.AKT.AQJ96 KJ8654.K43.Q86.3 | 2N-P-3N
+329   S  7N-S      1520          K.K6.QJ763.AQT93 Q986.J874.98.J76 AJ7.AQ2.AK.K8542 T5432.T953.T542. | 2N-P-3S=1=-P-4C-P-4H=2=-P-4S=3=-P-4N=4=-P-5D=5=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=1/5 or 4/5
+330   S  7N-S      2220          2.84.AQT53.KQJ75 JT98763.Q32.7.82 AQ.AK97.K6.AT964 K54.JT65.J9842.3 | 2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-P-4N=4=-P-5C=5=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5
+331   S  3N-S       400          J98..QT853.QJ852 K654.Q75.A94.T74 AQT3.AKJ4.KJ.K96 72.T98632.762.A3 | 2N-P-3N
+332   S  5C-S       620          .96.T98764.AT942 KQ6543.JT873.Q2. AJT9.AQ2.AK.K865 872.K54.J53.QJ73 | 2N-P-4S=1=-X-5C | Minors
+333   S  3N-N       660          4.T.KJT62.KQJ532 832.AJ86.9875.T4 AKJ95.Q973.AQ.A7 QT76.K542.43.986 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+334   S  6D-N       940          A.6.J98652.K7652 9.QT98542.Q43.84 Q65.A3.AKT7.AQJ3 KJT87432.KJ7..T9 | 2N-4S-6D
+335   S  6C-S      1390          6.T8.AKT52.KJT64 KQJ2.J7.87643.Q9 A9.AKQ4.QJ9.A873 T87543.96532..52 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+336   S  5D-S       420          3.52.JT863.KT852 QT542.T873.74.Q6 J976.AQJ.AKQ2.A7 AK8.K964.95.J943 | 2N-P-4S=1=-P-5D | Minors
+337   S  1S-S       200          JT.6.K9765.QT862 8732.QJT853.8.J5 AKQ54.A974.32.AK 96.K2.AQJT4.9743 | 1S
+338   S  3N-N       690          K9.7.AQ865.J7532 QJT62.85432..AQT A85.AKQJ9.KT4.K6 743.T6.J9732.984 | 1H-P-1N=1=-P-3N | Forcing 1NT
+339   S  6C-N       940          8.3.AT732.AKQJ94 JT943.54.J9865.6 AKQ6.AKT9.KQ4.32 752.QJ8762..T875 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6C | Minor Suit Stayman after 2NT | Artificial
+340   S  6C-S      -100          J5.Q.AK953.97642 A9763.T9532.T62. K8.AKJ4.Q4.AQJ85 QT42.876.J87.KT3 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+341   S  6N-S      -200          K8.3.KT754.QT862 T943.AJ7642..J75 A7.QT98.AQJ82.AK QJ652.K5.963.943 | 2N-P-6N
+342   S  3N-S       -50          4.J5.K9432.JT974 J95.K96432.8.A65 AKQ7.AT8.QT75.KQ T8632.Q7.AJ6.832 | 2N-P-3N
+343   S  6C-N      1370          KT6..AK543.QT965 J7532.QJ42.T2.K2 AQ84.AK65.QJ.AJ3 9.T9873.9876.874 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+344   S  1S-S       110          9.94.AJT84.J8762 QT852.JT82.K5.94 AKJ64.AQ63.62.AQ 73.K75.Q973.KT53 | 1S
+345   S  6D-N       920          .J4.AQJ943.QJ642 975432.T.87.T985 AKQ6.KQ63.K65.A7 JT8.A98752.T2.K3 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5D-P-6D | Minor Suit Stayman after 2NT | Artificial
+346   S  6C-N      1390          .854.A9762.KQJ87 Q743.JT762.Q3.T9 AK865.AQ9.K5.A42 JT92.K3.JT84.653 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+347   S  3N-N       430          53.4.KT942.AQ985 Q872.82.Q865.KT7 AKJ9.AK973.AJ.64 T64.QJT65.73.J32 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+348   S  7D-N      2140          .T8.AKQJT5.JT942 JT943.5.9874.763 A72.AKQ62.62.AK8 KQ865.J9743.3.Q5 | 1H-P-1N=1=-P-3N-P-4D-P-4H=2=-P-4N=3=-P-5C=4=-P-7D | Forcing 1NT | Cue bid, a !H stopper | Blackwood 0314, for !D | A=0/5 or 3/5
+349   S  6D-N      1390          65..KT8765.A9754 J872.QJ42.J9.Q62 AKT.K87.AQ42.KJ8 Q943.AT9653.3.T3 | 2N-P-6D
+350   S  6C-N      -100          8.J5.AKJ73.JT653 A9542.9864.8.974 KQJ.KQT7.965.AKQ T763.A32.QT42.82 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+351   S  3N-S       630          9.Q9.QJT64.KJ532 65.T6532.7532.86 AKJ.AKJ84.K8.QT9 QT87432.7.A9.A74 | 1H-3S-P-P-3N
+352   S  3N-N       460          J43..KQ973.A8752 Q87.J9876.865.Q4 K52.AKQT2.A4.KJT AT96.543.JT2.963 | 1H-P-1N=1=-P-3N | Forcing 1NT
+353   S  1H-S       140          83.5.T8764.AQ943 T64.963.KQ9532.J AKJ2.AJT42.AJ.K8 Q975.KQ87..T7652 | 1H
+354   S  3N-N       660          .KJ.KJT953.K9532 J54.AQT8632..T64 AKQ32.94.A6.AQJ7 T9876.75.Q8742.8 | 1S-P-1N=1=-3H-3N | Forcing 1NT
+355   S  6C-N       940          .83.T8742.KQJT52 Q763.KQT965.Q9.9 AJ8.A72.AKJ3.A74 KT9542.J4.65.863 | 2N-P-6C
+356   S  6C-N      1390          3.T.AQT73.KQJ865 J9.K87543.J84.72 AK62.AQ6.K92.A94 QT8754.J92.65.T3 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+357   S  3N-S      -200          JT.T.QJ983.J8765 Q93.Q9732.T2.T42 762.KJ.AK75.AKQ9 AK854.A8654.64.3 | 2N-P-3N
+358   S  3N-N       460          .KJT.Q8542.KJ852 T863.Q92.AT973.6 AKJ74.A65.KJ6.A4 Q952.8743..QT973 | 1S-P-1N=1=-P-3N | Forcing 1NT
+359   S  3N-S       600          6.32.KT864.Q8642 Q9754.QJ964.Q53. AKJT.AK.J7.AJ753 832.T875.A92.KT9 | 2N-P-3N
+360   S  6D-N       920          .42.K76432.KQJ82 K943.AJT75.9.953 AJ62.KQ9.AQ8.A64 QT875.863.JT5.T7 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5D-P-6D | Minor Suit Stayman after 2NT | Artificial
+361   S  3N-N       430          3.Q2.J9542.AT432 KJ765.6.AQ73.975 AQT8.AKJ43.KT.QJ 942.T9875.86.K86 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+362   S  3N-S      -100          6.T6.J8654.KQT87 AK98432.92.T3.A2 Q75.AKQ54.AKQ.93 JT.J873.972.J654 | 1H-P-P-1S-X-P-2D-2S-P-P-3C-3S-3N
+363   S  3N-S       400          62.4.T8643.KQ865 J84.QJ9765.Q5.AT AKQT.AK8.K92.J74 9753.T32.AJ7.932 | 2N-P-3N
+364   S  6N-S      1440          J4.A.KT986.KQ964 965.832.Q72.JT32 KQ2.KQJ.AJ4.A875 AT873.T97654.53. | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+365   S  6D-S      -100          84.7.AJ876.KJ872 K2.JT9863.543.63 Q97.AK.KQT92.AQ9 AJT653.Q542..T54 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-5N=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen no !S king no !C king
+366   S  3N-S       400          Q8.3.T9863.A9874 T75.QT754.Q5.QT5 AKJ6.A982.AJ7.K2 9432.KJ6.K42.J63 | 2N-P-3N
+367   S  6N-S      -100          Q.74.AQ964.AT732 T8542.J865.5.K65 AK96.AKT.KJ72.Q9 J73.Q932.T83.J84 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-6N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+368   S  7N-S      1520          A5..K9653.KJT764 T97.QJ982.Q42.52 KQJ43.A4.AJ.AQ83 862.KT7653.T87.9 | 2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-P-4N=4=-P-5C=5=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5
+369   S  4D-S       150          94.Q.97643.AT852 QT62.952.52.K964 83.AKJT3.AKQJ.Q7 AKJ75.8764.T8.J3 | 1H-1S-P-3S-4D
+370   S  6D-N      -100          6.9.KQJT54.T9643 J95432.T653.73.J AKQ8.KQJ7.862.AQ T7.A842.A9.K8752 | 2N-P-6D
+371   S  6D-S       920          3.A6.KQ532.K8432 QT8742..976.JT95 AKJ.KQ982.AJ8.Q6 965.JT7543.T4.A7 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+372   S  3N-S       630          J.76.AQ964.J8764 T96432.Q9.T832.A AK.AK84.KJ5.K532 Q875.JT532.7.QT9 | 2N-P-3N
+373   S  6C-N      1390          T43..KT762.AK542 K8.75432.4.T9763 AJ952.AKJ.A9.QJ8 Q76.QT986.QJ853. | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+374   S  3N-N       460          8.Q7.QT985.KQJT4 KT5.T98653.742.9 AJ73.AKJ42.KJ.A2 Q9642..A63.87653 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+375   S  3N-S       630          Q4.J.AJT75.87642 J6.KT532.9842.A9 A95.AQ764.KQ.KQJ KT8732.98.63.T53 | 2N-P-3N
+376   S  6C-N       920          J9.9.QT976.AK987 T754.QJT62.52.T3 AQ863.AK7.AJ.Q64 K2.8543.K843.J52 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+377   S  3N-S       430          76.J.T9652.KQJ76 J954.Q9753.K3.98 AKT8.AT2.AJ.AT52 Q32.K864.Q874.43 | 2N-P-3N
+378   S  3N-S       630          T7.2.AK854.JT982 J8543.J963.63.K3 AQ92.AKT5.J7.AQ5 K6.Q874.QT92.764 | 2N-P-3N
+379   S  3N-S       430          72.4.QJ863.KJ862 T53.T7532.54.T54 KQJ98.AKJ.AK7.97 A64.Q986.T92.AQ3 | 2N-P-3N
+380   S  3N-N       630          2.62.KQJT7.Q9542 843.AT9754.9632. AKJ95.K3.A8.AJT6 QT76.QJ8.54.K873 | 1S-P-1N=1=-P-3N | Forcing 1NT
+381   S  6D-S      1370          QJ.4.KJT87.Q9732 AT5.KQJ73.43.J86 K9.A965.AQ62.AK4 876432.T82.95.T5 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-X-5S=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
+382   S  6C-N       920          4.4.KJ862.AQT865 Q87.J652.QT73.42 AKJ6.KQ9.A94.K93 T9532.AT873.5.J7 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+383   S  3N-S       600          4.J8.T8654.KJ985 AT9752.QT.93.QT6 KJ86.K97.AKQJ.A2 Q3.A65432.72.743 | 2N-P-3N
+384   S  7C-S      1440          ..AKT6542.KT7653 QT975.AJ974.983. AK6.K82.QJ.AQJ92 J8432.QT653.7.84 | 2N-P-3S=1=-P-4C-P-4N=2=-P-5S=3=-P-7C | Minor Suit Stayman after 2NT | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
+385   S  1S-S       170          83.2.KQJT9.98643 T962.KQ864.863.2 AKJ75.AT3.72.AKJ Q4.J975.A54.QT75 | 1S
+386   S  6D-N      1370          .64.A98742.JT942 KQT732.AQ92.5.Q6 A964.K75.KQJ.AK5 J85.JT83.T63.873 | 2N-P-6D
+387   S  3N-S       -50          2.93.K6542.KT984 AK764.7642.Q8.52 J9.AKT5.AJ3.AQJ6 QT853.QJ8.T97.73 | 2N-P-3N
+388   S  3N-N       630          .754.AT952.QJ965 J843.JT82.87.A72 AKQ62.KQ.QJ64.K4 T975.A963.K3.T83 | 1S-P-1N=1=-P-3N | Forcing 1NT
+389   S  6C-S      1370          5.A4.KJT53.J9842 A876.JT763.82.76 QJT.Q82.AQ6.AKQT K9432.K95.974.53 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+390   S  6C-N       940          AT7..AT754.KJT76 9543.Q9532.J6.84 KQJ6.A64.KQ3.AQ9 82.KJT87.982.532 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+391   S  6C-S      1370          KJ.Q.QJ943.Q8632 9742.985.8762.74 Q3.A762.AK.AKJT9 AT865.KJT43.T5.5 | 2N-P-3S=1=-P-4C-P-4H=2=-P-4S=3=-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !D stopper
+392   S  6D-S       920          7.A8.KQ963.KQ875 AT95.962.T74.632 KQJ64.KQ3.AJ2.AJ 832.JT754.85.T94 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+393   S  6C-N       940          T76..AKT52.KJ543 QJ3.KT752.943.86 AK95.A96.QJ8.AQ2 842.QJ843.76.T97 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+394   S  5S-S       650          982..Q6432.KJ654 654.K8532.J95.QT AKQT7.A64.KT8.A8 J3.QJT97.A7.9732 | 1S-P-1N=1=-P-3N-P-4S-P-4N=2=-P-5C=3=-P-5S | Forcing 1NT | Blackwood 0314, for !S | A=0/5 or 3/5
+395   S  6D-S       -50          Q.63.87542.AQJT6 32.J754.QT9.9854 AJT8.AKQ2.K63.K2 K97654.T98.AJ.73 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+396   S  6C-S      1390          T.A.AKQT73.T9754 K863.Q952.96.632 AQ.K863.J2.AKQJ8 J97542.JT74.854. | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+397   S  6N-S      1440          A.Q4.Q7642.K9743 J97653.J5.J98.QT KQ4.AKT32.K53.AJ T82.9876.AT.8652 | 2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
+398   S  6C-S       920          5.J7.KQ863.A9653 92.QT98432.T54.Q KQ643.AK.A9.KJ42 AJT87.65.J72.T87 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+399   S  7C-S      2140          .A82.AJT96.J9742 AJ8543.T94.Q3.83 K9.KQ.K742.AKQ65 QT762.J7653.85.T | 2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5S=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
+400   S  3N-S       430          .K52.KQT75.J8752 Q4.Q976.J8432.QT A973.AJT3.A9.AK9 KJT8652.84.6.643 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
+401   S  7N-S      1520          8.K3.KJT63.KQ652 K942.T875.8.T973 A73.AJ2.AQ72.AJ8 QJT65.Q964.954.4 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
+402   S  7N-S      2220          6.A.AQ876.J96532 KQT87.9.JT932.T4 AJ4.QJT7.K5.AKQ8 9532.K865432.4.7 | 2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5C=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
+403   S  3N-N       460          82.Q.AJ874.QJ953 Q.J87643.9653.A8 AKJ93.AKT.K2.KT7 T7654.952.QT.642 | 1S-P-1N=1=-P-3N | Forcing 1NT
+404   S  6D-N      1390          J.3.JT9752.AK953 Q96.K8764.84.QT6 AK53.AQJ9.AK6.72 T8742.T52.Q3.J84 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5D-P-6D | Minor Suit Stayman after 2NT | Artificial
+405   S  5D-S       600          64.A.QT865.QJ943 AT872.2.732.T752 J9.KJ843.AKJ9.AK KQ53.QT9765.4.86 | 2N-P-3S=1=-X-4D=2=-P-4N=3=-P-5C=4=-P-5D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
+406   S  5C-N       420          JT..K7654.AJT873 8763.T8654..KQ92 AK52.AKJ9.AQ3.64 Q94.Q732.JT982.5 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-5C | Minor Suit Stayman after 2NT | Artificial
+407   S  6C-S      1390          J.T6.AQ865.KQT98 98764.8753.JT.32 AKQ2.A42.K9.A764 T53.KQJ9.7432.J5 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+408   S  6H-S      1010          .AJT.KQ964.QT865 QT54.74.JT873.74 AJ92.KQ832.A2.AK K8763.965.5.J932 | 1H-P-1N=1=-P-2S-P-4H-P-4N=2=-P-5D=3=-P-6H | Forcing 1NT | Blackwood 0314, for !H | A=1/5 or 4/5
+409   S  6N-S       990          A.32.Q9743.A9743 8752.J954.8.J652 KQ43.KQT.AKJ6.KT JT96.A876.T52.Q8 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5H=3=-P-6N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
+410   S  3N-N       630          T.K6.JT842.KT842 Q8.98542.763.A95 AJ972.AQJT.AK.Q7 K6543.73.Q95.J63 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+411   S  6C-N       920          7.AK.KJT94.QJ432 JT984.JT7.3.T875 KQ5.Q932.AQ7.AK6 A632.8654.8652.9 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+412   S  6C-N      1370          6.A3.AT532.Q9874 JT853.J82.Q6.KT2 AKQ4.KQ6.K98.A65 972.T9754.J74.J3 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+413   S  3N-S       600          853..96542.KQT98 KJT6.765.KQT.J75 AQ2.KQT98.AJ8.A6 974.AJ432.73.432 | 2N-P-3N
+414   S  6C-N       920          6.J9.AKQ32.QJ742 JT53.Q6543.T7.T6 KQ82.AKT8.J8.AK9 A974.72.9654.853 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+415   S  6C-N      1390          .Q4.T7432.AKJT84 QT97542.J2.J85.3 AJ83.A953.AKQ.Q9 K6.KT876.96.7652 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6C | Minor Suit Stayman after 2NT | Artificial
+416   S  3N-N       430          Q7..JT965.KQT982 82.KQ854.Q832.43 AK96.AJT32.AK.J5 JT543.976.74.A76 | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+417   S  3N-S       400          94..A86532.J9654 T72.AJT83.Q74.T7 KQ.KQ65.KJT9.AK8 AJ8653.9742..Q32 | 2N-P-3N
+418   S  3N-N       630          7.J.AJ852.Q97654 J865.3.Q73.KJT32 AQT2.AKT75.KT.A8 K943.Q98642.964. | 1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+419   S  6C-S       920          5.2.AQJ98.KJ8642 J7632.J6.7642.53 KQ.AKQT3.T3.AQT7 AT984.98754.K5.9 | 1H-P-1N=1=-P-3C-P-4N=2=-P-5S=3=-P-6C | Forcing 1NT | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
+420   S  6C-N      1370          AQ.Q.KQ843.J9743 975.8642.765.A62 KJ843.AKJ.A9.KQ8 T62.T9753.JT2.T5 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+421   S  3N-N       630          T5.Q.QJ982.AT754 Q864.T974.T63.93 A97.AKJ85.A54.KQ KJ32.632.K7.J862 | 1H-P-1N=1=-P-3N | Forcing 1NT
+422   S  6C-N       940          J.62.AJ832.AQJ52 QT94.T98.QT64.43 AK8.AK53.K95.K97 76532.QJ74.7.T86 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+423   S  3N-N       660          K.8.AT532.KQT432 QT93.KT732.87.95 AJ752.AQJ9.QJ.AJ 864.654.K964.876 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+424   S  4H-S       420          .T92.AKT82.T9653 T832.8654.53.J42 AKJ94.AKJ7.74.A7 Q765.Q3.QJ96.KQ8 | 1S-P-1N=1=-P-3H-P-4H | Forcing 1NT
+425   S  3N-N       490          73.3.KQT86.KQT83 A982.T9765.92.J5 KQ64.AKJ84.A3.A2 JT5.Q2.J754.9764 | 1H-P-1N=1=-P-2S-P-2N-P-3N | Forcing 1NT
+426   S  5C-N       620          T9..QJT74.KJ9832 QJ542.KQ87.K63.6 AK76.AJT95.A8.A7 83.6432.952.QT54 | 1H-P-1N=1=-P-2S-P-3C-P-5C | Forcing 1NT
+427   S  3N-S       430          2.J9.AJ642.J9862 QJ763.Q3.83.T543 AT4.AKT62.KQ.KQ7 K985.8754.T975.A | 2N-P-3N
+428   S  7N-S      2220          K5.5.AK952.KT932 J7.T87432.J874.6 AQ32.AJ.Q3.AQJ74 T9864.KQ96.T6.85 | 2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-P-4N=4=-P-5C=5=-P-5D-P-5N=6=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen no !H king no !S king
+429   S  6C-N      1390          K6..KQT43.QJ8743 QJ85.QJT432.96.6 AT973.A95.AJ8.AK 42.K876.752.T952 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6C | Minor Suit Stayman after 2NT | Artificial
+430   S  7D-S       -50          Q43..KT973.KQJT6 J98.QT7642.2.A87 AK.AK8.AQ864.543 T7652.J953.J5.92 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-5S=4=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
+431   S  3N-N       660          QT.J.A8743.KT754 J4.9843.QJ962.Q3 A862.AKQT5.K5.A9 K9753.762.T.J862 | 1H-P-1N=1=-P-2S-P-2N-P-3N | Forcing 1NT
+432   S  7D-S       -50          .T7.AT7543.KQ843 K942.AQJ954.6.65 AQ7.K32.KQJ2.AJT JT8653.86.98.972 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+433   S  6D-S       920          3.2.A9865.KQT852 T942.JT9743.3.J9 KJ86.AKQ.KJ72.A7 AQ75.865.QT4.643 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-6D=4= | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | No !D queen
+434   S  6D-S      1370          .J65.KJT72.KQJ96 K8743.A43.8654.2 AJ95.KQ72.AQ3.A5 QT62.T98.9.T8743 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+435   S  6D-N      -100          Q.3.A98653.JT972 653.T642.72.Q854 AKT2.KJ87.Q4.AK6 J9874.AQ95.KJT.3 | 2N-P-6D
+436   S  3N-S       600          65.5.K9542.QJ963 J983.9843.83.T84 AQ74.AQ72.QT6.AK KT2.KJT6.AJ7.752 | 2N-P-3N
+437   S  7C-S      -100          .T9.AK7642.QT854 KJ965.QJ6.QJ.963 AQ7.AK5.T98.AKJ7 T8432.87432.53.2 | 2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5D=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
+438   S  3N-S       400          6.94.T9853.AKT54 AQ752.J862.74.92 KJ93.AKQT.AK.876 T84.753.QJ62.QJ3 | 2N-P-3N
+439   S  6C-N      1390          .543.AJ972.KQ632 J74.T97.Q8643.T8 A652.AKQ6.K5.AJ4 KQT983.J82.T.975 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+440   S  6D-S       920          Q5.8.KJT95.AT643 KJ9762.97.63.872 A83.AK32.AQ42.QJ T4.QJT654.87.K95 | 2N-P-3S=1=-X-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5N=5=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen no !S king no !C king
+441   S  3N-S       400          32.6.J8762.AT765 KQ97.8752.T4.QJ2 A654.KJ4.AKQ9.K4 JT8.AQT93.53.983 | 2N-P-3N
+442   S  1S-S       110          2.5.JT876.QJ8543 T963.T86.932.A92 AKJ74.AJ97.A5.KT Q85.KQ432.KQ4.76 | 1S
+443   S  7N-S       -50          KT..KJ542.K97542 QJ8742.8652.Q97. A63.AKT4.A3.AQT6 95.QJ973.T86.J83 | 2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-P-4N=4=-P-5D=5=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=1/5 or 4/5
+444   S  6CX-N     -200          63.2.AQT84.QJ975 A87.Q987.75.KT42 KQJ9.AKT3.K6.A86 T542.J654.J932.3 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C-X | Minor Suit Stayman after 2NT | Artificial
+445   S  3N-N       690          .K52.AQJ74.T7642 8763.T987.K6.QJ3 AKQJ2.A63.53.AK9 T954.QJ4.T982.85 | 1S-P-1N=1=-P-3N | Forcing 1NT
+446   S  3N-S       -50          53.4.AQ985.T9642 Q864.KQ73.T32.53 AKT7.862.K7.AKQJ J92.AJT95.J64.87 | 2N-P-3N
+447   S  3N-N       690          7.2.KQT84.AKT964 Q832.KT5.963.Q83 AKJ65.AQJ8.A7.J5 T94.97643.J52.72 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+448   S  3N-N       430          .J4.KJ9762.Q9763 QT985.Q98.83.A42 AKJ32.A752.AQ.K5 764.KT63.T54.JT8 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+449   S  3N-N       490          A.JT.95432.KQ542 J9843.87.JT8.T87 KQT52.A942.AK.AJ 76.KQ653.Q76.963 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+450   S  3N-S       600          .876.KJ652.J9642 QJT62.T953.973.T K9875.AQ4.A4.AK3 A43.KJ2.QT8.Q875 | 2N-P-3N
+451   S  3N-S       490          96.K.KJ975.KT986 KJ875.86543.863. AQT4.AQJT.AT4.A3 32.972.Q2.QJ7542 | 2N-P-3S=1=-X-3N=2= | Minor Suit Stayman after 2NT | Artificial
+452   S  6D-N      1390          .63.KQ8764.KJT94 987.KT875.T3.Q87 AKT2.A92.AJ5.A52 QJ6543.QJ4.92.63 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5D-P-6D | Minor Suit Stayman after 2NT | Artificial
+453   S  7N-S      2220          5.K3.AQ543.KT982 9632.T842.T.J753 AQT8.AJ9.KJ82.AQ KJ74.Q765.976.64 | 2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+454   S  6C-N       920          .K92.KJ975.QT752 T93.QJ74.843.A94 KQJ6.AT6.AQT.KJ6 A87542.853.62.83 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+455   S  3N-S       660          J4.J.A9652.QJT96 9876.974.KT7.752 AK52.KQ3.Q83.AK8 QT3.AT8652.J4.43 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
+456   S  6S-S      1010          Q74..KJT63.A9864 62.QT65.852.QT32 AK983.AJ72.AQ.K7 JT5.K9843.974.J5 | 1S-P-1N=1=-P-3H-P-3S-P-3N=2=-P-4C=3=-P-4N=4=-P-5D=5=-P-5H-P-6D=6=-P-6S | Forcing 1NT | Cue bid, surplus | Cue bid, a !C stopper | Blackwood 0314, for !S | A=1/5 or 4/5 | !S queen and !D king
+457   S  3N-N       490          T8.6.AKT86.K9842 9543.J7.Q92.QJ73 AKQ72.AQT8.J3.AT J6.K95432.754.65 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+458   S  6C-N      -100          3.3.J9842.AKT763 98.J964.AT63.J82 AKJ.AK852.KQ5.54 QT76542.QT7.7.Q9 | 2N-3S-6C
+459   S  3N-N       430          3.Q9.Q8532.KJ976 T85.A8765.A6.Q82 AKQ62.K3.KJT9.A5 J974.JT42.74.T43 | 1S-P-1N=1=-P-3N | Forcing 1NT
+460   S  3N-S       690          T9.J.Q8642.KJT42 Q32.KQ8743.T53.6 A6.A65.AK7.AQ953 KJ8754.T92.J9.87 | 2N-P-3N
+461   S  3N-S       660          J.KQ.K9652.J9876 T942.JT96.8.T542 AK65.A853.43.AKQ Q873.742.AQJT7.3 | 2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
+462   S  6C-N       920          4.J5.AQ632.KQ953 J652.KT92.KT.T82 AKQ.AQ864.98.AJ7 T9873.73.J754.64 | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+463   S  3N-S       720          T5.9.KQJ76.KT942 J763.42.843.8763 AK8.A73.AT52.AQ5 Q942.KQJT865.9.J | 2N-3H-3N
+464   S  6D-S       920          T.T8.QJ974.KQT87 6543.Q53.653.965 AJ9.KJ742.AK2.A3 KQ872.A96.T8.J42 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+465   S  6D-N       920          9.J.QJ9752.AKT52 543.T9852.T8.J93 KJ862.AK7.AK.Q84 AQT7.Q643.643.76 | 2N-P-3S=1=-P-3N=2=-P-4D-P-5C-P-6D | Minor Suit Stayman after 2NT | Artificial
+466   S  6D-S      1370          K.JT.Q9752.KT986 T8653.94.T6.J742 A72.AQ72.AKJ8.Q5 QJ94.K8653.43.A3 | 2N-P-3S=1=-P-4D-P-5C=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, surplus
+467   S  3N-S       400          9.62.J8765.KQ543 J732.Q983.T43.86 Q865.AKJ7.AK.A92 AKT4.T54.Q92.JT7 | 2N-P-3N
+468   S  6N-S      1440          K3.Q.KQJ73.98642 AJT95.T62.62.753 Q8642.AK8.A4.AKJ 7.J97543.T985.QT | 2N-P-3S=1=-X-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
+469   S  6C-N      1370          J.4.AQT62.QJ7532 AQ98.632.98743.9 T52.AKQJ5.K5.AK4 K7643.T987.J.T86 | 1H-P-1N=1=-P-3N-P-4C-P-4D=2=-P-4N=3=-P-5C=4=-P-6C | Forcing 1NT | Cue bid, a !D stopper | Blackwood 0314, for !C | A=0/5 or 3/5
+470   S  3N-S       400          653..QT632.KT942 AQ82.AQ87.J4.J86 KJT4.K962.AK7.AQ 97.JT543.985.753 | 2N-P-3N
+471   S  6C-S      1370          3.T4.AQJT4.87632 984.976.K53.QT54 A6.AKJ83.92.AKJ9 KQJT752.Q52.876. | 1H-3S-P-P-4C-P-4N=1=-P-5D=2=-P-5H-P-6C=3= | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
+472   S  4HX-W      500          KQ3..KT982.Q9843 J874.T92.Q753.T6 AT2.KQ.A64.AK752 965.AJ876543.J.J | 2N-4H-X
+473   S  6C-N       940          K3..Q6432.AK9752 QJ.K9632.T75.J63 A854.AQJ7.AK8.Q8 T9762.T854.J9.T4 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6C | Minor Suit Stayman after 2NT | Artificial
+474   S  6D-S      1370          K7.K.A8752.Q8764 J942.T643.Q96.93 AQ6.AQ875.KJ4.AT T853.J92.T3.KJ52 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+475   S  6H-S       980          .Q52.KJT96.KJT54 QJT985.T7.Q875.6 AK63.AKJ63.A3.Q9 742.984.42.A8732 | 1H-P-1N=1=-P-2S-P-4H-P-4N=2=-P-5C=3=-P-5D-P-6C=4=-P-6H | Forcing 1NT | Blackwood 0314, for !H | A=0/5 or 3/5 | !H queen and !C king
+476   S  6C-N      1390          K4.9.AT843.KQ753 Q973.QJ4.72.9642 AJ8.AK73.KJ9.AT8 T652.T8652.Q65.J | 2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+477   S  3N-S       630          J76..A9742.QJ984 983.AQ94.QT53.T6 KQ2.KJ87.KJ6.AK3 AT54.T6532.8.752 | 2N-P-3N
+478   S  3N-N       430          63.Q.AJ932.Q9654 T85.95.QT86.KJT7 AKQJ7.AT87.K4.A2 942.KJ6432.75.83 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+479   S  5D-N       600          84..AJ9865.KT752 A952.JT973.QT2.6 QJ.AKQ64.K74.AQ4 KT763.852.3.J983 | 1H-P-1N=1=-P-3N-P-4D-P-4H=2=-P-5D | Forcing 1NT | Cue bid, a !H stopper
+480   S  3N-S       400          .763.KT872.QJ986 QJT9832.J94..A42 AK765.AQT.AJ6.K7 4.K852.Q9543.T53 | 2N-P-3N
+481   S  6C-S       -50          7.T7.AQ763.KT972 J6.532.JT842.A84 AKQ.KQJ4.K5.QJ65 T985432.A986.9.3 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+482   S  3N-N       600          7.8.AQT762.87542 Q96.J652.93.KQJ9 AK543.AKQ4.J8.AT JT82.T973.K54.63 | 1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+483   S  3N-S       430          .JT2.QT964.A9752 KJ854.83.K73.QJ4 AQ7.AK7.AJ82.KT8 T9632.Q9654.5.63 | 2N-P-3N
+484   S  1H-S        80          T53..JT654.QJ832 A98.AT975.Q973.9 K762.KQJ62.AK.A4 QJ4.843.82.KT765 | 1H
+485   S  1H-S       140          85.7.A8643.QT765 AJ6.854.KJT97.42 KQT3.AK932.Q2.AK 9742.QJT6.5.J983 | 1H
+486   S  3N-S       400          43.7.KJ952.Q9642 T87.Q98532.6.JT8 AKJ9.KT4.Q74.AK5 Q652.AJ6.AT83.73 | 2N-P-3N
+487   S  1H-S        80          J43..A9853.J9876 A9852.T432.2.K42 Q76.AKQ75.K7.AQT KT.J986.QJT64.53 | 1H
+488   S  6C-N       920          2.4.K8763.QJT754 7543.AKT953.94.6 AKT96.J7.AJ2.AK2 QJ8.Q862.QT5.983 | 2N-P-6C
+489   S  6D-S       940          732..KJ873.AK653 J8.J986432.965.8 AK94.AK75.AQT.74 QT65.QT.42.QJT92 | 2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+490   S  5C-S       600          K.64.QT983.KT875 Q9754.752.J754.2 A86.QJ.AK62.AQJ9 JT32.AKT983..643 | 2N-P-3S=1=-P-4C-P-4S=2=-P-5C | Minor Suit Stayman after 2NT | Cue bid, a !S stopper
+491   S  5C-S       420          8.K2.QT764.KT832 QJ43.T874.A32.Q5 AKT72.AJ.KJ.AJ96 965.Q9653.985.74 | 2N-P-3S=1=-P-4C-P-4H=2=-P-5C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+492   S  6C-S      1370          2.7.KQ872.AT6543 AT983.J965.J53.2 KQ.AK4.AT94.KJ87 J7654.QT832.6.Q9 | 2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
+493   S  6C-S      1390          K.J8.AKT76.JT982 QT654.QT6.Q42.75 A87.AK94.J9.AKQ4 J932.7532.853.63 | 2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+494   S  3N-S       400          Q6.4.87654.A9862 AJT542.875.Q3.J7 K97.AKJ2.AKT.Q43 83.QT963.J92.KT5 | 2N-P-3N
+495   S  2N-S       150          52.6.KT952.J8652 A96.JT42.A73.K73 KQT.AKQ75.J4.AQ9 J8743.983.Q86.T4 | 1H-P-P-X-XX-1S-P-P-1N-P-2N
+496   S  6D-N       920          .J8.KT9653.QJT98 KJ9543.Q3.Q842.6 Q6.AKT94.AJ.AK75 AT872.7652.7.432 | 2N-P-6D
+497   S  6C-N       940          .95.AT932.AQJT63 JT965.876.KJ7.92 AK84.AKQJT.54.K7 Q732.432.Q86.854 | 1H-P-1N=1=-P-2S-P-3C-P-4C-P-4N=2=-P-5C=3=-P-6C | Forcing 1NT | Blackwood 0314, for !C | A=0/5 or 3/5
+498   S  5C-S       620          K9.3.Q9543.KQ652 865.KQJT982.8.93 AQJ73.A4.KJ.AJ84 T42.765.AT762.T7 | 2N-P-3S=1=-P-4C-P-4H=2=-X-5C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+499   S  3N-S       430          3.85.KJT54.K7542 J8752.AJT762.Q7. AQT.KQ9.A86.AQ86 K964.43.932.JT93 | 2N-P-3N
+500   S  3N-S       630          2.J8.A9753.KT942 JT75.KT32.T6.A76 AK943.AQ.KQ2.Q85 Q86.97654.J84.J3 | 2N-P-3N
 
              -- Sorted Summary of Bidding Sequences --
 
-    2  1H
-    1  1H-1S-2H-P-4H
-    1  1H-2S-3H-P-3S=1=-P-4D=2=-P-4H | Cue bid, a !S stopper | Cue bid, a !D stopper
-    1  1H-P-1N=1=-3D-3N | Forcing 1NT
-    1  1H-P-1N=1=-3S-3N | Forcing 1NT
-    1  1H-P-1N=1=-P-2S | Forcing 1NT
-    8  1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
-    2  1H-P-1N=1=-P-2S-P-3S-P-3N-P-4S | Forcing 1NT
-    1  1H-P-1N=1=-P-2S-P-6H | Forcing 1NT
-    1  1H-P-2D-P-2S-P-3C-P-4N=1=-P-5C=2=-P-6N | Blackwood 0314, for !C | A=0/5 or 3/5
-    1  1H-P-2D-P-2S-P-3C-P-4N=1=-P-5D=2=-P-6D-P-6S=3=-P-6N | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen and !S king
-    1  1H-P-2D-P-2S-P-3C-P-4N=1=-P-5H=2=-P-5N=3=-P-6D=4=-P-6N | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=0 | King ask by 5NT | K=1
-    1  1H-P-P-1S-2N-P-3N
-    1  1S
-   11  1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
-    1  1S-P-1N=1=-P-3H-P-3S-P-3N=2=-P-4D=3=-P-4N=4=-P-5H=5=-P-6S | Forcing 1NT | Cue bid, surplus | Cue bid, a !D stopper | Blackwood 0314, for !S | A=2/5 or 5/5, Q(S)=0
-    1  1S-P-2C-P-3H-P-4S-P-4N=1=-P-5D=2=-P-6C-P-6N=3= | Blackwood 0314, for !S | A=1/5 or 4/5 | !S queen no !D king no !H king
-    1  1S-P-2D-P-3H-P-3N-P-7N
-    1  2N-3D-3N
-    4  2N-3S-3N
-    1  2N-3S-X
-  160  2N-P-3N
-   40  2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
-    2  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-    1  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6C | Minor Suit Stayman after 2NT | Artificial
-    3  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
-    3  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6N | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-P-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-5D | Minor Suit Stayman after 2NT | Artificial
-    2  2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
-    3  2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6N | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6N-P-7N | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-7N | Minor Suit Stayman after 2NT | Artificial
+    9  1H
+    1  1H-1S-2D=1=-P-3N | 1X-(Y)-2Z forcing
+    1  1H-1S-P-3S-4D
+    1  1H-2S-3D-3S-4S=1=-P-4N=2=-P-5H=3=-P-6D | Limit raise or better in !D | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
+    2  1H-3S-P-P-3N
+    1  1H-3S-P-P-4C-P-4N=1=-P-5C=2=-P-6H | Blackwood 0314, for !C | A=0/5 or 3/5
+    1  1H-3S-P-P-4C-P-4N=1=-P-5D=2=-P-5H-P-6C=3= | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
+    1  1H-3S-X-4S-4N=1=-P-5D=2=-P-6N | Blackwood 0314 | A=1/4 or 4/4
+    1  1H-3S-X-4S-X
+    1  1H-P-1N=1=-2S-3S=2=-P-4H | Forcing 1NT | Strength cue bid
+    6  1H-P-1N=1=-P-2S-P-2N-P-3N | Forcing 1NT
+    1  1H-P-1N=1=-P-2S-P-3C-P-4C-P-4N=2=-P-5C=3=-P-6C | Forcing 1NT | Blackwood 0314, for !C | A=0/5 or 3/5
+    1  1H-P-1N=1=-P-2S-P-3C-P-5C | Forcing 1NT
+   12  1H-P-1N=1=-P-2S-P-3N | Forcing 1NT
+    1  1H-P-1N=1=-P-2S-P-4H-P-4N=2=-P-5C=3=-P-5D-P-6C=4=-P-6H | Forcing 1NT | Blackwood 0314, for !H | A=0/5 or 3/5 | !H queen and !C king
+    1  1H-P-1N=1=-P-2S-P-4H-P-4N=2=-P-5D=3=-P-6H | Forcing 1NT | Blackwood 0314, for !H | A=1/5 or 4/5
+    1  1H-P-1N=1=-P-3C-P-4N=2=-P-5C=3=-P-5D-P-6C=4=-P-7C | Forcing 1NT | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
+    1  1H-P-1N=1=-P-3C-P-4N=2=-P-5S=3=-P-6C | Forcing 1NT | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
+    9  1H-P-1N=1=-P-3N | Forcing 1NT
+    1  1H-P-1N=1=-P-3N-P-4C-P-4D=2=-P-4N=3=-P-5C=4=-P-6C | Forcing 1NT | Cue bid, a !D stopper | Blackwood 0314, for !C | A=0/5 or 3/5
+    1  1H-P-1N=1=-P-3N-P-4C-P-4D=2=-P-5C-P-6C | Forcing 1NT | Cue bid, a !D stopper
+    1  1H-P-1N=1=-P-3N-P-4D-P-4H=2=-P-4N=3=-P-5C=4=-P-7D | Forcing 1NT | Cue bid, a !H stopper | Blackwood 0314, for !D | A=0/5 or 3/5
+    1  1H-P-1N=1=-P-3N-P-4D-P-4H=2=-P-5C=3=-P-6N | Forcing 1NT | Cue bid, a !H stopper | Cue bid, surplus
+    1  1H-P-1N=1=-P-3N-P-4D-P-4H=2=-P-5D | Forcing 1NT | Cue bid, a !H stopper
+    1  1H-P-1N=1=-P-3N-P-6N | Forcing 1NT
+    1  1H-P-2D-P-2S-P-4H-P-4N=1=-P-5C=2=-P-5D-P-5H=3=-P-6H | Blackwood 0314, for !H | A=0/5 or 3/5 | No !H queen
+    1  1H-P-2D-P-3N-P-4D-P-4N=1=-P-5D=2=-P-5H-P-6C=3=-P-6N | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen and !C king
+    1  1H-P-P-1S-X-P-2D-2S-P-P-3C-3S-3N
+    1  1H-P-P-X-XX-1S-P-P-1N-P-2N
+    5  1S
+    1  1S-2H-P-P-2N-P-3C-P-3N
+    2  1S-P-1N=1=-3H-3N | Forcing 1NT
+    1  1S-P-1N=1=-P-3H | Forcing 1NT
+   20  1S-P-1N=1=-P-3H-P-3N | Forcing 1NT
+    1  1S-P-1N=1=-P-3H-P-3S-P-3N=2=-P-4C=3=-P-4N=4=-P-5D=5=-P-5H-P-6D=6=-P-6S | Forcing 1NT | Cue bid, surplus | Cue bid, a !C stopper | Blackwood 0314, for !S | A=1/5 or 4/5 | !S queen and !D king
+    1  1S-P-1N=1=-P-3H-P-4H | Forcing 1NT
+   12  1S-P-1N=1=-P-3N | Forcing 1NT
+    1  1S-P-1N=1=-P-3N-P-4C-P-4D=2=-P-4N=3=-P-5C=4= | Forcing 1NT | Cue bid, a !D stopper | Blackwood 0314, for !C | A=0/5 or 3/5
+    1  1S-P-1N=1=-P-3N-P-4N=2=-P-6N | Forcing 1NT | Quantitative 4NT
+    1  1S-P-1N=1=-P-3N-P-4S-P-4N=2=-P-5C=3=-P-5S | Forcing 1NT | Blackwood 0314, for !S | A=0/5 or 3/5
+    1  1S-P-1N=1=-P-3N-P-6N | Forcing 1NT
+    1  1S-P-2D-P-3D-P-4D-P-4N=1=-P-5S=2=-P-5N=3=-P-6D=4=-P-7N | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1 | King ask by 5NT | K=1
+    1  1S-P-2D-P-3H-P-3N-P-6N
+    2  1S-P-2D-P-3N-P-6N
+    1  1S-P-P-X-2H
+    3  2N-3H-3N
+    1  2N-3H-6N
+    3  2N-3S-3N
+    1  2N-3S-5D
+    1  2N-3S-6C
+    1  2N-4H-4N
+    2  2N-4H-X
+    1  2N-4S-6C
+    1  2N-4S-6D
+  118  2N-P-3N
+    8  2N-P-3S=1=-P-3N=2= | Minor Suit Stayman after 2NT | Artificial
+    1  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
+    1  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-5C | Minor Suit Stayman after 2NT | Artificial
+    2  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-5D | Minor Suit Stayman after 2NT | Artificial
+    5  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6C | Minor Suit Stayman after 2NT | Artificial
+   16  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6D | Minor Suit Stayman after 2NT | Artificial
+    1  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-6N | Minor Suit Stayman after 2NT | Artificial
+    1  2N-P-3S=1=-P-3N=2=-P-4C-P-4D-P-7D | Minor Suit Stayman after 2NT | Artificial
+    5  2N-P-3S=1=-P-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
+   42  2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+    1  2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C-P-P-X | Minor Suit Stayman after 2NT | Artificial
+    1  2N-P-3S=1=-P-3N=2=-P-4C-P-5C-P-6C-X | Minor Suit Stayman after 2NT | Artificial
+    2  2N-P-3S=1=-P-3N=2=-P-4D-P-5C-P-6C | Minor Suit Stayman after 2NT | Artificial
+    4  2N-P-3S=1=-P-3N=2=-P-4D-P-5C-P-6D | Minor Suit Stayman after 2NT | Artificial
     1  2N-P-3S=1=-P-3N=2=-P-4D-P-5D | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-P-3N=2=-P-4D-P-5D-P-6C | Minor Suit Stayman after 2NT | Artificial
-    7  2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-    1  2N-P-3S=1=-P-3N=2=-P-4N=3=-P-5H-P-5N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-    1  2N-P-3S=1=-P-3N=2=-P-4N=3=-P-5H-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-    2  2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6C | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-    1  2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6D | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-   18  2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-    1  2N-P-3S=1=-P-3N=2=-P-4N=3=-P-6N-X | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-   40  2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-P-3N=2=-P-7N | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5C=6=-P-5H-P-5N=7=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen no !S king
-    1  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5C=6=-P-5H-P-5S=7=-P-7C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen and !S king
-    1  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5C=6=-P-5H-P-6C=7= | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
-    1  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5C=6=-P-6N | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5D=6=-P-5H-P-5N=7=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen no !S king
-    2  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4N=5=-P-5D=6=-P-5H-P-6C=7= | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
-    3  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-4S=5=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper | Cue bid, a !S stopper
-    4  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-    2  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-    1  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4H=4=-X-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Cue bid, a !H stopper
-    1  2N-P-3S=1=-P-4C=2=-P-4D=3=-P-4N=4=-P-5D=5=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !D stopper | Blackwood 0314, for !C | A=1/5 or 4/5
-    1  2N-P-3S=1=-P-4C=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5H=6=-P-6N | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=0
-    1  2N-P-3S=1=-P-4C=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5S=6=-P-6N | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
-    1  2N-P-3S=1=-P-4C=2=-P-4H=3=-P-4S=4=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !D stopper
-    1  2N-P-3S=1=-P-4C=2=-P-4H=3=-P-4S=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !D stopper
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-5N=5=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen no !S king
-    2  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-5N=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen no !S king
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen and !S king
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen and !S king
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
-    3  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
-   11  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-    4  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-    4  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-7C-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5C=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
-    2  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-5N=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen no !S king
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-5S=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen and !S king
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-5S=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen and !S king
-    3  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-    2  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-    3  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-7C-P-P-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-    2  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5D=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
-    4  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5H=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=0
-    2  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5S=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
-    1  2N-P-3S=1=-P-4C=2=-P-4N=3=-P-5S=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
-    2  2N-P-3S=1=-P-4C=2=-P-4S=3=-P-5C | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-    1  2N-P-3S=1=-P-4C=2=-P-5C | Minor Suit Stayman after 2NT | Artificial
-    4  2N-P-3S=1=-P-4C=2=-P-6C | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5C=6=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5C=6=-P-5H-P-5S=7=-P-7N | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-    1  2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5C=6=-P-6D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-4N=5=-P-5D=6=-P-5H-P-5N=7=-P-7D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
-    3  2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper
-    1  2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper
-    1  2N-P-3S=1=-P-4D=2=-P-4H=3=-P-4S=4=-P-6D-X | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !H stopper | Cue bid, a !S stopper
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5N=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen no !S king no !C king
-    2  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-    2  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5S=5=-P-7D-P-P-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !C king
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-6C=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !C king
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-6D=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | No !D queen
-   11  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6D-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-    2  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5C=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-5N=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-5N=5=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-5S=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen and !S king
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen and !C king
-    3  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-6D=5= | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | No !D queen
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-5H-P-6D=5=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5 | No !D queen
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5D=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5H=4=-P-6N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5H=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
-    2  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5S=4=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5S=4=-P-7D-P-P-X | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1
-    1  2N-P-3S=1=-P-4D=2=-P-4N=3=-P-5S=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1
-    1  2N-P-3S=1=-P-4D=2=-P-4S=3=-P-4N=4=-P-5C=5=-P-6D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper | Blackwood 0314, for !D | A=0/5 or 3/5
-   10  2N-P-3S=1=-P-4D=2=-P-4S=3=-P-5D | Minor Suit Stayman after 2NT | Artificial | Cue bid, a !S stopper
-    5  2N-P-3S=1=-P-4D=2=-P-5D | Minor Suit Stayman after 2NT | Artificial
-    2  2N-P-3S=1=-P-4D=2=-P-6D | Minor Suit Stayman after 2NT | Artificial
-    2  2N-P-3S=1=-X-3N=2= | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-X-3N=2=-4S-5D | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-X-3N=2=-P-4C-P-5C | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-X-3N=2=-P-4D-P-5D-P-6D | Minor Suit Stayman after 2NT | Artificial
+    6  2N-P-3S=1=-P-3N=2=-P-4D-P-5D-P-6D | Minor Suit Stayman after 2NT | Artificial
+    1  2N-P-3S=1=-P-3N=2=-P-4N=3= | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
+    2  2N-P-3S=1=-P-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
+    1  2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-P-4N=4=-P-5C=5=-P-5D-P-5N=6=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen no !H king no !S king
+    2  2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-P-4N=4=-P-5C=5=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5
+    1  2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-P-4N=4=-P-5D=5=-P-5H-P-5N=6=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=1/5 or 4/5 | !C queen no !S king
+    1  2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-P-4N=4=-P-5D=5=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=1/5 or 4/5
+    1  2N-P-3S=1=-P-4C-P-4D=2=-P-4H=3=-X-4N=4=-P-5C=5=-P-5D-P-5H=6=-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper | Cue bid, a !H stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | !C queen and !H king
+   28  2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+    1  2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6C-P-P-X | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+    1  2N-P-3S=1=-P-4C-P-4D=2=-P-5C-P-6N | Minor Suit Stayman after 2NT | Cue bid, a !D stopper
+    1  2N-P-3S=1=-P-4C-P-4H=2=-P-4S=3=-P-4N=4=-P-5C=5=-P-5D-P-6C=6=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=0/5 or 3/5 | No !C queen
+    1  2N-P-3S=1=-P-4C-P-4H=2=-P-4S=3=-P-4N=4=-P-5C=5=-P-6D-X | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=0/5 or 3/5
+    1  2N-P-3S=1=-P-4C-P-4H=2=-P-4S=3=-P-4N=4=-P-5D=5=-P-7N | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !D stopper | Blackwood 0314, for !C | A=1/5 or 4/5
+    1  2N-P-3S=1=-P-4C-P-4H=2=-P-4S=3=-P-6C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !D stopper
+    5  2N-P-3S=1=-P-4C-P-4H=2=-P-5C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+    2  2N-P-3S=1=-P-4C-P-4H=2=-X-5C | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+    1  2N-P-3S=1=-P-4C-P-4N=2=-P-5C=3=-P-7C | Minor Suit Stayman after 2NT | Blackwood 0314, for !C | A=0/5 or 3/5
+    1  2N-P-3S=1=-P-4C-P-4N=2=-P-5S=3=-P-7C | Minor Suit Stayman after 2NT | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
+    1  2N-P-3S=1=-P-4C-P-4S=2=-P-5C | Minor Suit Stayman after 2NT | Cue bid, a !S stopper
+    1  2N-P-3S=1=-P-4D-P-4H=2=-P-4S=3=-P-4N=4=-P-5D=5=-P-5H-P-6D=6=-P-7D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper | Cue bid, a !S stopper | Blackwood 0314, for !D | A=1/5 or 4/5 | No !D queen
+    5  2N-P-3S=1=-P-4D-P-4H=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+    1  2N-P-3S=1=-P-4D-P-4H=2=-X-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, a !H stopper
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-5N=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen no !S king no !C king
+    2  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-5S=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-5S=4=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-5S=4=-X-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-6C=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !C king
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-6D=4= | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | No !D queen
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-6D=4=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | No !D queen
+    2  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-P-6D=4=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | No !D queen
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-5H-X-5S=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen and !S king
+    3  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+    2  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-6N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+    2  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+    3  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5C=3=-X-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=0/5 or 3/5
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
+    2  2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5 | !D queen no !S king no !C king
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+    5  2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+    5  2N-P-3S=1=-P-4D-P-4N=2=-P-5D=3=-P-7N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=1/5 or 4/5
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5H=3=-P-6D | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
+    1  2N-P-3S=1=-P-4D-P-4N=2=-P-5H=3=-P-6N | Minor Suit Stayman after 2NT | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=0
+    1  2N-P-3S=1=-P-4D-P-5C=2=-P-5D | Minor Suit Stayman after 2NT | Cue bid, surplus
+    5  2N-P-3S=1=-P-4D-P-5C=2=-P-5D-P-6D | Minor Suit Stayman after 2NT | Cue bid, surplus
+    1  2N-P-3S=1=-P-4D-P-5C=2=-P-6D | Minor Suit Stayman after 2NT | Cue bid, surplus
+    1  2N-P-3S=1=-X-3N=2= | Minor Suit Stayman after 2NT | Artificial
     1  2N-P-3S=1=-X-3N=2=-P-4N=3=-P-6N | Minor Suit Stayman after 2NT | Artificial | Quantitative 4NT
-    1  2N-P-3S=1=-X-3N=2=-P-6N | Minor Suit Stayman after 2NT | Artificial
-    1  2N-P-3S=1=-X-4C-P-6N | Minor Suit Stayman after 2NT
-    1  2N-P-3S=1=-X-4D-P-5C | Minor Suit Stayman after 2NT
-    1  2N-P-3S=1=-X-4D-P-5D | Minor Suit Stayman after 2NT
-    2  2N-P-3S=1=-X-4D-P-6D | Minor Suit Stayman after 2NT
-    1  2N-P-4S=1=-P-5C-P-5D | Minors
-    1  2N-P-4S=1=-P-5D | Minors
+    2  2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5C=4=-P-6C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
+    1  2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5C=4=-P-7N | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=0/5 or 3/5
+    1  2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5D=4=-P-5H-P-6C=5=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5 | No !C queen
+    1  2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5D=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=1/5 or 4/5
+    1  2N-P-3S=1=-X-4C=2=-P-4N=3=-P-5S=4=-P-7C | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !C | A=2/5 or 5/5, Q(C)=1
+    1  2N-P-3S=1=-X-4D=2=-P-4N=3=-P-5C=4=-P-5D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5
+    1  2N-P-3S=1=-X-4D=2=-P-4N=3=-P-5C=4=-P-5H-P-5N=5=-P-6D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=0/5 or 3/5 | !D queen no !S king no !C king
+    1  2N-P-3S=1=-X-4D=2=-P-4N=3=-P-5D=4=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=1/5 or 4/5
+    1  2N-P-3S=1=-X-4D=2=-P-4N=3=-P-5S=4=-P-7D | Minor Suit Stayman after 2NT | Artificial | Blackwood 0314, for !D | A=2/5 or 5/5, Q(D)=1
+    6  2N-P-4S=1=-P-5C | Minors
+    7  2N-P-4S=1=-P-5D | Minors
+    1  2N-P-4S=1=-P-5D-P-6C | Minors
+    1  2N-P-4S=1=-X-5C | Minors
+   10  2N-P-6C
+    1  2N-P-6C-X
+   10  2N-P-6D
+    1  2N-P-6D-P-P-X
+    3  2N-P-6N
 
    -- Sorted Summary of Notes (the first character is forced to upper case) --
 
-    6  !C queen and !S king
-    7  !C queen no !S king
-    3  !D queen and !C king
-    7  !D queen and !S king
-    4  !D queen no !S king no !C king
-    1  !S queen no !D king no !H king
-   65  A=0/5 or 3/5
-   33  A=1/5 or 4/5
-    6  A=2/5 or 5/5, Q(C)=0
-    4  A=2/5 or 5/5, Q(C)=1
-    2  A=2/5 or 5/5, Q(D)=0
-    4  A=2/5 or 5/5, Q(D)=1
-    1  A=2/5 or 5/5, Q(S)=0
-  290  Artificial
-   68  Blackwood 0314, for !C
-   45  Blackwood 0314, for !D
+    1  !C queen and !H king
+    1  !C queen no !H king no !S king
+    1  !C queen no !S king
+    2  !D queen and !C king
+    5  !D queen and !S king
+    5  !D queen no !S king no !C king
+    1  !H queen and !C king
+    1  !S queen and !D king
+    1  1X-(Y)-2Z forcing
+   43  A=0/5 or 3/5
+    1  A=1/4 or 4/4
+   25  A=1/5 or 4/5
+    3  A=2/5 or 5/5, Q(C)=1
+    3  A=2/5 or 5/5, Q(D)=0
+    2  A=2/5 or 5/5, Q(D)=1
+  112  Artificial
+    1  Blackwood 0314
+   24  Blackwood 0314, for !C
+   47  Blackwood 0314, for !D
+    3  Blackwood 0314, for !H
     2  Blackwood 0314, for !S
-   24  Cue bid, a !D stopper
-   30  Cue bid, a !H stopper
-   26  Cue bid, a !S stopper
-    1  Cue bid, surplus
-   26  Forcing 1NT
+    1  Cue bid, a !C stopper
+   43  Cue bid, a !D stopper
+   27  Cue bid, a !H stopper
+    2  Cue bid, a !S stopper
+    9  Cue bid, surplus
+   81  Forcing 1NT
     1  K=1
     1  King ask by 5NT
-  295  Minor Suit Stayman after 2NT
-    2  Minors
-   11  No !C queen
+    1  Limit raise or better in !D
+  214  Minor Suit Stayman after 2NT
+   15  Minors
+    4  No !C queen
     5  No !D queen
-   34  Quantitative 4NT
+    1  No !H queen
+    4  Quantitative 4NT
+    1  Strength cue bid

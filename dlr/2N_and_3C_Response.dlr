@@ -1,11 +1,13 @@
 # button-text: 2NT - 3C
-# scenario-title: 20-21 Notrump and a Stayman or Puppet Stayman response.  The responder's hand is leveled to
+# scenario-title: 20-21 Notrump and a Stayman or Smolen rebid.
 # 2N_and_3C_Response
 dealer south
 
 
-# convention-card:
-# auction-filter: Auction.....\\n2NT.Pass.3C.
+/*
+convention-card:
+auction-filter: Auction.....\n2NT?.*Pass.*3C +
+*/
 
 ### 2NT and 3C Response
 
@@ -41,7 +43,7 @@ twoNT   = TwoNtShape and hcp(south)>19 and hcp(south)<22
 threeNT = TwoNtShape and hcp(south)>24 and hcp(south)<28
 
 # Define Game Forcing 2C
-case1 = hcp(south)>22
+case1 = hcp(south)>21
 case2 = hcp(south)>18 and losers(south)<5 and (spades(south)>5 or hearts(south)>5)
 case3 = hcp(south)>18 and losers(south)<4 and (diamonds(south)>5 or clubs(south)>5)
 gameForce2C = (case1 or case2 or case3) and not threeNT
@@ -68,22 +70,34 @@ oneClub    = oC
 
 ##### End of Imported Script -- Predict Opening 1-Bid #####
 
-### NORTH Constraints ###
+### NORTH ###
+
+# Define suit lengths
+cN = clubs(north)
+dN = diamonds(north)
+hN = hearts(north)
+sN = spades(north)
+
 # Calculate strength for North -- hcp plus 1 for every card over 4 in any suit 
-nlp1 = spades(north)>4 ? spades(north)-4 : 0
-nlp2 = hearts(north)>4 ? hearts(north)-4 : 0
-nlp3 = diamonds(north)>4 ? diamonds(north)-4 : 0
-nlp4 = clubs(north)>4 ? clubs(north)-4 : 0
+nlp1 = sN>4 ? sN-4 : 0
+nlp2 = hN>4 ? hN-4 : 0
+nlp3 = dN>4 ? dN-4 : 0
+nlp4 = cN>4 ? cN-4 : 0
 strength = nlp1 + nlp2 + nlp3 + nlp4 + hcp(north)
 
-# Define responder's hand types
-smolen   = shape(north,54xx+45xx-any 7xxx-any 6xxx-any 55xx)       and strength>4
-stayman  = shape(north,44xx+4xxx+x4xx-54xx-45xx-any 7xxx-any 6xxx) and strength>4 and not smolen
-puppet   = shape(north,4xxx+3xxx+x4xx+x3xx-any 6xxx -any 5xxx)     and strength>4 and not (smolen or stayman)
-
-partscore = strength<4
-game = strength>3 and strength<12
+# Define objective
+weak = strength<5
+game = strength>4 and strength<12
 slam = strength>11
+
+# Define One Minor and Both Minors
+cSuit  = cN>5 and hcp(north,clubs)>2    and dN<4 and shape(north,xxxx-any 66xx-any 65xx)
+dSuit  = dN>5 and hcp(north,diamonds)>2 and cN<4 and shape(north,xxxx-any 66xx-any 65xx)
+minor2 = ((cN>4 and dN>3) or (dN>4 and cN>3)) and (hcp(north,clubs) + hcp(north,diamonds))>2
+
+# Define Responses
+smolen   = shape(north,54xx+45xx-any 7xxx-any 6xxx-any 55xx)       and (game or slam) and shape(south,33xx+32xx+23xx)  // rebid 2D
+stayman  = shape(north,44xx+4xxx+x4xx-54xx-45xx-any 7xxx-any 6xxx) and (game or slam) and not smolen
 
 ### Imported Leveling Code ###
 c1 = hascard(west,2C)
@@ -124,21 +138,17 @@ keep0  = 0
 ### End of Imported Leveling Code ###
 
 
-levSmolen  = smolen  and keep
-levPuppet  = puppet  and keep86
-levStayman = stayman and keep06
 levGame    = game    and keep14
 levSlam    = slam    and keep
  
 ### Do it ###
-twoNT and (levSmolen or levPuppet or levStayman) and (levGame or levSlam)
+twoNT and (smolen or stayman) and (levGame or levSlam)
 
 ### Generate Statistics ###
 action
 #printoneline,
 average "Smolen       " 100 * smolen,
 average "Stayman      " 100 * stayman,
-average "Puppet       " 100 * puppet,
 average "Game         " 100 * game,
 average "Slam         " 100 * slam,
 
