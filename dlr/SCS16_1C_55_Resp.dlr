@@ -1,0 +1,21 @@
+# button-text: 5/5+ Resp w/8+
+# scenario-title: --- 5/5 or better Response (16+ HCP)
+# auction-filter: Auction.....[\s\S][\s\S]?1C
+# convention-card: Precision
+# SCS16_1C_55_Resp
+dealer south
+# convention-card: Precision
+
+
+# Strong C & two-suited response
+
+# South has 16+
+hcp(south)>15
+
+# North has 8+
+and hcp(north)>7
+
+# North has 5-5 or better
+and shape(north, any 85xx+ any 76xx +any 75xx +any 65xx +any 55xx)
+
+action printpbn

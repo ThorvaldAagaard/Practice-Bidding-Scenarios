@@ -4,7 +4,11 @@
 dealer east
 
 
-# auction-filter: Auction.....\\n1[CDHS] Pass Pass [PX1-7]
+/*
+Balancing
+
+auction-filter: Auction.....\n1[CDHS] +Pass +Pass +[PX1-7]
+*/
 
 # Balancing
 
@@ -164,6 +168,3 @@ average "jump overcall          " 100 * nJOC,
 average "too strong to overcall " 100 * nTSO,
 average "two suits              " 100 * nTS,
 average "2NT                    " 100 * n2NT,
-
-
-printpbn

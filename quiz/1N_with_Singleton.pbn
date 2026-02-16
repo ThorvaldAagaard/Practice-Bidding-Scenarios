@@ -1,0 +1,2487 @@
+% PBN 2.1
+% EXPORT
+%Content-type: text/x-pbn; charset=UTF-8
+%BCOptions Center GutterH GutterV Justify PageHeader STBorder STShade TwoColAuctions
+%BidAndCardSpacing Thin
+%BoardsPerPage fit,2
+%CardTableColors #008000,#ffffff,#aaaaaa
+%EventSpacing 12
+%Font:CardTable "Arial",11,400,0
+%Font:Commentary "Arial",12,400,0
+%Font:Diagram "Arial",12,400,0
+%Font:Event "Arial",16,700,0
+%Font:FixedPitch "Courier New",10,400,0
+%Font:HandRecord "Arial",11,400,0
+%GutterSize 250,250
+%HRTitleEvent "1N_with_Singleton - Bidding Quiz"
+%Margins 1000,1000,1000,750
+%PageFooter:0,0 "%D"
+%PageFooter:0,2 "%n"
+%PaperSize 1,2159,2794,2
+%ParaIndent 0
+%PipColors #000000,#ff0000,#ff0000,#000000
+%ShowBoardLabels 1
+%ShowCardTable 2
+%Translate "Board %" "%)"
+
+[Event "Exercise One — Responding to 1NT"]
+[Site ""]
+[Date ""]
+{<b>Exercise One — Responding to 1NT</b>
+
+Partner opens 1NT, opponent bids 2\C. What do you bid with each of these hands?}
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+[Auction "N"]
+1NT 2C
++
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:9.JT753.J643.876 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>Pass</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:98753.7.T986.A64 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>Pass</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:K543.AT.J7.J7642 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>X</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:QJ98.J932.63.AT6 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>X</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:QJ953.K.KJ6.J872 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\H</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event "Exercise Two — Responding to 1NT"]
+[Site ""]
+[Date ""]
+{<b>Exercise Two — Responding to 1NT</b>
+
+Partner opens 1NT, opponent bids 2\D. What do you bid with each of these hands?}
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+[Auction "N"]
+1NT 2D
++
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:T72.Q7.T974.J854 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>Pass</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:K984.T.QT76.J963 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>Pass</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:K84.K92.T96.8653 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>Pass</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:Q9.5.K97432.J943 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>3\D</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise One Answers</i></b>}
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>1-1)</b> <i>Pass</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>1-2)</b> <i>Pass</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>1-3)</b> <i>X</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>1-4)</b> <i>X</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "1-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>1-5)</b> <i>2\H</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise Two Answers</i></b>}
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>2-1)</b> <i>Pass</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>2-2)</b> <i>Pass</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>2-3)</b> <i>Pass</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>2-4)</b> <i>3\D</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event "Exercise Three — Responding to 1NT"]
+[Site ""]
+[Date ""]
+{<b>Exercise Three — Responding to 1NT</b>
+
+Partner opens 1NT, opponent bids 2\H. What do you bid with each of these hands?}
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+[Auction "N"]
+1NT 2H
++
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:AJ983.J2.J742.T7 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>X</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:J7.7653.86.T8742 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>Pass</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event "Exercise Four — Responding to 1NT"]
+[Site ""]
+[Date ""]
+{<b>Exercise Four — Responding to 1NT</b>
+
+Partner opens 1NT, opponent bids 3\C. What do you bid with each of these hands?}
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+[Auction "N"]
+1NT 3C
++
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:A96.T984.QJT75.2 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>X</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:Q9762.A873.QT6.K ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>3\S</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:KT9.A94.QT9.KJ76 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>3NT</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise Three Answers</i></b>}
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>3-1)</b> <i>X</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "3-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>3-2)</b> <i>Pass</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise Four Answers</i></b>}
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>4-1)</b> <i>X</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>4-2)</b> <i>3\S</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "4-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>4-3)</b> <i>3NT</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event "Exercise Five — Responding to 1NT"]
+[Site ""]
+[Date ""]
+{<b>Exercise Five — Responding to 1NT</b>
+
+Partner opens 1NT, opponent bids 3\H. What do you bid with each of these hands?}
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+[Auction "N"]
+1NT 3H
++
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:AQT2.J.AJ43.KT95 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>X</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:K85.9653.J7.A754 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>Pass</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event "Exercise Six — Responding to 1NT"]
+[Site ""]
+[Date ""]
+{<b>Exercise Six — Responding to 1NT</b>
+
+Partner opens 1NT. What do you bid with each of these hands?}
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:A5.9863.J76.KT62 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\C</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:86.K762.64.AKQ75 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\C</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:98732.K43.K6.AQ4 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\H</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:Q6.A8765.JT54.42 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\D</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:Q65.82.QT642.T54 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>Pass</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "S:Q92.K3.A765.T853 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>3NT</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise Five Answers</i></b>}
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>5-1)</b> <i>X</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "5-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>5-2)</b> <i>Pass</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise Six Answers</i></b>}
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>6-1)</b> <i>2\C</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>6-2)</b> <i>2\C</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>6-3)</b> <i>2\H</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>6-4)</b> <i>2\D</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>6-5)</b> <i>Pass</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "6-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>6-6)</b> <i>3NT</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event "Exercise Seven — Opener's Rebid after 2\C"]
+[Site ""]
+[Date ""]
+{<b>Exercise Seven — Opener's Rebid after 2\C</b>
+
+You open 1NT, partner responds 2\C. What do you bid with each of these hands?}
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:K932.AKJ7.Q832.A ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\H</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AJ43.Q752.A.AQT5 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\H</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A.AK62.KJ72.J973 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\H</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KQT2.A.JT76.AQJ6 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\S</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KJ76.A.K987.KQ65 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\S</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AJ64.A.AJ76.K765 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\S</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event "Exercise Eight — Opener's Rebid after 2\D"]
+[Site ""]
+[Date ""]
+{<b>Exercise Eight — Opener's Rebid after 2\D</b>
+
+You open 1NT, partner responds 2\D. What do you bid with each of these hands?}
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AJT7.KQT9.A.KT98 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2NT</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KJ82.AK52.JT96.A ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2NT</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:QT75.A.AKT9.K983 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\H</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A854.A.A764.KJ82 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\H</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A.KQ75.9872.AKJ4 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\S</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A.KQJ2.KJ83.QJ97 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\S</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise Seven Answers</i></b>}
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>7-1)</b> <i>2\H</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>7-2)</b> <i>2\H</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>7-3)</b> <i>2\H</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>7-4)</b> <i>2\S</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>7-5)</b> <i>2\S</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "7-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>7-6)</b> <i>2\S</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise Eight Answers</i></b>}
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>8-1)</b> <i>2NT</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>8-2)</b> <i>2NT</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>8-3)</b> <i>2\H</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>8-4)</b> <i>2\H</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>8-5)</b> <i>2\S</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "8-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>8-6)</b> <i>2\S</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event "Exercise Nine — Opener's Rebid after 2\D"]
+[Site ""]
+[Date ""]
+{<b>Exercise Nine — Opener's Rebid after 2\D</b>
+
+You open 1NT, partner responds 2\D, opponent bids X. What do you bid with each of these hands?}
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+[Auction "S"]
+1NT Pass 2D X
++
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AJ85.AJ75.A.K832 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2NT</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:KQJ4.A.7542.AK94 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>Pass</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event "Exercise Ten — Opener's Rebid after 2\H"]
+[Site ""]
+[Date ""]
+{<b>Exercise Ten — Opener's Rebid after 2\H</b>
+
+You open 1NT, partner responds 2\H. What do you bid with each of these hands?}
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A.AQ87.AQJ5.8763 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\S</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A.KQJ2.Q974.AT64 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\S</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A.KT83.AJ53.A973 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2\S</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AQT2.AT97.A.Q943 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2NT</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:AJ85.AJT7.KT94.A ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2NT</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:J932.A.AQ82.AQ86 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>2NT</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise Nine Answers</i></b>}
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>9-1)</b> <i>2NT</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "9-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>9-2)</b> <i>Pass</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+{<b><i>Exercise Ten Answers</i></b>}
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+[BCFlags "600023"]
+[Hidden "NESW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>10-1)</b> <i>2\S</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>10-2)</b> <i>2\S</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>10-3)</b> <i>2\S</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>10-4)</b> <i>2NT</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>10-5)</b> <i>2NT</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "10-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>10-6)</b> <i>2NT</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "spacer"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+[BCFlags "17"]

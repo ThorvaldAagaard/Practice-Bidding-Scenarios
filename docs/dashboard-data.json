@@ -1,0 +1,414 @@
+{
+  "generatedAt": "2026-02-15T09:01:52.237355",
+  "summary": {
+    "totalScenarios": 0,
+    "scenariosWorked": 0,
+    "totalFileEdits": 50811,
+    "totalPipelineRuns": 972,
+    "totalSessionHours": 3224,
+    "totalCommits": 5413
+  },
+  "charts": {
+    "labels": [
+      "Oct 23",
+      "Nov 23",
+      "Dec 23",
+      "Jan 24",
+      "Feb 24",
+      "Mar 24",
+      "Apr 24",
+      "May 24",
+      "Jun 24",
+      "Jul 24",
+      "Aug 24",
+      "Sep 24",
+      "Oct 24",
+      "Nov 24",
+      "Dec 24",
+      "Jan 25",
+      "Feb 25",
+      "Mar 25",
+      "Apr 25",
+      "May 25",
+      "Jun 25",
+      "Jul 25",
+      "Aug 25",
+      "Sep 25",
+      "Oct 25",
+      "Nov 25",
+      "Dec 25",
+      "Jan 26",
+      "Feb 26"
+    ],
+    "fileEdits": [
+      98,
+      450,
+      423,
+      253,
+      292,
+      377,
+      243,
+      4406,
+      5419,
+      2185,
+      232,
+      767,
+      12932,
+      7709,
+      585,
+      998,
+      819,
+      1572,
+      1508,
+      3782,
+      595,
+      314,
+      250,
+      870,
+      1779,
+      678,
+      506,
+      95,
+      674
+    ],
+    "pipelineRuns": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      61,
+      911
+    ],
+    "commits": [
+      109,
+      502,
+      441,
+      259,
+      304,
+      391,
+      255,
+      82,
+      209,
+      187,
+      41,
+      175,
+      297,
+      490,
+      111,
+      87,
+      80,
+      132,
+      116,
+      65,
+      66,
+      30,
+      21,
+      93,
+      159,
+      80,
+      62,
+      228,
+      341
+    ],
+    "sessionHours": [
+      51,
+      145,
+      171,
+      75,
+      140,
+      158,
+      83,
+      66,
+      143,
+      158,
+      47,
+      141,
+      204,
+      206,
+      113,
+      75,
+      76,
+      83,
+      112,
+      58,
+      70,
+      37,
+      35,
+      100,
+      131,
+      102,
+      69,
+      97,
+      278
+    ],
+    "scenariosWorked": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "recentActivity": [
+    {
+      "timestamp": "2026-02-14T20:52:10.665Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T20:52:14.998Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T21:03:25.229Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T21:03:31.523Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T21:03:49.260Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T21:47:20.043Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "*"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T21:53:05.266Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T21:56:25.476Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T21:58:43.859Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T21:58:57.669Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "*"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T22:01:02.873Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T22:01:12.041Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "*"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T22:12:51.134Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "*"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T22:26:13.741Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "*"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T22:40:06.020Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "*"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T22:51:15.730Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "quiz"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T22:57:22.001Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "bba-summary/Maximal_After_Overcall.txt",
+        "fileType": "txt",
+        "scenario": "Maximal_After_Overcall"
+      }
+    },
+    {
+      "timestamp": "2026-02-15T03:07:06.515Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "*"
+      }
+    },
+    {
+      "timestamp": "2026-02-15T14:54:56.828Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-15T14:56:21.816Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    }
+  ],
+  "recentCommits": [
+    {
+      "hash": "cfb30fe1",
+      "date": "2026-02-15 08:58:51 -0600",
+      "message": "Update Maximal_After_Overcall auction filter for 1S branch"
+    },
+    {
+      "hash": "25436116",
+      "date": "2026-02-15 06:46:04 -0800",
+      "message": "Improve build pipeline and VS Code extension"
+    },
+    {
+      "hash": "67ab081e",
+      "date": "2026-02-15 07:17:04 -0600",
+      "message": "Update Maximal_After_Overcall pipeline artifacts"
+    },
+    {
+      "hash": "5dff7d96",
+      "date": "2026-02-14 19:05:18 -0800",
+      "message": "Update pbs-test/2N_Puppet.pbs"
+    },
+    {
+      "hash": "13cf5a41",
+      "date": "2026-02-14 13:03:38 -0600",
+      "message": "Update Maximal_After_Overcall constraints and button text"
+    },
+    {
+      "hash": "3fe44212",
+      "date": "2026-02-14 11:49:58 -0600",
+      "message": "Update Maximal_After_Overcall pipeline artifacts"
+    },
+    {
+      "hash": "53fcbd52",
+      "date": "2026-02-14 09:00:56 -0600",
+      "message": "Daily dashboard update"
+    },
+    {
+      "hash": "8bef6d0c",
+      "date": "2026-02-13 17:26:51 -0800",
+      "message": "Fix quiz prompt: \"Partner opens Pass\" \u2192 \"Partner initially passes\""
+    },
+    {
+      "hash": "ce78da9d",
+      "date": "2026-02-13 17:19:05 -0800",
+      "message": "Add quiz-control metadata and improve quiz generation"
+    },
+    {
+      "hash": "86aab360",
+      "date": "2026-02-13 16:04:00 -0800",
+      "message": "Remove duplicate metadata from btn comment blocks"
+    }
+  ]
+}

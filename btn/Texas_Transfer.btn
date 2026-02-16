@@ -1,0 +1,31 @@
+# alias: Texas
+# button-text: GIB NT & Texas
+# dealer-position: S
+# gib-works: true
+# bba-works: true
+# auction-filter: Auction.....\n1N +Pass +4[DH]
+
+/*@chat
+---  Texas Transfer
+Texas Transfer show a 6+card major with either NO slam interest or intent to follow up with RKC.
+With a 6+card major an a short suit. Jacoby then splinter shows slam interest (small are grand) due to shortness.
+Jacoby followed directly by 4N is Quantitative.  Texas then 4N is RKC without shortness.
+https://www.bridgebum.com/texas_transfer.php
+@chat*/
+
+# Texas Transfer
+dealer south
+
+#include "script/GIB-1N"
+# Defines gibNT
+#include "script/Calm-Opponents"
+# Defines calmWest
+#include "script/TP"
+# Defines tpNorth
+
+# South has a 6-card major w/o 4 in other major and (no slam interest or intending to RKC)
+nS = spades(north)>5 and top5(north,spades)>2 and hearts(north)<4   // avoid Smolen
+nH = hearts(north)>5 and top5(north,hearts)>2 and spades(north)<4
+nM = (nS or nH)
+
+gibNT and nM and tpNorth>9 and calmWest

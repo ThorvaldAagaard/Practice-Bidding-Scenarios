@@ -1,12 +1,22 @@
+# alias: Snapdragon
 # button-text: Snapdragon Double
-# scenario-title: Snapdragon Double
-# Snapdragon_Double
+# scenario-title: --- Snapdragon Double
+# dealer-position: E
+# gib-works: false
+# bba-works: truec
+# auction-filter: ^(1C +1D +1[HS]|1C +1H +(1S|2D|1C +1S +2[DH]|1D +1H +(1S|2C))|1D +1S +2[CH]|1D +2C +2[HS]|1H +1S +2[CD]) +X
+# convention-card: 21GF-Snapdragon
+
+/*@chat
+--- Snapdragon Double
+After LHO opens, partner overcalls, and RHO bids a new suit, a Snapdragon double
+is artifical and forcing.  It shows 5+ cards in the lone unbid suit, at least 8 HCP, 
+and a tolerance for partner's suit.  'Tolerance' ranges from 2 to 3 cards.
+https://www.bridgebum.com/snapdragon_double.php
+@chat*/
 dealer east
 
-
 # kill 1x-(Y)-2Z forcing
-# convention-card: 21GF-Snapdragon
-# auction-filter: (\\n1C.1D.1[HS])|(\\n1C.1H..[SD])|(\\n1C.1S.2[DH])|(\\n1D.1H..[SC])|(\\n1D.1S.2[CH])|(\\n1D.2C.2[HS])
 
 # Overcalls
 
@@ -62,7 +72,7 @@ otherHCP = hcp(south)>7 and hcp(west)>7 and hcp(north)>7
 sequences = (CDHS or CDSH or CHSD or CHDS or CSDH or CSHD or DHSC or DHCS or DSCH or DSHC or DCHS or DCSH)
 
 
-#Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/script/Leveling
+##include "script/Leveling"
 
 #lCDHS = CDHS and keep25
 #lCDSH = CDSH and keep25
@@ -96,6 +106,3 @@ average "DSCH" 100 * DSCH,
 average "DSHC" 100 * DSHC,
 average "DCHS" 100 * DCHS,
 average "DCSH" 100 * DCSH,
-
-
-printpbn

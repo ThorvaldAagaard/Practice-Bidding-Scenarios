@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBS Activity Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 13px;
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333333;
+        }
+        h1 {
+            color: #222222;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666666;
+            margin-bottom: 30px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .stat-box {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0077b6;
+        }
+        .stat-label {
+            color: #666666;
+            margin-top: 5px;
+            font-size: 12px;
+        }
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .chart-card {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+        .chart-card h3 {
+            margin: 0 0 15px 0;
+            color: #333333;
+            font-size: 14px;
+        }
+        .activity-card {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+        }
+        .activity-card h3 {
+            margin: 0 0 15px 0;
+            color: #333333;
+        }
+        .activity-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .activity-list {
+            max-height: 250px;
+            overflow-y: auto;
+        }
+        .activity-item {
+            padding: 6px 10px;
+            border-bottom: 1px solid #e5e5e5;
+            font-size: 11px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+        .activity-type {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .type-file_save { background: #dbeafe; color: #1d4ed8; }
+        .type-pipeline_run { background: #dcfce7; color: #15803d; }
+        .type-session_start { background: #fef3c7; color: #b45309; }
+        .type-session_end { background: #fee2e2; color: #b91c1c; }
+        .activity-time {
+            color: #888888;
+            font-size: 10px;
+        }
+        .commit-item {
+            padding: 6px 10px;
+            border-bottom: 1px solid #e5e5e5;
+            font-size: 11px;
+        }
+        .commit-item:last-child {
+            border-bottom: none;
+        }
+        .commit-hash {
+            font-family: monospace;
+            color: #7c3aed;
+            font-size: 10px;
+        }
+        .commit-message {
+            color: #444444;
+            margin-left: 8px;
+        }
+        .commit-date {
+            color: #888888;
+            font-size: 11px;
+            display: block;
+            margin-top: 4px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #888888;
+            font-size: 14px;
+        }
+        .footer code {
+            color: #7c3aed;
+            background: #f0ecf9;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        .no-data {
+            color: #888888;
+            font-style: italic;
+            text-align: center;
+            padding: 20px;
+        }
+        @media (max-width: 900px) {
+            .stats { grid-template-columns: repeat(3, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .stats { grid-template-columns: repeat(2, 1fr); }
+            .chart-grid { grid-template-columns: 1fr; }
+            .activity-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+    <script>
+const DASHBOARD_DATA = {
+  "generatedAt": "2026-02-14T09:00:56.677871",
+  "summary": {
+    "totalScenarios": 0,
+    "scenariosWorked": 0,
+    "totalFileEdits": 50787,
+    "totalPipelineRuns": 933,
+    "totalSessionHours": 3227,
+    "totalCommits": 5416
+  },
+  "charts": {
+    "labels": [
+      "Oct 23",
+      "Nov 23",
+      "Dec 23",
+      "Jan 24",
+      "Feb 24",
+      "Mar 24",
+      "Apr 24",
+      "May 24",
+      "Jun 24",
+      "Jul 24",
+      "Aug 24",
+      "Sep 24",
+      "Oct 24",
+      "Nov 24",
+      "Dec 24",
+      "Jan 25",
+      "Feb 25",
+      "Mar 25",
+      "Apr 25",
+      "May 25",
+      "Jun 25",
+      "Jul 25",
+      "Aug 25",
+      "Sep 25",
+      "Oct 25",
+      "Nov 25",
+      "Dec 25",
+      "Jan 26",
+      "Feb 26"
+    ],
+    "fileEdits": [
+      110,
+      450,
+      423,
+      253,
+      292,
+      377,
+      243,
+      4406,
+      5419,
+      2185,
+      232,
+      767,
+      12932,
+      7709,
+      585,
+      998,
+      819,
+      1572,
+      1508,
+      3782,
+      595,
+      314,
+      250,
+      870,
+      1779,
+      678,
+      506,
+      95,
+      638
+    ],
+    "pipelineRuns": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      61,
+      872
+    ],
+    "commits": [
+      123,
+      502,
+      441,
+      259,
+      304,
+      391,
+      255,
+      82,
+      209,
+      187,
+      41,
+      175,
+      297,
+      490,
+      111,
+      87,
+      80,
+      132,
+      116,
+      65,
+      66,
+      30,
+      21,
+      93,
+      159,
+      80,
+      62,
+      228,
+      330
+    ],
+    "sessionHours": [
+      54,
+      145,
+      171,
+      75,
+      140,
+      158,
+      83,
+      66,
+      143,
+      158,
+      47,
+      141,
+      204,
+      206,
+      113,
+      75,
+      76,
+      83,
+      112,
+      58,
+      70,
+      37,
+      35,
+      100,
+      131,
+      102,
+      69,
+      97,
+      278
+    ],
+    "scenariosWorked": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "recentActivity": [
+    {
+      "timestamp": "2026-02-14T00:18:47.966Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T00:18:57.218Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T00:23:23.566Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T00:23:29.234Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T00:28:28.220Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T13:19:01.927Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T13:19:08.221Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T13:29:58.366Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T13:30:05.262Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "*"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:20:58.131Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:21:04.111Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:32:12.336Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:32:20.168Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:34:52.281Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:35:00.852Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:40:09.522Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:40:14.423Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:46:31.419Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:46:36.359Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Maximal_After_Overcall",
+        "operation": "pbs"
+      }
+    },
+    {
+      "timestamp": "2026-02-14T14:59:45.709Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/Maximal_After_Overcall.btn",
+        "fileType": "btn"
+      }
+    }
+  ],
+  "recentCommits": [
+    {
+      "hash": "859071ac",
+      "date": "2026-02-13 09:00:57 -0600",
+      "message": "Daily dashboard update"
+    },
+    {
+      "hash": "e34304c2",
+      "date": "2026-02-12 18:55:35 -0600",
+      "message": "Remove PBS folder and update Any_5422 pipeline artifacts"
+    },
+    {
+      "hash": "9fca9f26",
+      "date": "2026-02-12 18:54:39 -0600",
+      "message": "Release Any_5422_with_15-17 to pbs-release"
+    },
+    {
+      "hash": "95be936c",
+      "date": "2026-02-12 18:40:41 -0600",
+      "message": "Release Any_5422_with_15-16 to pbs-release"
+    },
+    {
+      "hash": "6d5406ab",
+      "date": "2026-02-12 18:32:49 -0600",
+      "message": "Remove losers.pbs from pbs-release"
+    },
+    {
+      "hash": "eec451cb",
+      "date": "2026-02-12 18:21:05 -0600",
+      "message": "Remove 2N_Smolen.pbs from pbs-release"
+    },
+    {
+      "hash": "ea3a26f8",
+      "date": "2026-02-12 18:16:31 -0600",
+      "message": "Remove Smolen-audit.btn file"
+    },
+    {
+      "hash": "608a8881",
+      "date": "2026-02-12 17:55:45 -0600",
+      "message": "Rename Smolen_After_2N.pbs to Smolen_after_2N.pbs in pbs-release"
+    },
+    {
+      "hash": "ae92b9fb",
+      "date": "2026-02-12 17:54:13 -0600",
+      "message": "Rename Smolen_After_2N.btn to Smolen_after_2N.btn for consistency"
+    },
+    {
+      "hash": "84c840b1",
+      "date": "2026-02-12 17:01:29 -0600",
+      "message": "Regenerate Smolen_after_2N pipeline artifacts"
+    }
+  ]
+};
+    </script>
+</head>
+<body>
+    <h1>Practice Bidding Scenarios</h1>
+    <p class="subtitle">Development Activity Dashboard</p>
+
+    <div class="stats">
+        <div class="stat-box">
+            <div class="stat-value" id="scenarioCount">-</div>
+            <div class="stat-label">Scenarios</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="commitCount">-</div>
+            <div class="stat-label">Commits (Year)</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="sessionHours">-</div>
+            <div class="stat-label">Hours in VSCode</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="pipelineRuns">-</div>
+            <div class="stat-label">Pipeline Runs</div>
+        </div>
+    </div>
+
+    <div class="chart-card" style="margin-bottom: 20px;">
+        <h3>Cumulative Scenarios</h3>
+        <canvas id="scenariosChart"></canvas>
+    </div>
+
+    <div class="chart-grid">
+        <div class="chart-card">
+            <h3>Git Commits</h3>
+            <canvas id="commitsChart"></canvas>
+        </div>
+        <div class="chart-card">
+            <h3>File Edits</h3>
+            <canvas id="editsChart"></canvas>
+        </div>
+        <div class="chart-card">
+            <h3>Pipeline Runs</h3>
+            <canvas id="pipelineChart"></canvas>
+        </div>
+        <div class="chart-card">
+            <h3>VSCode Session Time (Hours)</h3>
+            <canvas id="sessionChart"></canvas>
+        </div>
+    </div>
+
+    <div class="activity-grid">
+        <div class="activity-card">
+            <h3>Recent Activity</h3>
+            <div class="activity-list" id="recentActivity">
+                <div class="no-data">No activity logged yet</div>
+            </div>
+        </div>
+        <div class="activity-card">
+            <h3>Recent Commits</h3>
+            <div class="activity-list" id="recentCommits">
+                <div class="no-data">No commits found</div>
+            </div>
+        </div>
+    </div>
+
+    <p class="footer">
+        Last updated: <span id="lastUpdated">-</span>
+        <br>
+        <small>Auto-updates daily at 3 AM Central, or run <code>python3 docs/generateDashboardData.py</code></small>
+    </p>
+
+    <script>
+        // Chart configuration defaults
+        const chartDefaults = {
+            responsive: true,
+            plugins: {
+                legend: { display: false }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: { stepSize: 1, color: '#666666' },
+                    grid: { color: '#e5e5e5' }
+                },
+                x: {
+                    ticks: { color: '#666666' },
+                    grid: { color: '#e5e5e5' }
+                }
+            }
+        };
+
+        function createChart(canvasId, label, data, color) {
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            return new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.labels || [],
+                    datasets: [{
+                        label: label,
+                        data: data.values || [],
+                        backgroundColor: color + '40',
+                        borderColor: color,
+                        borderWidth: 1
+                    }]
+                },
+                options: chartDefaults
+            });
+        }
+
+        function formatTime(isoString) {
+            try {
+                const date = new Date(isoString);
+                return date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+            } catch {
+                return isoString;
+            }
+        }
+
+        function formatActivityDetails(event) {
+            const details = event.details || {};
+            switch (event.type) {
+                case 'file_save':
+                    return details.filePath || 'Unknown file';
+                case 'pipeline_run':
+                    return `${details.scenario || '?'} - ${details.operation || '?'}`;
+                case 'session_start':
+                    return 'Session started';
+                case 'session_end':
+                    const mins = details.durationMinutes;
+                    return mins ? `Session ended (${mins} min)` : 'Session ended';
+                default:
+                    return event.type;
+            }
+        }
+
+        function renderDashboard(data) {
+            if (!data) {
+                console.warn('No dashboard data available');
+                return;
+            }
+
+            // Update summary stats
+            const summary = data.summary || {};
+            document.getElementById('scenarioCount').textContent = summary.totalScenarios || 0;
+            document.getElementById('commitCount').textContent = summary.totalCommits || 0;
+            document.getElementById('sessionHours').textContent =
+                summary.totalSessionHours || 0;
+            document.getElementById('pipelineRuns').textContent = summary.totalPipelineRuns || 0;
+
+            // Update charts
+            const charts = data.charts || {};
+            const labels = charts.labels || [];
+
+            createChart('commitsChart', 'Commits',
+                { labels, values: charts.commits || [] }, '#569cd6');
+            createChart('editsChart', 'File Edits',
+                { labels, values: charts.fileEdits || [] }, '#4ec9b0');
+            createChart('pipelineChart', 'Pipeline Runs',
+                { labels, values: charts.pipelineRuns || [] }, '#6a9955');
+
+            // Session hours estimated from git commit patterns
+            createChart('sessionChart', 'Hours',
+                { labels, values: charts.sessionHours || [] }, '#ce9178');
+
+            // Scenarios worked over time
+            createChart('scenariosChart', 'Scenarios',
+                { labels, values: charts.scenariosWorked || [] }, '#9333ea');
+
+            // Render recent activity
+            const activityList = document.getElementById('recentActivity');
+            const recentActivity = (data.recentActivity || []).slice().reverse();
+            if (recentActivity.length > 0) {
+                activityList.innerHTML = recentActivity.map(event => `
+                    <div class="activity-item">
+                        <div>
+                            <span class="activity-type type-${event.type}">${event.type.replace('_', ' ')}</span>
+                            <span style="margin-left: 8px;">${formatActivityDetails(event)}</span>
+                        </div>
+                        <span class="activity-time">${formatTime(event.timestamp)}</span>
+                    </div>
+                `).join('');
+            }
+
+            // Render recent commits
+            const commitsList = document.getElementById('recentCommits');
+            const recentCommits = data.recentCommits || [];
+            if (recentCommits.length > 0) {
+                commitsList.innerHTML = recentCommits.map(commit => `
+                    <div class="commit-item">
+                        <span class="commit-hash">${commit.hash}</span>
+                        <span class="commit-message">${commit.message}</span>
+                        <span class="commit-date">${commit.date}</span>
+                    </div>
+                `).join('');
+            }
+
+            // Update timestamp
+            if (data.generatedAt) {
+                document.getElementById('lastUpdated').textContent = formatTime(data.generatedAt);
+            }
+        }
+
+        // Load dashboard data
+        if (typeof DASHBOARD_DATA !== 'undefined') {
+            renderDashboard(DASHBOARD_DATA);
+        } else {
+            // Try to fetch from JSON file (works with local server)
+            fetch('dashboard-data.json')
+                .then(r => r.json())
+                .then(renderDashboard)
+                .catch(() => console.warn('No dashboard data available. Run generateDashboardData.py'));
+        }
+    </script>
+</body>
+</html>

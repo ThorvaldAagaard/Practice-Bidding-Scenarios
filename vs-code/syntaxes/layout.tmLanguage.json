@@ -1,0 +1,178 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "PBS Layout",
+  "scopeName": "source.pbs-layout",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#major-header" },
+    { "include": "#section-header" },
+    { "include": "#action-button" },
+    { "include": "#separator" },
+    { "include": "#button-row" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.hash.layout",
+          "match": "^\\s*#.*$"
+        }
+      ]
+    },
+    "major-header": {
+      "patterns": [
+        {
+          "name": "meta.header.major.layout",
+          "match": "^(\\[Major\\])\\s*(.*)$",
+          "captures": {
+            "1": { "name": "keyword.control.major.layout" },
+            "2": { "name": "entity.name.section.major.layout" }
+          }
+        }
+      ]
+    },
+    "section-header": {
+      "patterns": [
+        {
+          "name": "meta.header.section.layout",
+          "match": "^(\\[Section\\])\\s*(.*)$",
+          "captures": {
+            "1": { "name": "keyword.control.section.layout" },
+            "2": { "name": "entity.name.section.layout" }
+          }
+        }
+      ]
+    },
+    "action-button": {
+      "patterns": [
+        {
+          "name": "meta.action.layout",
+          "match": "^(\\[Action\\])\\s*([^|]+)\\|(%[^%]+%)\\|(\\d+)$",
+          "captures": {
+            "1": { "name": "keyword.control.action.layout" },
+            "2": { "name": "string.unquoted.button-text.layout" },
+            "3": { "name": "variable.other.script.layout" },
+            "4": { "name": "constant.numeric.width.layout" }
+          }
+        }
+      ]
+    },
+    "separator": {
+      "patterns": [
+        {
+          "name": "punctuation.separator.layout",
+          "match": "---"
+        }
+      ]
+    },
+    "button-row": {
+      "patterns": [
+        {
+          "name": "meta.button-row.layout",
+          "begin": "^(?=[A-Za-z0-9_-]|---)",
+          "end": "$",
+          "patterns": [
+            { "include": "#separator" },
+            {
+              "name": "meta.button-group.layout",
+              "begin": "\\(",
+              "end": "\\)",
+              "beginCaptures": {
+                "0": { "name": "punctuation.definition.group.begin.layout" }
+              },
+              "endCaptures": {
+                "0": { "name": "punctuation.definition.group.end.layout" }
+              },
+              "patterns": [
+                {
+                  "name": "meta.button.colored-width.layout",
+                  "match": "([A-Za-z0-9_-]+):(blue):(\\d+%)",
+                  "captures": {
+                    "1": { "name": "entity.name.function.scenario.grouped.layout" },
+                    "2": { "name": "constant.language.color.blue.layout" },
+                    "3": { "name": "constant.numeric.width.layout" }
+                  }
+                },
+                {
+                  "name": "meta.button.colored-width.layout",
+                  "match": "([A-Za-z0-9_-]+):(\\w+):(\\d+%)",
+                  "captures": {
+                    "1": { "name": "entity.name.function.scenario.grouped.layout" },
+                    "2": { "name": "constant.other.color.layout" },
+                    "3": { "name": "constant.numeric.width.layout" }
+                  }
+                },
+                {
+                  "name": "meta.button.width.layout",
+                  "match": "([A-Za-z0-9_-]+):(\\d+%)",
+                  "captures": {
+                    "1": { "name": "entity.name.function.scenario.grouped.layout" },
+                    "2": { "name": "constant.numeric.width.layout" }
+                  }
+                },
+                {
+                  "name": "meta.button.colored.layout",
+                  "match": "([A-Za-z0-9_-]+):(blue)",
+                  "captures": {
+                    "1": { "name": "entity.name.function.scenario.grouped.layout" },
+                    "2": { "name": "constant.language.color.blue.layout" }
+                  }
+                },
+                {
+                  "name": "meta.button.colored.layout",
+                  "match": "([A-Za-z0-9_-]+):(\\w+)",
+                  "captures": {
+                    "1": { "name": "entity.name.function.scenario.grouped.layout" },
+                    "2": { "name": "constant.other.color.layout" }
+                  }
+                },
+                {
+                  "name": "entity.name.function.scenario.grouped.layout",
+                  "match": "[A-Za-z0-9_-]+"
+                },
+                {
+                  "name": "punctuation.separator.comma.layout",
+                  "match": ","
+                }
+              ]
+            },
+            {
+              "name": "meta.button.colored-width.layout",
+              "match": "([A-Za-z0-9_-]+):(blue):(\\d+%)",
+              "captures": {
+                "1": { "name": "entity.name.function.scenario.layout" },
+                "2": { "name": "constant.language.color.blue.layout" },
+                "3": { "name": "constant.numeric.width.layout" }
+              }
+            },
+            {
+              "name": "meta.button.colored-width.layout",
+              "match": "([A-Za-z0-9_-]+):(\\w+):(\\d+%)",
+              "captures": {
+                "1": { "name": "entity.name.function.scenario.layout" },
+                "2": { "name": "constant.other.color.layout" },
+                "3": { "name": "constant.numeric.width.layout" }
+              }
+            },
+            {
+              "name": "meta.button.width.layout",
+              "match": "([A-Za-z0-9_-]+):(\\d+%)",
+              "captures": {
+                "1": { "name": "entity.name.function.scenario.layout" },
+                "2": { "name": "constant.numeric.width.layout" }
+              }
+            },
+            {
+              "name": "entity.name.function.scenario.layout",
+              "match": "[A-Za-z0-9_-]+"
+            },
+            {
+              "name": "punctuation.separator.comma.layout",
+              "match": ","
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

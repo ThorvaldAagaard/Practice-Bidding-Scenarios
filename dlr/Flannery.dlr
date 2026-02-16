@@ -1,11 +1,11 @@
 # button-text: Flannery
-# scenario-title: Flannery 2D
+# scenario-title: --- Flannery 2D
+# auction-filter: Note....Flannery
+# convention-card: 21GF-Flannery
 # Flannery
 dealer south
+# convention-card: 21GF-Flannery
 
-
-# convention-card: 
-# auction-filter: Auction.....\\n1H.
 
 # Flannery
 
@@ -19,6 +19,5 @@ flannery
 action
 average "HCP North=" hcp(north),
 average "HCP South=" hcp(south),
-
 
 printpbn

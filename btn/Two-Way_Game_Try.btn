@@ -1,0 +1,48 @@
+# alias: TwoWayGameTry
+# button-text: Two-Way Game Try
+# dealer-position: S
+# gib-works: false
+# bba-works: true
+# auction-filter: Note "1:Two way game tries
+# convention-card: 21GF-Two-Way-Game-Try
+
+/*@chat
+--- Two-Way Game Try
+After a single raise of a major
+. a step bid is a short-suit game try
+. any other bid below 3 or the major is a long suit/help suit game try
+. bidding 3 of the major is a general strength game try
+ https://www.bridgebase.com/doc/gib_system_notes.php#Two-way_Game_Try
+@chat*/
+
+# Select Two-Way Game Tries
+
+# Two-Way Game Tries
+dealer south
+
+#include "script/Calm-Opponents"
+# Defines calmWest, calmEast, and calmOpps
+#include "script/Predict-Opening-1-Bid"
+# Defines oneHeart, oneSpade
+#include "script/TP"
+# Defines tpSouth, tpNorth
+
+# Define openers suitable for a game try
+sFit3 = oneSpade and spades(south)==5 and top4(south,spades)>1 and spades(north)==3
+hFit3 = oneHeart and hearts(north)==5 and top4(south,hearts)>1 and hearts(north)==3 and spades(north)<4
+fit3 = (sFit3 or hFit3) and hcp(north)<10
+
+sFit4 = oneSpade and spades(north)>3
+hFit4 = oneHeart and hearts(north)>3
+fit4 = (sFit4 or hFit4) and hcp(north)<7
+
+fit  = (fit3 or fit4) and tpNorth>4
+
+gameTry = tpSouth==16 and hcp(south)<16
+
+fit and gameTry and tpNorth<10 and calmOpps
+
+action
+average "hcp(south)" hcp(south),
+average "hcp(north)" hcp(north),
+frequency "hcp(south)" (hcp(south),12,17),
