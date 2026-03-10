@@ -49,17 +49,30 @@ def fetch_property(scenario: str, property_name: str) -> Optional[str]:
     return None
 
 
-def get_convention_card(scenario: str) -> str:
+def get_convention_card_ns(scenario: str) -> str:
     """
-    Get the convention card for a scenario.
+    Get the NS convention card for a scenario.
 
     Returns:
-        Convention card name, or "21GF-DEFAULT" if not specified
+        Convention card name, or DEFAULT_CC1 if not specified
     """
     from config import DEFAULT_CC1
 
-    cc = fetch_property(scenario, "convention-card")
+    cc = fetch_property(scenario, "convention-card-ns")
     return cc if cc else DEFAULT_CC1
+
+
+def get_convention_card_ew(scenario: str) -> str:
+    """
+    Get the EW convention card for a scenario.
+
+    Returns:
+        Convention card name, or DEFAULT_CC2 if not specified
+    """
+    from config import DEFAULT_CC2
+
+    cc = fetch_property(scenario, "convention-card-ew")
+    return cc if cc else DEFAULT_CC2
 
 
 def get_auction_filter(scenario: str) -> Optional[str]:
@@ -122,6 +135,71 @@ def get_quiz_control(scenario: str) -> Dict[str, object]:
     return defaults
 
 
+def get_btn_property(scenario: str, property_name: str) -> Optional[str]:
+    """
+    Fetch a property value directly from a scenario's .btn file.
+
+    Args:
+        scenario: Scenario name (e.g., "Smolen")
+        property_name: Property to fetch (e.g., "button-text")
+
+    Returns:
+        Property value if found, None otherwise
+    """
+    btn_path = os.path.join(FOLDERS["btn"], f"{scenario}.btn")
+
+    if not os.path.exists(btn_path):
+        return None
+
+    pattern = re.compile(rf'^#\s*{re.escape(property_name)}:\s*(.+)$', re.IGNORECASE)
+
+    try:
+        with open(btn_path, "r") as f:
+            for line in f:
+                match = pattern.match(line.strip())
+                if match:
+                    return match.group(1).strip()
+    except Exception:
+        pass
+
+    return None
+
+
+def get_chat_text(scenario: str) -> str:
+    """
+    Get the chat text from a scenario's .btn file.
+
+    Reads content between /*@chat and @chat*/ markers,
+    stripping leading '---' lines.
+
+    Returns:
+        Chat text as a single string, or empty string if not found.
+    """
+    btn_path = os.path.join(FOLDERS["btn"], f"{scenario}.btn")
+
+    if not os.path.exists(btn_path):
+        return ""
+
+    try:
+        with open(btn_path, "r") as f:
+            content = f.read()
+    except Exception:
+        return ""
+
+    match = re.search(r'/\*@chat\s*\n(.*?)@chat\*/', content, re.DOTALL)
+    if not match:
+        return ""
+
+    lines = []
+    for line in match.group(1).strip().splitlines():
+        line = line.strip()
+        if line.startswith("---"):
+            line = line.lstrip("-").strip()
+        if line:
+            lines.append(line)
+    return "\n".join(lines)
+
+
 def get_bba_works(scenario: str) -> bool:
     """
     Check if BBA analysis works for a scenario.
@@ -164,7 +242,8 @@ if __name__ == "__main__":
         test_scenario = os.path.splitext(os.path.basename(dlr_files[0]))[0]
         print(f"Testing with scenario: {test_scenario}\n")
 
-        print(f"convention-card: {get_convention_card(test_scenario)}")
+        print(f"convention-card-ns: {get_convention_card_ns(test_scenario)}")
+        print(f"convention-card-ew: {get_convention_card_ew(test_scenario)}")
         print(f"auction-filter: {get_auction_filter(test_scenario)}")
         print(f"button-text: {get_button_text(test_scenario)}")
         print(f"scenario-title: {get_scenario_title(test_scenario)}")

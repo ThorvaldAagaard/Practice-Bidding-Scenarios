@@ -1,15 +1,15 @@
-# alias: Overcalls
-# button-text: Overcalls
-# dealer-position: E
+# alias: WeOvercall
+# button-text: We Overcall
 # gib-works: true
 # bba-works: true
 # auction-filter: 1[CDHS] (1[DHS]|2[CDH])
+# convention-card-ns: 21GF-DEFAULT
+# convention-card-ew: 21GF-GIB
 
 /*@chat
---- Overcalls
+--- We Overcall
 @chat*/
 
-# Overcalls
 dealer east
 
 # Define good suits

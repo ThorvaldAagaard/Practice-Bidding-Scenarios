@@ -27,9 +27,9 @@ Splinters_after_Minor,                ---
 1m-3N,                                1m-1_2_or_3_NT
 
 [Section] Minor/Major Sequences
-GIB_1C-P-Resp,                        Resp_to_1C
+GIB_1C-P-Resp,                        1C_WalshStyle
 Fourth_Suit_Forcing,                  Fourth_Bid_Inviting
-New_Minor_Forcing,                    ---
+New_Minor_Forcing,                    Grand_Slam_Force_2
 After_2_Passes,                       After_3_Passes
 Open_In_Fourth_Seat,                  (Open_In_Fourth_13:blue, Open_In_Fourth_14:blue, Open_In_Fourth_15:blue, Open_In_Fourth_16:blue)
 XYZ,                                  Two-Way_New_Minor_Forcing_aka_xyNT
@@ -38,13 +38,14 @@ Reverse_By_Opener,                    Reverse_By_Responder
 Reverse_After_Two_Over_One,           ---
 Notrump_18-19,                        Splinters_By_Opener
 Misfit,                               (Misfit_06-10:blue, Misfit_11-12:blue, Misfit_13-Plus:blue)
+Misfit6-5,                            ---
 Preemptive_Raise,                     Goulash
 Transfer_Advances,                    ---
 
 [Section] Major Suit Sequences
 Major_Opener,                         Major_Suit_Fit
 Exclusion_After_1M,                   ---
-Forcing_NT,                           ---
+Forcing_NT,                           GIB_1M-P-Resp
 Grand_Slam_Force,                     Slam_After_Major_Fit
 Impossible_2S,                        After_1M_2M
 Flannery,                             ---
@@ -85,6 +86,7 @@ Smolen_after_2N,                      2N_Puppet
 2N_and_MSS,                           2N_and_1_Minor
 Two_NT_in_Fourth_Seat,                ---
 3N,                                   NT_Ladder
+Rule_of_16,                           Rule_of_16-15:12%,Rule_of_16-16:12%,Rule_of_16-17:13%,Rule_of_16-18:13%
 
 [Section] Preempts
 Weak_2_Bids:38%, Weak_2_Bids_Leveled:blue:12%, Weak_2_Bids_Lax:38%, Weak_2_Bids_Lax_Leveled:blue:12%
@@ -95,12 +97,14 @@ Preempts,                             Opps_Preempt
 Preempt_Keycard,                      Slam_after_Preempt
 Gambling_3N,                          Opps_Gambling_3N
 3N_over_RHO_3x,                       3N_over_LHO_3x
+GSF_after_Preempt,                    ---
 
 [Section] We Compete in Their Auctions
-Overcalls,                            Snapdragon_Double
-SupportX_by_Advancer,                 Maximal_After_Overcall
-Michaels_Cuebid,                      Michaels_and_Unusual
+We_Overcall,                          ---,
 Too_Strong_for_Overcall,              Too_Strong_for_Overcall4th
+SupportX_by_Advancer,                 Maximal_After_Overcall
+Snapdragon_Double,                    ---
+Michaels_Cuebid,                      Michaels_and_Unusual
 Balancing,                            ---
 OBAR_BIDS,                            OBAR_BIDS11
 Scrambling_2NT,                       GIB_Sandwich_NT_BPH
@@ -133,7 +137,7 @@ We_X_Opps_Weak_2,                     We_X_Opps_Preempt
 [Section] They Compete in Our Auctions
 Support_Double,                       Negative_Double
 Double_double,                        Maximal_Double
-After_Opp_Overcalls,                  ---
+After_Opp_Overcalls,                  WB5_Collante
 Trap_Pass,                            Trap_Pass_Maybe
 Dealing_with_Overcalls_Weak,          Dealing_with_Ovecalls_Strong
 Opps_Takeout_X,                       Xfer_after_1M_X
@@ -151,8 +155,7 @@ Opps_Double_Jacoby,                   Opps_Overcall_Stayman_or_Jacoby
 Lebensohl,                            ---
 Opps_Bid_Over_GF_2C,                  Good_Bad_2N
 Forcing_Pass,                         GIB_1N-P-2C-BID
-Opps_Bal_Unusual_2N,                  Michaels_after_1m
-Opps_Michaels_Cuebid,                 ---
+Michaels_after_1m,                    Opps_Michaels_Cuebid
 Transfers_after_1M_X,                 ---
 
 [Section] Bidding with BBO Robots
@@ -217,5 +220,6 @@ Responsive_Double,                    Negative_Free_Bid
 Vics_2C_Relay,                        Vics_Bal_Resp_to_1m
 Any_5422_with_15-16,                  Any_5422_with_15-17
 Spear,                                Reverse_Flannery
+WB5_Roudi,                            WB5_Rodrigue
 
 [Major] -- Facebook: Practice Bidding Scenarios --|https://www.facebook.com/groups/598917089100836

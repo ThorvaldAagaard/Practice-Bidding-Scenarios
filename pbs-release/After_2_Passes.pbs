@@ -16,7 +16,9 @@ fetch('https://bba.harmonicsystems.com/api/scenario/select', {
 setDealerCode(`
 
 /*
-auction-filter: Auction.....\nPass +Pass +(?!Pass)
+convention-card-ns: 21GF-DEFAULT
+convention-card-ew: 21GF-GIB
+auction-filter: Auction.....\nPass +Pass +[1-7]
 */
 # After 2 Passes...
 
@@ -94,7 +96,7 @@ levelTheDeal = levShaded or levFull
 calmNorth and calmEast and (shaded or full)
 and levelTheDeal
 
-action
+action printoneline,
 
 average "shaded  " 100 * shaded,
 average "full    " 100 * full,

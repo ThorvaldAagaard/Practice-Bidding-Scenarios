@@ -16,6 +16,8 @@ fetch('https://bba.harmonicsystems.com/api/scenario/select', {
 setDealerCode(`
 
 /*
+convention-card-ns: 21GF-DEFAULT
+convention-card-ew: 21GF-GIB
 auction-filter: Note...:Reverse.drury
 */
 # Reverse Drury
@@ -149,7 +151,7 @@ sResponds = tpSouth>9 and not sSJS
 # Now do it
 sPasses and nOpens and calmOpps and sResponds
 
-action
+action printoneline,
 average "HCP North " hcp(north),
 average "TP North  " tpNorth,
 average "HCP South " hcp(south),
@@ -162,4 +164,4 @@ After P (P) 1M (P)，2!C is Drury or Reverse Drury.\n\
 2!C asks about the opener's hand.\n\
 Drury:  2!D denies game interest and 2M shows game interest.\n\
 Reverse Drury: 2!D shows some game interest and 2M denies game interest.\n\
-%Drury%
+%Drury%,width=50%

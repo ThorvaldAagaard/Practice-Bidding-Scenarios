@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+import os
+os.environ["PYTHONUNBUFFERED"] = "1"
+
 """
 Mac build pipeline for Practice-Bidding-Scenarios.
 Replaces OneScriptToRuleThemAll.ps1 from Windows.
@@ -15,11 +18,12 @@ Examples:
 """
 import argparse
 import fnmatch
+import json
 import os
 import sys
 import time
 
-from config import FOLDERS, OPERATIONS_ORDER
+from config import FOLDERS, OPERATIONS_ORDER, PROJECT_ROOT
 from ssh_runner import test_ssh_connection
 from utils.properties import get_bba_works
 
@@ -33,17 +37,19 @@ def print_error(msg: str):
     print(f"{RED}{msg}{RESET}")
 
 # Import operations
-from operations.pbn import run_pbn
+from operations.pbn_from_dlr import run_pbn
 from operations.rotate import run_rotate
-from operations.bba import run_bba
+from operations.bba_from_pbn import run_bba
 from operations.filter import run_filter
 from operations.filter_stats import run_filter_stats
 from operations.bidding_sheet import run_bidding_sheet
-from operations.dlr import run_dlr
-from operations.btn_to_pbs import run_pbs
+from operations.dlr_from_btn import run_dlr
+from operations.pbs_from_dlr import run_pbs
 from operations.quiz import run_quiz
 from operations.release import run_release
 from operations.release_layout import run_release_layout
+from operations.package import run_package
+from scenario_summary import generate_summary
 
 
 # Map operation names to functions
@@ -57,9 +63,10 @@ OPERATIONS = {
     "filterStats": run_filter_stats,
     "biddingSheet": run_bidding_sheet,
     "quiz": run_quiz,
-    # release and release-layout are NOT in OPERATIONS_ORDER, so they won't run with "*" or "op+"
+    # release, release-layout, and package are NOT in OPERATIONS_ORDER, so they won't run with "*" or "op+"
     "release": run_release,
     "release-layout": run_release_layout,
+    "package": run_package,
 }
 
 # Create case-insensitive lookup: lowercase -> canonical name
@@ -183,6 +190,19 @@ def filter_operations_for_scenario(scenario: str, operations: list) -> list:
     return [op for op in operations if op not in BBA_AND_DOWNSTREAM]
 
 
+def _cleanup_filter_outputs(scenario: str, verbose: bool = True):
+    """Remove stale filter output files when bba-works is false."""
+    for folder_key in ['bba_filtered', 'bba_filtered_out']:
+        folder = FOLDERS[folder_key]
+        for ext in ['.pbn', '.pdf']:
+            path = os.path.join(folder, f"{scenario}{ext}")
+            if os.path.exists(path):
+                os.remove(path)
+                if verbose:
+                    folder_name = os.path.basename(folder)
+                    print(f"  Removed stale: {folder_name}/{scenario}{ext}")
+
+
 def run_operations(scenario: str, operations: list, verbose: bool = True) -> bool:
     """
     Run a list of operations on a scenario.
@@ -201,6 +221,10 @@ def run_operations(scenario: str, operations: list, verbose: bool = True) -> boo
     if verbose and len(filtered_ops) < len(operations):
         skipped = [op for op in operations if op not in filtered_ops]
         print(f"  Skipping BBA+ operations (bba-works=false): {', '.join(skipped)}")
+
+    # Clean up stale filter outputs when filter is skipped
+    if 'filter' in set(operations) - set(filtered_ops):
+        _cleanup_filter_outputs(scenario, verbose)
 
     if not filtered_ops:
         if verbose:
@@ -241,7 +265,74 @@ def run_operations(scenario: str, operations: list, verbose: bool = True) -> boo
         print(f"    {'─' * 26}")
         print(f"    {'Total':15} {format_duration(total):>10}")
 
-    return success
+    return success, durations
+
+
+def _print_build_summary(all_durations: dict, build_elapsed: float, failed: list):
+    """Print a final build summary with total duration and slow scenarios."""
+    print(f"\n{'=' * 60}")
+    print(f"BUILD SUMMARY")
+    print(f"{'=' * 60}")
+    print(f"Total scenarios: {len(all_durations)}")
+    print(f"Failed: {len(failed)}")
+    print(f"Total build time: {format_duration(build_elapsed)}")
+
+    # Compute per-scenario totals and per-operation totals
+    scenario_totals = {}
+    op_totals = {}
+    for scenario, durations in all_durations.items():
+        scenario_totals[scenario] = sum(durations.values())
+        for op, dur in durations.items():
+            op_totals[op] = op_totals.get(op, 0) + dur
+
+    # Per-operation aggregate
+    print(f"\nTime by operation:")
+    for op, total in sorted(op_totals.items(), key=lambda x: -x[1]):
+        avg = total / len(all_durations) if all_durations else 0
+        print(f"  {op:15} {format_duration(total):>10}  (avg {format_duration(avg)})")
+
+    # Slowest scenarios overall
+    sorted_scenarios = sorted(scenario_totals.items(), key=lambda x: -x[1])
+    print(f"\nSlowest scenarios (top 10):")
+    for scenario, total in sorted_scenarios[:10]:
+        durations = all_durations[scenario]
+        # Find which operation was slowest
+        slowest_op = max(durations, key=durations.get) if durations else "?"
+        slowest_dur = durations.get(slowest_op, 0)
+        print(f"  {scenario:45} {format_duration(total):>10}  ({slowest_op} {format_duration(slowest_dur)})")
+
+    # Slowest per-operation (pbn is usually the bottleneck)
+    for target_op in ['pbn', 'bba']:
+        op_scenarios = [(s, d.get(target_op, 0)) for s, d in all_durations.items() if target_op in d]
+        op_scenarios.sort(key=lambda x: -x[1])
+        if op_scenarios and op_scenarios[0][1] > 10:  # only show if any took > 10s
+            print(f"\nSlowest {target_op} scenarios (top 5):")
+            for scenario, dur in op_scenarios[:5]:
+                print(f"  {scenario:45} {format_duration(dur):>10}")
+
+
+TIMING_FILE = os.path.join(PROJECT_ROOT, "build-data", "pipeline-timing.json")
+
+
+def _save_timing_data(all_durations: dict):
+    """Save per-scenario timing data to JSON, merging with existing data."""
+    timing_dir = os.path.dirname(TIMING_FILE)
+    os.makedirs(timing_dir, exist_ok=True)
+
+    # Load existing data
+    existing = {}
+    if os.path.exists(TIMING_FILE):
+        with open(TIMING_FILE, "r") as f:
+            existing = json.load(f)
+
+    # Merge at operation level: preserve existing op timings, update only ops that ran
+    for scenario, durations in all_durations.items():
+        if scenario not in existing:
+            existing[scenario] = {}
+        existing[scenario].update(durations)
+
+    with open(TIMING_FILE, "w") as f:
+        json.dump(existing, f, indent=2, sort_keys=True)
 
 
 def main():
@@ -324,6 +415,8 @@ Operations (in order):
 
     # Run operations on each scenario
     failed_scenarios = []
+    all_durations = {}  # scenario -> {op: seconds}
+    build_start = time.time()
 
     for scenario in scenarios:
         if verbose:
@@ -331,7 +424,10 @@ Operations (in order):
             print(f"Processing: {scenario}")
             print(f"{'=' * 60}")
 
-        if not run_operations(scenario, operations, verbose=verbose):
+        success, durations = run_operations(scenario, operations, verbose=verbose)
+        all_durations[scenario] = durations
+
+        if not success:
             failed_scenarios.append(scenario)
             print_error(f"\nFailed: {scenario} - continuing with next scenario")
         elif verbose:
@@ -340,7 +436,19 @@ Operations (in order):
         if verbose:
             print()
 
-    # Summary
+    build_elapsed = time.time() - build_start
+
+    # Persist timing data
+    _save_timing_data(all_durations)
+
+    # Update Scenario Summary report (skip for non-pipeline operations like release)
+    if set(operations) & set(OPERATIONS_ORDER):
+        generate_summary()
+
+    # Final summary
+    if len(scenarios) > 1:
+        _print_build_summary(all_durations, build_elapsed, failed_scenarios)
+
     if failed_scenarios:
         print_error(f"\n{len(failed_scenarios)} scenario(s) had errors:")
         for s in failed_scenarios:

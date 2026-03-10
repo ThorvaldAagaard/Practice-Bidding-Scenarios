@@ -1,28 +1,50 @@
 # alias: WB5Collante
-# button-text: Roudi
-# dealer-position: S
+# button-text: 1m (1D/H) Collante
 # gib-works: true
 # bba-works: true
-# auction-filter: Auction.....\n(1C.* 1D.* (X|2H) +||1C.* 1H.* (X|2S) +)
+# auction-filter: (1C +[12]D +(X|[12]H)|1C +[12]H +(X|[12]S)|1D +[12]H +(X|[12]S))
+# convention-card-ns: 21GF-SPECIALS2
+# convention-card-ew: 21GF-GIB
 
 /*@chat
---- After 1C (1D), X shows 4!H and 2!H shows 5+!H,  likewise after 1C (1H) X shows 4!S and 2S shows 5+!S.
+--- 1m (1D/H) Collante
+After 1C (1D), X shows 4!H and 2!H shows 5+!H,
+likewise after 1C (1H) X shows 4!S and 2S shows 5+!S.
+This may also used after 1m (2!D/1!H).
+The French name for this is Collante. It's almost exactly what GIB does.
 @chat*/
 
-# Roudi:  After 1m (1S) 2m shows 7-10 HCP w/5H
+dealer south
 
 #include "script/Predict-Opening-1-Bid"
-# Defines oneClub
+# Defines oneClub, oneDiamond
 #include "script/Calm-Opponents"
-# Defines calmWest
+# Defines calmEast
+#include "script/TP"
+# Defines tpSouth, tpWest, tpNorth
 
-CDX = oneClub and shape(west,xx5x +xx6x -any 8xxx -any 7xxx -any 76xx -any 75xx -any 66xx -any 65xx -any 55xx) and hearts(south)==4 and spades(south)<5
-CHX = oneClub and shape(west,x5xx +x6xx -any 8xxx -any 7xxx -any 76xx -any 75xx -any 66xx -any 65xx -any 55xx) and spades(south)==4
-CDH = oneClub and shape(west,xx5x +xx6x -any 8xxx -any 7xxx -any 76xx -any 75xx -any 66xx -any 65xx -any 55xx) and hearts(south)>4  and spades(south)<hearts(south)
-CHS = oneClub and shape(west,x5xx +x6xx -any 8xxx -any 7xxx -any 76xx -any 75xx -any 66xx -any 65xx -any 55xx) and spades(south)>4
+sRange = hcp(south)>10 and tpSouth>11 and tpSouth<16
+wRange = hcp(west)>5 and tpWest>8 and tpWest<12
+nRange = tpNorth>8
+range = sRange and wRange and nRange
 
-sRange = hcp(south)>11 and hcp(south)<15
-wRange = hcp(west)>7 and hcp(west)<12
-nRange = hcp(north)>5
+nH = hearts(north)>3 and shape(west,xx5x + xx6x)
+nS = spades(north)>3 and shape(west,x5xx + x6xx)
 
-(CDX or CHX or CDH or CHS) and sRange and wRange and nRange
+wD = diamonds(west)>4 and top5(west,diamonds)>2 and shape(west,any 6xxx +any 5440 +any 5431 +any 5422) and nH
+wH = hearts(west)>4   and top5(west,hearts)>2   and shape(west,any 6xxx +any 5440 +any 5431 +any 5422) and nS
+sC = oneClub    and (wD or wH)
+sD = oneDiamond and wH
+
+CDX = sC and wD  and nH and range and hearts(north)==4
+CDH = sC and wD  and nH and range and hearts(north)>4
+mHX = (sC or sD) and wH and nS and spades(north)==4
+mHS = (sC or sD) and wH and nS and spades(north)>4
+
+(CDX or CDH or mHX or mHS) and range and calmEast
+
+action
+average "CDX" 100 * CDX,
+average "CDH" 100 * CDH,
+average "mHX" 100 * mHX,
+average "mHS" 100 * mHS,

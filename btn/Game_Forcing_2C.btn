@@ -1,9 +1,10 @@
 # alias: GameForce2C
 # button-text: Game Forcing 2C
-# dealer-position: S
 # gib-works: true
 # bba-works: true
 # auction-filter: Auction.....\n2C
+# convention-card-ns: 21GF-DEFAULT
+# convention-card-ew: 21GF-GIB
 
 /*@chat
 --- 2C GF: 22+ or 18+ w/(!S/!H and <5 losers) or (!D/!C with <4 losers).
@@ -19,9 +20,12 @@ https://www.bridgebum.com/strong_2c.php
 # Game Forcing 2C
 dealer south
 
-case1 = hcp(south)>22
-case2 = hcp(south)>18 and losers(south)<5 and (spades(south)>5 or hearts(south)>5)
-case3 = hcp(south)>18 and losers(south)<4 and (diamonds(south)>5 or clubs(south)>5)
-s2C = (case1 or case2 or case3)
+#include "script/TP"
+# Defines tpSouth
+
+# Game Forcing 2C
+case1 = hcp(south)>21
+case2 = hcp(south)>18 and tpSouth>22 and not shape(south,any 4441 +any 5440)
+s2C = (case1 or case2)
 
 s2C

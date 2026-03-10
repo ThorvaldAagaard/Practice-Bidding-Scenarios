@@ -32,6 +32,28 @@ function isBtnDir(dirName: string): boolean {
     return dirName.toLowerCase() === 'btn';
 }
 
+/**
+ * Find the first packaged PBN file for a scenario in the Bidding Scenarios hierarchy.
+ * Scans Bidding Scenarios/{section}/{scenario}/ for {scenario}.pbn.
+ * Returns the path (which may not exist yet if package hasn't been run).
+ */
+function findPackagePath(scenario: string, root: string): string {
+    const bsDir = path.join(root, 'Bidding Scenarios');
+    if (fs.existsSync(bsDir)) {
+        try {
+            const sections = fs.readdirSync(bsDir).sort();
+            for (const section of sections) {
+                const scenarioDir = path.join(bsDir, section, scenario);
+                if (fs.existsSync(scenarioDir)) {
+                    return path.join(scenarioDir, `${scenario}.pbn`);
+                }
+            }
+        } catch { /* ignore read errors */ }
+    }
+    // Not yet packaged — return a path in a placeholder location
+    return path.join(bsDir, '_', scenario, `${scenario}.pbn`);
+}
+
 // Define all artifacts in pipeline order with their dependencies
 // requiresBba indicates artifacts that need bba-works=true to be shown
 const ARTIFACTS = [
@@ -91,10 +113,29 @@ const ARTIFACTS = [
         getPath: (s: string, r: string) => path.join(r, 'quiz', `${s}.pdf`),
         getSourcePath: (s: string, r: string) => path.join(r, 'bba-filtered', `${s}.pbn`),
         command: 'pbs.runQuiz'
+    },
+    {
+        name: 'package',
+        shortName: 'pkg',
+        requiresBba: false,
+        getPath: (s: string, r: string) => findPackagePath(s, r),
+        getSourcePath: (s: string, r: string) => {
+            // Package copies from bba-filtered (with pbn fallback), so compare against actual source
+            const filtered = path.join(r, 'bba-filtered', `${s}.pbn`);
+            if (fs.existsSync(filtered)) { return filtered; }
+            return path.join(r, 'pbn', `${s}.pbn`);
+        },
+        command: 'pbs.runPackage'
     }
 ];
 
 type ArtifactStatus = 'fresh' | 'stale' | 'missing';
+
+// Tolerance for timestamp comparison (ms). Git checkout/commit resets file
+// timestamps to the same second with random sub-second ordering, which can
+// make a downstream artifact appear older than its source even though both
+// were written in the same pipeline run.
+const FRESHNESS_TOLERANCE_MS = 1000;
 
 interface ArtifactInfo {
     name: string;
@@ -358,7 +399,7 @@ export class CurrentScenarioProvider implements vscode.TreeDataProvider<Scenario
             if (fs.existsSync(sourcePath)) {
                 const artifactMtime = fs.statSync(artifactPath).mtimeMs;
                 const sourceMtime = fs.statSync(sourcePath).mtimeMs;
-                status = artifactMtime >= sourceMtime ? 'fresh' : 'stale';
+                status = artifactMtime >= sourceMtime - FRESHNESS_TOLERANCE_MS ? 'fresh' : 'stale';
             } else {
                 // No source to compare against - consider fresh
                 status = 'fresh';
@@ -449,7 +490,7 @@ export class CurrentScenarioProvider implements vscode.TreeDataProvider<Scenario
         if (fs.existsSync(sourcePath)) {
             const fileMtime = fs.statSync(filePath).mtimeMs;
             const sourceMtime = fs.statSync(sourcePath).mtimeMs;
-            return fileMtime >= sourceMtime ? 'fresh' : 'stale';
+            return fileMtime >= sourceMtime - FRESHNESS_TOLERANCE_MS ? 'fresh' : 'stale';
         }
         return 'fresh';
     }

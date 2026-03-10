@@ -26,6 +26,18 @@
             color: #666666;
             margin-bottom: 30px;
         }
+        .nav-btn {
+            display: inline-block;
+            padding: 6px 14px;
+            background: #0077b6;
+            color: #fff;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 12px;
+            margin: 0 4px;
+        }
+        .nav-btn:hover { background: #005f8a; }
+        .nav-btn-active { background: #333; pointer-events: none; }
         .stats {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -165,18 +177,17 @@
     </style>
     <script>
 const DASHBOARD_DATA = {
-  "generatedAt": "2026-02-14T09:00:56.677871",
+  "generatedAt": "2026-03-10T06:01:03.187559",
   "summary": {
-    "totalScenarios": 0,
-    "scenariosWorked": 0,
-    "totalFileEdits": 50787,
-    "totalPipelineRuns": 933,
-    "totalSessionHours": 3227,
-    "totalCommits": 5416
+    "totalScenarios": 294,
+    "scenariosWorked": 294,
+    "totalFileEdits": 51400,
+    "totalPipelineRuns": 2073,
+    "totalSessionHours": 3648,
+    "totalCommits": 6805
   },
   "charts": {
     "labels": [
-      "Oct 23",
       "Nov 23",
       "Dec 23",
       "Jan 24",
@@ -204,11 +215,11 @@ const DASHBOARD_DATA = {
       "Nov 25",
       "Dec 25",
       "Jan 26",
-      "Feb 26"
+      "Feb 26",
+      "Mar 26"
     ],
     "fileEdits": [
-      110,
-      450,
+      330,
       423,
       253,
       292,
@@ -235,7 +246,8 @@ const DASHBOARD_DATA = {
       678,
       506,
       95,
-      638
+      1170,
+      311
     ],
     "pipelineRuns": [
       0,
@@ -264,13 +276,12 @@ const DASHBOARD_DATA = {
       0,
       0,
       0,
-      0,
       61,
-      872
+      1660,
+      352
     ],
     "commits": [
-      123,
-      502,
+      359,
       441,
       259,
       304,
@@ -297,11 +308,11 @@ const DASHBOARD_DATA = {
       80,
       62,
       228,
-      330
+      1666,
+      319
     ],
     "sessionHours": [
-      54,
-      145,
+      96,
       171,
       75,
       140,
@@ -328,252 +339,241 @@ const DASHBOARD_DATA = {
       102,
       69,
       97,
-      278
+      574,
+      228
     ],
     "scenariosWorked": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      52,
+      70,
+      82,
+      107,
+      111,
+      120,
+      126,
+      128,
+      165,
+      166,
+      173,
+      180,
+      196,
+      207,
+      214,
+      224,
+      236,
+      243,
+      250,
+      254,
+      254,
+      255,
+      256,
+      266,
+      268,
+      272,
+      288,
+      294,
+      294
     ]
   },
   "recentActivity": [
     {
-      "timestamp": "2026-02-14T00:18:47.966Z",
+      "timestamp": "2026-03-08T18:33:51.502Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T00:18:57.218Z",
+      "timestamp": "2026-03-08T18:34:08.335Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T00:23:23.566Z",
-      "type": "file_save",
-      "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
-        "fileType": "btn"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T00:23:29.234Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T00:28:28.220Z",
-      "type": "file_save",
-      "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
-        "fileType": "btn"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T13:19:01.927Z",
-      "type": "file_save",
-      "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
-        "fileType": "btn"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T13:19:08.221Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T13:29:58.366Z",
-      "type": "file_save",
-      "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
-        "fileType": "btn"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T13:30:05.262Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Maximal_After_Overcall",
+        "scenario": "Opps_Bal_Unusual_2N",
         "operation": "*"
       }
     },
     {
-      "timestamp": "2026-02-14T14:20:58.131Z",
+      "timestamp": "2026-03-08T18:41:26.737Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T14:21:04.111Z",
+      "timestamp": "2026-03-08T18:41:34.207Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
+        "scenario": "Opps_Bal_Unusual_2N",
+        "operation": "*"
       }
     },
     {
-      "timestamp": "2026-02-14T14:32:12.336Z",
+      "timestamp": "2026-03-08T18:53:05.303Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T14:32:20.168Z",
+      "timestamp": "2026-03-08T18:53:09.906Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
+        "scenario": "Opps_Bal_Unusual_2N",
+        "operation": "*"
       }
     },
     {
-      "timestamp": "2026-02-14T14:34:52.281Z",
+      "timestamp": "2026-03-08T19:00:07.246Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T14:35:00.852Z",
+      "timestamp": "2026-03-08T19:00:14.802Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
+        "scenario": "Opps_Bal_Unusual_2N",
+        "operation": "dlr"
       }
     },
     {
-      "timestamp": "2026-02-14T14:40:09.522Z",
+      "timestamp": "2026-03-08T19:02:24.081Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T14:40:14.423Z",
+      "timestamp": "2026-03-08T19:02:28.696Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
+        "scenario": "Opps_Bal_Unusual_2N",
+        "operation": "dlr"
       }
     },
     {
-      "timestamp": "2026-02-14T14:46:31.419Z",
+      "timestamp": "2026-03-08T21:40:34.081Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/test.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T14:46:36.359Z",
+      "timestamp": "2026-03-08T22:17:12.642Z",
+      "type": "session_end",
+      "details": {
+        "durationMinutes": 1903
+      }
+    },
+    {
+      "timestamp": "2026-03-08T22:24:56.833Z",
+      "type": "session_start",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-03-08T22:27:26.851Z",
+      "type": "file_save",
+      "details": {
+        "filePath": "btn/-button-layout-beta.txt",
+        "fileType": "txt"
+      }
+    },
+    {
+      "timestamp": "2026-03-08T22:31:34.741Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
+        "scenario": "layout",
+        "operation": "release-layout"
       }
     },
     {
-      "timestamp": "2026-02-14T14:59:45.709Z",
-      "type": "file_save",
+      "timestamp": "2026-03-08T23:15:24.016Z",
+      "type": "pipeline_run",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
-        "fileType": "btn"
+        "scenario": "layout",
+        "operation": "release-layout"
       }
+    },
+    {
+      "timestamp": "2026-03-09T02:25:43.311Z",
+      "type": "session_end",
+      "details": {
+        "durationMinutes": 241
+      }
+    },
+    {
+      "timestamp": "2026-03-09T02:32:36.661Z",
+      "type": "session_start",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-03-09T21:50:44.868Z",
+      "type": "session_end",
+      "details": {
+        "durationMinutes": 1158
+      }
+    },
+    {
+      "timestamp": "2026-03-09T21:50:55.597Z",
+      "type": "session_start",
+      "details": {}
     }
   ],
   "recentCommits": [
     {
-      "hash": "859071ac",
-      "date": "2026-02-13 09:00:57 -0600",
+      "hash": "237aa54d",
+      "date": "2026-03-09 18:01:17 -0500",
       "message": "Daily dashboard update"
     },
     {
-      "hash": "e34304c2",
-      "date": "2026-02-12 18:55:35 -0600",
-      "message": "Remove PBS folder and update Any_5422 pipeline artifacts"
+      "hash": "63e6e040",
+      "date": "2026-03-09 12:01:09 -0500",
+      "message": "Daily dashboard update"
     },
     {
-      "hash": "9fca9f26",
-      "date": "2026-02-12 18:54:39 -0600",
-      "message": "Release Any_5422_with_15-17 to pbs-release"
+      "hash": "c230ee25",
+      "date": "2026-03-09 10:27:44 -0500",
+      "message": "Show all convention card settings, highlight unused rows"
     },
     {
-      "hash": "95be936c",
-      "date": "2026-02-12 18:40:41 -0600",
-      "message": "Release Any_5422_with_15-16 to pbs-release"
+      "hash": "306baee7",
+      "date": "2026-03-09 06:01:06 -0500",
+      "message": "Daily dashboard update"
     },
     {
-      "hash": "6d5406ab",
-      "date": "2026-02-12 18:32:49 -0600",
-      "message": "Remove losers.pbs from pbs-release"
+      "hash": "20929845",
+      "date": "2026-03-08 20:34:37 -0500",
+      "message": "Remove -layout.txt and add test.btn scenario"
     },
     {
-      "hash": "eec451cb",
-      "date": "2026-02-12 18:21:05 -0600",
-      "message": "Remove 2N_Smolen.pbs from pbs-release"
+      "hash": "f40922aa",
+      "date": "2026-03-08 18:01:21 -0500",
+      "message": "Daily dashboard update"
     },
     {
-      "hash": "ea3a26f8",
-      "date": "2026-02-12 18:16:31 -0600",
-      "message": "Remove Smolen-audit.btn file"
+      "hash": "362c3546",
+      "date": "2026-03-08 17:31:35 -0500",
+      "message": "Release button layout to production"
     },
     {
-      "hash": "608a8881",
-      "date": "2026-02-12 17:55:45 -0600",
-      "message": "Rename Smolen_After_2N.pbs to Smolen_after_2N.pbs in pbs-release"
+      "hash": "6efe5d99",
+      "date": "2026-03-08 17:29:10 -0500",
+      "message": "Remove Opps_Bal_Unusual_2N from button layout and consolidate row"
     },
     {
-      "hash": "ae92b9fb",
-      "date": "2026-02-12 17:54:13 -0600",
-      "message": "Rename Smolen_After_2N.btn to Smolen_after_2N.btn for consistency"
+      "hash": "a085be7a",
+      "date": "2026-03-08 15:38:17 -0500",
+      "message": "Delete Opps_Bal_Unusual_2N scenario and all pipeline artifacts"
     },
     {
-      "hash": "84c840b1",
-      "date": "2026-02-12 17:01:29 -0600",
-      "message": "Regenerate Smolen_after_2N pipeline artifacts"
+      "hash": "96ff86aa",
+      "date": "2026-03-08 13:53:10 -0500",
+      "message": "Update pbs-test/Opps_Bal_Unusual_2N.pbs"
     }
   ]
 };
@@ -581,7 +581,8 @@ const DASHBOARD_DATA = {
 </head>
 <body>
     <h1>Practice Bidding Scenarios</h1>
-    <p class="subtitle">Development Activity Dashboard</p>
+    <p class="subtitle">Development Activity Dashboard &mdash; Generated <span id="lastUpdated">-</span>
+        &mdash; <a class="nav-btn nav-btn-active" href="./">Dashboard</a> <a class="nav-btn" href="Scenario_Summary.html">Scenario Summary</a> <a class="nav-btn" href="Convention_Card_Summary.html">Convention Cards</a></p>
 
     <div class="stats">
         <div class="stat-box">
@@ -602,7 +603,7 @@ const DASHBOARD_DATA = {
         </div>
     </div>
 
-    <div class="chart-card" style="margin-bottom: 20px;">
+    <div class="chart-card" style="margin-bottom: 20px; max-height: 300px;">
         <h3>Cumulative Scenarios</h3>
         <canvas id="scenariosChart"></canvas>
     </div>
@@ -642,9 +643,7 @@ const DASHBOARD_DATA = {
     </div>
 
     <p class="footer">
-        Last updated: <span id="lastUpdated">-</span>
-        <br>
-        <small>Auto-updates daily at 3 AM Central, or run <code>python3 docs/generateDashboardData.py</code></small>
+        <small>Auto-updates daily at 6 AM, noon, and 6 PM Central</small>
     </p>
 
     <script>
@@ -688,7 +687,7 @@ const DASHBOARD_DATA = {
         function formatTime(isoString) {
             try {
                 const date = new Date(isoString);
-                return date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                return date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', timeZoneName: 'short'});
             } catch {
                 return isoString;
             }

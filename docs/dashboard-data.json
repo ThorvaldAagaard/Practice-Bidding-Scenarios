@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-02-15T09:01:52.237355",
+  "generatedAt": "2026-03-10T06:01:03.187559",
   "summary": {
-    "totalScenarios": 0,
-    "scenariosWorked": 0,
-    "totalFileEdits": 50811,
-    "totalPipelineRuns": 972,
-    "totalSessionHours": 3224,
-    "totalCommits": 5413
+    "totalScenarios": 294,
+    "scenariosWorked": 294,
+    "totalFileEdits": 51400,
+    "totalPipelineRuns": 2073,
+    "totalSessionHours": 3648,
+    "totalCommits": 6805
   },
   "charts": {
     "labels": [
-      "Oct 23",
       "Nov 23",
       "Dec 23",
       "Jan 24",
@@ -38,11 +37,11 @@
       "Nov 25",
       "Dec 25",
       "Jan 26",
-      "Feb 26"
+      "Feb 26",
+      "Mar 26"
     ],
     "fileEdits": [
-      98,
-      450,
+      330,
       423,
       253,
       292,
@@ -69,7 +68,8 @@
       678,
       506,
       95,
-      674
+      1170,
+      311
     ],
     "pipelineRuns": [
       0,
@@ -98,13 +98,12 @@
       0,
       0,
       0,
-      0,
       61,
-      911
+      1660,
+      352
     ],
     "commits": [
-      109,
-      502,
+      359,
       441,
       259,
       304,
@@ -131,11 +130,11 @@
       80,
       62,
       228,
-      341
+      1666,
+      319
     ],
     "sessionHours": [
-      51,
-      145,
+      96,
       171,
       75,
       140,
@@ -162,253 +161,241 @@
       102,
       69,
       97,
-      278
+      574,
+      228
     ],
     "scenariosWorked": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      52,
+      70,
+      82,
+      107,
+      111,
+      120,
+      126,
+      128,
+      165,
+      166,
+      173,
+      180,
+      196,
+      207,
+      214,
+      224,
+      236,
+      243,
+      250,
+      254,
+      254,
+      255,
+      256,
+      266,
+      268,
+      272,
+      288,
+      294,
+      294
     ]
   },
   "recentActivity": [
     {
-      "timestamp": "2026-02-14T20:52:10.665Z",
+      "timestamp": "2026-03-08T18:33:51.502Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T20:52:14.998Z",
+      "timestamp": "2026-03-08T18:34:08.335Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
+        "scenario": "Opps_Bal_Unusual_2N",
+        "operation": "*"
       }
     },
     {
-      "timestamp": "2026-02-14T21:03:25.229Z",
+      "timestamp": "2026-03-08T18:41:26.737Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T21:03:31.523Z",
+      "timestamp": "2026-03-08T18:41:34.207Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T21:03:49.260Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T21:47:20.043Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Maximal_After_Overcall",
+        "scenario": "Opps_Bal_Unusual_2N",
         "operation": "*"
       }
     },
     {
-      "timestamp": "2026-02-14T21:53:05.266Z",
+      "timestamp": "2026-03-08T18:53:05.303Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T21:56:25.476Z",
+      "timestamp": "2026-03-08T18:53:09.906Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Opps_Bal_Unusual_2N",
+        "operation": "*"
+      }
+    },
+    {
+      "timestamp": "2026-03-08T19:00:07.246Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T21:58:43.859Z",
+      "timestamp": "2026-03-08T19:00:14.802Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Opps_Bal_Unusual_2N",
+        "operation": "dlr"
+      }
+    },
+    {
+      "timestamp": "2026-03-08T19:02:24.081Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/Opps_Bal_Unusual_2N.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T21:58:57.669Z",
+      "timestamp": "2026-03-08T19:02:28.696Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "*"
+        "scenario": "Opps_Bal_Unusual_2N",
+        "operation": "dlr"
       }
     },
     {
-      "timestamp": "2026-02-14T22:01:02.873Z",
+      "timestamp": "2026-03-08T21:40:34.081Z",
       "type": "file_save",
       "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
+        "filePath": "btn/test.btn",
         "fileType": "btn"
       }
     },
     {
-      "timestamp": "2026-02-14T22:01:12.041Z",
-      "type": "pipeline_run",
+      "timestamp": "2026-03-08T22:17:12.642Z",
+      "type": "session_end",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "*"
+        "durationMinutes": 1903
       }
     },
     {
-      "timestamp": "2026-02-14T22:12:51.134Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "*"
-      }
+      "timestamp": "2026-03-08T22:24:56.833Z",
+      "type": "session_start",
+      "details": {}
     },
     {
-      "timestamp": "2026-02-14T22:26:13.741Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "*"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T22:40:06.020Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "*"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T22:51:15.730Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "quiz"
-      }
-    },
-    {
-      "timestamp": "2026-02-14T22:57:22.001Z",
+      "timestamp": "2026-03-08T22:27:26.851Z",
       "type": "file_save",
       "details": {
-        "filePath": "bba-summary/Maximal_After_Overcall.txt",
-        "fileType": "txt",
-        "scenario": "Maximal_After_Overcall"
+        "filePath": "btn/-button-layout-beta.txt",
+        "fileType": "txt"
       }
     },
     {
-      "timestamp": "2026-02-15T03:07:06.515Z",
+      "timestamp": "2026-03-08T22:31:34.741Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "*"
+        "scenario": "layout",
+        "operation": "release-layout"
       }
     },
     {
-      "timestamp": "2026-02-15T14:54:56.828Z",
-      "type": "file_save",
-      "details": {
-        "filePath": "btn/Maximal_After_Overcall.btn",
-        "fileType": "btn"
-      }
-    },
-    {
-      "timestamp": "2026-02-15T14:56:21.816Z",
+      "timestamp": "2026-03-08T23:15:24.016Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Maximal_After_Overcall",
-        "operation": "pbs"
+        "scenario": "layout",
+        "operation": "release-layout"
       }
+    },
+    {
+      "timestamp": "2026-03-09T02:25:43.311Z",
+      "type": "session_end",
+      "details": {
+        "durationMinutes": 241
+      }
+    },
+    {
+      "timestamp": "2026-03-09T02:32:36.661Z",
+      "type": "session_start",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-03-09T21:50:44.868Z",
+      "type": "session_end",
+      "details": {
+        "durationMinutes": 1158
+      }
+    },
+    {
+      "timestamp": "2026-03-09T21:50:55.597Z",
+      "type": "session_start",
+      "details": {}
     }
   ],
   "recentCommits": [
     {
-      "hash": "cfb30fe1",
-      "date": "2026-02-15 08:58:51 -0600",
-      "message": "Update Maximal_After_Overcall auction filter for 1S branch"
-    },
-    {
-      "hash": "25436116",
-      "date": "2026-02-15 06:46:04 -0800",
-      "message": "Improve build pipeline and VS Code extension"
-    },
-    {
-      "hash": "67ab081e",
-      "date": "2026-02-15 07:17:04 -0600",
-      "message": "Update Maximal_After_Overcall pipeline artifacts"
-    },
-    {
-      "hash": "5dff7d96",
-      "date": "2026-02-14 19:05:18 -0800",
-      "message": "Update pbs-test/2N_Puppet.pbs"
-    },
-    {
-      "hash": "13cf5a41",
-      "date": "2026-02-14 13:03:38 -0600",
-      "message": "Update Maximal_After_Overcall constraints and button text"
-    },
-    {
-      "hash": "3fe44212",
-      "date": "2026-02-14 11:49:58 -0600",
-      "message": "Update Maximal_After_Overcall pipeline artifacts"
-    },
-    {
-      "hash": "53fcbd52",
-      "date": "2026-02-14 09:00:56 -0600",
+      "hash": "237aa54d",
+      "date": "2026-03-09 18:01:17 -0500",
       "message": "Daily dashboard update"
     },
     {
-      "hash": "8bef6d0c",
-      "date": "2026-02-13 17:26:51 -0800",
-      "message": "Fix quiz prompt: \"Partner opens Pass\" \u2192 \"Partner initially passes\""
+      "hash": "63e6e040",
+      "date": "2026-03-09 12:01:09 -0500",
+      "message": "Daily dashboard update"
     },
     {
-      "hash": "ce78da9d",
-      "date": "2026-02-13 17:19:05 -0800",
-      "message": "Add quiz-control metadata and improve quiz generation"
+      "hash": "c230ee25",
+      "date": "2026-03-09 10:27:44 -0500",
+      "message": "Show all convention card settings, highlight unused rows"
     },
     {
-      "hash": "86aab360",
-      "date": "2026-02-13 16:04:00 -0800",
-      "message": "Remove duplicate metadata from btn comment blocks"
+      "hash": "306baee7",
+      "date": "2026-03-09 06:01:06 -0500",
+      "message": "Daily dashboard update"
+    },
+    {
+      "hash": "20929845",
+      "date": "2026-03-08 20:34:37 -0500",
+      "message": "Remove -layout.txt and add test.btn scenario"
+    },
+    {
+      "hash": "f40922aa",
+      "date": "2026-03-08 18:01:21 -0500",
+      "message": "Daily dashboard update"
+    },
+    {
+      "hash": "362c3546",
+      "date": "2026-03-08 17:31:35 -0500",
+      "message": "Release button layout to production"
+    },
+    {
+      "hash": "6efe5d99",
+      "date": "2026-03-08 17:29:10 -0500",
+      "message": "Remove Opps_Bal_Unusual_2N from button layout and consolidate row"
+    },
+    {
+      "hash": "a085be7a",
+      "date": "2026-03-08 15:38:17 -0500",
+      "message": "Delete Opps_Bal_Unusual_2N scenario and all pipeline artifacts"
+    },
+    {
+      "hash": "96ff86aa",
+      "date": "2026-03-08 13:53:10 -0500",
+      "message": "Update pbs-test/Opps_Bal_Unusual_2N.pbs"
     }
   ]
 }

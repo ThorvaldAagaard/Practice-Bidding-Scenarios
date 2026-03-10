@@ -1,0 +1,3054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convention Card Summary</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+           font-size: 13px; max-width: 1600px; margin: 30px auto; padding: 20px;
+           background: #f5f5f5; color: #333; }
+    h1 { color: #222; text-align: center; font-size: 22px; margin-bottom: 5px; }
+    .subtitle { text-align: center; color: #666; margin-bottom: 25px; }
+    .nav-btn { display: inline-block; padding: 6px 14px; background: #0077b6; color: #fff;
+              border-radius: 4px; text-decoration: none; font-size: 12px; margin: 0 4px; }
+    .nav-btn:hover { background: #005f8a; }
+    .nav-btn-active { background: #333; pointer-events: none; }
+    .main-table { background: #fff; border-radius: 8px; padding: 15px;
+                  box-shadow: 0 2px 4px rgba(0,0,0,0.08); overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; }
+    th { background: #f0f0f0; font-weight: 600; text-align: center; padding: 6px 4px;
+         border-bottom: 2px solid #ddd; font-size: 11px; white-space: nowrap;
+         vertical-align: bottom; }
+    th:first-child { text-align: right; cursor: default; }
+    th:not(:first-child) { cursor: pointer; }
+    td { padding: 3px 4px; border-bottom: 1px solid #eee; text-align: center;
+         font-size: 12px; }
+    td:first-child { text-align: right; white-space: nowrap; }
+    tr:hover td { background: #f8f8f8; cursor: pointer; }
+    tr.highlighted td { background: #fff3cd !important; }
+    .col-highlighted { background: #d0e8f7 !important; }
+    tr.highlighted .col-highlighted { background: #d4e9c7 !important; }
+    .diff { background: #f8d7da !important; }
+    .v1 { font-weight: bold; color: #0077b6; }
+    .v0 { color: #ccc; }
+    .scenario-count { font-size: 10px; color: #888; font-weight: normal; }
+    tr.unused td { background: #f0f0f0; color: #aaa; }
+    .section-row td { background: #f7f7f7; font-weight: 600; font-size: 11px;
+                      color: #555; padding-top: 8px; border-bottom: 1px solid #ddd; }
+    .rotate-header { writing-mode: vertical-rl; text-orientation: mixed;
+                     transform: rotate(180deg); min-height: 100px;
+                     display: inline-block; }
+    .col-hidden { display: none; }
+    .col-selected { background: #d0e8f7 !important; }
+    th.col-selected { background: #b8d4e8 !important; }
+    .col-selected.diff { background: #f8d7da !important; }
+    td.diff-label { background: #f8d7da !important; }
+    table.two-card-mode col { width: auto; }
+    table.two-card-mode { width: auto; }
+  </style>
+</head>
+<body>
+  <h1>Convention Card Summary</h1>
+  <p class="subtitle">14 convention cards &mdash; Generated <span id="gen-time" data-utc="2026-03-10T11:01:04Z"></span>
+    &mdash; <a class="nav-btn" href="./">Dashboard</a>
+    <a class="nav-btn" href="Scenario_Summary.html">Scenario Summary</a>
+    <a class="nav-btn nav-btn-active" href="Convention_Card_Summary.html">Convention Cards</a></p>
+  <div class="main-table">
+    <table>
+      <tr>
+        <th>Convention Card Setting</th>
+        <th><div class="rotate-header">GIB</div>
+            <div class="scenario-count">23 NS, 288 EW</div></th>
+        <th><div class="rotate-header">DEFAULT</div>
+            <div class="scenario-count">194 NS, 3 EW</div></th>
+        <th><div class="rotate-header">SPECIALS</div>
+            <div class="scenario-count">28 NS, 1 EW</div></th>
+        <th><div class="rotate-header">Flannery</div>
+            <div class="scenario-count">1 NS</div></th>
+        <th><div class="rotate-header">GIB-Bergen</div>
+            <div class="scenario-count">1 NS</div></th>
+        <th><div class="rotate-header">MSS</div>
+            <div class="scenario-count">2 NS</div></th>
+        <th><div class="rotate-header">MSTandMSS</div>
+            <div class="scenario-count">6 NS</div></th>
+        <th><div class="rotate-header">Multi</div>
+            <div class="scenario-count">1 NS, 1 EW</div></th>
+        <th><div class="rotate-header">NoInvertedMinor</div>
+            <div class="scenario-count">6 NS</div></th>
+        <th><div class="rotate-header">PolishTwoSuiters</div>
+            <div class="scenario-count">2 NS</div></th>
+        <th><div class="rotate-header">SPECIALS2</div>
+            <div class="scenario-count">10 NS</div></th>
+        <th><div class="rotate-header">WJS-MSS</div>
+            <div class="scenario-count">1 NS</div></th>
+        <th><div class="rotate-header">Precision</div>
+            <div class="scenario-count">29 NS</div></th>
+        <th><div class="rotate-header">Precision-14-16</div>
+            <div class="scenario-count">1 NS</div></th>
+      </tr>
+      <tr>
+        <td>System type</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="0">2/1GF</td>
+        <td data-v="3">PC</td>
+        <td data-v="3">PC</td>
+      </tr>
+      <tr class="unused">
+        <td>1D opening with 4 cards</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1D opening with 5 cards</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1m opening allows 5M</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1M-3M blocking</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>1M-3M inviting</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1N-2S Minor Suit Stayman</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1N-2S transfer to clubs</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>1N-2N transfer to clubs</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1N-2N transfer to diamonds</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1N-3C transfer to diamonds</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>1N-3C Puppet Stayman</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1N-3D majors</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1N-3D minors</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1N-3D natural</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>1N-3D splinter</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1N-3M splinter</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1NT opening allows less 1HCP</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1NT opening natural</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1NT opening NT style</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>1NT opening range 12-14</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1NT opening range 13-15</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1NT opening range 14-16</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>1NT opening range 15-17</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1NT opening shape 4441</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1NT opening shape 5422</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1NT opening shape 5 major</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1NT opening shape 6 minor</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>(1X)-1Y-(1Z)-2Z natural</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1X-(Y)-2Z forcing</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>1X-(1Y)-2Z strong</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>1X-(1Y)-2Z weak</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>2N-3C-3N both majors</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>2N-3C Puppet Stayman</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>2N-3S transfer to clubs</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>2N-4C transfer to diamonds</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>4NT opening</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>5431 after 1NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>5NT pick a slam</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Benjamin 2D</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Bergen</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Blackwood 0123</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Blackwood 0314</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Blackwood 1430</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Blackwood without K and Q</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>BROMAD</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Cappelletti</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Checkback</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Collante</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Crosswood 0123</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Crosswood 0314</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Crosswood 1430</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Cue bid</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>DEPO</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>DOPI</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Drury</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Exclusion</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Extended Stayman</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Extended acceptance after NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Flannery</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Fit showing jumps</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Fitted 2NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Forcing 1NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Fourth suit</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Fourth suit game force</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>French 2D</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Gambling</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Garbage Stayman</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Gazzilli</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Gerber</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Gerber only for NT openings</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Ghestem</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Imposible 2S</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Inverted count signals</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Inverted minors</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Inviting Jump Shifts</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Jacoby 2NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Jordan Truscott 2NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Jordan Truscott 2NT defence</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Kickback 0123</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Kickback 0314</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Kickback 1430</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>King ask by 5NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>King ask by 5NT inviting</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>King ask by available bid</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Kokish Relay</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Landy</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Lavinthal from void</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Lavinthal on ace</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Lavinthal on trump</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Lavinthal to void</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Leaping Michaels</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Lebensohl after 1NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Lebensohl after 1m</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Lebensohl after double</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Major Direct Jump Cuebid Gambling</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Major Direct Jump Cuebid Minor</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Major Direct Jump Cuebid Strong</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Mark on queen</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Mark on king</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Minor Direct Jump Cuebid Gambling</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Minor Direct Jump Cuebid Majors</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Minor Direct Jump Cuebid Preempt</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Maximal Doubles</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Michaels Cuebid</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Mini Splinter</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Minor Suit Slam Try after 2NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Minor Suit Stayman after 2NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Minor Suit Transfers after 2NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Mixed raise</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Multi</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Multi-Landy</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Namyats</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Natural 3N entering style</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Niemeijer</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>New Minor Forcing</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>NMF after 2NT rebid</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>NMF by passed hand</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Non-Leaping Michaels</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Ogust</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Polish two suiters</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Precision 2D</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Quantitative 4NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Raptor 1NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Responsive double</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Reverse Bergen</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Reverse drury</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Reverse Flannery 2H</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Reverse Flannery 2S</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Rodrigue</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>ROPI</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Roudi</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Rubensohl after 1NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Rubensohl after 1m</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Rubensohl after double</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Scrambling 2NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Semi forcing 1NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Shape Bergen structure</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>SMOLEN</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Snapdragon Double</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Soloway Jump Shifts</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Soloway Jump Shifts Extended</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Splinter</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Strength Lawrence structure</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Strong natural 2D</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Strong natural 2M</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Strong jump shifts 2</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Strong jump shifts 3</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Super acceptance after NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Support 1NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Support double redouble</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Surplus pass</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Texas</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Transfers if RHO doubles</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Transfers if RHO bids clubs</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Two suit takeout double</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Two way game tries</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Two Way New Minor Forcing</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>TWNMF by passed hand</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Unusual 1NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Unusual 2NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Unusual 3NT</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Unusual 4NT</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr class="unused">
+        <td>Unusual vs. Unusual</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Weak Jump Shifts 2</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Weak Jump Shifts 3</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Weak natural 2D</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr>
+        <td>Weak natural 2M</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v1" data-v="1">1</td>
+      </tr>
+      <tr>
+        <td>Walsh style</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v1" data-v="1">1</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+      <tr class="unused">
+        <td>Wilkosz</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+        <td class="v0" data-v="0">&middot;</td>
+      </tr>
+    </table>
+  </div>
+  <script>
+    var span = document.getElementById("gen-time");
+    var d = new Date(span.dataset.utc);
+    span.textContent = d.toLocaleDateString() + " " + d.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", timeZoneName: "short"});
+    var table = document.querySelector("table");
+    var col1 = -1, col2 = -1;
+    function clearAll() {
+      table.querySelectorAll(".col-highlighted,.col-selected,.diff,.col-hidden").forEach(function(c) {
+        c.classList.remove("col-highlighted","col-selected","diff","col-hidden");
+      });
+      col1 = -1; col2 = -1;
+    }
+    function render() {
+      table.querySelectorAll(".col-highlighted,.col-selected,.diff,.diff-label,.col-hidden").forEach(function(c) {
+        c.classList.remove("col-highlighted","col-selected","diff","diff-label","col-hidden");
+      });
+      table.classList.remove("two-card-mode");
+      if (col1 < 1) return;
+      var rows = table.rows;
+      if (col2 < 1) {
+        for (var i = 0; i < rows.length; i++) {
+          var ref = rows[i].cells[col1];
+          if (!ref) continue;
+          ref.classList.add("col-highlighted");
+          var refVal = ref.getAttribute("data-v");
+          if (refVal === null) continue;
+          for (var j = 1; j < rows[i].cells.length; j++) {
+            if (j === col1) continue;
+            var cell = rows[i].cells[j];
+            var cellVal = cell.getAttribute("data-v");
+            if (cellVal !== null && cellVal !== refVal) cell.classList.add("diff");
+          }
+        }
+      } else {
+        table.classList.add("two-card-mode");
+        for (var i = 0; i < rows.length; i++) {
+          for (var j = 1; j < rows[i].cells.length; j++) {
+            if (j !== col1 && j !== col2) rows[i].cells[j].classList.add("col-hidden");
+          }
+          var c1 = rows[i].cells[col1], c2 = rows[i].cells[col2];
+          if (c1) c1.classList.add("col-selected");
+          if (c2) c2.classList.add("col-selected");
+          var v1 = c1 ? c1.getAttribute("data-v") : null;
+          var v2 = c2 ? c2.getAttribute("data-v") : null;
+          if (v1 !== null && v2 !== null && v1 !== v2) {
+            c1.classList.add("diff"); c2.classList.add("diff");
+            rows[i].cells[0].classList.add("diff-label");
+          }
+        }
+      }
+    }
+    table.addEventListener("click", function(e) {
+      var th = e.target.closest("th");
+      if (th) {
+        var col = th.cellIndex;
+        if (col < 1) return;
+        if (col === col1) { col1 = col2; col2 = -1; }
+        else if (col === col2) { col2 = -1; }
+        else if (col1 < 1) { col1 = col; }
+        else { col2 = col; }
+        render();
+        return;
+      }
+      var td = e.target.closest("td");
+      if (!td) return;
+      var row = td.parentNode;
+      var prev = table.querySelector("tr.highlighted");
+      if (prev && prev !== row) prev.classList.remove("highlighted");
+      row.classList.toggle("highlighted");
+    });
+  </script>
+</body>
+</html>
