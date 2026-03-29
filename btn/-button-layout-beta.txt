@@ -90,9 +90,10 @@ Rule_of_16,                           Rule_of_16-15:12%,Rule_of_16-16:12%,Rule_o
 
 [Section] Preempts
 Weak_2_Bids:38%, Weak_2_Bids_Leveled:blue:12%, Weak_2_Bids_Lax:38%, Weak_2_Bids_Lax_Leveled:blue:12%
-Muiderberg_Two_Bids,                  ---
+Ogust,                                Muiderberg_Two_Bids
 Opps_Weak_Two,                        McCabe_After_Weak_2
 Multi_2D,                             Opps_Multi_2D
+Lars_Multi_2D,                        ---
 Preempts,                             Opps_Preempt
 Preempt_Keycard,                      Slam_after_Preempt
 Gambling_3N,                          Opps_Gambling_3N
@@ -104,12 +105,14 @@ We_Overcall,                          ---,
 Too_Strong_for_Overcall,              Too_Strong_for_Overcall4th
 SupportX_by_Advancer,                 Maximal_After_Overcall
 Snapdragon_Double,                    ---
-Michaels_Cuebid,                      Michaels_and_Unusual
+Michaels_Cuebid,                      Unusual_2N
+Michaels_and_Unusual,                 ---
 Balancing,                            ---
 OBAR_BIDS,                            OBAR_BIDS11
 Scrambling_2NT,                       GIB_Sandwich_NT_BPH
 After_Partner_Overcalls,              Jump_Overcalls
 Jump_Cuebid_Weak,                     Jump_Cuebid_Strong
+Western_Cue_Bid,                      ---
 McCabe_after_WJO,                     Game_Overcalls
 We_Overcall_1N,                       ---
 We_Overcall_1N_then_Gerber,           We_Overcall_NT_then_Stayman
@@ -126,8 +129,8 @@ Non_Leaping_Michaels_After_3-Bid,     Non_Leaping_Michaels_After_2-Bid
 Power_Double_Balanced,                Power_Double_Unbalanced
 Lebensohl_vs_Opps_W2_Dir,             Lebensohl_vs_Opps_W2_Bal
 Lebensohl_vs_Opps_W2_Bal_or_Dir,      Better_Minor_Lebensohl
-Cappelletti,                          Opps_Open_1N_15-17
-Multi_Landy,                          ---
+Cappelletti,                          Cappelletti_in_4th
+Opps_Open_1N_15-17,                   Multi_Landy
 Meckwell,                             DONT
 Suction,                              ---
 Rule_of_2,                            Mixed_Raise_In_Comp
@@ -196,7 +199,7 @@ Weak_NT_13-15,                        Weak_NT_14-15
 SCS_1C_54_Resp,                       SCS_1C_55_Resp
 SCS_1C_3-Suit_Resp,                   SCS_1C_3-Suit_Resp_5-7
 SCS_1C_any_0-4_Resp,                  SCS_1C_any_5-7_Resp
-SCS_1C_any_8plus_Resp,                ---
+SCS_1C_any_8plus_Resp,                SCS_Impossible_Negative
 SCS_Major_with_2nd_Suit,              SCS_Major_Open_2-Suit_Resp
 SCS_Two_Clubs,                        ---
 

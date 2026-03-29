@@ -1,0 +1,43 @@
+##### Jacoby 2N #####
+
+#include "script/Predict-Opening-1-Bid"
+
+lenSouth = oneSpade ? spades(south) : hearts(south)
+strSouth = tpSouth + lenSouth - 5
+oneMajor = (oS or oH) and strSouth>10 and tpSouth>11
+
+# Define 4+ card fits for south
+fitSpades = oneSpade and spades(north)>3
+fitHearts = oneHeart and hearts(north)>3
+fit = fitSpades or fitHearts
+
+# Exclude north's splinters
+lenNorth = fitSpades ? spades(north) : hearts(north)
+strNorth = tpNorth + lenNorth - 4
+splinter = shape(north,any 0xxx+any 1xxx) and strNorth>12 and strNorth<19
+
+# Exclude north's jumps to game
+jumpGame = lenNorth>3 and strNorth>9
+
+# Define Good suits -- 5+ cards with 2 of the top 3
+gS = spades(south)>4   and top3(south,spades)>1
+gH = hearts(south)>4   and top3(south,hearts)>1
+gD = diamonds(south)>4 and top3(south,diamonds)>1
+gC = clubs(south)>4    and top3(south,clubs)>1
+  
+# Define Strong suits -- 5+ cards with 3 of the top 4
+# Define Solid suits -- 5 cards with 4 of the top 4 or 6+ cards with 3 of the top 3  
+
+# Define Majors with 2nd suits
+twoSuits = (fitSpades and (gH or gD or gC)) or (fitHearts and (gS or gD or gC))
+
+# Define the 5 types of opening hands in priority order
+x4 = twoSuits
+x3 = fit and shape(south, any 0xxx+any 1xxx) and not x4
+M3 = fit and suitPoints>17                   and not (x4 or x3)
+N3 = fit and suitPoints>14 and suitPoints<18 and not (x4 or x3 or M3)
+M4 = fit and suitPoints>11 and suitPoints<15 and not (x4 or x3 or M3 or N3)
+
+j2n = (x4 or x3 or M3 or N3 or M4) and not (splinter or jumpGame) 
+
+##### End of Jacoby 2N #####

@@ -55,12 +55,12 @@ As opener, what will you rebid with each of these hands?}
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AT5.QJ.JT96.K732 ... ... ..."]
+[Deal "S:A32.Q3.Q632.J876 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>1\H</i>}
+{<i>1\S</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -74,12 +74,12 @@ As opener, what will you rebid with each of these hands?}
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:A9.865.A752.K954 ... ... ..."]
+[Deal "S:T84.AT.JT65.K842 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>1\H</i>}
+{<i>1\S</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -93,7 +93,7 @@ As opener, what will you rebid with each of these hands?}
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AK6.T4.J852.KT76 ... ... ..."]
+[Deal "S:94.K95.QJ84.K962 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -112,12 +112,12 @@ As opener, what will you rebid with each of these hands?}
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:A8.J.Q764.AT9742 ... ... ..."]
+[Deal "S:K8.982.AQ76.Q743 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>1\S</i>}
+{<i>1\H</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -131,12 +131,12 @@ As opener, what will you rebid with each of these hands?}
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:K9864.9864.K65.A ... ... ..."]
+[Deal "S:J3.Q62.K632.QT92 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>1\D</i>}
+{<i>1\H</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -150,12 +150,12 @@ As opener, what will you rebid with each of these hands?}
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:QJT4.QJ632.AT.T9 ... ... ..."]
+[Deal "S:983.Q5.QT43.AK75 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>1\D</i>}
+{<i>1\H</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -186,12 +186,12 @@ As opener, what will you rebid with each of these hands?}
  }
 [BCFlags "17"]
 
-[Event "Exercise Two — Opener's Rebid after 2\D"]
+[Event "Exercise Two — Opener's Rebid after 2\H"]
 [Site ""]
 [Date ""]
-{<b>Exercise Two — Opener's Rebid after 2\D</b>
+{<b>Exercise Two — Opener's Rebid after 2\H</b>
 
-You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What do you bid with each of these hands?}
+You open 1\H, opponent bids X, partner responds 2\H, opponent bids X. What do you bid with each of these hands?}
 [Board "2"]
 [West ""]
 [North ""]
@@ -207,7 +207,7 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [BCFlags "600023"]
 [Hidden "NESW"]
 [Auction "S"]
-1D 1H 2D 3D
+1H X 2H X
 +
 
 [Event ""]
@@ -220,7 +220,7 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:J982.Q632.AQJ6.2 ... ... ..."]
+[Deal "S:K8.982.AQ76.Q743 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -239,7 +239,7 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:J864.T532..AKQ62 ... ... ..."]
+[Deal "S:J3.Q62.K632.QT92 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -258,7 +258,7 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:A7532.K874.K52.3 ... ... ..."]
+[Deal "S:983.Q5.QT43.AK75 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -277,12 +277,50 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:KQJT643.A732.8.2 ... ... ..."]
+[Deal "S:Q742.J.J974.A742 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>4\D</i>}
+{<i>4\H</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:Q6.QT6.A642.T764 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>4\H</i>}
+[BCFlags "60001b"]
+[Hidden "NEW"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "S:A83.75.K985.Q972 ... ... ..."]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<i>4\H</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -354,7 +392,7 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>1-1)</b> <i>1\H</i>}
+{<b>1-1)</b> <i>1\S</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -372,7 +410,7 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>1-2)</b> <i>1\H</i>}
+{<b>1-2)</b> <i>1\S</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -408,7 +446,7 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>1-4)</b> <i>1\S</i>}
+{<b>1-4)</b> <i>1\H</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -426,7 +464,7 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>1-5)</b> <i>1\D</i>}
+{<b>1-5)</b> <i>1\H</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -444,7 +482,7 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>1-6)</b> <i>1\D</i>}
+{<b>1-6)</b> <i>1\H</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -535,7 +573,43 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>2-4)</b> <i>4\D</i>}
+{<b>2-4)</b> <i>4\H</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>2-5)</b> <i>4\H</i>}
+[BCFlags "17"]
+
+[Event ""]
+[Site ""]
+[Date ""]
+[Board "2-6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal ""]
+[Scoring ""]
+[Declarer ""]
+[Contract ""]
+[Result ""]
+{<b>2-6)</b> <i>4\H</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -575,12 +649,12 @@ You open 1\D, opponent bids 1\H, partner responds 2\D, opponent bids 3\D. What d
  }
 [BCFlags "17"]
 
-[Event "Exercise Three — Opener's Rebid after 2\H"]
+[Event "Exercise Three — Opener's Rebid after 2\S"]
 [Site ""]
 [Date ""]
-{<b>Exercise Three — Opener's Rebid after 2\H</b>
+{<b>Exercise Three — Opener's Rebid after 2\S</b>
 
-You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 2\S. What do you bid with each of these hands?}
+You open 1\S, opponent bids X, partner responds 2\S, opponent bids X. What do you bid with each of these hands?}
 [Board "3"]
 [West ""]
 [North ""]
@@ -596,7 +670,7 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 2\S. What d
 [BCFlags "600023"]
 [Hidden "NESW"]
 [Auction "S"]
-1H 1S 2H 2S
+1S X 2S X
 +
 
 [Event ""]
@@ -609,7 +683,7 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 2\S. What d
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AT5.QJ.JT96.K732 ... ... ..."]
+[Deal "S:A32.Q3.Q632.J876 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -628,7 +702,7 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 2\S. What d
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AQ7.J3.QT98.JT54 ... ... ..."]
+[Deal "S:T84.AT.JT65.K842 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -647,12 +721,12 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 2\S. What d
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:T85.K.QJ632.KJ93 ... ... ..."]
+[Deal "S:52.AJ8.AJ97.T876 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>3\H</i>}
+{<i>4\S</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -666,12 +740,12 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 2\S. What d
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:874.J.QT952.AKT4 ... ... ..."]
+[Deal "S:T6.QT7.KQT4.QT96 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>3\H</i>}
+{<i>4\S</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -685,101 +759,31 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 2\S. What d
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:743.8.AT62.KQJ42 ... ... ..."]
+[Deal "S:752.42.KT96.AT63 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>4\H</i>}
+{<i>XX</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
 [Event ""]
 [Site ""]
 [Date ""]
-[Board "spacer"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{
-
-
-
-
-
-
-
-
- }
-[BCFlags "17"]
-
-[Event "Exercise Four — Opener's Rebid after 2\H"]
-[Site ""]
-[Date ""]
-{<b>Exercise Four — Opener's Rebid after 2\H</b>
-
-You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 3\C. What do you bid with each of these hands?}
-[Board "4"]
+[Board "3-6"]
 [West ""]
 [North ""]
 [East ""]
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal ""]
+[Deal "S:T965.7.AK87.T432 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-[Auction "S"]
-1H 1S 2H 3C
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "4-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:J3.3.JT94.AKJ642 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\H</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "4-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:K.A6.7543.QJ9852 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
+{<i>XX</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -887,7 +891,7 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 3\C. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>3-3)</b> <i>3\H</i>}
+{<b>3-3)</b> <i>4\S</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -905,7 +909,7 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 3\C. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>3-4)</b> <i>3\H</i>}
+{<b>3-4)</b> <i>4\S</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -923,32 +927,13 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 3\C. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>3-5)</b> <i>4\H</i>}
+{<b>3-5)</b> <i>XX</i>}
 [BCFlags "17"]
 
 [Event ""]
 [Site ""]
 [Date ""]
-{<b><i>Exercise Four Answers</i></b>}
-[Board "4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "4-1"]
+[Board "3-6"]
 [West ""]
 [North ""]
 [East ""]
@@ -960,1136 +945,7 @@ You open 1\H, opponent bids 1\S, partner responds 2\H, opponent bids 3\C. What d
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>4-1)</b> <i>3\H</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "4-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>4-2)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "spacer"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- }
-[BCFlags "17"]
-
-[Event "Exercise Five — Opener's Rebid after 2\H"]
-[Site ""]
-[Date ""]
-{<b>Exercise Five — Opener's Rebid after 2\H</b>
-
-You open 1\H, opponent bids X, partner responds 2\H, opponent bids 3\C. What do you bid with each of these hands?}
-[Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-[Auction "S"]
-1H X 2H 3C
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "5-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:4.A65.A763.KT863 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\H</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "5-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:T.Q6.J632.AQJ842 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\H</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "5-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:97.J.JT73.AKJT72 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\H</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "5-4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:KQ9.3.AJ83.T9532 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "spacer"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{
-
-
-
-
-
-
-
-
- }
-[BCFlags "17"]
-
-[Event "Exercise Six — Opener's Rebid after 2\H"]
-[Site ""]
-[Date ""]
-{<b>Exercise Six — Opener's Rebid after 2\H</b>
-
-You open 1\H, opponent bids X, partner responds 2\H, opponent bids 3\D. What do you bid with each of these hands?}
-[Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-[Auction "S"]
-1H X 2H 3D
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "6-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:52.K8.KQ865.QT94 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "6-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:9.QT6.AK875.JT72 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\H</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "spacer"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- }
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-{<b><i>Exercise Five Answers</i></b>}
-[Board "5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "5-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>5-1)</b> <i>3\H</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "5-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>5-2)</b> <i>3\H</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "5-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>5-3)</b> <i>3\H</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "5-4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>5-4)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-{<b><i>Exercise Six Answers</i></b>}
-[Board "6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "6-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>6-1)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "6-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>6-2)</b> <i>3\H</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "spacer"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- }
-[BCFlags "17"]
-
-[Event "Exercise Seven — Opener's Rebid after 2\S"]
-[Site ""]
-[Date ""]
-{<b>Exercise Seven — Opener's Rebid after 2\S</b>
-
-You open 1\S, opponent bids X, partner responds 2\S, opponent bids 3\C. What do you bid with each of these hands?}
-[Board "7"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-[Auction "S"]
-1S X 2S 3C
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "7-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:KQT9..KJ86.JT974 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "7-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:32.AT.K763.K7654 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "7-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:97.9.KQT72.KQ932 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\S</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "spacer"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{
-
-
-
-
-
-
-
-
- }
-[BCFlags "17"]
-
-[Event "Exercise Eight — Opener's Rebid after 2\S"]
-[Site ""]
-[Date ""]
-{<b>Exercise Eight — Opener's Rebid after 2\S</b>
-
-You open 1\S, opponent bids X, partner responds 2\S, opponent bids 3\D. What do you bid with each of these hands?}
-[Board "8"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-[Auction "S"]
-1S X 2S 3D
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "8-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:J8.AJ.97643.A732 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\S</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "8-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:K93.5.KJ842.K732 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\S</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "8-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:QJ4.K.KJ652.9875 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "spacer"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- }
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-{<b><i>Exercise Seven Answers</i></b>}
-[Board "7"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "7-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>7-1)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "7-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>7-2)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "7-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>7-3)</b> <i>3\S</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-{<b><i>Exercise Eight Answers</i></b>}
-[Board "8"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "8-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>8-1)</b> <i>3\S</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "8-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>8-2)</b> <i>3\S</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "8-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>8-3)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "spacer"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- }
-[BCFlags "17"]
-
-[Event "Exercise Nine — Opener's Rebid after 2\S"]
-[Site ""]
-[Date ""]
-{<b>Exercise Nine — Opener's Rebid after 2\S</b>
-
-You open 1\S, opponent bids X, partner responds 2\S, opponent bids X. What do you bid with each of these hands?}
-[Board "9"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-[Auction "S"]
-1S X 2S X
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:AK6.T4.J852.KT76 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:852.K5.JT54.AQ62 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:973.AJ.KJT4.J973 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:A9.K84.J942.Q943 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>4\S</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:Q43.J4.JT64.AKT7 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>4\S</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "spacer"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- }
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-{<b><i>Exercise Nine Answers</i></b>}
-[Board "9"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>9-1)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>9-2)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>9-3)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>9-4)</b> <i>4\S</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "9-5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>9-5)</b> <i>4\S</i>}
+{<b>3-6)</b> <i>XX</i>}
 [BCFlags "17"]
 
 [Event ""]

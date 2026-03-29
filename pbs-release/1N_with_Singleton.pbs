@@ -16,17 +16,17 @@ fetch('https://bba.harmonicsystems.com/api/scenario/select', {
 setDealerCode(`
 
 /*
-convention-card-ns: 21GF-SPECIALS
+convention-card-ns: 21GF-SPECIALS2
 convention-card-ew: 21GF-GIB
-auction-filter: Auction.....\n1NT?
+auction-filter: Auction.....\n1N
 */
 # 1 Notrump Opening with a singleton honor
 
-# Singleton A or K   // BBA requires a singleton A
-oneS = spades(south)==1 and top2(south,spades)==1
-oneH = hearts(south)==1 and top2(south,hearts)==1
-oneD = diamonds(south)==1 and top2(south,diamonds)==1
-oneC = clubs(south)==1 and top2(south,clubs)==1
+# Singleton A, K, or Q
+oneS = spades(south)==1 and top3(south,spades)==1
+oneH = hearts(south)==1 and top3(south,hearts)==1
+oneD = diamonds(south)==1 and top3(south,diamonds)==1
+oneC = clubs(south)==1 and top3(south,clubs)==1
 
 # Define lengthPoints
 //lengthPoints = shape(south, any 5xxx) ? 1 : 0
@@ -49,8 +49,8 @@ average "ntDownGrade " ntDownGrade,
 average "ntPoints    " ntPoints,
 `, "S", true)
 Script
-Button,1NT w/Singleton,\n\
+Button,1N w/Singleton,\n\
 ---  1 Notrump With Singleton\n\
 South has (3451+4351+3415+4315 or any 4441) with a singleton A，K，or Q.\n\
 HCP adjusted +1 for 5-card suit.\n\
-%NotrumpWith1%,width=50% backgroundColor=lightpink
+%NotrumpWith1%,backgroundColor=lightpink

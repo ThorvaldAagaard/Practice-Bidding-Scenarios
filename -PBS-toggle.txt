@@ -44,8 +44,8 @@ Script,onDataLoad,$('#bttab-buttons').click();
 // Open usual BBO side panel
 Script,onLogin,parent.$('.verticalClass')[0].click();
 
-// Hide the Char, Word, All backspace buttons
-Script,onDataLoad,$("#adpanel2 button:lt(3)").hide();
+// Remove the Char, Word, All backspace buttons (hide isn't enough — master toggle re-shows white buttons)
+Script,onDataLoad,$("#adpanel2 button:lt(3)").remove();
 
 // Fix button row heights - make adjacent buttons equal height
 Script,onDataLoad
@@ -181,25 +181,6 @@ function delay(duration) {
 }
 //Script
 
-// Log PBS scenario selection for analytics
-Script,logPBS
-if (window._pbsScenario) {
-    window.currentPBSScenario = window._pbsScenario;
-    fetch('https://bba-server.bridgebidding.ai/api/scenario/select', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'X-Client-Version': '1.0.0'
-        },
-        body: JSON.stringify({
-            scenario: window._pbsScenario,
-            user: whoAmI() || 'anonymous'
-        })
-    }).catch(function(){});
-    window._pbsScenario = undefined;
-}
-R='';
-Script
 
 Script,reviewCurrentCode,setDealerCode("");
 
@@ -441,7 +422,7 @@ Script,onDataLoad
         if (action && action.startsWith('%') && action.endsWith('%')) {
             bt.onclick = function() { execUserScript(action); };
         } else if (action && action.startsWith('http')) {
-            bt.onclick = function() { window.open(action, '_blank'); };
+            bt.onclick = function() { (window.top || window).open(action, '_blank'); };
         }
 
         if (insertBefore) {
@@ -524,9 +505,14 @@ Script,onDataLoad
                         // Extract convention-card from dealer code comments
                         var ccMatch = match[1].match(/convention-card:\s*(\S+)/);
                         window.currentPBSConventionCard = ccMatch ? ccMatch[1] : null;
+                        var _ext = (document.title.indexOf('PBS') >= 0) ? 'PBSforBBO' : 'BBOAlert';
+                        var _ua = navigator.userAgent;
+                        var _br = _ua.indexOf('Edg/') > -1 ? 'Edge' : _ua.indexOf('Chrome/') > -1 ? 'Chrome' : _ua.indexOf('Firefox/') > -1 ? 'Firefox' : _ua.indexOf('Safari/') > -1 ? 'Safari' : 'Unknown';
+                        var _pf = (navigator.userAgentData && navigator.userAgentData.platform) || navigator.platform || '';
+                        var _os = /Win/i.test(_pf) ? 'Windows' : /Mac/i.test(_pf) ? 'macOS' : /Linux/i.test(_pf) ? 'Linux' : 'Unknown';
                         fetch('https://bba.harmonicsystems.com/api/scenario/select', {
                             method: 'POST',
-                            headers: { 'Content-Type': 'application/json', 'X-Client-Version': '1.0.0' },
+                            headers: { 'Content-Type': 'application/json', 'X-Client-Version': '1.9.25', 'X-Client-Info': 'ext=' + _ext + '; browser=' + _br + '; os=' + _os },
                             body: JSON.stringify({ scenario: scenarioName, user: whoAmI() || 'anonymous' })
                         }).catch(function() {});
                         setDealerCode(match[1], match[2], match[3] === 'true');
@@ -694,7 +680,7 @@ Script,onDataLoad
                     title = parts[0].trim();
                     url = parts[1].trim();
                 }
-                createButton(title, url ? url + '\\n' : '', { width: '100%', backgroundColor: 'LemonChiffon' });
+                createButton(title, url || '', { width: '100%', backgroundColor: 'LemonChiffon' });
                 continue;
             }
 
@@ -707,7 +693,7 @@ Script,onDataLoad
                     title = parts[0].trim();
                     url = parts[1].trim();
                 }
-                var btn = createButton(title, url ? url + '\\n' : '', { width: '100%', backgroundColor: 'lightblue' });
+                var btn = createButton(title, url || '', { width: '100%', backgroundColor: 'lightblue' });
                 if (btn) {
                     btn.onclick = function() {
                         var next = $(this).next();

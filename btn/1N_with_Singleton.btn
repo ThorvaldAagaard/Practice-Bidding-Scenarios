@@ -1,9 +1,9 @@
 # alias: NotrumpWith1
-# button-text: 1NT w/Singleton
+# button-text: 1N w/Singleton
 # gib-works: false
 # bba-works: true
-# auction-filter: Auction.....\n1NT?
-# convention-card-ns: 21GF-SPECIALS
+# auction-filter: Auction.....\n1N
+# convention-card-ns: 21GF-SPECIALS2
 # convention-card-ew: 21GF-GIB
 
 /*@chat
@@ -16,11 +16,11 @@ dealer south
 
 # 1 Notrump Opening with a singleton honor
 
-# Singleton A or K   // BBA requires a singleton A
-oneS = spades(south)==1 and top2(south,spades)==1
-oneH = hearts(south)==1 and top2(south,hearts)==1
-oneD = diamonds(south)==1 and top2(south,diamonds)==1
-oneC = clubs(south)==1 and top2(south,clubs)==1
+# Singleton A, K, or Q
+oneS = spades(south)==1 and top3(south,spades)==1
+oneH = hearts(south)==1 and top3(south,hearts)==1
+oneD = diamonds(south)==1 and top3(south,diamonds)==1
+oneC = clubs(south)==1 and top3(south,clubs)==1
 
 # Define lengthPoints
 //lengthPoints = shape(south, any 5xxx) ? 1 : 0

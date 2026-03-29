@@ -1,0 +1,97 @@
+# alias: WesternCueBid
+# button-text: Western Cue Bid
+# gib-works: false
+# bba-works: false
+# auction-filter: .
+# convention-card-ns: 21GF-DEFAULT
+# convention-card-ew: 21GF-GIB
+
+/*@chat
+--- Western Cue Bid
+After 1x - (y) - z - (pass or raise), South passes, rebids, or makes a Western Cue BID -- 3 
+of opponent's suit. If south passes or rebids, north may make a Western Cue Bid.  A Western
+Cue Bid asks partner to bid 3NT with a stopper in opponents last-bid suit, else scramble.
+NOTE: BBA does not play Western Cue Bid.
+@chat*/
+
+# Western Cue Bid
+# South opens 1x, West overcalls y
+# North responds z, East passes
+# South cue, X, passes, or cue bids
+# North bids 3NT with a stopper, or bids best suit without one
+
+dealer south
+
+
+#include "script/Calm-Opponents"
+# Defines calmEast, calmWest, calmOpps
+#include "script/Predict-Opening-1-Bid"
+#include "script/TP"
+
+sOpens = oS or oH or oD or oC
+sCRank = oC ? 1 : 0
+sDRank = oD ? 2 : 0
+sHRank = oH ? 3 : 0
+sSRank = oS ? 4 : 0
+sRank  = (sCRank + sDRank + sHRank + sSRank)  // all but 1 are 0
+
+wD = diamonds(west)>4 and top4(west,diamonds)>1 and diamonds(west)>=hearts(west)
+wH = hearts(west)>4   and top4(west,hearts)>1 and hearts(west)>=spades(west)
+wS = spades(west)>4   and top4(west,spades)>1 and spades(west)>hearts(west)
+wC = clubs(west)>5    and top4(west,clubs)>1
+
+wCRank= wC ? 1 : 0
+wDRank = wD ? 2 : 0
+wHRank = wH ? 3 : 0
+wSRank = wS ? 4 : 0
+wRank  = (wCRank + wDRank + wHRank + wSRank)  // all but 1 are 0
+
+wRange = wRank > sRank ?  hcp(west)>7 and hcp(west)<18 and tpWest>8 and tpWest<10 : hcp(west)>9 and hcp(west)<19 and tpwest>10 and tpWest<19
+
+wOvercalls = shape(west,any 6xxx + any 5xxx -any 66xx -any 65xx -any 55xx) and (wD or wH or wS or wC) and wRange
+
+# North doubles or bids a new suit
+nC = (oC or wC) and clubs(north)<3
+nD = (oD or wD) and diamonds(north)<3
+nH = (oH or wH) and hearts(north)<3
+nS = (oS or wS) and spades(north)<3
+
+nCRank = nC ? 1 : 0
+nDRank = nD ? 2 : 0
+nHRank = nH ? 3 : 0
+nSRank = nS ? 4 : 0
+nRank  = (nCRank + nDRank + nHRank + nSRank)  // all but 1 are 0
+
+nRange = nRank > wRank ?  tpNorth>5 : tpNorth>10
+
+nX = shape(north,any 54xx +any 44xx) and (nC or nD or nH or nS) and hcp(north)>4 and tpNorth>6
+nBids = shape(north, any 6xxx + any 5xxx -any 4xxx -any 66xx -any 65xx -any 55xx) and  nRange
+nActs = nX or nBids
+
+# South has NO stopper in West's overcalled suit
+# No stopper = no A, no Kx, no Qxx in that suit
+sNoHStop = wH and controls(south,hearts)==0 and (hearts(south)<3 or top3(south,hearts)==0)
+sNoSStop = wS and controls(south,spades)==0 and (spades(south)<3 or top3(south,spades)==0)
+sNoStop = sNoHStop or sNoSStop
+
+# North HAS a stopper in West's overcalled suit: A, Kx, or Qxx
+nHStop = wH and (controls(north,hearts)==2 or
+                 (controls(north,hearts)==1 and hearts(north)>1) or
+                 (controls(north,hearts)==0 and top3(north,hearts)>0 and hearts(north)>2))
+nSStop = wS and (controls(north,spades)==2 or
+                 (controls(north,spades)==1 and spades(north)>1) or
+                 (controls(north,spades)==0 and top3(north,spades)>0 and spades(north)>2))
+nHasStop = nHStop or nSStop
+
+# North has enough to respond and accept 3NT
+nResponds = hcp(north)>7 and hcp(north)<14
+
+
+sOpens and wOvercalls and nActs and calmEast
+
+action
+average "South HCP  " hcp(south),
+average "North HCP  " hcp(north),
+average "West HCP   " hcp(west),
+average "wOvercall H" 100 * wH,
+average "wOvercall S" 100 * wS,
