@@ -11,6 +11,7 @@ import fnmatch
 import json
 import os
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 
@@ -219,6 +220,31 @@ def generate_summary(pattern: str = "*"):
     deal_rows.sort(key=lambda x: x[1])
     lowest_deals = deal_rows[:10]
 
+    # Newest scenarios by git first-commit date, with last-commit date
+    newest_scenarios = []
+    for row in rows:
+        btn_rel = os.path.join("btn", f"{row['name']}.btn")
+        btn_path = os.path.join(PROJECT_ROOT, btn_rel)
+        if not os.path.exists(btn_path):
+            continue
+        try:
+            # First commit (created)
+            result = subprocess.run(
+                ["git", "log", "--diff-filter=A", "--format=%at", "--", btn_rel],
+                capture_output=True, text=True, cwd=PROJECT_ROOT)
+            created = float(result.stdout.strip().split('\n')[-1]) if result.stdout.strip() else 0
+            # Last commit (modified)
+            result = subprocess.run(
+                ["git", "log", "-1", "--format=%at", "--", btn_rel],
+                capture_output=True, text=True, cwd=PROJECT_ROOT)
+            modified = float(result.stdout.strip()) if result.stdout.strip() else 0
+        except (ValueError, IndexError):
+            continue
+        if created > 0:
+            newest_scenarios.append((row["name"], created, modified, row["deals"]))
+    newest_scenarios.sort(key=lambda x: -x[2])  # Sort by modified date, not created
+    newest_10 = newest_scenarios[:10]
+
     pipeline_ops = {op for op, _ in OP_COLUMNS}
     et_rows = []
     for row in rows:
@@ -306,6 +332,18 @@ def generate_summary(pattern: str = "*"):
     h.append('        <tr><th>#</th><th style="text-align:left">Scenario</th><th>Deals</th></tr>')
     for i, (name, deals) in enumerate(lowest_deals, 1):
         h.append(f'        <tr><td>{i}</td>{_scenario_td(name, btn_lookup[name], "text-align:left")}<td>{deals}</td></tr>')
+    h.append('      </table>')
+    h.append('    </div>')
+
+    # Newest Scenarios
+    h.append('    <div class="summary-card">')
+    h.append('      <h3>Recent Changes</h3>')
+    h.append('      <table>')
+    h.append('        <tr><th>#</th><th style="text-align:left">Scenario</th><th>Created</th><th>Modified</th></tr>')
+    for i, (name, created, modified, deals) in enumerate(newest_10, 1):
+        created_str = datetime.fromtimestamp(created).strftime('%Y-%m-%d')
+        modified_str = datetime.fromtimestamp(modified).strftime('%Y-%m-%d')
+        h.append(f'        <tr><td>{i}</td>{_scenario_td(name, btn_lookup[name], "text-align:left")}<td>{created_str}</td><td>{modified_str}</td></tr>')
     h.append('      </table>')
     h.append('    </div>')
 

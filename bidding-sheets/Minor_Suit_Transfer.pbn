@@ -12,17 +12,16 @@
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "NS"]
-[Deal "N:KJ754.AQ2.K9.KT3 AT9632.854.A75.4 Q8.K3.QT8642.QJ5 .JT976.J3.A98762"]
-{Shape 2263 0526 5323 6331}
-{HCP 10 6 16 8}
-{Losers 7 7 6 8}
+[Vulnerable "None"]
+[Deal "N:KQJ6.KJ96.A9.K72 52.T854.KJ5.QT98 A98.73.QT8743.J6 T743.AQ2.62.A543"]
+{Shape 3262 4324 4423 2434}
+{HCP 7 10 17 6}
+{Losers 8 8 6 9}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "N"]
 1N    Pass  3C =1=    Pass
-3D =2=    Pass  3N    Pass
-Pass  Pass
+3D =2=    Pass  Pass  Pass
 [Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -37,18 +36,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "EW"]
-[Deal "S:K2.874.KQ863.AK5 J85.K9.AT954.J62 A6.QT6.2.QT98743 QT9743.AJ532.J7."]
-{Shape 2317 6520 2353 3253}
-{HCP 8 8 15 9}
-{Losers 6 6 6 9}
+[Vulnerable "NS"]
+[Deal "S:JT75.AQJ9.KJ.AJ5 Q984.53.Q96.KT64 3.K84.AT8754.987 AK62.T762.32.Q32"]
+{Shape 1363 4423 4423 4234}
+{HCP 7 9 17 7}
+{Losers 8 8 7 8}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -62,18 +60,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "All"]
-[Deal "N:AK4.732.KQT.QJ54 QJT3.QJT9.95.T73 852.AK.J87432.62 976.8654.A6.AK98"]
-{Shape 3262 3424 3334 4423}
-{HCP 8 11 15 6}
-{Losers 8 8 7 9}
+[Vulnerable "EW"]
+[Deal "N:AKQ2.Q97.K987.K5 873.J862.QJ43.A7 J54.K43.6.QJT632 T96.AT5.AT52.984"]
+{Shape 3316 3343 4342 3442}
+{HCP 7 8 17 8}
+{Losers 8 10 5 9}
 [Declarer "N"]
-[Contract "4D"]
+[Contract "3C"]
 [Auction "N"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  3N    Pass
-4D    Pass  Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -87,21 +84,18 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:AKQT.76.KQ9.KT76 J9863.T954.52.82 7.KQ.AJT87643.A9 542.AJ832..QJ543"]
-{Shape 1282 3505 4234 5422}
-{HCP 14 8 17 1}
-{Losers 5 7 5 10}
+[Vulnerable "All"]
+[Deal "S:A92.AK7.KJT7.QT4 KJ65.Q83.9842.K2 43.54.Q65.AJ9873 QT87.JT962.A3.65"]
+{Shape 2236 4522 3343 4342}
+{HCP 7 7 17 9}
+{Losers 8 8 7 8}
 [Declarer "S"]
-[Contract "6D"]
+[Contract "3C"]
 [Auction "S"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  4N    Pass
-5S =3=    Pass  6D    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
-[Note "3:A=2/5 or 5/5, Q(D)=1"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -115,20 +109,17 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "N:KQ853.AKT.Q3.QT4 JT2.QJ63.J94.765 9.4.AKT87652.AJ8 A764.98752..K932"]
-{Shape 1183 4504 5323 3433}
-{HCP 12 7 16 5}
-{Losers 5 7 6 11}
+[Deal "N:A4.K432.K3.AJ976 T986.Q98.A94.K82 732.A6.QJ7652.54 KQJ5.JT75.T8.QT3"]
+{Shape 3262 4423 2425 4333}
+{HCP 7 9 15 9}
+{Losers 8 8 6 9}
 [Declarer "N"]
-[Contract "6D"]
+[Contract "3D"]
 [Auction "N"]
 1N    Pass  3C =1=    Pass
-3D =2=    Pass  4N    Pass
-5D =3=    Pass  6D    Pass
-Pass  Pass
+3D =2=    Pass  Pass  Pass
 [Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
-[Note "3:A=1/5 or 4/5"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -141,17 +132,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "All"]
-[Deal "S:Q6.KT7.AJT65.AQT J52.J98653.KQ2.4 K3.Q2.974.KJ8632 AT9874.A4.83.975"]
-{Shape 2236 6223 2353 3631}
-{HCP 9 8 16 7}
-{Losers 8 8 7 8}
+[Vulnerable "EW"]
+[Deal "S:KT8.A87.AQ974.K2 Q742.K953.32.A76 93.J6.KT5.QJT854 AJ65.QT42.J86.93"]
+{Shape 2236 4432 3352 4423}
+{HCP 7 8 16 9}
+{Losers 8 9 6 8}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "S"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -167,17 +157,16 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "N:A953.952.AQ2.AJ3 QT42.AKT3.T84.92 K7.64.J73.KQT875 J86.QJ87.K965.64"]
-{Shape 2236 3442 4333 4432}
-{HCP 9 7 15 9}
-{Losers 7 9 8 8}
+[Deal "N:J54.K72.A9.AKQ97 A863.QJT5.J4.T63 97.A9.KT8653.842 KQT2.8643.Q72.J5"]
+{Shape 2263 4432 3325 4423}
+{HCP 7 8 17 8}
+{Losers 8 8 6 9}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "N"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -191,17 +180,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "NS"]
-[Deal "S:AT76.AKJ7.QT5.QT 9543.Q85.AJ97.AJ K8.T6.K8.K976432 QJ2.9432.6432.85"]
-{Shape 2227 3442 4432 4342}
-{HCP 9 3 16 12}
-{Losers 6 10 7 8}
+[Vulnerable "None"]
+[Deal "S:A62.Q853.AQ8.KJ8 KQJ9.T92.JT64.62 54.764.K2.AT7543 T873.AKJ.9753.Q9"]
+{Shape 2326 4342 3433 4342}
+{HCP 7 10 16 7}
+{Losers 8 9 7 9}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "S"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -216,19 +204,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "All"]
-[Deal "N:A972.AQ7.KQ72.93 KQT65.JT843.853. J4.K.A6.KQJ87542 83.9652.JT94.AT6"]
-{Shape 2128 2443 4342 5530}
-{HCP 14 5 15 6}
-{Losers 5 10 6 7}
+[Vulnerable "EW"]
+[Deal "N:K743.AJ9.KQ.A743 9865.KT53.32.K85 T2.87.AJT954.Q92 AQJ.Q642.876.JT6"]
+{Shape 2263 3433 4324 4423}
+{HCP 7 10 17 6}
+{Losers 8 9 7 9}
 [Declarer "N"]
-[Contract "5C"]
+[Contract "3D"]
 [Auction "N"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  4D    Pass
-4H    Pass  5C    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -242,23 +228,18 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:A87.AJ653.AQ2.84 QJT62.982.J9753. K94.KQT.6.AKJT52 53.74.KT84.Q9763"]
-{Shape 3316 2245 3532 5350}
-{HCP 16 5 15 4}
-{Losers 5 8 7 8}
+[Vulnerable "All"]
+[Deal "S:AQT8.A43.AT75.QJ J764.Q8.K863.K75 93.J96.Q9.AT8632 K52.KT752.J42.94"]
+{Shape 2326 3532 4342 4243}
+{HCP 7 7 17 9}
+{Losers 9 9 7 9}
 [Declarer "S"]
-[Contract "6N"]
+[Contract "3C"]
 [Auction "S"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  4N    Pass
-5C =3=    Pass  5D    Pass
-6C =4=    Pass  6N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
-[Note "3:A=0/5 or 3/5"]
-[Note "4:no !C queen"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -271,17 +252,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "NS"]
-[Deal "N:KQJ96.42.A43.AQ4 AT3.KQ763.QT8.95 852.AT.J9.KT8632 74.J985.K7652.J7"]
-{Shape 3226 2452 5233 3532}
-{HCP 8 5 16 11}
-{Losers 8 9 6 7}
+[Vulnerable "None"]
+[Deal "N:AT2.J874.AK94.A5 KJ96.Q96.7652.J4 Q74.K2.T3.QT8762 853.AT53.QJ8.K93"]
+{Shape 3226 3433 3442 4342}
+{HCP 7 10 16 7}
+{Losers 7 9 7 9}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "N"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -296,18 +276,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "EW"]
-[Deal "S:Q872.K9.AKT7.KJ9 KJT65.A52.63.Q43 43.Q83.QJ.AT7652 A9.JT764.98542.8"]
-{Shape 2326 2551 4243 5323}
-{HCP 9 5 16 10}
-{Losers 8 8 6 8}
+[Vulnerable "NS"]
+[Deal "S:AT43.A982.A9.A52 K852.J4.T76.KJ83 7.K75.KJ8432.T64 QJ96.QT63.Q5.Q97"]
+{Shape 1363 4423 4423 4234}
+{HCP 7 9 16 8}
+{Losers 8 8 7 9}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -322,20 +301,17 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "N:A8.K943.J94.AQJ4 9752.JT862..T753 KT.Q.KQT87532.K8 QJ643.A75.A6.962"]
-{Shape 2182 5323 2434 4504}
-{HCP 13 11 15 1}
-{Losers 4 8 7 9}
+[Deal "N:AK64.J985.QJ.AQ5 JT32.Q43.3.K9642 Q5.T6.AT7542.JT7 987.AK72.K986.83"]
+{Shape 2263 3442 4423 4315}
+{HCP 7 10 17 6}
+{Losers 9 8 7 8}
 [Declarer "N"]
-[Contract "6D"]
+[Contract "3D"]
 [Auction "N"]
 1N    Pass  3C =1=    Pass
-3D =2=    Pass  4N    Pass
-5H =3=    Pass  6D    Pass
-Pass  Pass
+3D =2=    Pass  Pass  Pass
 [Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
-[Note "3:A=2/5 or 5/5, Q(D)=0"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -349,17 +325,16 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AQT.QJ94.K863.KQ J5.AT6532.52.T75 96.K8.JT9.AJ8643 K87432.7.AQ74.92"]
-{Shape 2236 6142 3442 2623}
-{HCP 9 9 17 5}
-{Losers 8 6 6 9}
+[Deal "S:AKT4.T64.A3.A872 J2.QJ95.QJ8.JT94 Q53.83.KT9542.Q6 9876.AK72.76.K53"]
+{Shape 3262 4423 4324 2434}
+{HCP 7 10 15 8}
+{Losers 8 8 7 9}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -373,19 +348,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "EW"]
-[Deal "N:Q876.AKJT.53.AK6 AJ952.8764.Q8.97 K4.Q3.AKJ9642.82 T3.952.T7.QJT543"]
-{Shape 2272 2326 4423 5422}
-{HCP 13 3 17 7}
-{Losers 6 9 6 9}
+[Vulnerable "NS"]
+[Deal "N:AK32.J53.K642.A5 Q975.K962.Q7.QT6 84.Q8.J83.KJ9832 JT6.AT74.AT95.74"]
+{Shape 2236 3442 4342 4423}
+{HCP 7 9 15 9}
+{Losers 9 9 7 8}
 [Declarer "N"]
-[Contract "6D"]
+[Contract "3C"]
 [Auction "N"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  4S    Pass
-5C    Pass  6D    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -398,19 +371,19 @@ Pass  Pass
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal "N:K932.AJ.AKT.9754 T84.Q763.53.JT32 J.984.QJ9862.AQ6 AQ765.KT52.74.K8"]
-{Shape 1363 5422 4234 3424}
-{HCP 10 12 15 3}
-{Losers 7 6 7 10}
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:KT.A9873.AJ4.AT6 A32.QJT2.K86.732 J94.K.953.QJ9854 Q8765.654.QT72.K"]
+{Shape 3136 5341 2533 3433}
+{HCP 7 7 16 10}
+{Losers 9 8 7 9}
 [Declarer "S"]
-[Contract "5D"]
-[Auction "N"]
-1N    Pass  3C =1=    3S
-Pass  Pass  5D    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+[Contract "3C"]
+[Auction "S"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
+[Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -423,17 +396,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "All"]
-[Deal "N:K96.A83.AKT6.J96 T72.942.Q8732.Q7 AQ.QT7.J9.AK5432 J8543.KJ65.54.T8"]
-{Shape 2326 5422 3343 3352}
-{HCP 16 5 15 4}
-{Losers 6 9 8 10}
+[Vulnerable "None"]
+[Deal "N:K832.Q7.AQJ8.A84 QT54.AJ5.9762.K5 J7.T82.K3.QJ9632 A96.K9643.T54.T7"]
+{Shape 2326 3532 4243 4342}
+{HCP 7 7 16 10}
+{Losers 8 9 7 8}
 [Declarer "N"]
-[Contract "5C"]
+[Contract "3C"]
 [Auction "N"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  4S    Pass
-5C    Pass  Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -447,19 +419,19 @@ Pass  Pass
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal "N:AK7.KQ8.Q3.J8432 T96542.743.765.9 Q83.A2.KT9842.76 J.JT965.AJ.AKQT5"]
-{Shape 3262 1525 3325 6331}
-{HCP 9 16 15 0}
-{Losers 7 5 7 10}
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "S:AQ87.J96.AQ76.QJ KT2.A73.T8532.72 65.Q84.J4.AT9864 J943.KT52.K9.K53"]
+{Shape 2326 4423 4342 3352}
+{HCP 7 10 16 7}
+{Losers 8 8 7 9}
 [Declarer "S"]
-[Contract "4D"]
-[Auction "N"]
-1N    Pass  3C =1=    3H
-Pass  Pass  4D    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+[Contract "3C"]
+[Auction "S"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
+[Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -472,18 +444,18 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "NS"]
-[Deal "N:K75.AJ65.AT74.A5 AT3.874.92.JT943 842.Q92.KQJ865.7 QJ96.KT3.3.KQ862"]
-{Shape 3361 4315 3442 3325}
-{HCP 8 11 16 5}
-{Losers 7 6 7 10}
+[Vulnerable "EW"]
+[Deal "N:AKJ5.K43.K4.J953 832.JT6.AT6.KT62 Q9.Q75.QJ8752.84 T764.A982.93.AQ7"]
+{Shape 2362 4423 4324 3334}
+{HCP 7 10 15 8}
+{Losers 8 8 7 10}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "N"]
-1N    Pass  3C =1=    X
-3D    Pass  3N    Pass
-Pass  Pass
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
 [Note "1:1N-3C transfer to diamonds"]
+[Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -496,21 +468,18 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:AKQ5.QJ93.A84.72 97432.K62.T3.AQ9 8.AT4.KQJ972.K85 JT6.875.65.JT643"]
-{Shape 1363 3325 4432 5323}
-{HCP 13 2 16 9}
-{Losers 6 11 6 8}
+[Vulnerable "All"]
+[Deal "S:K8762.AQ8.QT5.A9 AT4.J632.J762.K7 95.54.A84.QJT852 QJ3.KT97.K93.643"]
+{Shape 2236 3433 5332 3442}
+{HCP 7 9 15 9}
+{Losers 8 9 6 9}
 [Declarer "S"]
-[Contract "6D"]
+[Contract "3C"]
 [Auction "S"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  4N    Pass
-5H =3=    Pass  6D    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
-[Note "3:A=2/5 or 5/5, Q(D)=0"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -523,18 +492,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "EW"]
-[Deal "N:K84.K974.QJ9.AQ3 JT6.Q853.K4.KJT9 A75.62.AT6532.72 Q932.AJT.87.8654"]
-{Shape 3262 4324 3433 3424}
-{HCP 8 7 15 10}
-{Losers 8 9 7 8}
+[Vulnerable "NS"]
+[Deal "N:T72.AQ98.AKT6.KJ AJ3.743.J952.A96 Q85.KT.83.QT8732 K964.J652.Q74.54"]
+{Shape 3226 4432 3442 3343}
+{HCP 7 6 17 10}
+{Losers 7 9 6 10}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "N"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -548,18 +516,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "NS"]
-[Deal "S:AK.6542.KJ6.KJT4 642.A73.9743.AQ3 J8.Q9.AQT.987652 QT9753.KJT8.852."]
-{Shape 2236 6430 2434 3343}
-{HCP 9 6 15 10}
-{Losers 8 7 7 9}
+[Vulnerable "EW"]
+[Deal "S:K2.AK43.K54.Q962 Q854.Q76.T8.KJ74 JT9.J95.AJ9762.8 A763.T82.Q3.AT53"]
+{Shape 3361 4324 2434 4324}
+{HCP 7 10 15 8}
+{Losers 9 9 6 8}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -574,20 +541,17 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "N:Q863.KQ75.A3.AT5 AJ97.98643..Q764 KT.AT.KQT762.KJ8 542.J2.J9854.932"]
-{Shape 2263 3253 4423 4504}
-{HCP 16 2 15 7}
-{Losers 5 11 6 7}
+[Deal "N:AJ8.AJ82.T85.AK8 T653.KQ96.K73.73 K92.5.J92.QJT965 Q74.T743.AQ64.42"]
+{Shape 3136 3442 3433 4432}
+{HCP 7 8 17 8}
+{Losers 8 8 8 8}
 [Declarer "N"]
-[Contract "6D"]
+[Contract "3C"]
 [Auction "N"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  4N    Pass
-5H =3=    Pass  6D    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
-[Note "3:A=2/5 or 5/5, Q(D)=0"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -600,18 +564,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "All"]
-[Deal "S:AT75.K43.A94.AQ7 J4.Q9652.83.K862 82.JT.KQJT75.J95 KQ963.A87.62.T43"]
-{Shape 2263 5323 4333 2524}
-{HCP 8 9 17 6}
-{Losers 8 8 7 8}
+[Vulnerable "None"]
+[Deal "S:KT92.AQ52.QT3.A3 AQ7.J764.J952.T6 54.98.K74.KJ7542 J863.KT3.A86.Q98"]
+{Shape 2236 4333 4432 3442}
+{HCP 7 10 15 8}
+{Losers 8 9 6 9}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "S"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -625,17 +588,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "NS"]
-[Deal "N:AK95.8653.AK5.Q6 42.AQT.98742.953 Q7.J2.Q63.AJT874 JT863.K974.JT.K2"]
-{Shape 2236 5422 4432 2353}
-{HCP 10 8 16 6}
-{Losers 8 8 7 9}
+[Vulnerable "EW"]
+[Deal "N:AKT73.KT6.A96.Q7 J84.A9872.QT42.8 Q62.J5.83.KJT964 95.Q43.KJ75.A532"]
+{Shape 3226 2344 5332 3541}
+{HCP 7 10 16 7}
+{Losers 8 8 7 8}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "N"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -650,18 +612,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:A72.AKT72.J9.A53 QJ65.63.Q8653.K6 K4.J5.K72.QJT742 T983.Q984.AT4.98"]
-{Shape 2236 4432 3523 4252}
-{HCP 10 6 16 8}
-{Losers 7 9 7 7}
+[Vulnerable "All"]
+[Deal "S:AKQ9.AT74.85.A94 652.J982.KJ.KJ32 J73.3.AT9742.QT8 T84.KQ65.Q63.765"]
+{Shape 3163 3433 4423 3424}
+{HCP 7 7 17 9}
+{Losers 8 9 6 9}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -675,18 +636,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "EW"]
-[Deal "N:AKT54.JT7.K6.A83 J32.Q852.AQJ.K74 9.AK4.987542.QT2 Q876.963.T3.J965"]
-{Shape 1363 4324 5323 3433}
-{HCP 9 3 15 13}
-{Losers 7 10 7 8}
+[Vulnerable "None"]
+[Deal "N:A53.AT7.KQJ52.Q5 KT96.J653.94.KJ6 72.K94.83.AT9873 QJ84.Q82.AT76.42"]
+{Shape 2326 4342 3352 4423}
+{HCP 7 9 16 8}
+{Losers 8 8 7 9}
 [Declarer "N"]
-[Contract "4D"]
+[Contract "3C"]
 [Auction "N"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  3N    Pass
-4D    Pass  Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -701,17 +661,16 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "S:KQJ.Q964.A4.KJ86 T8542.A82.K975.9 A9.JT.Q63.QT5432 763.K753.JT82.A7"]
-{Shape 2236 3442 3424 5341}
-{HCP 9 8 16 7}
-{Losers 7 9 6 8}
+[Deal "S:AT97.AJ4.AQJ.863 843.KQT2.95.KJ74 KJ5.95.KT7643.52 Q62.8763.82.AQT9"]
+{Shape 3262 3424 4333 3424}
+{HCP 7 8 16 9}
+{Losers 8 8 8 8}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -726,17 +685,16 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "N"]
 [Vulnerable "All"]
-[Deal "N:K95.AKQ3.T7.AJT7 A8762.82.A642.Q5 43.J5.KQJ853.K83 QJT.T9764.9.9642"]
-{Shape 2263 3514 3424 5242}
-{HCP 10 3 17 10}
-{Losers 7 9 6 8}
+[Deal "N:J9.KJ7.AQ952.KJ8 QT52.AT98.T73.A3 K87.Q64.6.QT9752 A643.532.KJ84.64"]
+{Shape 3316 4342 2353 4432}
+{HCP 7 8 15 10}
+{Losers 7 9 7 8}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "N"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -750,18 +708,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "All"]
-[Deal "S:AK972.K96.93.KQ3 QJ6.AT754.JT5.82 T53.QJ.6.AJT9764 84.832.AKQ8742.5"]
-{Shape 3217 2371 5323 3532}
-{HCP 8 9 15 8}
-{Losers 8 6 6 9}
+[Vulnerable "None"]
+[Deal "S:J97.AQJT2.A2.A95 863.K976.Q74.K74 QT2.4.KJT985.J32 AK54.853.63.QT86"]
+{Shape 3163 4324 3523 3433}
+{HCP 7 9 16 8}
+{Losers 8 8 7 9}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -776,16 +733,17 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "N"]
 [Vulnerable "NS"]
-[Deal "N:QJ.Q9753.AJ3.AQ7 9862.8.T76542.93 T74.AT4.8.KJT842 AK53.KJ62.KQ9.65"]
-{Shape 3316 4432 2533 4162}
-{HCP 8 16 16 0}
-{Losers 8 6 7 9}
+[Deal "N:AQ3.T873.AK43.AT J864.QJ5.Q76.982 K75.92.85.KJ6543 T92.AK64.JT92.Q7"]
+{Shape 3226 3442 3442 4333}
+{HCP 7 10 17 6}
+{Losers 8 9 6 10}
 [Declarer "N"]
-[Contract "4C"]
+[Contract "3C"]
 [Auction "N"]
-1N    Pass  2N =1=    X
-4C    Pass  Pass  Pass
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
+[Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -798,21 +756,18 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:AKQJ.Q42.T5.AJ63 854.JT75.AQ72.74 .63.KJ8643.KQT95 T97632.AK98.9.82"]
-{Shape 0265 6412 4324 3442}
-{HCP 9 7 17 7}
-{Losers 5 7 6 9}
+[Vulnerable "EW"]
+[Deal "S:A93.KQ42.A2.A865 Q74.AJ63.85.Q432 JT5.5.KT9643.K97 K862.T987.QJ7.JT"]
+{Shape 3163 4432 3424 3424}
+{HCP 7 7 17 9}
+{Losers 8 9 6 8}
 [Declarer "S"]
-[Contract "6D"]
+[Contract "3D"]
 [Auction "S"]
 1N    Pass  3C =1=    Pass
-3D =2=    Pass  4N    Pass
-5H =3=    Pass  6D    Pass
-Pass  Pass
+3D =2=    Pass  Pass  Pass
 [Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
-[Note "3:A=2/5 or 5/5, Q(D)=0"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -825,18 +780,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "NS"]
-[Deal "N:KQ53.874.AK3.A84 AJ9.KJ632.J2.J72 42.AQ9.T98754.Q3 T876.T5.Q6.KT965"]
-{Shape 2362 4225 4333 3523}
-{HCP 8 5 16 11}
-{Losers 8 9 7 9}
+[Vulnerable "None"]
+[Deal "N:AKT42.765.JT3.AK J653.QJT.AQ96.87 9.A92.874.QJT652 Q87.K843.K52.943"]
+{Shape 1336 3433 5332 4342}
+{HCP 7 8 15 10}
+{Losers 8 9 7 8}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "N"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -851,16 +805,15 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "S"]
 [Vulnerable "NS"]
-[Deal "S:A9.QJ96.AJ874.K5 QJ8432.T8.Q3.T64 .K72.9652.AQ8732 KT765.A543.KT.J9"]
-{Shape 0346 5422 2452 6223}
-{HCP 9 11 15 5}
-{Losers 6 7 6 9}
+[Deal "S:A632.A64.JT3.AK5 QT4.KT52.Q654.T3 KJ7.97.98.QJ9842 985.QJ83.AK72.76"]
+{Shape 3226 3442 4333 3442}
+{HCP 7 10 16 7}
+{Losers 8 8 8 8}
 [Declarer "S"]
-[Contract "5C"]
+[Contract "3C"]
 [Auction "S"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  5C    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -876,16 +829,15 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "N:AJ98.K32.KJ.KQ64 T72.A7.AQ9642.85 K5.965.T3.AJT732 Q643.QJT84.875.9"]
-{Shape 2326 4531 4324 3262}
-{HCP 8 5 17 10}
-{Losers 8 8 6 7}
+[Deal "N:AKT9.KQT4.J2.A72 J852.J32.Q964.K6 Q4.98.K53.QT9854 763.A765.AT87.J3"]
+{Shape 2236 3442 4423 4342}
+{HCP 7 9 17 7}
+{Losers 8 9 6 9}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "N"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -899,19 +851,19 @@ Pass  Pass
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
-[Dealer "W"]
-[Vulnerable "EW"]
-[Deal "W:A852.QJ8.A9.KJ76 T9764..K83.AQ953 Q3.A3.QJT542.T84 KJ.KT976542.76.2"]
-{Shape 2263 2821 4324 5035}
-{HCP 9 7 15 9}
-{Losers 8 6 7 6}
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:AK52.K654.AK7.62 J87.QJ.JT83.A974 T43.AT.42.QJT853 Q96.98732.Q965.K"]
+{Shape 3226 3541 4432 3244}
+{HCP 7 7 17 9}
+{Losers 8 8 6 10}
 [Declarer "S"]
-[Contract "4HX"]
-[Auction "W"]
-1N    Pass  3C =1=    4H
-Pass  Pass  X     Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+[Contract "3C"]
+[Auction "S"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
+[Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -924,17 +876,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "None"]
-[Deal "N:KT3.T3.AKQ2.KJ32 Q985.KQ542.9.A74 AJ2.J.JT87643.QT 764.A9876.5.9865"]
-{Shape 3172 3514 3244 4513}
-{HCP 9 4 16 11}
-{Losers 8 9 6 6}
+[Vulnerable "NS"]
+[Deal "N:AQ9.A652.K6.A943 K743.Q4.QJ3.T752 52.983.AT9854.K6 JT86.KJT7.72.QJ8"]
+{Shape 2362 4423 3424 4234}
+{HCP 7 8 17 8}
+{Losers 8 9 6 9}
 [Declarer "N"]
-[Contract "5D"]
+[Contract "3D"]
 [Auction "N"]
 1N    Pass  3C =1=    Pass
-3D =2=    Pass  5D    Pass
-Pass  Pass
+3D =2=    Pass  Pass  Pass
 [Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -949,22 +900,18 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:K94.AQ75.Q62.A73 AJT653.96.987.85 Q2.T4.AKJ543.KQ9 87.KJ832.T.JT642"]
-{Shape 2263 2515 3433 6232}
-{HCP 15 5 15 5}
-{Losers 6 8 7 9}
+[Vulnerable "EW"]
+[Deal "S:AK93.A843.Q96.A8 42.J962.AT753.Q2 QT7.QT.42.KT9765 J865.K75.KJ8.J43"]
+{Shape 3226 4333 4432 2452}
+{HCP 7 9 17 7}
+{Losers 8 10 6 9}
 [Declarer "S"]
-[Contract "6D"]
+[Contract "3C"]
 [Auction "S"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  4C    Pass
-4H    Pass  4N    Pass
-5S =3=    Pass  6D    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
-[Note "3:A=2/5 or 5/5, Q(D)=1"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -977,17 +924,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "NS"]
-[Deal "N:A6.AJ73.K65.KJ94 T7532.Q952.T98.A Q9.K8.J73.QT8632 KJ84.T64.AQ42.75"]
-{Shape 2236 4342 2434 5431}
-{HCP 8 10 16 6}
-{Losers 8 8 7 8}
+[Vulnerable "All"]
+[Deal "N:JT7.AJT6.AKQ8.Q2 AQ64.973.T93.873 32.K4.642.AT9654 K985.Q852.J75.KJ"]
+{Shape 2236 4432 3442 4333}
+{HCP 7 10 17 6}
+{Losers 8 8 7 10}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "N"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -1002,18 +948,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "EW"]
-[Deal "S:AKQ63.KQ7.Q6.T86 9872.AJT932.JT2. 54.5.873.AKQ7542 JT.864.AK954.J93"]
-{Shape 2137 2353 5323 4630}
-{HCP 9 9 16 6}
-{Losers 6 9 6 8}
+[Vulnerable "None"]
+[Deal "S:AK652.AJT.AT.T75 JT8.K874.95.QJ43 43.93.KJ8732.K98 Q97.Q652.Q64.A62"]
+{Shape 2263 3433 5323 3424}
+{HCP 7 10 16 7}
+{Losers 8 8 7 9}
 [Declarer "S"]
-[Contract "5C"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  5C    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -1026,19 +971,19 @@ Pass  Pass
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
-[Dealer "S"]
-[Vulnerable "NS"]
-[Deal "S:J9865.AQ3.AQ.QJ7 AK4.J9852.J765.T QT.K74.KT9832.93 732.T6.4.AK86542"]
-{Shape 2362 3217 5323 3541}
-{HCP 8 7 16 9}
-{Losers 8 7 7 8}
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AT.K962.KQJ4.K42 QJ6.J43.AT95.Q83 975.Q8.86.AJT976 K8432.AT75.732.5"]
+{Shape 3226 5431 2443 3343}
+{HCP 7 7 16 10}
+{Losers 9 8 6 9}
 [Declarer "N"]
-[Contract "3D"]
-[Auction "S"]
-1N    Pass  3C =1=    X
-Pass  Pass  3D    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+[Contract "3C"]
+[Auction "N"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
+[Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
@@ -1052,18 +997,16 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "S"]
 [Vulnerable "All"]
-[Deal "S:T83.AKJ8.AK87.76 QJ96.6542..KQ832 A72.Q7.QJ9653.A9 K54.T93.T42.JT54"]
-{Shape 3262 3334 3442 4405}
-{HCP 13 4 15 8}
-{Losers 7 11 7 6}
+[Deal "S:KT74.AJT8.KQ.A93 AQ82.Q94.J987.85 653.6.A63.QJT762 J9.K7532.T542.K4"]
+{Shape 3136 2542 4423 4342}
+{HCP 7 7 17 9}
+{Losers 8 8 7 8}
 [Declarer "S"]
-[Contract "6D"]
+[Contract "3C"]
 [Auction "S"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  4C    Pass
-4H    Pass  5C    Pass
-6D    Pass  Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -1077,17 +1020,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "NS"]
-[Deal "N:J64.QJT9.A75.AK6 AT98.8654.KT8.Q4 32.AK2.43.JT9732 KQ75.73.QJ962.85"]
-{Shape 2326 4252 3433 4432}
-{HCP 8 8 15 9}
-{Losers 8 7 8 9}
+[Vulnerable "None"]
+[Deal "N:AKQ6.AJT6.75.Q62 J532.K98.AJT6.T8 97.73.K94.KJ9754 T84.Q542.Q832.A3"]
+{Shape 2236 3442 4423 4342}
+{HCP 7 8 16 9}
+{Losers 8 8 6 9}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "N"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -1102,17 +1044,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "EW"]
-[Deal "S:J6.AQ53.QT65.KQJ KT74.J9.KJ74.AT9 A.T8.A983.876432 Q98532.K7642.2.5"]
-{Shape 1246 6511 2443 4243}
-{HCP 8 5 15 12}
-{Losers 7 6 6 8}
+[Vulnerable "NS"]
+[Deal "S:A942.KQ86.A65.A5 QJ6.74.K982.KT84 83.J9.QJ4.QJ9763 KT75.AT532.T73.2"]
+{Shape 2236 4531 4432 3244}
+{HCP 7 7 17 9}
+{Losers 8 8 6 8}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "S"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -1127,18 +1068,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "NS"]
-[Deal "N:JT76.AT.AJ74.AK6 A54.K98763.Q6.T8 K83.J.K8.QJ95432 Q92.Q542.T9532.7"]
-{Shape 3127 3451 4243 3622}
-{HCP 10 4 17 9}
-{Losers 6 8 7 8}
+[Vulnerable "All"]
+[Deal "N:KQ4.AJ2.Q4.A9653 AT53.9854.KJ5.84 87.KT7.AT9762.T7 J962.Q63.83.KQJ2"]
+{Shape 2362 4324 3325 4432}
+{HCP 7 9 16 8}
+{Losers 8 8 7 9}
 [Declarer "N"]
-[Contract "5C"]
+[Contract "3D"]
 [Auction "N"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  5C    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -1152,18 +1092,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "EW"]
-[Deal "S:AQ.Q852.KQ2.Q982 KJT65.KJ.JT4.AKT 3.AT7.A97653.J65 98742.9643.8.743"]
-{Shape 1363 5413 2434 5233}
-{HCP 9 0 15 16}
-{Losers 8 10 6 7}
+[Vulnerable "NS"]
+[Deal "S:AT8.K762.AQ87.A7 KQJ9.Q93.6532.93 52.AT5.T9.QJT854 7643.J84.KJ4.K62"]
+{Shape 2326 4333 3442 4342}
+{HCP 7 8 17 8}
+{Losers 8 10 6 8}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "S"]
-1N    Pass  3C =1=    Pass
-3D =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-3C transfer to diamonds"]
+1N    Pass  2N =1=    Pass
+3C =2=    Pass  Pass  Pass
+[Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -1178,16 +1117,15 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "N"]
 [Vulnerable "EW"]
-[Deal "N:A43.AT92.954.AK5 T9872.K3.QT2.T74 Q6.J84.AJ8763.QJ KJ5.Q765.K.98632"]
-{Shape 2362 3415 3433 5233}
-{HCP 11 9 15 5}
-{Losers 9 8 8 9}
+[Deal "N:975.AKJ76.Q2.AQ4 Q432.842.A4.KJ63 J86.QT.KJ9853.T2 AKT.953.T76.9875"]
+{Shape 3262 3334 3523 4324}
+{HCP 7 7 16 10}
+{Losers 9 10 7 8}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "N"]
 1N    Pass  3C =1=    Pass
-3D =2=    Pass  3N    Pass
-Pass  Pass
+3D =2=    Pass  Pass  Pass
 [Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -1203,17 +1141,16 @@ Pass  Pass
 [West "EPBot"]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AJ4.KJ92.KJ95.K6 K987.QT85.AT43.9 65.A4.Q76.QJT732 QT32.763.82.A854"]
-{Shape 2236 4324 3442 4441}
-{HCP 9 6 16 9}
-{Losers 7 9 7 7}
+[Deal "S:A73.KQJ3.KQ4.J52 KQJ2.T52.92.A863 864.4.AT8653.KT4 T95.A9876.J7.Q97"]
+{Shape 3163 3523 3433 4324}
+{HCP 7 7 16 10}
+{Losers 8 9 7 8}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -1227,17 +1164,16 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "N"]
-[Vulnerable "EW"]
-[Deal "N:A742.AJ4.AQT7.74 KQJT8.Q963.864.9 96.87.K52.AJT653 53.KT52.J93.KQ82"]
-{Shape 2236 2434 4342 5431}
-{HCP 8 9 15 8}
-{Losers 8 8 7 7}
+[Vulnerable "NS"]
+[Deal "N:Q872.AKQ5.Q73.A4 KT.T972.T642.QJ6 963.43.A8.KT9532 AJ54.J86.KJ95.87"]
+{Shape 3226 4342 4432 2443}
+{HCP 7 10 17 6}
+{Losers 8 9 5 9}
 [Declarer "N"]
-[Contract "3N"]
+[Contract "3C"]
 [Auction "N"]
 1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
+3C =2=    Pass  Pass  Pass
 [Note "1:1N-2N transfer to clubs"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -1252,18 +1188,17 @@ Pass  Pass
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:AK7.AK842.52.J54 J8432.T6.AKJ876. 95.Q7.943.AQT832 QT6.J953.QT.K976"]
-{Shape 2236 3424 3523 5260}
-{HCP 8 8 15 9}
-{Losers 8 9 7 6}
+[Vulnerable "EW"]
+[Deal "S:K73.QT43.AK.A872 AJ85.952.T6.Q964 42.J8.QJ9752.KT3 QT96.AK76.843.J5"]
+{Shape 2263 4432 3424 4324}
+{HCP 7 10 16 7}
+{Losers 8 8 6 9}
 [Declarer "S"]
-[Contract "3N"]
+[Contract "3D"]
 [Auction "S"]
-1N    Pass  2N =1=    Pass
-3C =2=    Pass  3N    Pass
-Pass  Pass
-[Note "1:1N-2N transfer to clubs"]
+1N    Pass  3C =1=    Pass
+3D =2=    Pass  Pass  Pass
+[Note "1:1N-3C transfer to diamonds"]
 [Note "2:automat"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
