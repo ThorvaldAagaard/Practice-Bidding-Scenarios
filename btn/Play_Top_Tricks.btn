@@ -1,0 +1,91 @@
+# alias: PlayTopTricks
+# button-text: Play Top Tricks
+# gib-works: true
+# bba-works: true
+# auction-filter: Auction.....\n((1C +Pass +2C|1D +Pass +2D|1H +Pass +2H|1S +Pass +2S) +Pass\nPass +Pass|(1C +Pass +1D +Pass\n2D|1C +Pass +1H +Pass\n2H|1C +Pass +1S +Pass\n2S|1D +Pass +1H +Pass\n2H|1D +Pass +1S +Pass\n2S|1H +Pass +1S +Pass\n2S) +Pass +Pass +Pass)
+# convention-card-ns: Basic-Bridge
+# convention-card-ew: Basic-Bridge
+
+/*@chat
+--- Play Your Top Tricks (beginner — partial contract)
+South opens at the 1-level in a suit; both sides stay quiet at the 2-level.
+• 1X — Pass — 2X — Pass — Pass — Pass            (North raises South's suit; S declares)
+• 1X — Pass — 1Y — Pass — 2Y — Pass — Pass — Pass  (North bids new suit, South raises; N declares)
+Y is always a suit (D/H/S, never NT). NT openings are excluded — the
+topTricksNS=8 constraint counts tricks in suit-contract terms.
+
+Teaching feature: declarer has enough TOP tricks (sure winners) to make
+8 tricks for the contract. The lesson is COUNT FIRST, CASH SECOND —
+don't get fancy with finesses or unnecessary risks when you already have
+the tricks you need.
+
+Things to think about:
+• Count your AKs and trump length tricks before leading anything.
+• If you have 8 top tricks, take them. Don't risk for overtricks unless
+  it's free.
+• If you're short of 8 top tricks, then find the ones you're missing —
+  but THIS scenario is designed so you have enough already.
+• Watch for entry problems: order your plays so each hand can lead when
+  needed.
+
+Reference: https://www.bridgebum.com/counting.php
+@chat*/
+
+dealer south
+
+#include "script/Predict-Opening-1-Bid"
+# Provides oS, oH, oD, oC, openingSuit for South.
+#include "script/topTricksSuitNS"
+# Provides topTricksNS
+#include "script/Calm-Opponents"
+# Provides calmOpps — E/W too weak or flat to overcall or double.
+
+# Opener — light minimum so the auction stops at the 2-level
+sHcp   = hcp(south) > 11 and hcp(south) < 15
+
+sOpens = oS or oH or oD or oC
+
+# Responder — 6-9 HCP. Either supports opener's suit or has a 4-card suit
+# to bid (and opener has 4-card support to raise it). The auction filter
+# selects whichever path BBA takes.
+nHcp = hcp(north) > 5 and hcp(north) < 10
+
+# Raise-support constraints: for each 1X-1Y-2Y filter path, S needs 4+ in Y
+# so the raise to 2Y is natural. Predict N's response from shape using the
+# "bid 4-card suits up the line" convention — N bids the LOWEST 4-card suit
+# higher than opener's. So after 1C, 4+D wins (even with a 4-card major);
+# 1H needs 4+H AND <4D; 1S needs 4+S AND <4H AND <4D. Etc.
+nResp1DAfter1C = oC and diamonds(north)>3
+nResp1HAfter1C = oC and hearts(north)>3   and diamonds(north)<4
+nResp1SAfter1C = oC and spades(north)>3   and diamonds(north)<4 and hearts(north)<4
+# Responder bidding a major never has 4+D (would bid 1D/raise instead).
+nResp1HAfter1D = oD and hearts(north)>3   and diamonds(north)<4
+nResp1SAfter1D = oD and spades(north)>3   and hearts(north)<4 and diamonds(north)<4
+nResp1SAfter1H = oH and spades(north)>3   and diamonds(north)<4
+
+sCanRaise = (not nResp1DAfter1C or diamonds(south)>3) and (not nResp1HAfter1C or hearts(south)>3) and (not nResp1SAfter1C or spades(south)>3) and (not nResp1HAfter1D or hearts(south)>3) and (not nResp1SAfter1D or spades(south)>3) and (not nResp1SAfter1H or spades(south)>3)
+
+# North raises opener's suit directly (the 1X-2X paths). Majors need 3+
+# support and no higher 4-card suit to bid first. Minors need 4+ support, no
+# 4-card major, AND shortness (singleton/void) — a balanced minor-support hand
+# bids 1NT, so a minor raise is always unbalanced (hence 5+ support in practice).
+nShort  = spades(north)<2 or hearts(north)<2 or diamonds(north)<2 or clubs(north)<2
+nRaiseH = oH and hearts(north)>2   and spades(north)<4
+nRaiseS = oS and spades(north)>2
+nRaiseC = oC and clubs(north)>3    and diamonds(north)<4 and hearts(north)<4 and spades(north)<4 and nShort
+nRaiseD = oD and diamonds(north)>3 and hearts(north)<4   and spades(north)<4 and nShort
+nRaises = nRaiseH or nRaiseS or nRaiseC or nRaiseD
+
+# North acts with a fit: raise opener, or bid a new suit South can raise.
+nActs = nRaises or nResp1DAfter1C or nResp1HAfter1C or nResp1SAfter1C or nResp1HAfter1D or nResp1SAfter1D or nResp1SAfter1H
+
+sOpens and sHcp and nHcp and calmOpps and topTricksNS>=8 and sCanRaise and nActs
+
+action
+average "South opens 1C   " 100 * oC,
+average "South opens 1D   " 100 * oD,
+average "South opens 1H   " 100 * oH,
+average "South opens 1S   " 100 * oS,
+average "South HCP avg    "       hcp(south),
+average "North HCP avg    "       hcp(north),
+average "NS combined HCP  "       hcp(south) + hcp(north),

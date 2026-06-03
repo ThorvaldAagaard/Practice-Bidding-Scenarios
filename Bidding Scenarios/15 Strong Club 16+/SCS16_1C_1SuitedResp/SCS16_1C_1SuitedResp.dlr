@@ -1,4 +1,4 @@
-# alias: SCS16-1SuitedResp
+# alias: SCS16_1C_1SuitedResp
 # button-text: 1-Suited Resp w/8+
 # scenario-title: --- 16+ opener w/solid or semi-solid 1-suited response
 # gib-works: false
@@ -27,4 +27,6 @@ semiSolid = (semiSolidC or semiSolidD or semiSolidH or semiSolidS) and hcp(north
 
 # South has 16+
 hcp(south)>15 and (solid or semiSolid)
+
+produce 30
 action printoneline,

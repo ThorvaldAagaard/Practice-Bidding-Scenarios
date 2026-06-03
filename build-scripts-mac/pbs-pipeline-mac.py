@@ -24,9 +24,7 @@ import sys
 import time
 
 from config import FOLDERS, OPERATIONS_ORDER, PROJECT_ROOT, DEALER_PLATFORM
-from ssh_runner import test_ssh_connection
-from operations.bba_from_pbn import BBA_MODE
-from utils.properties import get_bba_works
+from utils.properties import get_bba_works, get_bba_direct
 
 # ANSI color codes
 RED = '\033[91m'
@@ -172,11 +170,17 @@ def format_duration(seconds: float) -> str:
 # BBA and downstream operations that require bba-works=true
 BBA_AND_DOWNSTREAM = {'bba', 'filter', 'filterStats', 'biddingSheet', 'quiz'}
 
+# Dealer-side operations skipped for bba-direct scenarios (curated bba files).
+# dlr/pbs still run so the BTN's @chat metadata flows to BBO via the PBS file.
+BBA_DIRECT_SKIP = {'pbn', 'rotate', 'bba'}
+
 
 def filter_operations_for_scenario(scenario: str, operations: list) -> list:
     """
     Filter operations based on scenario capabilities.
-    For scenarios with bba-works=false, exclude bba and downstream operations.
+    - bba-works=false: exclude bba and downstream operations.
+    - bba-direct=true: skip dealer/pbn/bba steps; the bba/{scenario}.pbn file
+      is taken as the pre-curated input to filter.
 
     Args:
         scenario: Scenario name
@@ -185,6 +189,9 @@ def filter_operations_for_scenario(scenario: str, operations: list) -> list:
     Returns:
         Filtered list of operations
     """
+    if get_bba_direct(scenario):
+        return [op for op in operations if op not in BBA_DIRECT_SKIP]
+
     if get_bba_works(scenario):
         return operations
 
@@ -370,11 +377,6 @@ Operations (in order):
         help="Operations to run: '*' for all, 'op1,op2' for specific, 'op+' from op to end",
     )
     parser.add_argument(
-        "--no-ssh-check",
-        action="store_true",
-        help="Skip SSH connection check at startup",
-    )
-    parser.add_argument(
         "-q", "--quiet",
         action="store_true",
         help="Reduce output verbosity",
@@ -383,20 +385,6 @@ Operations (in order):
     args = parser.parse_args()
 
     verbose = not args.quiet
-
-    # Check SSH connection unless skipped or not needed
-    needs_ssh = DEALER_PLATFORM != "mac" or BBA_MODE != "mac"
-    if needs_ssh and not args.no_ssh_check:
-        if verbose:
-            print("Checking SSH connection to Windows VM...")
-        if not test_ssh_connection():
-            print("\nSSH connection failed. Options:")
-            print("  1. Ensure Windows VM is running")
-            print("  2. Check SSH server is enabled on Windows")
-            print("  3. Use --no-ssh-check to skip this test")
-            sys.exit(1)
-        if verbose:
-            print("  SSH connection OK\n")
 
     # Get scenarios
     scenarios = get_scenarios(args.scenario_pattern)

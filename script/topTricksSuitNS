@@ -1,0 +1,185 @@
+### Imported script: topTricksSuitNS (NS makeable tricks for SUIT contracts)
+//
+// Tricks NS can take BY FORCE in a suit contract — cashing winners, drawing
+// trumps, and ruffing losers — with NO finesse and NO promotion. This is the
+// "a beginner can make it" count, not a double-dummy maximum.
+//
+// Side suits: top winners only = min(consecutive AKQJT chain held by NS,
+//   longer single-hand length). Counted from the ACE down, so KQJ without the
+//   ace = 0 (cashing it would need promotion, which is out).
+//
+// Trump suit (no trump loser required): a deal is kept only when NS's
+//   consecutive top trumps outlast the longest single opponent holding
+//   (trumpChain >= longestOpp), so trumps draw without ever losing the lead.
+//   Trump tricks = long-hand trump length (all high after the draw) PLUS
+//   ruffs in the short hand: +1 per side suit where the short trump hand is
+//   void/singleton and the long hand has losers to ruff (3+ cards), capped
+//   by the short hand's trump length.
+//
+// Trump-suit eligibility / priority:
+//   - Major (S, H) needs 8+ combined; minor (D, C) needs 9+.
+//   - Major beats minor; within tier, longer single hand wins, tiebreak by
+//     larger total combined, then alphabetical (S>H, D>C).
+//   - If no suit qualifies, all four suits use the side-suit count.
+//
+// First-round control (allSuitsStopped): ace OR either hand void in every
+// suit. Still computed and exported, but topTricksNS NO LONGER requires it —
+// the count itself ensures the contract: if NS can cash topTricksNS tricks,
+// then NS winners + defenders' tricks <= 13, so any contract <= topTricksNS
+// makes regardless of who cashes first. topTricksNS collapses to 0 only if
+// trumps can't be drawn cleanly. A scenario that wants the cleaner
+// "win trick 1 and cash out" hands can still AND in allSuitsStopped itself.
+//
+// Exports: topTricksSpades, topTricksHearts, topTricksDiamonds, topTricksClubs,
+//          trumpS, trumpH, trumpD, trumpC, hasTrump, trumpsDrawable,
+//          allSuitsStopped, topTricksNS
+
+// ---- Has-honor checks ----
+hasAceSpades   = hascard(south, AS) or hascard(north, AS)
+hasKingSpades  = hascard(south, KS) or hascard(north, KS)
+hasQueenSpades = hascard(south, QS) or hascard(north, QS)
+hasJackSpades  = hascard(south, JS) or hascard(north, JS)
+hasTenSpades   = hascard(south, TS) or hascard(north, TS)
+
+hasAceHearts   = hascard(south, AH) or hascard(north, AH)
+hasKingHearts  = hascard(south, KH) or hascard(north, KH)
+hasQueenHearts = hascard(south, QH) or hascard(north, QH)
+hasJackHearts  = hascard(south, JH) or hascard(north, JH)
+hasTenHearts   = hascard(south, TH) or hascard(north, TH)
+
+hasAceDiamonds   = hascard(south, AD) or hascard(north, AD)
+hasKingDiamonds  = hascard(south, KD) or hascard(north, KD)
+hasQueenDiamonds = hascard(south, QD) or hascard(north, QD)
+hasJackDiamonds  = hascard(south, JD) or hascard(north, JD)
+hasTenDiamonds   = hascard(south, TD) or hascard(north, TD)
+
+hasAceClubs   = hascard(south, AC) or hascard(north, AC)
+hasKingClubs  = hascard(south, KC) or hascard(north, KC)
+hasQueenClubs = hascard(south, QC) or hascard(north, QC)
+hasJackClubs  = hascard(south, JC) or hascard(north, JC)
+hasTenClubs   = hascard(south, TC) or hascard(north, TC)
+
+// ---- Per-suit consecutive top-honor chain (combined NS) ----
+chainSpadesAfterJack  = hasTenSpades   ? 5 : 4
+chainSpadesAfterQueen = hasJackSpades  ? chainSpadesAfterJack  : 3
+chainSpadesAfterKing  = hasQueenSpades ? chainSpadesAfterQueen : 2
+chainSpadesAfterAce   = hasKingSpades  ? chainSpadesAfterKing  : 1
+chainSpades           = hasAceSpades   ? chainSpadesAfterAce   : 0
+
+chainHeartsAfterJack  = hasTenHearts   ? 5 : 4
+chainHeartsAfterQueen = hasJackHearts  ? chainHeartsAfterJack  : 3
+chainHeartsAfterKing  = hasQueenHearts ? chainHeartsAfterQueen : 2
+chainHeartsAfterAce   = hasKingHearts  ? chainHeartsAfterKing  : 1
+chainHearts           = hasAceHearts   ? chainHeartsAfterAce   : 0
+
+chainDiamondsAfterJack  = hasTenDiamonds   ? 5 : 4
+chainDiamondsAfterQueen = hasJackDiamonds  ? chainDiamondsAfterJack  : 3
+chainDiamondsAfterKing  = hasQueenDiamonds ? chainDiamondsAfterQueen : 2
+chainDiamondsAfterAce   = hasKingDiamonds  ? chainDiamondsAfterKing  : 1
+chainDiamonds           = hasAceDiamonds   ? chainDiamondsAfterAce   : 0
+
+chainClubsAfterJack  = hasTenClubs   ? 5 : 4
+chainClubsAfterQueen = hasJackClubs  ? chainClubsAfterJack  : 3
+chainClubsAfterKing  = hasQueenClubs ? chainClubsAfterQueen : 2
+chainClubsAfterAce   = hasKingClubs  ? chainClubsAfterKing  : 1
+chainClubs           = hasAceClubs   ? chainClubsAfterAce   : 0
+
+// ---- Longer single-hand length per suit ----
+longerHandSpades   = spades(south)   > spades(north)   ? spades(south)   : spades(north)
+longerHandHearts   = hearts(south)   > hearts(north)   ? hearts(south)   : hearts(north)
+longerHandDiamonds = diamonds(south) > diamonds(north) ? diamonds(south) : diamonds(north)
+longerHandClubs    = clubs(south)    > clubs(north)    ? clubs(south)    : clubs(north)
+
+// ---- NS combined length per suit ----
+nsLenS = spades(south)   + spades(north)
+nsLenH = hearts(south)   + hearts(north)
+nsLenD = diamonds(south) + diamonds(north)
+nsLenC = clubs(south)    + clubs(north)
+
+// ---- NT-style per-suit baseline = min(chain, longer-hand) ----
+topTricksSpades   = chainSpades   < longerHandSpades   ? chainSpades   : longerHandSpades
+topTricksHearts   = chainHearts   < longerHandHearts   ? chainHearts   : longerHandHearts
+topTricksDiamonds = chainDiamonds < longerHandDiamonds ? chainDiamonds : longerHandDiamonds
+topTricksClubs    = chainClubs    < longerHandClubs    ? chainClubs    : longerHandClubs
+
+// ---- Trump-suit eligibility ----
+eligS = nsLenS >= 8
+eligH = nsLenH >= 8
+eligD = nsLenD >= 9
+eligC = nsLenC >= 9
+
+// ---- Best major (longer single-hand wins, tiebreak by total, then S>H) ----
+spadesBeatsHearts = longerHandSpades > longerHandHearts or (longerHandSpades == longerHandHearts and nsLenS >= nsLenH)
+trumpS = eligS and (not eligH or spadesBeatsHearts)
+trumpH = eligH and not trumpS
+hasMajor = eligS or eligH
+
+// ---- Best minor (only when no major eligible) ----
+diamondsBeatsClubs = longerHandDiamonds > longerHandClubs or (longerHandDiamonds == longerHandClubs and nsLenD >= nsLenC)
+trumpD = (not hasMajor) and eligD and (not eligC or diamondsBeatsClubs)
+trumpC = (not hasMajor) and eligC and not trumpD
+hasTrump = trumpS or trumpH or trumpD or trumpC
+
+// ---- Trump-suit length in each hand (0 if no trump suit qualifies) ----
+sTrump = trumpS ? spades(south) : (trumpH ? hearts(south) : (trumpD ? diamonds(south) : (trumpC ? clubs(south) : 0)))
+nTrump = trumpS ? spades(north) : (trumpH ? hearts(north) : (trumpD ? diamonds(north) : (trumpC ? clubs(north) : 0)))
+eTrump = trumpS ? spades(east)  : (trumpH ? hearts(east)  : (trumpD ? diamonds(east)  : (trumpC ? clubs(east)  : 0)))
+wTrump = trumpS ? spades(west)  : (trumpH ? hearts(west)  : (trumpD ? diamonds(west)  : (trumpC ? clubs(west)  : 0)))
+
+longTrump  = sTrump > nTrump ? sTrump : nTrump
+shortTrump = sTrump > nTrump ? nTrump : sTrump
+longestOpp = eTrump > wTrump ? eTrump : wTrump
+
+// ---- Trump honor chain for whichever suit is trump ----
+trumpChain = trumpS ? chainSpades : (trumpH ? chainHearts : (trumpD ? chainDiamonds : (trumpC ? chainClubs : 0)))
+
+// No trump loser: our consecutive top honors outlast the longest single
+// opponent holding, so every opponent trump is drawn without losing the lead.
+// (No trump suit => nothing to lose.)
+trumpsDrawable = (not hasTrump) or trumpChain >= longestOpp
+
+// ---- Long / short trump hand side-suit lengths (for ruff counting) ----
+//   southLong = the NS hand holding the longer trumps. We ruff the long
+//   hand's side-suit losers in the short hand.
+southLong = sTrump >= nTrump
+shortSpades   = southLong ? spades(north)   : spades(south)
+shortHearts   = southLong ? hearts(north)   : hearts(south)
+shortDiamonds = southLong ? diamonds(north) : diamonds(south)
+shortClubs    = southLong ? clubs(north)    : clubs(south)
+longSpades    = southLong ? spades(south)   : spades(north)
+longHearts    = southLong ? hearts(south)   : hearts(north)
+longDiamonds  = southLong ? diamonds(south) : diamonds(north)
+longClubs     = southLong ? clubs(south)    : clubs(north)
+
+// ---- Ruff tricks: +1 per SIDE suit where the short trump hand is
+//   void/singleton and the long hand has losers there (3+ cards). Conservative
+//   (one ruff per short suit), capped by the short hand's trump length. ----
+ruffSpades   = (not trumpS) and shortSpades   <= 1 and longSpades   >= 3
+ruffHearts   = (not trumpH) and shortHearts   <= 1 and longHearts   >= 3
+ruffDiamonds = (not trumpD) and shortDiamonds <= 1 and longDiamonds >= 3
+ruffClubs    = (not trumpC) and shortClubs    <= 1 and longClubs    >= 3
+ruffRaw   = ruffSpades + ruffHearts + ruffDiamonds + ruffClubs
+ruffCount = ruffRaw < shortTrump ? ruffRaw : shortTrump
+
+// ---- Trump-suit tricks = long-hand trumps drawn + short-hand ruffs ----
+trumpTricks = longTrump + ruffCount
+
+// ---- Per-suit contribution: trump-formula if this is trump, else side-suit ----
+contribS = trumpS ? trumpTricks : topTricksSpades
+contribH = trumpH ? trumpTricks : topTricksHearts
+contribD = trumpD ? trumpTricks : topTricksDiamonds
+contribC = trumpC ? trumpTricks : topTricksClubs
+
+// ---- First-round control per suit: ace OR either hand void ----
+stoppedSpades   = hasAceSpades   or spades(south)   == 0 or spades(north)   == 0
+stoppedHearts   = hasAceHearts   or hearts(south)   == 0 or hearts(north)   == 0
+stoppedDiamonds = hasAceDiamonds or diamonds(south) == 0 or diamonds(north) == 0
+stoppedClubs    = hasAceClubs    or clubs(south)    == 0 or clubs(north)    == 0
+
+allSuitsStopped = stoppedSpades and stoppedHearts and stoppedDiamonds and stoppedClubs
+
+// ---- Total (capped at 13). Collapses to 0 only if trumps can't be drawn
+//   cleanly. First-round control is NOT required here — see header. ----
+topTricksRaw = contribS + contribH + contribD + contribC
+topTricksCapped = topTricksRaw < 14 ? topTricksRaw : 13
+topTricksNS  = trumpsDrawable ? topTricksCapped : 0

@@ -18,7 +18,7 @@ setDealerCode(`
 /*
 convention-card-ns: 21GF-DEFAULT
 convention-card-ew: 21GF-GIB
-auction-filter: Auction.....\n1N +Pass +2C
+auction-filter: Contract..[5-7](?:.*\n){5}1N +Pass +2C
 */
 produce 1000
 dealer south
@@ -76,4 +76,4 @@ action printoneline,
 Script
 Button,Slam after Stayman,\n\
 --- Slam after Stayman or Smolen.\n\
-%SlamAfterStayman%,width=50%
+%SlamAfterStayman%

@@ -18,7 +18,7 @@ setDealerCode(`
 /*
 convention-card-ns: 21GF-NoInvertedMinor
 convention-card-ew: 21GF-GIB
-auction-filter: Auction.....\n(1C +Pass +2C)|(1D +Pass +2D)
+auction-filter: Auction.....\n(1C +Pass +2N)|(1D +Pass +2N)
 */
 # Minor Opening w/Invitational Raise
 dealer south
@@ -185,4 +185,4 @@ Button,1m & Inv Raise,\n\
 1!D - 2!S shows 4+ card support and invitational values 11-12 HCP\n\
 Note:  Responder has no new suit to bid at the 1-level，2+ Dummy\n\
 Points，and opener's suit is responder's longest suit.\n\
-%MinorOpenerInvRaise%,width=50% backgroundColor=lightpink
+%MinorOpenerInvRaise%,backgroundColor=lightpink

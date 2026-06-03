@@ -19,10 +19,16 @@
 [Action] Auction Compare|%startBBACompare%|27
 [Action] ↕|%toggleRotate%|9
 
+[Section] Beginners Bidding
+Basic_What_To_Open,                   Basic_Overcall
+Basic_Minor,                          Basic_Major
+Basic_NT,                             Basic_Takeout_Double
+Basic_Weak_2,                         Play_Top_Tricks
+
 [Section] Minor Suit Sequences
 Minor_Suit_Opener,                    1m_1x_2m
 Inverted_Minors,                      Minor_Game_Or_Slam
-Splinters_after_Minor,                ---
+Splinters_after_Minor,                Fit_Showing_Jumps
 1m-1N,                                1m-2N
 1m-3N,                                1m-1_2_or_3_NT
 
@@ -40,7 +46,7 @@ Notrump_18-19,                        Splinters_By_Opener
 Misfit,                               (Misfit_06-10:blue, Misfit_11-12:blue, Misfit_13-Plus:blue)
 Misfit6-5,                            ---
 Preemptive_Raise,                     Goulash
-Transfer_Advances,                    ---
+Transfer_Advances,                    DOPI_ROPI
 
 [Section] Major Suit Sequences
 Major_Opener,                         Major_Suit_Fit
@@ -58,13 +64,15 @@ Xfer_after_1M_X,                      Drury
 [Section] Game Forcing Sequences
 Two_Over_One,                         Serious
 Jacoby_2N:38%, Jacoby_2N_Leveled:blue:12%, Jacoby_2N_4x_void:38%, Jacoby_2N_4x_void_Leveled:blue:12%
-Splinters,                            ---
+Splinters,                            1M-3N_Picture_Bid
 Game_Forcing_2C,                      Benjamin_2D
 Gerber_By_Responder,                  Gerber_By_Opener
 Last_Train_Game_Try,                  Last_Train_GT2
 Soloway_Jump_Shift,                   (Soloway_Jump_Shift_Type-1:blue, Soloway_Jump_Shift_Type-2:blue, Soloway_Jump_Shift_Type-3:blue, Soloway_Jump_Shift_Type-4:blue)
+Six_Key_RKC,                          ---
 
 [Section] Notrump Sequences
+GIB_1N_Basic,                         ---
 GIB_1N,                               GIB_1N5422
 GIB_1N-P-2C,                          Stayman
 Jacoby_Transfer,                      Jacoby_Super-Accept
@@ -74,6 +82,7 @@ MST_or_MSS,                           ---
 Smolen,                               NT_Splinter
 Runout_after_1N_X,                    ---
 1N,                                   1N_with_Singleton
+Puppet_Stayman_1N,                    ---
 DropDead_Crawling,                    Size_Asking_Minor_Suit_Stayman
 Smolen_Invitational,                  1N_5M_and_6m
 ---,                                  ---
@@ -83,7 +92,8 @@ Slam_after_Stayman_or_Jacoby_w30plus, Slam_after_Stayman_or_Jacoby_w31plus
 Exclusion_After_Sta_Jac,              ---
 Notrump_18-19,                        ---
 2N,                                   2N_and_3C_Response
-Smolen_after_2N,                      2N_Puppet
+Puppet_Stayman_2N,                    ---
+Smolen_after_2N,                      ---
 2N_and_Balanced,                      2N_and_Transfers
 2N_and_MSS,                           2N_and_1_Minor
 Two_NT_in_Fourth_Seat,                ---
@@ -114,6 +124,7 @@ OBAR_BIDS,                            OBAR_BIDS11
 Scrambling_2NT,                       GIB_Sandwich_NT_BPH
 After_Partner_Overcalls,              Jump_Overcalls
 Jump_Cuebid_Weak,                     Jump_Cuebid_Strong
+Responsive_Double,                    Responsive_Double_after_Overcall
 Western_Cue_Bid,                      ---
 McCabe_after_WJO,                     Game_Overcalls
 We_Overcall_1N,                       ---
@@ -138,6 +149,7 @@ Lead_Directing_Double,                Suction,
 Rule_of_2,                            Mixed_Raise_In_Comp
 3N_over_RHO_3x,                       3N_over_LHO_3x
 We_X_Opps_Weak_2,                     We_X_Opps_Preempt
+CRASH,                                ---
 
 [Section] They Compete in Our Auctions
 Support_Double,                       Negative_Double
@@ -145,9 +157,9 @@ Double_double,                        Maximal_Double
 Rosenkranz_Double,                    ---
 After_Opp_Overcalls,                  WB5_Collante
 Trap_Pass,                            Trap_Pass_Maybe
-Dealing_with_Overcalls_Weak,          Dealing_with_Ovecalls_Strong
+Dealing_with_Overcalls_Weak,          Dealing_with_Overcalls_Strong
 Opps_Takeout_X,                       Xfer_after_1M_X
-Equal_Level_Conversion,               Responsive_Double
+Equal_Level_Conversion,               ---
 Opps_Takeout_X_We_XX,                 GIB_Overcall_with_4
 Opps_Michaels_and_Unusual,            ---
 Opps_Overcall_1NT,                    After_1x_1N
@@ -227,5 +239,20 @@ Vics_2C_Relay,                        Vics_Bal_Resp_to_1m
 Any_5422_with_15-16,                  Any_5422_with_15-17
 Spear,                                Reverse_Flannery
 WB5_Roudi,                            WB5_Rodrigue
+
+[Major] Play of the Hand
+
+[Section] Finesses
+Finesse_Simple,                       Two_Way_Finesse
+Choice_Of_Finesses,                   To_Finesse_Or_Not_To_Finesse
+Rabbis_Rule,                          ---
+
+[Section] Notrump Play
+Hold_Up_3N,                           Suit_Promotion
+Play_Top_Tricks_NT,                   ---
+
+[Section] Suit Contract Play
+Side_Suit_Ruff_Before_Trump,          Endplay_3rd_Round_Strip
+Play_Top_Tricks_Suit,                 ---
 
 [Major] -- Facebook: Practice Bidding Scenarios --|https://www.facebook.com/groups/598917089100836

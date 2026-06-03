@@ -1,10 +1,14 @@
-# alias: WeakNT11
+# alias: WeakNT11to16
 # button-text: WeakNT 11-16
 # gib-works: false
 # bba-works: false
 # auction-filter: Auction.....\n1NT?
 # convention-card-ns: Precision
 # convention-card-ew: 21GF-GIB
+
+/*@chat
+--- South has a semi-balanced hand with 11-16 HCP and not 5/4 in the majors
+@chat*/
 
 produce 1000
 dealer south

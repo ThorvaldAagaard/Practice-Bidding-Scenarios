@@ -1,0 +1,87 @@
+### Imported script: topTricksNS (NS combined Top Tricks)
+//
+// Per-suit topTricks = min(consecutive top-honor chain held by NS,
+//                          longer single-hand length in that suit).
+//
+// Chain rules:
+//   0 = no A in NS    1 = A only    2 = AK    3 = AKQ    4 = AKQJ    5 = AKQJT
+//
+// Cap rule:
+//   Split chains require entries to materialize. We assume entries exist,
+//   so AK opposite Qxx (longer hand = 3) counts as 3 top tricks, but AK
+//   opposite Qx (longer hand = 2) counts only 2.
+//
+// Stopper rule:
+//   In notrump, an unstopped suit (no A in NS for that suit) lets opps run
+//   their length on the opening lead before declarer can cash any winners.
+//   So if any suit lacks an A in NS, topTricksNS collapses to 0.
+//
+// Exports: topTricksSpades, topTricksHearts, topTricksDiamonds,
+//          topTricksClubs, topTricksNS
+
+// ---- Has-honor checks (either hand) ----
+hasAceSpades   = hascard(south, AS) or hascard(north, AS)
+hasKingSpades  = hascard(south, KS) or hascard(north, KS)
+hasQueenSpades = hascard(south, QS) or hascard(north, QS)
+hasJackSpades  = hascard(south, JS) or hascard(north, JS)
+hasTenSpades   = hascard(south, TS) or hascard(north, TS)
+
+hasAceHearts   = hascard(south, AH) or hascard(north, AH)
+hasKingHearts  = hascard(south, KH) or hascard(north, KH)
+hasQueenHearts = hascard(south, QH) or hascard(north, QH)
+hasJackHearts  = hascard(south, JH) or hascard(north, JH)
+hasTenHearts   = hascard(south, TH) or hascard(north, TH)
+
+hasAceDiamonds   = hascard(south, AD) or hascard(north, AD)
+hasKingDiamonds  = hascard(south, KD) or hascard(north, KD)
+hasQueenDiamonds = hascard(south, QD) or hascard(north, QD)
+hasJackDiamonds  = hascard(south, JD) or hascard(north, JD)
+hasTenDiamonds   = hascard(south, TD) or hascard(north, TD)
+
+hasAceClubs   = hascard(south, AC) or hascard(north, AC)
+hasKingClubs  = hascard(south, KC) or hascard(north, KC)
+hasQueenClubs = hascard(south, QC) or hascard(north, QC)
+hasJackClubs  = hascard(south, JC) or hascard(north, JC)
+hasTenClubs   = hascard(south, TC) or hascard(north, TC)
+
+// ---- Per-suit consecutive top-honor chain (combined NS) ----
+chainSpadesAfterJack  = hasTenSpades   ? 5 : 4
+chainSpadesAfterQueen = hasJackSpades  ? chainSpadesAfterJack  : 3
+chainSpadesAfterKing  = hasQueenSpades ? chainSpadesAfterQueen : 2
+chainSpadesAfterAce   = hasKingSpades  ? chainSpadesAfterKing  : 1
+chainSpades           = hasAceSpades   ? chainSpadesAfterAce   : 0
+
+chainHeartsAfterJack  = hasTenHearts   ? 5 : 4
+chainHeartsAfterQueen = hasJackHearts  ? chainHeartsAfterJack  : 3
+chainHeartsAfterKing  = hasQueenHearts ? chainHeartsAfterQueen : 2
+chainHeartsAfterAce   = hasKingHearts  ? chainHeartsAfterKing  : 1
+chainHearts           = hasAceHearts   ? chainHeartsAfterAce   : 0
+
+chainDiamondsAfterJack  = hasTenDiamonds   ? 5 : 4
+chainDiamondsAfterQueen = hasJackDiamonds  ? chainDiamondsAfterJack  : 3
+chainDiamondsAfterKing  = hasQueenDiamonds ? chainDiamondsAfterQueen : 2
+chainDiamondsAfterAce   = hasKingDiamonds  ? chainDiamondsAfterKing  : 1
+chainDiamonds           = hasAceDiamonds   ? chainDiamondsAfterAce   : 0
+
+chainClubsAfterJack  = hasTenClubs   ? 5 : 4
+chainClubsAfterQueen = hasJackClubs  ? chainClubsAfterJack  : 3
+chainClubsAfterKing  = hasQueenClubs ? chainClubsAfterQueen : 2
+chainClubsAfterAce   = hasKingClubs  ? chainClubsAfterKing  : 1
+chainClubs           = hasAceClubs   ? chainClubsAfterAce   : 0
+
+// ---- Longer single-hand length per suit ----
+longerHandSpades   = spades(south)   > spades(north)   ? spades(south)   : spades(north)
+longerHandHearts   = hearts(south)   > hearts(north)   ? hearts(south)   : hearts(north)
+longerHandDiamonds = diamonds(south) > diamonds(north) ? diamonds(south) : diamonds(north)
+longerHandClubs    = clubs(south)    > clubs(north)    ? clubs(south)    : clubs(north)
+
+// ---- Per-suit top tricks = min(chain, longer hand) ----
+topTricksSpades   = chainSpades   < longerHandSpades   ? chainSpades   : longerHandSpades
+topTricksHearts   = chainHearts   < longerHandHearts   ? chainHearts   : longerHandHearts
+topTricksDiamonds = chainDiamonds < longerHandDiamonds ? chainDiamonds : longerHandDiamonds
+topTricksClubs    = chainClubs    < longerHandClubs    ? chainClubs    : longerHandClubs
+
+// ---- Total (collapses to 0 if any suit unstopped) ----
+allSuitsStopped = hasAceSpades and hasAceHearts and hasAceDiamonds and hasAceClubs
+topTricksRaw    = topTricksSpades + topTricksHearts + topTricksDiamonds + topTricksClubs
+topTricksNS     = allSuitsStopped ? topTricksRaw : 0

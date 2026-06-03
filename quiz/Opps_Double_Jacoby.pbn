@@ -63,7 +63,7 @@ You open 1NT, partner responds 2\D, opponent bids X. What do you bid with each o
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>2NT</i>}
+{<i>3\H</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -82,7 +82,7 @@ You open 1NT, partner responds 2\D, opponent bids X. What do you bid with each o
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>2NT</i>}
+{<i>3\H</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -96,7 +96,7 @@ You open 1NT, partner responds 2\D, opponent bids X. What do you bid with each o
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AQ85.AK8.87.KJT4 ... ... ..."]
+[Deal "S:AQ9.T52.KT9.AKJ8 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -115,7 +115,7 @@ You open 1NT, partner responds 2\D, opponent bids X. What do you bid with each o
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:KJ54.AK4.A742.T4 ... ... ..."]
+[Deal "S:AQ85.AK8.87.KJT4 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -134,12 +134,12 @@ You open 1NT, partner responds 2\D, opponent bids X. What do you bid with each o
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AK87.Q2.AT62.KT5 ... ... ..."]
+[Deal "S:A752.A5.KT6.A842 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>XX</i>}
+{<i>3\C</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -153,135 +153,7 @@ You open 1NT, partner responds 2\D, opponent bids X. What do you bid with each o
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AT32.J9.J84.AKQ9 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event "Exercise Two — Responder's Rebid"]
-[Site ""]
-[Date ""]
-{<b>Exercise Two — Responder's Rebid</b>
-
-As responder, what will you rebid with each of these hands?}
-[Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:T98.T8762.T.KJ43 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\H</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-[Auction "N"]
-1NT Pass 2D X 2NT 3D
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:K96.KQ975.86.953 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>3\H</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-[Auction "N"]
-1NT Pass 2D X 2NT 3D
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:973.KT9764..Q872 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>4\H</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-[Auction "N"]
-1NT Pass 2D X 2NT 3D
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:732.QJ763.42.875 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-[Auction "N"]
-1NT Pass 2D X 2H 3D
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:QJ4.A8763.5.8764 ... ... ..."]
+[Deal "S:K752.A9.Q97.AQ82 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -289,31 +161,6 @@ As responder, what will you rebid with each of these hands?}
 {<i>3\C</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
-[Auction "N"]
-1NT Pass 2D X XX Pass
-+
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal "S:T.AQ9853.954.T32 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>2\H</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-[Auction "N"]
-1NT Pass 2D X XX Pass
-+
 
 [Event ""]
 [Site ""]
@@ -383,7 +230,7 @@ As responder, what will you rebid with each of these hands?}
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>1-1)</b> <i>2NT</i>}
+{<b>1-1)</b> <i>3\H</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -401,7 +248,7 @@ As responder, what will you rebid with each of these hands?}
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>1-2)</b> <i>2NT</i>}
+{<b>1-2)</b> <i>3\H</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -455,7 +302,7 @@ As responder, what will you rebid with each of these hands?}
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>1-5)</b> <i>XX</i>}
+{<b>1-5)</b> <i>3\C</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -473,134 +320,7 @@ As responder, what will you rebid with each of these hands?}
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>1-6)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-{<b><i>Exercise Two Answers</i></b>}
-[Board "2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-[BCFlags "600023"]
-[Hidden "NESW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-1"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>2-1)</b> <i>3\H</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-2"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>2-2)</b> <i>3\H</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-3"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>2-3)</b> <i>4\H</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-4"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>2-4)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>2-5)</b> <i>3\C</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "2-6"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>2-6)</b> <i>2\H</i>}
+{<b>1-6)</b> <i>3\C</i>}
 [BCFlags "17"]
 
 [Event ""]
