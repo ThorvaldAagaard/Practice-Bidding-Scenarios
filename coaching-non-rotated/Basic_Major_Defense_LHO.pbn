@@ -1,0 +1,1049 @@
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "1"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:Q9.AT5.8764.A983 K8654.K43.QJ9.KQ T32.Q987.AKT5.72 AJ7.J62.32.JT654"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "After_1M_2M board 13, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 2♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card DK] [NEXT]
+
+[show NESW]
+
+Lead the ♦K — top of your A-K. It is the safe, informative start: you keep the lead, and once dummy appears you will know whether to cash the ace, switch, or wait. With ♦A-K-T-5 you own the suit — lead the king, take stock, then decide.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "2"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:63.J2.T532.T7643 AKJ54.943.A9.AKJ 972.AK76.Q86.Q52 QT8.QT85.KJ74.98"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N board 72, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+4S     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card HK] [NEXT]
+
+[show NESW]
+
+Lead the ♥K from your A-K. Cashing the king keeps you on lead and lets you read dummy before committing, and your ♥A behind it means the suit cannot run away. See what comes down, then choose your second card.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "3"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T6.T942.AQ952.A8 AKQJ8.KQJ.T8.KQ5 94.63.J764.JT932 7532.A875.K3.764"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N board 259, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+4S     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card CJ] [NEXT]
+
+[show NESW]
+
+Lead the ♣J. With ♣J-T-9 you hold three touching cards atop your one long suit, so the jack is free — it cannot cost, and it promises partner the ten and nine sitting behind it. Diamonds (♦J-7-6-4) is ragged by comparison; against a brisk 1♠–4♠ you attack from your solid suit and keep coming back to clubs every time you are on lead.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "4"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:9.9832.Q873.K753 A3.AKJ54.J62.AQJ T87.6.AK94.T9862 KQJ6542.QT7.T5.4"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N board 1, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+4H     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card DK] [NEXT]
+
+[show NESW]
+
+Lead the ♦K — top of A-K. You keep the lead and get a look at dummy before deciding, and with the ♦A still in hand the suit is yours to control. Cash the king, then read the table.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "5"]
+[OriginalBoard "5"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:K4.J752.T972.JT5 AQ762.AKQ8.Q8.A9 T8.T943.J3.KQ432 J953.6.AK654.876"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "12"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N board 482, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   4S     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card CK] [NEXT]
+
+[show NESW]
+
+Lead the ♣K — the top of your ♣K-Q. From touching honours you lead the top card: it cannot cost a trick, it tells partner you hold the queen, and it goes straight to work on your five-card suit before declarer can set up discards.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "6"]
+[OriginalBoard "6"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:K985..QT754.QT98 643.AKQ63.AKJ.K6 QJT72.75.8.J5432 A.JT9842.9632.A7"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "13"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_Transfers board 463, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   4H     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the ♠Q — top of your ♠Q-J-T. A solid sequence is the safe, attacking lead against a suit contract: you knock out a high card and build winners in your long spade suit while the rest of the sequence stays poised over declarer.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "7"]
+[OriginalBoard "7"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:QT3.AQT7.Q97.T76 AK862.J9.T8.AJ98 97.864.AK63.K532 J54.K532.J542.Q4"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "After_1M_2M board 6, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 2♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card DK] [NEXT]
+
+[show NESW]
+
+Lead the ♦K from A-K. Against their quiet 2♠ the king is the safe, talkative start — you hold the lead and see dummy, and the ♦A guards the suit. Take a look, then pick your next move.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "8"]
+[OriginalBoard "8"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:Q8762.973.KT76.3 AK.AQ852.Q5.KQ84 94.J6.A94.JT9752 JT53.KT4.J832.A6"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_3C_Response board 382, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+4H     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card CJ] [NEXT]
+
+[show NESW]
+
+Lead the ♣J — top of your ♣J-T-9. From a sequence you lead the top honour: it cannot cost, it promises the ten and nine, and it develops your six-card club suit before declarer can pitch losers on a side suit.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "9"]
+[OriginalBoard "9"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:T6.9873.K643.Q52 AKQJ97.J6.A2.K87 82.KQ52.975.AJ94 543.AT4.QJT8.T63"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "3N_Rebid_by_Opener board 189, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+4S     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card HK] [NEXT]
+
+[show NESW]
+
+Lead the ♥K — top of your ♥K-Q. Touching honours make the clean attacking lead: drive out declarer's ace and your queen, with the heart length behind it, takes over. A safe, constructive start.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "10"]
+[OriginalBoard "10"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:Q72.J6.J64.KJ863 AK85.AK753.K5.92 JT94.Q4.AQT832.5 63.T982.97.AQT74"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "1N board 27, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+4H     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Lead the ♠J — top of your ♠J-T-9 sequence. A three-card sequence is the textbook attacking lead: it cannot cost and it promises the run beneath. Your long diamonds tempt, but A-Q-T is not a sequence — leading from it could cost a trick, so the spade sequence is the safer, more constructive start.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "11"]
+[OriginalBoard "11"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:J987.64.T86.KJ53 A4.KJT85.AK.AQ72 KQ652.Q3.43.9864 T3.A972.QJ9752.T"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "13"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_1_Minor board 258, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   4H     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card SK] [NEXT]
+
+[show NESW]
+
+Lead the ♠K — top of your ♠K-Q. From touching honours lead the top: knock out the ace, set up your five-card spade suit, and keep the queen working behind it.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "12"]
+[OriginalBoard "12"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:A98.87.Q987.7653 Q64.AKQJ32.64.AK JT73.94.AKT2.T94 K52.T65.J53.QJ82"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "3N_Rebid_by_Opener board 467, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+4H     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card any:SJ,DK] [NEXT]
+
+[show NESW]
+
+Two good leads here, so either is accepted. The ♠J tops your ♠J-T sequence — safe and attacking. Or cash the ♦K from your ♦A-K to keep the lead and look at dummy first. The spade builds a suit; the diamond keeps control and gathers information — pick the plan you like.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "13"]
+[OriginalBoard "13"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QJ85.K75.AQT7.63 AK4.AQ963.83.J92 976.2.J9542.AK74 T32.JT84.K6.QT85"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2H"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "1N board 270, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 2♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card CK] [NEXT]
+
+[show NESW]
+
+Lead the ♣K from A-K. Against 2♥ the king is the safe, informative lead — you keep the lead, see dummy, and your ♣A still guards the suit. Cash it, then decide whether to continue clubs or shift.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "14"]
+[OriginalBoard "14"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:976432.J65.A3.J5 KQ.AQ432.K8.AK97 JT85..Q976.QT642 A.KT987.JT542.83"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "12"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_Transfers board 12, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   4H     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Lead the ♠J — top of your ♠J-T. A two-card touching honour at the head of a four-card suit is a fine attacking lead: the jack cannot cost and promises the ten. With a void in their trump suit you have no ruffing value, so push to establish side-suit winners quickly.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "15"]
+[OriginalBoard "15"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:J964.74.AT85.KQ8 AQ87.AKT52.Q.JT6 3.Q93.97632.A753 KT52.J86.KJ4.942"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3H"]
+[Result "9"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "Basic_Major board 35, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+3H     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 3♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card S3] [NEXT]
+
+[show NESW]
+
+Lead your singleton ♠3. Three small trumps and the ♣A for an entry is exactly the shape that wants a ruff: lead your lone spade now, and the moment partner can put you back in spades you trump one — a trick your hand makes no other way.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "16"]
+[OriginalBoard "16"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AQJ.J4.T743.8654 82.AK652.AQ.AQJ9 KT963.98.9862.K2 754.QT73.KJ5.T73"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_Balanced board 302, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+4H     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card ST] [NEXT]
+
+[show NESW]
+
+Lead the ♠T — the top of your interior sequence ♠K-T-9. With a high honour, a gap, then a touching run, you lead the top of the run: it develops your long spades while the king stays poised over declarer, ready to score.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "17"]
+[OriginalBoard "17"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:J7.QJT9632.T7.J2 AK653.A4.A943.K7 Q82.8.Q65.AQ9863 T94.K75.KJ82.T54"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "Basic_Major board 271, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+4S     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card H8] [NEXT]
+
+[show NESW]
+
+Lead your singleton ♥8. With three small trumps and the ♣A as an outside entry, go hunting for a ruff: lead your lone heart, and once you are back on lead a heart ruff is a trick your high cards alone cannot make.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "18"]
+[OriginalBoard "18"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:82.KJT5.J94.AJ94 AKQ93.43.AT52.Q2 764.A9872.8.K653 JT5.Q6.KQ763.T87"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "9"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "After_1M_2M board 409, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 2♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card D8] [NEXT]
+
+[show NESW]
+
+Lead your singleton ♦8. Short trumps and the ♥A for a sure entry make this a ruff hunt: lead your lone diamond, and if partner can win and return one — or read your shortness — you trump it for a trick your hand can't otherwise get.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "19"]
+[OriginalBoard "19"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:6.KQ964.T96.AJ53 AKJ72.AT.KQ7.K84 8.J8732.852.QT92 QT9543.5.AJ43.76"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "12"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_Transfers board 201, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   4S     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card CT] [NEXT]
+
+[show NESW]
+
+Lead the ♣T — top of the interior run in ♣Q-T-9. A higher honour, a gap, then a touching pair: lead the top of the run to build your clubs without burying the queen, which sits over declarer for later.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "20"]
+[OriginalBoard "20"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:Q8642.643.Q6.QJ9 AK97.AKQJ7.42.K5 T5.98.AJT85.8632 J3.T52.K973.AT74"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "12"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N board 377, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+4H     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card DJ] [NEXT]
+
+[show NESW]
+
+Lead the ♦J — top of your interior sequence ♦A-J-T. Lead the jack, the top of the touching run, not the ace: it develops your five-card diamond suit while the ace stays behind, ready to take a trick on its own.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "21"]
+[OriginalBoard "21"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:Q5.954.QJ84.KJ76 AKT72.KQJ2.T62.Q 943.3.K973.AT542 J86.AT876.A5.983"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "11"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "After_1M_2M board 424, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 2♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card H3] [NEXT]
+
+[show NESW]
+
+Lead your singleton ♥3. Short trumps and the ♣A for an entry make this a ruff hunt: lead your lone heart, and when you get in, a heart ruff is a trick your hand can't make any other way.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "22"]
+[OriginalBoard "22"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:J8.63.AQJ932.T86 AT765.752.K.AKQ9 K43.AK984.T765.7 Q92.QJT.84.J5432"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "9"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "Basic_Overcall board 41, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+3S     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 3♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card any:C7,HK] [NEXT]
+
+[show NESW]
+
+Two reasonable plans, so either is accepted. Cash the ♥K from your ♥A-K — safe, and you see dummy before committing. Or lead your singleton ♣7 hoping for a ruff: with three small trumps and the ♥A-K as entries, a club ruff could be the setting trick. The king is the solid choice, the singleton the ambitious one.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "23"]
+[OriginalBoard "23"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J943.73.T87.KQT4 A8.AKQJ62.KQ9.52 QT5.4.J6432.A963 K762.T985.A5.J87"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "3N_Rebid_by_Opener board 75, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+4H     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card D3] [NEXT]
+
+[show NESW]
+
+Nothing leaps out here. Your honours are scattered — leading from ♠Q-T or away from the ♣A would risk a trick — so attack your longest suit instead: the ♦3, fourth-best from ♦J-6-4-3-2. A workmanlike, low-risk start when no lead is obviously best.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "24"]
+[OriginalBoard "24"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:9.AT7.T872.Q9876 AK865.KQ42.A6.AT QJT4.953.J93.J32 732.J86.KQ54.K54"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_Balanced board 293, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+4S     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card H9] [NEXT]
+
+[show NESW]
+
+A tricky one — your only sequence (♠Q-J-T) is in their trump suit, no use on lead. With three ragged suits outside, lead the ♥9: top of nothing, telling partner you have no honour in hearts. A safe, honest card when there is nothing to attack.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "25"]
+[OriginalBoard "25"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:753.Q98654.6.KT3 AKQ62.AJ7.K3.A76 T.KT32.QT84.J842 J984..AJ9752.Q95"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "12"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_1_Minor board 139, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   4S     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card C2] [NEXT]
+
+[show NESW]
+
+No standout. Your singleton ♠T is a trump, so no ruff there, and your red holdings are middling — so lead the ♣2, fourth-best from ♣J-8-4-2, a quiet stab at your longest side suit. The workmanlike choice with nothing clear-cut.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "26"]
+[OriginalBoard "26"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:.AT87542.K83.876 KQJT8.KQ.76.AKQ5 A9765.9.T954.T42 432.J63.AQJ2.J93"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N board 399, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+4S     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card H9] [NEXT]
+
+[show NESW]
+
+Awkward — you hold five trumps to the ace (♠A-9-7-6-5), so a singleton lead brings no ruff. Lead the ♥9, your singleton, as a passive, safe card and let your trump length fetch tricks on its own. Sit back and let the spades do the work.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "27"]
+[OriginalBoard "27"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:QT85.T5.T94.AKT5 K63.AKQJ97.K2.Q4 72.43.A653.J9762 AJ94.862.QJ87.83"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "3N_Rebid_by_Opener board 20, rotated 90 so South is on lead"]
+[Auction "E"]
+1H     Pass   2H     Pass
+4H     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♥ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card S7] [NEXT]
+
+[show NESW]
+
+No clear lead. Leading from the ♦A (an unsupported ace) or away from the ♣J both court trouble, so choose safety: the ♠7, top of a doubleton. A passive card that gives nothing away while you wait to read declarer's plan.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "28"]
+[OriginalBoard "28"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:Q5.A9765.843.KJT AKT83.QJ.KQJ9.A8 J94.T84.T6.Q7532 762.K32.A752.964"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N board 344, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   2S     Pass
+4S     Pass   Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card C3] [NEXT]
+
+[show NESW]
+
+Nothing jumps out. Your longest suit is clubs, so lead the ♣3 — fourth-best from ♣Q-7-5-3-2 — the constructive try at your own length rather than leading away from the ♠J into declarer. The workmanlike pick on a balanced hand.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "29"]
+[OriginalBoard "29"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J7.K962.T862.J84 A8532.AQ.AK75.A9 T4.T87543.QJ4.Q6 KQ96.J.93.KT7532"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "13"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_1_Minor board 398, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   4S     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card CQ] [NEXT]
+
+[show NESW]
+
+A close call. Your six-card heart suit is all spots and ♦Q-J-4 is not quite a lead, so the ♣Q, top of a doubleton, is the flexible stab: if partner has club help it works, and if not you have given little away.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Basic_Major_Defense_LHO"]
+[Site ""]
+[Board "30"]
+[OriginalBoard "30"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:643.AT82.8765.63 AKJT7.KJ.AT94.A8 2.Q97643.QJ2.QT2 Q985.5.K3.KJ9754"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "12"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "beginner"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "2N_and_1_Minor board 158, rotated 90 so South is on lead"]
+[Auction "E"]
+1S     Pass   4S     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 4♠ and it is your lead.
+
+When you have made your choice click NEXT. [choose-card H6] [NEXT]
+
+[show NESW]
+
+No obvious lead, but you have a six-card suit: lead the ♥6, fourth-best from ♥Q-9-7-6-4-3. With three scattered queens and a singleton trump, attacking your own long suit is the soundest plan — build length and hope partner has a card there.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

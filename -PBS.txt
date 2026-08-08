@@ -1,7 +1,7 @@
 //BBOalert, Bidding Scenarios
 //BBOalert, Bidding Scenarios - version 4.1.10-polling
-Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/js/setDealerCode-polling.js
-Import,https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/js/toggleRotate.js
+Import,https://github.com/bridge-craftwork/Practice-Bidding-Scenarios/blob/main/js/setDealerCode-polling.js
+Import,https://github.com/bridge-craftwork/Practice-Bidding-Scenarios/blob/main/js/toggleRotate.js
 Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/PBNcapture.js
 Javascript,https://github.com/Rick-Wilson/bbo-pbs/blob/master/Plugins/BBAcompare.js
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/PBStooltips.js
@@ -293,7 +293,7 @@ Script,onDataLoad
     window._pbsDynamicBuilding = false;
 
     // GitHub URLs
-    var GITHUB_OWNER = 'ADavidBailey';
+    var GITHUB_OWNER = 'bridge-craftwork';
     var GITHUB_REPO = 'Practice-Bidding-Scenarios';
     var LAYOUT_RELEASE_URL = 'https://raw.githubusercontent.com/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/main/btn/-button-layout-release.txt';
     var LAYOUT_BETA_URL = 'https://raw.githubusercontent.com/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/main/btn/-button-layout-beta.txt';
@@ -301,6 +301,17 @@ Script,onDataLoad
     var PBS_RELEASE_API = 'https://api.github.com/repos/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/contents/pbs-release';
     var PBS_TEST_BASE = 'https://raw.githubusercontent.com/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/main/pbs-test';
     var PBS_RELEASE_BASE = 'https://raw.githubusercontent.com/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/main/pbs-release';
+
+    // Cache-buster: append a unique param to GitHub fetches so the browser/CDN
+    // never serve a stale copy after a push (fixes the "refresh doesn't update
+    // the menu" lag). Scoped to this IIFE only; the global fetch is untouched.
+    var _pbsOrigFetch = window.fetch.bind(window);
+    function fetch(u, opts) {
+        if (typeof u === 'string' && (u.indexOf('githubusercontent.com') !== -1 || u.indexOf('api.github.com') !== -1)) {
+            u += (u.indexOf('?') === -1 ? '?' : '&') + '_cb=' + Date.now();
+        }
+        return _pbsOrigFetch(u, opts);
+    }
 
     // Track referenced buttons and missing PBS files
     var referencedScenarios = [];

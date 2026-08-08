@@ -1,0 +1,129 @@
+{
+  "schema": "quiz-lesson/v1",
+  "id": "Hold_Up_3N",
+  "title": "Hold-Up at 3NT",
+  "provenance": {
+    "source": "Practice-Bidding-Scenarios",
+    "pipeline_version": "1.0.0",
+    "generated": "2026-07-30",
+    "source_quiz": "Hold_Up_3N"
+  },
+  "exercises": [
+    {
+      "id": "Hold_Up_3N-1",
+      "type": "bidding",
+      "title": "Exercise One — Opener's Rebid after 2NT",
+      "prompt": "You open 1NT, partner responds 2NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AT42",
+            "hearts": "A96",
+            "diamonds": "KT9",
+            "clubs": "AQ9"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "19A17A310E9B6977FE6C5CB707B3",
+            "event": "Hold_Up_3N",
+            "board": 21
+          }
+        },
+        {
+          "hand": {
+            "spades": "AJ9",
+            "hearts": "A73",
+            "diamonds": "KJ7",
+            "clubs": "A953"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "18A932FF93CBB97AE2063557EDDE",
+            "event": "Hold_Up_3N",
+            "board": 29
+          }
+        },
+        {
+          "hand": {
+            "spades": "K95",
+            "hearts": "A92",
+            "diamonds": "AKQ97",
+            "clubs": "84"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "7B6FBF3C5678AF714FF68BC13A66",
+            "event": "Hold_Up_3N",
+            "board": 105
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK942",
+            "hearts": "AT6",
+            "diamonds": "KJT",
+            "clubs": "QT"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "F8AFB3F94221867B1CEEFABCD78A",
+            "event": "Hold_Up_3N",
+            "board": 222
+          }
+        }
+      ]
+    }
+  ]
+}

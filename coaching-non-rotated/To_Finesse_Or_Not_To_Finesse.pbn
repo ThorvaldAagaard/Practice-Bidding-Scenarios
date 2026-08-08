@@ -1,0 +1,237 @@
+[Event "To_Finesse_Or_Not_To_Finesse"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "75"]
+[OriginalScenario "To_Finesse_Or_Not_To_Finesse"]
+% 48A9939C9ABCE3F73CDBEE5B1505
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:732.2.AJ64.K9864 4.KQJ643.QT75.J5 AKQJT.A95.K9.A32 9865.T87.832.QT7"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+C7 C8 CJ CA
+CT CK C5 C2
+S5 S2 S4 ST
+D2 DA D5 D9
+D3 D4 D7 DK
+H7 H2 H3 HA
+H8 S3 H4 H5
+D8 D6 DT SJ
+HT S7 H6 H9
+CQ DJ DQ SQ
+S6 C4 HJ C3
+S8 C6 HQ SK
+S9 C9 HK SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \C7. With nothing else attractive, a low club from your length is a sound, safe lead against the spade game.
+
+[ROLE declarer][STAGE auction-end] You are in 4\S needing ten tricks. Count first: five trump tricks in \S, the \HA, the \DK plus dummy's \DA, and \CA give ten on top, with extra clubs and diamonds available. Game is already cold, so the club finesse is needless — and East holds the long, strong hearts you must keep off lead.
+
+[ROLE declarer][STAGE post-lead] West led the \C7, a low card that looks like it could be from honor-fourth, but the plan holds regardless. Win the \CA or rise with dummy's \CK — do NOT duck a club to set up a finesse. Draw trumps and cash: five trumps, \HA, \DA-K, and the long clubs bring ten or more. Because East sits with the heart threat, the value of the safe line is that East never gains the lead. Count, draw trumps, and claim.
+
+[ROLE declarer][STAGE post-play] Ten tricks were ready the moment dummy appeared, so finessing in clubs offered nothing and a heart attack to lose. You counted first and took certainty over a needless gamble — exactly the lesson.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "To_Finesse_Or_Not_To_Finesse"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "209"]
+[OriginalScenario "To_Finesse_Or_Not_To_Finesse"]
+% D8A993979B98546B3491EC744F3A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:72.3.AJT82.KQJ83 9843.KQJT96.53.2 AKQJT6.A85.K6.A6 5.742.Q974.T9754"]
+[Declarer "S"]
+[Contract "6N"]
+[Result "13"]
+[Score "NS 1020"]
+[Scoring "MP"]
+[Auction "S"]
+2C =1=    Pass  3D    Pass
+3S    Pass  5C    Pass
+6N    Pass  Pass  Pass
+[Play "W"]
+CT C3 C2 CA
+D7 D8 D3 D6
+D4 D2 D5 DK
+S5 S2 S3 ST
+H2 S7 S4 SJ
+C9 CJ H6 C6
+C4 C8 H9 S6
+C5 CQ S8 H5
+C7 CK HT H8
+H4 H3 HJ HA
+H7 DT S9 SQ
+D9 DJ HQ SK
+DQ DA HK SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \CT, the top of your \CT9 sequence within \CT9754 — a safe lead against the slam.
+
+[ROLE declarer][STAGE auction-end] You are in 6NT and need twelve. Count the winners: five top spades in the \SAKQJT6, four top clubs (\CAKQJ), two top diamonds (\DAK), and the \HA come to twelve straight off the top, with the long diamonds as extra. NS hold 32 of the 40, so the defenders have only 8 and neither bid. A club finesse is available, but you already count twelve, so just cash carefully.
+
+[ROLE declarer][STAGE post-lead] West led the \CT, which looks like top of a sequence and rides into your strong clubs. Count to twelve: five spades, four clubs, \DAK, and the \HA are all there — the slam is cold without a finesse. Win the club, cash your spades and clubs, and take the diamonds; do not finesse a club into East, who rates to hold the heart honours and must stay off lead. Counting first shows the finesse adds nothing you need.
+
+[ROLE declarer][STAGE post-play] You counted before playing and saw twelve on top, which made the club finesse a needless risk. Nicely played — you cashed your winners in order and kept the danger hand out.}
+[Note "1:strong"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "To_Finesse_Or_Not_To_Finesse"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "36"]
+[OriginalScenario "To_Finesse_Or_Not_To_Finesse"]
+% 2BA59F969597D2C0FB23E3D5FA3C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:62.8.AQJT4.KT765 .KQJT94.9865.Q93 AKQJT.A65.K2.AJ4 987543.732.73.82"]
+[Declarer "S"]
+[Contract "6C"]
+[Result "12"]
+[Score "NS 1370"]
+[Scoring "MP"]
+[Auction "S"]
+2C =1=    Pass  3D    Pass
+3S    Pass  5C    Pass
+6C    Pass  Pass  Pass
+[Play "W"]
+S5 S2 C3 ST
+H2 H8 H9 HA
+C2 CK C9 C4
+C8 C5 CQ CA
+D7 DT D5 D2
+D3 D4 D6 DK
+H7 C6 H4 H5
+S3 DJ D8 H6
+S4 DQ D9 SJ
+S7 S6 HT SQ
+H3 C7 HJ CJ
+S8 DA HQ SK
+S9 CT HK SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \S5. From your long spade suit with no honor sequence, a low spot is a fine, safe lead against this club slam.
+
+[ROLE declarer][STAGE auction-end] You are in 6\C needing twelve tricks, with clubs as trumps. Count first: five club trump tricks, the five top spades headed by your \SA-K-Q-J-T, the \HA, and the \DK plus dummy's \DA give you a big stack, and with diamond ruffs in your short hand you have twelve. The slam comes home by power and ruffing, so the trump finesse for the missing \CQ is not your priority — count to twelve first.
+
+[ROLE declarer][STAGE post-lead] West led the \S5, which looks like a low card from length. Win it, then cash your top spades, take the \DK and \DA, and use your remaining trumps to ruff diamonds in the short hand while drawing trumps as needed. Five trumps, five spades, the \HA, and two diamonds reach twelve. Don't go out of your way to finesse hearts toward East — that is the hand sitting with the heart honors, and you have your tricks without giving them the lead. Count, ruff, and claim.
+
+[ROLE declarer][STAGE post-play] Twelve tricks were there from the spade run, the trumps, and ruffing diamonds in the short hand — counting first kept you off the needless finesse into the danger hand. A well-organized cross-ruff plan; nicely done.}
+[Note "1:strong"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "To_Finesse_Or_Not_To_Finesse"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "253"]
+[OriginalScenario "Game_Overcalls"]
+% F74CB7BE3A9F99A6B98FB9015EF0
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J4.A64.J975.QJ83 A3.T93.AQT63.KT6 KQT98765.8.42.A2 2.KQJ752.K8.9754"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "E"]
+1D    4S    Pass  Pass
+Pass
+[Play "W"]
+HK HA H3 H8
+C4 CJ CK CA
+C7 CQ C6 C2
+S2 S4 SA S5
+DK D5 D3 D2
+D8 D9 DT D4
+H2 H4 H9 S6
+H5 SJ S3 SQ
+H7 C3 D6 S7
+C5 H6 HT S8
+C9 C8 CT S9
+HJ D7 DQ ST
+HQ DJ DA SK
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \HK, top of your \HK-Q-J sequence — a safe, solid lead against the spade game.
+
+[ROLE declarer][STAGE auction-end] You are in 4\S needing ten tricks. Count first: once the \SA is knocked out you have seven trump tricks, and the \HA and \CA make nine. The tenth has to come from clubs, where you hold the \CA-x opposite dummy's \CQ-J — a finesse against the missing \CK. That finesse is not a free roll, you need it, so listen to the auction: East opened 1\D and West never bid a thing. The missing honors are marked in the East hand, the \CK among them.
+
+[ROLE declarer][STAGE post-lead] West led the \HK, top of a sequence, so your \HA wins when you choose. Draw trumps, conceding the \SA, then go after the tenth trick in clubs. Lead toward dummy and run the \CJ (or the \CQ): East holds the \CK, so the honor is trapped and dummy's club wins. You are finessing into the hand that opened the bidding — the \CK is marked there, so the finesse rates to be a near-certainty rather than a guess. Do not bang down the ace hoping the king falls; let the auction guide you.
+
+[ROLE declarer][STAGE post-play] Counting showed the hand a trick short on top, so one finesse was needed — and the bidding told you which way it lay. East opened and West stayed silent, placing the \CK, so you finessed into the marked hand instead of guessing. To finesse or not is a question you answer by counting; which way to finesse, by listening. Nicely judged.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "To_Finesse_Or_Not_To_Finesse"]
+[Site ""]
+[Board "5"]
+[OriginalBoard "363"]
+[OriginalScenario "Game_Overcalls"]
+% B7196FA5DAA66766EF0263C53EA9
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:85.2.A975.AJ7542 KT32.J4.K4.KQ986 AQ9.KQT987653..T J764.A.QJT8632.3"]
+[Declarer "S"]
+[Contract "6H"]
+[Result "12"]
+[Score "NS 980"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1H    3D    Pass
+Pass  4H    Pass  4N =1=
+Pass  5S =2=    Pass  6H
+Pass  Pass  Pass
+[Play "W"]
+DQ DA D4 S9
+HA H2 H4 H3
+C3 CA C6 CT
+S4 S5 S2 SQ
+S6 S8 S3 SA
+D2 C2 HJ HQ
+D3 D5 C8 H5
+D6 C4 C9 H6
+D8 D7 ST H7
+S7 C5 CQ H8
+SJ D9 SK H9
+DT C7 DK HT
+DJ CJ CK HK
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \DQ, top of your \DQ-J-T sequence — a safe, solid lead against the slam.
+
+[ROLE declarer][STAGE auction-end] You are in 6\H, and one loser is written in stone: West's lone \HA sits offside, and you cannot finesse against a singleton ace, so you will lose it. That means every other trick must come home. Count them: eight trump tricks, the \DA, the \CA, and the \SA make eleven. The twelfth is a spade — you hold \SA-Q facing dummy, missing the \SK. East opened 1\C while West could only preempt in diamonds, so the high cards, the \SK included, are marked with East.
+
+[ROLE declarer][STAGE post-lead] West led the \DQ, top of a sequence; win the \DA. You must lose the \HA, so drive it out and draw trumps. For the twelfth trick, lead a spade toward your \SA-Q and finesse: play the \SQ. East holds the \SK, so it is trapped behind your tenace and the queen wins. This is not a blind guess — East opened the bidding and West's weak jump denied values, placing the \SK squarely with East. Take the marked finesse and claim the slam.
+
+[ROLE declarer][STAGE post-play] The singleton \HA was a loser you could not avoid, so the slam rested on a single finesse for the \SK. Counting told you that you needed it; the auction told you it would work. East opened and West preempted weakly, so the king was marked, and finessing into the hand that bid brought home twelve. Even at the six level, you let the bidding answer the question. Well played.}
+[Note "1:Blackwood 1430, for !H"]
+[Note "2:A=2/5 or 5/5, Q(H)=1"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

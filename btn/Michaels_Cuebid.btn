@@ -8,12 +8,17 @@
 
 /*@chat
 ---  Michaels Cuebid.
-Two-suited OR a good hand.
+Two-suited, 5-11 or 16+
   • 1!C - 2!C = 5+!H & 5+!S
   • 1!D - 2!D = 5+!H & 5+!S
   • 1!H - 2!H = 5+!S & 5+(!C or !D)
   • 1!S - 2!S = 5+!H & 5+(!C or !D)
 https://www.bridgebum.com/michaels_cuebid.php
+4NT is Roman Keycard Blackwood (1430) with a trump suit agreed, or quantitative (inviting 6NT) in a notrump auction. Keycard responses:
+  • 5!C = 1 or 4 keycards
+  • 5!D = 0 or 3
+  • 5!H = 2 without the trump queen
+  • 5!S = 2 with the trump queen
 @chat*/
 
 /*
@@ -27,7 +32,6 @@ dealer east
 
 #include "script/Predict-Opening-1-Bid-East"
 # Defines oneClub, oneDiamond, oneHeart, oneSpade, oneNT, twoNT, threeNT
-
 
 # Define South's suits for Michaels Cuebid
 sS = top5(south,spades)>2   and spades(south)>4
@@ -49,7 +53,8 @@ compete = tpWest>=7  and not (force or invite)
 preempt = tpWest>=4  and not (force or invite or compete)  
 wRange  = force or invite or compete or preempt
 
-sMCB= shape(south,any 76xx +any 67xx +any 66xx +any 65xx +any 56xx +any 55xx) and hcp(south)>9 and tpSouth<19 // avoid strong TO X
+sRange = (hcp(south)>4 and hcp(south)<12) or hcp(south)>15  // weak (5-11) or strong (16+)
+sMCB= shape(south,any 76xx +any 67xx +any 66xx +any 65xx +any 56xx +any 55xx) and sRange
 
 levPreempt = preempt and hascard(north,2C) or hascard(north,2D) // keep only 44% of preempts
 

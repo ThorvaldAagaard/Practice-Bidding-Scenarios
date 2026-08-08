@@ -1,17 +1,15 @@
 {
-  "generatedAt": "2026-06-02T06:06:31.382682",
+  "generatedAt": "2026-08-08T06:11:47.916371",
   "summary": {
-    "totalScenarios": 331,
-    "scenariosWorked": 331,
-    "totalFileEdits": 51363,
-    "totalPipelineRuns": 2601,
-    "totalSessionHours": 5180,
-    "totalCommits": 7609
+    "totalScenarios": 345,
+    "scenariosWorked": 345,
+    "totalFileEdits": 50319,
+    "totalPipelineRuns": 2703,
+    "totalSessionHours": 6066,
+    "totalCommits": 7555
   },
   "charts": {
     "labels": [
-      "Feb 24",
-      "Mar 24",
       "Apr 24",
       "May 24",
       "Jun 24",
@@ -38,12 +36,12 @@
       "Mar 26",
       "Apr 26",
       "May 26",
-      "Jun 26"
+      "Jun 26",
+      "Jul 26",
+      "Aug 26"
     ],
     "fileEdits": [
-      281,
-      377,
-      243,
+      81,
       4406,
       5419,
       2185,
@@ -69,11 +67,11 @@
       673,
       167,
       89,
-      362
+      20,
+      30,
+      88
     ],
     "pipelineRuns": [
-      0,
-      0,
       0,
       0,
       0,
@@ -100,12 +98,12 @@
       690,
       125,
       65,
+      37,
+      65,
       0
     ],
     "commits": [
-      292,
-      391,
-      255,
+      82,
       82,
       209,
       187,
@@ -131,12 +129,12 @@
       1028,
       469,
       689,
-      8
+      312,
+      476,
+      22
     ],
     "sessionHours": [
-      131,
-      158,
-      83,
+      29,
       66,
       143,
       158,
@@ -162,234 +160,233 @@
       635,
       777,
       691,
-      8
+      573,
+      592,
+      72
     ],
     "scenariosWorked": [
-      32,
-      47,
-      57,
-      123,
-      125,
-      162,
-      163,
-      170,
-      177,
-      193,
-      204,
-      211,
-      221,
-      233,
-      240,
-      248,
-      252,
+      6,
+      120,
+      122,
+      160,
+      161,
+      168,
+      175,
+      191,
+      202,
+      209,
+      220,
+      232,
+      239,
+      247,
+      251,
+      251,
       252,
       253,
-      254,
-      264,
-      266,
-      270,
-      286,
-      292,
-      300,
+      263,
+      265,
+      269,
+      285,
+      291,
+      299,
       306,
-      331,
-      331
+      333,
+      338,
+      345,
+      345
     ]
   },
   "recentActivity": [
     {
-      "timestamp": "2026-05-26T20:18:03.247Z",
+      "timestamp": "2026-07-22T18:22:43.239Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Rabbis_Rule",
+        "scenario": "layout",
+        "operation": "release-layout"
+      }
+    },
+    {
+      "timestamp": "2026-07-22T18:24:32.140Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "layout",
+        "operation": "release-layout"
+      }
+    },
+    {
+      "timestamp": "2026-07-22T18:26:22.996Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "GIB_1N_Basic",
         "operation": "release"
       }
     },
     {
-      "timestamp": "2026-05-26T20:44:59.926Z",
-      "type": "file_save",
-      "details": {
-        "filePath": "btn/Rabbis_Rule.btn",
-        "fileType": "btn"
-      }
-    },
-    {
-      "timestamp": "2026-05-26T20:47:04.075Z",
+      "timestamp": "2026-07-22T18:27:38.134Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Rabbis_Rule",
+        "scenario": "GIB_1N_Basic",
         "operation": "release"
       }
     },
     {
-      "timestamp": "2026-05-27T18:08:43.987Z",
-      "type": "file_save",
-      "details": {
-        "filePath": "btn/Play_Top_Tricks.btn",
-        "fileType": "btn"
-      }
-    },
-    {
-      "timestamp": "2026-05-28T00:31:36.813Z",
+      "timestamp": "2026-07-22T18:37:18.424Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Play_Top_Tricks_NT",
-        "operation": "release"
+        "scenario": "layout",
+        "operation": "release-layout"
       }
     },
     {
-      "timestamp": "2026-05-28T00:31:53.794Z",
+      "timestamp": "2026-07-22T18:46:48.434Z",
       "type": "pipeline_run",
       "details": {
-        "scenario": "Play_Top_Tricks_Suit",
-        "operation": "release"
+        "scenario": "layout",
+        "operation": "release-layout"
       }
     },
     {
-      "timestamp": "2026-05-28T02:52:59.296Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Play_Top_Tricks",
-        "operation": "release"
-      }
-    },
-    {
-      "timestamp": "2026-05-28T13:22:47.137Z",
-      "type": "file_save",
-      "details": {
-        "filePath": "script/topTricksSuitNS"
-      }
-    },
-    {
-      "timestamp": "2026-05-28T15:17:08.654Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Play_Top_Tricks",
-        "operation": "release"
-      }
-    },
-    {
-      "timestamp": "2026-05-28T18:25:33.646Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Play_Top_Tricks",
-        "operation": "release"
-      }
-    },
-    {
-      "timestamp": "2026-05-28T18:25:38.155Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Play_Top_Tricks_Suit",
-        "operation": "release"
-      }
-    },
-    {
-      "timestamp": "2026-05-28T18:25:43.153Z",
-      "type": "pipeline_run",
-      "details": {
-        "scenario": "Play_Top_Tricks_NT",
-        "operation": "release"
-      }
-    },
-    {
-      "timestamp": "2026-05-29T11:10:51.517Z",
+      "timestamp": "2026-07-23T18:42:41.162Z",
       "type": "session_end",
       "details": {
-        "durationMinutes": 8450
+        "durationMinutes": 7187
       }
     },
     {
-      "timestamp": "2026-05-29T11:11:04.679Z",
+      "timestamp": "2026-07-25T17:43:52.925Z",
       "type": "session_start",
       "details": {}
     },
     {
-      "timestamp": "2026-05-29T12:58:23.882Z",
-      "type": "session_end",
+      "timestamp": "2026-07-26T14:08:32.118Z",
+      "type": "pipeline_run",
       "details": {
-        "durationMinutes": 107
+        "scenario": "Spiral_Raises_Wolpert",
+        "operation": "release"
       }
     },
     {
-      "timestamp": "2026-05-29T13:00:35.252Z",
+      "timestamp": "2026-07-26T14:08:49.475Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Spiral_Raises_Weinstein",
+        "operation": "release"
+      }
+    },
+    {
+      "timestamp": "2026-07-26T19:12:58.719Z",
+      "type": "pipeline_run",
+      "details": {
+        "scenario": "Responsive_Double",
+        "operation": "release"
+      }
+    },
+    {
+      "timestamp": "2026-07-26T19:56:52.677Z",
+      "type": "session_end",
+      "details": {
+        "durationMinutes": 1573
+      }
+    },
+    {
+      "timestamp": "2026-07-27T12:17:22.816Z",
       "type": "session_start",
       "details": {}
     },
     {
-      "timestamp": "2026-05-29T13:01:47.067Z",
+      "timestamp": "2026-07-27T17:17:01.640Z",
+      "type": "session_end",
+      "details": {
+        "durationMinutes": 300
+      }
+    },
+    {
+      "timestamp": "2026-07-27T17:17:11.115Z",
       "type": "session_start",
       "details": {}
     },
     {
-      "timestamp": "2026-05-29T13:02:21.749Z",
-      "type": "session_end",
+      "timestamp": "2026-07-27T17:29:00.541Z",
+      "type": "pipeline_run",
       "details": {
-        "durationMinutes": 2
+        "scenario": "Responsive_Double",
+        "operation": "release"
       }
     },
     {
-      "timestamp": "2026-05-30T14:23:27.662Z",
+      "timestamp": "2026-07-30T21:31:49.866Z",
       "type": "session_end",
       "details": {
-        "durationMinutes": 1522
+        "durationMinutes": 4575
       }
     },
     {
-      "timestamp": "2026-05-30T14:23:51.350Z",
+      "timestamp": "2026-07-30T21:32:00.829Z",
+      "type": "session_start",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-08-02T21:48:54.149Z",
+      "type": "session_end",
+      "details": {
+        "durationMinutes": 4337
+      }
+    },
+    {
+      "timestamp": "2026-08-07T19:25:53.654Z",
       "type": "session_start",
       "details": {}
     }
   ],
   "recentCommits": [
     {
-      "hash": "52fc7f5a",
-      "date": "2026-06-01 18:02:11 -0500",
+      "hash": "54816b42",
+      "date": "2026-08-07 18:02:53 -0500",
       "message": "Daily dashboard update"
     },
     {
-      "hash": "072a2a3e",
-      "date": "2026-06-01 12:02:06 -0500",
+      "hash": "52a43dda",
+      "date": "2026-08-07 12:02:58 -0500",
       "message": "Daily dashboard update"
     },
     {
-      "hash": "f8422e9b",
-      "date": "2026-06-01 10:33:01 -0500",
-      "message": "Renumber coaching boards 1..N and strip =N= note refs for LIN export"
-    },
-    {
-      "hash": "6da6e2ea",
-      "date": "2026-06-01 07:38:20 -0500",
-      "message": "Soften lead reads + defensive-signal directives for beginners"
-    },
-    {
-      "hash": "8fde3916",
-      "date": "2026-06-01 07:16:44 -0500",
-      "message": "Declarer coaching reads the opening lead"
-    },
-    {
-      "hash": "5ba3c55f",
-      "date": "2026-06-01 06:55:25 -0500",
-      "message": "Opening-lead coaching: extractable [ROLE leader][STAGE pre-lead] tips"
-    },
-    {
-      "hash": "9e6334f0",
-      "date": "2026-06-01 06:34:16 -0500",
-      "message": "Rebuild coaching for all 19 Beginners/Play-of-the-Hand scenarios on basic card"
-    },
-    {
-      "hash": "612e134d",
-      "date": "2026-06-01 06:02:06 -0500",
+      "hash": "07c38753",
+      "date": "2026-08-07 06:02:54 -0500",
       "message": "Daily dashboard update"
     },
     {
-      "hash": "fc33767c",
-      "date": "2026-05-31 18:19:56 -0500",
+      "hash": "7bc17457",
+      "date": "2026-08-06 18:02:55 -0500",
       "message": "Daily dashboard update"
     },
     {
-      "hash": "48f62645",
-      "date": "2026-05-31 12:02:10 -0500",
+      "hash": "1d9a0345",
+      "date": "2026-08-06 14:39:17 -0500",
+      "message": "Daily dashboard update"
+    },
+    {
+      "hash": "529db57f",
+      "date": "2026-08-06 12:02:58 -0500",
+      "message": "Daily dashboard update"
+    },
+    {
+      "hash": "db2fcdc0",
+      "date": "2026-08-06 06:02:51 -0500",
+      "message": "Daily dashboard update"
+    },
+    {
+      "hash": "c07dc613",
+      "date": "2026-08-05 18:02:49 -0500",
+      "message": "Daily dashboard update"
+    },
+    {
+      "hash": "663967c1",
+      "date": "2026-08-05 12:02:50 -0500",
+      "message": "Daily dashboard update"
+    },
+    {
+      "hash": "86c7f544",
+      "date": "2026-08-05 06:02:51 -0500",
       "message": "Daily dashboard update"
     }
   ]

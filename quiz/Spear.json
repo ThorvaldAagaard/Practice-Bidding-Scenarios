@@ -1,0 +1,1589 @@
+{
+  "schema": "quiz-lesson/v1",
+  "id": "Spear",
+  "title": "Spear",
+  "provenance": {
+    "source": "Practice-Bidding-Scenarios",
+    "pipeline_version": "1.0.0",
+    "generated": "2026-07-30",
+    "source_quiz": "Spear"
+  },
+  "exercises": [
+    {
+      "id": "Spear-1",
+      "type": "bidding",
+      "title": "Exercise One — Advancing Partner",
+      "prompt": "LHO opens 1♣, partner passes, RHO bids 1NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AQT76",
+            "hearts": "T8",
+            "diamonds": "J65",
+            "clubs": "QT3"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0627D93EA30AB5C82D23D059B65F",
+            "event": "Spear",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "J9",
+            "hearts": "KQT74",
+            "diamonds": "A743",
+            "clubs": "QJ"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B77BC78E22C725AD49B3B04BE953",
+            "event": "Spear",
+            "board": 330
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ942",
+            "hearts": "5",
+            "diamonds": "K764",
+            "clubs": "AQT"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "171EDB36B5662FE3B8EB812B9D11",
+            "event": "Spear",
+            "board": 22
+          }
+        },
+        {
+          "hand": {
+            "spades": "AKJ932",
+            "hearts": "A82",
+            "diamonds": "52",
+            "clubs": "98"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "350F3BE3109C2E8E5FEBF5993105",
+            "event": "Spear",
+            "board": 43
+          }
+        },
+        {
+          "hand": {
+            "spades": "3",
+            "hearts": "AKJ97",
+            "diamonds": "KT3",
+            "clubs": "KJ82"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "26C742BC865148B6CBADBBDD215A",
+            "event": "Spear",
+            "board": 35
+          }
+        },
+        {
+          "hand": {
+            "spades": "A2",
+            "hearts": "AQT62",
+            "diamonds": "A764",
+            "clubs": "J6"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "86037FC7AA4BADBFF0829951E709",
+            "event": "Spear",
+            "board": 104
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-2",
+      "type": "bidding",
+      "title": "Exercise Two — Advancing Partner",
+      "prompt": "LHO opens 1♦, partner passes, RHO bids 1NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AQ932",
+            "hearts": "Q96",
+            "diamonds": "6",
+            "clubs": "J632"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "043BE7057AA500D5584EA4D1321A",
+            "event": "Spear",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQJ93",
+            "hearts": "T96",
+            "diamonds": "J72",
+            "clubs": "A4"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0712FD1C3B4F0553A885EDBE21E8",
+            "event": "Spear",
+            "board": 5
+          }
+        },
+        {
+          "hand": {
+            "spades": "AKJ76",
+            "hearts": "AJT9",
+            "diamonds": "JT2",
+            "clubs": "4"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "050338D10745C0AD181B6DF2B0A4",
+            "event": "Spear",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ942",
+            "hearts": "A3",
+            "diamonds": "A92",
+            "clubs": "QT7"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "16C3351658FE10B9AE6D6719C420",
+            "event": "Spear",
+            "board": 16
+          }
+        },
+        {
+          "hand": {
+            "spades": "64",
+            "hearts": "AKJ43",
+            "diamonds": "972",
+            "clubs": "KJ2"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "074D8EFC86AD5B97D824E00D45BA",
+            "event": "Spear",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ8732",
+            "hearts": "AJ743",
+            "diamonds": "J",
+            "clubs": "8"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "04C819378CA4A53A08B1D143031B",
+            "event": "Spear",
+            "board": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-3",
+      "type": "bidding",
+      "title": "Exercise Three — Your Rebid in Competition",
+      "prompt": "RHO opens 1♣, you pass, LHO bids 1NT, partner bids 2♠, RHO bids 3♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "J753",
+            "hearts": "T9864",
+            "diamonds": "852",
+            "clubs": "7"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "171EDB36B5662FE3B8EB812B9D11",
+            "event": "Spear",
+            "board": 22
+          }
+        },
+        {
+          "hand": {
+            "spades": "3",
+            "hearts": "A7643",
+            "diamonds": "J963",
+            "clubs": "JT9"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "5623C73FC81C384D2369F361A947",
+            "event": "Spear",
+            "board": 63
+          }
+        },
+        {
+          "hand": {
+            "spades": "T7",
+            "hearts": "K7643",
+            "diamonds": "QJT",
+            "clubs": "943"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "960F27FB49BB34D1A12F4D2424C3",
+            "event": "Spear",
+            "board": 118
+          }
+        },
+        {
+          "hand": {
+            "spades": "T84",
+            "hearts": "Q96",
+            "diamonds": "AT987",
+            "clubs": "JT"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "350F3BE3109C2E8E5FEBF5993105",
+            "event": "Spear",
+            "board": 43
+          }
+        },
+        {
+          "hand": {
+            "spades": "T6543",
+            "hearts": "JT84",
+            "diamonds": "QJ3",
+            "clubs": "4"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A63F07CB2BA637ED17B291A099CD",
+            "event": "Spear",
+            "board": 125
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-4",
+      "type": "bidding",
+      "title": "Exercise Four — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you pass, LHO bids 1NT, partner bids 2♦, RHO bids 3♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "6",
+            "hearts": "J974",
+            "diamonds": "A93",
+            "clubs": "97543"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "3C"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "264B33CD273528412485DC6C08F7",
+            "event": "Spear",
+            "board": 37
+          }
+        },
+        {
+          "hand": {
+            "spades": "963",
+            "hearts": "864",
+            "diamonds": "Q75",
+            "clubs": "KT98"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "94497CC70AC8B02815A337E18B12",
+            "event": "Spear",
+            "board": 117
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q83",
+            "hearts": "T6",
+            "diamonds": "AQ973",
+            "clubs": "854"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "3C"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "C703DDB3072DC2B473265CCC9106",
+            "event": "Spear",
+            "board": 145
+          }
+        },
+        {
+          "hand": {
+            "spades": "J86",
+            "hearts": "JT65",
+            "diamonds": "AQ75",
+            "clubs": "32"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "3C"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "C7034FF1AB2D1F8531A5624E0CF4",
+            "event": "Spear",
+            "board": 148
+          }
+        },
+        {
+          "hand": {
+            "spades": "7654",
+            "hearts": "63",
+            "diamonds": "AJT54",
+            "clubs": "42"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "3C"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D4371BC1061573FB81A995842A08",
+            "event": "Spear",
+            "board": 161
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-5",
+      "type": "bidding",
+      "title": "Exercise Five — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you pass, LHO bids 1NT, partner bids 2♦, RHO bids 3♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "JT5",
+            "hearts": "852",
+            "diamonds": "542",
+            "clubs": "KQJ3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "3D"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "451130C084B3D12A110AADCF486D",
+            "event": "Spear",
+            "board": 61
+          }
+        },
+        {
+          "hand": {
+            "spades": "T872",
+            "hearts": "976",
+            "diamonds": "Q9",
+            "clubs": "KJ63"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "3D"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "670D1CF30C9A618DAE6C0535CCB7",
+            "event": "Spear",
+            "board": 77
+          }
+        },
+        {
+          "hand": {
+            "spades": "J964",
+            "hearts": "QT42",
+            "diamonds": "J7",
+            "clubs": "832"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "3D"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "36C736218BEDB6045B8F35AD04E4",
+            "event": "Spear",
+            "board": 238
+          }
+        },
+        {
+          "hand": {
+            "spades": "32",
+            "hearts": "Q863",
+            "diamonds": "865",
+            "clubs": "JT82"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "3D"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "46077EE504047F280D29D97FA684",
+            "event": "Spear",
+            "board": 240
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-6",
+      "type": "bidding",
+      "title": "Exercise Six — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you pass, LHO bids 1NT, partner bids 2♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "T5",
+            "hearts": "742",
+            "diamonds": "KT93",
+            "clubs": "QT43"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "544F05F84384D7492F11BD2834E9",
+            "event": "Spear",
+            "board": 69
+          }
+        },
+        {
+          "hand": {
+            "spades": "54",
+            "hearts": "T4",
+            "diamonds": "KQT53",
+            "clubs": "8743"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "141F75C70965C910003386A87419",
+            "event": "Spear",
+            "board": 208
+          }
+        },
+        {
+          "hand": {
+            "spades": "T4",
+            "hearts": "T972",
+            "diamonds": "KQ53",
+            "clubs": "J83"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B40BC53758A1215CE90A47813462",
+            "event": "Spear",
+            "board": 138
+          }
+        },
+        {
+          "hand": {
+            "spades": "T92",
+            "hearts": "84",
+            "diamonds": "QJ872",
+            "clubs": "K63"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "F5D2304D0F95892E1FF04923788D",
+            "event": "Spear",
+            "board": 187
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-7",
+      "type": "bidding",
+      "title": "Exercise Seven — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you pass, LHO bids 1NT, partner bids 2♦, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "JT96",
+            "hearts": "T9",
+            "diamonds": "QT9",
+            "clubs": "AJT7"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "X"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "04C819378CA4A53A08B1D143031B",
+            "event": "Spear",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "K843",
+            "hearts": "83",
+            "diamonds": "T942",
+            "clubs": "T76"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "X"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "25028BF1130C5DAB04F011BFA9CE",
+            "event": "Spear",
+            "board": 38
+          }
+        },
+        {
+          "hand": {
+            "spades": "J753",
+            "hearts": "J765",
+            "diamonds": "83",
+            "clubs": "543"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "X"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "450335D5A34BC23FA129A0C88C11",
+            "event": "Spear",
+            "board": 52
+          }
+        },
+        {
+          "hand": {
+            "spades": "KT2",
+            "hearts": "85",
+            "diamonds": "742",
+            "clubs": "KJ943"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "X"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "751180FA00B3C8254F0B234CF89D",
+            "event": "Spear",
+            "board": 91
+          }
+        },
+        {
+          "hand": {
+            "spades": "A3",
+            "hearts": "T52",
+            "diamonds": "J62",
+            "clubs": "JT754"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2D",
+              "X"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B686C73D58241F4204C92CD4BD69",
+            "event": "Spear",
+            "board": 323
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-8",
+      "type": "bidding",
+      "title": "Exercise Eight — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you pass, LHO bids 1NT, partner bids 2♥, RHO bids 3♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "J8764",
+            "hearts": "JT72",
+            "diamonds": "83",
+            "clubs": "87"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "644A7ACDA16DCB84ACB31D8BF52B",
+            "event": "Spear",
+            "board": 83
+          }
+        },
+        {
+          "hand": {
+            "spades": "9762",
+            "hearts": "9",
+            "diamonds": "J32",
+            "clubs": "J7653"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "740BCD7314CBA1419CB8F8020497",
+            "event": "Spear",
+            "board": 95
+          }
+        },
+        {
+          "hand": {
+            "spades": "T963",
+            "hearts": "9652",
+            "diamonds": "95",
+            "clubs": "T52"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D40BCF7D0D88A67143AB24C199E8",
+            "event": "Spear",
+            "board": 155
+          }
+        },
+        {
+          "hand": {
+            "spades": "975",
+            "hearts": "8753",
+            "diamonds": "84",
+            "clubs": "AJ73"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3C"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "854473C9C031816EA8F6AB4F200B",
+            "event": "Spear",
+            "board": 101
+          }
+        },
+        {
+          "hand": {
+            "spades": "8652",
+            "hearts": "T743",
+            "diamonds": "Q87",
+            "clubs": "A3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3C"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "964436D90F67758AEB85BF2E208D",
+            "event": "Spear",
+            "board": 121
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ652",
+            "hearts": "7654",
+            "diamonds": "7",
+            "clubs": "J94"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3C"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E4CA8B7D883230DA27A1AF60C98B",
+            "event": "Spear",
+            "board": 169
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-9",
+      "type": "bidding",
+      "title": "Exercise Nine — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you pass, LHO bids 1NT, partner bids 2♥, RHO bids 3♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "T9652",
+            "hearts": "JT63",
+            "diamonds": "K7",
+            "clubs": "J2"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3D"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "8542FD47E0A3B1CA4DA385396284",
+            "event": "Spear",
+            "board": 99
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJT72",
+            "hearts": "T953",
+            "diamonds": "",
+            "clubs": "9542"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3D"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0641B7C782AD2C0585D6601CE7BC",
+            "event": "Spear",
+            "board": 189
+          }
+        },
+        {
+          "hand": {
+            "spades": "9872",
+            "hearts": "752",
+            "diamonds": "Q82",
+            "clubs": "QT3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3D"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "F63655C805D4B68AAF77ED0D00AB",
+            "event": "Spear",
+            "board": 186
+          }
+        },
+        {
+          "hand": {
+            "spades": "862",
+            "hearts": "J84",
+            "diamonds": "T53",
+            "clubs": "JT86"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3D"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "2607C67D600847ACC69079E53985",
+            "event": "Spear",
+            "board": 215
+          }
+        },
+        {
+          "hand": {
+            "spades": "A9872",
+            "hearts": "62",
+            "diamonds": "Q2",
+            "clubs": "J872"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2H",
+              "3D"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4583C57E50CAB188B821094312AC",
+            "event": "Spear",
+            "board": 245
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-10",
+      "type": "bidding",
+      "title": "Exercise Ten — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you pass, LHO bids 1NT, partner bids 2♠, RHO bids 3♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "9632",
+            "hearts": "J9854",
+            "diamonds": "432",
+            "clubs": "T"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "670F19F66E0CAFE73D966923B181",
+            "event": "Spear",
+            "board": 80
+          }
+        },
+        {
+          "hand": {
+            "spades": "762",
+            "hearts": "K9875",
+            "diamonds": "6",
+            "clubs": "QJ62"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B71B2DFC0C3DE52FAF802F06FD84",
+            "event": "Spear",
+            "board": 327
+          }
+        },
+        {
+          "hand": {
+            "spades": "8653",
+            "hearts": "T832",
+            "diamonds": "Q9",
+            "clubs": "J87"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "951737DD1427FDA8D085B103A16A",
+            "event": "Spear",
+            "board": 115
+          }
+        },
+        {
+          "hand": {
+            "spades": "7432",
+            "hearts": "T74",
+            "diamonds": "QJ54",
+            "clubs": "63"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "551132DE0FEB0B3BA5F00FAD8091",
+            "event": "Spear",
+            "board": 251
+          }
+        },
+        {
+          "hand": {
+            "spades": "T532",
+            "hearts": "K75",
+            "diamonds": "QJ7",
+            "clubs": "973"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "2S",
+              "3C"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "F50321FFCF91F81A2C11A7098892",
+            "event": "Spear",
+            "board": 367
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spear-11",
+      "type": "bidding",
+      "title": "Exercise Eleven — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you pass, LHO bids 1NT, partner doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "T843",
+            "hearts": "T97",
+            "diamonds": "75",
+            "clubs": "J875"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "X",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "144E19FF5CA92FB8E4C314B18219",
+            "event": "Spear",
+            "board": 23
+          }
+        },
+        {
+          "hand": {
+            "spades": "T92",
+            "hearts": "82",
+            "diamonds": "7654",
+            "clubs": "J873"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "X",
+              "P"
+            ]
+          },
+          "answer": "2C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B53707D1409989E0FC0E1F4D48A1",
+            "event": "Spear",
+            "board": 137
+          }
+        },
+        {
+          "hand": {
+            "spades": "654",
+            "hearts": "754",
+            "diamonds": "T953",
+            "clubs": "Q87"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "P",
+              "1NT",
+              "X",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "150231D0074F3D50E897AFA9FD0A",
+            "event": "Spear",
+            "board": 207
+          }
+        }
+      ]
+    }
+  ]
+}

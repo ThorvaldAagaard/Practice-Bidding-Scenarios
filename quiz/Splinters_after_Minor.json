@@ -1,0 +1,1956 @@
+{
+  "schema": "quiz-lesson/v1",
+  "id": "Splinters_after_Minor",
+  "title": "Splinters after Minor",
+  "provenance": {
+    "source": "Practice-Bidding-Scenarios",
+    "pipeline_version": "1.0.0",
+    "generated": "2026-07-30",
+    "source_quiz": "Splinters_after_Minor"
+  },
+  "exercises": [
+    {
+      "id": "Splinters_after_Minor-1",
+      "type": "bidding",
+      "title": "Exercise One — Opening Bids",
+      "prompt": "What do you open with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "KT6",
+            "hearts": "K7",
+            "diamonds": "K874",
+            "clubs": "KJ63"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "answer": "1D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A4EA55FDDB0FF346489DC77794E",
+            "event": "Splinters_after_Minor",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "862",
+            "hearts": "A2",
+            "diamonds": "QT43",
+            "clubs": "AK32"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "answer": "1D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1B6555DF077C5B98469844FEFDA5",
+            "event": "Splinters_after_Minor",
+            "board": 6
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK84",
+            "hearts": "9872",
+            "diamonds": "KT54",
+            "clubs": "Q"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "answer": "1D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1B97BC3556FCEBA264DBCE9F3666",
+            "event": "Splinters_after_Minor",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "AJT3",
+            "hearts": "QT98",
+            "diamonds": "62",
+            "clubs": "AK4"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "answer": "1C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "098171EFB2AF2767F6F8444D9F5B",
+            "event": "Splinters_after_Minor",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "J7",
+            "hearts": "KQJ",
+            "diamonds": "974",
+            "clubs": "KQ974"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "answer": "1C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A1F6921A3CBD53B957C5CD573D3",
+            "event": "Splinters_after_Minor",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "A876",
+            "hearts": "A953",
+            "diamonds": "KJ",
+            "clubs": "643"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "answer": "1C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A21B461B7FE79FB2B16CF1E57F",
+            "event": "Splinters_after_Minor",
+            "board": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-2",
+      "type": "bidding",
+      "title": "Exercise Two — Responding to 1♣",
+      "prompt": "Partner opens 1♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "9",
+            "hearts": "A54",
+            "diamonds": "AKJ",
+            "clubs": "QT9832"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "098171EFB2AF2767F6F8444D9F5B",
+            "event": "Splinters_after_Minor",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "4",
+            "hearts": "72",
+            "diamonds": "AKT3",
+            "clubs": "AQJ983"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3B57A5ABF3F6F37F4D6ADD19B74A",
+            "event": "Splinters_after_Minor",
+            "board": 12
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ8",
+            "hearts": "T",
+            "diamonds": "A65",
+            "clubs": "AJT832"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A1F6921A3CBD53B957C5CD573D3",
+            "event": "Splinters_after_Minor",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ",
+            "hearts": "Q",
+            "diamonds": "A764",
+            "clubs": "KJT982"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A21B461B7FE79FB2B16CF1E57F",
+            "event": "Splinters_after_Minor",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q82",
+            "hearts": "AK6",
+            "diamonds": "6",
+            "clubs": "AT9862"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "3D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4B8B412DFEB3733F5847A1D8E11B",
+            "event": "Splinters_after_Minor",
+            "board": 14
+          }
+        },
+        {
+          "hand": {
+            "spades": "QT4",
+            "hearts": "Q72",
+            "diamonds": "",
+            "clubs": "AKT6432"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "3D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "99A7770995275D9D4CDFFE3BEBC7",
+            "event": "Splinters_after_Minor",
+            "board": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-3",
+      "type": "bidding",
+      "title": "Exercise Three — Responding to 1♦",
+      "prompt": "Partner opens 1♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "8",
+            "hearts": "A62",
+            "diamonds": "AQJ952",
+            "clubs": "Q94"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A4EA55FDDB0FF346489DC77794E",
+            "event": "Splinters_after_Minor",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "J",
+            "hearts": "J75",
+            "diamonds": "AKJ752",
+            "clubs": "QJ9"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1B6555DF077C5B98469844FEFDA5",
+            "event": "Splinters_after_Minor",
+            "board": 6
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q3",
+            "hearts": "5",
+            "diamonds": "AQJ732",
+            "clubs": "A964"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1B97BC3556FCEBA264DBCE9F3666",
+            "event": "Splinters_after_Minor",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "73",
+            "hearts": "",
+            "diamonds": "KQJT874",
+            "clubs": "AQT9"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4A57ACEFDD6FB75C1CB6D0AE3276",
+            "event": "Splinters_after_Minor",
+            "board": 15
+          }
+        },
+        {
+          "hand": {
+            "spades": "J75",
+            "hearts": "KQ6",
+            "diamonds": "AQ9763",
+            "clubs": "Q"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "F9B189431AFA71FC12C21AE462AC",
+            "event": "Splinters_after_Minor",
+            "board": 55
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ6",
+            "hearts": "KJ6",
+            "diamonds": "KJ7543",
+            "clubs": "2"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "58AD08368AB2F66C6802EAB9DAD3",
+            "event": "Splinters_after_Minor",
+            "board": 73
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-4",
+      "type": "bidding",
+      "title": "Exercise Four — Opener's Rebid after 3♦",
+      "prompt": "You open 1♣, partner responds 3♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AT5",
+            "hearts": "Q53",
+            "diamonds": "QJ8",
+            "clubs": "KQ53"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "5C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4B8B412DFEB3733F5847A1D8E11B",
+            "event": "Splinters_after_Minor",
+            "board": 14
+          }
+        },
+        {
+          "hand": {
+            "spades": "KT5",
+            "hearts": "T732",
+            "diamonds": "AQ",
+            "clubs": "A732"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D9399F0B7FA7C4DC65C39734E565",
+            "event": "Splinters_after_Minor",
+            "board": 47
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT84",
+            "hearts": "",
+            "diamonds": "AK98",
+            "clubs": "K9543"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "2A84153B43B3F597733A4991DDDB",
+            "event": "Splinters_after_Minor",
+            "board": 66
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-5",
+      "type": "bidding",
+      "title": "Exercise Five — Opener's Rebid after 3♦",
+      "prompt": "You open 1♣, partner responds 3♦, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AJ8",
+            "hearts": "AT3",
+            "diamonds": "Q43",
+            "clubs": "QJ98"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3D",
+              "X"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "99A7770995275D9D4CDFFE3BEBC7",
+            "event": "Splinters_after_Minor",
+            "board": 30
+          }
+        },
+        {
+          "hand": {
+            "spades": "A987",
+            "hearts": "KJ",
+            "diamonds": "KQ",
+            "clubs": "QJ962"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3D",
+              "X"
+            ]
+          },
+          "answer": "4NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "CB836F1DE9C791B89801531BD3F9",
+            "event": "Splinters_after_Minor",
+            "board": 44
+          }
+        },
+        {
+          "hand": {
+            "spades": "A6",
+            "hearts": "Q942",
+            "diamonds": "K64",
+            "clubs": "AJ52"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3D",
+              "X"
+            ]
+          },
+          "answer": "XX",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "69B50BE75D3C6F77DF8B5DE80765",
+            "event": "Splinters_after_Minor",
+            "board": 79
+          }
+        },
+        {
+          "hand": {
+            "spades": "J987",
+            "hearts": "AJ96",
+            "diamonds": "Q5",
+            "clubs": "A82"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3D",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E82DC753A7FEAC9D9BE403FF7F3D",
+            "event": "Splinters_after_Minor",
+            "board": 103
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-6",
+      "type": "bidding",
+      "title": "Exercise Six — Opener's Rebid after 3♥",
+      "prompt": "You open 1♣, partner responds 3♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "A876",
+            "hearts": "A953",
+            "diamonds": "KJ",
+            "clubs": "643"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A21B461B7FE79FB2B16CF1E57F",
+            "event": "Splinters_after_Minor",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "K972",
+            "hearts": "KJ2",
+            "diamonds": "Q5",
+            "clubs": "A983"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "7ACDAB576B7B9DF19B30F7FB11AE",
+            "event": "Splinters_after_Minor",
+            "board": 25
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ92",
+            "hearts": "Q653",
+            "diamonds": "A2",
+            "clubs": "K62"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "5C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A83399E8BF778A7E5F252CD7E791",
+            "event": "Splinters_after_Minor",
+            "board": 37
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ76",
+            "hearts": "KQ62",
+            "diamonds": "5",
+            "clubs": "KT76"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "5C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D933A5A447DDF7D3BDA5581F7F27",
+            "event": "Splinters_after_Minor",
+            "board": 49
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQT7",
+            "hearts": "A865",
+            "diamonds": "5",
+            "clubs": "A876"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "C8A51BBB589F346DB5EDE3760F7F",
+            "event": "Splinters_after_Minor",
+            "board": 45
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ75",
+            "hearts": "KQ52",
+            "diamonds": "K",
+            "clubs": "AT64"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "CA89E7AF5FF1D87A937DABF11F63",
+            "event": "Splinters_after_Minor",
+            "board": 46
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-7",
+      "type": "bidding",
+      "title": "Exercise Seven — Opener's Rebid after 3♥",
+      "prompt": "You open 1♣, partner responds 3♥, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "J7",
+            "hearts": "KQJ",
+            "diamonds": "974",
+            "clubs": "KQ974"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A1F6921A3CBD53B957C5CD573D3",
+            "event": "Splinters_after_Minor",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "7543",
+            "hearts": "KQ2",
+            "diamonds": "J2",
+            "clubs": "AK62"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D85929EB53C4371FB7D5B49E9F61",
+            "event": "Splinters_after_Minor",
+            "board": 51
+          }
+        },
+        {
+          "hand": {
+            "spades": "A962",
+            "hearts": "KJT8",
+            "diamonds": "K5",
+            "clubs": "Q92"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "299FEB1127EF956F72B05B701EBD",
+            "event": "Splinters_after_Minor",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQT4",
+            "hearts": "K873",
+            "diamonds": "76",
+            "clubs": "KJ8"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0B73A59755B357216CDCF4B32BD8",
+            "event": "Splinters_after_Minor",
+            "board": 60
+          }
+        },
+        {
+          "hand": {
+            "spades": "A972",
+            "hearts": "K432",
+            "diamonds": "2",
+            "clubs": "AK97"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "4NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "7B952553DB7091C499D67BE7EBAF",
+            "event": "Splinters_after_Minor",
+            "board": 23
+          }
+        },
+        {
+          "hand": {
+            "spades": "AJ98",
+            "hearts": "AQ53",
+            "diamonds": "8",
+            "clubs": "JT42"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "4NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1BA75BE291D9B2BF37FB60152BD5",
+            "event": "Splinters_after_Minor",
+            "board": 64
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-8",
+      "type": "bidding",
+      "title": "Exercise Eight — Opener's Rebid after 3♠",
+      "prompt": "You open 1♣, partner responds 3♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AJT3",
+            "hearts": "QT98",
+            "diamonds": "62",
+            "clubs": "AK4"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "5C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "098171EFB2AF2767F6F8444D9F5B",
+            "event": "Splinters_after_Minor",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "A4",
+            "hearts": "AJ75",
+            "diamonds": "A85",
+            "clubs": "8753"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "5C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "7BAF4A1764F0C35DE5FB6DB7F153",
+            "event": "Splinters_after_Minor",
+            "board": 22
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ2",
+            "hearts": "K986",
+            "diamonds": "J4",
+            "clubs": "A863"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "18F9ABCB83176C6DD4655FF05DBB",
+            "event": "Splinters_after_Minor",
+            "board": 5
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK6",
+            "hearts": "J",
+            "diamonds": "64",
+            "clubs": "A976532"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3B999747E35BF94759BDF97FC111",
+            "event": "Splinters_after_Minor",
+            "board": 10
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQT4",
+            "hearts": "AQJ",
+            "diamonds": "87",
+            "clubs": "AJ82"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "EBA557A3E593CAFDFF43749B1AF1",
+            "event": "Splinters_after_Minor",
+            "board": 52
+          }
+        },
+        {
+          "hand": {
+            "spades": "A642",
+            "hearts": "K852",
+            "diamonds": "A",
+            "clubs": "QT73"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "FB8F673150F1F060F197EB8375A7",
+            "event": "Splinters_after_Minor",
+            "board": 56
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-9",
+      "type": "bidding",
+      "title": "Exercise Nine — Opener's Rebid after 3♠",
+      "prompt": "You open 1♣, partner responds 3♠, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "KQ3",
+            "hearts": "KQ6",
+            "diamonds": "875",
+            "clubs": "K754"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3B57A5ABF3F6F37F4D6ADD19B74A",
+            "event": "Splinters_after_Minor",
+            "board": 12
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQJT",
+            "hearts": "AQ97",
+            "diamonds": "J",
+            "clubs": "7542"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A96FB7A38AB26F506DCFF57177C5",
+            "event": "Splinters_after_Minor",
+            "board": 36
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ86",
+            "hearts": "AJ96",
+            "diamonds": "76",
+            "clubs": "J87"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08A75B9F6DCF64B9F1A24F4BFAF4",
+            "event": "Splinters_after_Minor",
+            "board": 57
+          }
+        },
+        {
+          "hand": {
+            "spades": "AJ65",
+            "hearts": "A653",
+            "diamonds": "A2",
+            "clubs": "T73"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "AAA75BC29FF1CF4C5DABA05BE174",
+            "event": "Splinters_after_Minor",
+            "board": 91
+          }
+        },
+        {
+          "hand": {
+            "spades": "K986",
+            "hearts": "A42",
+            "diamonds": "AT",
+            "clubs": "Q853"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "XX",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "98639BF95AF388BDDC97456F3567",
+            "event": "Splinters_after_Minor",
+            "board": 86
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-10",
+      "type": "bidding",
+      "title": "Exercise Ten — Opener's Rebid after 3♥",
+      "prompt": "You open 1♦, partner responds 3♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AK84",
+            "hearts": "9872",
+            "diamonds": "KT54",
+            "clubs": "Q"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1B97BC3556FCEBA264DBCE9F3666",
+            "event": "Splinters_after_Minor",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ4",
+            "hearts": "92",
+            "diamonds": "KT42",
+            "clubs": "AJ97"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "980990B8D51365DCF9DB5AB25B20",
+            "event": "Splinters_after_Minor",
+            "board": 28
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ8",
+            "hearts": "AQJ9",
+            "diamonds": "T7642",
+            "clubs": "J"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "5D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "2A6EB36FADD42ABFD6F7DE343E54",
+            "event": "Splinters_after_Minor",
+            "board": 9
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ94",
+            "hearts": "AKJ",
+            "diamonds": "KQ53",
+            "clubs": "T2"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "9B24AEBF267598F357D4DCB71C51",
+            "event": "Splinters_after_Minor",
+            "board": 31
+          }
+        },
+        {
+          "hand": {
+            "spades": "AJ",
+            "hearts": "KQ3",
+            "diamonds": "J987",
+            "clubs": "JT53"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "AA9CEC2F85DD3677577E7912E1DC",
+            "event": "Splinters_after_Minor",
+            "board": 38
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ82",
+            "hearts": "K",
+            "diamonds": "JT54",
+            "clubs": "AKQ6"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D911A191FA1AC6B05F715BD8FFB3",
+            "event": "Splinters_after_Minor",
+            "board": 98
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-11",
+      "type": "bidding",
+      "title": "Exercise Eleven — Opener's Rebid after 3♥",
+      "prompt": "You open 1♦, partner responds 3♥, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "K964",
+            "hearts": "KQT4",
+            "diamonds": "A962",
+            "clubs": "J"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "XX",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4A57ACEFDD6FB75C1CB6D0AE3276",
+            "event": "Splinters_after_Minor",
+            "board": 15
+          }
+        },
+        {
+          "hand": {
+            "spades": "A983",
+            "hearts": "AQJ4",
+            "diamonds": "Q76",
+            "clubs": "J6"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "XX",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "5AAEDB276DF29F9ED47570EFBE1C",
+            "event": "Splinters_after_Minor",
+            "board": 76
+          }
+        },
+        {
+          "hand": {
+            "spades": "K732",
+            "hearts": "QJ54",
+            "diamonds": "A54",
+            "clubs": "Q2"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "39FA932D235EF273BE17E8E89291",
+            "event": "Splinters_after_Minor",
+            "board": 68
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ7",
+            "hearts": "982",
+            "diamonds": "AJ64",
+            "clubs": "KQT"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "4NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4B1F9555BC31EAE6B40CD77E5AE7",
+            "event": "Splinters_after_Minor",
+            "board": 71
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q852",
+            "hearts": "AJ8",
+            "diamonds": "KJ85",
+            "clubs": "J6"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3H",
+              "X"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "DB2BDF96ED5A04AF58359C54F6B6",
+            "event": "Splinters_after_Minor",
+            "board": 95
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-12",
+      "type": "bidding",
+      "title": "Exercise Twelve — Opener's Rebid after 3♠",
+      "prompt": "You open 1♦, partner responds 3♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "A954",
+            "hearts": "AQ",
+            "diamonds": "JT732",
+            "clubs": "AJ"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "68A9CA6751F288FE705BBBB8C253",
+            "event": "Splinters_after_Minor",
+            "board": 19
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQT",
+            "hearts": "AK42",
+            "diamonds": "QJ93",
+            "clubs": "A6"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "78E9A8824396F37BD859DB687066",
+            "event": "Splinters_after_Minor",
+            "board": 82
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQJ4",
+            "hearts": "QT",
+            "diamonds": "Q984",
+            "clubs": "KT9"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "7940BDAA836DC95BF45053B8D273",
+            "event": "Splinters_after_Minor",
+            "board": 20
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ53",
+            "hearts": "T843",
+            "diamonds": "AJ4",
+            "clubs": "Q4"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "898B7491CA66F367C077B0E9A2D0",
+            "event": "Splinters_after_Minor",
+            "board": 26
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ63",
+            "hearts": "AT",
+            "diamonds": "KQ93",
+            "clubs": "T93"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "5D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "9BE78EBF5425DDD8C3B274D7BD56",
+            "event": "Splinters_after_Minor",
+            "board": 34
+          }
+        },
+        {
+          "hand": {
+            "spades": "A74",
+            "hearts": "AKQ",
+            "diamonds": "A743",
+            "clubs": "QT4"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "ABAF6765F3D50477BCDAF69DCC52",
+            "event": "Splinters_after_Minor",
+            "board": 90
+          }
+        }
+      ]
+    },
+    {
+      "id": "Splinters_after_Minor-13",
+      "type": "bidding",
+      "title": "Exercise Thirteen — Opener's Rebid after 3♠",
+      "prompt": "You open 1♦, partner responds 3♠, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "862",
+            "hearts": "A2",
+            "diamonds": "QT43",
+            "clubs": "AK32"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "4NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1B6555DF077C5B98469844FEFDA5",
+            "event": "Splinters_after_Minor",
+            "board": 6
+          }
+        },
+        {
+          "hand": {
+            "spades": "A74",
+            "hearts": "8",
+            "diamonds": "KQ853",
+            "clubs": "A853"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "4NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "79815B18D3777CE9B0405992F9D3",
+            "event": "Splinters_after_Minor",
+            "board": 21
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT65",
+            "hearts": "J",
+            "diamonds": "AK74",
+            "clubs": "KT75"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "489341CB6889F47A51B8BD50DF3A",
+            "event": "Splinters_after_Minor",
+            "board": 13
+          }
+        },
+        {
+          "hand": {
+            "spades": "T962",
+            "hearts": "KQ76",
+            "diamonds": "KT53",
+            "clubs": "A"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "2A3D676E4CB690DE6CA2C4DF4790",
+            "event": "Splinters_after_Minor",
+            "board": 67
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ2",
+            "hearts": "J4",
+            "diamonds": "A963",
+            "clubs": "A965"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "C8518BB7EBF4517A58F1CD68139A",
+            "event": "Splinters_after_Minor",
+            "board": 43
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q984",
+            "hearts": "T2",
+            "diamonds": "AJ52",
+            "clubs": "KQ6"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "3S",
+              "X"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "594B5D811A63B3807C51D8BED2E8",
+            "event": "Splinters_after_Minor",
+            "board": 74
+          }
+        }
+      ]
+    }
+  ]
+}

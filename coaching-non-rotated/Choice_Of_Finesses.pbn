@@ -1,0 +1,199 @@
+[Event "Choice_Of_Finesses"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "225"]
+[OriginalScenario "Hold_Up_3N"]
+% 4DDE95D263103FDAF5E5687C9066
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:95.984.A973.AQ76 K83.53.K8542.KJ5 AQJ42.AJ7.QJ.843 T76.KQT62.T6.T92"]
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 400"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  3N    Pass
+Pass  Pass
+[Play "W"]
+HK H4 H3 H7
+D6 DA D2 DJ
+S6 S5 S3 SJ
+H2 H8 H5 HA
+C9 CA C5 C3
+S7 S9 SK SA
+ST D3 S8 SQ
+C2 C6 D4 S2
+H6 C7 D5 S4
+CT CQ CK C4
+DT D7 DK DQ
+HT H9 CJ C8
+HQ D9 D8 HJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \HK. It is the top of your sequence and your longest suit — the standard notrump attack, hoping to set up your long hearts before declarer gathers his tricks.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\N with two finesses to work with, a spade finesse and a club finesse. West's \HK warns you that hearts is his suit, so he is the danger hand. Here is the discipline of the deal: both of your finesses, if they lose, lose to EAST — and East is the safe hand. So you can take them both without fear. Duck the opening heart to cut the defenders' link, then help yourself to both chances.
+
+[ROLE declarer][STAGE post-lead]
+West's \HK marks the danger: a long heart suit sitting over your single stopper. Duck the first heart — East began with only two, so one hold-up leaves him with none — then win the second. Now run the spade finesse toward your \SA\SQ\SJ, and if you should need it, the club finesse as well. Both lose only to East, who has no heart left to lead, so combining your two chances costs you nothing. The spade king is onside; home you come.
+
+[ROLE declarer][STAGE post-play]
+The skill here was not choosing between the finesses — it was noticing that both were safe, so you never had to choose. Read which defender is dangerous, steer your losers to the other one, and you can take every chance the hand offers.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Choice_Of_Finesses"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "35"]
+[OriginalScenario "Hold_Up_3N"]
+% D674155A1D2B40C664CACDE4C833
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:863.J7.A853.AK95 Q2.T54.QJT4.Q873 AKJ7.A82.K62.JT2 T954.KQ963.97.64"]
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 400"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  3N    Pass
+Pass  Pass
+[Play "W"]
+HK H7 H4 HA
+S4 S3 S2 SK
+HQ HJ H5 H2
+S9 S6 SQ SA
+D7 DA D4 D2
+D9 D3 DT DK
+C4 CK C3 C2
+S5 S8 C7 SJ
+H3 C5 HT H8
+C6 D5 DJ D6
+H6 D8 DQ S7
+H9 C9 C8 CT
+ST CA CQ CJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \HK, top of your sequence in your longest suit, and drive out declarer's stopper while you still hold the length.
+
+[ROLE declarer][STAGE auction-end]
+Your two extra chances are a spade finesse for the queen and a club finesse for the queen — and, once more, both lose to East, the safe hand. West's \HK brands hearts as the danger, so plan a hold-up before you touch the finesses: with a loss going only to harmless East, taking both your chances is completely safe.
+
+[ROLE declarer][STAGE post-lead]
+Hold up your \HA — East started with three hearts, so duck the first two rounds and win the third, and East is stripped bare. Now take the spade finesse toward your \SA\SK\SJ and, if it is not enough, the club finesse toward dummy's \CA\CK\C9. Either loss goes to East, who can no longer reach West's winners. The spade queen sits right; nine tricks.
+
+[ROLE declarer][STAGE post-play]
+Both finesses lost, if they lost at all, to the hand that could do no damage. That is what let you combine your chances instead of gambling on one: find the safe hand first, and finesse into it.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Choice_Of_Finesses"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "309"]
+[OriginalScenario "Hold_Up_3N"]
+% 67920ED9A7F42741ED7563E186BA
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J86.J7.AKQJ.9853 QT95.T84.8743.KJ AK2.A96.T95.AQ74 743.KQ532.62.T62"]
+[Declarer "S"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS 430"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  3N    Pass
+Pass  Pass
+[Play "W"]
+HK H7 H4 HA
+D2 DJ D3 D5
+D6 DQ D4 D9
+C2 C3 CJ CQ
+C6 C5 CK CA
+CT C8 S5 C4
+HQ HJ H8 H6
+H2 S6 HT H9
+S3 SJ S9 S2
+S4 S8 ST SK
+S7 C9 SQ SA
+H3 DK D7 DT
+H5 DA D8 C7
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \HK from your long, strong suit — top of the sequence, the textbook notrump lead.
+
+[ROLE declarer][STAGE auction-end]
+Dummy's \DA\DK\DQ\DJ give you four tricks on their own, and two finesses supply the rest: a spade finesse and a club finesse, both of which lose only to East. West's hearts are the threat, so duck a round to protect yourself, then run your diamonds and take both finesses into the safe East hand.
+
+[ROLE declarer][STAGE post-lead]
+Duck the opening heart — East had three, so hold up until the third round leaves him with none. Cash dummy's diamonds, then take the club finesse and the spade finesse; both lose to East, who is now heartless and cannot put West on lead. Combining the two chances brings home ten tricks.
+
+[ROLE declarer][STAGE post-play]
+With the danger hand shut out by the hold-up, the two finesses were pure profit — a loss on either simply went to the safe hand. Counting your tricks and knowing which loser you can afford is what turns a close game into a comfortable one.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Choice_Of_Finesses"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "192"]
+[OriginalScenario "Hold_Up_3N"]
+% 505873F0EA89F6766CBD6794B7F4
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J32.T64.KT87.AQT KT6.J2.Q932.K753 AQ98.A9.A54.J986 754.KQ8753.J6.42"]
+[Declarer "S"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS 430"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  3N    Pass
+Pass  Pass
+[Play "W"]
+HK H4 H2 HA
+D6 DK D2 D4
+DJ D7 D3 DA
+C2 CA C3 C6
+S4 S2 S6 S8
+C4 CT CK C8
+H3 H6 HJ H9
+H5 CQ C5 C9
+S5 S3 ST SQ
+S7 SJ SK SA
+H7 D8 C7 CJ
+H8 HT D9 S9
+HQ DT DQ D5
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \HK from your six-card suit — top of the sequence. With so many hearts, setting them up is your side's best hope.
+
+[ROLE declarer][STAGE auction-end]
+West leads from what looks like a six-card heart suit, and you hold it just once, so the hold-up is critical. Your two chances are a spade finesse and a club finesse — and both, if they lose, lose to East, who began with only a doubleton heart. Duck one round to leave East with none, and then both finesses are perfectly safe.
+
+[ROLE declarer][STAGE post-lead]
+Hold up your \HA on the first round; East, with two hearts, is void after the second. Now the danger is dead: West has all the long hearts but no way to reach them, because your spade and club finesses both lose to the heartless East. Take them both — the spade king is onside — and claim ten tricks.
+
+[ROLE declarer][STAGE post-play]
+West's six-card suit never scored a single trick, because you ducked at the right moment and kept the dangerous hand off lead for the rest of the deal. A long suit is only as good as the entries to cash it — deny them, and even your finesses become risk-free.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

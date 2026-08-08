@@ -1,0 +1,401 @@
+{
+  "schema": "quiz-lesson/v1",
+  "id": "We_Overcall_NT_then_Smolen",
+  "title": "then Smolen",
+  "provenance": {
+    "source": "Practice-Bidding-Scenarios",
+    "pipeline_version": "1.0.0",
+    "generated": "2026-07-30",
+    "source_quiz": "We_Overcall_NT_then_Smolen"
+  },
+  "exercises": [
+    {
+      "id": "We_Overcall_NT_then_Smolen-1",
+      "type": "bidding",
+      "title": "Exercise One — Your Rebid in Competition",
+      "prompt": "In a competitive auction, what will you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "7632",
+            "hearts": "A7432",
+            "diamonds": "Q",
+            "clubs": "A65"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0686A4637CD9FBFF072E7E8B0C04",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "J865",
+            "hearts": "AK984",
+            "diamonds": "J",
+            "clubs": "Q76"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "054C43AE34E8CF08A21E19C97B5B",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ92",
+            "hearts": "Q7643",
+            "diamonds": "6",
+            "clubs": "KJ4"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "269B1A0C9A7C277CC983DF4AC52D",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 28
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ962",
+            "hearts": "K654",
+            "diamonds": "T76",
+            "clubs": "J"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "151C832FBA741D7DD504CF836139",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 11
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQJ64",
+            "hearts": "9865",
+            "diamonds": "2",
+            "clubs": "A92"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "34265B24379846C1F1008B33706E",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 34
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT842",
+            "hearts": "A765",
+            "diamonds": "K6",
+            "clubs": "72"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3503A45CEC18DB1D4A85C12F7B3A",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 37
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_NT_then_Smolen-2",
+      "type": "bidding",
+      "title": "Exercise Two — Your Continuation in Competition",
+      "prompt": "In a competitive auction, what will you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AK4",
+            "hearts": "KQ6",
+            "diamonds": "T94",
+            "clubs": "KJ32"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0686A4637CD9FBFF072E7E8B0C04",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q7",
+            "hearts": "QT7",
+            "diamonds": "AQ96",
+            "clubs": "AJT8"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "054C43AE34E8CF08A21E19C97B5B",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "AJ6",
+            "hearts": "92",
+            "diamonds": "AKJ74",
+            "clubs": "QT8"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "269B1A0C9A7C277CC983DF4AC52D",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 28
+          }
+        },
+        {
+          "hand": {
+            "spades": "962",
+            "hearts": "T6",
+            "diamonds": "AKJ54",
+            "clubs": "AK4"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4658480109E3BD0E1DA75BF85F8E",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 45
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ6",
+            "hearts": "KT7",
+            "diamonds": "Q87",
+            "clubs": "KJ62"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0597208EC0E3D91DEFB83101D600",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "T93",
+            "hearts": "KQ",
+            "diamonds": "AK98",
+            "clubs": "A852"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2C",
+              "P",
+              "2D",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "26582A2705959BC8CED7CC31B134",
+            "event": "We_Overcall_NT_then_Smolen",
+            "board": 20
+          }
+        }
+      ]
+    }
+  ]
+}

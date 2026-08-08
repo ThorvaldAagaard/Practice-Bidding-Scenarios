@@ -1,0 +1,1465 @@
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "70"]
+% 49B249AAC726BF6030FE246AD843
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:T75.KJ2.A872.J92 K842.3.JT5.AQT64 AQ9.QT854.KQ43.K J63.A976.96.8753"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 450"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+3H    Pass  4H    Pass
+Pass  Pass
+[Play "W"]
+C3 C2 CA CK
+S3 S5 S2 SQ
+D6 DA D5 D3
+D9 D2 DT DQ
+HA H2 H3 H4
+S6 S7 SK SA
+SJ ST S4 S9
+C5 C9 CT H5
+H6 HK C4 H8
+H7 HJ C6 HQ
+H9 D7 S8 HT
+C7 D8 DJ DK
+C8 CJ CQ D4
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C3. You have no solid sequence to lead from, and your trump ace already gives you a natural trick, so make a safe, passive lead: fourth-best from your longest side suit, clubs. Leading away from the unsupported spade jack, or opening a fresh suit for declarer, is far likelier to give a trick away than to win one.
+
+[ROLE declarer][STAGE auction-end]
+You reach 4\H. Count before you play: away from spades you have nine tricks — your long trumps once the ace is out, the top diamonds, and the spade ace — so the tenth must come from the spade queen. Plan: draw trumps, then lead low toward \SA\SQ\S9 and finesse the queen. Nothing in the bidding locates the missing \SK, so take the finesse rather than hope it drops.
+
+[ROLE declarer][STAGE post-lead]
+West's low club is a passive lead from length, not an attack, which fits a silent auction where neither defender promised a thing. That leaves the missing \SK a genuine guess, so trust the odds: the finesse is a straight even-money chance, better than playing for the king to drop. Draw trumps, conceding the ace, then reach dummy and lead a low spade toward \SA\SQ\S9. When East follows with a low spade, finesse the queen — that one card is the whole hand.
+
+[ROLE declarer][STAGE post-play]
+The queen held, and with the king onside the finesse brought home your tenth trick and the game. Had it lost you would have been a trick short, so the discipline that mattered was counting your winners at the start and seeing that everything hinged on that single spade finesse. Good, clean play.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "34"]
+% 2AA063AF09AE3212C2E4B34B5D62
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:J98.J74.QT3.KQ54 K432.83.J4.T9872 AQT5.AKQT62.6.J3 76.95.AK98752.A6"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 650"]
+[Scoring "MP"]
+[Auction "S"]
+1H    2D    2H    Pass
+4H    Pass  Pass  Pass
+
+[Auction "S"]
+1H    2D    2H    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+DK D3 D4 D6
+CA C4 C2 C3
+C6 CQ C7 CJ
+H5 H4 H8 HT
+H9 H7 H3 HQ
+D2 HJ S2 H2
+S6 S8 S3 S5
+S7 S9 S4 ST
+D5 SJ SK SA
+D7 C5 C8 SQ
+D8 DT C9 H6
+D9 DQ CT HK
+DA CK DJ HA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \DK. With your strong diamonds it is natural to start with the top of your sequence and look at dummy before continuing.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H with trumps to burn — the only question is the \S suit, \SA\SQ\ST\S5 facing dummy's J-9-8, missing the king. You needn't guess it. Plan: win a club cheaply with your \CJ to keep dummy's \CK\CQ, draw trumps ending in dummy, then cash those two clubs to throw two spades — now a single finesse for the king brings home eleven.
+
+[ROLE declarer][STAGE post-lead]
+West cashes the diamond king and the club ace, then plays another club. Duck in dummy and win it with your \CJ — that keeps dummy's \CK\CQ alive. Draw trumps in three rounds, the last to dummy's \HJ, then cash the two club honours, throwing two low spades from your hand. With the spade losers gone, lead toward your \SA\SQ and finesse the queen: the king is trapped behind it. Eleven tricks.
+
+[ROLE declarer][STAGE post-play]
+The little \CJ was the key card. By winning the third club in hand instead of letting dummy's honour take it, you kept both \CK and \CQ — and those two winners let you throw your spade losers before you ever touched the suit. Once the losers were gone, a single finesse for the king was all the spades had to give. Discard your losers on the long suit first; then the only finesse left is the one you take.
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "51"]
+% 398FEA866B2490D6E4D9CA23340C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:T432.AQ52.94.AJ4 J.986.QT873.KQ85 AQ9.KJT74.KJ65.6 K8765.3.A2.T9732"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 450"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2C =1=    Pass
+2D    Pass  4H    Pass
+Pass  Pass
+[Play "W"]
+CT CA C5 C6
+H3 H2 H8 HT
+S5 S2 SJ SA
+C2 HQ H6 H4
+C3 HA H9 H7
+DA D4 D7 DJ
+D2 D9 DT DK
+SK S3 D3 S9
+S6 S4 C8 SQ
+C7 H5 D8 D5
+S7 ST DQ D6
+C9 C4 CQ HJ
+S8 CJ CK HK
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CT. Top of a sequence in your long club suit is the standard lead, attacking while keeping your holding intact.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H, and the game is safe on trumps and side winners. The extra trick lives in spades — \SA\SQ\S9 facing T432, the king missing. Plan: draw trumps, then lead toward your spade honours and finesse. Nothing in the auction places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \CT, which looks like the top of a sequence, so West probably holds the cards just below it in clubs. That tells you little about the spades directly, and with both defenders silent the vacant spaces are nearly even, so the missing \SK could sit with either hand. Win or duck as the suit dictates, draw trumps, and set up to lead toward your \S honours so the king's position can show itself. Approach the suit by leading up to your strength rather than from it.
+
+[ROLE declarer][STAGE post-play]
+Game was secure on your strong trumps, and the spade play was about the overtrick, won by leading toward the A-Q-nine so a king in front could be trapped. Keeping trump control gave you the entries. Well played — you took the free extra chance the right way.}
+[Note "1:10+ HCP if fit or 6+; 12+ F"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "7"]
+% 0B8EC5B26B7708689332E6A6CC6C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:96.AK93.KT54.JT7 JT82.7.Q76.AQ654 AQ74.J8542.A32.K K53.QT6.J98.9832"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 650"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2D =1=    Pass
+2H    Pass  4H    Pass
+Pass  Pass
+[Play "W"]
+C2 C7 CA CK
+S3 S6 S2 SA
+HT HK H7 H2
+D8 D4 D6 DA
+D9 DK D7 D2
+C3 CT CQ H4
+H6 H9 C4 H5
+C8 CJ C5 D3
+DJ D5 DQ H8
+HQ HA S8 HJ
+S5 H3 C6 S4
+C9 DT ST S7
+SK S9 SJ SQ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C2. With four small clubs and no sequence elsewhere worth attacking, fourth-best from your longest suit is the orthodox choice and keeps your honours intact.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H — five trump tricks and two top diamonds are the base, and the \S suit yields the rest once the king is dealt with. Plan: draw trumps, then develop spades by leading toward your honours. Nothing in the bidding places the \SK, so take the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \C2, which looks like a fourth-best, suggesting about four clubs, so the club length probably sits with West. Win the king, draw trumps, and prepare to develop spades. Since West rates to hold the longer clubs, East has slightly more room elsewhere, but with both defenders silent the room for the missing \SK could lie either way. Let the lead and the vacant-space count steer your read on where that king is most likely to be when you take the spade play.
+
+[ROLE declarer][STAGE post-play]
+The spade finesse brought home the overtrick, and reading the club lead gave you a sense of the defenders' distribution before you committed. Nicely done — you counted the hand and let the inference guide the play.}
+[Note "1:10+ HCP if fit or 6+; 12+ F"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "5"]
+[OriginalBoard "10"]
+% 0B9562A4D720E3FA0A48358DEE40
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:T75.7642.AQJ5.J9 K62.AJ.KT92.K873 AQ4.KQT93.43.A54 J983.85.876.QT62"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  2C =1=    Pass
+2H    Pass  3H    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+C2 C9 CK CA
+H5 H2 HA HQ
+CQ CJ C3 C4
+D6 DA D2 D3
+H8 H4 HJ HK
+CT H6 C7 C5
+D7 DJ DK D4
+S3 S5 S2 SQ
+S8 S7 S6 SA
+C6 H7 C8 H3
+D8 DQ D9 S4
+S9 ST SK H9
+SJ D5 DT HT
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C2. Fourth-best from your longest suit is the standard lead with no sequence to choose; it probes declarer's clubs without conceding a trick.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H. Your hearts run and the diamonds and side winners fill the count; the contract turns on the spade guess — \SA\SQ opposite small, missing the king. Plan: draw trumps, then lead toward the \SA\SQ. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \C2, which looks like a fourth-best, so the club length probably sits with West. Win the \CA, draw trumps, and set up to develop spades. The defence stayed silent with 17 points shared, and with West rating to hold the longer clubs, East has a little more room in the side suits — so the room for the missing \SK rates to sit with East. Read the lead and the vacant spaces, then take the spade play in the direction that read points to.
+
+[ROLE declarer][STAGE post-play]
+The contract hinged entirely on guessing the spade king, and reading the lead plus the silence gave you a principled basis for the finesse rather than a coin flip. Well played — that is exactly how to turn the available evidence into the winning line.}
+[Note "1:Stayman"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "6"]
+[OriginalBoard "18"]
+% 1AA3B329BC14508BC27E6F389546
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QT4.872.J65.AK85 9652.T93.Q84.762 AKJ83.AQ5.T32.Q3 7.KJ64.AK97.JT94"]
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 600"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  3N    Pass
+Pass  Pass
+[Play "W"]
+D7 DJ DQ D2
+D9 D5 D4 D3
+DK D6 D8 DT
+DA H2 S2 S3
+C9 C5 C2 CQ
+S7 ST S5 S8
+H4 S4 S6 SJ
+H6 H7 H3 HA
+C4 SQ S9 SK
+HJ H8 C6 SA
+CT CK C7 C3
+CJ CA H9 H5
+HK C8 HT HQ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D7. Fourth-best from your longest and strongest suit is the classic notrump lead; with \DAK behind it you are happy to set up your length while keeping the lead.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\NT with eight tricks in hand — five spades once they run, three clubs on top — so the ninth is the heart guess, \HA\HQ opposite small. Plan: cash your winners, then lead toward the \HA\HQ for the ninth. Nothing in the bidding places the \HK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D7, which looks like a fourth-best, so the diamond length probably sits with West. By the rule of eleven, four cards higher than the seven lie outside West's hand, and two of those sit in the hidden hands, both with East — so East holds the diamond cards above your seven. With West marked for the diamond length, East has more room in hearts, so the room for the missing \HK rates to sit over there with East. Cash your winners and let that read guide the heart play.
+
+[ROLE declarer][STAGE post-play]
+The heart finesse was the ninth trick, and using the rule of eleven and the vacant spaces gave you a real reason to expect the king onside. Nicely played — that is counting the hand, not guessing it.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "7"]
+[OriginalBoard "31"]
+% 1A8171AFCEC04EEB6744EB64BA12
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:2.AJT96.QJ9.Q875 K9764.2.853.J932 AQ3.Q8754.764.AK JT85.K3.AKT2.T64"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  2D    Pass
+2H    Pass  3C    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+DK D9 D3 D4
+DA DJ D5 D6
+D2 DQ D8 D7
+S5 S2 S6 SQ
+H3 H6 H2 H4
+C4 C5 C2 CK
+C6 C7 C3 CA
+S8 C8 S4 SA
+HK HA S7 H5
+CT CQ C9 S3
+ST H9 S9 H7
+DT HT CJ H8
+SJ HJ SK HQ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \DK. From your AK holding the king is the standard top-of-honours lead, and it lets you see dummy before committing the suit further.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H, secure on trumps and your top clubs once the side suits are organised. The one place a trick can slip is spades, where you hold A and Q — lead toward the \SQ rather than banging down the ace. Nothing in the bidding places the \SK, so take the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \DK, top of a touching honour, so West probably holds the diamond ace alongside it. Win or duck as the suit dictates, then draw trumps and set up to lead toward your \SQ. With West marked for diamond honours and both defenders silent, the room for the missing \SK is split fairly evenly, so the lead does not strongly place it; you will read more as the play unfolds. Approach the spade so you protect the queen rather than expose it.
+
+[ROLE declarer][STAGE post-play]
+The key was leading toward the \SQ so it could win if the king sat in front of it, keeping your strong trumps in reserve. The contract was always safe, and good spade technique turned a likely overtrick into a sure thing. Well played — you gave yourself the extra chance for free.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "8"]
+[OriginalBoard "33"]
+% 2893C5A204B23F0A6EE6DB54A46B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J98.KJ8.852.A952 742.A54.97.QT876 AQT3.Q7632.AQT.K K65.T9.KJ643.J43"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 450"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+D4 D8 D7 DT
+C3 C2 C6 CK
+D3 D2 D9 DA
+H9 HJ HA H2
+S5 S8 S2 SA
+HT HK H4 H3
+C4 CA C7 DQ
+CJ C5 CQ H6
+S6 H8 H5 H7
+SK S9 S4 S3
+D6 D5 C8 HQ
+DJ SJ S7 SQ
+DK C9 CT ST
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D4. Lacking a sequence, fourth-best from your longest suit is the orthodox lead and helps partner read the layout.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H. Trumps and top cards bring the ten you need, and the suit that decides it is spades — \SA\SQ\ST facing J98, the king out. Plan: draw trumps, then lead twice toward your spade honours. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D4, which looks like a fourth-best, so West probably holds around four or five diamonds. Win, draw trumps, and set up to lead toward your \S honours. The diamond length probably sits with West, but with both defenders silent the vacant spaces are nearly level, so the missing \SK could be in either hand — the lead does not settle it. Play the spade suit by leading up to your strength so the position can reveal itself.
+
+[ROLE declarer][STAGE post-play]
+What mattered was tackling spades by leading toward the A-Q-ten, not crashing your honours, so a king behind them could be trapped. Your trumps gave you the entries to repeat the approach, and that is what produced the tenth trick. Crisply done — textbook handling of a guarded honour.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "9"]
+[OriginalBoard "179"]
+% B9A398623E814DC6CF2F16BAB5DC
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:J65.T987.AQT.A76 Q9.K52.853.QJ854 AKT43.AQ6.K4.T93 872.J43.J9762.K2"]
+[Declarer "S"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS 430"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  2C =1=    Pass
+2S    Pass  3N    Pass
+Pass  Pass
+[Play "W"]
+D6 DT D3 D4
+S2 S5 S9 ST
+S7 S6 SQ SK
+D2 DQ D5 DK
+S8 SJ C4 S3
+H3 H7 H2 HQ
+H4 H8 H5 HA
+D7 C6 C5 S4
+C2 C7 C8 SA
+HJ H9 HK H6
+D9 DA D8 C3
+CK CA CJ C9
+DJ HT CQ CT
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D6. Fourth-best from your longest suit is a sound notrump lead when nothing better stands out; it keeps your length and honors working for later.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\NT. Your spades run for five tricks off the top, the minors add more, and the \HA\HQ finesse brings extra. Plan: cash your top tricks, then lead toward your \HA\HQ for the extra heart trick. Nothing in the bidding places the \HK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D6, a fourth-best, so West holds the diamond length. By the rule of eleven, five cards higher than the six lie outside West's hand, and you and dummy hold four of them, so just one higher diamond sits with East. Win the diamond cheaply, cash your side winners, then take the heart finesse: with West long in diamonds, East has more room in the rounded suits, so the \HK is a fair bet to sit over your A-Q. Lead toward the tenace and let the vacant spaces back your play.
+
+[ROLE declarer][STAGE post-play]
+Your top tricks were always there, and the heart finesse — backed by the lead read and the vacant spaces — brought the overtrick. Well played: contract secured, then pressed for more on a sound count.
+
+[PLAY 6 S \HQ]
+This is the heart finesse the extra trick rides on. Dummy leads a low heart toward your hand, East follows low, and you hold \HAQ6 with the king still out. Which heart do you play?
+[WHY]
+Play the \HQ — the finesse. East followed low, so the \HK rates to sit under your A-Q just where you want it; lead low toward the tenace and insert the queen. It wins, and the ace scores your second heart trick. Rising with the \HA first — or ducking low — hands back a trick the finesse was set to win. Lead toward the A-Q and finesse; never bang the ace down first.}
+[Note "1:Stayman"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "10"]
+[OriginalBoard "6"]
+% 09A7C5A209C4FC94E1AE7422C316
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:J42.KJT3.Q743.A3 5.82.AKT852.Q642 AQ86.AQ764.J.KJ7 KT973.95.96.T985"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2D =1=    Pass
+2S    Pass  4H    Pass
+Pass  Pass
+[Play "W"]
+CT CA C2 C7
+H5 H3 H2 HQ
+H9 HT H8 H4
+C5 C3 C4 CJ
+C8 S2 C6 CK
+S3 S4 S5 SA
+D6 D3 DK DJ
+D9 D4 DA H6
+S7 HJ D2 H7
+S9 DQ D5 S6
+ST D7 D8 HA
+SK SJ DT S8
+C9 HK CQ SQ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CT. The ten is the top of a touching sequence in your longest suit, a safe and informative lead that won't surrender a trick the way leading from a broken holding might.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H — five trump tricks and two top clubs, with the spades good for more once the king is knocked out. Plan: draw trumps, then go after spades, leading toward your honours. Nothing in the bidding places the \SK, so take the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \CT, the top of a sequence, so West probably holds the club intermediates and the suit length sits more likely with West. Win the club in hand or dummy, draw trumps, and turn to spades to set up your extra winners. The defence has only 12 points between them and stayed silent, and with West rating to hold the longer clubs, East has a touch more room elsewhere, so the room for the missing \SK could lie either way. Let the lead and the vacant spaces inform your read on which defender rates to hold that king before you play the suit.
+
+[ROLE declarer][STAGE post-play]
+The spade development gave you the trick that turned ten into eleven, and reading the opening lead helped you place the defenders' shape before committing. Well played — you set up the long suit and timed the finesse instead of relying on luck.}
+[Note "1:10+ HCP if fit or 6+; 12+ F"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "11"]
+[OriginalBoard "4"]
+% 0B26B9A0B1C380C1740284D42160
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:A63.T9865.A754.T 72.4.QJT98632.A6 KQJ95.AQ32..KJ83 T84.KJ7.K.Q97542"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 680"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  4S    Pass
+Pass  Pass
+[Play "W"]
+C5 CT CA C3
+H7 H5 H4 HA
+S8 SA S2 S5
+S4 S3 S7 SJ
+C2 D4 C6 CK
+C9 S6 D2 C8
+DK DA D3 CJ
+HK H6 D6 HQ
+HJ H8 D8 H2
+C4 D5 D9 S9
+ST D7 DT SQ
+C7 H9 DJ H3
+CQ HT DQ SK
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C5. With no clear sequence and a long, ragged club suit, fourth-best from your longest suit is the safe, standard choice; it attacks declarer's side suit without giving away an honour.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S. Five trump tricks, the \DA and a couple of club ruffs in the short hand carry you most of the way; the swing trick is the heart guess, \HA\HQ opposite small. Plan: draw trumps, take your ruffs, then lead toward the \HA\HQ. Nothing in the bidding places the \HK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \C5, which looks like a fourth-best from length, so the club length probably sits with West. Win or duck the first club as suits your entries, then draw trumps and arrange your ruff before tackling hearts. With West rating to hold the longer clubs and East therefore the shorter, East has a touch more room in the other suits, but neither defender showed a thing in the bidding, so the room for the missing \HK could lie either way. Let the lead and the vacant spaces guide your read on where that king rates to sit when you come to play the suit.
+
+[ROLE declarer][STAGE post-play]
+The contract turned on the heart position, and reading the lead to place the long clubs gave you the steer on where the rest of the high cards were likely to sit. Nicely counted — you let the evidence point you to the right play rather than guessing blind.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "12"]
+[OriginalBoard "29"]
+% 1BAECB8A5FAA2C7E7A9A0744E826
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:952.KQ54.542.KJ5 J874.J6..AQT8762 AQT6.AT932.AJ98. K3.87.KQT763.943"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 680"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  3H    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+DK D2 C2 DA
+H7 HQ H6 H2
+H8 H4 HJ HA
+S3 S2 S4 SA
+SK S5 S7 S6
+C3 C5 C6 H3
+D3 S9 S8 SQ
+D6 H5 SJ ST
+C4 CJ CQ H9
+DT D4 C7 D8
+DQ D5 C8 D9
+C9 CK CA HT
+D7 HK CT DJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \DK. With \DKQ heading a long diamond suit, the king is the top of a touching honour sequence — a safe lead that drives out the ace and sets up your length.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H. Five trumps, some spade development and a ruff or two in the short hand build the count; the trick that lands it is the spade guess, \SA\SQ\ST opposite small. Plan: draw trumps, take your ruffs, then lead toward the \SA\SQ\ST. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \DK, the top of a sequence, so West probably holds the diamond length and the touching honours. Ruff or win to your plan, draw trumps, arrange your ruffs, and set up to play spades. With West rating to hold diamond length, East has the shorter diamonds and a little more room elsewhere, but the room for the missing \SK could still lie either way given both defenders stayed silent. Let the lead and the vacant spaces guide which defender rates to hold that king when you take the spade play.
+
+[ROLE declarer][STAGE post-play]
+The spade position was the contract, and reading West's diamond sequence and length gave you the count to place the missing honour with reason. Well played — you organised your ruffs and trumps first and then took the deciding finesse with a plan behind it.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "13"]
+[OriginalBoard "13"]
+% 0BAB6A9F376A4A2EC2DC868968F7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:J8.9754.J52.AQJ2 KT93.Q6.7.KT9875 AQ54.AKT83.Q86.4 762.J2.AKT943.63"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  3H    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+DK D2 D7 D6
+DA D5 C5 D8
+D3 DJ H6 DQ
+S2 S8 S3 S4
+H2 H4 HQ HK
+C3 CA C7 C4
+C6 CJ CK H3
+S6 SJ S9 SA
+S7 H5 ST S5
+HJ H7 C8 HA
+D4 H9 SK SQ
+D9 CQ C9 H8
+DT C2 CT HT
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \DK. With \DAK at the top of a strong six-card suit, leading the king is safe, cashes a sure trick, and lets you see dummy before deciding how to continue.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H. Five trumps, the spades and a couple of short-hand ruffs fill the count, and the swing trick is the spade guess — \SA\SQ opposite small. Plan: win, draw trumps, take your ruff, then lead toward the \SA\SQ. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \DK, the top of a strong holding, so the diamond length and strength probably sit with West. Ruff or win as your plan needs, draw trumps, arrange your spade ruff, and set up to play spades. With West rating to hold the long diamonds, East holds the shorter diamonds and therefore a touch more room elsewhere — so the room for the missing \SK may sit with East. Take the spade play in the direction the lead and the vacant spaces point you.
+
+[ROLE declarer][STAGE post-play]
+The spade position was the whole contract, and reading West's diamond length gave you the count to place the missing king sensibly. Well played — you let the opening lead do the detective work instead of guessing.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "14"]
+[OriginalBoard "49"]
+% 3890499C2353406428E70C65DE37
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J752.K95.K7.JT62 KT984.AQT3.Q53.3 AQ.J8764.AJT9.K4 63.2.8642.AQ9875"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+Pass  Pass
+[Play "W"]
+D2 D7 DQ DA
+D4 DK D3 D9
+S3 S2 S4 SQ
+D6 C2 D5 DT
+S6 S5 S8 SA
+H2 HK HA H4
+CQ C6 C3 C4
+CA CT S9 CK
+D8 H5 HT DJ
+C5 H9 HQ H6
+C7 S7 SK H7
+C8 SJ H3 H8
+C9 CJ ST HJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D2. Fourth-best from your longest suit is the standard choice with no sequence available, and it tells partner about your length.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\H. Trumps, diamonds and clubs bring the eight you need, and the one finesse spot is spades — A and Q tight, missing the king. Plan: draw trumps, develop diamonds, then take the spade finesse by leading toward your A-Q. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D2, which looks like a fourth-best, so West probably holds about four diamonds. Win, draw trumps, and set up to lead toward your \SQ. With the diamond length probably West's and both defenders silent, the vacant spaces are close to even, so the missing \SK could lie either way — the lead does not settle it. Approach the spade by leading up to your A-Q so the king's position can reveal itself.
+
+[ROLE declarer][STAGE post-play]
+The eighth trick came from handling the bare A-Q by leading toward it, so a king in front could be caught. Drawing trumps and developing your side suits first kept the timing clean. Well played — careful technique landed a tight partscore.
+
+[PLAY 3 S \SQ]
+Here is the spade finesse the partscore depends on. Dummy leads a low spade toward your hand, East follows low, and you hold \SAQ bare with the king still out. Which spade do you play?
+[WHY]
+Play the \SQ — the finesse. East followed low, so the \SK rates to sit under your A-Q, just where you want it, and the queen forces it out or wins outright. Play the \SA first instead and you make only one spade trick — your queen later falls to the king. Leading toward the A-Q and finessing the queen is how you make two, and it is the whole idea of a simple finesse.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "15"]
+[OriginalBoard "44"]
+% 2AAB142AB0048934A31C789B7E11
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:KQT862.T9.63.A74 53.K642.AQ954.Q3 AJ974.AQ7.KT8.92 .J853.J72.KJT865"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  4S    Pass
+Pass  Pass
+[Play "W"]
+C8 CA C3 C2
+D2 D3 DA D8
+C5 C4 CQ C9
+D7 D6 D4 DK
+DJ S2 D5 DT
+H3 H9 H2 HQ
+C6 S6 S3 S4
+H5 HT H4 HA
+CT S8 S5 S7
+H8 ST H6 S9
+HJ SQ HK SJ
+CJ SK D9 SA
+CK C7 DQ H7
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C8. From your long club suit headed by the KJT, the standard lead is a high spot to start establishing the suit while keeping your honours intact.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S. Long trumps and side winners bring the game comfortably; the extra trick is the heart finesse, A and Q facing T9, the king missing. Plan: draw trumps, then lead toward the \HQ rather than cashing the ace. Nothing in the bidding places the \HK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \C8, which looks like the top of a long, weak club holding, so the club length probably sits with West. Win the \CA, draw trumps, and prepare to lead toward your \HQ. Because West rates to hold the club length, East has more room in the other suits, so the missing \HK leans slightly toward East behind your A-Q — keep it a lean, since both defenders passed and a high spot can deceive. Set up the heart so you lead up to your honours and let the layout confirm it.
+
+[ROLE declarer][STAGE post-play]
+The long spades made game safe, and reading West's club length steered you toward the better heart play for the overtrick. Leading toward the queen, not away from it, is what gave the chance value. Nicely played — you read the lead and let it guide the finesse.
+
+[PLAY 6 S \HQ]
+Here is the heart position the whole hand has been about. Dummy leads the \H9 toward your hand, East follows low, and you hold \HA Q 7 with the king still out. Which heart do you play?
+[WHY]
+Play the \HQ — the finesse. East followed low, so the king rates to sit under your A-Q just where you want it; the queen drives it out or wins outright, and the ace takes care of the rest. Banging down the \HA instead would crash an honour and hand the defence a trick with the king. Leading toward the A-Q and finessing the queen — never the ace first — is the whole idea of a simple finesse.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "16"]
+[OriginalBoard "46"]
+% 28E819AEE194CC528B3C8FDC07B2
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K63.9753.AK7.753 8.KT84.Q9654.Q82 QT752.AQJ.J82.KJ AJ94.62.T3.AT964"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  3S    Pass
+Pass  Pass
+[Play "W"]
+H6 H7 HK HA
+SA S3 S8 S2
+CA C3 C2 CJ
+D3 DK D4 D2
+H2 H3 H4 HJ
+DT DA D5 D8
+C4 C5 C8 CK
+S9 SK D6 S5
+C6 C7 CQ S7
+S4 S6 D9 SQ
+SJ H5 H8 HQ
+C9 D7 HT ST
+CT H9 DQ DJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H6. Top of a doubleton is a sound lead here, and it may set up a useful ruff or simply keep you off your honours early.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\S. Trumps and top diamonds are the base; the extra tricks come from hearts, where \HA\HQ\HJ faces 9753 once the king is dislodged. Plan: draw trumps, then lead toward your heart honours so the finesse works if the king is missing. Nothing in the bidding places the \HK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \H6, which looks like the top of a doubleton, so West probably holds only two hearts. That shortness suggests the long hearts — and the room for the \HK — lie more with East, but a top-of-nothing lead can mislead, so hold it as a lean. Win or play low as the suit dictates, draw trumps, and set up to lead toward your A-Q-J of hearts so the king's position can show itself.
+
+[ROLE declarer][STAGE post-play]
+The partscore hinged on the hearts, and leading toward your A-Q-J so a king in front could be trapped is what produced the tricks. The short heart lead even hinted where the length lay. Well played — you handled the suit by principle, not by guess.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "17"]
+[OriginalBoard "52"]
+% 3BAFEBB2C62921D222F4B1444F3A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:T972.J43.J64.AK3 43.8.Q9875.QJ872 AQ5.AKT97.A3.T95 KJ86.Q652.KT2.64"]
+[Declarer "S"]
+[Contract "2N"]
+[Result "9"]
+[Score "NS 150"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  2C =1=    Pass
+2H    Pass  2N    Pass
+Pass  Pass
+[Play "W"]
+S6 S2 S3 SQ
+S8 S7 S4 SA
+H2 H3 H8 HK
+C6 CK C2 C5
+C4 CA C7 C9
+HQ H4 D5 H7
+SJ S9 D7 S5
+SK ST C8 D3
+D2 D4 D8 DA
+H5 HJ D9 HA
+H6 D6 DQ H9
+DT C3 CJ HT
+DK DJ CQ CT
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \S6. Fourth-best from your longest, strongest suit is the standard notrump lead, starting to establish your length while dummy is still hidden.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\NT. Set up the hearts — two on top, four when run — for the bulk of your tricks, with the spade A-Q sitting ready behind the king. Plan: develop the long hearts for eight, then take the spade finesse for the extra. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \S6, which looks like a fourth-best, so West probably holds about four spades. By the rule of eleven, eleven minus six leaves five cards higher than the six outside West's hand, and all five sit in dummy and your hand — none with East — so East cannot beat the six. The spade length, and the \SK with it, therefore rates to sit with West in front of your A-Q. Play your spade honour as the position allows, then turn to developing hearts for the tricks you need.
+
+[ROLE declarer][STAGE post-play]
+The rule of eleven told you exactly how the spade lead lay, and developing hearts supplied the rest of the eight tricks. Counting before playing kept the plan straight. Well done — that is textbook notrump card-reading.}
+[Note "1:Stayman"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "18"]
+[OriginalBoard "21"]
+% 1AAD7CEE1888FB9921B7DACB3683
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:J73.T42.AKQ.9642 K.J85.JT9854.Q53 AT862.AQ7.63.A87 Q954.K963.72.KJT"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+H3 HT H5 H7
+S4 S3 SK SA
+SQ S7 D4 S2
+D2 DQ D5 D3
+H6 H2 H8 HA
+S5 SJ C3 S6
+CT C2 C5 CA
+S9 C4 D8 ST
+D7 DK D9 D6
+H9 DA DT C7
+HK H4 HJ HQ
+CJ C6 CQ C8
+CK C9 DJ S8
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H3. With four hearts headed by the king but no sequence, leading low from length is the standard choice; it develops the suit without throwing away your honour.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S. Trumps and solid diamonds give you most of your tricks, with the club ace helping; the extra trick is the heart guess, \HA\HQ opposite small. Plan: draw trumps, cash your diamonds, then lead toward the \HA\HQ. Nothing in the bidding places the \HK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \H3, a low card that looks like length rather than a sequence, so West probably holds about four hearts. Draw trumps and cash your diamond winners, then prepare the heart play. With the defence silent and 16 points shared, and West rating to hold heart length, the room for the missing \HK could be with either defender — though a low lead toward your \HAQ is a friendly sign. Let the lead and the vacant spaces guide which way you take the heart play.
+
+[ROLE declarer][STAGE post-play]
+The partscore was safe throughout, and reading the heart lead let you play for the extra trick with the percentages. Well done — you secured the contract first and then went after the overtrick with sound technique.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "19"]
+[OriginalBoard "48"]
+% 2921D8E7881654330C94789D839D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:AT87.J73.A83.Q83 95.KT9642.QT96.T J6432.AQ.KJ5.A42 KQ.85.742.KJ9765"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  2C =1=    Pass
+2S    Pass  4S    Pass
+Pass  Pass
+[Play "W"]
+C7 CQ CT C2
+D2 D3 D9 DJ
+D4 DA D6 D5
+D7 D8 DT DK
+SQ SA S5 S2
+SK S7 S9 S3
+C9 C3 H2 CA
+H5 H3 H4 HA
+H8 H7 HK HQ
+C5 S8 DQ C4
+C6 ST H6 S4
+CJ HJ H9 S6
+CK C8 HT SJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C7. From your long club suit headed by the KJ9, a spot card starts developing the suit while protecting your honours behind dummy.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S. Trumps and strong side cards bring the game and more; the finesse spot is hearts, A and Q facing J73, the king missing. Plan: draw trumps, then lead toward the \HQ rather than cash the ace. Nothing in the bidding places the \HK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \C7, which looks like a card from club length, so the club length probably sits with West. Win the \CA, draw trumps, and prepare to lead toward your \HQ. With West rating to hold the club length, East has more room in the other suits, so the missing \HK leans toward East behind your A-Q — keep it a lean, since both defenders passed. Set up the heart so you lead up to your honours and let the cards confirm the king's location.
+
+[ROLE declarer][STAGE post-play]
+Game was safe on the long trumps, and reading West's club length pointed you toward the right heart play for the overtrick. Leading toward the queen rather than from it gave the chance its value. Nicely done — the lead told you where to look.}
+[Note "1:Stayman"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "20"]
+[OriginalBoard "38"]
+% 292D92EF45324CA712E15DBCB68F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:AT7.J92.KT76.Q82 J95.K75.J83.KT73 K8432.AQ86..AJ65 Q6.T43.AQ9542.94"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+H3 H9 HK HA
+HT HJ H5 H6
+H4 H2 H7 H8
+S6 SA S5 S2
+C4 C2 C7 CJ
+SQ S7 S9 SK
+C9 C8 C3 CA
+D2 CQ SJ HQ
+D4 ST CT C5
+D5 D6 D8 S3
+D9 D7 D3 S4
+DQ DT DJ S8
+DA DK CK C6
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H3. Low from three small is a reasonable passive start, keeping your own values intact while you wait to see dummy.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S. The trump suit and your side winners are a sound base; the extra trick is hearts, A and Q facing J92, missing the king. Plan: draw trumps, then lead toward the \HQ rather than play the ace first. Nothing in the bidding places the \HK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \H3, which looks like low from a short holding, so it tells you little about the \HK directly. Win or play low as the suit dictates, draw trumps, and prepare to lead toward your \HQ. With both defenders silent the vacant spaces are roughly balanced, so the missing \HK could sit with either hand — nothing yet points it firmly one way. Set up the heart so you lead up to the queen and let the cards reveal the king.
+
+[ROLE declarer][STAGE post-play]
+The contract was comfortable, and the heart play was about leading toward the queen so a king sitting in front of it could be caught. Keeping trump control gave you the timing to do it. Well played — you took the safe extra trick the right way.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "21"]
+[OriginalBoard "53"]
+% 3A8C66A2EACFE6CCC34150192922
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:432.AT876.AT8.T7 K65.54.J43.KQJ92 AQ.KQJ932.K9.643 JT987..Q7652.A85"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 650"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+3H    Pass  4H    Pass
+Pass  Pass
+[Play "W"]
+SJ S2 SK SA
+S7 S3 S5 SQ
+D2 DA D3 D9
+S8 S4 S6 H2
+D5 D8 D4 DK
+C5 H6 H4 H3
+D6 DT DJ H9
+CA H7 H5 HJ
+C8 H8 C2 HQ
+S9 HT C9 HK
+ST C7 CJ C3
+D7 CT CQ C4
+DQ HA CK C6
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \SJ. Top of a strong sequence is the standard lead, attacking the suit while keeping your honours working together.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H. Powerful trumps and side winners bring the game within easy reach; the one finesse spot is spades, A and Q tight, missing the king. Plan: draw trumps, then lead toward your A-Q of spades. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \SJ, which looks like the top of a sequence, so West probably holds the ten and cards below it but not the \SK — a jack lead usually denies the king above it. That hints the missing \SK rates to sit with East behind your A-Q, though a sequence lead can still deceive, so keep it a lean. Cover or win as the suit dictates, draw trumps, and set up to lead toward your spade honours so the position confirms itself.
+
+[ROLE declarer][STAGE post-play]
+The spade lead itself hinted at the king's location, and your strong trumps made the game safe while the finesse added the overtrick. Reading the jack as denying the king pointed you the right way. Well played — you let the opening lead tell its story.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "22"]
+[OriginalBoard "35"]
+% 29A26EB0871DE4794DFFF62B6342
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:T4.J72.AQ32.J643 K8732.T.J95.AK52 AQJ.AK943.84.T87 965.Q865.KT76.Q9"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "8"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+Pass  Pass
+[Play "W"]
+D6 DQ D5 D4
+S5 S4 S2 SJ
+DT DA D9 D8
+D7 D2 DJ H3
+H5 H2 HT HK
+S6 ST S3 SA
+S9 H7 S7 SQ
+DK D3 C2 H4
+C9 CJ CK C7
+CQ C3 C5 C8
+H6 HJ S8 H9
+H8 C4 CA CT
+HQ C6 SK HA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D6. Fourth-best from your longest suit is the standard choice with no sequence to lead, and it gets the suit working early.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\H. Trumps and top cards comfortably cover the tricks you need, and the finesse spot is spades — \SA\SQ\SJ facing the ten, missing the king. Plan: draw trumps, then lead toward your spade honours. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D6, which looks like a fourth-best, suggesting about four diamonds for West. Win the trick as the suit allows, draw trumps, and set up to lead toward your \S honours. With the diamond length probably West's and both defenders silent, the vacant spaces are close to even, so the missing \SK could lie either way — the lead alone does not place it. Approach spades by leading up to your A-Q-J so the layout shows itself.
+
+[ROLE declarer][STAGE post-play]
+The partscore was never in danger; the spade technique was about the overtrick, and leading toward your honours rather than away from them gave you the extra chance. Trump control let you repeat the lead toward strength. Nicely done — you squeezed the maximum out of a safe hand.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "23"]
+[OriginalBoard "16"]
+% 09AF5CAB07046EC96BDEE240FA60
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:JT.JT84.542.AQJ7 K9742.K6.JT.9653 AQ.AQ9752.Q873.8 8653.3.AK96.KT42"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1H    X     2H    2S
+4H    Pass  Pass  Pass
+[Play "W"]
+DK D2 DT D3
+DA D4 DJ D7
+D6 D5 H6 D8
+S3 ST S2 SQ
+H3 H4 HK HA
+C2 CJ C3 C8
+C4 CA C5 DQ
+CT C7 C6 H2
+S5 H8 S4 H5
+CK CQ C9 H7
+S6 HT S7 H9
+S8 HJ S9 HQ
+D9 SJ SK SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \DK. With \DAK heading a strong diamond holding, the king is a safe, attacking lead that bags a trick and lets you look at dummy before planning the next move.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H. Your long trump suit is worth six, with the \SA, a club and a diamond ruff filling out; the make-or-break trick is the spade guess, \SA\SQ opposite small. East showed values in the auction, so lean on that when you read the king. Plan: draw trumps, then lead toward the \SA\SQ.
+
+[ROLE declarer][STAGE post-lead]
+West led the \DK, the top of a strong holding, so the diamond strength and length probably sit with West. Ruff or win to your plan, draw the trumps your six-card suit dominates, and set up to play spades. With West rating to hold the long diamonds and East having shown the values during the bidding, the room for the missing \SK may well sit with East. Take the spade play in the direction the lead, the bidding, and the vacant-space count point you toward.
+
+[ROLE declarer][STAGE post-play]
+The spade guess was the entire contract, and reading West's diamond length together with East's shown values let you place the rest of the distribution and choose the finesse with reason. Well played — you turned the auction and the opening lead into a count and let it carry you to the right play.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "24"]
+[OriginalBoard "27"]
+% 1880E8A2085421DE342C4AEBD14E
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J976.AJ52.KJ54.4 T52.T83.862.Q852 AQ.KQ964.AQ93.93 K843.7.T7.AKJT76"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "S"]
+1H    2C    3C =1=    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+CK C4 C2 C3
+D7 DJ D2 D3
+H7 H2 H3 H9
+DT DK D6 D9
+S3 S6 S2 SA
+SK S7 S5 SQ
+C6 H5 C5 C9
+S4 SJ ST DQ
+C7 HJ H8 H4
+CT HA HT H6
+S8 S9 D8 DA
+CJ D4 C8 HQ
+CA D5 CQ HK
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CK. With \CAK heading a long, strong club suit, the king is a safe and aggressive lead that cashes a trick and lets you see dummy before planning ahead.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H — five trump tricks, top diamonds, and spades good for more once the king is out. West showed a strong suit in the auction, so let that guide how you read the missing honours. Plan: draw trumps, then go after spades, leading toward your honours.
+
+[ROLE declarer][STAGE post-lead]
+West led the \CK, the top of a strong holding consistent with the suit shown, so the club length and strength probably sit with West. Win or ruff to your plan, draw trumps, and set up to develop spades. With West marked for the long clubs and the side strength, the room for the missing \SK may sit with West. Take the spade play in the direction the lead, the bidding, and the vacant-space count point you toward.
+
+[ROLE declarer][STAGE post-play]
+Developing the spades produced the overtrick, and reading West's club length together with the auction let you picture the rest of the distribution before committing. Nicely done — the game was safe, and you still played for the maximum with clean technique.}
+[Note "1:limit raise or better in !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "25"]
+[OriginalBoard "14"]
+% 086812A98CBD1C81F5CA3F1E84D7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K954.J863.AQ6.52 A.K942.JT954.K64 QJT83.AQ.K8.QT87 762.T75.732.AJ93"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  3S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+H5 H6 HK HA
+H7 H3 H2 HQ
+S6 S4 SA S3
+C9 C2 C4 C7
+C3 C5 CK C8
+D2 D6 D4 D8
+D3 DQ D5 DK
+CJ S5 C6 CT
+HT HJ H4 CQ
+D7 DA D9 S8
+S2 S9 H9 ST
+S7 SK DT SJ
+CA H8 DJ SQ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H5. With three small hearts and no attractive sequence, leading low from this length is a reasonable, passive choice that avoids opening up your club ace prematurely.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S. Trumps, three solid diamonds and a club ruff or two in the short hand carry you; the decisive trick is the heart guess, \HA\HQ opposite small. Plan: draw trumps, cash your diamonds, take your ruffs, then lead toward the \HA\HQ. Nothing in the bidding places the \HK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \H5, a low card that looks like length rather than a sequence, so West probably holds three or four hearts. Win or duck as your entries require, draw trumps, take your club ruffs, and set up to play hearts toward your honours. With the defence silent and 16 points split, the room for the missing \HK could lie either way, though the lead and the eventual vacant-space count may tilt it. Let that read guide which defender rates to hold the king before you commit to the heart play.
+
+[ROLE declarer][STAGE post-play]
+The heart finesse was the trick that brought the game home, and counting your sure winners first told you exactly where the extra trick had to come from. Nicely played — you organised the hand and then took the guess with the odds, not against them.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "26"]
+[OriginalBoard "42"]
+% 2BAB4EAF4B5B25683021C9BA5036
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:9762.KJ5.92.AQJT KJT83.T3.763.K42 AQ4.AQ986.KQ.965 5.742.AJT854.873"]
+[Declarer "S"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS 630"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  2C =1=    Pass
+2H    Pass  3N    Pass
+Pass  Pass
+[Play "W"]
+D8 D2 D3 DQ
+H2 HJ H3 H6
+H4 H5 HT HQ
+C3 CA C2 C5
+S5 S2 ST SQ
+H7 HK S3 H8
+D4 S6 SJ SA
+D5 CT C4 H9
+C7 S7 D6 HA
+C8 CJ CK C6
+DA D9 D7 DK
+DT S9 S8 S4
+DJ CQ SK C9
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D8. Against notrump, lead from your longest, strongest suit; with no top sequence, the standard card from this holding starts establishing your length.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\NT. Your hearts cash four and develop to five, and the \CA\CQ\CJ lets clubs supply the rest, with the spade A-Q waiting behind the king as backup. Plan: count nine and drive the long clubs, keeping the spade finesse in reserve. Nothing in the bidding places the missing honours, so back the finesses.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D8, which looks like a fourth-best, so West probably holds a long diamond suit of about five or six. By the rule of eleven, eleven minus eight leaves three cards higher than the eight outside West's hand, and all three sit in dummy and your hand — none with East — so East cannot beat the eight. With West marked for diamond length, East holds more cards in the rounded suits, so the missing \SK rates to sit with East behind your A-Q. Hold up or win as the suit dictates, then develop clubs and lead toward your spade honours.
+
+[ROLE declarer][STAGE post-play]
+The rule of eleven told you the diamond lead was safe to manage, and developing clubs supplied the ninth trick while the spade position was placed by the lead. Counting your tricks before touching a card kept the line clear. Well done — that is exactly how to plan a notrump game.
+
+[PLAY 5 S \SQ]
+Here is the spade finesse for your ninth trick. Dummy leads the \S2 toward your hand and East plays the \ST, with you holding \SAQ4 and the king still out. Which spade do you play?
+[WHY]
+Play the \SQ — the finesse. The \ST cannot hurt you: East following with it leaves the \SK still sitting behind your A-Q, just where you want it, so the queen beats the ten and brings home the trick you need. Going up with the \SA instead leaves your lone queen to be swallowed by the king later — and with it the ninth trick. Cover nothing; lead toward the A-Q and slide the queen through.}
+[Note "1:Stayman"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "27"]
+[OriginalBoard "30"]
+% 18AA6488056D1C8A1CC76DE7E6BF
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J97.QJ86.AQ8.642 KT5.97.T9752.A83 AQ82.AKT543..JT5 643.2.KJ643.KQ97"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  3H    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+D4 DQ D2 C5
+H2 H6 H7 HT
+D3 H8 H9 HK
+S3 HJ D5 H3
+S4 S7 ST SQ
+C7 HQ C3 H4
+S6 S9 SK SA
+D6 SJ S5 S2
+DJ DA D7 CT
+DK D8 D9 H5
+C9 C2 C8 S8
+CQ C4 DT HA
+CK C6 CA CJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D4. With no clear sequence, the fourth-best of your longest suit is the standard attacking choice and gives partner a count signal.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H. The trumps run for six and the side suits add the rest, so the contract rests on spades — A and Q facing J97, the king missing. Plan: draw trumps, then handle spades by leading toward your honours rather than crashing them. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D4, which looks like a fourth-best, so West probably holds about four or five diamonds. Win in dummy, draw trumps, and prepare to tackle the \S suit toward your A and Q. With the \D length probably sitting with West and neither defender able to bid, the vacant spaces are close to even, so the missing \SK could lie either way; nothing in the lead points it firmly to one hand. Set up the spade position so you lead toward your honours and let the cards tell you.
+
+[ROLE declarer][STAGE post-play]
+The game came down to handling the \S honours by leading up to them instead of banging out the ace. Because you kept trump control and approached the suit the right way, the missing king could not score against you. Nicely judged — patient technique, not luck, brought this one home.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "28"]
+[OriginalBoard "41"]
+% 29AEE78623ED28BC4FC481D65045
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:J9.Q7652.J53.KJ7 732.43.KQ642.AQ4 AQ85.AKJT9.9.T52 KT64.8.AT87.9863"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+Pass  Pass
+[Play "W"]
+S4 S9 S2 S5
+H8 H2 H3 H9
+S6 SJ S3 SA
+ST H5 S7 S8
+C3 C7 CQ C2
+DA D3 D2 D9
+C6 CJ CA C5
+C8 CK C4 CT
+D7 H6 H4 HT
+SK H7 D4 SQ
+D8 D5 DQ HJ
+C9 HQ D6 HK
+DT DJ DK HA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \S4. Fourth-best from your longest suit is the orthodox lead here, getting your strongest holding in motion before dummy appears.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\H. Long, strong trumps and side cards cover your tricks with ease; the finesse spot is spades, \SA\SQ\S8 facing J9, the king missing. Plan: draw trumps, then lead toward your spade honours. Nothing in the bidding places the \SK, so back the finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \S4, which looks like a fourth-best in your key suit, so West probably holds length and very possibly the \SK behind your honours. Win or play low according to the layout, draw trumps, and set up the spades. A fourth-best in the very suit you hold A-Q-eight in suggests the spade guards are more likely West's — but treat it as a lean, since a low card can come from various holdings and both defenders passed. Lead toward your spade strength and read what the suit shows.
+
+[ROLE declarer][STAGE post-play]
+West's choice to lead your strong suit was a small gift, and reading it toward placing the spade guards pointed you to the winning approach. Leading up to your honours, not from them, is what mattered. Well judged — you turned the lead into information.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Simple"]
+[Site ""]
+[Board "29"]
+[OriginalBoard "22"]
+% 19AFEF8D1660D176342F6E8986CF
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:J76.Q432.T9.AK62 T85.J9.J873.J853 AQ43.AKT65.4.Q94 K92.87.AKQ652.T7"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "S"]
+1H    2D    3D =1=    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+DK D9 D3 D4
+C7 CK C3 C4
+CT C2 CJ CQ
+H7 H2 H9 HK
+H8 HQ HJ H5
+S2 S6 S8 SA
+SK S7 S5 S3
+DQ DT D7 H6
+S9 SJ ST S4
+D2 C6 C5 C9
+D5 CA C8 SQ
+D6 H3 D8 HT
+DA H4 DJ HA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \DK. With \DAKQ heading a long diamond suit, the king is a completely safe lead that cashes a sure trick and lets you see dummy before continuing.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H — five trumps, top clubs, and spades good for more once the king is dislodged. West showed a long, strong suit in the auction, so read the missing honours partly from that. Plan: draw trumps, then work the spade suit, leading toward your honours.
+
+[ROLE declarer][STAGE post-lead]
+West led the \DK, the top of a strong holding consistent with the suit shown, so the diamond length and strength probably sit with West. Ruff or win to your plan, draw trumps, and set up to develop spades. With West marked for the long diamonds and the side strength, the room for the missing \SK may well sit with West. Take the spade play in the direction the lead, the bidding, and the vacant-space count steer you.
+
+[ROLE declarer][STAGE post-play]
+The spade development brought the overtrick, and reading West's diamond length together with the auction gave you the distributional count to place the king. Nicely played — the game was cold, and you still played accurately for the extra trick.}
+[Note "1:limit raise or better in !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

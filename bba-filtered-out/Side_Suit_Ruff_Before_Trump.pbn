@@ -18,15 +18,16 @@
 {HCP 9 9 16 6}
 {Losers 7 8 7 8}
 [Declarer "S"]
-[Contract "2N"]
-[Result "9"]
-[Score "NS 150"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 650"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
+3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -51,8 +52,8 @@ Pass  Pass
 1N    Pass  2N    Pass
 3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -76,8 +77,8 @@ Pass  Pass
 [Auction "S"]
 1N    3D    Pass  Pass
 Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -101,8 +102,8 @@ Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -128,8 +129,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -154,8 +155,8 @@ Pass  Pass
 1N    Pass  2C =1=    3H
 Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -181,8 +182,8 @@ Pass  Pass  Pass
 2S    Pass  3S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -206,8 +207,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -233,8 +234,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -260,8 +261,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -285,8 +286,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  2N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -310,8 +311,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -337,8 +338,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -364,8 +365,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -382,17 +383,17 @@ Pass  Pass
 {HCP 9 8 15 8}
 {Losers 8 8 7 8}
 [Declarer "S"]
-[Contract "4S"]
-[Result "10"]
-[Score "NS 420"]
+[Contract "3S"]
+[Result "11"]
+[Score "NS 200"]
 [Scoring "MP"]
 [Auction "S"]
-1N    2C    X =1=    Pass
+1N    Pass  2C =1=    Pass
 2S    Pass  3S    Pass
-4S    Pass  Pass  Pass
+Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -418,8 +419,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -445,8 +446,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -472,8 +473,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -499,8 +500,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -526,8 +527,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -553,8 +554,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -578,8 +579,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -605,8 +606,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -630,8 +631,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -657,8 +658,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -682,8 +683,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -708,8 +709,8 @@ Pass  Pass
 1N    Pass  2N    3H
 Pass  Pass  4C    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -734,8 +735,8 @@ Pass  Pass
 1H    Pass  1N    Pass
 2S    Pass  3N    Pass
 4S    Pass  Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -759,8 +760,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  2N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -778,14 +779,14 @@ Pass  Pass
 {Losers 6 9 7 10}
 [Declarer "S"]
 [Contract "3N"]
-[Result "9"]
-[Score "NS 400"]
+[Result "10"]
+[Score "NS 430"]
 [Scoring "MP"]
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -803,14 +804,14 @@ Pass  Pass
 {Losers 7 9 6 8}
 [Declarer "S"]
 [Contract "3N"]
-[Result "9"]
-[Score "NS 600"]
+[Result "10"]
+[Score "NS 630"]
 [Scoring "MP"]
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -836,8 +837,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -854,15 +855,16 @@ Pass  Pass
 {HCP 8 9 15 8}
 {Losers 7 7 7 9}
 [Declarer "S"]
-[Contract "2N"]
-[Result "7"]
-[Score "NS -50"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 450"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
+3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -886,8 +888,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -911,8 +913,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -938,8 +940,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -965,8 +967,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -990,8 +992,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1015,8 +1017,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  5C    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1042,8 +1044,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1069,8 +1071,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1094,8 +1096,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1119,8 +1121,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  2N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1144,8 +1146,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1171,8 +1173,8 @@ Pass  Pass
 Pass  Pass  X     Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1194,11 +1196,11 @@ Pass  Pass
 [Score "NS 480"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
 3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1222,8 +1224,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  2N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1249,8 +1251,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1274,8 +1276,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1301,8 +1303,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1326,8 +1328,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1352,8 +1354,8 @@ Pass  Pass
 1N    Pass  2N    Pass
 3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1379,8 +1381,8 @@ Pass  Pass
 2S    3H    4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1406,8 +1408,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1433,8 +1435,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1451,17 +1453,16 @@ Pass  Pass
 {HCP 11 8 16 5}
 {Losers 6 6 7 9}
 [Declarer "E"]
-[Contract "4HX"]
+[Contract "4H"]
 [Result "9"]
-[Score "NS 200"]
+[Score "NS 100"]
 [Scoring "MP"]
 [Auction "S"]
 1N    Pass  2C =1=    4H
-Pass  Pass  X     Pass
-Pass  Pass
+Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1487,8 +1488,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1505,15 +1506,16 @@ Pass  Pass
 {HCP 8 10 15 7}
 {Losers 7 8 7 7}
 [Declarer "S"]
-[Contract "2N"]
-[Result "8"]
-[Score "NS 120"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 680"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
+3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1537,8 +1539,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  2N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1562,8 +1564,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1589,8 +1591,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1616,8 +1618,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1641,8 +1643,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1666,8 +1668,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1691,8 +1693,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1716,8 +1718,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1741,8 +1743,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1768,8 +1770,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1793,8 +1795,8 @@ Pass  Pass
 [Auction "S"]
 1N    3D    5C    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1820,8 +1822,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1845,8 +1847,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1872,8 +1874,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1891,14 +1893,14 @@ Pass  Pass
 {Losers 7 7 6 9}
 [Declarer "S"]
 [Contract "3N"]
-[Result "9"]
-[Score "NS 600"]
+[Result "10"]
+[Score "NS 630"]
 [Scoring "MP"]
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1924,8 +1926,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1949,8 +1951,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -1976,8 +1978,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2003,8 +2005,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2028,8 +2030,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  2N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2053,8 +2055,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2080,8 +2082,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2106,8 +2108,8 @@ Pass  Pass
 1N    Pass  2N    Pass
 3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2131,8 +2133,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2156,8 +2158,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2184,8 +2186,8 @@ Pass  Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
 [Note "2:limit raise or better in !S"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2211,8 +2213,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2236,8 +2238,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2261,8 +2263,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2289,8 +2291,8 @@ Pass  Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
 [Note "2:limit raise or better in !S"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2316,8 +2318,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2341,8 +2343,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2368,8 +2370,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2395,8 +2397,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2418,12 +2420,12 @@ Pass  Pass
 [Score "NS 620"]
 [Scoring "MP"]
 [Auction "S"]
-1N    2C    X =1=    Pass
+1N    Pass  2C =1=    Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2447,8 +2449,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  2N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2472,8 +2474,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2499,8 +2501,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2526,8 +2528,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2553,8 +2555,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2580,8 +2582,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2607,8 +2609,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2625,15 +2627,16 @@ Pass  Pass
 {HCP 10 10 15 5}
 {Losers 6 7 7 10}
 [Declarer "S"]
-[Contract "2N"]
-[Result "7"]
-[Score "NS -100"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 680"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
+3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2657,8 +2660,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2682,8 +2685,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2709,8 +2712,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2736,8 +2739,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2761,8 +2764,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2786,8 +2789,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2811,8 +2814,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2836,8 +2839,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2862,8 +2865,8 @@ Pass  Pass
 1N    Pass  2N    Pass
 3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2887,8 +2890,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2914,8 +2917,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2941,8 +2944,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2968,8 +2971,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -2991,11 +2994,11 @@ Pass  Pass
 [Score "NS 480"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
 3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3019,8 +3022,8 @@ Pass  Pass
 [Auction "S"]
 1H    3C    Pass  Pass
 3H    Pass  Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3037,15 +3040,16 @@ Pass  Pass
 {HCP 9 9 15 7}
 {Losers 6 6 7 10}
 [Declarer "S"]
-[Contract "2N"]
-[Result "7"]
-[Score "NS -50"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 450"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
+3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3069,8 +3073,8 @@ Pass  Pass
 [Auction "S"]
 1N    3D    3N    4D
 Pass  Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3094,8 +3098,8 @@ Pass  Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3119,8 +3123,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  2N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3144,8 +3148,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  2N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3171,8 +3175,8 @@ Pass  Pass
 3S    Pass  4C =1=    Pass
 4S    Pass  Pass  Pass
 [Note "1:limit raise or better in !S"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3196,8 +3200,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3221,8 +3225,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3248,8 +3252,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3266,15 +3270,16 @@ Pass  Pass
 {HCP 9 10 16 5}
 {Losers 7 8 7 8}
 [Declarer "S"]
-[Contract "2N"]
-[Result "8"]
-[Score "NS 120"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 480"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
+3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3300,8 +3305,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3327,8 +3332,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3352,8 +3357,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3384,8 +3389,8 @@ Pass  Pass
 [Note "2:limit raise or better in !S"]
 [Note "3:Blackwood 0123, for !S"]
 [Note "4:A=3 out of 5"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3411,8 +3416,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3436,8 +3441,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3461,8 +3466,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3488,8 +3493,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3515,8 +3520,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3542,8 +3547,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3569,8 +3574,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3596,8 +3601,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3621,8 +3626,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3648,8 +3653,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3675,8 +3680,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3702,8 +3707,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3729,8 +3734,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3754,8 +3759,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3781,8 +3786,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3808,8 +3813,8 @@ Pass  Pass
 Pass  Pass  3C    Pass
 Pass  3H    4C    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3835,8 +3840,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3860,8 +3865,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3885,8 +3890,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3910,8 +3915,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3937,8 +3942,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3964,8 +3969,8 @@ Pass  Pass
 2S    Pass  3N    Pass
 4H    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -3991,8 +3996,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4016,8 +4021,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4041,8 +4046,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4068,8 +4073,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4086,15 +4091,16 @@ Pass  Pass
 {HCP 9 10 15 6}
 {Losers 7 8 7 8}
 [Declarer "S"]
-[Contract "2N"]
-[Result "6"]
-[Score "NS -100"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
+3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4118,8 +4124,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4148,8 +4154,8 @@ Pass  Pass
 [Note "1:Blackwood 0123, for !S"]
 [Note "2:A=1/5 or 5/5"]
 [Note "3:!S queen no !C king no !D king no !H king"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4166,15 +4172,16 @@ Pass  Pass
 {HCP 9 10 16 5}
 {Losers 7 6 7 8}
 [Declarer "S"]
-[Contract "2N"]
-[Result "8"]
-[Score "NS 120"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 480"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
+3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4200,8 +4207,8 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4218,15 +4225,16 @@ Pass  Pass
 {HCP 10 9 16 5}
 {Losers 7 9 6 10}
 [Declarer "S"]
-[Contract "2N"]
-[Result "7"]
-[Score "NS -100"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 650"]
 [Scoring "MP"]
 [Auction "S"]
-1N    Pass  2N    Pass
+1N    Pass  3D    Pass
+3S    Pass  4S    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4252,8 +4260,8 @@ Pass  Pass
 2S    Pass  3S    Pass
 4S    Pass  Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4277,8 +4285,8 @@ Pass  Pass
 [Auction "S"]
 1N    Pass  3N    Pass
 Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 
 [Event "Side_Suit_Ruff_Before_Trump"]
 [Site ""]
@@ -4304,6 +4312,6 @@ Pass  Pass
 2S    Pass  4S    Pass
 Pass  Pass
 [Note "1:Stayman"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
+[BidSystemEW "Sayc - Standard American Yellow Card"]
+[BidSystemNS "Sayc - Standard American Yellow Card"]
 

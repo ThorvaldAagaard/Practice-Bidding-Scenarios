@@ -1,0 +1,4017 @@
+{
+ "scenario": "Preemptive_Major_Raise",
+ "verdicts": [
+  {
+   "deal_hash": "066284ca115552d0",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "d2f80edebff6e23e",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "bf15d75e21388dfe",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "6bbc040dab64b01d",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "75da2290eb4a2c91",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "5fc33140c86906be",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "54d9e9bcfa321ea1",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "e4f5610f57a2a1ac",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "aeb2b64a1190944f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "47787eac91d49987",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "4a121a765fc40088",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "78bd13f4b77bce94",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "16f144f7cec63b80",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "5fb0f44d83256e0d",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f8bf82aebe27801e",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 7 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "68df825623788d5c",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "0200875f22929774",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "4f64bd4106ac67fb",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "4 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "5106238d9fc0a95a",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9f5eb81ca6d7b40a",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "e066040d6a87b51e",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c7cbb7b6f0047c63",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "4f544613e9bc8afd",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "4 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "151619e6a2e218a6",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "2ad0eeb81fffc925",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1da695f99fc05c57",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9853a1ac9e0e3596",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "78e6963d1ef20d9b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "0a1bb0caec12370b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b7990801448e025a",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b7b18c465e6f1730",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "d997e7456640020f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b914245a58e2f046",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "d9c509c152466e50",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "58ef376c60a69585",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1c4a8c81ec565eb2",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "928e8995e0877270",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "7c21116034f06e98",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "4 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8f1d71e4089f2933",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f2ed34ffe2d404cd",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "367e7b452f9ad9c8",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "224f6c4f4898fb92",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "cb89e03fd6587c3a",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b7d831b0de20a87d",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "afa929bcbf4b21ab",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "02eb6dc1e8d17a83",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "dc14429ce6fa3531",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "24e5f42f69027848",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f8df6ac05990cada",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9594b9e7aa272937",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "26f63ba847e67b45",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9f0d62a4b47c294f",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "66da5459c19d3a57",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "876ead75b3016174",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "533d02456d2102b8",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "aabee90a9f014e32",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "0be1808a59bf2bfb",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ce31ed8a88f23979",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "6a0cecb72be8c808",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9c926e5f62a5383d",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b6f6341ae02f8285",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "3 HCP, 6 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "5b7c9627ef6c3997",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1de795cc5dd536f9",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9dcfc8f3b8ee9340",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "5a577c9bfed3dfc4",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1382ae2ff5e80314",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c80d1198dbf34b9a",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9492e9cce2dd1f4b",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c24d754fed97eb28",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "79df964ed3c9481c",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "e7625a217b754b6d",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "415eaac9c86baa82",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "4e90412ac4576ea1",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "97e4fef777bc9a77",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "efa4eab7336bdd27",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "28f7916a5064db24",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "4 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "03a9aaef1412c7a8",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9bcfa2bcf2fc5e40",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "df497efba4ce69e0",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "a746c97176d75f93",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f6ae07db8a36f66a",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "e5a21f31353c92d0",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "335a8eaaa36a0d01",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f271eef6fc0d0618",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "2a1ac9c5f7c777cb",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ff1d7ecce8d0c9d3",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "fc036c415b8859a3",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "42710770e3ff0e75",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8df8e702b40519e9",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1b681e860e1011b8",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "5b001d24af2075ab",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "479b72c7af6b5993",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "828c626816cf1866",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f6fdb55c189b019c",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "a257b66ec506af32",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "e8ddfc3aca977680",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "470d316d41acc27b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "7d49c1d6571f3fd1",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 7 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b0f63765fd1d335f",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "4 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c1214bd054c658a1",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c53274c4eb49bebe",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "cbac65c99887073f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "133992f38efd9a1e",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ea39cb2305c1524b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "bcf2b36c6e595b44",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ae5ecc317650bdab",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1d27189119d96d27",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "410f12b4b5dcc14f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "d00410631408f94a",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "7937108046014082",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "42d7b415c629a82e",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "41aae862a1a20313",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "bc5045612a661b0d",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "5dd38067696aa98d",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f60e55bc736e5f96",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "56406e959cee80bf",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8a6d8ec153999882",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "2a6f3819f3af2c84",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "d3abb9062af3c48f",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "0963396a0a1a240e",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c7995babede7a0d9",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "3bb8c31b2f10fc52",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ec2861b9597eb77f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "2eedf4d8bcc432e9",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "bb93fa5882762542",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "5d718212f41d896f",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "7e643e37618cb8fb",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "91eeb9d994f8d47f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "aa98cf984daa049e",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "11a08f9631c6de78",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "3b341cdb794f3e07",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c6929bcb63853105",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "071ec43b10270b01",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "26e0ed0182007bae",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9e8cf3a5c945ac1b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c8b49f9367fb9545",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c35340b11130ba2e",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8ccac71d65031f60",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "d92eb70b16998c3b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "a92a6c4705d4a74f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8b9b18366c5affff",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1ae5dd72ae18e2ee",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8c81afaa7e8c9f59",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8b837173c53cc650",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 7 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1d2fcc9fb7aed6a6",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "bd7364a36e487f8a",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "de90f181315ac3dd",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1178d6df201c5659",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "0476547a45a0baac",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "05a0570fdb7bcbaf",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "59ba8f76b0913e7e",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8a04e91f237a775c",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "7adebffb020acc58",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1c12d6593a593857",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "bb320cd1bc71439f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "78211ebc82ac546a",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "cd6909f88a7f703a",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "4aae87d47aa55c5b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8952558b6327a5ef",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "4f6064927768efe3",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "d53ba0480d00d66b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "6e58f40482ae3432",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "7deaecdd10ceaaca",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "6f31e2871588c996",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "a8afefd8ca83651b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "28840c2bfe81df8d",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "cf8a5192cb0a58a7",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "19ae98e090748153",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "160f4787d78edb7d",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1f629d3116415832",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "76d4ee1b2ae2f071",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f68d09209abdcf10",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8acb7c523bbfffb4",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "39a7afab7a7844ae",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "faf0fb9381379e3c",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 6 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f20418d352a0343f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "22e18d78f845cfe3",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1682d1f4ae6ffc8f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "77a550e011697e1d",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "d0500b764030a01c",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b809798d36967ae4",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "df5ad56847111bf2",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "69fbc623617a6b60",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "2409ca4145ae70e3",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "cfd6d2fe3dfd01b5",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "feb46259c5b86fc8",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "1433c20049302ef4",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "bbe2ac50e7bacc88",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b8e0fd53dcfa88ef",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "fc6681db2228a7f1",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "adfb968fbbcd7a5d",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "3 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "4028cae31cae2c20",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ce569c861fb35aad",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "f8d3774bfd325368",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 6 trumps, a doubleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "6c3c46c1e8bca6ac",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "39a0d6479bdd4e20",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "e52197b958be8d62",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "564ad70fc0ee9092",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ca295582f2a76fdd",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9c91468fb806be08",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "4 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "7f32ee8e797122ec",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ea003332327c85f4",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "9fe0408163705cc8",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "99df8c275ddd2786",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "802f28c54e4ab618",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "c17ea797d6a2fd59",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "958500ae66fd063b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "4a13878d4e826895",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b9bf393e884bae60",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b0b19fdd28845e7c",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "97804e69ac0f6b10",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 6 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "0f281121dfbe1350",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "985b3edb3e717e1f",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "01a72afe27ed42e3",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "2c0f37655033153e",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "4 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "aaa0639caaf8d658",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "2e93dd9ab89c6e0f",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "2add7b47550c6930",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "00c1b5f3760d5b63",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 6 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "db49a54d28a1bf79",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "2c78e9747c0c0eea",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "32d2e8bf0df0173b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "a3ebcc77072b7f26",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "textbook",
+    "note": "5 HCP, 5 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ecdd4551dca446f4",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "b4ec7af75d7f05cf",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ffe97a144699979e",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "21bd430bf496ea25",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "6 HCP, 6 trumps, void \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "589fc0281ef686d8",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "ad14694953220426",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "97d8c758316575d9",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "a740db3234e47b7b",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "5 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "deb2b09247bd65f7",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "aa9167fd46ec3e9a",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 5 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "0bab39e7ae13379e",
+   "auction_class": "intended",
+   "difficulty": 2,
+   "bidding": {
+    "tier": "standard",
+    "note": "3 HCP, 6 trumps, a doubleton \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "8196ef7e0ce31066",
+   "auction_class": "interference",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "standard",
+    "note": "4 HCP, 6 trumps, singleton \u2014 jump to game over the intervention to take their room."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  },
+  {
+   "deal_hash": "7e54f6494094d05f",
+   "auction_class": "intended",
+   "difficulty": 3,
+   "bidding": {
+    "tier": "textbook",
+    "note": "6 HCP, 5 trumps, void \u2014 weak and shapely, jump straight to game."
+   },
+   "declarer": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   },
+   "defense": {
+    "tier": "reject",
+    "note": "Bidding lesson; play not the focus."
+   }
+  }
+ ]
+}

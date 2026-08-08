@@ -3,11 +3,17 @@
 # gib-works: true
 # bba-works: true
 # auction-filter: Contract..[5-7](?:.*\n){5}1N +Pass +2C
+# curate: kind=bidding
 # convention-card-ns: 21GF-DEFAULT
 # convention-card-ew: 21GF-GIB
 
 /*@chat
 --- Slam after Stayman or Smolen.
+4NT is Roman Keycard Blackwood (1430) with a trump suit agreed, or quantitative (inviting 6NT) in a notrump auction. Keycard responses:
+  • 5!C = 1 or 4 keycards
+  • 5!D = 0 or 3
+  • 5!H = 2 without the trump queen
+  • 5!S = 2 with the trump queen
 @chat*/
 
 produce 1000

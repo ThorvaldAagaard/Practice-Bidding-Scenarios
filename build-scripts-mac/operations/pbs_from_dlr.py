@@ -353,7 +353,10 @@ def _git_commit_and_push(pbs_test_path: str, scenario: str, verbose: bool = True
             if verbose:
                 print(f"  Committed: {commit_msg}")
 
-        # Push
+        # Push (fire-and-forget: a failed push just leaves the commit local, to be
+        # pushed later). Deliberately NOT rebase-and-retry — this runs mid-pipeline
+        # (per scenario), where a git pull --rebase would autostash in-progress
+        # artifacts and can stall. Rebase-retry is only for the terminal release ops.
         result = subprocess.run(
             ["git", "push"],
             capture_output=True,

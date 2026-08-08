@@ -29,7 +29,7 @@
 [Date ""]
 {<b>Exercise One — Opening Bids</b>
 
-As opener, what will you rebid with each of these hands?}
+What do you open with each of these hands?}
 [Board "1"]
 [West ""]
 [North ""]
@@ -1273,7 +1273,7 @@ You open 1\C, partner responds 2\D. What do you bid with each of these hands?}
 [Date ""]
 {<b>Exercise Five — Opener's Rebid after 2\H</b>
 
-You open 1\C, partner responds 2\H, opponent bids 3\D. What do you bid with each of these hands?}
+You open 1\C, partner responds 2\H, RHO bids 3\D. What do you bid with each of these hands?}
 [Board "5"]
 [West ""]
 [North ""]
@@ -1787,7 +1787,7 @@ You open 1\C, partner responds 2\H. What do you bid with each of these hands?}
 [Date ""]
 {<b>Exercise Seven — Opener's Rebid after 2\S</b>
 
-You open 1\C, partner responds 2\S, opponent bids 2NT. What do you bid with each of these hands?}
+You open 1\C, partner responds 2\S, RHO bids 2NT. What do you bid with each of these hands?}
 [Board "7"]
 [West ""]
 [North ""]
@@ -1840,7 +1840,7 @@ You open 1\C, partner responds 2\S, opponent bids 2NT. What do you bid with each
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>4\S</i>}
+{<i>Pass</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -2130,7 +2130,7 @@ You open 1\C, partner responds 2\S. What do you bid with each of these hands?}
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>7-2)</b> <i>4\S</i>}
+{<b>7-2)</b> <i>Pass</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -2338,7 +2338,7 @@ You open 1\C, partner responds 2\S. What do you bid with each of these hands?}
 [Date ""]
 {<b>Exercise Nine — Opener's Rebid after 2\H</b>
 
-You open 1\D, partner responds 2\H, opponent bids 2NT. What do you bid with each of these hands?}
+You open 1\D, partner responds 2\H, RHO bids 2NT. What do you bid with each of these hands?}
 [Board "9"]
 [West ""]
 [North ""]
@@ -2372,7 +2372,7 @@ You open 1\D, partner responds 2\H, opponent bids 2NT. What do you bid with each
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>4\D</i>}
+{<i>3\D</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -2625,7 +2625,7 @@ You open 1\D, partner responds 2\H. What do you bid with each of these hands?}
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>9-1)</b> <i>4\D</i>}
+{<b>9-1)</b> <i>3\D</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -2815,7 +2815,7 @@ You open 1\D, partner responds 2\H. What do you bid with each of these hands?}
 [Date ""]
 {<b>Exercise Eleven — Opener's Rebid after 2\S</b>
 
-You open 1\D, partner responds 2\S, opponent bids 3\C. What do you bid with each of these hands?}
+You open 1\D, partner responds 2\S, RHO bids 3\C. What do you bid with each of these hands?}
 [Board "11"]
 [West ""]
 [North ""]
@@ -3292,7 +3292,7 @@ You open 1\D, partner responds 2\S. What do you bid with each of these hands?}
 [Date ""]
 {<b>Exercise Thirteen — Opener's Rebid after 2\S</b>
 
-You open 1\H, partner responds 2\S, opponent bids 2NT. What do you bid with each of these hands?}
+You open 1\H, partner responds 2\S, RHO bids 2NT. What do you bid with each of these hands?}
 [Board "13"]
 [West ""]
 [North ""]

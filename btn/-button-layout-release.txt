@@ -20,10 +20,13 @@
 [Action] ↕|%toggleRotate%|9
 
 [Section] Beginners Bidding
-Basic_What_To_Open,                   Basic_Overcall
+Basic_What_To_Open,                   Basic_Responses
+Basic_Openers_Rebid,                  ---
+Open_and_Rebid,                       ---
 Basic_Minor,                          Basic_Major
-Basic_NT,                             Basic_Takeout_Double
-Basic_Weak_2,                         Play_Top_Tricks
+Basic_NT,                             GIB_1N_Basic
+Basic_Weak_2,                         ---
+Basic_Overcall,                       Basic_Takeout_Double
 
 [Section] Minor Suit Sequences
 Minor_Suit_Opener,                    1m_1x_2m
@@ -31,6 +34,7 @@ Inverted_Minors,                      Minor_Game_Or_Slam
 Splinters_after_Minor,                Fit_Showing_Jumps
 1m-1N,                                1m-2N
 1m-3N,                                1m-1_2_or_3_NT
+1m-2x,                                ---
 
 [Section] Minor/Major Sequences
 GIB_1C-P-Resp,                        1C_WalshStyle
@@ -41,23 +45,24 @@ Open_In_Fourth_Seat,                  (Open_In_Fourth_13:blue, Open_In_Fourth_14
 XYZ,                                  Two-Way_New_Minor_Forcing_aka_xyNT
 Weak_Jump_Shift,                      3_Under_Invitational_Jump
 Reverse_By_Opener,                    Reverse_By_Responder
-Reverse_After_Two_Over_One,           ---
+Reverse_After_Two_Over_One,           3N_Rebid_by_Opener
 Notrump_18-19,                        Splinters_By_Opener
 Misfit,                               (Misfit_06-10:blue, Misfit_11-12:blue, Misfit_13-Plus:blue)
 Misfit6-5,                            ---
 Preemptive_Raise,                     Goulash
 Transfer_Advances,                    DOPI_ROPI
+Spiral_Raises_Wolpert,                Spiral_Raises_Weinstein
 
 [Section] Major Suit Sequences
 Major_Opener,                         Major_Suit_Fit
-Exclusion_After_1M,                   ---
+Two-Way_Game_Try,                     Bergen_Raises
 Forcing_NT,                           BART
-GIB_1M-P-Resp,                        ---       
+Gavin_3-Card_Limit_Raise,             Preemptive_Major_Raise
+Exclusion_After_1M,                   ---
+GIB_1M-P-Resp,                        ---
 Grand_Slam_Force,                     Slam_After_Major_Fit
 Impossible_2S,                        After_1M_2M
 Flannery,                             ---
-Spiral_Raise,                         Spiral_Raises_with_3
-Two-Way_Game_Try,                     Bergen_Raises
 Help_Suit_Game_Try,                   ---
 Xfer_after_1M_X,                      Drury
 
@@ -72,7 +77,7 @@ Soloway_Jump_Shift,                   (Soloway_Jump_Shift_Type-1:blue, Soloway_J
 Six_Key_RKC,                          ---
 
 [Section] Notrump Sequences
-GIB_1N_Basic,                         ---
+GIB_1N_Basic,                         1N_Balanced_Raise
 GIB_1N,                               GIB_1N5422
 GIB_1N-P-2C,                          Stayman
 Jacoby_Transfer,                      Jacoby_Super-Accept
@@ -89,7 +94,7 @@ Smolen_Invitational,                  1N_5M_and_6m
 Grand_Slam_Invite,                    Slam_after_NT
 Slam_after_Stayman,                   Slam_after_Transfer
 Slam_after_Stayman_or_Jacoby_w30plus, Slam_after_Stayman_or_Jacoby_w31plus
-Exclusion_After_Sta_Jac,              ---
+Exclusion_After_Sta_Jac,              Gerber
 Notrump_18-19,                        ---
 2N,                                   2N_and_3C_Response
 Puppet_Stayman_2N,                    ---
@@ -113,7 +118,7 @@ Gambling_3N,                          Opps_Gambling_3N
 GSF_after_Preempt,                    ---
 
 [Section] We Compete in Their Auctions
-We_Overcall,                          ---,
+We_Overcall,                          ---
 Too_Strong_for_Overcall,              Too_Strong_for_Overcall4th
 SupportX_by_Advancer,                 Maximal_After_Overcall
 Snapdragon_Double,                    ---
@@ -144,8 +149,9 @@ Lebensohl_vs_Opps_W2_Dir,             Lebensohl_vs_Opps_W2_Bal
 Lebensohl_vs_Opps_W2_Bal_or_Dir,      Better_Minor_Lebensohl
 Cappelletti,                          Cappelletti_in_4th
 Opps_Open_1N_15-17,                   Multi_Landy
+Multi_2D,                             Opps_Multi_2D
 Meckwell,                             DONT
-Lead_Directing_Double,                Suction,
+Lead_Directing_Double,                Suction
 Rule_of_2,                            Mixed_Raise_In_Comp
 3N_over_RHO_3x,                       3N_over_LHO_3x
 We_X_Opps_Weak_2,                     We_X_Opps_Preempt
@@ -159,14 +165,14 @@ After_Opp_Overcalls,                  WB5_Collante
 Trap_Pass,                            Trap_Pass_Maybe
 Dealing_with_Overcalls_Weak,          Dealing_with_Overcalls_Strong
 Opps_Takeout_X,                       Xfer_after_1M_X
-Equal_Level_Conversion,               ---
+Fit_Jumps_after_1M_Double,            Jordan_2N
 Opps_Takeout_X_We_XX,                 GIB_Overcall_with_4
 Opps_Michaels_and_Unusual,            ---
 Opps_Overcall_1NT,                    After_1x_1N
 Mitchell_Stayman,                     Opps_2-Suited_Overcalls
 Bergen_Thrump_X_after_Preempt,        Tislevoll_after_Opps_Preempt
-Opps_Preemptive_Overcall,             Going_for_Blood
-Jordan_2N,                            ---
+Opps_Weak_Jump_Overcall,              Opps_Preemptive_Overcall
+Going_for_Blood,                      Equal_Level_Conversion
 Opps_Double_1_NT,                     Exit_Transfers
 Opps_Double_Stayman,                  ---
 Opps_Double_Jacoby,                   Opps_Overcall_Stayman_or_Jacoby
@@ -253,6 +259,6 @@ Play_Top_Tricks_NT,                   ---
 
 [Section] Suit Contract Play
 Side_Suit_Ruff_Before_Trump,          Endplay_3rd_Round_Strip
-Play_Top_Tricks_Suit,                 ---
+Play_Top_Tricks,                      ---
 
 [Major] -- Facebook: Practice Bidding Scenarios --|https://www.facebook.com/groups/598917089100836

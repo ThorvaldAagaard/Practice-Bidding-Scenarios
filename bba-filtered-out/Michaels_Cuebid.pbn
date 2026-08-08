@@ -6,6 +6,33 @@
 [Event "Michaels_Cuebid"]
 [Site ""]
 [Board "1"]
+% 077D0F2162630536A803478FF165
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KQ986.K9654.7.J8 AJT52..AK4.KT654 74.QJT72.QJT63.7 3.A83.9852.AQ932"]
+{Shape 5512 5035 2551 1345}
+{HCP 9 15 6 10}
+{Losers 6 5 7 7}
+[Declarer "E"]
+[Contract "5C"]
+[Result "13"]
+[Score "NS -640"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  1N    Pass
+2C    Pass  3C    Pass
+3D    X     4C    Pass
+5C    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "2"]
 % 06D49E50B384C6596292E2DCBCFE
 [North "EPBot"]
 [East "EPBot"]
@@ -30,92 +57,119 @@
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "2"]
-% 1792D59B91A0053355531A0986E7
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "All"]
-[Deal "N:9854.943.Q54.A53 76.AKQJ765..Q862 AQJT3.T2.AJT86.T K2.8.K9732.KJ974"]
-{Shape 4333 2704 5251 2155}
-{HCP 6 12 12 10}
-{Losers 10 4 6 6}
-[Declarer "W"]
-[Contract "4H"]
-[Result "11"]
-[Score "NS -650"]
-[Scoring "MP"]
-[Auction "E"]
-4C    Pass  4H    Pass
-Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
 [Board "3"]
-% 16A3954D2FA26DC31C34C3AE9CC7
+% 1643198C99BBBE53CA8EABD6C1D5
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:J76.Q852.AT85.T4 Q9.K73.K62.AJ852 AKT43.AJT94..763 852.6.QJ9743.KQ9"]
-{Shape 3442 2335 5503 3163}
-{HCP 7 13 12 8}
-{Losers 9 8 6 7}
-[Declarer "W"]
-[Contract "3D"]
-[Result "9"]
-[Score "NS -110"]
-[Scoring "MP"]
-[Auction "E"]
-1C    1S    2D =1=    Pass
-3D    Pass  Pass  Pass
-[Note "1:1X-(Y)-2Z forcing"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
-[Board "4"]
-% 3650B1D094BDA644B3271009DEFE
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "NS"]
-[Deal "N:654.84.AKQ75.932 A8.AQJ53.J986.76 KJT97.96.4.AQJ85 Q32.KT72.T32.KT4"]
-{Shape 3253 2542 5215 3433}
-{HCP 9 12 11 8}
-{Losers 8 7 6 9}
+[Deal "N:K.AQ763.A83.9764 A8.KJ842.42.AT85 QJT965.5.KJT75.Q 7432.T9.Q96.KJ32"]
+{Shape 1534 2524 6151 4234}
+{HCP 13 12 9 6}
+{Losers 7 7 6 9}
 [Declarer "S"]
-[Contract "3S"]
-[Result "9"]
-[Score "NS 140"]
+[Contract "2S"]
+[Result "11"]
+[Score "NS 200"]
 [Scoring "MP"]
 [Auction "E"]
-1H    1S    2H    2S
-Pass  Pass  3H    Pass
-Pass  3S    Pass  Pass
+1H    2S    Pass  Pass
 Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "5"]
-% 369B7F93FA8B4D9AFF2041921EE9
+[Board "4"]
+% 16DC939D9CC4E27B1FDC92A112C0
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "NS"]
+[Deal "N:73.T2.K95432.953 8.AKQJ7653.T.K87 KQJ54.94.8.AJT62 AT962.8.AQJ76.Q4"]
+{Shape 2263 1813 5215 5152}
+{HCP 3 13 11 13}
+{Losers 9 4 6 6}
+[Declarer "E"]
+[Contract "6H"]
+[Result "12"]
+[Score "NS -980"]
+[Scoring "MP"]
+[Auction "E"]
+1H    1S    Pass  Pass
+4H    Pass  4N =1=    Pass
+5S =2=    Pass  6H    Pass
+Pass  Pass
+[Note "1:Blackwood 0314, for !H"]
+[Note "2:A=2/5 or 5/5, Q(H)=1"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "5"]
+% 162D5F3B6BE80D88C736610A766D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AQ964.9874.5.643 KJ532.K.763.KQJ7 8.AJT52.QJT84.T8 T7.Q63.AK92.A952"]
+{Shape 5413 5134 1552 2344}
+{HCP 6 13 8 13}
+{Losers 8 7 7 7}
+[Declarer "W"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS -430"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  2C    Pass
+3C    Pass  3N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "6"]
+% 245AED9DA2A72DD9A5025D4D43B8
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:96.643.KQ954.AJ6 A543.AQ85.A82.T3 QJT72.KJT97.T7.2 K8.2.J63.KQ98754"]
+{Shape 2353 4432 5521 2137}
+{HCP 10 14 7 9}
+{Losers 8 7 7 6}
+[Declarer "W"]
+[Contract "1N"]
+[Result "8"]
+[Score "NS -120"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "7"]
+% 2793779BF2834592F728499A16E1
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
 [Deal "N:63.T95.Q654.J843 K95.AQ843..AKQT7 AQT84.62.AJT82.6 J72.KJ7.K973.952"]
 {Shape 2344 3505 5251 3343}
 {HCP 3 18 11 8}
@@ -123,7 +177,7 @@ Pass
 [Declarer "E"]
 [Contract "4H"]
 [Result "12"]
-[Score "NS -480"]
+[Score "NS -680"]
 [Scoring "MP"]
 [Auction "E"]
 1H    1S    2H    Pass
@@ -133,156 +187,108 @@ Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "6"]
-% 377DA9BFAAEF52289AF6A2FE593D
+[Board "8"]
+% 247D6BA186AE315559292A8F39B6
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
-[Vulnerable "All"]
-[Deal "N:82..KJ873.J97654 A93.973.AQT42.QT KQJ75.KJT85.95.8 T64.AQ642.6.AK32"]
-{Shape 2056 3352 5521 3514}
-{HCP 5 12 10 13}
-{Losers 7 8 6 6}
+[Vulnerable "None"]
+[Deal "N:9653.J4.AT4.JT52 AK87.87.K7653.K4 QJT42.KQT65.J82. .A932.Q9.AQ98763"]
+{Shape 4234 4252 5530 0427}
+{HCP 6 13 9 12}
+{Losers 10 6 6 5}
 [Declarer "W"]
-[Contract "4H"]
+[Contract "5C"]
 [Result "11"]
-[Score "NS -650"]
+[Score "NS -400"]
 [Scoring "MP"]
 [Auction "E"]
-1D    1S    2H =1=    Pass
-3H    Pass  4H    Pass
-Pass  Pass
+1D    1S    2C =1=    2S
+Pass  Pass  4C    Pass
+5C    Pass  Pass  Pass
 [Note "1:1X-(Y)-2Z forcing"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "7"]
-% 569153AEAAACC1C645BF690127D5
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "NS"]
-[Deal "N:43.9874.AK94.QJ8 K75.AK2.8732.K63 AQJT6.QJT53.J5.T 982.6.QT6.A97542"]
-{Shape 2443 3343 5521 3136}
-{HCP 10 13 11 6}
-{Losers 8 8 6 8}
-[Declarer "S"]
-[Contract "2H"]
-[Result "10"]
-[Score "NS 170"]
-[Scoring "MP"]
-[Auction "E"]
-1D    1S    Pass  1N
-Pass  2H    Pass  Pass
-Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
-[Board "8"]
-% 5659319B9B903B89273EB2F435D2
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "NS"]
-[Deal "N:K9763.8.KT52.652 A.AQJT2.743.QJ97 QJT85.7.AQJ98.T4 42.K96543.6.AK83"]
-{Shape 5143 1534 5152 2614}
-{HCP 6 14 10 10}
-{Losers 8 6 6 6}
-[Declarer "E"]
-[Contract "4H"]
-[Result "12"]
-[Score "NS -480"]
-[Scoring "MP"]
-[Auction "E"]
-1H    1S    2S =1=    3S
-4H    Pass  Pass  Pass
-[Note "1:limit raise or better in !H"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
 [Board "9"]
-% 57EEBF69A881CED68145AFCAD96F
+% 26EBEB6B7D664636C031DB2962FA
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
-[Vulnerable "All"]
-[Deal "N:.T9764.QJ43.A984 Q62.83.AK952.K52 KJT75.AQJ52.T7.J A9843.K.86.QT763"]
-{Shape 0544 3253 5521 5125}
-{HCP 7 12 12 9}
-{Losers 7 7 6 7}
-[Declarer "S"]
-[Contract "1S"]
-[Result "5"]
-[Score "NS -200"]
+[Vulnerable "NS"]
+[Deal "N:864.97.763.T9832 QJT93.5.T98.AKQ5 .AKQT43.AKQ542.7 AK752.J862.J.J64"]
+{Shape 3235 5134 0661 5413}
+{HCP 0 12 18 10}
+{Losers 11 6 1 8}
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -450"]
 [Scoring "MP"]
 [Auction "E"]
-1D    1S    Pass  Pass
-Pass
+1S    X     2N =1=    Pass
+3S    Pass  4S    Pass
+Pass  Pass
+[Note "1:Jordan Truscott 2NT"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
 [Board "10"]
-% 659F4FDABFBDACBE4901DA123556
+% 35A3AD61A22B1A86961DF531DBB7
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "EW"]
-[Deal "N:643.K76.32.Q8542 K72.AQ542.64.AKJ AJT98.9.AKJT98.9 Q5.JT83.Q75.T763"]
-{Shape 3325 3523 5161 2434}
-{HCP 5 17 13 5}
-{Losers 9 6 5 10}
+[Deal "N:T964.8.8752.J987 Q.9763.AQJ4.AT32 AKJ872.AKQJT.K6. 53.542.T93.KQ654"]
+{Shape 4144 1444 6520 2335}
+{HCP 1 13 21 5}
+{Losers 10 7 2 9}
 [Declarer "N"]
-[Contract "2D"]
-[Result "10"]
-[Score "NS 130"]
+[Contract "6S"]
+[Result "12"]
+[Score "NS 980"]
 [Scoring "MP"]
 [Auction "E"]
-1N    2C =1=    Pass  2D =2=
-Pass  Pass  Pass
-[Note "1:Cappelletti, any 6+suit"]
-[Note "2:automat"]
+1D    X     Pass  1S
+Pass  2D =1=    Pass  3C
+Pass  6S    Pass  Pass
+Pass
+[Note "1:strength cue bid"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
 [Board "11"]
-% 679D0EB3608200DE951935957316
+% 376DD4066C64D43E237349E60B30
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:K9652.KT9.6.KT82 J3.A87642.AK8.Q3 AQT74.J.QJT93.J9 8.Q53.7542.A7654"]
-{Shape 5314 2632 5152 1345}
-{HCP 9 14 11 6}
-{Losers 7 7 6 8}
-[Declarer "S"]
-[Contract "4SX"]
-[Result "10"]
-[Score "NS 790"]
+[Deal "N:Q8732.Q53.53.Q84 AJT65.K9.AJ8.763 .AJT74.762.KJT92 K94.862.KQT94.A5"]
+{Shape 5323 5233 0535 3352}
+{HCP 6 13 9 12}
+{Losers 8 8 7 7}
+[Declarer "N"]
+[Contract "3HX"]
+[Result "8"]
+[Score "NS -200"]
 [Scoring "MP"]
 [Auction "E"]
-1H    1S    2H    4S
+1S    Pass  2S    Pass
+Pass  X     XX    3H
 X     Pass  Pass  Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
@@ -290,33 +296,351 @@ X     Pass  Pass  Pass
 [Event "Michaels_Cuebid"]
 [Site ""]
 [Board "12"]
-% 669F55B8E08C9FCC102641018FDF
+% 367868EF54A2CD112144106EF635
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:764.T8543.J754.6 K5.AK972.K6.A932 AQT93.J6.Q.QJT87 J82.Q.AT9832.K54"]
-{Shape 3541 2524 5215 3163}
-{HCP 1 17 12 10}
-{Losers 10 5 6 8}
-[Declarer "E"]
-[Contract "3N"]
+[Deal "N:8752.96.T875.T43 AKJ64.J85.J632.Q T.KQT74.AK.AKJ65 Q93.A32.Q94.9872"]
+{Shape 4243 5341 1525 3334}
+{HCP 0 12 20 8}
+{Losers 11 8 3 9}
+[Declarer "S"]
+[Contract "4CX"]
 [Result "9"]
-[Score "NS -400"]
+[Score "NS -200"]
 [Scoring "MP"]
 [Auction "E"]
-1H    1S    2D =1=    Pass
-3N    Pass  Pass  Pass
-[Note "1:1X-(Y)-2Z forcing"]
+1S    X     2S    Pass
+Pass  3H    3S    Pass
+Pass  4C    X     Pass
+Pass  Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
 [Board "13"]
-% 87956D27AB995D4BF4498129AAD8
+% 37513993939833812F36BAFC3DDA
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:K9763.8.KT52.652 A.AQJT2.743.QJ97 QJT85.7.AQJ98.T4 42.K96543.6.AK83"]
+{Shape 5143 1534 5152 2614}
+{HCP 6 14 10 10}
+{Losers 8 6 6 6}
+[Declarer "E"]
+[Contract "5H"]
+[Result "12"]
+[Score "NS -680"]
+[Scoring "MP"]
+[Auction "E"]
+1H    1S    2S =1=    4S
+5H    Pass  Pass  Pass
+[Note "1:limit raise or better in !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "14"]
+% 363B53616AAAFD8BD136297077E2
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:A65.8.KQ742.JT62 KQJ43.K7.63.AK83 T8.QJT52.AJT85.4 972.A9643.9.Q975"]
+{Shape 3154 5224 2551 3514}
+{HCP 10 16 8 6}
+{Losers 7 5 7 8}
+[Declarer "E"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  2S    Pass
+3C =1=    Pass  3S    Pass
+Pass  Pass
+[Note "1:Two way game tries"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "15"]
+% 44A3AB69B40A29F9A2FE8F0BC3BF
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:T94.T543.652.T76 Q..KQT984.AK5432 AKJ752.AKQ97.J.J 863.J862.A73.Q98"]
+{Shape 3433 1066 6511 3433}
+{HCP 0 14 19 7}
+{Losers 12 3 3 10}
+[Declarer "E"]
+[Contract "5C"]
+[Result "12"]
+[Score "NS -420"]
+[Scoring "MP"]
+[Auction "E"]
+1D    X     1H    Pass
+2C    3S    Pass  Pass
+4C    Pass  5C    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "16"]
+% 4561C0596824E427107BE9382642
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:T8743.K2.T983.32 AQJ62.Q7.AK72.86 .AJT9853..KJT974 K95.64.QJ654.AQ5"]
+{Shape 5242 5242 0706 3253}
+{HCP 3 16 9 12}
+{Losers 9 6 4 7}
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -650"]
+[Scoring "MP"]
+[Auction "E"]
+1S    3H    4H =1=    Pass
+4S    Pass  Pass  Pass
+[Note "1:limit raise or better in !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "17"]
+% 4498B0BB9CEF8ED952DE333C8538
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:542.93.JT964.976 7.AJ876.AQ82.QT5 AKQJ93.T.3.AKJ42 T86.KQ542.K75.83"]
+{Shape 3253 1543 6115 3532}
+{HCP 1 13 18 8}
+{Losers 11 6 3 8}
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "E"]
+1H    X     2H    Pass
+Pass  3S    4H    4S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "18"]
+% 475878676BA4E58A17C158CAF46B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:7.864.AKJ8542.84 AKQJ52.A75..QJ72 T8.QJT92.6.AKT53 9643.K3.QT973.96"]
+{Shape 1372 6304 2515 4252}
+{HCP 8 17 10 5}
+{Losers 7 4 6 8}
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -650"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  2S    Pass
+4D =1=    Pass  4S    Pass
+Pass  Pass
+[Note "1:Splinter"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "19"]
+% 46D350EC6C26AC73CCD11A6D3B42
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T53.72.AK862.T52 KJ842.AK65.T.A83 9.QJT94.53.KQJ97 AQ76.83.QJ974.64"]
+{Shape 3253 5413 1525 4252}
+{HCP 7 15 9 9}
+{Losers 9 6 6 7}
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -450"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  3S    Pass
+3N =1=    Pass  4S    Pass
+Pass  Pass
+[Note "1:surplus"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "20"]
+% 476067786858FB7AEE4AF8F2E11D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:2.6.QJT9865.8764 AKQJT86.T2.72.K9 .AKJ73.A43.AQJT5 97543.Q9854.K.32"]
+{Shape 1174 7222 0535 5512}
+{HCP 3 13 19 5}
+{Losers 7 5 4 8}
+[Declarer "N"]
+[Contract "6D"]
+[Result "12"]
+[Score "NS 1370"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     4S    Pass
+Pass  X     Pass  6D
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "21"]
+% 46B7229D6BAE88E733F3FE0ED3A7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:K74.94.K763.KT54 J.Q3.A82.AJ87632 AQT92.KJT82.J9.9 8653.A765.QT54.Q"]
+{Shape 3244 1237 5521 4441}
+{HCP 9 12 11 8}
+{Losers 8 7 6 8}
+[Declarer "E"]
+[Contract "3C"]
+[Result "10"]
+[Score "NS -130"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1S    X     2S
+3C    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "22"]
+% 5497B79621FD22491A5617118081
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J9754.832.T.Q976 86.AQ7654.87.AK5 AKQ32.J9.AKQ65.3 T.KT.J9432.JT842"]
+{Shape 5314 2623 5251 1255}
+{HCP 3 13 19 5}
+{Losers 9 6 3 8}
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "E"]
+1H    X     Pass  1S
+2H    4S    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "23"]
+% 5767DA48A4A4EF75374849287B3C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:742.Q65.KQ6543.K AQ8653.K.92.A973 JT.AJT94..QJT642 K9.8732.AJT87.85"]
+{Shape 3361 6124 2506 2452}
+{HCP 10 13 9 8}
+{Losers 7 6 6 8}
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS -620"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  1N    Pass
+2C    Pass  2S    Pass
+3S    Pass  4S    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "24"]
+% 57A3E7736A912A7BFD85623BC14E
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:94.632.J984.J952 QJ852.T.72.AKQ84 AT6.AKJ95.AQT53. K73.Q874.K6.T763"]
+{Shape 2344 5125 3550 3424}
+{HCP 2 12 18 8}
+{Losers 11 5 4 8}
+[Declarer "S"]
+[Contract "4D"]
+[Result "11"]
+[Score "NS 150"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     2S    Pass
+Pass  3H    Pass  Pass
+3S    4D    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "25"]
+% 57956D27AB995D4BF4498129AAD8
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
@@ -350,8 +674,34 @@ Pass  Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "14"]
-% 86DFA1B3A76F35283411CEB52686
+[Board "26"]
+% 55A0A38567FDD5E42505118381D1
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:765.Q643.QJ9876. J.952.AK5432.KJ4 AKQ43.AKJ87.T.A8 T982.T..QT976532"]
+{Shape 3460 1363 5512 4108}
+{HCP 5 12 21 2}
+{Losers 7 7 3 6}
+[Declarer "N"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS 450"]
+[Scoring "MP"]
+[Auction "E"]
+1D    X     Pass  1H
+2D    4H    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "27"]
+% 66DFA1B3A76F35283411CEB52686
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
@@ -364,8 +714,8 @@ Pass  Pass
 {Losers 9 6 6 7}
 [Declarer "W"]
 [Contract "3N"]
-[Result "9"]
-[Score "NS -400"]
+[Result "10"]
+[Score "NS -430"]
 [Scoring "MP"]
 [Auction "E"]
 1D    1S    X     2S
@@ -377,8 +727,35 @@ Pass  Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "15"]
-% 976ED30261693B752DAE83F0C67B
+[Board "28"]
+% 67ACBF2FEF9A8732DDE6F6E49E0A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:Q82.92.T2.T86532 .T73.AKQJ73.KQJ9 AKT93.AQJ64.8.A4 J7654.K85.9654.7"]
+{Shape 3226 0364 5512 5341}
+{HCP 2 16 18 4}
+{Losers 9 4 4 9}
+[Declarer "E"]
+[Contract "5D"]
+[Result "9"]
+[Score "NS 200"]
+[Scoring "MP"]
+[Auction "E"]
+1D    X     Pass  2C
+2D    2S    3D    Pass
+Pass  3H    4D    Pass
+5D    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "29"]
+% 676ED30261693B752DAE83F0C67B
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
@@ -403,69 +780,195 @@ Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "16"]
-% A691278FA32FA04DDD382333778D
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "NS"]
-[Deal "N:KT654.Q82.AJ954. 83.A7.K3.KQJT543 AQJ92.KJT95.6.96 7.643.QT872.A872"]
-{Shape 5350 2227 5512 1354}
-{HCP 10 13 11 6}
-{Losers 6 5 6 8}
-[Declarer "E"]
-[Contract "6CX"]
-[Result "10"]
-[Score "NS 300"]
-[Scoring "MP"]
-[Auction "E"]
-1C    1S    Pass  4S
-5C    Pass  Pass  5S
-Pass  Pass  6C    Pass
-Pass  X     Pass  Pass
-Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
-[Board "17"]
-% A4D06B68BC212FA9604C420D1FF1
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "None"]
-[Deal "N:T943.654.J9643.5 KQ765.A3.KQ8.K93 J8.KQT987..AQJ76 A2.J2.AT752.T842"]
-{Shape 4351 5233 2605 2254}
-{HCP 1 17 13 9}
-{Losers 10 5 4 8}
-[Declarer "E"]
-[Contract "3N"]
-[Result "11"]
-[Score "NS -460"]
-[Scoring "MP"]
-[Auction "E"]
-1N    2H =1=    3H =2=    Pass
-3N    Pass  Pass  Pass
-[Note "1:Cappelletti, 5M-4m"]
-[Note "2:Lebensohl after 1NT"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
-[Board "18"]
-% A75FB182119A0BB16A05F5E05E97
+[Board "30"]
+% 677F43E12563200A7DC507A5126E
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "All"]
+[Deal "N:J9853.K865.8.832 AKT72.3.A72.AKT5 4.QJT942.KQT93.9 Q6.A7.J654.QJ764"]
+{Shape 5413 5134 1651 2245}
+{HCP 4 18 8 10}
+{Losers 9 5 5 8}
+[Declarer "E"]
+[Contract "6C"]
+[Result "12"]
+[Score "NS -1370"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  1N    Pass
+3C    Pass  4N =1=    Pass
+5D =2=    X     6C    Pass
+Pass  Pass
+[Note "1:Blackwood 0314, for !C"]
+[Note "2:A=1/5 or 4/5"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "31"]
+% 661D496728EBF97E2C5385026BF2
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AJ74.K54.642.842 KQ863.A6.Q5.QT63 5.QJT73.KJT93.J7 T92.982.A87.AK95"]
+{Shape 4333 5224 1552 3334}
+{HCP 8 13 8 11}
+{Losers 10 6 7 9}
+[Declarer "E"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  3S    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "32"]
+% 6759EBABA6AF3FE87F26FAB68CFB
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:96.3.AKQ852.J654 A7.A.T973.KQT972 QJT43.KQJT86..83 K852.97542.J64.A"]
+{Shape 2164 2146 5602 4531}
+{HCP 10 13 9 8}
+{Losers 6 5 5 8}
+[Declarer "N"]
+[Contract "3D"]
+[Result "7"]
+[Score "NS -200"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1H    X     Pass
+2C    2H    Pass  Pass
+3C    Pass  Pass  3D
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "33"]
+% 66766FD4606CA1B2601C46C53EF0
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:63.54.J9872.A853 AKJT75.Q6.AQ54.K 98.KJT97..QJT762 Q42.A832.KT63.94"]
+{Shape 2254 6241 2506 3442}
+{HCP 5 19 7 9}
+{Losers 9 5 6 8}
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -450"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  2S    Pass
+4S    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "34"]
+% 77EFC98FAAAD507DB6BA47266518
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:42.KQ5.KJ62.J764 9853.92.AQT8.AQ5 QJT76.AJT43.9.92 AK.876.7543.KT83"]
+{Shape 2344 4243 5512 2344}
+{HCP 10 12 8 10}
+{Losers 8 7 7 8}
+[Declarer "W"]
+[Contract "1N"]
+[Result "7"]
+[Score "NS -90"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "35"]
+% 76E7E6928CA10CACCF5FE1338355
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:94.J973.QT543.KQ 62.Q62.AK2.A7643 QJT83.AKT85..J98 AK75.4.J9876.T52"]
+{Shape 2452 2335 5503 4153}
+{HCP 8 13 11 8}
+{Losers 8 7 6 8}
+[Declarer "W"]
+[Contract "1N"]
+[Result "7"]
+[Score "NS -90"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1S    1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "36"]
+% 7749DDABA6AB7BA54EEBAB87B57A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:.A74.AQT9652.J72 A972.K.K7.QT9654 QJT8543.QJT865.. K6.932.J843.AK83"]
+{Shape 0373 4126 7600 2344}
+{HCP 11 12 6 11}
+{Losers 6 6 4 8}
+[Declarer "S"]
+[Contract "3SX"]
+[Result "9"]
+[Score "NS 730"]
+[Scoring "MP"]
+[Auction "E"]
+1C    3S    X     Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "37"]
+% 7657B98A199203B9620DFDE8569F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
 [Deal "N:J96.Q96.T97.QT73 A73.AJT32.A3.A92 KQT82.74.KQJ84.4 54.K85.652.KJ865"]
 {Shape 3334 3523 5251 2335}
 {HCP 5 17 11 7}
@@ -484,52 +987,53 @@ Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "19"]
-% B6446F1C246EE8C2B04FCFED8F46
+[Board "38"]
+% 8760EC6768D538ED07297248451E
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
-[Vulnerable "NS"]
-[Deal "N:QJ.A86532.87.T82 AKT62.Q.AJ2.K653 73.KJT94.9.AQJ97 9854.7.KQT6543.4"]
-{Shape 2623 5134 2515 4171}
-{HCP 7 17 11 5}
-{Losers 9 6 6 6}
-[Declarer "E"]
-[Contract "4S"]
-[Result "10"]
-[Score "NS -420"]
+[Vulnerable "All"]
+[Deal "N:9762.743.J964.52 AQJ543.T2.K82.Q7 .AKQJ86.A5.AKJ94 KT8.95.QT73.T863"]
+{Shape 4342 6232 0625 3244}
+{HCP 1 12 22 5}
+{Losers 11 7 2 9}
+[Declarer "S"]
+[Contract "6HX"]
+[Result "12"]
+[Score "NS 1660"]
 [Scoring "MP"]
 [Auction "E"]
-1S    Pass  2S    Pass
-3S    Pass  4S    Pass
-Pass  Pass
+1S    X     Pass  2D
+2S    4H    4S    5H
+Pass  6H    Pass  Pass
+X     Pass  Pass  Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "20"]
-% C55F6DFA626F68D6D13D8A29068F
+[Board "39"]
+% 875361F66E6364DADD3186250A83
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
-[Vulnerable "EW"]
+[Vulnerable "All"]
 [Deal "N:643.532.83.QJ853 AKJT9.A87.J7.AT2 52.KJT94.AKT62.9 Q87.Q6.Q954.K764"]
 {Shape 3325 5323 2551 3244}
 {HCP 3 17 11 9}
 {Losers 10 7 6 8}
 [Declarer "E"]
-[Contract "3N"]
-[Result "9"]
-[Score "NS -600"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS -170"]
 [Scoring "MP"]
 [Auction "E"]
 1N    2H =1=    3H =2=    Pass
-3N    Pass  Pass  Pass
+3S    Pass  Pass  Pass
 [Note "1:Cappelletti, 5M-4m"]
 [Note "2:Lebensohl after 1NT"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
@@ -537,108 +1041,221 @@ Pass  Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "21"]
-% C71F9494A5680D76BAD6DBB8CC2E
+[Board "40"]
+% 966953D5692AE94E9232A352DDF8
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
-[Vulnerable "All"]
-[Deal "N:A92.93.T754.8762 T8.AKQ65.A932.A5 KQJ74.JT2..KQT43 653.874.KQJ86.J9"]
-{Shape 3244 2542 5305 3352}
-{HCP 4 17 12 7}
-{Losers 10 5 5 9}
+[Vulnerable "NS"]
+[Deal "N:T6.8.K7654.T8764 AKJ84.KQ743.Q.K5 75.AJT95.AJT92.2 Q932.62.83.AQJ93"]
+{Shape 2155 5512 2551 4225}
+{HCP 3 18 10 9}
+{Losers 8 4 7 7}
 [Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -450"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  4S    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "41"]
+% 965428A0E13D1600076D5CBD6D43
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:KT987.872.QJ82.9 A6532.A95.A97.72 Q4.KQJ63.K.AKQ85 J.T4.T6543.JT643"]
+{Shape 5341 5332 2515 1255}
+{HCP 6 12 20 2}
+{Losers 8 8 4 9}
+[Declarer "S"]
 [Contract "4H"]
+[Result "9"]
+[Score "NS -100"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     Pass  2D
+Pass  2H    Pass  2S =1=
+Pass  4H    Pass  Pass
+Pass
+[Note "1:limit raise or better in !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "42"]
+% 95577EEEE96F458E2D72B365B501
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:72.982.A943.KQ86 AKT964.A.652.AT5 853.QJT74.KQT87. QJ.K653.J.J97432"]
+{Shape 2344 6133 3550 2416}
+{HCP 9 15 8 8}
+{Losers 8 6 6 8}
+[Declarer "E"]
+[Contract "4S"]
 [Result "11"]
 [Score "NS -650"]
 [Scoring "MP"]
 [Auction "E"]
-1H    1S    2H    Pass
-4H    Pass  Pass  Pass
+1S    Pass  1N    Pass
+3S    Pass  4S    Pass
+Pass  Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "22"]
-% C75107A962A322F92755DE497E30
+[Board "43"]
+% 975AE36522524EB3A86532450DF7
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:K972.K4.Q84.J953 AJ643.A65.53.KT7 QT.QJT97.AJT92.2 85.832.K76.AQ864"]
-{Shape 4234 5323 2551 2335}
-{HCP 9 12 10 9}
-{Losers 8 8 7 8}
-[Declarer "W"]
-[Contract "1N"]
-[Result "7"]
-[Score "NS -90"]
+[Deal "N:J53.943.A7.AJT95 AQT964.AT.93.K82 87.KQJ76.KJT85.7 K2.852.Q642.Q643"]
+{Shape 3325 6223 2551 2344}
+{HCP 10 13 10 7}
+{Losers 9 6 6 8}
+[Declarer "E"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS -140"]
 [Scoring "MP"]
 [Auction "E"]
 1S    Pass  1N    Pass
-Pass  Pass
+2S    Pass  Pass  Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "23"]
-% D695B5EA61A2EEEEB8C695371712
+[Board "44"]
+% 96AB45BBA3670D67AE0B3D323FB1
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:432.6.JT2.QT9862 J.A532.AK6543.43 AKT75.QJT98.Q7.7 Q986.K74.98.AKJ5"]
-{Shape 3136 1462 5521 4324}
-{HCP 3 12 12 13}
-{Losers 9 6 6 7}
-[Declarer "W"]
-[Contract "3N"]
-[Result "9"]
-[Score "NS -400"]
+[Deal "N:96543.K96.J42.74 KT8..KT8.AQJT863 AQJ72.AJT87.AQ6. .Q5432.9753.K952"]
+{Shape 5332 3037 5530 0544}
+{HCP 4 13 18 5}
+{Losers 10 5 4 7}
+[Declarer "N"]
+[Contract "5S"]
+[Result "11"]
+[Score "NS 650"]
 [Scoring "MP"]
 [Auction "E"]
-1D    1S    3N    Pass
-Pass  Pass
+1C    X     Pass  1S
+3C    4S    5C    X
+Pass  5S    Pass  Pass
+Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "24"]
-% D637698A6B2B0D217FBF72752836
+[Board "45"]
+% A7CFE7E3F26362581A7EA20175C9
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
-[Vulnerable "NS"]
-[Deal "N:AT9832.Q9.85.Q52 KJ754..A42.AJT76 Q6.KJT83.KQJT3.3 .A76542.976.K984"]
-{Shape 6223 5035 2551 0634}
-{HCP 8 13 12 7}
-{Losers 8 6 6 7}
+[Vulnerable "All"]
+[Deal "N:74.A42.872.J9765 T9863.87.A6.AKQT 5.KQT95.QJT954.8 AKQJ2.J63.K3.432"]
+{Shape 2335 5224 1561 5323}
+{HCP 5 13 8 14}
+{Losers 10 6 5 7}
 [Declarer "E"]
-[Contract "3C"]
-[Result "12"]
-[Score "NS -170"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -650"]
 [Scoring "MP"]
 [Auction "E"]
-1S    2D    Pass  Pass
-3C    Pass  Pass  Pass
+1S    Pass  2N =1=    Pass
+4S    Pass  Pass  Pass
+[Note "1:Jacoby 2NT"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "25"]
-% F727EEBF8EAD1E66BCDD31348AEB
+[Board "46"]
+% A77523436DE1072DCC6886C21379
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:K983.Q9754.62.54 AQJ62.3.J87.KQ93 5.KJT86.KQT43.76 T74.A2.A95.AJT82"]
+{Shape 4522 5134 1552 3235}
+{HCP 5 13 9 13}
+{Losers 8 6 6 8}
+[Declarer "W"]
+[Contract "6C"]
+[Result "12"]
+[Score "NS -1370"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  2C    Pass
+4H =1=    X     4N =2=    Pass
+5S =3=    Pass  6C    Pass
+Pass  Pass
+[Note "1:Splinter"]
+[Note "2:Blackwood 0314, for !C"]
+[Note "3:A=2/5 or 5/5, Q(C)=1"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "47"]
+% A4A78BE1BBAE2D4172A95F9E3801
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:932.K82.T954.T74 875.54.KJ63.AKJ5 AKJT64.AQT96.A.3 Q.J73.Q872.Q9862"]
+{Shape 3343 3244 6511 1345}
+{HCP 3 12 18 7}
+{Losers 11 8 3 8}
+[Declarer "N"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "E"]
+1D    X     Pass  1H
+Pass  4H    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "48"]
+% A727EEBF8EAD1E66BCDD31348AEB
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
@@ -664,101 +1281,187 @@ Pass  Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "26"]
-% 45904198C0940D1ECCBB47DA49B5
+[Board "49"]
+% A45895979577EE8202C9F5128916
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
-[Vulnerable "EW"]
-[Deal "N:98.KJ9753.T52.84 K53.AQT84.AKJ.65 AQT62..987.AQJT7 J74.62.Q643.K932"]
-{Shape 2632 3532 5035 3244}
-{HCP 4 17 13 6}
-{Losers 9 6 5 9}
-[Declarer "S"]
-[Contract "2S"]
-[Result "6"]
-[Score "NS -100"]
+[Vulnerable "None"]
+[Deal "N:742.8763.9.98742 AT.AKQJ42.A63.QT KQJ83.9.KQJT52.A 965.T5.874.KJ653"]
+{Shape 3415 2632 5161 3235}
+{HCP 0 20 16 4}
+{Losers 10 5 3 10}
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Score "NS 50"]
 [Scoring "MP"]
 [Auction "E"]
-1N    2S =1=    Pass  Pass
-Pass
-[Note "1:Cappelletti, 5M-4m"]
+2C =1=    Pass  2D =2=    Pass
+2H    Pass  3C    Pass
+3H    X     Pass  Pass
+3N    Pass  Pass  Pass
+[Note "1:strong"]
+[Note "2:waiting"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "27"]
-% 47545AA1BC98531E34940516F58A
+[Board "50"]
+% B4A7916A2A81BA4DA9D522C2167B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J53.T84.8.QJ9543 Q82.K63.QJ972.A2 AKT97.AQJ75.A63. 64.92.KT54.KT876"]
+{Shape 3316 3352 5530 2245}
+{HCP 4 12 18 6}
+{Losers 9 7 4 8}
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "E"]
+1D    X     Pass  2C
+Pass  2S    Pass  3S
+Pass  4S    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "51"]
+% B66B6B3A6B2F7171F5E28E922B71
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:QT3.5.98642.Q654 AKJ982.4.7.AKJT3 54.AKJT63.AKQJ3. 76.Q9872.T5.9872"]
+{Shape 3154 6115 2650 2524}
+{HCP 4 16 18 2}
+{Losers 8 4 3 9}
+[Declarer "N"]
+[Contract "5D"]
+[Result "11"]
+[Score "NS 600"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     Pass  2D
+3C    3H    Pass  Pass
+3S    5D    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "52"]
+% B664EA5A2B3FB6C161592581FB41
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:JT5.842.8742.KQ9 AQ762.Q6.A95.JT3 94.AKJ75.KQJ63.A K83.T93.T.876542"]
+{Shape 3343 5233 2551 3316}
+{HCP 6 13 18 3}
+{Losers 10 8 4 9}
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     Pass  2D
+Pass  2H    2S    3H
+Pass  4H    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "53"]
+% B6376191AAA2AE53D6BD0D7664EE
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:A5.5.KQT8.JT9742 K843.Q87.A743.A8 QJT96.KJT932.J.3 72.A64.9652.KQ65"]
+{Shape 2146 4342 5611 2344}
+{HCP 10 13 8 9}
+{Losers 6 7 6 8}
+[Declarer "W"]
+[Contract "1N"]
+[Result "7"]
+[Score "NS -90"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1H    1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "54"]
+% B7D55896A8B4A87E8FF4FE7A131A
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:8754.52.KT2.K842 AK9.AKT9864.J8.9 QJT62.Q.Q9.AJT76 3.J73.A76543.Q53"]
-{Shape 4234 3721 5125 1363}
-{HCP 6 15 12 7}
-{Losers 9 5 7 8}
+[Deal "N:32.7.KJ942.Q8542 K84.AKQ32.875.73 QJT97.J9.3.KJT96 A65.T8654.AQT6.A"]
+{Shape 2155 3532 5215 3541}
+{HCP 6 12 8 14}
+{Losers 7 7 7 6}
 [Declarer "E"]
-[Contract "4H"]
-[Result "11"]
-[Score "NS -650"]
+[Contract "6H"]
+[Result "12"]
+[Score "NS -1430"]
 [Scoring "MP"]
 [Auction "E"]
-1H    1S    2H    Pass
-4H    Pass  Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
-[Board "28"]
-% 46D1949CD4B8CE45F381642E9236
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "NS"]
-[Deal "N:42.986.A763.9432 85.AKQJ3.KJ852.7 KQT63.54.T.KQJT5 AJ97.T72.Q94.A86"]
-{Shape 2344 2551 5215 4333}
-{HCP 4 14 11 11}
-{Losers 10 5 5 9}
-[Declarer "E"]
-[Contract "4H"]
-[Result "11"]
-[Score "NS -450"]
-[Scoring "MP"]
-[Auction "E"]
-1H    1S    2S =1=    Pass
-4C =2=    Pass  4H    Pass
+1H    Pass  2N =1=    Pass
+4H    Pass  4N =2=    Pass
+5S =3=    Pass  6H    Pass
 Pass  Pass
-[Note "1:limit raise or better in !H"]
-[Note "2:Splinter"]
+[Note "1:Jacoby 2NT"]
+[Note "2:Blackwood 0314, for !H"]
+[Note "3:A=2/5 or 5/5, Q(H)=1"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "29"]
-% 56046E5C6C2BCEA04C33B5CF1561
+[Board "55"]
+% C7537A262261691A25B193D76BF6
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
-[Vulnerable "NS"]
-[Deal "N:AT63.A974.862.K9 KQJ72.Q3.A53.T64 85.KJT82.T.AQJ87 94.65.KQJ974.532"]
-{Shape 4432 5233 2515 2263}
-{HCP 11 12 11 6}
-{Losers 8 8 6 8}
+[Vulnerable "All"]
+[Deal "N:QJ87..K983.KQJ82 AKT93.A854..A543 65.QJT973.AJT65. 42.K62.Q742.T976"]
+{Shape 4045 5404 2650 2344}
+{HCP 12 15 8 5}
+{Losers 5 5 6 9}
 [Declarer "E"]
 [Contract "1S"]
-[Result "6"]
-[Score "NS 50"]
+[Result "7"]
+[Score "NS -80"]
 [Scoring "MP"]
 [Auction "E"]
 1S    Pass  Pass  Pass
@@ -767,34 +1470,249 @@ Pass  Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "30"]
-% 546947A775E171DA13EA0DAE0446
+[Board "56"]
+% C76A9DA6DEAFA5331EB6CFC12D04
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:8732.542.A.AQJ76 A.KJ7.KJT753.T85 KQT96.AQT93.84.2 J54.86.Q962.K943"]
+{Shape 4315 1363 5521 3244}
+{HCP 11 12 11 6}
+{Losers 7 7 5 9}
+[Declarer "S"]
+[Contract "2S"]
+[Result "11"]
+[Score "NS 200"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    Pass  2S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "57"]
+% C4A8ABB22B997EA501DD4D373BEE
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "None"]
-[Deal "N:753.K532.54.8642 AKJ92.87.A86.KQ7 Q4.AQT64.KQJ32.3 T86.J9.T97.AJT95"]
-{Shape 3424 5233 2551 3235}
-{HCP 3 17 14 6}
-{Losers 10 6 5 10}
-[Declarer "S"]
-[Contract "2H"]
-[Result "9"]
-[Score "NS 140"]
+[Deal "N:J743.75.9652.Q92 95.T6.AKJT3.KJ43 AKQT8.AKJ82.84.A 62.Q943.Q7.T8765"]
+{Shape 4243 2254 5521 2425}
+{HCP 3 12 21 4}
+{Losers 10 7 3 9}
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 450"]
 [Scoring "MP"]
 [Auction "E"]
-1N    2H =1=    Pass  Pass
+1D    X     Pass  1S
+Pass  4S    Pass  Pass
 Pass
-[Note "1:Cappelletti, 5M-4m"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "31"]
-% 5778079C9895A8CD189DD609FBE3
+[Board "58"]
+% D6524E9B998A4EDDB92599719F0A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:62.KT92.A4.AKT92 AK94.AQJ853.6.Q3 QJT753.6.QJT752. 8.74.K983.J87654"]
+{Shape 2425 4612 6160 1246}
+{HCP 14 16 6 4}
+{Losers 6 5 5 8}
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[Score "NS -100"]
+[Scoring "MP"]
+[Auction "E"]
+1H    2S    Pass  2N =1=
+3H    Pass  Pass  3S
+Pass  4S    Pass  Pass
+Pass
+[Note "1:artificial"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "59"]
+% D74BC3636F21655CF93782C2A9C9
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:T6.AK542.A732.54 AQJ98.8.J8.AKQJ6 53.QJT93.KQT54.8 K742.76.96.T9732"]
+{Shape 2542 5125 2551 4225}
+{HCP 11 18 8 3}
+{Losers 7 4 6 9}
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS -620"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  Pass  2H
+3C    4H    4S    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "60"]
+% E6B53726AFA80EAE450F2F41947D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:KQ965.9764.4.Q98 742.3.AKQ73.KJ65 AJT83.QJT85.T.T3 .AK2.J98652.A742"]
+{Shape 5413 3154 5512 0364}
+{HCP 7 13 8 12}
+{Losers 7 6 7 6}
+[Declarer "E"]
+[Contract "6D"]
+[Result "13"]
+[Score "NS -940"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    2S =1=    3S
+4N =2=    Pass  5H =3=    Pass
+6D    Pass  Pass  Pass
+[Note "1:limit raise or better in !D"]
+[Note "2:Blackwood 0314, for !D"]
+[Note "3:A=2/5 or 5/5, Q(D)=0"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "61"]
+% E7926163EE095D75E501032A64DE
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:T654.T65.T4.AJ42 KQ983.A92.J92.Q5 A.KQJ743.AKQ65.3 J72.8.873.KT9876"]
+{Shape 4324 5332 1651 3136}
+{HCP 5 12 19 4}
+{Losers 10 8 2 9}
+[Declarer "S"]
+[Contract "5H"]
+[Result "12"]
+[Score "NS 680"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     Pass  2C
+Pass  3H    Pass  3S =1=
+Pass  4D =2=    Pass  4S =3=
+Pass  5H    Pass  Pass
+Pass
+[Note "1:limit raise or better in !H"]
+[Note "2:Cue bid, a !D stopper"]
+[Note "3:Cue bid, a !C stopper"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "62"]
+% E7670FBBA2AE45A6CDE88FD70DB6
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:K3.K9753.Q6.JT82 A9.4.KT753.AKQ54 QJT852.AJT86.J.6 764.Q2.A9842.973"]
+{Shape 2524 2155 6511 3253}
+{HCP 9 16 9 6}
+{Losers 8 4 6 10}
+[Declarer "E"]
+[Contract "4D"]
+[Result "11"]
+[Score "NS -150"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    Pass  Pass
+2C    Pass  2D    Pass
+4D    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "63"]
+% F7FFA6AB3FAE24857649EC0AD39D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J94.864.Q64.KT74 76.32.AJT52.AQJ3 KQT82.KQT95.3.95 A53.AJ7.K987.862"]
+{Shape 3334 2254 5512 3343}
+{HCP 6 12 10 12}
+{Losers 10 7 5 9}
+[Declarer "W"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS -600"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    3N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "64"]
+% F61549EB2728E24DB94AF336617B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AJT4.K86.953.964 K8632.A.AJ4.QJ52 7.QJT93.KQT762.T Q95.7542.8.AK873"]
+{Shape 4333 5134 1561 3415}
+{HCP 8 15 8 9}
+{Losers 10 6 5 7}
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -450"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  4S    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "65"]
+% F778079C9895A8CD189DD609FBE3
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
@@ -818,88 +1736,177 @@ Pass  Pass  Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "32"]
-% 77562C9460264A752FD88705EB74
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "All"]
-[Deal "N:KT74.954.963.AT9 AJ982.AQ6.K7.753 Q5.KJT73.J.KQJ62 63.82.AQT8542.84"]
-{Shape 4333 5323 2515 2272}
-{HCP 7 14 13 6}
-{Losers 10 7 6 7}
-[Declarer "E"]
-[Contract "1S"]
-[Result "7"]
-[Score "NS -80"]
-[Scoring "MP"]
-[Auction "E"]
-1S    Pass  Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
-[Board "33"]
-% 765A23EFF9EABE46556C4F2A0EBB
+[Board "66"]
+% F69C909490F5200762C171FD973A
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:K43.853.K.AT9843 A8765.A7.87.KQ52 92.KQT64.AJT42.6 QJT.J92.Q9653.J7"]
-{Shape 3316 5224 2551 3352}
-{HCP 10 13 10 7}
-{Losers 8 6 6 9}
-[Declarer "E"]
-[Contract "2S"]
-[Result "9"]
-[Score "NS -140"]
+[Deal "N:982.86.KJ9765.72 75.AKQJ3.QT83.83 AKQJ3.97.2.AKQJ9 T64.T542.A4.T654"]
+{Shape 3262 2542 5215 3424}
+{HCP 4 12 20 4}
+{Losers 9 6 3 10}
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
 [Scoring "MP"]
 [Auction "E"]
-1S    Pass  2S    Pass
+1H    X     Pass  2D
+Pass  2S    3H    3S
+Pass  4S    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "67"]
+% 068F57BCB030403E3899D1D3A3D6
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T87.A9.JT9543.82 K9.K6542.K2.AK43 AQJ63.3.76.QJT97 542.QJT87.AQ8.65"]
+{Shape 3262 2524 5125 3532}
+{HCP 5 16 10 9}
+{Losers 9 5 6 8}
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS -450"]
+[Scoring "MP"]
+[Auction "E"]
+1H    1S    2S =1=    Pass
+2N =2=    Pass  3D =3=    Pass
+4C =4=    Pass  4H    Pass
+Pass  Pass
+[Note "1:limit raise or better in !H"]
+[Note "2:Cue bid, a !S stopper"]
+[Note "3:Cue bid, a !D stopper"]
+[Note "4:Cue bid, a !C stopper"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "68"]
+% 072FBE41AEAE3FBA81C52D62C57F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:A95.Q763.8.KJT84 Q42..AKJT952.A92 KJT87.AJT54.Q74. 63.K982.63.Q7653"]
+{Shape 3415 3073 5530 2425}
+{HCP 10 14 11 5}
+{Losers 7 5 6 8}
+[Declarer "E"]
+[Contract "4D"]
+[Result "10"]
+[Score "NS -130"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    Pass  2S
+3D    3S    Pass  Pass
+4D    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "69"]
+% 056068649947112EE93554312A18
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:986432.T.QT65.83 AKQT5.J952.A94.T J.AKQ873.8.AKQ52 7.64.KJ732.J9764"]
+{Shape 6142 5431 1615 1255}
+{HCP 2 14 19 5}
+{Losers 8 6 2 8}
+[Declarer "S"]
+[Contract "3CX"]
+[Result "9"]
+[Score "NS 470"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     Pass  2D
+2H    3C    X     Pass
 Pass  Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "34"]
-% 874E98BB98E01CDC715DC9F689BA
+[Board "70"]
+% 0751FB8E9090773E12B4C199CBCB
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:9.A53.KQJ532.A42 A76.KJ986.A986.Q KQJ32.T.T7.KJT98 T854.Q742.4.7653"]
-{Shape 1363 3541 5125 4414}
-{HCP 14 14 10 2}
-{Losers 6 7 6 9}
-[Declarer "N"]
-[Contract "4D"]
+[Deal "N:87.Q532.K432.Q87 A9.AJT74.Q8.K932 QJT64..AJT75.JT6 K532.K986.96.A54"]
+{Shape 2443 2524 5053 4423}
+{HCP 7 14 9 10}
+{Losers 8 7 7 8}
+[Declarer "E"]
+[Contract "4H"]
 [Result "11"]
-[Score "NS 150"]
+[Score "NS -650"]
 [Scoring "MP"]
 [Auction "E"]
-1H    1S    3H    4D
-Pass  Pass  Pass
+1H    1S    2S =1=    Pass
+4H    Pass  Pass  Pass
+[Note "1:limit raise or better in !H"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "35"]
-% 86191B9EB2AA7960BF16FA1D52BF
+[Board "71"]
+% 061E87508494D1CC8FB6B1E1DC23
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "NS"]
+[Deal "N:A2.KJ87.Q9542.A6 Q.AQT93.KJT6.K72 KJT765.42..QJT83 9843.65.A873.954"]
+{Shape 2452 1543 6205 4243}
+{HCP 14 15 7 4}
+{Losers 6 6 6 10}
+[Declarer "S"]
+[Contract "3S"]
+[Result "11"]
+[Score "NS 200"]
+[Scoring "MP"]
+[Auction "E"]
+1H    2S    Pass  2N =1=
+Pass  3H    Pass  3S
+Pass  Pass  Pass
+[Note "1:artificial"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "72"]
+% 17111396BAA27168B71EF2155AB7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
 [Deal "N:AK64..J83.QJT653 983.AKQ643.6.K72 QJT72.T8.AKT95.8 5.J9752.Q742.A94"]
 {Shape 4036 3613 5251 1543}
 {HCP 11 12 10 7}
@@ -907,7 +1914,7 @@ Pass  Pass  Pass
 [Declarer "E"]
 [Contract "5HX"]
 [Result "11"]
-[Score "NS -650"]
+[Score "NS -850"]
 [Scoring "MP"]
 [Auction "E"]
 1H    1S    4H    4S
@@ -918,14 +1925,143 @@ Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "36"]
-% A6736085AFA3700B87C6EDE3CE9D
+[Board "73"]
+% 175668386B2CF9F7998A84277D6C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:QT4.65.KQJ976.A6 AKJ32.A7.T32.J84 765.KJT42..KQT52 98.Q983.A854.973"]
+{Shape 3262 5233 3505 2443}
+{HCP 12 13 9 6}
+{Losers 6 8 6 9}
+[Declarer "S"]
+[Contract "2H"]
+[Result "8"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  1N    2D
+Pass  2H    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "74"]
+% 16989C10478840EDB7C1D2BD0D53
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "NS"]
+[Deal "N:Q3.JT963.Q9652.5 J92.AKQ52.J7.J72 AKT74.8.AT.AKQT9 865.74.K843.8643"]
+{Shape 2551 3523 5125 3244}
+{HCP 5 12 20 3}
+{Losers 8 8 3 10}
+[Declarer "S"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "E"]
+1H    X     Pass  2D
+Pass  2S    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "75"]
+% 263E677C602832C6DC6F4641E96C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AT9.854.J94.A985 KQJ6542.7.K85.K6 .KJT632.T3.QJT72 873.AQ9.AQ762.43"]
+{Shape 3334 7132 0625 3352}
+{HCP 9 12 7 12}
+{Losers 10 5 6 7}
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -450"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  2S    Pass
+4S    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "76"]
+% 2717A56EA886DD16AB0F05EC41BD
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:A865.T653.J7.QT8 Q3.A98.Q9642.A76 KJT72.KQJ74.3.J4 94.2.AKT85.K9532"]
+{Shape 4423 2353 5512 2155}
+{HCP 7 12 11 10}
+{Losers 9 8 6 6}
+[Declarer "E"]
+[Contract "4D"]
+[Result "10"]
+[Score "NS -130"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    2D    2S
+3D    3S    4D    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "77"]
+% 25AFA1E38B3AD78A2BD142EB848A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:T7.J8532.93.T852 5.96.KQ65.AQJ974 AKJ832.AKQ74.A.3 Q964.T.JT8742.K6"]
+{Shape 2524 1246 6511 4162}
+{HCP 1 12 21 6}
+{Losers 10 5 2 7}
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "E"]
+1C    X     1D    Pass
+2D    3S    4D    4S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "78"]
+% 277B688DA7AB78038FCEE5EBC695
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
 [Deal "N:8.Q8763.AKT94.63 AK9.2.Q76.AJT874 QJT72.KJT54.8.K9 6543.A9.J532.Q52"]
 {Shape 1552 3136 5512 4243}
 {HCP 9 14 10 7}
@@ -943,35 +2079,8 @@ Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "37"]
-% A79F2FF2A5AD89C219E18F79DE2B
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "All"]
-[Deal "N:K72.985.9742.Q83 4.A73.AKT53.AK52 AJT95.KJT62.Q86. Q863.Q4.J.JT9764"]
-{Shape 3343 1354 5530 4216}
-{HCP 5 18 11 6}
-{Losers 10 5 6 8}
-[Declarer "W"]
-[Contract "3N"]
-[Result "9"]
-[Score "NS -600"]
-[Scoring "MP"]
-[Auction "E"]
-1D    1S    Pass  Pass
-X     Pass  2C    Pass
-3C    Pass  3N    Pass
-Pass  Pass
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
-[Board "38"]
-% A7456C614322693D9B3119F16A99
+[Board "79"]
+% 27456C614322693D9B3119F16A99
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
@@ -997,8 +2106,33 @@ Pass  Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "39"]
-% A65B217AEB2D3361087A1176A7BD
+[Board "80"]
+% 37AD9C78ADE6752D5A898AD7EB0C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:82.652.Q7653.T75 Q97.K74.AKJ82.43 AKJ65.AJT83..KQ2 T43.Q9.T94.AJ986"]
+{Shape 2353 3352 5503 3235}
+{HCP 2 13 18 7}
+{Losers 10 7 4 10}
+[Declarer "E"]
+[Contract "1DX"]
+[Result "8"]
+[Score "NS -340"]
+[Scoring "MP"]
+[Auction "E"]
+1D    X     Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "81"]
+% 365B217AEB2D3361087A1176A7BD
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
@@ -1011,8 +2145,8 @@ Pass  Pass
 {Losers 7 6 6 7}
 [Declarer "E"]
 [Contract "1S"]
-[Result "7"]
-[Score "NS -80"]
+[Result "6"]
+[Score "NS 50"]
 [Scoring "MP"]
 [Auction "E"]
 1S    Pass  Pass  Pass
@@ -1021,113 +2155,170 @@ Pass  Pass
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "40"]
-% C656BC94BA0C3D8330D52CD7A611
+[Board "82"]
+% 3737972DA4A7A6EBCC15CCCE8E0F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AQ62.75432.8.943 .K6.Q75432.AKT82 KJT93.QJT98..J75 8754.A.AKJT96.Q6"]
+{Shape 4513 0265 5503 4162}
+{HCP 6 12 8 14}
+{Losers 8 4 7 6}
+[Declarer "E"]
+[Contract "7D"]
+[Result "13"]
+[Score "NS -2140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    2S =1=    3S
+4S =2=    Pass  5H =3=    Pass
+7D    Pass  Pass  Pass
+[Note "1:limit raise or better in !D"]
+[Note "2:Exclusion, for !D"]
+[Note "3:3 out of 4"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "83"]
+% 36AC674C6000D51D2C4D62F2159C
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "NS"]
-[Deal "N:T9752.T8.872.AJ3 A.AQ642.AQ643.84 KQJ83.53.J.KQT75 64.KJ97.KT95.962"]
-{Shape 5233 1552 5215 2443}
-{HCP 5 16 12 7}
-{Losers 10 4 5 9}
+[Deal "N:T873.QT6.JT54.54 KQJ65.9832.K93.K A2.AKJ75..AQJT72 94.4.AQ8762.9863"]
+{Shape 4342 5431 2506 2164}
+{HCP 3 12 19 6}
+{Losers 10 7 3 7}
 [Declarer "S"]
-[Contract "3S"]
-[Result "9"]
-[Score "NS 140"]
+[Contract "4C"]
+[Result "11"]
+[Score "NS 150"]
 [Scoring "MP"]
 [Auction "E"]
-1H    1S    2H    2S
-3H    3S    Pass  Pass
+1S    X     2D    Pass
+2H    3C    Pass  Pass
+3D    4C    Pass  Pass
 Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "41"]
-% C787676EBEADCAAB067D960FF0E4
+[Board "84"]
+% 479F960253933581CB9235E8657A
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
 [Vulnerable "All"]
-[Deal "N:74.A974.98.QJ975 KQ6.5.QJT64.AK84 AJT85.KQT82.3.32 932.J63.AK752.T6"]
-{Shape 2425 3154 5512 3352}
-{HCP 7 15 10 8}
-{Losers 8 5 6 9}
+[Deal "N:Q95.Q87.742.KQ62 J32.AKJT6.A.AJT7 AKT86.43.QJT86.4 74.952.K953.9853"]
+{Shape 3334 3514 5251 2344}
+{HCP 9 18 10 3}
+{Losers 8 6 6 10}
 [Declarer "E"]
-[Contract "3D"]
+[Contract "3H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1H    1S    Pass  2S
+3C    Pass  3H    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "85"]
+% 4450A41898BAD2BEC413FDCE9912
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:Q62.74.854.T9842 A.AQJ9632.QJT3.6 KJT83.K.K7.AKQJ7 9754.T85.A962.53"]
+{Shape 3235 1741 5125 4342}
+{HCP 2 14 20 4}
+{Losers 10 4 4 10}
+[Declarer "E"]
+[Contract "5H"]
+[Result "10"]
+[Score "NS 50"]
+[Scoring "MP"]
+[Auction "E"]
+1H    X     Pass  2C
+4H    4S    5H    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "86"]
+% 56CF549E9C8C5D1CFF10A9030184
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:8643.AT432.643.Q K9.KQJ986.K2.A74 QJT52.5.5.KJT862 A7.7.AQJT987.953"]
+{Shape 4531 2623 5116 2173}
+{HCP 6 16 7 11}
+{Losers 9 5 6 6}
+[Declarer "W"]
+[Contract "4D"]
 [Result "11"]
 [Score "NS -150"]
 [Scoring "MP"]
 [Auction "E"]
-1D    1S    2D    Pass
-3D    Pass  Pass  Pass
+1H    Pass  3D =1=    Pass
+3H    Pass  4D    Pass
+Pass  Pass
+[Note "1:Inviting Jump Shifts"]
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "42"]
-% D73EAF2EA8B1EB29C99C99DDFF49
+[Board "87"]
+% 5598909D38D45641B4B50B14B132
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
 [West "EPBot"]
 [Dealer "E"]
-[Vulnerable "All"]
-[Deal "N:AQ8.72.J98752.AQ 2.654.AKQ643.K93 KJT65.KQJ98.T.J6 9743.AT3..T87542"]
-{Shape 3262 1363 5512 4306}
-{HCP 13 12 11 4}
-{Losers 7 6 6 8}
+[Vulnerable "EW"]
+[Deal "N:J542.85.T9764.92 98.AKQT94.K832.5 AKQ763..Q.AKJT74 T.J7632.AJ5.Q863"]
+{Shape 4252 2641 6016 1534}
+{HCP 1 12 19 8}
+{Losers 10 5 2 8}
 [Declarer "S"]
-[Contract "4S"]
-[Result "10"]
-[Score "NS 620"]
+[Contract "6SX"]
+[Result "12"]
+[Score "NS 1210"]
 [Scoring "MP"]
 [Auction "E"]
-1D    1S    Pass  2D =1=
-X     4D =2=    Pass  4S
-Pass  Pass  Pass
-[Note "1:limit raise or better in !S"]
-[Note "2:Splinter"]
+1H    X     4H    Pass
+Pass  4S    5H    5S
+Pass  6S    X     Pass
+Pass  Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
 [Event "Michaels_Cuebid"]
 [Site ""]
-[Board "43"]
-% D7FBAF87A62ABB1DF31C69FAB762
-[North "EPBot"]
-[East "EPBot"]
-[South "EPBot"]
-[West "EPBot"]
-[Dealer "E"]
-[Vulnerable "All"]
-[Deal "N:T86.Q.AT954.JT42 52.86.K86.AKQ973 KQJ93.KJT52.72.6 A74.A9743.QJ3.85"]
-{Shape 3154 2236 5521 3532}
-{HCP 7 12 10 11}
-{Losers 9 6 6 8}
-[Declarer "E"]
-[Contract "3C"]
-[Result "10"]
-[Score "NS -130"]
-[Scoring "MP"]
-[Auction "E"]
-1C    1S    2H =1=    Pass
-3C    Pass  Pass  Pass
-[Note "1:1X-(Y)-2Z forcing"]
-[BidSystemEW "2/1GF - 2/1 Game Force"]
-[BidSystemNS "2/1GF - 2/1 Game Force"]
-
-[Event "Michaels_Cuebid"]
-[Site ""]
-[Board "44"]
-% D77E9C04B8AAB83DD1F95BDB2897
+[Board "88"]
+% 577E9C04B8AAB83DD1F95BDB2897
 [North "EPBot"]
 [East "EPBot"]
 [South "EPBot"]
@@ -1146,6 +2337,981 @@ Pass  Pass  Pass
 [Auction "E"]
 1H    1S    2H    2S
 3H    3S    4H    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "89"]
+% 575A4120696199694266D5BD72CE
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:Q.K72.AJ98.A7632 AKJT8763.A95.42. 94.QJT86.KQT73.Q 52.43.65.KJT9854"]
+{Shape 1345 8320 2551 2227}
+{HCP 14 12 10 4}
+{Losers 7 5 6 8}
+[Declarer "E"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  Pass  X
+3S    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "90"]
+% 667B6DEB7E6933631A9CCB22B2C5
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:974.52.9843.J743 AKJT8.76.2.AQ985 63.KQT84.AQT75.6 Q52.AJ93.KJ6.KT2"]
+{Shape 3244 5215 2551 3433}
+{HCP 1 14 11 14}
+{Losers 11 5 5 8}
+[Declarer "E"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS -480"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  3N    Pass
+4C =1=    Pass  4D =2=    Pass
+4S    Pass  Pass  Pass
+[Note "1:Cue bid, a !C stopper"]
+[Note "2:Cue bid, a !D stopper"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "91"]
+% 765132989B99753F8BB84C3E3215
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:K8432.75.AK3.K43 A95.AQJT2.92.J87 QJT76..QJT76.Q65 .K98643.854.AT92"]
+{Shape 5233 3523 5053 0634}
+{HCP 13 12 8 7}
+{Losers 7 8 6 7}
+[Declarer "S"]
+[Contract "5SX"]
+[Result "11"]
+[Score "NS 850"]
+[Scoring "MP"]
+[Auction "E"]
+1H    1S    2S =1=    3H =2=
+Pass  4S    5H    5S
+X     Pass  Pass  Pass
+[Note "1:limit raise or better in !H"]
+[Note "2:limit raise or better in !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "92"]
+% 773F14BBA89CCFE91954B4C83E96
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AK73.94.QJ874.32 6.KT762.AT93.AQ9 QJT52.J8..KJT654 984.AQ53.K652.87"]
+{Shape 4252 1543 5206 3442}
+{HCP 10 13 8 9}
+{Losers 7 6 6 8}
+[Declarer "E"]
+[Contract "4H"]
+[Result "11"]
+[Score "NS -650"]
+[Scoring "MP"]
+[Auction "E"]
+1H    Pass  3H    Pass
+4H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "93"]
+% 76D5A26FA58B8514BB3EF62661F2
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:864.T9.K32.K6542 Q3.A8.AJ9854.QT7 KJT97.KQJ43.T7.8 A52.7652.Q6.AJ93"]
+{Shape 3235 2263 5521 3424}
+{HCP 6 13 10 11}
+{Losers 9 7 6 9}
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Score "NS 50"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    X     Pass
+2D    Pass  3N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "94"]
+% 759D68A307AA1269428972883921
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:J932.J764.J.T975 K875.A9.Q9752.QJ AQT64.KQT82.A.K4 .53.KT8643.A8632"]
+{Shape 4414 4252 5512 0265}
+{HCP 3 12 18 7}
+{Losers 10 7 3 6}
+[Declarer "E"]
+[Contract "5DX"]
+[Result "11"]
+[Score "NS -750"]
+[Scoring "MP"]
+[Auction "E"]
+1D    X     3D    Pass
+Pass  3S    4D    4S
+Pass  Pass  5D    Pass
+Pass  X     Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "95"]
+% 759D9C55B0947A907B05B0F67636
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:62.6.QT6432.9432 Q973.AKQT8.J85.7 AKJT85..AK.KJT85 4.J975432.97.AQ6"]
+{Shape 2164 4531 6025 1723}
+{HCP 2 12 19 7}
+{Losers 8 6 3 7}
+[Declarer "E"]
+[Contract "5HX"]
+[Result "10"]
+[Score "NS 200"]
+[Scoring "MP"]
+[Auction "E"]
+1H    X     4H    Pass
+Pass  4S    5H    Pass
+Pass  X     Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "96"]
+% 777B69E87428FC1C25432E3C7786
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:T8754.62.AKQT.52 AKJ63.8.9854.A63 2.KQT75.6.QJT984 Q9.AJ943.J732.K7"]
+{Shape 5242 5143 1516 2542}
+{HCP 9 12 8 11}
+{Losers 7 7 5 8}
+[Declarer "E"]
+[Contract "3D"]
+[Result "10"]
+[Score "NS -130"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  1N    Pass
+2D    2N =1=    3C =2=    Pass
+3D    Pass  Pass  Pass
+[Note "1:Unusual 2NT"]
+[Note "2:limit raise or better in !D"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "97"]
+% 761FAF2FA28090F1EE60F39356F5
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AQ.T.JT98654.J73 63.A943.32.AKQ54 KJT94.KQJ76..T96 8752.852.AKQ7.82"]
+{Shape 2173 2425 5503 4342}
+{HCP 8 13 10 9}
+{Losers 8 6 6 8}
+[Declarer "S"]
+[Contract "1S"]
+[Result "8"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1S    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "98"]
+% 8691E74EAAA353BE1F6D25C2F984
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:75.Q42.AT94.QJ84 Q96.A97.K52.KT97 AJT82.KJT65.J3.2 K43.83.Q876.A653"]
+{Shape 2344 3334 5521 3244}
+{HCP 9 12 10 9}
+{Losers 8 8 7 8}
+[Declarer "W"]
+[Contract "1N"]
+[Result "7"]
+[Score "NS -90"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1S    1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "99"]
+% 87BE4BA56BAD8462F7052793DA7A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:65.K96.KJ32.A832 KJ82.43.AT.KJ754 AQT94.QJT85.84.9 73.A72.Q9765.QT6"]
+{Shape 2344 4225 5521 2353}
+{HCP 11 12 9 8}
+{Losers 8 7 6 8}
+[Declarer "S"]
+[Contract "2S"]
+[Result "7"]
+[Score "NS -100"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1S    Pass  1N
+Pass  2H    Pass  2S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "100"]
+% 876DEE71E1825A3E05992F61B14B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:875.T72.962.KT98 AQ942.96.AK85.52 T63.AKJ54.QJT43. KJ.Q83.7.AQJ7643"]
+{Shape 3334 5242 3550 2317}
+{HCP 3 13 11 13}
+{Losers 11 6 6 5}
+[Declarer "W"]
+[Contract "5C"]
+[Result "10"]
+[Score "NS 100"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  2C    Pass
+2D    Pass  3C    Pass
+5C    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "101"]
+% 8568A36AAA9B22D28908CB05BF4B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:964.76542.4.QJ98 AQ2.T8.K98.KT532 KJT73.AKQJ9.3.A6 85.3.AQJT7652.74"]
+{Shape 3514 3235 5512 2182}
+{HCP 3 12 18 7}
+{Losers 9 7 4 6}
+[Declarer "S"]
+[Contract "4SX"]
+[Result "10"]
+[Score "NS 590"]
+[Scoring "MP"]
+[Auction "E"]
+1C    X     1D    Pass
+1N    2S    3D    3S
+3N    4S    X     Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "102"]
+% 8467AD97049E833711D11FC1F79E
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J875.J94.KT52.T2 A.QT7652..AQ9853 KQT92.AK.AQJ83.J 643.83.9764.K764"]
+{Shape 4342 1606 5251 3244}
+{HCP 5 12 20 3}
+{Losers 10 3 3 10}
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 450"]
+[Scoring "MP"]
+[Auction "E"]
+1H    X     Pass  1S
+2C    2H =1=    Pass  4S
+Pass  Pass  Pass
+[Note "1:limit raise or better in !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "103"]
+% 9647E56C2C3C628CC17639486255
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:JT5.A874.973.963 AQ96432.2.AK62.A 8.KQJ93.54.QJT84 K7.T65.QJT8.K752"]
+{Shape 3433 7141 1525 2344}
+{HCP 5 17 9 9}
+{Losers 11 3 6 8}
+[Declarer "E"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS -480"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  1N    Pass
+4S    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "104"]
+% 971D2EA9A7865F76E3F1A9470A91
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AK3.T43.Q53.KT83 984.A92.AK9.J974 QJT52.KQJ75.762. 76.86.JT84.AQ652"]
+{Shape 3334 3334 5530 2245}
+{HCP 12 12 9 7}
+{Losers 8 9 6 8}
+[Declarer "S"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1S    3C    3S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "105"]
+% A664EA607B54C1D60AD3E0F16D30
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:72.97.Q96542.K87 AQJT3.T86.AT8.J6 .AKQ53.KJ7.AQT52 K98654.J42.3.943"]
+{Shape 2263 5332 0535 6313}
+{HCP 5 12 19 4}
+{Losers 8 8 3 9}
+[Declarer "E"]
+[Contract "4SX"]
+[Result "8"]
+[Score "NS 300"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     4S    Pass
+Pass  X     Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "106"]
+% A66C4E4360EC13A373BF6C0D3B3C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:9432.KQ4.QJ987.K AKQJ75.9..Q98763 86.AJT85.3.AJT52 T.7632.AKT6542.4"]
+{Shape 4351 6106 2515 1471}
+{HCP 11 12 10 7}
+{Losers 7 3 7 6}
+[Declarer "E"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  1N    Pass
+2C    Pass  2D    Pass
+2S    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "107"]
+% A4424FE860A450EA910FCCF1631E
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:62.AK65.K652.A82 AKJ93.972.Q8.K63 T7.QJT83.T.QJT95 Q854.4.AJ9743.74"]
+{Shape 2443 5323 2515 4162}
+{HCP 14 13 6 7}
+{Losers 7 8 7 7}
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS -420"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  4S    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "108"]
+% A760786C54E8D649346326755A3A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:752.8.KT832.9532 AKQJ8643.J93.Q.6 .AQT65.A6.AKQJT7 T9.K742.J9754.84"]
+{Shape 3154 8311 0526 2452}
+{HCP 3 13 20 4}
+{Losers 9 5 2 9}
+[Declarer "S"]
+[Contract "6CX"]
+[Result "13"]
+[Score "NS 1740"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     Pass  2D
+2S    3C    Pass  Pass
+3S    4H    4S    5C
+Pass  6C    X     Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "109"]
+% A79B8B71B161DCF2C91A6B9AD187
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:6.K72.AK7654.864 QT5.A9643.9.AK52 AKJ42.T5.QJT83.9 9873.QJ8.2.QJT73"]
+{Shape 1363 3514 5251 4315}
+{HCP 10 13 11 6}
+{Losers 7 6 6 8}
+[Declarer "N"]
+[Contract "4D"]
+[Result "11"]
+[Score "NS 150"]
+[Scoring "MP"]
+[Auction "E"]
+1H    1S    2H    3D
+Pass  Pass  3H    Pass
+Pass  4D    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "110"]
+% A467A1A9990EC3226D07D893F28F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:T86.T962.T72.T83 A7.J54.QJ5.A9642 KQJ42.AKQ87.A6.5 953.3.K9843.KQJ7"]
+{Shape 3433 2335 5521 3154}
+{HCP 0 12 19 9}
+{Losers 12 8 3 7}
+[Declarer "S"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "E"]
+1C    X     1D    Pass
+1N    2S    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "111"]
+% A6E7A5C287AFCE4DB22B9C711C27
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:632.QJ98.Q74.Q97 84.53.AKJ2.AJT62 KJT75.AKT62.6.53 AQ9.74.T9853.K84"]
+{Shape 3433 2245 5512 3253}
+{HCP 7 13 11 9}
+{Losers 9 7 6 8}
+[Declarer "W"]
+[Contract "1N"]
+[Result "8"]
+[Score "NS -120"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1S    1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "112"]
+% B77DB45E9C9805D276081598A56A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:965.96.T642.Q872 AQ72.QJT854.AQJ. KJT43.32.8.KJT64 8.AK7.K9753.A953"]
+{Shape 3244 4630 5215 1354}
+{HCP 2 16 8 14}
+{Losers 10 4 7 6}
+[Declarer "E"]
+[Contract "6H"]
+[Result "13"]
+[Score "NS -1460"]
+[Scoring "MP"]
+[Auction "E"]
+1H    1S    2S =1=    Pass
+5C =2=    Pass  5S =3=    Pass
+6H    Pass  Pass  Pass
+[Note "1:limit raise or better in !H"]
+[Note "2:Exclusion, for !H"]
+[Note "3:2 out of 4"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "113"]
+% B76CA7A2D69965C6196BC399498D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:7.8532.T7643.QJ8 A963.JT74.A2.K65 KQT42.AKQ96.Q5.A J85..KJ98.T97432"]
+{Shape 1453 4423 5521 3046}
+{HCP 3 12 20 5}
+{Losers 9 8 3 8}
+[Declarer "E"]
+[Contract "5CX"]
+[Result "9"]
+[Score "NS 500"]
+[Scoring "MP"]
+[Auction "E"]
+1C    X     4C    Pass
+Pass  4S    Pass  Pass
+5C    X     Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "114"]
+% B6756B4E69E8E7C329770AF07C02
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:752.Q852.842.Q52 AKQJ63..A96.K986 .KJT97.KJT75.T43 T984.A643.Q3.AJ7"]
+{Shape 3433 6034 0553 4423}
+{HCP 4 17 8 11}
+{Losers 10 4 7 9}
+[Declarer "E"]
+[Contract "6S"]
+[Result "12"]
+[Score "NS -980"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  2N =1=    Pass
+3H =2=    X     4S    Pass
+5H =3=    Pass  5N =4=    Pass
+6S =5=    Pass  Pass  Pass
+[Note "1:Jacoby 2NT"]
+[Note "2:shortness  !H"]
+[Note "3:Exclusion, for !S"]
+[Note "4:1 out of 4"]
+[Note "5:0 or 1 trump keys"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "115"]
+% B7968D6B2DA10AB51C7728DD15AB
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J9753.K9.Q952.A9 Q6.A743.KJ74.Q62 AKT82.QJT52.T.75 4.86.A863.KJT843"]
+{Shape 5242 2443 5512 1246}
+{HCP 10 12 10 8}
+{Losers 7 8 6 7}
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    2C =1=    2S
+Pass  Pass  3C    3S
+4C    Pass  Pass  4S
+Pass  Pass  Pass
+[Note "1:1X-(Y)-2Z forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "116"]
+% C7AB706C6D287429397C26C97E7B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:T875.4.AT8742.53 KQJ9632..QJ63.A2 A.AQJT85.K.KQT96 4.K97632.95.J874"]
+{Shape 4162 7042 1615 1624}
+{HCP 4 13 19 4}
+{Losers 8 4 3 8}
+[Declarer "S"]
+[Contract "3HX"]
+[Result "10"]
+[Score "NS 930"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     Pass  2D
+2S    3H    X     Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "117"]
+% C7BD4BAE27A6BE610D84DEE7D216
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J72.K76.K.QT9532 K8.532.AQ975.KJ4 AQT96.QJT84.83.6 543.A9.JT642.A87"]
+{Shape 3316 2353 5521 3253}
+{HCP 9 13 9 9}
+{Losers 8 7 6 9}
+[Declarer "E"]
+[Contract "3D"]
+[Result "10"]
+[Score "NS -130"]
+[Scoring "MP"]
+[Auction "E"]
+1D    1S    2D    2S
+3D    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "118"]
+% C6DE1B9C94BC02BE34B2AD147772
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:K974.9.962.A9862 32.AKQJ4.J743.K3 QJT865.5.K.QJT74 A.T87632.AQT85.5"]
+{Shape 4135 2542 6115 1651}
+{HCP 7 14 9 10}
+{Losers 8 6 6 5}
+[Declarer "E"]
+[Contract "6H"]
+[Result "12"]
+[Score "NS -980"]
+[Scoring "MP"]
+[Auction "E"]
+1H    2S    3S =1=    Pass
+4H    Pass  4N =2=    Pass
+5S =3=    Pass  6H    Pass
+Pass  Pass
+[Note "1:limit raise or better in !H"]
+[Note "2:Blackwood 0314, for !H"]
+[Note "3:A=2/5 or 5/5, Q(H)=1"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "119"]
+% D69BA6AF2D7174ED8FD2C2A3E346
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:J.752.T6543.K652 T92.A6.K92.AQ743 AKQ74.KQJ843.A.9 8653.T9.QJ87.JT8"]
+{Shape 1354 3235 5611 4243}
+{HCP 4 13 19 4}
+{Losers 9 7 2 10}
+[Declarer "S"]
+[Contract "5H"]
+[Result "11"]
+[Score "NS 650"]
+[Scoring "MP"]
+[Auction "E"]
+1C    X     Pass  1D
+Pass  3H    Pass  4C =1=
+X     4N =2=    Pass  5D =3=
+Pass  5H    Pass  Pass
+Pass
+[Note "1:limit raise or better in !H"]
+[Note "2:Blackwood 1430, for !H"]
+[Note "3:A=0/5 or 3/5"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "120"]
+% D41B9592A7551030F53D930E8652
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:A9864.43.64.Q432 T2.AKQT952.A.AJ5 KQJ53.J.KJT73.98 7.876.Q9852.KT76"]
+{Shape 5224 2713 5152 1354}
+{HCP 6 18 11 5}
+{Losers 8 4 6 8}
+[Declarer "E"]
+[Contract "6H"]
+[Result "12"]
+[Score "NS -980"]
+[Scoring "MP"]
+[Auction "E"]
+2C =1=    Pass  2D =2=    Pass
+2H    Pass  3S =3=    Pass
+4C =4=    Pass  4H    Pass
+4N =5=    Pass  5C =6=    Pass
+6H    Pass  Pass  Pass
+[Note "1:strong"]
+[Note "2:waiting"]
+[Note "3:Splinter"]
+[Note "4:Cue bid, a !C stopper"]
+[Note "5:Blackwood 0314, for !H"]
+[Note "6:A=0/5 or 3/5"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "121"]
+% E677E52ABA6AC94060663B4D317F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:Q53.984.873.QJT6 AT87642..AK6.A52 J.KQT76.QJT95.87 K9.AJ532.42.K943"]
+{Shape 3334 7033 1552 2524}
+{HCP 5 15 9 11}
+{Losers 10 5 6 7}
+[Declarer "E"]
+[Contract "6S"]
+[Result "12"]
+[Score "NS -980"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  1N    Pass
+4H =1=    X     4N =2=    Pass
+5C =3=    Pass  5D    Pass
+5S =4=    Pass  6S    Pass
+Pass  Pass
+[Note "1:Splinter"]
+[Note "2:Blackwood 0314, for !S"]
+[Note "3:A=0/5 or 3/5"]
+[Note "4:no !S queen"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "122"]
+% E7ED2BBFB7AAF7C9AB0AAF405DC4
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:K6.8642.KT876.T6 43.3.AQ53.KQJ975 QJT75.AKT75.4.42 A982.QJ9.J92.A83"]
+{Shape 2452 2146 5512 4333}
+{HCP 6 12 10 12}
+{Losers 8 5 6 9}
+[Declarer "E"]
+[Contract "3C"]
+[Result "11"]
+[Score "NS -150"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1S    2N    Pass
+3C    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "123"]
+% E4552465AB7A52C3ECC542FF3A26
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K32.865.74.T9532 AQT95.A9.JT3.J84 J.KQJ72.AKQ62.K7 8764.T43.985.AQ6"]
+{Shape 3325 5233 1552 4333}
+{HCP 3 12 19 6}
+{Losers 10 8 3 10}
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "E"]
+1S    X     2S    Pass
+Pass  3H    3S    Pass
+Pass  4D    Pass  4H
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Michaels_Cuebid"]
+[Site ""]
+[Board "124"]
+% E76B4A74E868FFCE01F4E3732C3B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:732.K87.AKJT2.K8 AKQT4..983.A9542 .AJT53.754.QJT63 J9865.Q9642.Q6.7"]
+{Shape 3352 5035 0535 5521}
+{HCP 14 13 8 5}
+{Losers 7 5 7 8}
+[Declarer "E"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -650"]
+[Scoring "MP"]
+[Auction "E"]
+1S    Pass  4S    Pass
 Pass  Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]

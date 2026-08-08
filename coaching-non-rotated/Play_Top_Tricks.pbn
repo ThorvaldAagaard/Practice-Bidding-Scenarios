@@ -1,0 +1,1324 @@
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "7"]
+% 0B00A9607DDA2ACD8416803792BB
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:A964.A875.764.42 QJ.T63.AQ53.T963 K7532.KQ9.J8.KJ8 T8.J42.KT92.AQ75"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+D2 D4 DQ D8
+DK D6 D3 DJ
+H2 H5 HT HQ
+S8 SA SJ S2
+ST S4 SQ SK
+HJ HA H3 H9
+H4 H7 H6 HK
+C5 C2 C9 C8
+CQ C4 C3 CJ
+CA S6 C6 CK
+C7 S9 D5 S3
+D9 D7 DA S5
+DT H8 CT S7
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D2. Fourth-best from your longest suit is a safe, standard choice against this spade partscore.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S and need only eight tricks. Count the tops: your trump suit is worth five winners once drawn, and you have three more top tricks outside, which already totals the eight you need. There is nothing to develop and no finesse to risk; just cash what you own. NS hold 21 of the 40 points, so the defense has 19, and with neither opponent bidding, no one holds a surprise long suit.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \D2, which has the look of a fourth-best, suggesting about four diamonds on the left, but treat that as a guide, not a fact. You have no top diamond, so simply lose what you must there and take your tricks elsewhere. Draw trumps so your five trump winners and three side tops cannot be ruffed away, then cash them in good order. Resist any urge to finesse for extra; eight tops are already plenty for this partscore.
+
+[ROLE declarer][STAGE post-play]
+The count told you the eight winners were sitting right there, so you took them and made your contract without taking a single needless chance. That is exactly the discipline this lesson rewards. Well done.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "41"]
+% 29AA0C368CDEA443176AA1F7B17F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:KQ7.KJ8.853.8742 862.T7.Q974.AQT6 AJ953.A965.A6.53 T4.Q432.KJT2.KJ9"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+D2 D5 D7 DA
+S4 SQ S2 S3
+ST S7 S6 SJ
+H2 HJ H7 H5
+H3 H8 HT HA
+C9 SK S8 S5
+CJ C2 C6 C3
+DT D3 D4 D6
+CK C4 CT C5
+DJ D8 D9 S9
+H4 HK DQ H6
+DK C7 CQ SA
+HQ C8 CA H9
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D2. With no sequence, a fourth-best diamond from your longest suit is the standard opening lead.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S and need eight tricks. Count the tops: the \SAJ and five-card length give five trump tricks, and the \HA, \DA, and the \SKQ in dummy add the side strength - your three side tops plus five trumps make eight on top. NS hold 22 of the 40 points and the defense only 18, and with both opponents silent no one holds a surprise hand. Eight is already in hand, so cash and avoid any needless gamble.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D2, which looks like a fourth-best, suggesting about four diamonds, though that is an inference. Win the \DA, then draw trumps with your spade honors and dummy's \SKQ so nothing can be ruffed. Cash the \HA and your trump winners, bringing in the eight you counted. There is no reason to finesse for an overtrick when the contract is already there - take your sure tricks.
+
+[ROLE declarer][STAGE post-play]
+Five trump tricks plus the side aces gave you eight from the start, so the part-score was secure. Drawing trumps and cashing in order, rather than chasing extras, was the safe road. Nicely counted - that is the heart of this lesson.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "31"]
+% 1AE98BE349326D56FBE000963D6F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:T53.KJ5.932.KQ72 J982.84.AKJ7.T84 K4.AQ962.84.AJ93 AQ76.T73.QT65.65"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+Pass  Pass
+[Play "W"]
+D5 D2 DJ D4
+D6 D3 DK D8
+SQ S3 S2 S4
+SA S5 S8 SK
+S6 ST SJ H2
+C5 CQ C4 C3
+C6 C2 CT CJ
+H7 HJ H4 H6
+H3 H5 H8 HQ
+HT HK D7 H9
+DT D9 DA HA
+S7 C7 C8 C9
+DQ CK S9 CA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D5. With no sequence, a fourth-best diamond from your longest suit is the standard, informative opening lead.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\H and need eight tricks. Count the tops: the \HAQ and your five-card trump length give five trump tricks, and the strong clubs headed by \CAKQ cash for four more. NS hold 23 of the 40 points and the defense only 17, and with neither opponent bidding no one is hiding a big hand. That is well past eight, so the lesson is simply to draw trumps and cash your clubs - no finesse needed.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D5, which looks like a fourth-best from length, suggesting about four diamonds, though that is an inference. Win or duck in diamonds as suits you, then draw trumps so your club winners cannot be ruffed. Once trumps are gone, run the clubs - the \CAKQ and dummy's length bring in the tricks you counted, and you are home with plenty to spare. There is no call for a trump or side-suit finesse; just cash what you counted.
+
+[ROLE declarer][STAGE post-play]
+With five trump tricks and the solid clubs counted in advance, eight was never in doubt. Drawing trumps before cashing kept those club winners safe from a ruff. Nicely done - counting first and cashing in order is the whole lesson here.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "21"]
+% 1A8BB894A2227ACD1E7F81C42398
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:T73.A854.876.A63 96.Q72.AK92.JT97 AKQJ52.JT3.Q4.85 84.K96.JT53.KQ42"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+C2 CA C7 C5
+S4 S3 S6 SJ
+S8 S7 S9 SQ
+H9 HA H2 H3
+H6 H4 HQ HT
+HK H5 H7 HJ
+CQ C3 C9 C8
+D3 D6 DK D4
+D5 D7 DA DQ
+DT D8 D2 S2
+C4 ST D9 SK
+DJ C6 CT S5
+CK H8 CJ SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C2. Fourth-best from your longest suit is a safe, standard choice against this spade partscore.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S and need eight tricks. Count your tops: your solid trump suit is worth six winners drawn, plus two more tops outside in the side aces, which already makes exactly the eight you need. There is nothing to develop and no finesse to take; your trumps are solid and the aces are sure. NS hold 21 of the 40 points, so the defense has 19, and with neither opponent bidding no one conceals a long suit.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \C2, which looks like a fourth-best, hinting at club length on the left, but treat that as only an inference. Win or take your side ace as needed, then draw trumps; with the suit solid all six trump winners are yours. Cash your two side aces and you have reached exactly eight. Do not chase extra tricks with a finesse; the count comes out to eight on the nose, so just take your sure winners.
+
+[ROLE declarer][STAGE post-play]
+Six solid trump tricks plus two side aces gave you exactly eight, taken with no risk at all. Counting first showed there was nothing to gamble on, and you simply cashed your way home. Clean, confident play.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "5"]
+[OriginalBoard "14"]
+% 089AB0A844144DEEFBB703EE119A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T53.J95.AQ72.765 J9.AT32.984.A842 AKQ62.Q84.K53.93 874.K76.JT6.KQJT"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+CK C5 C2 C3
+CT C6 C4 C9
+H6 H9 HA H4
+HK H5 H2 H8
+H7 HJ H3 HQ
+DT DQ D4 D3
+D6 D2 D8 DK
+DJ DA D9 D5
+S4 S3 S9 SQ
+S7 S5 SJ SK
+S8 ST C8 S2
+CJ C7 CA S6
+CQ D7 HT SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CK. From your strong club sequence, the king is the natural top-of-sequence lead against this spade partscore.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S and need eight tricks. Count your tops: your trump suit is worth five winners drawn, and you have three more tops outside, which already totals the eight you need. There is no call to develop a suit or risk a finesse; just gather your sure winners. NS have 21 of the 40 points, so the defense has 19, and with neither opponent bidding, no one conceals a long suit.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \CK, which looks like top of a club sequence, so West likely holds the touching honors below it, though that placement is only an inference. You have no club top to cash, so let the clubs go and look elsewhere. Draw trumps to protect your five trump winners and three side tops, then cash them in good order. There is no need to finesse for the missing diamond honors; eight tops already make the partscore safely.
+
+[ROLE declarer][STAGE post-play]
+The count showed five trump tricks and three side tops, exactly the eight you needed, so you cashed them and never risked a thing. Letting the clubs run and taking your own winners was the disciplined choice. Well played.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "6"]
+[OriginalBoard "13"]
+% 0B20E6A14F13EAFFCB62BB4F28DE
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:AT3.J74.K.JT8754 J64.T2.AQT6.K962 Q5.AKQ963.J842.Q K9872.85.9753.A3"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  3H    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+S7 S3 S4 SQ
+H5 H4 H2 HQ
+CA C4 C2 CQ
+S2 SA S6 S5
+C3 CT CK H3
+H8 HJ HT H6
+S8 ST SJ H9
+D3 DK DA D2
+D5 H7 DQ D4
+D7 CJ C6 D8
+D9 C5 C9 HK
+S9 C7 D6 HA
+SK C8 DT DJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \S7. Fourth-best from your longest suit is a sound opening shot against this heart game.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H and need ten tricks. Count what is sure: your strong trump suit is worth six winners drawn, plus one top outside, for seven to start. The other three come from dummy's long club suit, which you set up by forcing out the missing high clubs, and from diamond ruffs in your short-diamond dummy. No finesse is needed; the source of the extra tricks is length and ruffing. NS hold 23 of the 40 points, leaving the defense 17, and with both opponents silent no one hides a big hand.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \S7, which looks like a fourth-best, hinting at spade length on the left, but treat that as only an inference. Win or take your spade top as the layout allows, then plan your tricks: draw enough trumps to keep control, drive out the high clubs to establish dummy's long club winners, and ruff diamonds in dummy for the rest. Mind your entries so you can both set up and cash dummy's clubs. There is no honor to finesse for; the ten tricks come from trump winners, the club length, and ruffs, so just bring them in.
+
+[ROLE declarer][STAGE post-play]
+Seven tops plus dummy's established clubs and a diamond ruff added up to ten exactly as the count promised. Setting up the long suit instead of gambling on a finesse was the winning idea. Very nicely managed.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "7"]
+[OriginalBoard "26"]
+% 1B828C3CF06A2DB718829B8759D6
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:Q97.AK64.842.854 T3.7532.AJ6.AT62 AK8654.T9.KQ9.93 J2.QJ8.T753.KQJ7"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+CK C4 C2 C3
+C7 C5 CT C9
+D3 D2 DA D9
+D5 D4 D6 DQ
+D7 D8 DJ DK
+S2 S7 S3 SK
+SJ SQ ST S4
+CJ C8 CA S5
+HJ HK H2 H9
+H8 HA H3 HT
+HQ H4 H5 S6
+DT S9 C6 S8
+CQ H6 H7 SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CK. With \CKQJ in hand you have a solid sequence, so the king is the standard, safe top-of-sequence lead.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S and need only eight tricks. Count the sure tops: your \SAK and the six-card length give six trump tricks, and the \HAK add two more, for eight on top - already enough. NS hold 21 of the 40 points and the defense only 19, and with neither opponent bidding there is no surprise hand out there. You have your contract before you start, so just cash and do not chase overtricks with a risky play.
+
+[ROLE declarer][STAGE post-lead]
+West led the \CK, which looks like top of a sequence, suggesting the QJ alongside it, though that is an inference. Take or duck the club as you like, then draw trumps with the \SAK and run the suit, picking up the eight you counted with six trumps and the two heart honors. Cash the \HAK while you can. The diamonds may offer a little extra, but there is no need to finesse anything - your eight are guaranteed, so bank them.
+
+[ROLE declarer][STAGE post-play]
+You counted eight sure tricks before the lead and they were all there, so the contract was safe from the first card. Any overtrick is a bonus, never worth a gamble that could cost the part-score. Well counted - taking the sure road is the mark of a steady declarer.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "8"]
+[OriginalBoard "20"]
+% 1BA6BADF313A8BCA94657014A791
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:JT4.98.A7643.Q93 65.Q742.J52.AKT8 AK9732.A63.Q.J62 Q8.KJT5.KT98.754"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+3S    Pass  Pass  Pass
+[Play "W"]
+H5 H8 HQ HA
+S8 S4 S5 SK
+SQ ST S6 SA
+DK DA D2 DQ
+D8 D3 DJ S2
+HT H9 H2 H3
+C4 C3 CK C2
+C5 C9 CA C6
+C7 CQ C8 CJ
+D9 D6 D5 S3
+HJ SJ H4 H6
+DT D4 H7 S7
+HK D7 CT S9
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H5. Fourth-best from your longest suit is a reasonable, standard lead against this spade contract.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\S and need nine tricks. Count your sure tops: your long trump suit is worth six winners drawn, plus two top tricks outside, for eight already. The ninth comes easily from a diamond winner once you cash and ruff there, with no finesse required. NS hold 21 of the 40 points, leaving the defense 19, and with both opponents passing no one is hiding a big hand.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \H5, which looks like a fourth-best, hinting at heart length on the left, but take that only as a guide. Win the heart ace, draw trumps so your six trump winners cannot be ruffed, then cash your side tops. The diamond ace and the long diamonds give you the trick to reach nine and more. There is no need to finesse for any honor; eight tops plus a diamond winner make the contract, so simply take your sure tricks in order.
+
+[ROLE declarer][STAGE post-play]
+Six trump tricks and two side tops gave you eight, with the diamonds handing over the ninth, all without a gamble. Counting first and refusing the needless finesse made this routine. Well judged play.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "9"]
+[OriginalBoard "16"]
+% 092D456C20DA50FA0FA742B7B4E1
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:AJ7.K75.J952.764 KQ95.T9.K643.T85 643.AQJ62.T8.AK2 T82.843.AQ7.QJ93"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+Pass  Pass
+[Play "W"]
+CQ C4 C5 CK
+H3 HK H9 H2
+H4 H5 HT HJ
+C3 C6 C8 CA
+C9 C7 CT C2
+DQ D2 D3 D8
+DA D5 D4 DT
+S2 SA S5 S3
+D7 D9 DK H6
+H8 H7 S9 HQ
+S8 S7 D6 HA
+ST SJ SQ S4
+CJ DJ SK S6
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CQ. From your club sequence, the queen is the natural top-of-sequence lead against this heart partscore.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\H and need eight tricks. Count your tops: your trump suit is worth five winners drawn, and you hold three more tops outside, which already comes to exactly the eight you need. There is nothing to develop and no finesse to take; every needed trick is a sure one. NS hold 23 of the 40 points, leaving the defense 17, and with neither opponent bidding no one is hiding a big hand.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \CQ, which looks like top of a club sequence, so West likely holds the jack below it, though that is only an inference. Win your club top at the right moment, draw trumps so your five trump winners are safe, then cash your remaining side tops. That brings you to exactly eight. Avoid any tempting finesse for the missing trump or spade honors; the count lands on eight precisely, so just take what you own.
+
+[ROLE declarer][STAGE post-play]
+Five trump tricks plus three side tops gave you exactly eight, and you took them with no risk whatsoever. Counting first kept you from a needless finesse that could have cost the contract. Nicely done.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "10"]
+[OriginalBoard "5"]
+% 0AA10A901F62E8B972F4AA0F9F37
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:KJ42.K4.J43.J432 T7.QJ3.K985.KT75 AQ853.AT95.62.A8 96.8762.AQT7.Q96"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  3S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+H2 H4 HJ HA
+S9 SJ S7 S3
+S6 S2 ST SQ
+H6 HK H3 H5
+C6 C2 C5 CA
+H7 S4 HQ H9
+C9 C3 CT C8
+DQ D3 D5 D2
+D7 DJ DK D6
+DT D4 D8 S5
+H8 SK C7 S8
+CQ C4 CK SA
+DA CJ D9 HT
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H2. With no clear standout against this spade game, fourth-best from your four-card heart suit is a sound, honest start.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S and need ten tricks. Count the sure top ones first: your trumps are worth five winners drawn, and outside you hold three more tops in the side suits, so eight are already in the bag. The last two come from the heart length and a club ruff in dummy once trumps are gone, so there is no need to finesse anything. NS hold 23 of the 40 points, leaving the defenders only 17 between them, and since neither opponent bid, no one is hiding a big hand.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \H2, which looks like a fourth-best, hinting at about four hearts on that side, though the meaning is only an inference. Win an early heart honor, then draw trumps to protect your winners from being ruffed. After the trumps are in, cash your side tops and use a heart and a club ruff in dummy to bring the total to ten. Do not be tempted to finesse for the missing heart honors; you simply do not need the extra trick, and the safe count already delivers the contract.
+
+[ROLE declarer][STAGE post-play]
+Counting first showed you eight tops with two more there for the taking, so you never had to gamble on a finesse. Taking the sure road brought home all ten tricks cleanly. Nicely judged, steady declarer play.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "11"]
+[OriginalBoard "25"]
+% 198EA48F8A1B7663CB355CAC35D0
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:T63.AQJ7.82.QT87 985.T52.K963.AJ9 AKQJ4.K84.JT7.63 72.963.AQ54.K542"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  3S    Pass
+Pass  Pass
+[Play "W"]
+C2 CT CJ C3
+CK C7 C9 C6
+D4 D2 DK D7
+DQ D8 D3 DT
+H3 H7 HT HK
+H6 HJ H2 H4
+C4 C8 CA S4
+H9 HQ H5 H8
+S2 S3 S5 SJ
+S7 S6 S8 SQ
+DA ST D6 DJ
+C5 CQ S9 SK
+D5 HA D9 SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C2. With no sequence and no clear stand-out, a low club from your four-card holding is a sound, passive start that keeps your honors intact.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\S and need nine tricks. Count your sure top tricks first: the \SAKQJ run gives five trump winners, and in hearts the \HAQJ behind dummy's length supply three more cashing tricks, for eight on top. NS hold 23 of the 40 points, leaving the defense only 17, and since neither opponent bid, no one is hiding a big hand. The ninth is right there in the long hearts, so plan to cash, not to gamble.
+
+[ROLE declarer][STAGE post-lead]
+West led the \C2, which looks like a low card from length, but its exact meaning is only an inference. Win or duck the first club as suits you, then draw trumps with the top spades, which are solid and lose to nothing. After trumps are gone, run your hearts: the \HAQJ and dummy's length bring in the four heart tricks you counted, and that completes nine. There is no need to risk a club or diamond guess for an overtrick - simply take what you counted.
+
+[ROLE declarer][STAGE post-play]
+Because you counted eight on top and saw the ninth in hearts before touching a card, the contract was never in doubt. Refusing the needless finesse kept every winner safe. Nicely counted and cleanly cashed - that is exactly the discipline this hand rewards.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "12"]
+[OriginalBoard "53"]
+% 3A1DA0997B861A8D429022FCB304
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:A952.T872.A84.J3 J7.AQ96.QJ9.T975 KQT863.K5.T2.AQ8 4.J43.K7653.K642"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  3S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+D5 DA D9 D2
+S4 S2 S7 S8
+C2 C3 C5 CA
+CK CJ C7 C8
+D3 D4 DJ DT
+H3 H2 HA H5
+H4 H7 H6 HK
+C4 H8 C9 CQ
+D6 SA SJ S3
+HJ HT HQ S6
+D7 S5 H9 ST
+C6 S9 CT SQ
+DK D8 DQ SK
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D5. With no sequence, a fourth-best diamond from your longest suit is the standard opening lead.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S and need ten tricks. Count the tops: the \SKQT and six-card length give six trump tricks, and the \DA and \CA add two more side tops, for eight on top. NS hold 23 of the 40 points and the defense only 17, and with both opponents silent no one holds a hidden long suit. The other two come from the heart length and a club ruff, so the plan is to cash your sure winners and ruff, not to finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \D5, which looks like a fourth-best from length, suggesting roughly five diamonds, though that is an inference. Win the \DA, then draw trumps with your spade honors, watching the split. Cash the \CA, take a club ruff in dummy, and develop a long heart for the extra tricks you counted to reach ten. Six trumps plus the two aces plus the heart and ruff make ten - there is no need to risk a trump or heart finesse.
+
+[ROLE declarer][STAGE post-play]
+Eight tricks were on top, and the heart length plus a ruff supplied the last two, all clear once you counted. Cashing your winners and ruffing in order, rather than gambling a finesse, secured the game. Well planned - counting first turned a tricky-looking hand into a safe ten.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "13"]
+[OriginalBoard "8"]
+% 08913F843E2C581FA0EBB67AA5DB
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KJT8.Q.9642.K862 94.A982.KJT8.J54 AQ753.T763.A7.A3 62.KJ54.Q53.QT97"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 450"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  4S    Pass
+Pass  Pass
+[Play "W"]
+H4 HQ HA H3
+D3 D2 D8 DA
+S2 ST S4 S3
+C7 C2 C4 CA
+HJ S8 H2 H6
+C9 CK C5 C3
+CT C6 CJ S5
+HK SJ H8 H7
+S6 SK S9 S7
+CQ C8 DT SQ
+H5 D4 H9 HT
+D5 D6 DJ SA
+DQ D9 DK D7
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H4. Fourth-best from your longest, strongest suit is the natural opening salvo against this game.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S and need ten tricks. Count your sure tops first: the trumps are worth five winners drawn, and you hold three more tops outside, giving you eight already. The other two come from ruffing hearts in dummy, where there is only a singleton, so no finesse is needed anywhere. NS hold 23 of the 40 points, leaving the defense just 17, and with both opponents silent there is no hidden length to fear.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \H4, which looks like a fourth-best, hinting at length in hearts on that side, though that read is only an inference. Win or ruff as needed at trick one, and plan to ruff your heart losers in dummy before you draw the last trumps, since dummy is short there. Take your three side tops at the right moments and watch your entries so dummy can ruff when you need it. Do not finesse for any missing honor; the eight tops plus the heart ruffs reach ten on their own.
+
+[ROLE declarer][STAGE post-play]
+By counting first you saw eight tops and two ruffs waiting, so a finesse was never required. Managing the entries to ruff in the short hand brought home all ten. Lovely, controlled play.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "14"]
+[OriginalBoard "19"]
+% 19A234AF5CBFF6A2850BD7788D12
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:K62.763.A82.QT65 J4.J52.K975.A982 AQT873.AQ8.64.73 95.KT94.QJT3.KJ4"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+DQ DA D5 D4
+S5 S2 S4 ST
+S9 SK SJ S3
+H4 H3 H2 HA
+H9 H6 H5 H8
+D3 D8 D9 D6
+HK H7 HJ HQ
+C4 C5 C8 C3
+CK C6 C2 C7
+DT D2 D7 S7
+HT S6 C9 S8
+DJ CT DK SQ
+CJ CQ CA SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \DQ. From your diamond sequence, the queen is the natural top-of-sequence lead against this spade partscore.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S and need eight tricks. Count your tops: your long trump suit is worth six winners drawn, plus two more tops outside, which already makes exactly the eight you need. There is nothing to develop and no finesse to take; every needed trick is sure. NS hold 21 of the 40 points, so the defense has 19, and with neither opponent bidding no one conceals a long suit.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \DQ, which looks like top of a diamond sequence, so West likely holds the jack and ten below it, though that read is only an inference. Win your diamond top at the right time, draw trumps so your six trump winners are safe, then cash your remaining side top. That reaches exactly eight. Resist the urge to finesse for the missing heart honors; the count lands on eight precisely, so just take your sure tricks.
+
+[ROLE declarer][STAGE post-play]
+Six trump winners plus two side tops gave you exactly eight, taken with no risk at all. Counting first kept you clear of any tempting but needless finesse. Nicely played.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "15"]
+[OriginalBoard "12"]
+% 0A80AA29107F5EBEE78CB9DBB402
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QJ2.A62.T986.T74 T9.J94.KQ54.K982 AK8653.KQ7.73.Q5 74.T853.AJ2.AJ63"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+3S    Pass  Pass  Pass
+[Play "W"]
+H3 H6 H9 HQ
+H8 HA H4 H7
+H5 H2 HJ HK
+S4 S2 S9 SK
+S7 SJ ST S3
+D2 D6 DQ D3
+DJ D8 D4 D7
+C3 C7 CK C5
+CA C4 C2 CQ
+CJ CT C8 S5
+C6 SQ D5 S6
+DA D9 DK S8
+HT DT C9 SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H3. Fourth-best from your longest suit is a steady, standard choice against this spade contract.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\S and need nine tricks. Count your tops carefully: your long trump suit is worth six winners drawn, and you have three top heart tricks outside, which comes to exactly the nine you need. There is nothing to develop and no finesse to take; every trick you need is a sure thing. NS hold 21 of the 40 points, so the defense has 19, and with neither opponent bidding, no surprise length lurks.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \H3, which looks like a fourth-best, suggesting roughly four hearts over there, but read that only as a hint. Win the heart cheaply if you can, keeping your three heart winners intact. Draw trumps so your six trump tricks are safe, then cash your heart tops to reach exactly nine. Do not chase any extra by finessing; the count comes out to nine on the nose, and cashing your tops in order is all that is required.
+
+[ROLE declarer][STAGE post-play]
+Six trump winners plus three heart tops gave you exactly nine, and you took them with no risk at all. Counting first kept you off every losing detour. Clean, disciplined declarer play.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "16"]
+[OriginalBoard "30"]
+% 183D958A7580D91E2A6A88FCA8D7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A87.QT5.Q97653.2 J6.K982.A84.Q876 KQT53.763.T.AKJ9 942.AJ4.KJ2.T543"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  4S    Pass
+Pass  Pass
+[Play "W"]
+C3 C2 CQ CK
+S2 SA S6 S3
+S4 S7 SJ SQ
+C4 D3 C6 CJ
+C5 D5 C7 CA
+CT S8 C8 C9
+D2 D6 DA DT
+HA H5 H2 H6
+H4 HT HK H3
+HJ HQ H8 H7
+DJ D7 D4 S5
+S9 D9 D8 ST
+DK DQ H9 SK
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C3. From four small clubs a low card is the normal lead, keeping things simple and giving nothing away.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S and need ten tricks. Count your tops: the \SKQT and length give five trump tricks, and the \CAK add two, for seven on top. NS hold 21 of the 40 points and the defense 19, and with both opponents silent no one holds a long surprise suit. The other three come from the long diamonds in dummy and a club ruff, so the plan is to cash and ruff the winners you can see, not to finesse for extras.
+
+[ROLE declarer][STAGE post-lead]
+West led the \C3, which looks like a low card from length, an inference rather than a fact. Win the \CA, and use dummy's \SA and your top spades to draw trumps while keeping an entry to dummy. Cash your club tops, ruff a club low in dummy if needed, then run the long diamonds, which set up for several tricks once the missing honors are knocked out. Counting trump tricks, the club tops, and the diamond length brings you to ten - there is no reason to risk a heart or trump finesse.
+
+[ROLE declarer][STAGE post-play]
+The ten tricks were all in plain sight once you counted the trumps, the club tops, and the long diamonds. Cashing and developing in order, rather than guessing a finesse, brought the game home safely. Good planning - you took what the hand offered and did not gamble.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "17"]
+[OriginalBoard "15"]
+% 0A9BB42237DB4A84B852810687F3
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QJ4.98543..AJT32 96.AT6.AT97.Q964 AK8753.Q.KJ843.5 T2.KJ72.Q652.K87"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 680"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+H2 H3 HA HQ
+ST SJ S6 S7
+H7 H4 HT S3
+C7 CA C4 C5
+HJ H8 H6 S5
+S2 SQ S9 S8
+HK H5 D7 D3
+C8 CT CQ SK
+D2 C2 D9 D4
+D5 S4 DA D8
+D6 H9 C6 DJ
+CK C3 C9 SA
+DQ CJ DT DK
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H2. Fourth-best from your longest suit is a reasonable, standard lead against this spade game.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S and need ten tricks. Count the sure ones: your long trump suit is worth six winners drawn, plus one top outside, for seven to start. The other three come from ruffing your diamond losers in dummy, which is void there, and from establishing the long club and diamond winners. No finesse is required; the extra tricks come from ruffs and length. NS hold 21 of the 40 points, leaving the defense 19, and with both opponents passing no one hides a surprise.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \H2, which looks like a fourth-best, hinting at heart length on the left, but take that only as a guide. Win as the layout allows, then use dummy's diamond void to ruff your diamond losers before drawing the last trumps, since those ruffs are your main extra tricks. Watch entries so you can ruff in the short hand and still draw trumps and cash dummy's clubs. Do not chase a finesse; six trump winners, a side top, and your ruffs reach ten by plan alone.
+
+[ROLE declarer][STAGE post-play]
+Seven tops grew to ten through the diamond ruffs in the void dummy, exactly the count's promise. Ruffing in the short hand rather than gambling was the key. A really tidy piece of declarer play.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "18"]
+[OriginalBoard "42"]
+% 2B24AA5C6A7AE7056301ECD3F68C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:A86.862.A983.974 QJT7.Q4.764.KJT3 K2.AKJ975.Q52.86 9543.T3.KJT.AQ52"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+Pass  Pass
+[Play "W"]
+S3 S8 ST SK
+H3 H2 H4 HK
+HT H6 HQ HA
+S9 SA S7 S2
+S4 S6 SJ H5
+DT DA D4 D2
+DK D3 D6 DQ
+C2 C7 CT C6
+CQ C4 C3 C8
+DJ D8 D7 D5
+C5 C9 CJ H7
+S5 H8 SQ H9
+CA D9 CK HJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \S3. With no clear sequence, a low spade from your four-card holding is a reasonable, passive start.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\H and need eight tricks. Count the tops: the \HAKJ and six-card length give six trump tricks, and the \SA and \DA add two more, for eight on top - already your contract, with a ninth available besides. NS hold 21 of the 40 points and the defense 19, and with both opponents silent no one is hiding a long suit. There is nothing to develop and nothing to finesse: just count and cash.
+
+[ROLE declarer][STAGE post-lead]
+West led the \S3, which looks like a low card, perhaps from length, though its meaning is only an inference. Win the \SA, draw trumps with your strong hearts, and your six trump tricks plus the two side aces come rolling in for eight. Cash the \DA along the way. Everything you need is on top, so resist any temptation to finesse - simply take the sure tricks in good order.
+
+[ROLE declarer][STAGE post-play]
+With six trump tricks and two side aces, eight was guaranteed before the opening lead. There was nothing to risk and nothing to guess - just count and cash. Beautifully straightforward, and exactly the discipline this hand teaches.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "19"]
+[OriginalBoard "46"]
+% 28AA244CE601C050FF47AEF3691F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KT2.QT96.A3.7642 Q863.82.Q752.AJ5 A5.AKJ53.T984.T3 J974.74.KJ6.KQ98"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  3H    Pass
+4H    Pass  Pass  Pass
+[Play "W"]
+C8 C2 CJ C3
+CQ C4 C5 CT
+D6 DA D2 D4
+C9 C6 CA H3
+H4 H6 H2 HK
+H7 H9 H8 H5
+S4 S2 S6 SA
+SJ SK S3 S5
+CK C7 D5 HJ
+DJ D3 D7 D8
+S7 ST SQ HA
+DK HT DQ D9
+S9 HQ S8 DT
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C8. With \CKQ behind your eight, a club is a natural attacking lead, and the eight is the right card from your holding.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\H and need ten tricks. Count the tops: the \HAKJ and five-card length give five trump tricks, and the \SA, \DA, and \HQ-supported strength give three more side tops, for eight on top. NS hold 21 of the 40 points and the defense 19, and with both opponents silent no one holds a long surprise suit. The other two come from diamond ruffs and length, so the plan is to cash your tops and ruff in dummy - no finesse needed.
+
+[ROLE declarer][STAGE post-lead]
+West led the \C8, which looks like a card from a club holding, though its exact meaning is an inference. Win or duck the club at trick one as the layout suggests, then draw trumps with your solid hearts, which lose to nothing. Cash the \SA and \DA, then use diamond ruffs in dummy and the diamond length for the tricks you counted to reach ten. Your trump tricks and side aces are sure, so there is no call to risk a finesse for an overtrick.
+
+[ROLE declarer][STAGE post-play]
+Eight tricks were on top and the rest came from the diamonds and ruffs, all visible once you counted. Cashing your aces and ruffing in order, rather than gambling a finesse, secured the game. Nicely done - counting first kept the whole hand under control.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "20"]
+[OriginalBoard "9"]
+% 09B79DA7F2D15FA41B02C83462BD
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:764.65.JT63.AQ97 93.KT97.AQ84.J63 AKQ82.Q83.75.KT2 JT5.AJ42.K92.854"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+D2 DT DQ D5
+DK D3 D4 D7
+H2 H5 HK H3
+HJ H6 H7 H8
+D9 D6 D8 S2
+C8 CQ C3 C2
+C4 C7 CJ CK
+C5 C9 C6 CT
+HA S4 H9 HQ
+S5 S6 S9 SQ
+ST S7 S3 SK
+SJ DJ HT SA
+H4 CA DA S8
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \D2. Fourth-best from your longest suit is a sensible, standard lead against this spade partscore.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S and need eight tricks. Count the tops: your strong trump suit is worth five winners drawn, and you hold three more tops outside, which already adds up to the eight you need. There is no reason to develop anything or risk a finesse; cash your sure tricks and you are home. NS hold 21 of the 40 points, so the defense holds 19, and since neither opponent bid, no one is concealing a long suit.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \D2, which looks like a fourth-best, suggesting about four diamonds over there, but take that only as a hint. You have no diamond top, so lose your diamond tricks and look elsewhere. Draw trumps to keep your five trump winners and three side tops safe from ruffs, then cash them carefully. Avoid the tempting club finesse; eight tops already make the partscore with no gamble.
+
+[ROLE declarer][STAGE post-play]
+Counting showed eight tops ready to cash, so you took them and made the contract without ever exposing yourself to a finesse. That steady approach is the whole point of this hand. Nicely played.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "21"]
+[OriginalBoard "32"]
+% 198DB6C6A81C13318572A4BFD051
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:T98.AQ7.98632.94 62.T932.KQ75.KQ6 AKJ754.J5.J.A872 Q3.K864.AT4.JT53"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+3S    Pass  Pass  Pass
+[Play "W"]
+H4 H7 H9 HJ
+HK HA H2 H5
+H6 HQ H3 DJ
+C3 C4 CQ CA
+CT C9 C6 C2
+C5 S8 CK C7
+S3 S9 S2 SK
+CJ ST D5 C8
+D4 D2 DQ S4
+SQ D3 S6 SA
+H8 D6 D7 S5
+DT D8 HT S7
+DA D9 DK SJ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H4. With no sequence to lead from, a fourth-best heart from your longest suit is the standard, safe choice.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\S and need nine tricks. Count your tops: the \SAKJ and six-card length give six trump tricks, and the \CA and \HA add two more, for eight on top. NS hold 20 of the 40 points and the defense 20, but with both opponents silent no one is sitting on a long surprise suit. The ninth comes from dummy's \HAQ behind the lead and the long hearts, so plan to cash your sure winners, not to take a wild risk.
+
+[ROLE declarer][STAGE post-lead]
+West led the \H4, which looks like a fourth-best, suggesting roughly four hearts, though that read is an inference. The lead runs up to dummy's \HAQ, so you can take the ace and keep the queen working for you. Draw trumps with your top spades, cash the \CA, and use the heart strength in dummy for your ninth trick. Six trump tricks plus the two side aces plus a heart bring you to nine - there is no need to chase an overtrick with a club guess.
+
+[ROLE declarer][STAGE post-play]
+You counted eight on top and saw the ninth in the heart holding before playing, so the contract was secure. Taking the sure nine instead of risking a needless finesse is exactly right. Well counted - steady hands win part-scores like this.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "22"]
+[OriginalBoard "43"]
+% 288096054E0C097369B194FEFE88
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:QT9.AQJT92.972.8 J87.K5.JT43.KJ43 AK652.7.A86.Q976 43.8643.KQ5.AT52"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  3S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+H3 HA H5 H7
+H4 H2 HK S2
+S3 S9 S7 SK
+S4 SQ S8 S5
+H6 H9 SJ SA
+CT C8 C3 C6
+DQ D2 D3 DA
+C2 ST C4 C7
+H8 HT D4 D6
+D5 HJ DT C9
+C5 HQ DJ D8
+DK D7 CJ S6
+CA D9 CK CQ
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \H3. From four small hearts a low card is the standard lead, keeping your holding intact.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S and need ten tricks. Count the tops: the \SAK and length give five trump tricks, and the \HA and \DA add two, for seven on top. NS hold 22 of the 40 points and the defense 18, and with both opponents silent no one holds a hidden long suit. The extra tricks come from dummy's long, strong heart suit, so the plan is to cash your tops and run the hearts - no finesse needed.
+
+[ROLE declarer][STAGE post-lead]
+West led the \H3, which looks like a low card from length, an inference rather than a fact. The lead helps you toward dummy's \HAQJT sequence - win in dummy and the long hearts set up for a string of tricks once the king is knocked out. Draw trumps with your \SAK first so the hearts cannot be ruffed, keeping an entry to dummy. Five trumps plus the heart length plus the side aces carry you well past ten, so there is no need to gamble a side finesse.
+
+[ROLE declarer][STAGE post-play]
+The long hearts were the engine, and counting them with your trump tricks showed ten clearly before you played. Drawing trumps to protect those hearts, instead of risking a needless finesse, brought the game home. Excellent planning - you let the long suit do the work.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "23"]
+[OriginalBoard "34"]
+% 2A93B909304EA299985E04F0C787
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QJ5.QT532.T6.A32 T6.A876.KQ87.T96 AK9872.9.532.KQ8 43.KJ4.AJ94.J754"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  3S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+C4 CA C6 C8
+S3 S5 S6 S7
+S4 SJ ST SK
+C5 C2 C9 CQ
+C7 C3 CT CK
+HJ HQ HA H9
+DJ D6 D7 D2
+D4 DT DQ D3
+D9 SQ D8 D5
+H4 H2 H6 S2
+CJ H3 H7 S8
+HK H5 H8 S9
+DA HT DK SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C4. From your four small clubs a low card is the normal lead, keeping your honors back and giving little away.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S and need ten tricks. Count the tops: the \SAK and six-card length give six trump tricks, and the \CAKQ cash for three more, for nine on top. NS hold 21 of the 40 points and the defense 19, and with both opponents silent no one holds a hidden long suit. The tenth comes from dummy's long hearts, so the plan is to cash your nine and develop one heart - no finesse required.
+
+[ROLE declarer][STAGE post-lead]
+West led the \C4, which looks like a low card from length, an inference rather than a fact. Win the club, draw trumps with your top spades, and keep an entry to dummy's hearts. Cash your \CAKQ before they can be ruffed, then set up a long heart in dummy for trick ten. Six trumps, three clubs, and one heart make ten - there is no reason to risk a trump or heart finesse for more.
+
+[ROLE declarer][STAGE post-play]
+Nine tricks were on top and the tenth was in the long hearts, all visible once you counted. Cashing the clubs early and developing the heart, rather than gambling a finesse, brought the game home. Good count and good order - exactly what this hand asked for.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "24"]
+[OriginalBoard "50"]
+% 3A21E22B5EE48AE7705BFBAD0C41
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:AQ3.932.J43.Q865 J762.J6.Q965.KJ9 94.AKQT84.T8.A42 KT85.75.AK72.T73"]
+[Declarer "S"]
+[Contract "3H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+Pass  X     Pass  2S
+3H    Pass  Pass  Pass
+[Play "W"]
+DK D3 D5 D8
+D2 DJ DQ DT
+SK SA S2 S9
+H5 H2 H6 H8
+H7 H3 HJ HQ
+S8 SQ S6 S4
+S5 S3 S7 H4
+C3 C5 C9 CA
+C7 CQ CK C2
+CT C6 CJ C4
+D7 D4 D6 HT
+ST H9 D9 HK
+DA C8 SJ HA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \DK. With \DAK in hand the king is the standard top-of-sequence lead and lets you see dummy before continuing.
+
+[ROLE declarer][STAGE auction-end]
+You are in 3\H and need nine tricks. Count the tops: the solid \HAKQT and six-card length give six trump tricks, and the \SA and \CA add two more side tops, for eight on top. NS hold 22 of the 40 points, leaving the defense 18. The ninth comes from the spade or club length, so the plan is to count, draw trumps, and cash your winners rather than risk a finesse.
+
+[ROLE declarer][STAGE post-lead]
+West led the \DK, which looks like top of a sequence, suggesting the ace alongside, though that is an inference. Let the diamonds sort themselves out, then draw trumps with your solid \HAKQT, which lose to nothing. Cash the \SA and \CA, and develop the ninth from a long spade or club, keeping an entry as you go. Six trump tricks plus the two aces plus one more make nine - there is no need to gamble a side finesse.
+
+[ROLE declarer][STAGE post-play]
+The six solid trumps and two side aces gave you eight at once, and the ninth was a short reach into the long suits. Drawing trumps and cashing in order, instead of risking a finesse, brought the contract home. Nicely counted - the sure road was the winning one.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "25"]
+[OriginalBoard "18"]
+% 1AA2AC7F02F63BB952941BA7C88C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:J95.J32.KQ2.Q954 Q7.765.9853.AJT7 AK8642.AK4.T64.8 T3.QT98.AJ7.K632"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 650"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+3S    Pass  3N    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+C2 C9 CT C8
+DA D2 D3 D4
+D7 DQ D5 D6
+DJ DK D8 DT
+S3 S5 S7 SK
+ST S9 SQ SA
+H8 H2 H5 HK
+H9 H3 H6 HA
+HQ HJ H7 H4
+C3 C4 C7 S2
+C6 SJ CJ S4
+CK C5 CA S6
+HT CQ D9 S8
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \C2. Fourth-best from your longest suit is a safe, standard choice against this spade game.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S and need ten tricks. Count the sure ones: your long trump suit is worth six winners drawn, plus two top hearts outside, for eight to start. The other two come from establishing dummy's diamonds by length, not from any finesse. NS hold 23 of the 40 points, leaving the defense 17, and with both opponents passing throughout no one is hiding a big hand.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \C2, which looks like a fourth-best, hinting at club length on the left, but take that only as a guide. Win or duck as the trick demands, then draw trumps so your six trump winners and two heart tops are protected. Set up the diamond length for the two extra tricks, watching your entries so you can both establish and cash them. Do not finesse for any missing honor; six trumps, two heart tops, and the diamond length come to ten by the count.
+
+[ROLE declarer][STAGE post-play]
+Eight tops plus two established diamonds made ten exactly as the count promised, with no finesse anywhere. Reading the board first and trusting the count was what carried it. A fine, controlled job.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "26"]
+[OriginalBoard "10"]
+% 0B4D2AF026B9E8C7E3976220964C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:KJ4.A82.J863.876 A52.63.Q754.KJ53 T63.KJ9754.A2.AT Q987.QT.KT9.Q942"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  2H    Pass
+Pass  Pass
+[Play "W"]
+S7 SJ SA S3
+D9 D3 D4 DA
+HT HA H3 H4
+HQ H2 H6 HK
+DT DJ DQ D2
+C2 C6 C3 CA
+S8 SK S2 S6
+DK D6 D5 H5
+C4 H8 C5 H7
+S9 D8 D7 ST
+SQ S4 S5 H9
+C9 C7 CJ HJ
+CQ C8 CK CT
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \S7. With no strong sequence to lead, fourth-best from your longest suit is a reasonable, safe start against this heart partscore.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\H and need only eight tricks. Count your sure tops: your long trump suit is worth six winners drawn, and you have two more tops outside, which already makes the eight you need. You need not finesse or develop anything; just cash what you hold. NS have 21 of the 40 points, leaving the defense 19, and with both opponents passing throughout, no one hides a big hand.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \S7, which looks like a fourth-best, hinting at spade length on the left, though the meaning is only an inference. Win where you can and draw trumps so your six trump winners cannot be cut down. Then cash your two side tops and you have reached eight. Even though the hand can take more if you push, there is no need to finesse; counting to eight and cashing is all the partscore asks.
+
+[ROLE declarer][STAGE post-play]
+You counted six trump tricks and two side tops, saw eight, and simply took them. Refusing the needless finesse meant the contract was never in doubt. Well judged.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Play_Top_Tricks"]
+[Site ""]
+[Board "27"]
+[OriginalBoard "17"]
+% 18BDBF9B673BE490841232CC6D4A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T65.742.QT2.KQJT J32.Q86.AK43.652 AKQ87.J93.865.A3 94.AKT5.J97.9874"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+Pass  Pass
+[Play "W"]
+HK H2 H6 H3
+H5 H4 HQ H9
+HA H7 H8 HJ
+D7 D2 DK D5
+D9 DT DA D6
+DJ DQ D3 D8
+S4 S5 S2 SQ
+S9 S6 S3 SK
+C4 CT C2 C3
+C7 CJ C5 CA
+C8 ST SJ SA
+C9 CQ D4 S7
+HT CK C6 S8
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \HK. From your strong heart holding headed by the ace-king, the king is the standard top lead against this spade partscore.
+
+[ROLE declarer][STAGE auction-end]
+You are in 2\S and need eight tricks. Count your tops: your trump suit is worth five winners drawn, and you have three more tops outside in clubs, which already makes the eight you need. There is no suit to develop and no finesse to risk; just cash your sure winners. NS hold 22 of the 40 points, so the defense has 18, and with both opponents silent no one conceals a long suit.
+
+[ROLE declarer][STAGE post-lead]
+West leads the \HK, which looks like the top of a strong heart holding, hinting that West holds the ace as well, though treat that as an inference. You have no heart top to win, so let the hearts go and turn to your own tricks. Draw trumps to keep your five trump winners and your club tops safe, then cash the clubs carefully, minding the entry to dummy. There is no finesse worth taking; five trumps plus three club tops are exactly eight, so simply take them.
+
+[ROLE declarer][STAGE post-play]
+The count showed eight tops sitting ready, so you cashed them and made the partscore without a single gamble. Letting the hearts run and taking your sure tricks was just right. Well judged play.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

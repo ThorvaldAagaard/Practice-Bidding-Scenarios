@@ -1,0 +1,1006 @@
+%bridge-classroom-stable: false
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "1"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J52.87.AQ52.J942 A73.KT65.KJ86.AK KQT9.A432.73.653 864.QJ9.T94.QT87"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-asking lead (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9 — the lower of your top honours, asking partner about the jack. Holding it, partner unblocks (as here) and your \SK-T-9 run once the ace is gone. Lacking it, partner gives count instead — read it to decide whether to continue or shift.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "2"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.A432.73.653 864.QJ9.T94.QT87 J52.87.AQ52.J942 A73.KT65.KJ86.AK"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand unblock (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S4]
+
+Partner led the \SQ against notrump and dummy plays low. You are third hand, holding the \SJ — which card?
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Unblock — play the \SJ. Partner’s q asks about the jack, and dropping it says the suit is safe: partner’s \SK-T-9 run once the ace is out, with nothing of yours left to jam it. (Without it you would give count instead, marking it with declarer.)}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "3"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:85.T74.Q632.KT83 AJ7.KJ86.AJ5.Q72 KQT9.A32.T874.J5 6432.Q95.K9.A964"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-ask, partner gives count (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9, asking partner about the jack. Partner can’t unblock and signals count — high, an even number. Reading it, declarer’s spades are short and the jack has no guard: drive out the top card and your suit runs. Continue.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "4"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.A32.T874.J5 6432.Q95.K9.A964 85.T74.Q632.KT83 AJ7.KJ86.AJ5.Q72"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand give-count (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S2]
+
+Partner led the \SQ against notrump, asking you to unblock the jack — but you don’t hold it. Dummy plays low; which card do you play?
+
+When you have chosen, click NEXT. [choose-card S8] [NEXT]
+
+[show NESW]
+
+Give count — play the \S8, high from your doubleton, showing an even number. You can’t unblock, so the next-best answer tells partner how the suit lies, letting them place declarer’s jack and judge whether to keep leading spades or switch.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "5"]
+[OriginalBoard "5"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J52.9862.J92.984 A73.KJ5.AK5.AQ53 KQT9.AQT.Q86.JT2 864.743.T743.K76"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-asking lead (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9 — the lower of your top honours, asking partner about the jack. Holding it, partner unblocks (as here) and your \SK-T-9 run once the ace is gone. Lacking it, partner gives count instead — read it to decide whether to continue or shift.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "6"]
+[OriginalBoard "6"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.AQT.Q86.JT2 864.743.T743.K76 J52.9862.J92.984 A73.KJ5.AK5.AQ53"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand unblock (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S4]
+
+Partner led the \SQ against notrump and dummy plays low. You are third hand, holding the \SJ — which card?
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Unblock — play the \SJ. Partner’s q asks about the jack, and dropping it says the suit is safe: partner’s \SK-T-9 run once the ace is out, with nothing of yours left to jam it. (Without it you would give count instead, marking it with declarer.)}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "7"]
+[OriginalBoard "7"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:85.9642.T854.T62 AJ7.KJ7.K32.QJ73 KQT9.A3.Q96.AK95 6432.QT85.AJ7.84"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-ask, partner gives count (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9, asking partner about the jack. Partner can’t unblock and signals count — high, an even number. Reading it, declarer’s spades are short and the jack has no guard: drive out the top card and your suit runs. Continue.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "8"]
+[OriginalBoard "8"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.A3.Q96.AK95 6432.QT85.AJ7.84 85.9642.T854.T62 AJ7.KJ7.K32.QJ73"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand give-count (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S2]
+
+Partner led the \SQ against notrump, asking you to unblock the jack — but you don’t hold it. Dummy plays low; which card do you play?
+
+When you have chosen, click NEXT. [choose-card S8] [NEXT]
+
+[show NESW]
+
+Give count — play the \S8, high from your doubleton, showing an even number. You can’t unblock, so the next-best answer tells partner how the suit lies, letting them place declarer’s jack and judge whether to keep leading spades or switch.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "9"]
+[OriginalBoard "9"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J52.84.T763.9832 A73.QJT5.J4.AKQ5 KQT9.AK6.Q85.JT7 864.9732.AK92.64"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-asking lead (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9 — the lower of your top honours, asking partner about the jack. Holding it, partner unblocks (as here) and your \SK-T-9 run once the ace is gone. Lacking it, partner gives count instead — read it to decide whether to continue or shift.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "10"]
+[OriginalBoard "10"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.AK6.Q85.JT7 864.9732.AK92.64 J52.84.T763.9832 A73.QJT5.J4.AKQ5"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand unblock (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S4]
+
+Partner led the \SQ against notrump and dummy plays low. You are third hand, holding the \SJ — which card?
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Unblock — play the \SJ. Partner’s q asks about the jack, and dropping it says the suit is safe: partner’s \SK-T-9 run once the ace is out, with nothing of yours left to jam it. (Without it you would give count instead, marking it with declarer.)}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "11"]
+[OriginalBoard "11"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:85.J732.964.Q986 AJ7.Q8.J7.AKJ754 KQT9.A65.AQ85.T2 6432.KT94.KT32.3"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-ask, partner gives count (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9, asking partner about the jack. Partner can’t unblock and signals count — high, an even number. Reading it, declarer’s spades are short and the jack has no guard: drive out the top card and your suit runs. Continue.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "12"]
+[OriginalBoard "12"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.A65.AQ85.T2 6432.KT94.KT32.3 85.J732.964.Q986 AJ7.Q8.J7.AKJ754"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand give-count (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S2]
+
+Partner led the \SQ against notrump, asking you to unblock the jack — but you don’t hold it. Dummy plays low; which card do you play?
+
+When you have chosen, click NEXT. [choose-card S8] [NEXT]
+
+[show NESW]
+
+Give count — play the \S8, high from your doubleton, showing an even number. You can’t unblock, so the next-best answer tells partner how the suit lies, letting them place declarer’s jack and judge whether to keep leading spades or switch.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "13"]
+[OriginalBoard "13"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J52.J72.Q62.9875 A73.KT96.A43.QT2 KQT9.A8.JT95.A43 864.Q543.K87.KJ6"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-asking lead (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9 — the lower of your top honours, asking partner about the jack. Holding it, partner unblocks (as here) and your \SK-T-9 run once the ace is gone. Lacking it, partner gives count instead — read it to decide whether to continue or shift.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "14"]
+[OriginalBoard "14"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.A8.JT95.A43 864.Q543.K87.KJ6 J52.J72.Q62.9875 A73.KT96.A43.QT2"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand unblock (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S4]
+
+Partner led the \SQ against notrump and dummy plays low. You are third hand, holding the \SJ — which card?
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Unblock — play the \SJ. Partner’s q asks about the jack, and dropping it says the suit is safe: partner’s \SK-T-9 run once the ace is out, with nothing of yours left to jam it. (Without it you would give count instead, marking it with declarer.)}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "15"]
+[OriginalBoard "15"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:85.T93.J983.J964 AJ763.Q764..AT82 KQT9.A5.762.K753 42.KJ82.AKQT54.Q"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-ask, partner gives count (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9, asking partner about the jack. Partner can’t unblock and signals count. Reading it, declarer turns up with length — the jack becomes a length trick and cashing more spades only builds declarer’s suit. Shift, and hope partner’s entry brings the spades back later.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "16"]
+[OriginalBoard "16"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.A5.762.K753 42.KJ82.AKQT54.Q 85.T93.J983.J964 AJ763.Q764..AT82"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand give-count (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S2]
+
+Partner led the \SQ against notrump, asking you to unblock the jack — but you don’t hold it. Dummy plays low; which card do you play?
+
+When you have chosen, click NEXT. [choose-card S8] [NEXT]
+
+[show NESW]
+
+Give count — play the \S8, high from your doubleton, showing an even number. You can’t unblock, so the next-best answer tells partner how the suit lies, letting them place declarer’s jack and judge whether to keep leading spades or switch.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "17"]
+[OriginalBoard "17"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:J52.842.954.J975 A73.T953.862.632 KQT9.J76.AJT.Q84 864.AKQ.KQ73.AKT"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-asking lead (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9 — the lower of your top honours, asking partner about the jack. Holding it, partner unblocks (as here) and your \SK-T-9 run once the ace is gone. Lacking it, partner gives count instead — read it to decide whether to continue or shift.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "18"]
+[OriginalBoard "18"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.J76.AJT.Q84 864.AKQ.KQ73.AKT J52.842.954.J975 A73.T953.862.632"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand unblock (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S4]
+
+Partner led the \SQ against notrump and dummy plays low. You are third hand, holding the \SJ — which card?
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Unblock — play the \SJ. Partner’s q asks about the jack, and dropping it says the suit is safe: partner’s \SK-T-9 run once the ace is out, with nothing of yours left to jam it. (Without it you would give count instead, marking it with declarer.)}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "19"]
+[OriginalBoard "19"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:85.92.9754.QT642 AJ763.Q.KQT2.AK8 KQT9.AJ87.J63.73 42.KT6543.A8.J95"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-ask, partner gives count (situation A)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SKQT9 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SQ] [NEXT]
+
+[show NESW]
+
+Lead the \SQ from \SKQT9, asking partner about the jack. Partner can’t unblock and signals count. Reading it, declarer turns up with length — the jack becomes a length trick and cashing more spades only builds declarer’s suit. Shift, and hope partner’s entry brings the spades back later.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "20"]
+[OriginalBoard "20"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KQT9.AJ87.J63.73 42.KT6543.A8.J95 85.92.9754.QT642 AJ763.Q.KQT2.AK8"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand give-count (situation A)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SQ, E:S2]
+
+Partner led the \SQ against notrump, asking you to unblock the jack — but you don’t hold it. Dummy plays low; which card do you play?
+
+When you have chosen, click NEXT. [choose-card S8] [NEXT]
+
+[show NESW]
+
+Give count — play the \S8, high from your doubleton, showing an even number. You can’t unblock, so the next-best answer tells partner how the suit lies, letting them place declarer’s jack and judge whether to keep leading spades or switch.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "21"]
+[OriginalBoard "21"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:T52.8732.AKQ6.64 A73.AQJT.JT.K953 QJ98.95.852.AT87 K64.K64.9743.QJ2"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-asking lead (situation B)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SQJ98 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Lead the \SJ from \SQJ98 — the lower of your top honours, asking partner about the ten. Holding it, partner unblocks (as here) and your \SQ-9-8 run once the ace and king are gone. Lacking it, partner gives count instead — read it to decide whether to continue or shift.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "22"]
+[OriginalBoard "22"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJ98.95.852.AT87 K64.K64.9743.QJ2 T52.8732.AKQ6.64 A73.AQJT.JT.K953"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand unblock (situation B)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SJ, E:S4]
+
+Partner led the \SJ against notrump and dummy plays low. You are third hand, holding the \ST — which card?
+
+When you have chosen, click NEXT. [choose-card ST] [NEXT]
+
+[show NESW]
+
+Unblock — play the \ST. Partner’s j asks about the ten, and dropping it says the suit is safe: partner’s \SQ-9-8 run once the ace and king are out, with nothing of yours left to jam it. (Without it you would give count instead, marking it with declarer.)}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "23"]
+[OriginalBoard "23"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:76.JT3.87543.QJ2 AKT.K942.QJ9.965 QJ98.65.AK6.AT87 5432.AQ87.T2.K43"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-ask, partner gives count (situation B)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SQJ98 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Lead the \SJ from \SQJ98, asking partner about the ten. Partner can’t unblock and gives count. Read declarer’s length from it: press on when declarer is short and the suit will run, switch when declarer’s length leaves your spades going nowhere.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "24"]
+[OriginalBoard "24"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJ98.65.AK6.AT87 5432.AQ87.T2.K43 76.JT3.87543.QJ2 AKT.K942.QJ9.965"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand give-count (situation B)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SJ, E:S2]
+
+Partner led the \SJ against notrump, asking you to unblock the ten — but you don’t hold it. Dummy plays low; which card do you play?
+
+When you have chosen, click NEXT. [choose-card S7] [NEXT]
+
+[show NESW]
+
+Give count — play the \S7, high from your doubleton, showing an even number. You can’t unblock, so the next-best answer tells partner how the suit lies, letting them place declarer’s ten and judge whether to keep leading spades or switch.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "25"]
+[OriginalBoard "25"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:T52.QJ3.KQ95.J87 A73.T84.JT63.AQT QJ98.9752.A8.432 K64.AK6.742.K965"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-asking lead (situation B)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SQJ98 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Lead the \SJ from \SQJ98 — the lower of your top honours, asking partner about the ten. Holding it, partner unblocks (as here) and your \SQ-9-8 run once the ace and king are gone. Lacking it, partner gives count instead — read it to decide whether to continue or shift.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "26"]
+[OriginalBoard "26"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJ98.9752.A8.432 K64.AK6.742.K965 T52.QJ3.KQ95.J87 A73.T84.JT63.AQT"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand unblock (situation B)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SJ, E:S4]
+
+Partner led the \SJ against notrump and dummy plays low. You are third hand, holding the \ST — which card?
+
+When you have chosen, click NEXT. [choose-card ST] [NEXT]
+
+[show NESW]
+
+Unblock — play the \ST. Partner’s j asks about the ten, and dropping it says the suit is safe: partner’s \SQ-9-8 run once the ace and king are out, with nothing of yours left to jam it. (Without it you would give count instead, marking it with declarer.)}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "27"]
+[OriginalBoard "27"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:76.J97.QT763.965 AKT.A54.KJ92.J83 QJ98.KQ63.A54.T7 5432.T82.8.AKQ42"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-ask, partner gives count (situation B)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SQJ98 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Lead the \SJ from \SQJ98, asking partner about the ten. Partner can’t unblock and gives count. Read declarer’s length from it: press on when declarer is short and the suit will run, switch when declarer’s length leaves your spades going nowhere.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "28"]
+[OriginalBoard "28"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJ98.KQ63.A54.T7 5432.T82.8.AKQ42 76.J97.QT763.965 AKT.A54.KJ92.J83"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "advanced"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand give-count (situation B)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SJ, E:S2]
+
+Partner led the \SJ against notrump, asking you to unblock the ten — but you don’t hold it. Dummy plays low; which card do you play?
+
+When you have chosen, click NEXT. [choose-card S7] [NEXT]
+
+[show NESW]
+
+Give count — play the \S7, high from your doubleton, showing an even number. You can’t unblock, so the next-best answer tells partner how the suit lies, letting them place declarer’s ten and judge whether to keep leading spades or switch.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "29"]
+[OriginalBoard "29"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:T52.K643.863.762 A73.Q87.AQ74.T54 QJ98.A2.J92.AQJ3 K64.JT95.KT5.K98"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/opening_leads"]
+[OriginalSource "constructed: unblock-asking lead (situation B)"]
+[Auction "E"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show S]
+
+The opponents have bid to 3NT and it is your lead. You hold \SQJ98 — choose your card.
+
+When you have chosen, click NEXT. [choose-card SJ] [NEXT]
+
+[show NESW]
+
+Lead the \SJ from \SQJ98 — the lower of your top honours, asking partner about the ten. Holding it, partner unblocks (as here) and your \SQ-9-8 run once the ace and king are gone. Lacking it, partner gives count instead — read it to decide whether to continue or shift.}
+
+[Event "Third_Hand_Unblocks"]
+[Site ""]
+[Board "30"]
+[OriginalBoard "30"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJ98.A2.J92.AQJ3 K64.JT95.KT5.K98 T52.K643.863.762 A73.Q87.AQ74.T54"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3N"]
+[Result "8"]
+[Student "S"]
+[Category "Defense"]
+[Difficulty "intermediate"]
+[SkillPath "defense/third_hand_play"]
+[OriginalSource "constructed: third-hand unblock (situation B)"]
+[Auction "W"]
+1N     Pass   3N     Pass
+Pass   Pass
+{[show SE]
+[showcards N:SJ, E:S4]
+
+Partner led the \SJ against notrump and dummy plays low. You are third hand, holding the \ST — which card?
+
+When you have chosen, click NEXT. [choose-card ST] [NEXT]
+
+[show NESW]
+
+Unblock — play the \ST. Partner’s j asks about the ten, and dropping it says the suit is safe: partner’s \SQ-9-8 run once the ace and king are out, with nothing of yours left to jam it. (Without it you would give count instead, marking it with declarer.)}

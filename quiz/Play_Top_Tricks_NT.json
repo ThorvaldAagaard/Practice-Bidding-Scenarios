@@ -1,0 +1,341 @@
+{
+  "schema": "quiz-lesson/v1",
+  "id": "Play_Top_Tricks_NT",
+  "title": "Top Tricks (NT)",
+  "provenance": {
+    "source": "Practice-Bidding-Scenarios",
+    "pipeline_version": "1.0.0",
+    "generated": "2026-07-30",
+    "source_quiz": "Play_Top_Tricks_NT"
+  },
+  "exercises": [
+    {
+      "id": "Play_Top_Tricks_NT-1",
+      "type": "bidding",
+      "title": "Exercise One — Responding to 1NT",
+      "prompt": "Partner opens 1NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "T76",
+            "hearts": "94",
+            "diamonds": "AK852",
+            "clubs": "J98"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08A9FA72933E475B2015F980DC79",
+            "event": "Play_Top_Tricks_NT",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "543",
+            "hearts": "T4",
+            "diamonds": "AKT97",
+            "clubs": "J85"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0BA5F55EDB8566DB94F1130C2068",
+            "event": "Play_Top_Tricks_NT",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "972",
+            "hearts": "T42",
+            "diamonds": "AK3",
+            "clubs": "9852"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0AADEE6252C137972499D3C8DC0B",
+            "event": "Play_Top_Tricks_NT",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "T7",
+            "hearts": "Q9",
+            "diamonds": "A8765",
+            "clubs": "J865"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "48A9DDCDDF14C1DB287BABA4505C",
+            "event": "Play_Top_Tricks_NT",
+            "board": 75
+          }
+        },
+        {
+          "hand": {
+            "spades": "K84",
+            "hearts": "97",
+            "diamonds": "AJ97",
+            "clubs": "K864"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A13BFA7298C017816B9E27F474",
+            "event": "Play_Top_Tricks_NT",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "QJ3",
+            "hearts": "76",
+            "diamonds": "AT93",
+            "clubs": "AK86"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0BA79F3E11E594BBCACF505024E0",
+            "event": "Play_Top_Tricks_NT",
+            "board": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "Play_Top_Tricks_NT-2",
+      "type": "bidding",
+      "title": "Exercise Two — Opener's Rebid after 2NT",
+      "prompt": "You open 1NT, partner responds 2NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AJ4",
+            "hearts": "A7",
+            "diamonds": "QJ74",
+            "clubs": "A652"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08A9FA72933E475B2015F980DC79",
+            "event": "Play_Top_Tricks_NT",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "A64",
+            "hearts": "A874",
+            "diamonds": "T3",
+            "clubs": "AK76"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0BA5F11B730F33686991D4AA4EF7",
+            "event": "Play_Top_Tricks_NT",
+            "board": 10
+          }
+        },
+        {
+          "hand": {
+            "spades": "A63",
+            "hearts": "K62",
+            "diamonds": "KQ3",
+            "clubs": "A643"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A8D66D47C13D27C4EAD0BD1B563",
+            "event": "Play_Top_Tricks_NT",
+            "board": 15
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT7",
+            "hearts": "A932",
+            "diamonds": "Q4",
+            "clubs": "AKT6"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0BA5F55EDB8566DB94F1130C2068",
+            "event": "Play_Top_Tricks_NT",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT9",
+            "hearts": "KQT6",
+            "diamonds": "97",
+            "clubs": "AK42"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0981EDE644AFBBD41B2710754C71",
+            "event": "Play_Top_Tricks_NT",
+            "board": 6
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT9",
+            "hearts": "AKQ9",
+            "diamonds": "65",
+            "clubs": "A942"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08A96F6CC88FA57C173273C5DE39",
+            "event": "Play_Top_Tricks_NT",
+            "board": 8
+          }
+        }
+      ]
+    }
+  ]
+}

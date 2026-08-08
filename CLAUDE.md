@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Practice Bidding Scenarios (PBS) is a bridge bidding training platform that integrates with Bridge Base Online (BBO). Users author bidding scenarios as `.btn` files in `btn/` (the master source), generate practice hands with constraints using dealer language, and practice bidding with robots or partners. The system transforms scenario definitions through a multi-stage pipeline into bidding sheets and BBO-compatible formats. (The `.pbs` format still exists, but only as a generated, distributable artifact in `pbs-release/` — see the pipeline below.)
 
+**Repository home:** this repo lives at `github.com/bridge-craftwork/Practice-Bidding-Scenarios` (transferred from `ADavidBailey/` in 2026; GitHub redirects the old URLs, so stale references keep working). Consumers — the BBO browser extension and Bridge Classroom — read its files at runtime from `raw.githubusercontent.com/bridge-craftwork/Practice-Bidding-Scenarios/main/`. The local working copy is still `~/Practice-Bidding-Scenarios` — the transfer changed only the GitHub URL, not local paths.
+
 ### Relationship to the Bridge Play Trainer
 
 The Bridge Play Trainer is a **separate repo** (`~/AI-Bridge-Play-Trainer`, github.com/ADavidBailey/AI-Bridge-Play-Trainer) — a web app for practicing the *play* of hands. The split is **content vs. engine** with a one-way runtime dependency:
@@ -14,6 +16,35 @@ The Bridge Play Trainer is a **separate repo** (`~/AI-Bridge-Play-Trainer`, gith
 - **AI-Bridge-Play-Trainer = engine + UI**: FastAPI server, web UI, card-play mechanics, scoring, the coaching-marker parser.
 
 At runtime the trainer **reads** this repo's files via `BRIDGE_DATA_ROOT` (default this directory) → `coaching/*.pbn` + `btn/`. It never writes back, and this repo doesn't depend on the trainer. Rule of thumb: anything about a *particular hand or what it teaches* belongs here; anything about *how the app behaves for every hand* belongs in the trainer. The one shared seam is the coaching markers (`[show X]`, `[BID xxx]`, `\S\H\D\C`) — prose authored here, parser in the trainer's `server.py`. See [Bridge Play Trainer.md](Bridge Play Trainer.md) for the full trainer write-up.
+
+### Coaching: staging vs. served (`coaching-curated/` → `coaching/`)
+
+Coaching prose has two directories with a one-way promotion between them:
+
+- **`coaching-curated/`** is the **working/staging** directory. All prose is authored and edited here, and all gates run here (`py/coach.py validate`, `py/suit_quality.py`).
+- **`coaching/`** is the **served** directory — the files the trainer actually loads. **Never hand-edit `coaching/`**; it is generated.
+
+Promote with `python3 -P py/promote.py` (run from the project root). It is **gated, not a blind copy**: each scenario is copied over its served counterpart only if it passes the full gate suite (`coach.py validate` structure + suit-quality prose, plus the issue-#29 ordering lint). A scenario that fails any gate is **blocked** (left un-promoted) and reported; the script prints what it promoted, what was already current, and what it blocked, and exits non-zero if anything was blocked. Use `--check` for a dry run, or pass scenario names to restrict the set. Edit prose in `coaching-curated/`, re-run the gate, then promote.
+
+## Active work: deal curation (2026-06)
+
+A curation stage is being built between `filter` and coaching authoring.
+Before working on anything touching `bba/`, `bba-curated/`, `coaching/`, or
+`py/curate|annotate|select|auction_diff|spiral_auction|coach.py`, read:
+
+- the most recent `bookmark-curation-*.md` (current status + open items)
+- `pbn-curation-plan.md` (design) and `bba-curated/README.md` (the
+  `{Curate}` block format and the `py/select.py` filter)
+
+Convention/spiral scenarios (e.g. `Spiral_Raises_*`) take a different path and do
+**not** use `curate.py` (Layer A). They curate via `py/spiral_auction.py`
+(`report` → `generate` → `grade` → `substitute`) plus `py/annotate.py`, then coach via
+`py/coach.py` (`packets` → `augment` → `splice`). `spiral_auction.py` is parameterized
+via `SPIRAL_SCN` (scenario) and `SPIRAL_SCHEME` (`spiral` | `weinstein`) env vars, with
+`SCHEME` also honoring a `convention=weinstein` `.btn` directive; it generates both the
+spiral cheapest-step ladder (`Spiral_Raises_Wolpert`) and the
+Weinstein 2NT-ask + natural-fit-find scheme (`Spiral_Raises_Weinstein`). `annotate.py`
+and `select.py` take the scenario as a positional argument.
 
 ## Common Commands
 
@@ -65,7 +96,7 @@ Pipeline operations in order:
 7. `filterStats` - Generate statistics
 8. `biddingSheet` - Generate PDF bidding sheets
 
-The default `*` order continues past `biddingSheet` with `quiz` (generate quiz PBN/PDF) and `package` (copy artifacts into the Bidding Scenarios hierarchy). The `release` and `release-layout` operations are NOT in the default order — invoke them explicitly; `release` promotes `pbs-test/` → `pbs-release/`.
+The default `*` order continues past `biddingSheet` with `quiz` (generate quiz PBN/PDF/JSON) and `package` (copy artifacts into the Bidding Scenarios hierarchy). The `release` and `release-layout` operations are NOT in the default order — invoke them explicitly; `release` promotes `pbs-test/` → `pbs-release/`.
 
 ### Testing
 
@@ -157,6 +188,8 @@ Extension provides:
 
 **Generated (Final Output):**
 - `bidding-sheets/` - PDF bidding sheets for practice
+- `quiz/` - Bidding quizzes in three forms, all from the `quiz` operation: `{Scenario}.pbn` (print layout), `{Scenario}.pdf`, and `{Scenario}.json` — one `quiz-lesson/v1` file per scenario, plus an `index.json` manifest. The JSON is hierarchical (lesson → exercise, which owns the shared prompt → question, a hand + its answer) and is what lesson-studio embeds by value. Its shape is fixed by Contract 3 (`documentation/contracts/quiz-json-schema.md` in the lesson-studio repo), so change it there first. **Generated — never hand-edit.**
+- `manifest/` - Pre-built deal-source menu manifests (`manifest-{release,beta,test}.json`), generated by `py/build_manifest.py` via a GitHub Action so the BBO extension / Bridge Classroom build their menu from ONE fetch instead of scanning ~400 `.btn`/`.pbs` files. **Generated — never hand-edit** (see `manifest/README.md`).
 
 **Source Code:**
 - `build-scripts-mac/` - Python pipeline orchestration and operations
@@ -254,6 +287,7 @@ The system integrates with Bridge Base Online through:
 3. **Button Grid**: Each scenario becomes a clickable button that imports dealer code to BBO
 4. **Deal Source**: Dealer code is automatically set in BBO's "Deal source/Advanced" section
 5. **Practice Tables**: Scripts can automatically create bidding or teaching tables with proper settings
+6. **Deal-source manifest**: `manifest/manifest-{release,beta,test}.json` (built by `py/build_manifest.py` on push) hands consumers the whole menu in one fetch — the button layout plus each scenario's button text, chat, `gib-works`/`bba-works`, and the missing/orphan deltas — replacing the legacy per-`.btn`/`.pbs` scan
 
 Key JavaScript automation functions:
 - `setBiddingTable` - Creates and configures a bidding practice table

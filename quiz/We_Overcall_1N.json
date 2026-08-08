@@ -1,0 +1,4459 @@
+{
+  "schema": "quiz-lesson/v1",
+  "id": "We_Overcall_1N",
+  "title": "We Overcall 1N",
+  "provenance": {
+    "source": "Practice-Bidding-Scenarios",
+    "pipeline_version": "1.0.0",
+    "generated": "2026-07-30",
+    "source_quiz": "We_Overcall_1N"
+  },
+  "exercises": [
+    {
+      "id": "We_Overcall_1N-1",
+      "type": "bidding",
+      "title": "Exercise One — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♣, partner bids 1NT, RHO bids 2♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "K532",
+            "hearts": "Q953",
+            "diamonds": "T85",
+            "clubs": "T6"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2D"
+            ]
+          },
+          "answer": "X",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "57A7274CD05A875B65EE09B10434",
+            "event": "We_Overcall_1N",
+            "board": 256
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q9764",
+            "hearts": "542",
+            "diamonds": "T74",
+            "clubs": "72"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2D"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D794E72FA3F824773A14450B914E",
+            "event": "We_Overcall_1N",
+            "board": 348
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-2",
+      "type": "bidding",
+      "title": "Exercise Two — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♣, partner bids 1NT, RHO bids 2♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "42",
+            "hearts": "9",
+            "diamonds": "KQ987654",
+            "clubs": "T4"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "3D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "076DB86B60F2C9FB9BB9D91A603F",
+            "event": "We_Overcall_1N",
+            "board": 9
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJT95",
+            "hearts": "T4",
+            "diamonds": "75",
+            "clubs": "J762"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "247427993A0310E3BE722C4BA3F6",
+            "event": "We_Overcall_1N",
+            "board": 26
+          }
+        },
+        {
+          "hand": {
+            "spades": "85432",
+            "hearts": "64",
+            "diamonds": "53",
+            "clubs": "AJ82"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E752D4A462F7BF227F40290F3936",
+            "event": "We_Overcall_1N",
+            "board": 175
+          }
+        },
+        {
+          "hand": {
+            "spades": "7632",
+            "hearts": "T9",
+            "diamonds": "QT54",
+            "clubs": "942"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3464557DF08F8298343B6DFE2B12",
+            "event": "We_Overcall_1N",
+            "board": 45
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q832",
+            "hearts": "J",
+            "diamonds": "QT982",
+            "clubs": "975"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "X",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "45F09F2440B75615BADDBE7D3127",
+            "event": "We_Overcall_1N",
+            "board": 252
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-3",
+      "type": "bidding",
+      "title": "Exercise Three — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♣, partner bids 1NT, RHO bids 2♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "865",
+            "hearts": "KQT98",
+            "diamonds": "543",
+            "clubs": "J3"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "X",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "15E040CFBECB430DE82337B5D6AB",
+            "event": "We_Overcall_1N",
+            "board": 17
+          }
+        },
+        {
+          "hand": {
+            "spades": "72",
+            "hearts": "862",
+            "diamonds": "JT9864",
+            "clubs": "87"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "45E3E0FC979765C61E87F865FB0F",
+            "event": "We_Overcall_1N",
+            "board": 61
+          }
+        },
+        {
+          "hand": {
+            "spades": "K743",
+            "hearts": "842",
+            "diamonds": "J9652",
+            "clubs": "9"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "77E01F9178D1FAC325A8DB0C3D4B",
+            "event": "We_Overcall_1N",
+            "board": 280
+          }
+        },
+        {
+          "hand": {
+            "spades": "QT93",
+            "hearts": "3",
+            "diamonds": "KJT43",
+            "clubs": "873"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "94EBAC15DF1C34F2EA93B7BF0ED3",
+            "event": "We_Overcall_1N",
+            "board": 121
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-4",
+      "type": "bidding",
+      "title": "Exercise Four — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♣, partner bids 1NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "T3",
+            "hearts": "KJ985",
+            "diamonds": "J62",
+            "clubs": "976"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "075043A5C81C42C7E69A43D427F9",
+            "event": "We_Overcall_1N",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "A86",
+            "hearts": "T8762",
+            "diamonds": "865",
+            "clubs": "32"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "16247FABAFC8FB03C700716FF6CA",
+            "event": "We_Overcall_1N",
+            "board": 15
+          }
+        },
+        {
+          "hand": {
+            "spades": "982",
+            "hearts": "742",
+            "diamonds": "QT96",
+            "clubs": "KQ8"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "056C9276BB65141E89D5E08B790F",
+            "event": "We_Overcall_1N",
+            "board": 6
+          }
+        },
+        {
+          "hand": {
+            "spades": "A932",
+            "hearts": "AT3",
+            "diamonds": "T8754",
+            "clubs": "5"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "170CB3905D4B21E8F8F7EA590513",
+            "event": "We_Overcall_1N",
+            "board": 18
+          }
+        },
+        {
+          "hand": {
+            "spades": "J9543",
+            "hearts": "J32",
+            "diamonds": "532",
+            "clubs": "52"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "25A8615F0BDB3F99A0F936100486",
+            "event": "We_Overcall_1N",
+            "board": 29
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q3",
+            "hearts": "85",
+            "diamonds": "KQJT73",
+            "clubs": "T43"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "3C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "7654A023F1B2DDC593794BFA2264",
+            "event": "We_Overcall_1N",
+            "board": 98
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-5",
+      "type": "bidding",
+      "title": "Exercise Five — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♣, partner bids 1NT, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "963",
+            "hearts": "T8742",
+            "diamonds": "T3",
+            "clubs": "962"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "04D76590604C1681413AEB873FC2",
+            "event": "We_Overcall_1N",
+            "board": 13
+          }
+        },
+        {
+          "hand": {
+            "spades": "832",
+            "hearts": "T82",
+            "diamonds": "T752",
+            "clubs": "843"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "466CBB595F80BD06F0EFE3DA1600",
+            "event": "We_Overcall_1N",
+            "board": 49
+          }
+        },
+        {
+          "hand": {
+            "spades": "98743",
+            "hearts": "T92",
+            "diamonds": "J985",
+            "clubs": "6"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "C4B855B7FCC90F1F29D6EC20338B",
+            "event": "We_Overcall_1N",
+            "board": 148
+          }
+        },
+        {
+          "hand": {
+            "spades": "752",
+            "hearts": "765",
+            "diamonds": "QT5432",
+            "clubs": "6"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "X"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "74D0649FE99F54B109CA0FBDFC2F",
+            "event": "We_Overcall_1N",
+            "board": 93
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-6",
+      "type": "bidding",
+      "title": "Exercise Six — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♦, partner bids 1NT, RHO bids 2♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "T95",
+            "hearts": "T87",
+            "diamonds": "65",
+            "clubs": "KQT93"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "44B7EA6A94063240C0FF1C7956B9",
+            "event": "We_Overcall_1N",
+            "board": 58
+          }
+        },
+        {
+          "hand": {
+            "spades": "J854",
+            "hearts": "95",
+            "diamonds": "Q43",
+            "clubs": "7652"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A77FA1A81D53CC3DF2E60E38BBBE",
+            "event": "We_Overcall_1N",
+            "board": 129
+          }
+        },
+        {
+          "hand": {
+            "spades": "QT842",
+            "hearts": "9",
+            "diamonds": "653",
+            "clubs": "Q875"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "47E0BF1EAF35C4327E5BBA11EB30",
+            "event": "We_Overcall_1N",
+            "board": 60
+          }
+        },
+        {
+          "hand": {
+            "spades": "A6432",
+            "hearts": "83",
+            "diamonds": "96",
+            "clubs": "9742"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E41450F8976B7E89AA2C71360132",
+            "event": "We_Overcall_1N",
+            "board": 173
+          }
+        },
+        {
+          "hand": {
+            "spades": "A843",
+            "hearts": "J",
+            "diamonds": "J97",
+            "clubs": "98653"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "X",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "053FE05C44E89632E772AA3D3AD3",
+            "event": "We_Overcall_1N",
+            "board": 199
+          }
+        },
+        {
+          "hand": {
+            "spades": "JT98632",
+            "hearts": "7",
+            "diamonds": "84",
+            "clubs": "Q32"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E57C916E201B2135CC3BB3E5123E",
+            "event": "We_Overcall_1N",
+            "board": 369
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-7",
+      "type": "bidding",
+      "title": "Exercise Seven — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♦, partner bids 1NT, RHO bids 2♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "2",
+            "hearts": "QJT9654",
+            "diamonds": "5",
+            "clubs": "QJ64"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4750ADC68E47CCD5F3828BC2652F",
+            "event": "We_Overcall_1N",
+            "board": 57
+          }
+        },
+        {
+          "hand": {
+            "spades": "K942",
+            "hearts": "J98",
+            "diamonds": "9842",
+            "clubs": "T4"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "54D825608BA60F4CD7F8DB2EF13D",
+            "event": "We_Overcall_1N",
+            "board": 72
+          }
+        },
+        {
+          "hand": {
+            "spades": "983",
+            "hearts": "J9876",
+            "diamonds": "T654",
+            "clubs": "5"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D4ABE5FB405C0108C4CFBEDC19E7",
+            "event": "We_Overcall_1N",
+            "board": 161
+          }
+        },
+        {
+          "hand": {
+            "spades": "72",
+            "hearts": "QJ84",
+            "diamonds": "94",
+            "clubs": "Q7654"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "X",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B5D0688E8FD9E7C122727EC6A019",
+            "event": "We_Overcall_1N",
+            "board": 139
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-8",
+      "type": "bidding",
+      "title": "Exercise Eight — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♦, partner bids 1NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AT964",
+            "hearts": "3",
+            "diamonds": "85",
+            "clubs": "KQ743"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "04146ABA952B30FC9630FD2ACADB",
+            "event": "We_Overcall_1N",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ932",
+            "hearts": "973",
+            "diamonds": "92",
+            "clubs": "T98"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0614EB3498E602F68869DD550D33",
+            "event": "We_Overcall_1N",
+            "board": 14
+          }
+        },
+        {
+          "hand": {
+            "spades": "J6",
+            "hearts": "975",
+            "diamonds": "AJ53",
+            "clubs": "QJ74"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "176963AE2A778CB3823DC9DEF87D",
+            "event": "We_Overcall_1N",
+            "board": 24
+          }
+        },
+        {
+          "hand": {
+            "spades": "JT3",
+            "hearts": "AJ2",
+            "diamonds": "8543",
+            "clubs": "865"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3487E55B0035F8DE69729EFC2C8B",
+            "event": "We_Overcall_1N",
+            "board": 40
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q2",
+            "hearts": "JT642",
+            "diamonds": "K32",
+            "clubs": "JT2"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3658A32F4ECA75E467C9D58DB002",
+            "event": "We_Overcall_1N",
+            "board": 46
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT",
+            "hearts": "7532",
+            "diamonds": "964",
+            "clubs": "K976"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "551C92FCD321E679C2E64CB583C0",
+            "event": "We_Overcall_1N",
+            "board": 66
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-9",
+      "type": "bidding",
+      "title": "Exercise Nine — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♥, partner bids 1NT, RHO bids 2♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "98754",
+            "hearts": "T3",
+            "diamonds": "JT32",
+            "clubs": "T7"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2C"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A7A76D91594A341036AF2D11C8D9",
+            "event": "We_Overcall_1N",
+            "board": 126
+          }
+        },
+        {
+          "hand": {
+            "spades": "J8532",
+            "hearts": "JT82",
+            "diamonds": "KT9",
+            "clubs": "2"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2C"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E66BE0DF09816105D4953C9B190E",
+            "event": "We_Overcall_1N",
+            "board": 174
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-10",
+      "type": "bidding",
+      "title": "Exercise Ten — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♥, partner bids 1NT, RHO bids 2♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "JT6542",
+            "hearts": "",
+            "diamonds": "9865",
+            "clubs": "A87"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "27AE915C3525F89A96183833EF3F",
+            "event": "We_Overcall_1N",
+            "board": 30
+          }
+        },
+        {
+          "hand": {
+            "spades": "K9762",
+            "hearts": "",
+            "diamonds": "JT96",
+            "clubs": "K843"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "56642E9B51B021D63B13DCFA6E39",
+            "event": "We_Overcall_1N",
+            "board": 70
+          }
+        },
+        {
+          "hand": {
+            "spades": "76",
+            "hearts": "6",
+            "diamonds": "8732",
+            "clubs": "T87643"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A57CD3AFABFADF96160EF8D2E695",
+            "event": "We_Overcall_1N",
+            "board": 125
+          }
+        },
+        {
+          "hand": {
+            "spades": "KT7632",
+            "hearts": "J3",
+            "diamonds": "52",
+            "clubs": "KQ5"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A6AB16B6C919BCA7151CE25B0D31",
+            "event": "We_Overcall_1N",
+            "board": 127
+          }
+        },
+        {
+          "hand": {
+            "spades": "K654",
+            "hearts": "52",
+            "diamonds": "Q73",
+            "clubs": "T832"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "X",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B6D728A0FD5AED96F03905145286",
+            "event": "We_Overcall_1N",
+            "board": 141
+          }
+        },
+        {
+          "hand": {
+            "spades": "T92",
+            "hearts": "4",
+            "diamonds": "AJT952",
+            "clubs": "T75"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "3D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D49CA955DD2E1DF79274FE4B652D",
+            "event": "We_Overcall_1N",
+            "board": 171
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-11",
+      "type": "bidding",
+      "title": "Exercise Eleven — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♥, partner bids 1NT, RHO bids 2♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "74",
+            "hearts": "T43",
+            "diamonds": "T2",
+            "clubs": "JT8752"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "04E87760F6CE90961AA1D209CB9E",
+            "event": "We_Overcall_1N",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "83",
+            "hearts": "93",
+            "diamonds": "J872",
+            "clubs": "KT876"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "565C6AD8E16E4C22D2DA95F50BB3",
+            "event": "We_Overcall_1N",
+            "board": 65
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q8742",
+            "hearts": "Q3",
+            "diamonds": "743",
+            "clubs": "J96"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "7499A00852D3F6291CFAD71CCC25",
+            "event": "We_Overcall_1N",
+            "board": 97
+          }
+        },
+        {
+          "hand": {
+            "spades": "43",
+            "hearts": "74",
+            "diamonds": "AJ9542",
+            "clubs": "954"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "3D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "87E85391DB6FFAB7C161DA0A24D8",
+            "event": "We_Overcall_1N",
+            "board": 101
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-12",
+      "type": "bidding",
+      "title": "Exercise Twelve — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♥, partner bids 1NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AK84",
+            "hearts": "QJ3",
+            "diamonds": "T76",
+            "clubs": "T92"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "05102C83C9E6522FA5D5D0198D7A",
+            "event": "We_Overcall_1N",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "9863",
+            "hearts": "52",
+            "diamonds": "J72",
+            "clubs": "KQT4"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1468E656DD961929BD14CBB2214D",
+            "event": "We_Overcall_1N",
+            "board": 22
+          }
+        },
+        {
+          "hand": {
+            "spades": "JT987643",
+            "hearts": "62",
+            "diamonds": "Q",
+            "clubs": "J7"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "37BFACD83E1010152605A11D1745",
+            "event": "We_Overcall_1N",
+            "board": 42
+          }
+        },
+        {
+          "hand": {
+            "spades": "KT987",
+            "hearts": "64",
+            "diamonds": "J3",
+            "clubs": "7543"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "756C19D0D41D2D2B124DBA8296D9",
+            "event": "We_Overcall_1N",
+            "board": 94
+          }
+        },
+        {
+          "hand": {
+            "spades": "9",
+            "hearts": "7",
+            "diamonds": "T96543",
+            "clubs": "AKT86"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "3C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "869AEA5758B2219ECFF2D17073A9",
+            "event": "We_Overcall_1N",
+            "board": 109
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q75",
+            "hearts": "Q85",
+            "diamonds": "42",
+            "clubs": "A7654"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "C66A9404DF79ED871E960ED2B9E0",
+            "event": "We_Overcall_1N",
+            "board": 159
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-13",
+      "type": "bidding",
+      "title": "Exercise Thirteen — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♥, partner bids 1NT, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "J652",
+            "hearts": "T987",
+            "diamonds": "74",
+            "clubs": "863"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "755D68ED1CC98D42843213D5D228",
+            "event": "We_Overcall_1N",
+            "board": 99
+          }
+        },
+        {
+          "hand": {
+            "spades": "J8654",
+            "hearts": "75",
+            "diamonds": "T84",
+            "clubs": "T54"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "9694DDE825B2D720873F0E329C59",
+            "event": "We_Overcall_1N",
+            "board": 113
+          }
+        },
+        {
+          "hand": {
+            "spades": "63",
+            "hearts": "87",
+            "diamonds": "JT873",
+            "clubs": "J965"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "X"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A7A15DB76A6BD6C88912DE9429F3",
+            "event": "We_Overcall_1N",
+            "board": 308
+          }
+        },
+        {
+          "hand": {
+            "spades": "7",
+            "hearts": "7",
+            "diamonds": "JT98",
+            "clubs": "9876532"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "X"
+            ]
+          },
+          "answer": "2C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D7E7BC5068D99ABA06DEB2E76656",
+            "event": "We_Overcall_1N",
+            "board": 355
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-14",
+      "type": "bidding",
+      "title": "Exercise Fourteen — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♠, partner bids 1NT, RHO bids 2♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "74",
+            "hearts": "J96",
+            "diamonds": "T753",
+            "clubs": "J743"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "54B7EB70866F40B13E8B6D225EF7",
+            "event": "We_Overcall_1N",
+            "board": 69
+          }
+        },
+        {
+          "hand": {
+            "spades": "9875",
+            "hearts": "",
+            "diamonds": "T987",
+            "clubs": "KT965"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "C4A95670A0FE3E3C2D763653509B",
+            "event": "We_Overcall_1N",
+            "board": 154
+          }
+        },
+        {
+          "hand": {
+            "spades": "94",
+            "hearts": "T97",
+            "diamonds": "9863",
+            "clubs": "T972"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4478E8B0B3C60E7C42AF51306F56",
+            "event": "We_Overcall_1N",
+            "board": 251
+          }
+        },
+        {
+          "hand": {
+            "spades": "T932",
+            "hearts": "8",
+            "diamonds": "T75432",
+            "clubs": "KJ"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "2H"
+            ]
+          },
+          "answer": "3D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "6591BEA15E37384DE57854771524",
+            "event": "We_Overcall_1N",
+            "board": 268
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-15",
+      "type": "bidding",
+      "title": "Exercise Fifteen — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♠, partner bids 1NT, RHO bids 2♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "76",
+            "hearts": "T5",
+            "diamonds": "KJ632",
+            "clubs": "Q963"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "07A0595E7941DEED332A45B0BAEB",
+            "event": "We_Overcall_1N",
+            "board": 12
+          }
+        },
+        {
+          "hand": {
+            "spades": "62",
+            "hearts": "Q98764",
+            "diamonds": "J9",
+            "clubs": "643"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "26B4544BA0E4C14C4906DD8A5E3D",
+            "event": "We_Overcall_1N",
+            "board": 28
+          }
+        },
+        {
+          "hand": {
+            "spades": "T2",
+            "hearts": "AK8",
+            "diamonds": "J7653",
+            "clubs": "943"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "2NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E48845E85F30724BEFBD7CAAFE25",
+            "event": "We_Overcall_1N",
+            "board": 181
+          }
+        },
+        {
+          "hand": {
+            "spades": "62",
+            "hearts": "Q763",
+            "diamonds": "JT4",
+            "clubs": "AT62"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "X",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "446297855CFEE4D38502797C492A",
+            "event": "We_Overcall_1N",
+            "board": 240
+          }
+        },
+        {
+          "hand": {
+            "spades": "92",
+            "hearts": "QT9852",
+            "diamonds": "T",
+            "clubs": "KT82"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "2S"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "54BB668870CE0BCA93F140746402",
+            "event": "We_Overcall_1N",
+            "board": 261
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-16",
+      "type": "bidding",
+      "title": "Exercise Sixteen — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♠, partner bids 1NT, RHO bids 3♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "",
+            "hearts": "KT94",
+            "diamonds": "AT7642",
+            "clubs": "T84"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "3S"
+            ]
+          },
+          "answer": "4D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "576B8C61F3CA4C5678B8E5CAF39B",
+            "event": "We_Overcall_1N",
+            "board": 68
+          }
+        },
+        {
+          "hand": {
+            "spades": "9",
+            "hearts": "AJ8732",
+            "diamonds": "K742",
+            "clubs": "43"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "3S"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "2684709B4BF52549C0FDF4A24A43",
+            "event": "We_Overcall_1N",
+            "board": 218
+          }
+        },
+        {
+          "hand": {
+            "spades": "",
+            "hearts": "9732",
+            "diamonds": "J76",
+            "clubs": "AKJ973"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "3S"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B7627EA3BAE74E544AF9B763C6C0",
+            "event": "We_Overcall_1N",
+            "board": 323
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-17",
+      "type": "bidding",
+      "title": "Exercise Seventeen — Advancing Partner's 1NT",
+      "prompt": "LHO opens 1♠, partner bids 1NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "J83",
+            "hearts": "742",
+            "diamonds": "Q542",
+            "clubs": "964"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "059FED673B5DAA2B4C72954639C4",
+            "event": "We_Overcall_1N",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "J2",
+            "hearts": "Q543",
+            "diamonds": "T872",
+            "clubs": "K94"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0654A68C1BD16AB163DD4D8E4831",
+            "event": "We_Overcall_1N",
+            "board": 5
+          }
+        },
+        {
+          "hand": {
+            "spades": "642",
+            "hearts": "KQ",
+            "diamonds": "K954",
+            "clubs": "8432"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "06BB4348AC7B61EE7F2C7332BE16",
+            "event": "We_Overcall_1N",
+            "board": 11
+          }
+        },
+        {
+          "hand": {
+            "spades": "4",
+            "hearts": "Q94",
+            "diamonds": "KQ7532",
+            "clubs": "762"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "3C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "24576C8CB061C059FE966D0B7DEE",
+            "event": "We_Overcall_1N",
+            "board": 31
+          }
+        },
+        {
+          "hand": {
+            "spades": "J84",
+            "hearts": "T543",
+            "diamonds": "A842",
+            "clubs": "QJ"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "27AB6C7612C5AD3974638D0843D9",
+            "event": "We_Overcall_1N",
+            "board": 33
+          }
+        },
+        {
+          "hand": {
+            "spades": "K5",
+            "hearts": "JT964",
+            "diamonds": "T7",
+            "clubs": "J875"
+          },
+          "seat": "N",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "37BC2750CE894366AA8336437DF5",
+            "event": "We_Overcall_1N",
+            "board": 37
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-18",
+      "type": "bidding",
+      "title": "Exercise Eighteen — Your Rebid in Competition",
+      "prompt": "RHO opens 1♣, you bid 1NT, LHO bids 2♥, partner passes. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "T98",
+            "hearts": "A53",
+            "diamonds": "AK7",
+            "clubs": "AJ87"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3464557DF08F8298343B6DFE2B12",
+            "event": "We_Overcall_1N",
+            "board": 45
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQT",
+            "hearts": "86",
+            "diamonds": "AQ43",
+            "clubs": "A876"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "44B44B95FBBE722C1CEC49373772",
+            "event": "We_Overcall_1N",
+            "board": 48
+          }
+        },
+        {
+          "hand": {
+            "spades": "JT84",
+            "hearts": "A9",
+            "diamonds": "KJ83",
+            "clubs": "AQ3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A5603DF09FB7E68EF3191BB61C45",
+            "event": "We_Overcall_1N",
+            "board": 137
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ4",
+            "hearts": "92",
+            "diamonds": "AKQ92",
+            "clubs": "K98"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "3D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "77D390F3B63A20184B3B758FFD62",
+            "event": "We_Overcall_1N",
+            "board": 92
+          }
+        },
+        {
+          "hand": {
+            "spades": "K53",
+            "hearts": "62",
+            "diamonds": "AKQT4",
+            "clubs": "KT5"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "2H",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "3D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E4D7B4773A341D3FCAEA9CC69163",
+            "event": "We_Overcall_1N",
+            "board": 367
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-19",
+      "type": "bidding",
+      "title": "Exercise Nineteen — Your Rebid in Competition",
+      "prompt": "RHO opens 1♣, you bid 1NT, partner bids 2♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "KQ",
+            "hearts": "985",
+            "diamonds": "KQ92",
+            "clubs": "AQ87"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "170CB3905D4B21E8F8F7EA590513",
+            "event": "We_Overcall_1N",
+            "board": 18
+          }
+        },
+        {
+          "hand": {
+            "spades": "96",
+            "hearts": "KQ3",
+            "diamonds": "AJ94",
+            "clubs": "AKT3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "855C24215F309EF61BB6F7CD687A",
+            "event": "We_Overcall_1N",
+            "board": 100
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT95",
+            "hearts": "K64",
+            "diamonds": "K5",
+            "clubs": "AJ53"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "15806D171899B357CA668C2BF809",
+            "event": "We_Overcall_1N",
+            "board": 20
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ96",
+            "hearts": "AKJ",
+            "diamonds": "84",
+            "clubs": "KJ96"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "472EAC57A806BCF2CB9856C345F7",
+            "event": "We_Overcall_1N",
+            "board": 51
+          }
+        },
+        {
+          "hand": {
+            "spades": "A842",
+            "hearts": "KQ96",
+            "diamonds": "Q9",
+            "clubs": "KJ2"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "249F6CE640DF2582C269D39DCFB8",
+            "event": "We_Overcall_1N",
+            "board": 226
+          }
+        },
+        {
+          "hand": {
+            "spades": "32",
+            "hearts": "AQJ6",
+            "diamonds": "JT8",
+            "clubs": "AKT8"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B72C5C266170FB007B2FF7C69A85",
+            "event": "We_Overcall_1N",
+            "board": 326
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-20",
+      "type": "bidding",
+      "title": "Exercise Twenty — Your Rebid in Competition",
+      "prompt": "RHO opens 1♣, you bid 1NT, partner bids 2♣, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "K64",
+            "hearts": "AQJ5",
+            "diamonds": "K5",
+            "clubs": "KT53"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "X"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "676F802A25C879FFC7B72097541A",
+            "event": "We_Overcall_1N",
+            "board": 82
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q6",
+            "hearts": "AJ84",
+            "diamonds": "QT73",
+            "clubs": "AQ4"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "X"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B6640F882FCA026D3B97DD2C7BD1",
+            "event": "We_Overcall_1N",
+            "board": 138
+          }
+        },
+        {
+          "hand": {
+            "spades": "K432",
+            "hearts": "A64",
+            "diamonds": "A93",
+            "clubs": "AT3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "X"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "256C973315C41FC9F223FBA59C85",
+            "event": "We_Overcall_1N",
+            "board": 221
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q943",
+            "hearts": "KQ",
+            "diamonds": "QJ42",
+            "clubs": "AQ7"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "X"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E4502FA407FFB1135CFD4D978237",
+            "event": "We_Overcall_1N",
+            "board": 357
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ8",
+            "hearts": "A62",
+            "diamonds": "AJ54",
+            "clubs": "K96"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2C",
+              "X"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D66B9072B91534833FEC7A3943E3",
+            "event": "We_Overcall_1N",
+            "board": 356
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-21",
+      "type": "bidding",
+      "title": "Exercise 21 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♣, you bid 1NT, partner bids 2♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "Q6",
+            "hearts": "Q73",
+            "diamonds": "AK95",
+            "clubs": "AJT4"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "075043A5C81C42C7E69A43D427F9",
+            "event": "We_Overcall_1N",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "QJ",
+            "hearts": "AQJ4",
+            "diamonds": "QT92",
+            "clubs": "AT6"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "16247FABAFC8FB03C700716FF6CA",
+            "event": "We_Overcall_1N",
+            "board": 15
+          }
+        },
+        {
+          "hand": {
+            "spades": "T965",
+            "hearts": "AK6",
+            "diamonds": "Q4",
+            "clubs": "AQ85"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "26E463C84F82B214D5AE8CDA7F4D",
+            "event": "We_Overcall_1N",
+            "board": 227
+          }
+        },
+        {
+          "hand": {
+            "spades": "K64",
+            "hearts": "K952",
+            "diamonds": "K4",
+            "clubs": "AQ64"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1540AE00D3F5EB19F7842A8CC36B",
+            "event": "We_Overcall_1N",
+            "board": 25
+          }
+        },
+        {
+          "hand": {
+            "spades": "K5",
+            "hearts": "AT43",
+            "diamonds": "K83",
+            "clubs": "KQ62"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "666F984077EE0FFB05C0862D2BF4",
+            "event": "We_Overcall_1N",
+            "board": 78
+          }
+        },
+        {
+          "hand": {
+            "spades": "K2",
+            "hearts": "Q985",
+            "diamonds": "AT85",
+            "clubs": "AQ7"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "F54C8B64433DE52F40DB2EC5FAB3",
+            "event": "We_Overcall_1N",
+            "board": 194
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-22",
+      "type": "bidding",
+      "title": "Exercise 22 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♣, you bid 1NT, partner bids 2♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "A872",
+            "hearts": "AK7",
+            "diamonds": "Q9",
+            "clubs": "A743"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "25A8615F0BDB3F99A0F936100486",
+            "event": "We_Overcall_1N",
+            "board": 29
+          }
+        },
+        {
+          "hand": {
+            "spades": "A875",
+            "hearts": "AK43",
+            "diamonds": "Q7",
+            "clubs": "K97"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "07AF68330E7B74BEB0FE9B252B35",
+            "event": "We_Overcall_1N",
+            "board": 198
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q6",
+            "hearts": "K952",
+            "diamonds": "AJ5",
+            "clubs": "AQ76"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "44146F881552E33310BCE603CA61",
+            "event": "We_Overcall_1N",
+            "board": 55
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ6",
+            "hearts": "Q7",
+            "diamonds": "KQ42",
+            "clubs": "KT96"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "45439CAD3B704835E38803FE0A3F",
+            "event": "We_Overcall_1N",
+            "board": 56
+          }
+        },
+        {
+          "hand": {
+            "spades": "T72",
+            "hearts": "T76",
+            "diamonds": "AKJ5",
+            "clubs": "AK3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1C",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D61848377BA61201A6ED5BFD3CB3",
+            "event": "We_Overcall_1N",
+            "board": 169
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-23",
+      "type": "bidding",
+      "title": "Exercise 23 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you bid 1NT, LHO bids 2♥, partner bids 2♠, RHO bids 3♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "KJ5",
+            "hearts": "AJ3",
+            "diamonds": "A842",
+            "clubs": "A92"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2H",
+              "2S",
+              "3H"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "47E0BF1EAF35C4327E5BBA11EB30",
+            "event": "We_Overcall_1N",
+            "board": 60
+          }
+        },
+        {
+          "hand": {
+            "spades": "J87",
+            "hearts": "T76",
+            "diamonds": "AJ4",
+            "clubs": "AKQ6"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2H",
+              "2S",
+              "3H"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E41450F8976B7E89AA2C71360132",
+            "event": "We_Overcall_1N",
+            "board": 173
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-24",
+      "type": "bidding",
+      "title": "Exercise 24 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you bid 1NT, LHO bids 2♠, partner passes. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "JT",
+            "hearts": "KQT4",
+            "diamonds": "KT7",
+            "clubs": "AQ86"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2S",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "54D825608BA60F4CD7F8DB2EF13D",
+            "event": "We_Overcall_1N",
+            "board": 72
+          }
+        },
+        {
+          "hand": {
+            "spades": "J82",
+            "hearts": "T3",
+            "diamonds": "AKJ2",
+            "clubs": "AK72"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2S",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D474D47996EA1B89C8CE7209ED84",
+            "event": "We_Overcall_1N",
+            "board": 168
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q97",
+            "hearts": "A982",
+            "diamonds": "KT8",
+            "clubs": "AK3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2S",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1768F09F5D12A6228DFDC5DBC82E",
+            "event": "We_Overcall_1N",
+            "board": 210
+          }
+        },
+        {
+          "hand": {
+            "spades": "A5",
+            "hearts": "AK2",
+            "diamonds": "K72",
+            "clubs": "JT874"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "2S",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "3C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D4ABE5FB405C0108C4CFBEDC19E7",
+            "event": "We_Overcall_1N",
+            "board": 161
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-25",
+      "type": "bidding",
+      "title": "Exercise 25 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you bid 1NT, partner bids 2♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "K43",
+            "hearts": "T96",
+            "diamonds": "AQ5",
+            "clubs": "AQ52"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "551C92FCD321E679C2E64CB583C0",
+            "event": "We_Overcall_1N",
+            "board": 66
+          }
+        },
+        {
+          "hand": {
+            "spades": "732",
+            "hearts": "A82",
+            "diamonds": "KQJ3",
+            "clubs": "AQT"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "65603F0C7EF812E18A45713B8FA2",
+            "event": "We_Overcall_1N",
+            "board": 76
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q543",
+            "hearts": "KQT",
+            "diamonds": "A843",
+            "clubs": "AT"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "64146EAB3BECF9763D1982B78552",
+            "event": "We_Overcall_1N",
+            "board": 85
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK63",
+            "hearts": "K5",
+            "diamonds": "QJ87",
+            "clubs": "Q65"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B48BAFD436FD1A057590E8438A33",
+            "event": "We_Overcall_1N",
+            "board": 145
+          }
+        },
+        {
+          "hand": {
+            "spades": "AJ3",
+            "hearts": "AQ82",
+            "diamonds": "K65",
+            "clubs": "Q53"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "35A27E608B023529D57D1CD98067",
+            "event": "We_Overcall_1N",
+            "board": 231
+          }
+        },
+        {
+          "hand": {
+            "spades": "86",
+            "hearts": "AKQ2",
+            "diamonds": "K84",
+            "clubs": "QJ85"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "85226FE004354BBCD381C84DF523",
+            "event": "We_Overcall_1N",
+            "board": 290
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-26",
+      "type": "bidding",
+      "title": "Exercise 26 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you bid 1NT, partner bids 2♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "K43",
+            "hearts": "KQ87",
+            "diamonds": "AT6",
+            "clubs": "A83"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3658A32F4ECA75E467C9D58DB002",
+            "event": "We_Overcall_1N",
+            "board": 46
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJT",
+            "hearts": "AQ2",
+            "diamonds": "KQ3",
+            "clubs": "J876"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "66629BEB848D3D5CD404C2CE1965",
+            "event": "We_Overcall_1N",
+            "board": 86
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ5",
+            "hearts": "KQT5",
+            "diamonds": "KJ4",
+            "clubs": "J76"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "778FE3AD106D467FD404A6F3CA06",
+            "event": "We_Overcall_1N",
+            "board": 90
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q432",
+            "hearts": "AK62",
+            "diamonds": "K32",
+            "clubs": "K4"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D76B608DF5CE5ACBCFE5158C92A2",
+            "event": "We_Overcall_1N",
+            "board": 167
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK9",
+            "hearts": "KQJ9",
+            "diamonds": "QJT6",
+            "clubs": "93"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0697A2E969CAAC4D1D09CE47C456",
+            "event": "We_Overcall_1N",
+            "board": 202
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-27",
+      "type": "bidding",
+      "title": "Exercise 27 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you bid 1NT, partner bids 2♦, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "KQ83",
+            "hearts": "75",
+            "diamonds": "K32",
+            "clubs": "AK85"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2D",
+              "X"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A4D88499CB1E4E886901E04196F5",
+            "event": "We_Overcall_1N",
+            "board": 135
+          }
+        },
+        {
+          "hand": {
+            "spades": "AKJ4",
+            "hearts": "J74",
+            "diamonds": "K82",
+            "clubs": "K83"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2D",
+              "X"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B6879872AEF23EC867464DA7C4F9",
+            "event": "We_Overcall_1N",
+            "board": 328
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-28",
+      "type": "bidding",
+      "title": "Exercise 28 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you bid 1NT, partner bids 2♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "QJ7",
+            "hearts": "KT4",
+            "diamonds": "AJ7",
+            "clubs": "A986"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "04146ABA952B30FC9630FD2ACADB",
+            "event": "We_Overcall_1N",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "J7",
+            "hearts": "KT6",
+            "diamonds": "KJ76",
+            "clubs": "AQJ7"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0614EB3498E602F68869DD550D33",
+            "event": "We_Overcall_1N",
+            "board": 14
+          }
+        },
+        {
+          "hand": {
+            "spades": "K62",
+            "hearts": "AKQ4",
+            "diamonds": "QJT",
+            "clubs": "654"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "2522A3EF1E0FC33901B0D0283ABB",
+            "event": "We_Overcall_1N",
+            "board": 32
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ72",
+            "hearts": "K65",
+            "diamonds": "AK54",
+            "clubs": "T9"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4713A3BD0B383CD98DEDE333DA8D",
+            "event": "We_Overcall_1N",
+            "board": 243
+          }
+        },
+        {
+          "hand": {
+            "spades": "QJ64",
+            "hearts": "KT",
+            "diamonds": "AJ94",
+            "clubs": "AT6"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "P",
+              "2H",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B4346B8AB7E006CF0998D9873133",
+            "event": "We_Overcall_1N",
+            "board": 327
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-29",
+      "type": "bidding",
+      "title": "Exercise 29 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♦, you bid 1NT, LHO doubles, partner passes. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "A954",
+            "hearts": "963",
+            "diamonds": "KJ6",
+            "clubs": "AK9"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "X",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "17BC50D9F11DACD93B238ABEEE07",
+            "event": "We_Overcall_1N",
+            "board": 21
+          }
+        },
+        {
+          "hand": {
+            "spades": "K84",
+            "hearts": "AJ",
+            "diamonds": "A874",
+            "clubs": "A832"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "X",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D4649933E1CD1A84767B028718C0",
+            "event": "We_Overcall_1N",
+            "board": 165
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ97",
+            "hearts": "AJ7",
+            "diamonds": "AQT",
+            "clubs": "986"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "X",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "876197D1A7329C0CA6480D76453E",
+            "event": "We_Overcall_1N",
+            "board": 292
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT98",
+            "hearts": "K4",
+            "diamonds": "A42",
+            "clubs": "AJ94"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1D",
+              "1NT",
+              "X",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "XX",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1494E1DB188D90BACF39CE644146",
+            "event": "We_Overcall_1N",
+            "board": 211
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-30",
+      "type": "bidding",
+      "title": "Exercise 30 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♥, you bid 1NT, LHO bids 2♥, partner bids 2♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AK87",
+            "hearts": "AT3",
+            "diamonds": "K4",
+            "clubs": "Q965"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H",
+              "2S",
+              "P"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "27AE915C3525F89A96183833EF3F",
+            "event": "We_Overcall_1N",
+            "board": 30
+          }
+        },
+        {
+          "hand": {
+            "spades": "QT",
+            "hearts": "AK93",
+            "diamonds": "Q742",
+            "clubs": "AT5"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H",
+              "2S",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "56642E9B51B021D63B13DCFA6E39",
+            "event": "We_Overcall_1N",
+            "board": 70
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q9",
+            "hearts": "AJ7",
+            "diamonds": "AKJ4",
+            "clubs": "T986"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H",
+              "2S",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "06EB59922B04B43CE71CD3CA1D31",
+            "event": "We_Overcall_1N",
+            "board": 197
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ82",
+            "hearts": "KQ4",
+            "diamonds": "87",
+            "clubs": "A962"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2H",
+              "2S",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "7598E1A11333149E3E3819E107B4",
+            "event": "We_Overcall_1N",
+            "board": 278
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-31",
+      "type": "bidding",
+      "title": "Exercise 31 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♥, you bid 1NT, LHO bids 2♠, partner passes. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "9862",
+            "hearts": "AQ6",
+            "diamonds": "KJ8",
+            "clubs": "AQ9"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2S",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "04E87760F6CE90961AA1D209CB9E",
+            "event": "We_Overcall_1N",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "763",
+            "hearts": "A73",
+            "diamonds": "AQ84",
+            "clubs": "KQ9"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2S",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "97633CD0D5C60C11AE89DAD3ABC7",
+            "event": "We_Overcall_1N",
+            "board": 115
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK",
+            "hearts": "K82",
+            "diamonds": "952",
+            "clubs": "KQ743"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2S",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "3C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "7499A00852D3F6291CFAD71CCC25",
+            "event": "We_Overcall_1N",
+            "board": 97
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ7",
+            "hearts": "AKT",
+            "diamonds": "65",
+            "clubs": "QJ952"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "2S",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "3C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "24A3EA98D8EDC0D99307041A3DCC",
+            "event": "We_Overcall_1N",
+            "board": 223
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-32",
+      "type": "bidding",
+      "title": "Exercise 32 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♥, you bid 1NT, partner bids 2♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "Q73",
+            "hearts": "KT87",
+            "diamonds": "K83",
+            "clubs": "AK5"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "05102C83C9E6522FA5D5D0198D7A",
+            "event": "We_Overcall_1N",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "KT9",
+            "hearts": "KT85",
+            "diamonds": "AQ92",
+            "clubs": "A8"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B618A65A33A68AECD1D16E1D7739",
+            "event": "We_Overcall_1N",
+            "board": 146
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT8",
+            "hearts": "AJ7",
+            "diamonds": "A9",
+            "clubs": "KT975"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "F7A25C3A6FB410BB2CD9F8DAD615",
+            "event": "We_Overcall_1N",
+            "board": 187
+          }
+        },
+        {
+          "hand": {
+            "spades": "A763",
+            "hearts": "QJ5",
+            "diamonds": "KQJ2",
+            "clubs": "Q3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "46851B286B510E7E8D95ED139CCA",
+            "event": "We_Overcall_1N",
+            "board": 59
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-33",
+      "type": "bidding",
+      "title": "Exercise 33 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♥, you bid 1NT, partner bids 2♥, RHO doubles. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "543",
+            "hearts": "A98",
+            "diamonds": "AT96",
+            "clubs": "AQJ"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P",
+              "2H",
+              "X"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "756C19D0D41D2D2B124DBA8296D9",
+            "event": "We_Overcall_1N",
+            "board": 94
+          }
+        },
+        {
+          "hand": {
+            "spades": "97",
+            "hearts": "KJ63",
+            "diamonds": "AK84",
+            "clubs": "A74"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "P",
+              "2H",
+              "X"
+            ]
+          },
+          "answer": "3D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "875022DD67D6961384EE3510E90B",
+            "event": "We_Overcall_1N",
+            "board": 105
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-34",
+      "type": "bidding",
+      "title": "Exercise 34 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♥, you bid 1NT, LHO doubles, partner passes. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AT73",
+            "hearts": "QJ8",
+            "diamonds": "Q2",
+            "clubs": "AQ83"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "X",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "XX",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "9694DDE825B2D720873F0E329C59",
+            "event": "We_Overcall_1N",
+            "board": 113
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ74",
+            "hearts": "AJT3",
+            "diamonds": "A62",
+            "clubs": "84"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1H",
+              "1NT",
+              "X",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A7A15DB76A6BD6C88912DE9429F3",
+            "event": "We_Overcall_1N",
+            "board": 308
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-35",
+      "type": "bidding",
+      "title": "Exercise 35 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♠, you bid 1NT, partner bids 2♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "A95",
+            "hearts": "AK96",
+            "diamonds": "J63",
+            "clubs": "K74"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "27AB6C7612C5AD3974638D0843D9",
+            "event": "We_Overcall_1N",
+            "board": 33
+          }
+        },
+        {
+          "hand": {
+            "spades": "AJ9",
+            "hearts": "K542",
+            "diamonds": "T32",
+            "clubs": "AK2"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "259464528A4D8509513AE165DFEC",
+            "event": "We_Overcall_1N",
+            "board": 217
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK4",
+            "hearts": "AT5",
+            "diamonds": "KJ952",
+            "clubs": "T7"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "35A79E520F68FD494002EEB577FD",
+            "event": "We_Overcall_1N",
+            "board": 47
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ4",
+            "hearts": "A4",
+            "diamonds": "KQ92",
+            "clubs": "9872"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "P",
+              "2C",
+              "P"
+            ]
+          },
+          "answer": "2D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "75A65FBF7BC93CC0083246A15A7C",
+            "event": "We_Overcall_1N",
+            "board": 89
+          }
+        }
+      ]
+    },
+    {
+      "id": "We_Overcall_1N-36",
+      "type": "bidding",
+      "title": "Exercise 36 — Your Rebid in Competition",
+      "prompt": "RHO opens 1♠, you bid 1NT, LHO doubles, partner passes. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AJ2",
+            "hearts": "K943",
+            "diamonds": "K2",
+            "clubs": "A853"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "X",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "XX",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "46B46BC5BE1D654CD14370E2208B",
+            "event": "We_Overcall_1N",
+            "board": 244
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQT3",
+            "hearts": "Q98",
+            "diamonds": "QT97",
+            "clubs": "AQ"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "1S",
+              "1NT",
+              "X",
+              "P",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "D77CB7A05A8122EE714EDD568939",
+            "event": "We_Overcall_1N",
+            "board": 352
+          }
+        }
+      ]
+    }
+  ]
+}

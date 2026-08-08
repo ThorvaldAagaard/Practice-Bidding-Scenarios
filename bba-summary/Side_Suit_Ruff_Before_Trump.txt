@@ -6,7 +6,7 @@ brd# dlr contract score  par     north            east             south        
 1     S  4S-S       420          QJ97.2.Q974.KQ73 T43.AKT943.6.J94 AK652.Q65.AJ52.T 8.J87.KT83.A8652 | 1S-P-4S
 2     S  4S-S       680          QT54.T.743.AK843 92.AKQ74.82.9752 AKJ63.J82.AQT6.6 87.9653.KJ95.QJT | 1S-P-4S
 3     S  4S-S       480          Q62.4.QT742.AT76 75.AK95.J86.Q853 AKJT9.JT8.AK95.9 843.Q7632.3.KJ42 | 1S-P-2S-P-4S
-4     S  2N-S       150          Q72.9.KT9752.A64 T983.AK6.64.Q873 AKJ54.QJT.AJ.T95 6.875432.Q83.KJ2 | 1N-P-2N
+4     S  4S-S       650          Q72.9.KT9752.A64 T983.AK6.64.Q873 AKJ54.QJT.AJ.T95 6.875432.Q83.KJ2 | 1N-P-3D-P-3S-P-4S
 5     S  4S-S       650          Q632.J.J95.KQ732 J974.AK98.2.JT54 AKT85.7653.AK4.6 .QT42.QT8763.A98 | 1S-P-4S
 6     S  3HX-E     -730          Q43.J.JT94.AT943 T95.AKT8654.3.K8 AK762.932.AQ.J76 J8.Q7.K87652.Q52 | 1S-P-2S-3H-X
 7     S  4S-S       680          QT75.8.QT8642.AJ J94.AKJT762.5.94 AK632.954.AK.852 8.Q3.J973.KQT763 | 1S-P-4S
@@ -58,7 +58,7 @@ brd# dlr contract score  par     north            east             south        
 53    S  4S-S       620          QJ42.5.KQJ82.973 T85.AK73.9765.85 AK973.J64.A.QJT4 6.QT982.T43.AK62 | 1S-P-4S
 54    S  4S-S       480          QJ7.2.J965.AQ865 6432.AKQ53.T7.J9 AKT98.JT4.AQ84.T 5.9876.K32.K7432 | 1S-P-3S-P-4S
 55    S  4S-S       650          Q72.8.942.AKT943 953.AKJ95.86.J72 AK864.T642.AK3.Q JT.Q73.QJT75.865 | 1S-P-3S-P-4S
-56    S  4S-S       420          QJ95.Q.KT984.JT9 83.AKJ872.763.76 AKT64.943.AJ2.K3 72.T65.Q5.AQ8542 | 1N-2C-X=1=-P-2S-P-3S-P-4S | Stayman
+56    S  3S-S       200          QJ95.Q.KT984.JT9 83.AKJ872.763.76 AKT64.943.AJ2.K3 72.T65.Q5.AQ8542 | 1N-P-2C=1=-P-2S-P-3S | Stayman
 57    S  4S-S       480          Q87.J.KQ6.QJT943 53.AKT964.94.K75 AKT92.Q75.A875.A J64.832.JT32.862 | 1S-P-3S-P-4S
 58    S  4S-S       680          Q43.2.KT763.KQ53 T652.AKQJ9.2.T62 AKJ87.T653.A5.A4 9.874.QJ984.J987 | 1S-P-3S-P-4S
 59    S  3S-S       200          QJT5.3.KJ863.QT9 2.AKJT.974.J8752 AK876.852.AQ.K63 943.Q9764.T52.A4 | 1N-P-2C=1=-P-2S-P-3S | Stayman
@@ -81,7 +81,7 @@ brd# dlr contract score  par     north            east             south        
 76    S  4S-S       680          Q875.3.8754.AQ87 63.AK5.T932.K654 AKT42.QT87.AQJ.J J9.J9642.K6.T932 | 1S-P-4S
 77    S  4S-S       680          QT84.6.Q964.AQ53 3.AK54.T753.8762 AK962.Q9732.A2.K J75.JT8.KJ8.JT94 | 1S-P-4S
 78    S  4S-S       450          QT76.3.Q542.AQ97 84.AKT82.J3.J542 AKJ95.J64.A87.KT 32.Q975.KT96.863 | 1N-P-2C=1=-P-2S-P-4S | Stayman
-79    S  6S-S      -100          QJ32.9.QT63.AJT2 T65.AK73.K754.74 AK974.QJ5.AJ982. 8.T8642..KQ98653 | 1S-3C-4C=1=-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6S | Limit raise or better in !S | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king
+79    S  6S-S      -100          QJ32.9.QT63.AJT2 T65.AK73.K754.74 AK974.QJ5.AJ982. 8.T8642..KQ98653 | 1S-3C-4C=1=-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6S=5= | Limit raise or better in !S | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king | 0 or 1 trump keys
 80    S  4S-S       480          QT43.6.KQJ42.T63 752.AK85.65.Q542 AKJ96.J973.AT9.A 8.QT42.873.KJ987 | 1S-P-4S
 81    S  4S-S       450          QT76.T.QJT9.K876 4.AK853.76542.J3 AKJ32.Q42.A.Q952 985.J976.K83.AT4 | 1S-P-2S-P-3S-P-4S
 82    S  3N-S      -100          Q98.2.QJ972.AJT5 73.AK954.654.Q74 AKJT4.J63.AK3.86 652.QT87.T8.K932 | 1N-P-3N
@@ -99,14 +99,14 @@ brd# dlr contract score  par     north            east             south        
 94    S  4S-S       480          QJT.8.JT7654.AJ3 54.AKT92.32.T984 AK732.J754.AK9.6 986.Q63.Q8.KQ752 | 1S-P-3S-P-4S
 95    S  4S-S       680          Q96.4.JT.KQJ8542 87.AKT5.8642.T93 AK542.Q986.A97.A JT3.J732.KQ53.76 | 1S-P-3S-P-4S
 96    S  4S-S       480          QT4.7.K.KQJT9754 .AKQJ62.7642.832 AK853.T43.AJ93.A J9762.985.QT85.6 | 1S-P-2C=1=-2H-3D-3H-4S | 10+ HCP if fit or 6+; 12+ F
-97    S  3N-S       400          Q84.8.KJ65.KQT54 95.AKJT9.T94.J83 AKJ62.Q43.AQ.972 T73.7652.8732.A6 | 1N-P-3N
-98    S  3N-S       600          QT6.T.J873.KQJT3 9842.AK2.Q6.8762 AKJ75.Q43.AKT.95 3.J98765.9542.A4 | 1N-P-3N
+97    S  3N-S       430          Q84.8.KJ65.KQT54 95.AKJT9.T94.J83 AKJ62.Q43.AQ.972 T73.7652.8732.A6 | 1N-P-3N
+98    S  3N-S       630          QT6.T.J873.KQJT3 9842.AK2.Q6.8762 AKJ75.Q43.AKT.95 3.J98765.9542.A4 | 1N-P-3N
 99    S  4S-S       480          Q842.2.T5.AKT432 753.AKT43.974.97 AKJT6.J875.AQJ6. 9.Q96.K832.QJ865 | 1S-P-4S
 100   S  4S-S       620          QT6.5.K87543.A75 4.AKJ632..JT9642 AKJ93.Q87.A96.83 8752.T94.QJT2.KQ | 1S-P-3S-P-4S
 101   S  4S-S       650          QJ75.3.T852.KQ85 9.AKJ8742.943.76 AKT62.T95.AKQ7.4 843.Q6.J6.AJT932 | 1S-P-4S
 102   S  4S-S       480          QT64.3.K43.AJT82 83.AKT76.JT86.Q4 AK952.Q84.A7.K95 J7.J952.Q952.763 | 1N-P-2C=1=-P-2S-P-4S | Stayman
 103   S  4S-S       680          Q964.6.T75.AQJT9 .AKT8752.J94.542 AKT83.QJ3.AQ63.3 J752.94.K82.K876 | 1S-P-4S
-104   S  2N-S       -50          QT5.5.KQJ873.754 63.AKJ743.4.J932 AKJ72.T82.A52.K6 984.Q96.T96.AQT8 | 1N-P-2N
+104   S  4S-S       450          QT5.5.KQJ873.754 63.AKJ743.4.J932 AKJ72.T82.A52.K6 984.Q96.T96.AQT8 | 1N-P-3D-P-3S-P-4S
 105   S  4S-S       480          QJ43.9.KQ9.Q9874 986.AK73.T653.63 AKT52.T86.A742.A 7.QJ542.J8.KJT52 | 1S-P-3S-P-4S
 106   S  4S-S       680          Q84.Q.QJ92.KJT83 9.AK9.T875.Q9642 AKT75.8762.A64.A J632.JT543.K3.75 | 1S-P-3S-P-4S
 107   S  4S-S       480          QJ65.J.Q8754.AT7 42.AK4.T962.J532 AK973.Q95.AKJ3.9 T8.T87632..KQ864 | 1S-P-4S
@@ -146,7 +146,7 @@ brd# dlr contract score  par     north            east             south        
 141   S  3N-S      -100          QJ6.Q.Q972.AT982 943.AKJ842.854.5 AKT52.T96.AJT.K7 87.753.K63.QJ643 | 1N-P-3N
 142   S  4S-S       480          Q983.5.KJ42.AJ87 T5.AK92.Q86.T942 AK742.Q873.A9.Q3 J6.JT64.T753.K65 | 1S-P-2C=1=-P-2H-P-4S | 10+ HCP if fit or 6+; 12+ F
 143   S  4HX-E      300          QJ98.4.KQT83.T94 T.AKQT765.J72.75 AK653.J32.A9.A63 742.98.654.KQJ82 | 1N-P-2C=1=-4H-P-P-X | Stayman
-144   S  4S-S       480          Q83.7.KQJ865.973 JT96.AK942..8642 AK542.863.A43.AQ 7.QJT5.T972.KJT5 | 1N-P-2N-P-3S-P-4S
+144   S  4S-S       480          Q83.7.KQJ865.973 JT96.AK942..8642 AK542.863.A43.AQ 7.QJT5.T972.KJT5 | 1N-P-3D-P-3S-P-4S
 145   S  2N-S       -50          Q64.J.JT5.AT8765 73.AK72.87432.42 AKJ82.T98.AQ6.J9 T95.Q6543.K9.KQ3 | 1N-P-2N
 146   S  4S-S       680          Q32.6.QJ853.KQ64 8.AKQT4.642.J852 AK754.985.A.AT73 JT96.J732.KT97.9 | 1S-P-3S-P-4S
 147   S  4S-S       480          QJ62.8.KJT9.J973 T5.AK95.4.T86542 AK943.QJT4.AQ52. 87.7632.8763.AKQ | 1S-P-2S-P-4S
@@ -172,7 +172,7 @@ brd# dlr contract score  par     north            east             south        
 167   S  4S-S       680          QJ96.6.8.AQJ8765 4.AK754.JT65.943 AK872.Q92.AQ43.2 T53.JT83.K972.KT | 1S-P-4S
 168   S  2S-S       170          Q94.2.K653.KT852 T75.AK9.T2.QJ976 AKJ86.QT875.A94. 32.J643.QJ87.A43 | 1S-P-2S
 169   S  4S-S       450          Q95.Q.QJ8652.KJ8 .AK8762.K74.T752 AK862.JT53.A9.A3 JT743.94.T3.Q964 | 1S-P-3S-P-4S
-170   S  4HX-E      200          Q872.6.Q62.AKT97 J.AK875432.T75.2 AK653.QT9.AJ8.Q3 T94.J.K943.J8654 | 1N-P-2C=1=-4H-P-P-X | Stayman
+170   S  4H-E       100          Q872.6.Q62.AKT97 J.AK875432.T75.2 AK653.QT9.AJ8.Q3 T94.J.K943.J8654 | 1N-P-2C=1=-4H | Stayman
 171   S  4S-S       420          QT53.2.Q984.KQ54 96.AKT854.JT2.96 AKJ42.J76.A3.J32 87.Q93.K765.AT87 | 1S-P-4S
 172   S  4S-S       650          Q76.6.K974.AJT93 98.AKT8532.Q63.8 AKJT5.Q94.A.7542 432.J7.JT852.KQ6 | 1S-P-3S-P-4S
 173   S  4S-S       650          Q843.7.84.AKJ986 95.AK843.T653.QT AKJ76.QT2.AJ9.52 T2.J965.KQ72.743 | 1N-P-2C=1=-P-2S-P-4S | Stayman
@@ -180,7 +180,7 @@ brd# dlr contract score  par     north            east             south        
 175   S  4S-S       650          QT8.8.KJT63.QJT4 3.AKT63.754.9832 AKJ54.J975.A.K65 9762.Q42.Q982.A7 | 1S-P-3S-P-4S
 176   S  4S-S       480          Q873.4.JT643.AKT J2.AKT85.975.983 AKT54.J963.AK.64 96.Q72.Q82.QJ752 | 1S-P-4S
 177   S  4S-S       450          Q652.5.J98.AJT75 T7.AKJ3.T6532.Q9 AKJ93.Q9842.A74. 84.T76.KQ.K86432 | 1S-P-4S
-178   S  2N-S       120          QT5.5.KQJT75.854 9763.AK83.42.K93 AK842.T97.A86.A6 J.QJ642.93.QJT72 | 1N-P-2N
+178   S  4S-S       680          QT5.5.KQJT75.854 9763.AK83.42.K93 AK842.T97.A86.A6 J.QJ642.93.QJT72 | 1N-P-3D-P-3S-P-4S
 179   S  2N-S       -50          QJ5.Q.J96.QJ9542 T98.AKT865.54.KT AK742.732.AT2.A6 63.J94.KQ873.873 | 1N-P-2N
 180   S  4S-S       680          Q64.Q.532.AK6432 JT53.AK82.J8.T95 AK987.J96.AKQT.7 2.T7543.9764.QJ8 | 1S-P-3S-P-4S
 181   S  4S-S       650          QJ9.2.T532.AKJ84 875.AK9754.Q7.97 AK432.QJ6.AJ94.2 T6.T83.K86.QT653 | 1S-P-2C=1=-P-2D-P-4S | 10+ HCP if fit or 6+; 12+ F
@@ -222,7 +222,7 @@ brd# dlr contract score  par     north            east             south        
 217   S  4S-S       450          Q95.J.K9732.KT84 J2.AK742.Q65.972 AKT86.Q53.AJ84.5 743.T986.T.AQJ63 | 1S-P-3S-P-4S
 218   S  2S-S       170          Q94.7.QJT984.K62 T72.AK62.72.T953 AKJ65.QJT4.A63.4 83.9853.K5.AQJ87 | 1S-P-2S
 219   S  4S-S       450          Q97.5.K7632.K843 T43.AK872.Q9.J95 AKJ65.QT93.AT84. 82.J64.J5.AQT762 | 1S-P-2S-P-P-3C-3S-P-4S
-220   S  3N-S       600          Q62.4.QT92.AJT54 953.AKJ96.3.Q987 AKJT8.Q85.A54.K2 74.T732.KJ876.63 | 1N-P-3N
+220   S  3N-S       630          Q62.4.QT92.AJT54 953.AKJ96.3.Q987 AKJT8.Q85.A54.K2 74.T732.KJ876.63 | 1N-P-3N
 221   S  4S-S       650          QJ42.J.6432.AJT9 9.AK9632.J9.Q864 AKT73.Q87.AT5.K7 865.T54.KQ87.532 | 1N-P-2C=1=-P-2S-P-3S-P-4S | Stayman
 222   S  3N-S       -50          QT6.J.K7543.QJT7 32.AK87.QT82.843 AK954.T92.A6.A52 J87.Q6543.J9.K96 | 1N-P-3N
 223   S  4S-S       680          Q653.3.KJ873.AJ9 84.AKQT84.T5.862 AKT92.J972.AQ.T3 J7.65.9642.KQ754 | 1S-P-2D=1=-P-2H-P-4S | 10+ HCP if fit or 6+; 12+ F
@@ -281,7 +281,7 @@ brd# dlr contract score  par     north            east             south        
 276   S  4S-S       680          Q42.6.QJ32.AQT87 973.AKQ3.T7.J942 AKJ65.9842.AK84. T8.JT75.965.K653 | 1S-P-2C=1=-P-2D-P-4S | 10+ HCP if fit or 6+; 12+ F
 277   S  4S-S       680          QJ86.5.J632.AQJ3 T5.AKJT743.T.765 AK943.Q98.AQ985. 72.62.K74.KT9842 | 1S-P-2C=1=-3H-4D-P-4S | 10+ HCP if fit or 6+; 12+ F
 278   S  4S-S       480          Q97.J.JT73.KQJ62 J.AK973.Q954.973 AKT86.QT542.A.AT 5432.86.K862.854 | 1S-P-3S-P-4S
-279   S  4S-S       650          QJ42.T.K9765.QJ3 98.AK74.QT43.T52 AKT65.J98.A.K876 73.Q6532.J82.A94 | 1S-P-4S
+279   S  4S-S       650          QJ42.T.K9765.QJ3 98.AK74.QT43.T52 AKT65.J98.A.K876 73.Q6532.J82.A94 | 1S-P-3S-P-4S
 280   S  4S-S       480          Q754.3.K952.A954 J96.AKT42.J843.3 AKT83.Q75.A6.KJ8 2.J986.QT7.QT762 | 1N-P-2C=1=-P-2S-P-4S | Stayman
 281   S  2S-S       140          QJ5.6.K9654.Q952 9742.AK9743.8.K4 AKT63.QJ8.AT3.73 8.T52.QJ72.AJT86 | 1S-P-2S
 282   S  4S-S       680          Q98.T.Q5.AQJT653 64.AK876.9743.74 AKJT5.9532.AKJ.2 732.QJ4.T862.K98 | 1S-P-2C=1=-P-2H-P-4S | 10+ HCP if fit or 6+; 12+ F
@@ -295,7 +295,7 @@ brd# dlr contract score  par     north            east             south        
 290   S  4S-S       680          Q532.7.JT96.AK95 876.AK9852.74.T2 AKT94.QJ3.A5.QJ6 J.T64.KQ832.8743 | 1N-P-2C=1=-P-2S-P-4S | Stayman
 291   S  4S-S       420          QJT.8.Q97654.K76 .AK53.T832.JT843 AK952.QJ762.AJ.Q 87643.T94.K.A952 | 1S-P-2S-P-4S
 292   S  4S-S       650          Q743.4.Q73.KQJ97 92.AK962.KT9542. AKJT8.QT8.AJ8.86 65.J753.6.AT5432 | 1N-P-2C=1=-P-2S-P-4S | Stayman
-293   S  4S-S       620          QJ62.Q.Q9864.J87 T5.AKT953.T52.92 AK974.J86.AKJ.53 83.742.73.AKQT64 | 1N-2C-X=1=-P-2S-P-3S-P-4S | Stayman
+293   S  4S-S       620          QJ62.Q.Q9864.J87 T5.AKT953.T52.92 AK974.J86.AKJ.53 83.742.73.AKQT64 | 1N-P-2C=1=-P-2S-P-3S-P-4S | Stayman
 294   S  4S-S       450          QT6.6.J965.AQT82 J943.AK974.Q872. AK852.JT32.A.K63 7.Q85.KT43.J9754 | 1S-P-3S-P-4S
 295   S  2N-S       120          Q43.T.K9862.A952 .AK9852.Q54.J643 AKT98.J74.AT.KT7 J7652.Q63.J73.Q8 | 1N-P-2N
 296   S  4S-S       480          QT6.7.KQ92.QJ982 973.AKJ52.6543.6 AK842.T986.A.AT7 J5.Q43.JT87.K543 | 1S-P-3S-P-4S
@@ -303,7 +303,7 @@ brd# dlr contract score  par     north            east             south        
 298   S  3N-S       600          Q42.Q.Q9875.AT52 JT3.AK74.T6.Q743 AK765.J32.A3.K96 98.T9865.KJ42.J8 | 1N-P-3N
 299   S  4S-S       450          QT97.3.T52.AK843 J54.AK872.J4.752 AK832.QT5.A97.Q6 6.J964.KQ863.JT9 | 1N-P-2C=1=-P-2S-P-4S | Stayman
 300   S  4S-S       620          Q75.J.Q976.AQ984 J2.AKT85.853.J52 AK984.Q764.AJ4.7 T63.932.KT2.KT63 | 1S-P-3S-P-4S
-301   S  4S-S       650          QJT2.8.K94.KT872 43.AKJ52.J762.43 AK875.T64.AQT5.J 96.Q973.83.AQ965 | 1S-P-4S
+301   S  4S-S       650          QJT2.8.K94.KT872 43.AKJ52.J762.43 AK875.T64.AQT5.J 96.Q973.83.AQ965 | 1S-P-3S-P-4S
 302   S  4S-S       480          Q85.2.T6.AQJT965 J76.AK987.854.74 AK942.T54.AKQ7.2 T3.QJ63.J932.K83 | 1S-P-4S
 303   S  4S-S       680          QJT6.2.865.AQ542 952.AKT6.JT2.863 AK843.8543.A7.K7 7.QJ97.KQ943.JT9 | 1S-P-4S
 304   S  4S-S       450          Q732.5.KQ94.KT63 5.AK843.J32.Q854 AKJT9.QJ2.A.J972 864.T976.T8765.A | 1S-P-3S-P-3N-P-4S
@@ -321,7 +321,7 @@ brd# dlr contract score  par     north            east             south        
 316   S  3S-S       170          Q873.9.K6432.KT4 65.AKJ8765.7.J52 AKT94.Q43.AJT.98 J2.T2.Q985.AQ763 | 1S-P-2S-3H-X-P-3S
 317   S  2S-S       170          QJ4.4.KT853.QT87 85.AKT52.Q972.92 AK962.J97.AJ6.J4 T73.Q863.4.AK653 | 1S-P-2S
 318   S  4S-S       450          QJT5.3.KJ542.K75 .AKT542.QT6.J932 AK864.QJ9.A87.Q8 9732.876.93.AT64 | 1N-P-2C=1=-P-2S-P-4S | Stayman
-319   S  2N-S      -100          Q83.Q.Q876532.A4 62.AK8432.JT.Q53 AK754.T96.AK.JT9 JT9.J75.94.K8762 | 1N-P-2N
+319   S  4S-S       680          Q83.Q.Q876532.A4 62.AK8432.JT.Q53 AK754.T96.AK.JT9 JT9.J75.94.K8762 | 1N-P-3D-P-3S-P-4S
 320   S  4S-S       450          Q53.5.KQ9643.Q87 JT86.AK964..T654 AK974.T73.A52.K2 2.QJ82.JT87.AJ93 | 1S-P-3S-P-4S
 321   S  4S-S       450          Q83.J.K98542.A73 T976.AK6.3.QJ984 AKJ54.Q853.AT6.K 2.T9742.QJ7.T652 | 1S-P-3S-P-4S
 322   S  3N-S       630          QT2.Q.JT73.KQJ65 9876.AKT864.Q6.2 AKJ54.J93.AK4.83 3.752.9852.AT974 | 1N-P-3N
@@ -332,7 +332,7 @@ brd# dlr contract score  par     north            east             south        
 327   S  4S-S       650          Q76.J.9865.KQJ73 92.AKT543.K43.65 AKJT4.Q986.AQ.42 853.72.JT72.AT98 | 1S-P-2S-P-4S
 328   S  4S-S       450          QJ65.3.QJ5.Q8763 T432.AKJ8.86.JT4 AK987.Q9762.A.K9 .T54.KT97432.A52 | 1S-3D-3S-P-4S
 329   S  4S-S       450          Q65.8.K8743.A942 9843.AK75.J6.J53 AKJ72.QJT93.A.T6 T.642.QT952.KQ87 | 1S-P-3S-P-4S
-330   S  6S-S      1430          QT65.5.Q84.AQJ82 .AKQ8.9763.T7643 AK942.J932.AKT2. J873.T764.J5.K95 | 1S-P-2C=1=-P-2D-P-4S-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6S | 10+ HCP if fit or 6+; 12+ F | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king
+330   S  6S-S      1430          QT65.5.Q84.AQJ82 .AKQ8.9763.T7643 AK942.J932.AKT2. J873.T764.J5.K95 | 1S-P-2C=1=-P-2D-P-4S-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6S=5= | 10+ HCP if fit or 6+; 12+ F | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king | 0 or 1 trump keys
 331   S  4S-S       450          QJ5.T.JT8753.KJ6 T72.AK52.42.Q854 AK983.QJ73.AK.T7 64.9864.Q96.A932 | 1S-P-2S-P-4S
 332   S  3S-S       170          QT32.Q.QJT5.J873 J8.AKJ72.9732.54 AK654.T85.AK4.96 97.9643.86.AKQT2 | 1S-P-2S-P-P-3C-3S
 333   S  3N-S      -100          Q73.8.QJT3.AJ532 8.AK9763.854.874 AK965.T42.AK9.Q6 JT42.QJ5.762.KT9 | 1N-P-3N
@@ -363,9 +363,9 @@ brd# dlr contract score  par     north            east             south        
 358   S  4S-S       480          QJT2.8.K763.QJ43 .AK7542.52.K9762 AK874.J963.A8.A5 9653.QT.QJT94.T8 | 1S-P-3S-P-4S
 359   S  4S-S       680          QT82.5.KJ762.Q94 97.AKJ2.Q954.532 AKJ65.984.A3.AJ7 43.QT763.T8.KT86 | 1N-P-2C=1=-P-2S-P-3S-P-4S | Stayman
 360   S  4S-S       480          Q764.J.QJ74.AJT7 T53.AK762.95.984 AKJ82.853.AK3.Q3 9.QT94.T862.K652 | 1N-P-2C=1=-P-2S-P-4S | Stayman
-361   S  4S-S       480          Q85.8.KJ7532.K94 J9.AKT92.T8.QT63 AKT64.J75.A9.AJ8 732.Q643.Q64.752 | 1N-P-2N-P-3S-P-4S
+361   S  4S-S       480          Q85.8.KJ7532.K94 J9.AKT92.T8.QT63 AKT64.J75.A9.AJ8 732.Q643.Q64.752 | 1N-P-3D-P-3S-P-4S
 362   S  3H-S       170          QJT.9.QJ9542.QJ5 8652.AK52.763.32 AK974.QJT876.A.T 3.43.KT8.AK98764 | 1H-3C-P-P-3H
-363   S  2N-S       -50          Q83.3.T987643.AK 6.AKT85.52.Q9652 AK542.J92.AK.873 JT97.Q764.QJ.JT4 | 1N-P-2N
+363   S  4S-S       450          Q83.3.T987643.AK 6.AKT85.52.Q9652 AK542.J92.AK.873 JT97.Q764.QJ.JT4 | 1N-P-3D-P-3S-P-4S
 364   S  4D-W        50          QT97.4.Q.AJT9863 652.AKJ965.754.Q AKJ83.T32.AK.542 4.Q87.JT98632.K7 | 1N-3D-3N-4D
 365   S  4S-S       650          Q642.9.KQ764.KJ8 JT3.AK87.T83.QT4 AK985.Q642.AJ.73 7.JT53.952.A9652 | 1S-P-2D=1=-P-2H-P-4S | 10+ HCP if fit or 6+; 12+ F
 366   S  4S-S       450          QT72.T.KQ972.J87 84.AKJ98.83.T943 AKJ63.6543.AJ6.Q 95.Q72.T54.AK652 | 1S-P-4S
@@ -381,12 +381,12 @@ brd# dlr contract score  par     north            east             south        
 376   S  4S-S       480          Q75.Q.T873.KQJ73 9.AK65.QJ542.T82 AKJ43.T872.A6.A9 T862.J943.K9.654 | 1S-P-3S-P-4S
 377   S  3N-S      -100          QJ8.T.KQ75.T8652 9753.AKQ3.T842.7 AKT42.J82.A63.K9 6.97654.J9.AQJ43 | 1N-P-3N
 378   S  4S-S       680          Q74.6.KJ73.KJ852 T2.AKT42.T2.9764 AK953.J97.A984.A J86.Q853.Q65.QT3 | 1S-P-3S-P-4S
-379   S  2S-S       200          Q86.T.QJ63.AT875 T742.AK752.7.932 AKJ53.Q64.A984.6 9.J983.KT52.KQJ4 | 1S-X-2S
+379   S  3S-S       200          Q86.T.QJ63.AT875 T742.AK752.7.932 AKJ53.Q64.A984.6 9.J983.KT52.KQJ4 | 1S-X-2S-P-P-X-P-3H-3S
 380   S  3S-S       140          Q93.T.KT653.K875 74.AK8543.97.QJ3 AK862.QJ9.A84.42 JT5.762.QJ2.AT96 | 1S-P-2S-3H-X-P-3S
 381   S  4S-S       650          QT73.3.QT987.AK5 J.AK8742.643.872 AK982.Q65.AJ2.T9 654.JT9.K5.QJ643 | 1S-P-2D=1=-P-2S-P-4S | 10+ HCP if fit or 6+; 12+ F
 382   S  4S-S       450          Q54.7.KQ976.QJ96 J6.AKJT654.J83.4 AKT92.Q983.A.A32 873.2.T542.KT875 | 1S-P-3S-4H-4S
 383   S  4S-S       680          QT92.6.T8.AQJ864 73.AK972.K92.953 AK865.JT3.A65.K7 J4.Q854.QJ743.T2 | 1N-P-2C=1=-P-2S-P-4S | Stayman
-384   S  2N-S       120          QT5.7.KT8643.A96 982.AK62.92.KT84 AKJ74.953.AQJ.J3 63.QJT84.75.Q752 | 1N-P-2N
+384   S  4S-S       480          QT5.7.KT8643.A96 982.AK62.92.KT84 AKJ74.953.AQJ.J3 63.QJT84.75.Q752 | 1N-P-3D-P-3S-P-4S
 385   S  4S-S       480          Q987.J.T74.AKJT2 T6.AK85.J6.98743 AKJ52.9643.AQ8.Q 43.QT72.K9532.65 | 1S-P-2C=1=-P-2H-P-4S | 10+ HCP if fit or 6+; 12+ F
 386   S  4S-S       650          QT4.J.QT9842.AT5 83.AKQ94.J65.643 AK962.T873.A.KJ8 J75.652.K73.Q972 | 1S-P-3S-P-4S
 387   S  4S-S       480          QJ83.4.K52.QJT96 4.AKQ9653.T73.52 AK962.JT8.A986.A T75.72.QJ4.K8743 | 1S-P-3S-P-4S
@@ -483,18 +483,18 @@ brd# dlr contract score  par     north            east             south        
 478   S  3N-S       430          Q83.5.QT75.AQJ76 65.AKJT97.943.92 AK972.Q86.AK6.83 JT4.432.J82.KT54 | 1N-P-3N
 479   S  4S-S       680          QJ85.T.K972.AJ76 763.AK862.JT83.2 AK942.QJ9.A4.QT5 T.7543.Q65.K9843 | 1N-P-2C=1=-P-2S-P-4S | Stayman
 480   S  4S-S       480          QJ4.T.K8.KT87632 T93.AKQ963.953.9 AK765.875.AQT7.A 82.J42.J642.QJ54 | 1S-P-3S-P-4S
-481   S  2N-S      -100          Q65.J.KQ8532.J52 T73.AK952.74.KT7 AKJ94.Q83.AJ9.63 82.T764.T6.AQ984 | 1N-P-2N
-482   S  6SX-S     1660          Q32.3.QJ8765.AJ6 .AKQJT752.T4.842 AK964.864.A.KQT7 JT875.9.K932.953 | 1S-P-3S-4H-4N=1=-P-5D=2=-P-5H-P-5N=3=-P-6S-X | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king
+481   S  4S-S       420          Q65.J.KQ8532.J52 T73.AK952.74.KT7 AKJ94.Q83.AJ9.63 82.T764.T6.AQ984 | 1N-P-3D-P-3S-P-4S
+482   S  6SX-S     1660          Q32.3.QJ8765.AJ6 .AKQJT752.T4.842 AK964.864.A.KQT7 JT875.9.K932.953 | 1S-P-3S-4H-4N=1=-P-5D=2=-P-5H-P-5N=3=-P-6S=4=-X | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king | 0 or 1 trump keys
 483   S  4S-S       450          QJ5.Q.Q752.K7654 73.AK9765.J.QT93 AK642.843.AKT6.J T98.JT2.9843.A82 | 1S-P-3S-P-4S
 484   S  3N-S      -100          QJ9.T.Q975.AT864 T43.AKJ.J8432.95 AK875.973.A6.KJ7 62.Q86542.KT.Q32 | 1N-P-3N
 485   S  4S-S       680          QJ92.5.KQ65.QT42 43.AKQ87.T432.63 AKT86.J962.A9.A8 75.T43.J87.KJ975 | 1S-P-3S-P-4S
 486   S  6S-N       980          Q853.6.QJ962.AT8 62.AK3.T73.Q9732 AKJ74.QT9872.AK. T9.J54.854.KJ654 | 1H-P-1S-P-4N=1=-P-5D=2=-P-5H-P-5N=3=-P-6S | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king
 487   S  4S-S       650          Q984.Q.KJT9543.6 J3.AK752.Q82.T53 AK762.JT64.A.QJ2 T5.983.76.AK9874 | 1S-P-4S
-488   S  2N-S       120          QJ4.5.KQ9753.J65 9873.AKQ942.J.97 AKT52.J83.A4.AT2 6.T76.T862.KQ843 | 1N-P-2N
+488   S  4S-S       480          QJ4.5.KQ9753.J65 9873.AKQ942.J.97 AKT52.J83.A4.AT2 6.T76.T862.KQ843 | 1N-P-3D-P-3S-P-4S
 489   S  4S-S       450          Q742.6.QJ96.KQ32 865.AKQT.32.JT84 AKJT3.J52.AKT5.7 9.98743.874.A965 | 1S-P-4S
 490   S  4S-S       650          Q954.7.KQ97.QT83 J8.AKT954.JT65.J AK763.J83.A8.K62 T2.Q62.432.A9754 | 1N-P-2C=1=-P-2S-P-4S | Stayman
 491   S  4S-S       480          Q632.6.KQT52.Q86 9.AK85.J987643.5 AKT75.T942.A.AT4 J84.QJ73..KJ9732 | 1S-P-4S
-492   S  2N-S      -100          QJ6.Q.Q86543.KT6 T53.AK86.J7.J984 AK942.T93.AK.Q52 87.J7542.T92.A73 | 1N-P-2N
+492   S  4S-S       650          QJ6.Q.Q86543.KT6 T53.AK86.J7.J984 AK942.T93.AK.Q52 87.J7542.T92.A73 | 1N-P-3D-P-3S-P-4S
 493   S  4S-S       650          Q873.Q.JT85.K532 T2.AKT7.Q643.J94 AK654.842.A72.A6 J9.J9653.K9.QT87 | 1N-P-2C=1=-P-2S-P-3S-P-4S | Stayman
 494   S  4S-S       450          Q93.7.JT94.AQ872 .AKJ543.653.JT94 AKT62.T962.A8.K3 J8754.Q8.KQ72.65 | 1S-P-3S-P-4S
 495   S  4S-S       650          QT62.4.QJ87.AT52 J85.AKT762.542.J AK974.J98.A.Q984 3.Q53.KT963.K763 | 1S-P-4S
@@ -510,7 +510,6 @@ brd# dlr contract score  par     north            east             south        
     1  1H-P-1N-P-2S-P-3N-P-4H-P-4S
     1  1H-P-1N-P-2S-P-3N-P-4S
     1  1H-P-1S-P-4N=1=-P-5D=2=-P-5H-P-5N=3=-P-6S | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king
-    2  1N-2C-X=1=-P-2S-P-3S-P-4S | Stayman
     1  1N-3C-3D-P-3S-P-4C=1=-P-4S | Limit raise or better in !S
     1  1N-3D
     1  1N-3D-3N-4D
@@ -519,20 +518,22 @@ brd# dlr contract score  par     north            east             south        
     1  1N-P-2C=1=-2H-2S-3H-4S | Stayman
     1  1N-P-2C=1=-3H | Stayman
     2  1N-P-2C=1=-3H-3S-P-4H=2=-P-4S | Stayman | Limit raise or better in !S
-    2  1N-P-2C=1=-4H-P-P-X | Stayman
-    6  1N-P-2C=1=-P-2S-P-3S | Stayman
-   22  1N-P-2C=1=-P-2S-P-3S-P-4S | Stayman
+    1  1N-P-2C=1=-4H | Stayman
+    1  1N-P-2C=1=-4H-P-P-X | Stayman
+    7  1N-P-2C=1=-P-2S-P-3S | Stayman
+   23  1N-P-2C=1=-P-2S-P-3S-P-4S | Stayman
    39  1N-P-2C=1=-P-2S-P-4S | Stayman
     1  1N-P-2C=1=-X-2S-P-4S | Stayman
-   18  1N-P-2N
+    9  1N-P-2N
     1  1N-P-2N-3H-P-P-4C
-    6  1N-P-2N-P-3S-P-4S
+    4  1N-P-2N-P-3S-P-4S
+   11  1N-P-3D-P-3S-P-4S
    53  1N-P-3N
     1  1N-P-5C
     1  1N-P-P-2H-P-P-3C-P-P-3H-4C
     1  1S-3C-3S
     3  1S-3C-3S-P-4S
-    1  1S-3C-4C=1=-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6S | Limit raise or better in !S | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king
+    1  1S-3C-4C=1=-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6S=5= | Limit raise or better in !S | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king | 0 or 1 trump keys
     2  1S-3C-4C=1=-P-4S | Limit raise or better in !S
     2  1S-3D-3S-P-4S
     1  1S-3D-4S
@@ -540,7 +541,7 @@ brd# dlr contract score  par     north            east             south        
     1  1S-P-2C=1=-3H-4D-P-4S | 10+ HCP if fit or 6+; 12+ F
     1  1S-P-2C=1=-3H-X-P-3S-P-4S | 10+ HCP if fit or 6+; 12+ F
     9  1S-P-2C=1=-P-2D-P-4S | 10+ HCP if fit or 6+; 12+ F
-    1  1S-P-2C=1=-P-2D-P-4S-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6S | 10+ HCP if fit or 6+; 12+ F | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king
+    1  1S-P-2C=1=-P-2D-P-4S-P-4N=2=-P-5D=3=-P-5H-P-5N=4=-P-6S=5= | 10+ HCP if fit or 6+; 12+ F | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king | 0 or 1 trump keys
     2  1S-P-2C=1=-P-2D-P-4S-P-4N=2=-P-5D=3=-P-5H-P-6C=4=-P-6S | 10+ HCP if fit or 6+; 12+ F | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen and !C king
     1  1S-P-2C=1=-P-2H | 10+ HCP if fit or 6+; 12+ F
    17  1S-P-2C=1=-P-2H-P-4S | 10+ HCP if fit or 6+; 12+ F
@@ -569,20 +570,21 @@ brd# dlr contract score  par     north            east             south        
     1  1S-P-2S-P-P-3C-3S
     1  1S-P-2S-P-P-3C-3S-P-4S
     1  1S-P-2S-P-P-X-P-3H-3S
-    1  1S-P-3S-4H-4N=1=-P-5D=2=-P-5H-P-5N=3=-P-6S-X | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king
+    1  1S-P-3S-4H-4N=1=-P-5D=2=-P-5H-P-5N=3=-P-6S=4=-X | Blackwood 0123, for !S | A=1/5 or 5/5 | !S queen no !C king no !D king no !H king | 0 or 1 trump keys
     2  1S-P-3S-4H-4S
     1  1S-P-3S-P-3N
     2  1S-P-3S-P-3N-P-4S
     1  1S-P-3S-P-4N=1=-P-5C=2=-P-5D-P-6C=3=-P-6S | Blackwood 0123, for !S | A=0/5 or 4/5 | !S queen and !C king
-   96  1S-P-3S-P-4S
-   99  1S-P-4S
-    1  1S-X-2S
+   98  1S-P-3S-P-4S
+   97  1S-P-4S
+    1  1S-X-2S-P-P-X-P-3H-3S
     1  1S-X-4S-X
 
    -- Sorted Summary of Notes (the first character is forced to upper case) --
 
     3  !S queen and !C king
     4  !S queen no !C king no !D king no !H king
+    3  0 or 1 trump keys
    62  10+ HCP if fit or 6+; 12+ F
     1  A=0/5 or 4/5
     6  A=1/5 or 5/5

@@ -1,0 +1,282 @@
+[Event "Strip_And_Endplay"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "114"]
+[OriginalScenario "Found_Endplay"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKJ3.QT.T82.Q762 84.AJ76.964.JT54 T962.85.AKJ7.AK8 Q75.K9432.Q53.93"]
+{Shape 4234 2434 4243 3532}
+{HCP 12 6 15 7}
+{Losers 8 10 7 8}
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 3
+bidding: standard
+bidding-note: 1C - 1D; 1NT - 2S; 4S. Constructive sequence to the spade game.
+declarer: textbook strip-and-endplay
+declarer-note: 4S needs 10 and dd gives exactly 10; two hearts and the trump queen must be lost, so the diamond queen is the make-or-break — and instead of finessing, declarer strips clubs and hearts, exits a trump to West's queen, and West must lead a diamond into AKJT or concede a ruff-and-discard. The 50% finesse becomes 100%.
+defense: reject
+defense-note: W (S:Q75 H:K9432 D:Q53 C:93) scores two hearts and the trump queen — and then every card in his hand loses the diamond queen for him.
+}
+[Auction "N"]
+1C    Pass  1D    Pass
+1N    Pass  2S    Pass
+4S    Pass  Pass  Pass
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \H3, fourth-best from your longest suit — the normal start against the spade game.
+
+[ROLE declarer][STAGE auction-end] Welcome to a new shelf. You are in 4\S needing ten tricks, and the count says: two heart losers, the missing trump queen — three — and the \DQ is out, threatening a fourth. The old answer was a diamond finesse, a coin flip. The new answer: make WEST take the finesse for you. The plan has three steps — STRIP the suits he could safely lead, THROW HIM IN with the trick he already owns, and let his forced return play your \DA-K-J-T for you.
+
+[ROLE declarer][STAGE post-lead] The defense cashes two hearts and shifts; win, and set about the strip: three rounds of clubs, two top trumps — the queen does not fall — and your \DK. Now the moment: exit a TRUMP to West's queen, the trick he was always getting. Look at his hand from his chair: a diamond from the queen rides into your A-J-T; a heart gives a ruff in one hand while a diamond loser vanishes from the other. There is no third choice. He led a diamond, dummy's TEN forced the trick, and the ace collected his queen next. Ten tricks — no finesse taken.
+
+[ROLE declarer][STAGE post-play] That was the strip-and-endplay in full dress: count the losers, strip the safe exits, hand the defender his own trick at YOUR moment, and every road out of his hand pays you. The diamond finesse was 50%; the endplay was 100% the instant the strip was complete. This shelf's motto: make the defenders play your suits for you.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Strip_And_Endplay"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "455"]
+[OriginalScenario "Found_Endplay"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:T982.T763.AQ.T96 Q54.Q85.K654.532 AJ63.AK9.J83.AKJ K7.J42.T972.Q874"]
+{Shape 4423 3343 4333 2344}
+{HCP 6 7 21 6}
+{Losers 10 9 7 9}
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 3
+bidding: standard
+bidding-note: Three passes, then 2NT - 3C Stayman - 3S - 4S. Big balanced hand finds the fit.
+declarer: standard strip-and-endplay
+declarer-note: 4S needs 10 and dd gives exactly 10; a heart, a diamond, and the trump king must be lost, and the club queen is the fourth threat — so cash the hearts, unblock the diamonds, and give West his trump king when his only exits are a club into the A-J or a diamond into the established jack.
+defense: reject
+defense-note: W (S:K7 H:J42 D:T972 C:Q874) makes the trump king and partner's two red tricks; then his club queen is delivered to the A-J by his own hand.
+}
+[Auction "W"]
+Pass  Pass  Pass  2N
+Pass  3C    Pass  3S
+Pass  4S    Pass  Pass
+Pass
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \DT, top of your \DT-9 holding — a safe, passive start against the spade game.
+
+[ROLE declarer][STAGE auction-end] You are in 4\S with twenty-one points facing a weak dummy — ten tricks to find. Count the certain losers: a heart, a diamond, and the trump king somewhere. That is three, and the \CQ looms as the fourth. A club finesse is the lazy line; the craftsman's line is to LOSE your three losers early and on your terms, so that whoever wins the third one is left holding only poisoned cards. Watch how the timing does all the work.
+
+[ROLE declarer][STAGE post-lead] Win the diamond lead in dummy. Cash the top hearts and concede the third — East wins and cashes his diamond king, your two unavoidable red losers gone early, and note dummy's queen and your jack of diamonds are now high. When East exits a trump, WEST's king takes the trick — and the position is perfect: West holds nothing but minor cards. A diamond gives your jack a trick; a club rides into your A-J. He chose the club; your JACK won on the spot, and the ace-king finished his queen. Ten tricks.
+
+[ROLE declarer][STAGE post-play] The strip here wasn't a flourish — it was ordinary plays made in the RIGHT ORDER: red-suit losers conceded early, winners kept as guards, and the trump king allowed to win exactly when West had only losing exits. Rectify early, strip as you go, and the throw-in plays itself. The finesse you never took was the trick you never risked.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Strip_And_Endplay"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "463"]
+[OriginalScenario "Found_Endplay"]
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J843.AT98.72.AK8 QT52.J5.K965.QT6 AK76.KQ4.43.J973 9.7632.AQJT8.542"]
+{Shape 4423 4243 4324 1453}
+{HCP 12 8 13 7}
+{Losers 8 8 7 8}
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 4
+bidding: standard
+bidding-note: 1C - 1D overcall - X negative; competitive sequence to 4S after West shows diamonds.
+declarer: judgment strip-and-endplay
+declarer-note: 4S needs 10 and dd gives exactly 10; East's guarded trump queen cannot be picked up by power, so declarer strips hearts and diamonds and CONCEDES the third club to East — who must then return a trump into the K-7 or hand over a ruff-and-discard. The trump loser pays for itself.
+defense: reject
+defense-note: W (S:9 H:7632 D:AQJT8 C:542) cashes two diamonds; East wins his club queen and then his own trump queen dies on the forced return.
+}
+[Auction "S"]
+1C    1D    X     2D
+Pass  Pass  X     Pass
+2S    Pass  4S    Pass
+Pass  Pass
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \DA. You overcalled diamonds holding \DA-Q-J-T-8 — cash the ace and keep the lead to look at dummy.
+
+[ROLE declarer][STAGE auction-end] West overcalled diamonds and you landed in 4\S — ten tricks, and this time the problem is the TRUMP suit: A-K-7-6 facing J-8-4-3, missing the queen with East likely holding her guarded after the auction placed West with the diamond length. No finesse picks up Q-T-5-2 behind you. So aim the endplay at EAST instead: strip the red suits, then deliberately LOSE the third club to him — and his forced return will solve your trump problem for you.
+
+[ROLE declarer][STAGE post-lead] West cashes two diamonds and shifts; win, and strip: hearts around to your K-Q-4 — three rounds, done — then two top trumps (the queen stays guarded, as feared). Clubs now: king, ace... and the THIRD club goes to East's queen on purpose. Count East's choices: his diamonds are gone with a ruff waiting in each hand — a diamond return is a ruff-and-discard; a trump runs from his queen into your king. He returned the trump; your seven — the SEVEN — won a trick, and the ace dropped his queen next. Ten tricks off a suit you could never have picked up alone.
+
+[ROLE declarer][STAGE post-play] The advanced form: the throw-in trick was one you MANUFACTURED — a club you could have finessed, spent instead as the price of the endplay. Two exits, both fatal: the ruff-and-discard or the trump into the tenace. When a guarded queen sits over your ace-king, stop trying to catch her — make her owner throw her under the wheels himself.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Strip_And_Endplay"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "186"]
+[OriginalScenario "Jacoby_Transfer"]
+% BB8E39A677437A6D8134EC08D280
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:K64.AT742.QJ6.JT JT98.3.T732.AQ93 AQ72.Q85.A85.K87 53.KJ96.K94.6542"]
+{Shape 3532 4144 4333 2434}
+{HCP 11 7 15 7}
+{Losers 8 8 7 9}
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 4
+bidding: standard
+bidding-note: 1NT - 2D transfer - 2H; 3NT offers a choice of games and opener's three-card support puts it back to 4H on the five-three fit.
+declarer: standard strip-and-endplay
+declarer-note: 4H needs 10 and dd gives exactly 10; West's KJ96 of trumps behind dummy's AT742 is worth two tricks by force — unless he is stripped first. A low trump round drops East's singleton (count complete), the minors are eliminated, and the queen is led to his king ON PURPOSE: from J9 he must lead into the A-T, and the second trump trick evaporates.
+defense: reject
+defense-note: W (S:53 H:KJ96 D:K94 C:6542) scores the club ace via partner, his diamond king, and the trump king — three and out; his jack-nine, a certain second trump trick at the deal, is end-played out of the hand.
+}
+[Auction "S"]
+1N    Pass  2D    Pass
+2H    Pass  3N    Pass
+4H    Pass  Pass  Pass
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \C2, fourth-best from your longest suit — the quiet start against the heart game.
+
+[ROLE declarer][STAGE auction-end] Partner transferred, offered 3NT, and your three-card support chose 4\H on the five-three fit. Ten tricks. Now count the trump suit honestly: dummy's A-T-7-4-2 over your Q-8-5 is missing K-J-9-6, and if one defender holds all of that, arithmetic says TWO trump losers — the king, and the jack-nine perched behind dummy's ace-ten. Add a club and a diamond and you are down one. The strip-and-endplay answer: take his king off him at YOUR moment, with every safe exit already burned, and the jack-nine must lead into the ace-ten.
+
+[ROLE declarer][STAGE post-lead] East wins the club ace and returns one to dummy's jack. Two top spades — keeping your ace as control — then the diamond ace and your club king. Now a LOW trump from dummy, ducked all around: East's singleton falls, and the count is public — West began with K-J-9-x. Knock out his diamond king, win the return, and play the trump QUEEN: his king takes it, exactly as planned. Look at his three cards: trumps and a club. A club exit is simply ruffed in dummy with his position unchanged, so back come the trumps: the nine rides to dummy's TEN, and the ace collects his jack. Ten tricks — the king scored, the jack-nine never did.
+
+[ROLE declarer][STAGE post-play] Arithmetic said two trump losers; the endplay paid one of them off in a currency the defense could not refuse. The low trump round was the census — East's singleton told you exactly who held the jack-nine — and the queen-to-king play was the throw-in, made only AFTER his side suits were stripped. A defender's trump honor is a fixed asset; a defender's trump SPOTS are only worth what his exit cards let them earn.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Strip_And_Endplay"]
+[Site ""]
+[Board "5"]
+[OriginalBoard "294"]
+[OriginalScenario "1N"]
+% 29A73937685E74CAA8E305D4C78F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:KQ5.8532.6.AQ632 JT9.T4.AQ9543.T8 A72.AJ76.KJ87.K5 8643.KQ9.T2.J974"]
+{Shape 3415 3262 3442 4324}
+{HCP 11 7 16 6}
+{Losers 6 8 7 9}
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 4
+bidding: textbook
+bidding-note: 1NT - 2C Stayman - 2H - 4H; responder finds the four-four heart fit and bids the game.
+declarer: standard strip-and-endplay
+declarer-note: 4H needs 10 and dd gives exactly 10; diamonds KJ87 opposite a singleton sit under East's ace-queen — a frozen suit that costs two tricks if declarer opens it. Strip clubs and spades, concede the two trump tricks West was always winning, and every exit is poisoned: his diamond puts up East's ace on air, and East, holding nothing but diamonds, returns into the K-J. The jack, the king, and a dummy ruff — the queen never scores.
+defense: reject
+defense-note: W (S:8643 H:KQ9 D:T2 C:J974) has two trump tricks and partner's diamond ace — three and done; stripped, his exit surrenders the frozen diamond suit, and East's five remaining cards are all diamonds back into the K-J.
+}
+[Auction "S"]
+1N    Pass  2C =1=    Pass
+2H    Pass  4H    Pass
+Pass  Pass
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \C4, fourth-best from your longest suit — the normal start against the heart game.
+
+[ROLE declarer][STAGE auction-end] Stayman found the four-four fit and you are in 4\H needing ten. The problem suit is diamonds: K-J-8-7 in your hand, a lone six in dummy, and the ace-queen somewhere behind. That suit is FROZEN — if you touch it, the ace and queen beat your king and jack out of two tricks. But if THEY touch it, your king and jack sit over every card East can lead. So the plan writes itself: never play diamonds. Strip the clubs, strip the spades, give West the two trump tricks he owns — and leave the defenders alone on stage with the one suit nobody wanted to play.
+
+[ROLE declarer][STAGE post-lead] The club lead rides to dummy's queen; cash the king. Three rounds of spades end in your hand. Trump ace, then a LOW trump — West's queen wins and his king cashes; East's ten-four fall, and the trumps are done. Now West is on lead with nothing good: a spade is a ruff-and-discard, a club runs to dummy's ace while the lead stays poisoned, so he tries the diamond two. Dummy's six forces East's ACE — beating air — and count East's hand: spades gone, hearts gone, clubs gone. Every card he holds is a diamond, and each one walks into your K-J. The jack wins, the king wins, and dummy ruffs the fourth. Ten tricks; the queen died in his hand.
+
+[ROLE declarer][STAGE post-play] A frozen suit is a standoff: whoever opens it, loses it. The strip is how you make sure it is not you — burn their safe suits, cash their trump tricks FOR them, and the standoff ends with a defender forced to move first. Note the cascade: West's exit did not solve his problem, it handed the same problem to East, whose hand had been reduced to pure poison. When both defenders are stripped, the frozen suit thaws one forced lead at a time.}
+[Note "1:Stayman"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Strip_And_Endplay"]
+[Site ""]
+[Board "6"]
+[OriginalBoard "463"]
+[OriginalScenario "Splinters"]
+% CA4725789B619C3F16B27093AB3C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:K872.A.982.AJ843 AQT5.J974.QJ3.76 J9643.KT3.AK7.KT .Q8652.T654.Q952"]
+{Shape 4135 4432 5332 0544}
+{HCP 12 10 14 4}
+{Losers 7 8 7 7}
+[Declarer "S"]
+[Contract "5S"]
+[Result "11"]
+[Score "NS 650"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 5
+bidding: standard
+bidding-note: 1S - 2NT Jacoby - 3NT extras; club and diamond cue bids, then 1430 Blackwood finds a keycard missing plus the trump queen and the try stops safely in 5S.
+declarer: judgment strip-and-endplay
+declarer-note: 5S needs 11 and dd gives exactly 11; East's AQT5 of trumps over the J9643 threatens three trump tricks — the ruffing queen, the ace, and the ten behind the jack. Strip clubs, hearts, and diamonds, absorb the queen-ruff and a conceded ruff-and-discard, then lead the trump king: the ace must take it, and from T-5 East leads into the J-9. The nine wins, the jack fells the ten — three trump tricks become two.
+defense: reject
+defense-note: W (S:void H:Q8652 D:T654 C:Q952) never wins a trick and his first discard on a trump announces the four-nil split; East scores the queen-ruff and the trump ace, and then his ten — a winner by position all hand — leads itself to death into the jack-nine.
+}
+[Auction "S"]
+1S    Pass  2N =1=    Pass
+3N    Pass  4C =2=    Pass
+4D =3=    Pass  4N =4=    Pass
+5C =5=    Pass  5S    Pass
+Pass  Pass
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \H5, fourth-best from your longest suit — the normal start against the spade game; dummy has shown a big raise, so passive is prudent.
+
+[ROLE declarer][STAGE auction-end] The slam try stopped in time: Blackwood found a keycard away plus the trump queen, and 5\S needs eleven. Then West's first discard on a trump will confirm the bad news — East began with ALL FOUR missing trumps, A-Q-T-5 over your J-9-6-4-3. Count his entitlements: the queen can ruff a winner, the ace is the ace, and the TEN sits behind your jack for a third. That is one trick too many. The endplay answer: strip every side suit to the bone, let him take the first two his way, and make the ten LEAD instead of lie in wait.
+
+[ROLE declarer][STAGE post-lead] Dummy's bare heart ace wins. Unblock the clubs — king, then the ten covered and overtaken; East shows out and the strip begins: heart king, heart ruff, diamond ace-king with East's jack and queen crashing on air, third diamond ruffed. Nine cards gone from every hand and not a safe suit left in East's. Lead dummy's good club: East ruffs with the QUEEN — trick one, always his — and exits a heart; ruff it and accept the small ruff-and-discard toll. Now the trump king: East's ACE swallows it, trick two, the last they get. He is down to the T-5 of trumps and nothing else: the five rides around to your NINE, and your JACK collects his ten at the thirteenth trick. Eleven.
+
+[ROLE declarer][STAGE post-play] East's trump ten was a winner by position — behind your jack, guarded by the ace-queen in front of it — and no honest play of the suit could ever catch it. So the suit was never played honestly: the strip removed his exits, the throw-in sold him the king, and position reversed itself the instant he had to LEAD. A card that wins lying fourth under cover dies leading fifth into the open. That is the deepest form of the strip: it does not just save a finesse — it turns the defenders' own trump geometry inside out.}
+[Note "1:Jacoby 2NT"]
+[Note "2:Cue bid, a !C stopper"]
+[Note "3:Cue bid, a !D stopper"]
+[Note "4:Blackwood 1430, for !S"]
+[Note "5:A=1/5 or 4/5"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

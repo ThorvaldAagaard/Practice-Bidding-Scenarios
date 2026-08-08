@@ -1,0 +1,649 @@
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "215"]
+[OriginalScenario "Finesse_Simple"]
+% DBAA97A3C8DAD910B60CB55E0C83
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:863.J632.K75.KQ2 4.KT984.Q82.AT74 AKQ752.AQ.643.95 JT9.75.AJT9.J863"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+3S    Pass  3N    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+SJ S3 S4 SQ
+DA D5 D2 D3
+D9 DK D8 D4
+H5 H2 H4 HQ
+DT D7 DQ D6
+C3 C2 CA C5
+C6 CQ C4 C9
+C8 CK C7 HA
+H7 H3 H8 S2
+S9 S6 H9 SK
+ST S8 HT SA
+DJ H6 CT S5
+CJ HJ HK S7
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \SJ, top of your \SJ-T-9 sequence — safe and solid against the spade game.
+
+[ROLE declarer][STAGE auction-end] Final exam, board one. You are in 4\S needing ten tricks. Count first: six solid trumps, and the minors offer little — the defense has diamond tricks coming and the club honors in dummy face two small ones. Nine on top at best. Study each suit and find the tenth trick, and decide what has to be true for your plan to work.
+
+[ROLE declarer][STAGE post-play] The tool was the SIMPLE FINESSE — lesson one of this family: lead toward the honor you hope will win, and let the defender in front of it commit first. The heart queen was your whole margin, and it scored because East's king sat where the finesse could trap it. One down, thirteen to go.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "428"]
+[OriginalScenario "Misfit6-5"]
+% AA77EE2B67C63230E5279F5A70D7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:Q986.T.K5.AQJ652 AJ43.542.Q4.KT94 5.KQJ76.AJT762.7 KT72.A983.983.83"]
+[Declarer "S"]
+[Contract "5D"]
+[Result "11"]
+[Score "NS 600"]
+[Scoring "MP"]
+[Auction "S"]
+1D    Pass  3C =1=    Pass
+3D    Pass  4H =2=    Pass
+4S =3=    Pass  5D    Pass
+Pass  Pass
+[Play "W"]
+S2 S8 SJ S5
+HA HT H2 HJ
+C3 CA C4 C7
+C8 CJ CK D2
+D8 DK D4 D6
+S7 S6 S3 D7
+H3 C2 H4 HQ
+H8 D5 H5 H6
+ST S9 SA DT
+D3 C5 DQ DA
+H9 C6 S4 HK
+D9 SQ C9 DJ
+SK CQ CT H7
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \S2, fourth-best from your longest suit — a normal start against the diamond game.
+
+[ROLE declarer][STAGE auction-end] You are in 5\D needing eleven tricks. Your trumps are strong and the hearts will set up, but the hand's engine is dummy's \CA-Q-J-6-5-2 opposite your SINGLETON. Six clubs facing one: ask yourself what that suit can be made to produce, what stands in its way, and what it will cost to clear the obstacle. Plan before you play.
+
+[ROLE declarer][STAGE post-play] That was the RUFFING FINESSE: a long broken sequence facing shortness, so the honors run through the defender — ruff the cover, or pitch on the duck; either way the suit never loses a trick. The same play that carried the Ruffing Finesse lesson, here dressed in a minor-suit game. Well spotted.}
+[Note "1:Inviting Jump Shifts"]
+[Note "2:Splinter"]
+[Note "3:Cue bid, a !S stopper"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "287"]
+[OriginalScenario "Texas_or_Jacoby"]
+% 1A9543641F3B200963E458D13289
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:JT983.K82.J.KJT7 KQ75.AJ54.T852.3 A2.Q976.AQ6.A842 64.T3.K9743.Q965"]
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 600"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  2H    Pass
+2S    Pass  3C    Pass
+3N    Pass  Pass  Pass
+[Play "W"]
+D4 DJ D2 D6
+C5 C7 C3 CA
+C6 CT H4 C2
+H3 H2 H5 HQ
+CQ CK S5 C4
+S4 S8 S7 S2
+S6 S3 SQ SA
+C9 CJ D5 C8
+HT H8 HJ H6
+D3 S9 D8 DA
+D7 HK HA H7
+DK ST DT DQ
+D9 SJ SK H9
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \D4, fourth-best from your longest suit — the book lead against 3NT.
+
+[ROLE declarer][STAGE auction-end] You are in 3NT needing nine tricks, and after the diamond lead your \DA-Q-6 behind West is comfortable — but the count is not: to reach nine, the club suit — dummy's \CK-J-T-7 over your ace — must deliver FOUR tricks. A missing queen with company. Ask yourself: will one finesse be enough, and if not, what does the suit need from you?
+
+[ROLE declarer][STAGE post-play] That was the REPEATED FINESSE: a guarded queen never falls to one hook, so you led toward the K-J-T again and again, spending an entry each trip. Same lesson, same discipline — the finesse is not an event, it is a route you may have to travel more than once. Three boards down.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "32"]
+[OriginalScenario "To_Finesse_Or_Not_To_Finesse"]
+% 19A19B9792842030C80DEC5FE6D6
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:986.T76.AJ98.KQ4 4.KQJ42.QT32.J32 AKQJT.A953.K7.A6 7532.8.654.T9875"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+H8 HT HJ HA
+S2 S6 S4 ST
+D4 D8 D2 DK
+C5 C4 C2 CA
+C7 CQ C3 C6
+C8 CK CJ H3
+S3 S8 H2 SJ
+S5 S9 D3 SQ
+S7 H6 H4 SK
+D5 D9 DT SA
+D6 DA DQ D7
+C9 DJ HQ H5
+CT H7 HK H9
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \H8. With a singleton heart in hand, leading it is natural against a suit contract — it sets up a possible ruff and is the standout choice here.
+
+[ROLE declarer][STAGE auction-end] You are in 4\S needing ten tricks. There is a club position you could finesse, and after three boards of hooks it may be tempting on reflex. Stop. Count your winners first — trumps, aces, the diamond pair — and then decide: does this hand need a finesse at all, and what could taking one cost you?
+
+[ROLE declarer][STAGE post-play] The exam's first trap: a finesse was AVAILABLE, and the correct number of finesses to take was ZERO. Counting showed ten tricks on top, so the club hook offered nothing and risked the one thing that could hurt you — East on lead with hearts. To Finesse or Not: count first, and the best finesse is often the one you decline.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "5"]
+[OriginalBoard "167"]
+[OriginalScenario "Finesse_Simple"]
+% ABA371239B086FD0409C3AACC684
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:QT5.T732.32.AQJ9 K97.J86.AKQ87.53 AJ642.AQ94.964.K 83.K5.JT5.T87642"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  3S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+DJ D2 D7 D4
+D5 D3 DQ D6
+H5 H2 H6 HA
+C2 C9 C3 CK
+HK H3 H8 H4
+DT S5 D8 D9
+C4 CJ C5 H9
+S3 ST SK SA
+S8 SQ S7 S2
+C6 H7 HJ HQ
+C7 HT S9 SJ
+C8 CQ DK S4
+CT CA DA S6
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \DJ, top of your \DJ-T sequence — a safe, solid start against the spade game.
+
+[ROLE declarer][STAGE auction-end] You are in 4\S needing ten tricks, and this time the question sits in the TRUMP suit itself: your \SA-J-6-4-2 opposite dummy's Q-T-5, missing the king. Play ace-and-out and a guarded king beats you; so ask the exam question — which opponent do you play for the king, and how do you arrange to lead the suit so his king is trapped?
+
+[ROLE declarer][STAGE post-play] A simple finesse — but in trumps, where it is easiest to forget that "lead toward the honor" applies just as much. Running the ten through East kept the king from ever scoring; ace-first would have promoted it. Same tool as board one, different suit — the exam likes disguises.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "6"]
+[OriginalBoard "156"]
+[OriginalScenario "Game_Overcalls"]
+% 96BF279D2ED52066F66AEF82EF26
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:KJ92.4.94.J87642 86.QT.KT872.AK53 AQ4.KJ986532.6.9 T753.A7.AQJ53.QT"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "E"]
+1D    4H    Pass  Pass
+Pass
+[Play "W"]
+DA D4 D2 D6
+CT C2 C3 C9
+S3 S9 S6 S4
+HA H4 HT HJ
+S5 SJ S8 SQ
+H7 C4 HQ HK
+S7 S2 C5 SA
+D3 C6 D7 H2
+D5 C7 D8 H3
+ST D9 DT H5
+CQ C8 DK H6
+DJ CJ CK H8
+DQ SK CA H9
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \DA. Partner opened diamonds, and cashing your ace while looking at dummy is the natural start against the jump to game.
+
+[ROLE declarer][STAGE auction-end] East opened 1\D and you shot out 4\H on your eight-card suit — ten tricks needed. The trump suit is \HK-J-9-8-6-5-3-2 facing a singleton, missing the ACE and the QUEEN. The ace is a trick you can never avoid. The queen is the exam question: with only five hearts out there, how do you play the suit — and does the auction whisper anything about where the missing cards sit?
+
+[ROLE declarer][STAGE post-play] The finesse into the bidder, from the To Finesse or Not lesson — and in the TRUMP suit, the exam's favorite hiding place. You could never dodge the ace, but the queen was always East's on the auction, and the jack-insert made her worthless. Listen first, then finesse.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "7"]
+[OriginalBoard "363"]
+[OriginalScenario "Basic_Major"]
+% 68AFDB69601EB3A2871406B74476
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:T65.753.KQ.AK974 QJ32.KT6.AT.T852 A9874.AQJ8.J98.Q K.942.765432.J63"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  2C =1=    Pass
+2H    Pass  4S    Pass
+Pass  Pass
+[Play "W"]
+D7 DQ DA D8
+D2 DK DT DJ
+H2 H3 HT HJ
+SK S5 S2 SA
+C3 CK C2 CQ
+H4 H5 H6 HQ
+H9 H7 HK HA
+D3 S6 SJ D9
+D4 ST SQ S4
+D5 C4 S3 S7
+D6 C7 C5 S8
+C6 C9 C8 S9
+CJ CA CT H8
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \D7, top of your worthless six-card suit — nothing else is safer against the spade game.
+
+[ROLE declarer][STAGE auction-end] You are in 4\S needing ten tricks. The trump suit will behave, and dummy's clubs are ready — but count again and the hand still wants THREE heart tricks from your \HA-Q-J-8 opposite three small. The king is out and rates to be guarded. One question decides this board: how many times must hearts be led, and from which side?
+
+[ROLE declarer][STAGE post-play] The repeated finesse again — the exam gives you the same tool twice to see whether you recognize it in new clothes. East's king had two guards, so two hooks were the entry fee, and dummy's minor-suit cards paid the transportation. Once more: a finesse you may repeat is a suit you must keep entries for.}
+[Note "1:10+ HCP if fit or 6+; 12+ F"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "8"]
+[OriginalBoard "462"]
+[OriginalScenario "Basic_Major"]
+% C82ABDB34EFA56C5DB21BFB80492
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A63.J83.AT74.Q75 J9.972.KJ5.AJT92 KQ542.A6.Q62.K86 T87.KQT54.983.43"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    Pass  3S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+HK H3 H2 HA
+ST SA S9 S2
+S7 S3 SJ SQ
+HQ H8 H7 H6
+D3 DA D5 D2
+H4 HJ H9 C6
+D8 D4 DK D6
+C3 C5 CA C8
+D9 D7 DJ DQ
+C4 C7 C2 CK
+S8 S6 C9 SK
+H5 DT CT S4
+HT CQ CJ S5
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \HK, top of your \HK-Q-T sequence — the standard attack against the spade game.
+
+[ROLE declarer][STAGE auction-end] You are in 4\S needing ten tricks. Trumps will behave, but count the diamonds: dummy's A-T-7-4 opposite your Q-6-2, missing the KING and the JACK together. One diamond trick is certain; the game wants THREE. Two honors are out against you — remember the arithmetic from the Double Finesse lesson: when two cards are missing, you get two chances, and you are allowed to lose to one of them. Plan how the suit must be played, and from which side.
+
+[ROLE declarer][STAGE post-play] Two missing honors, two chances — the double-finesse arithmetic in work clothes. You led toward your broken honors twice; the king could only beat air, the jack fell to the queen, and the ten collected the dividend. Count the missing honors before you play the suit: two out means two ways to win.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "9"]
+[OriginalBoard "472"]
+[OriginalScenario "Jordan_2N"]
+% D8B97A64B9900C14209A4F35CA92
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:9874.953.AKJ63.5 KQ5.T862.95.K632 AJT62.Q7.T72.AJ4 3.AKJ4.Q84.QT987"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    X     4S    Pass
+Pass  Pass
+[Play "W"]
+HA H3 H2 H7
+HK H5 H6 HQ
+C7 C5 CK CA
+D8 DJ D5 D2
+D4 DK D9 D7
+S3 S4 SQ SA
+C8 S7 C2 C4
+H4 H9 HT S2
+CQ S8 C3 CJ
+C9 S9 SK S6
+HJ D3 H8 ST
+CT D6 S5 SJ
+DQ DA C6 DT
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \HA, top of your \HA-K — take your tricks and a look at dummy while you decide.
+
+[ROLE declarer][STAGE auction-end] You are in 4\S after West's takeout double, needing ten tricks. The diamond suit is the crux: dummy's A-K-J-6-3 opposite your T-7-2, missing the queen — and this is a TWO-WAY position. Dummy's jack traps her if she sits with West; your ten traps her if she sits with East. You cannot try both. Before touching the suit, replay the auction in your mind: somebody at this table promised opening values, and somebody else promised nothing at all.
+
+[ROLE declarer][STAGE post-play] The two-way finesse from the lesson, resolved the grown-up way: not by coin flip but by listening. West's takeout double marked the queen, the jack-side hook was the only one you ever considered, and the queen was dead the moment the auction ended. When both hooks are available, the bidding usually casts the deciding vote.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "10"]
+[OriginalBoard "111"]
+[OriginalScenario "Found_Rabbis_Rule"]
+% 6AA493D706789D1888B4091CBC5C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:J854.J75.9432.KQ T2.KQ9842.T875.J AK9763.A.AQJ6.95 Q.T63.K.AT876432"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "S"]
+1S    4C    Pass  Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+CA CQ CJ C5
+C2 CK S2 C9
+H3 H5 H2 HA
+SQ S4 ST SK
+DK D2 D5 DA
+C3 D3 D7 DJ
+C4 D4 D8 DQ
+H6 S5 H4 S3
+HT H7 HQ S6
+C6 S8 H8 S7
+C7 SJ H9 S9
+C8 HJ HK SA
+CT D9 DT D6
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \CA, top of your eight-card suit — cash it and look at dummy before choosing what comes next.
+
+[ROLE declarer][STAGE auction-end] West threw in a 4\C overcall — EIGHT clubs, as it turns out — and you bought the hand in 4\S, needing ten tricks. Your diamond holding is the exam's last temptation: A-Q-J-6 over dummy's 9-4-3-2, a finesse position straight off the first page of the textbook. Before you take it, do what this family taught you first and always: COUNT WEST'S HAND. Eight clubs leaves him five cards for three suits. What does that do to the odds — and to the geometry?
+
+[ROLE declarer][STAGE post-play] The cast-iron finesse was the losing play — the stiff king behind your tenace would have captured the queen, and the drop was free the whole time. That is Rabbi's Rule exactly as the lesson taught it: not a superstition, a COUNT. Eight clubs on your left made the king short; the ace asked no questions. The prettier the finesse looks, the harder you should count before taking it.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "11"]
+[OriginalBoard "316"]
+[OriginalScenario "Fourth_Bid_Inviting"]
+% 3A8512CB7DED16EF18DA3473A3E6
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:K975.AQ.JT8.Q843 J4.K976.Q76.K962 A3.T832.A952.AJT QT862.J54.K43.75"]
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 600"]
+[Scoring "MP"]
+[Auction "S"]
+1D    Pass  1S    Pass
+1N    Pass  2N    Pass
+3N    Pass  Pass  Pass
+[Play "W"]
+S6 S5 S4 SA
+S2 SK SJ S3
+D3 D8 DQ DA
+DK DT D6 D2
+H4 HA H6 H2
+D4 DJ D7 D5
+C5 CQ C2 CT
+C7 C3 C6 CJ
+S8 C4 C9 CA
+ST C8 H7 D9
+H5 HQ HK H3
+HJ S7 H9 H8
+SQ S9 CK HT
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \S6, fourth-best from your longest suit — the standard start against 3NT.
+
+[ROLE declarer][STAGE auction-end] You are in 3NT needing nine tricks, and no single suit gets you there. TWO suits offer extra tricks: the diamonds, where your ace-nine sits over dummy's jack-ten-eight, and the clubs, where dummy's queen and your ace-jack-ten surround the missing honors. The exam question is not "which finesse wins" — it is "in what ORDER do you take your chances, so that if the first fails, the second is still standing?"
+
+[ROLE declarer][STAGE post-play] Choice of Finesses, the combining lesson: two 50-50 chances taken in the right order are three chances in four. The diamond chance died and it did not matter, because you had spent it FIRST, cheaply, while the club chance was still intact. Take your chances in the order that keeps the survivor alive — the deepest habit on the whole finesse shelf.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "12"]
+[OriginalBoard "307"]
+[OriginalScenario "Splinters_after_Minor"]
+% 398AE393875F753C69C6D7FD63ED
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:8.AJ6.KQ3.KQJT53 T973.QT5.J965.A6 AQJ.K732.A7.9742 K6542.984.T842.8"]
+[Declarer "S"]
+[Contract "6C"]
+[Result "12"]
+[Score "NS 920"]
+[Scoring "MP"]
+[Auction "S"]
+1C    Pass  2C =1=    Pass
+2D    Pass  4C    Pass
+4D =2=    Pass  4H =3=    Pass
+4S =4=    Pass  4N =5=    Pass
+5H =6=    Pass  6C    Pass
+Pass  Pass
+[Play "W"]
+H9 HJ HQ HK
+C8 CT CA C2
+S2 S8 S3 SA
+SK C3 S7 SJ
+H4 HA H5 H2
+D2 D3 D9 DA
+D4 DQ D5 D7
+D8 DK D6 H3
+S4 CJ C6 C4
+S5 CQ HT C7
+S6 C5 DJ C9
+H8 H6 S9 SQ
+DT CK ST H7
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \H9, top of your small hearts — the passive choice against a slam when nothing else appeals.
+
+[ROLE declarer][STAGE auction-end] You are in 6\C missing the trump ace — so eleven of the remaining twelve tricks must be yours the moment it is gone. Count: five trump tricks once the ace is out, three hearts after that lead, three diamonds. Eleven. The twelfth hides in the spade suit — your \SA-Q-J facing dummy's singleton 8. The exam question: how do you conjure a trick from A-Q-J when you cannot afford to LOSE the lead even once more?
+
+[ROLE declarer][STAGE post-play] The ruffing finesse at the slam table — the one finesse that risks nothing, which is exactly what a contract with a certain loser demands. You could not afford a losing hook, so you chose the hook that cannot lose. Two boards to go.}
+[Note "1:Inverted minors"]
+[Note "2:Cue bid, a !D stopper"]
+[Note "3:Cue bid, a !H stopper"]
+[Note "4:Cue bid, a !S stopper"]
+[Note "5:Blackwood 1430, for !C"]
+[Note "6:A=2/5 or 5/5, Q(C)=0"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "13"]
+[OriginalBoard "11"]
+[OriginalScenario "Takeout_Double"]
+% 0407ABA2174ED569B351E32EC5BE
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AJ4.AT3.T42.QT42 T86.J96.K8.AKJ75 KQ72.KQ854.AJ93. 953.72.Q765.9863"]
+[Declarer "S"]
+[Contract "6H"]
+[Result "12"]
+[Score "NS 980"]
+[Scoring "MP"]
+[Auction "E"]
+1C    1H    Pass  2H
+Pass  4C =1=    Pass  4D =2=
+Pass  4H    Pass  4N =3=
+Pass  5S =4=    Pass  6H
+Pass  Pass  Pass
+[Play "W"]
+S9 SJ S6 S2
+S3 S4 S8 SQ
+S5 SA ST S7
+H2 H3 H6 H8
+H7 HA H9 H4
+DQ D2 D8 D9
+D5 D4 DK DA
+C3 HT HJ HQ
+D6 DT C5 D3
+C6 C2 CK H5
+D7 C4 C7 DJ
+C8 CT CJ SK
+C9 CQ CA HK
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \S9, top of your small spades — the safe choice against the slam with nothing attractive anywhere.
+
+[ROLE declarer][STAGE auction-end] You are in 6\H after EAST opened the bidding — remember that; it is the only clue you get. Trumps are strong, spades run, clubs disappear on a void. Everything narrows to diamonds: your \DA-J-9-3 opposite T-4-2, missing the king AND queen, and you can afford exactly ONE loser there. Where are those honors, and how do you play the suit so the dangerous one never scores?
+
+[ROLE declarer][STAGE post-play] Evidence first, then a deep finesse: the nine lost to the queen, and that was FINE — it was East's marked king that could never be allowed to score, and it never did. You spent the loser you could afford to trap the honor you could not. That is finesse play at the slam table: the auction told you which opponent to play for what.}
+[Note "1:Splinter"]
+[Note "2:surplus"]
+[Note "3:Blackwood 1430, for !H"]
+[Note "4:A=2/5 or 5/5, Q(H)=1"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Finesse_Exam"]
+[Site ""]
+[Board "14"]
+[OriginalBoard "202"]
+[OriginalScenario "To_Finesse_Or_Not_To_Finesse"]
+% CBA59F9B96B0DB14CFA11EF43A54
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:853.7.AJ842.KQ97 2.KQJ9852.T6.J53 AKQJT6.A6.K75.A6 974.T43.Q93.T842"]
+[Declarer "S"]
+[Contract "7S"]
+[Result "13"]
+[Score "NS 2210"]
+[Scoring "MP"]
+[Auction "S"]
+2C =1=    Pass  3D    Pass
+3S    Pass  4N =2=    Pass
+5C =3=    Pass  5D    Pass
+6D =4=    Pass  7S    Pass
+Pass  Pass
+[Play "W"]
+C2 C7 CJ CA
+CT CQ C3 C6
+C4 C9 C5 D5
+D3 D2 DT DK
+D9 DJ D6 D7
+S4 S3 S2 ST
+S7 S5 H2 SJ
+H3 H7 H5 HA
+HT S8 H8 H6
+DQ DA H9 S6
+S9 D4 HJ SQ
+H4 D8 HQ SK
+C8 CK HK SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \C2, a low club from your \CT842 — fourth-best from your longest suit.
+
+[ROLE declarer][STAGE auction-end] The final board: 7\S, all thirteen tricks required, nothing to spare and nothing to hide behind. After a baker’s dozen of hooks, ruffs, drops, deep nines, and combined chances, here is the last question this exam will ask you: how many finesses does THIS hand need? Count every suit before you answer.
+
+[ROLE declarer][STAGE post-play] The answer to the final question was NONE — with thirteen tricks on top, every finesse was pure risk and zero reward. And that is the whole family in one sentence: the finesse is a tool for tricks you have not already got. Count first, listen second, hook only when the count and the auction say you must — and when they do, hook without fear. Exam complete; well played.}
+[Note "1:strong"]
+[Note "2:Blackwood 0123, for !S"]
+[Note "3:A=0/5 or 4/5"]
+[Note "4:!S queen and !D king"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

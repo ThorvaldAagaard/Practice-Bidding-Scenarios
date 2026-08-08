@@ -1,0 +1,249 @@
+[Event "Rabbis_Rule"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "354"]
+[OriginalScenario "Rabbis_Rule"]
+% 8A5F5DBF737A0C1C8EEFF33C9D29
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J854.J75.9432.KQ T2.KQ9842.T875.J AK9763.A.AQJ6.95 Q.T63.K.AT876432"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    4C    4S    Pass
+Pass  Pass
+[Play "W"]
+CA CQ CJ C5
+C2 CK S2 C9
+H3 H5 H2 HA
+SQ S4 ST SK
+DK D2 D5 DA
+C3 D3 D7 DJ
+C4 D4 D8 DQ
+H6 S5 H4 S3
+HT H7 HQ S6
+C6 S8 H8 S7
+C7 SJ H9 S9
+C8 HJ HK SA
+CT D9 DT D6
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CA. You leapt to 4\C on an eight-card suit, so lead it — cash the ace and get a look at dummy.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S. West's jump to 4\C screamed a long club suit — seven or eight of them — which leaves him almost no room in the other suits. You hold \DAQJ6 opposite three small, missing only the king. The reflex is to finesse, but West is marked with at most a card or two in diamonds, so a \DK in his hand is odds-on to be bare. Cash the \DA and drop it.
+
+[ROLE declarer][STAGE post-lead]
+Win the club and draw trumps. In diamonds, forget the finesse: West's 4\C told you he is short here, so lay down the \DA and watch his singleton king fall. Finesse instead and you hand him a trick he should never make.
+
+[ROLE declarer][STAGE post-play]
+You played West for the short king because his bidding placed it there — that is Rabbi's Rule done right, not superstition. A preempt marks a long suit and, just as surely, marks the short ones.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Rabbis_Rule"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "396"]
+[OriginalScenario "Rabbis_Rule"]
+% E5E437411EBBDE2239B80A2957AF
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J95.42.9763.KQ72 T.KQJ865.T542.94 AK7632.A7.AQJ8.6 Q84.T93.K.AJT853"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    2C    2S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+CA C2 C4 C6
+H3 H2 H8 HA
+S4 S5 ST SK
+DK D3 D2 DA
+H9 H4 H5 H7
+HT D6 H6 S2
+S8 S9 D4 SA
+SQ D7 D5 DJ
+C3 CQ C9 D8
+C5 D9 DT DQ
+C8 SJ HJ S3
+CT CK HQ S6
+CJ C7 HK S7
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CA, top of the suit you overcalled, and take a look at dummy.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S. West overcalled 2\C, promising a six-card suit and a hand with little length elsewhere. Missing the \DK with \DAQJ8 opposite dummy, you would ordinarily finesse — but the overcaller rates to be short in diamonds, so play him for a singleton king. Cash the \DA.
+
+[ROLE declarer][STAGE post-lead]
+Win the club, draw trumps, and in diamonds lay down the ace rather than finessing. West's overcall marked him short, so his lone \DK drops under it. The finesse would have lost to that very king.
+
+[ROLE declarer][STAGE post-play]
+The count, handed to you by West's overcall, turned a fifty-fifty guess into a near-certainty. Play the opponent who bid a long suit for shortness everywhere else.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Rabbis_Rule"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "81"]
+[OriginalScenario "Rabbis_Rule"]
+% 1D8153E46370195A88B55E3B0B2D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q64.865.762.KJT8 7.KQJ93.JT984.64 AKT852.AT.AQ53.2 J93.742.K.AQ9753"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    2C    2S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+CA C8 C4 C2
+H2 H5 HJ HA
+S3 S4 S7 SK
+DK D2 D4 DA
+S9 SQ H3 S2
+C3 CK C6 D3
+SJ S6 H9 SA
+H4 H6 HQ HT
+C5 D6 D8 DQ
+C7 D7 D9 S5
+H7 H8 DT S8
+C9 CT HK ST
+CQ CJ DJ D5
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CA — your long suit, the one you bid.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S, and West's 2\C overcall marks a six-card club suit, so his other suits are thin. With \DAQ53 facing small and the king missing, do not finesse into thin air — the overcaller is short in diamonds, so his \DK is likely singleton. Cash the ace.
+
+[ROLE declarer][STAGE post-lead]
+Win, draw trumps, and cash the \DA. West, marked short by his overcall, produces the bare king. A finesse would have gifted him a diamond trick and the contract.
+
+[ROLE declarer][STAGE post-play]
+You let West's bid locate the king. That is the whole of good-bridge Rabbi's Rule: play the long-suit bidder for shortness, and drop the honour you were told is bare.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Rabbis_Rule"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "97"]
+[OriginalScenario "Rabbis_Rule"]
+% 4A37CD9895A1EBB8432521CE14CD
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q65.T653.8754.KJ .KQ942.JT96.T852 AKJT32.AJ.AQ32.9 9874.87.K.AQ7643"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    2C    2S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+CA CJ C2 C9
+H7 HT HQ HA
+DK D4 D6 DA
+S4 S5 H2 SK
+S7 SQ H4 S2
+C3 CK C5 D2
+S8 S6 H9 ST
+S9 H3 D9 SJ
+H8 H5 HK HJ
+C4 D5 DT DQ
+C6 D7 DJ D3
+C7 H6 C8 S3
+CQ D8 CT SA
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CA, the top of your overcalled suit.
+
+[ROLE declarer][STAGE auction-end]
+You reach 4\S after West's 2\C overcall — a long club suit, and therefore short holdings elsewhere. Missing the \DK with \DAQ32 opposite dummy, resist the finesse: West is marked short in diamonds, so a king in his hand is odds-on singleton. Cash the ace and drop it.
+
+[ROLE declarer][STAGE post-lead]
+Win the club, pull trumps, then play the \DA. West's overcall placed him short, and his stiff king falls. Finesse and you lose to a king that was always going to drop.
+
+[ROLE declarer][STAGE post-play]
+The bidding did the finessing for you. When an opponent advertises length, believe the matching shortness — and cash for the drop.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Rabbis_Rule"]
+[Site ""]
+[Board "5"]
+[OriginalBoard "283"]
+[OriginalScenario "Rabbis_Rule"]
+% 53594F9E284D3B01BE42B471F253
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J96.J2.J962.KQ65 8.KQ98765.T754.7 AKT732.A.AQ83.J8 Q54.T43.K.AT9432"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+[Auction "S"]
+1S    2C    2S    Pass
+4S    Pass  Pass  Pass
+[Play "W"]
+CA C5 C7 C8
+C2 CQ S8 CJ
+H3 H2 H5 HA
+DK D2 D4 DA
+S4 S6 H6 SK
+S5 S9 H7 SA
+SQ D6 D5 D3
+H4 HJ HQ S2
+C3 DJ D7 D8
+C4 D9 DT DQ
+HT SJ H8 S3
+C9 CK H9 S7
+CT C6 HK ST
+{[show NESW]
+[ROLE leader][STAGE pre-lead]
+Lead the \CA, top of the suit you showed.
+
+[ROLE declarer][STAGE auction-end]
+You are in 4\S; West overcalled 2\C and rates to hold six clubs and little length outside. With \DAQ83 facing small and the king out, play the marked man short: cash the \DA rather than finessing, because his \DK is likely a singleton.
+
+[ROLE declarer][STAGE post-lead]
+Win, draw trumps, and lead out the \DA. West's overcall marked the short diamond, and his lone king drops. The finesse loses to it.
+
+[ROLE declarer][STAGE post-play]
+You did not gamble on the singleton king — West's bidding told you he was short, so you played him for it. Read the auction, and the "lucky" drop becomes sound technique.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

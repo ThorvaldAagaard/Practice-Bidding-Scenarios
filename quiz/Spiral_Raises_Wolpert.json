@@ -1,0 +1,1125 @@
+{
+  "schema": "quiz-lesson/v1",
+  "id": "Spiral_Raises_Wolpert",
+  "title": "Spiral Raises Wolpert",
+  "provenance": {
+    "source": "Practice-Bidding-Scenarios",
+    "pipeline_version": "1.0.0",
+    "generated": "2026-07-30",
+    "source_quiz": "Spiral_Raises_Wolpert"
+  },
+  "exercises": [
+    {
+      "id": "Spiral_Raises_Wolpert-1",
+      "type": "bidding",
+      "title": "Exercise One — Opening Bids",
+      "prompt": "What do you open with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "J",
+            "hearts": "QT6",
+            "diamonds": "Q982",
+            "clubs": "AKQ42"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "answer": "1C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08790DE18C27525234E7DCD90FC1",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "J985",
+            "hearts": "K7",
+            "diamonds": "AQ",
+            "clubs": "QT876"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "answer": "1C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0B0E20FD97F998852179975A0370",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "5",
+            "hearts": "J875",
+            "diamonds": "A98",
+            "clubs": "AKQ65"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "answer": "1C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A05D90928C347E42E5DA9D270DC",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "AJ62",
+            "hearts": "QJ52",
+            "diamonds": "J94",
+            "clubs": "A5"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "answer": "1D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "099D4320AA4C0B1ECC96E1DA34A4",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "A732",
+            "hearts": "7",
+            "diamonds": "AKQ74",
+            "clubs": "T86"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "answer": "1D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A841677CE597E3DA40133D49BB8",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 5
+          }
+        },
+        {
+          "hand": {
+            "spades": "4",
+            "hearts": "AT72",
+            "diamonds": "AQJ87",
+            "clubs": "Q74"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "answer": "1D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0860C70112EAD8D2617707853E6C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spiral_Raises_Wolpert-2",
+      "type": "bidding",
+      "title": "Exercise Two — Responding to 1♣",
+      "prompt": "Partner opens 1♣. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "KT73",
+            "hearts": "KJ32",
+            "diamonds": "A4",
+            "clubs": "T63"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "1H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08790DE18C27525234E7DCD90FC1",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQJ7",
+            "hearts": "AQT9",
+            "diamonds": "762",
+            "clubs": "T9"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "1H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A05D90928C347E42E5DA9D270DC",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q962",
+            "hearts": "AQ64",
+            "diamonds": "QJ62",
+            "clubs": "9"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "1H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A44690DFD613798B60EE241D83E",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 12
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK73",
+            "hearts": "A83",
+            "diamonds": "J85",
+            "clubs": "J53"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0B0E20FD97F998852179975A0370",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "QT73",
+            "hearts": "QT4",
+            "diamonds": "AQ98",
+            "clubs": "J5"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09B15A01DB0EA2901876EFC52CE4",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 6
+          }
+        },
+        {
+          "hand": {
+            "spades": "K752",
+            "hearts": "Q96",
+            "diamonds": "KT6",
+            "clubs": "AJT"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A7208E9F934A752AC13DFADC14",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spiral_Raises_Wolpert-3",
+      "type": "bidding",
+      "title": "Exercise Three — Responding to 1♦",
+      "prompt": "Partner opens 1♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "Q983",
+            "hearts": "KT97",
+            "diamonds": "KQ5",
+            "clubs": "K9"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "1H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "099D4320AA4C0B1ECC96E1DA34A4",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "QJ53",
+            "hearts": "KQ54",
+            "diamonds": "T9",
+            "clubs": "K65"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "1H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0860C70112EAD8D2617707853E6C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ75",
+            "hearts": "A953",
+            "diamonds": "97",
+            "clubs": "AT8"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "1H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "094B28DD16DB41FF32A80A9CC6E5",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 9
+          }
+        },
+        {
+          "hand": {
+            "spades": "K865",
+            "hearts": "AJ6",
+            "diamonds": "J98",
+            "clubs": "Q53"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A841677CE597E3DA40133D49BB8",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 5
+          }
+        },
+        {
+          "hand": {
+            "spades": "8762",
+            "hearts": "AJ7",
+            "diamonds": "AJ8",
+            "clubs": "K74"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0B45BBACC4FD52140F1AF1A3923C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "QT53",
+            "hearts": "K84",
+            "diamonds": "Q6",
+            "clubs": "AQ96"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08D3802BE23EBF80D5BB26462E7C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spiral_Raises_Wolpert-4",
+      "type": "bidding",
+      "title": "Exercise Four — Opener's Rebid after 1♥",
+      "prompt": "You open 1♣, partner responds 1♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "J",
+            "hearts": "QT6",
+            "diamonds": "Q982",
+            "clubs": "AKQ42"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "1NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08790DE18C27525234E7DCD90FC1",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "87",
+            "hearts": "KT5",
+            "diamonds": "A97",
+            "clubs": "KQJT4"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "1NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A44690DFD613798B60EE241D83E",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 12
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK4",
+            "hearts": "AJ97",
+            "diamonds": "QT",
+            "clubs": "T875"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08A7BF006E41EAD9E50C199AF44C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 14
+          }
+        },
+        {
+          "hand": {
+            "spades": "876",
+            "hearts": "K975",
+            "diamonds": "AK",
+            "clubs": "K763"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1A47E502F80A2FB3AD816A58F9DC",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 18
+          }
+        },
+        {
+          "hand": {
+            "spades": "K843",
+            "hearts": "K75",
+            "diamonds": "J3",
+            "clubs": "AK63"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "283DA9CAD0DB1A8C2C35E68E817C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 40
+          }
+        },
+        {
+          "hand": {
+            "spades": "9853",
+            "hearts": "AK4",
+            "diamonds": "65",
+            "clubs": "AQT5"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "6829EAC55CCD97863710816C9A3C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 110
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spiral_Raises_Wolpert-5",
+      "type": "bidding",
+      "title": "Exercise Five — Opener's Rebid after 1♠",
+      "prompt": "You open 1♣, partner responds 1♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "J985",
+            "hearts": "K7",
+            "diamonds": "AQ",
+            "clubs": "QT876"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0B0E20FD97F998852179975A0370",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQJT",
+            "hearts": "AK7",
+            "diamonds": "974",
+            "clubs": "865"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A7208E9F934A752AC13DFADC14",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 16
+          }
+        },
+        {
+          "hand": {
+            "spades": "QT92",
+            "hearts": "97",
+            "diamonds": "K3",
+            "clubs": "AKQ98"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1A111589DFBAA17D2E00FB7AC49C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 21
+          }
+        },
+        {
+          "hand": {
+            "spades": "A98",
+            "hearts": "9532",
+            "diamonds": "KJ7",
+            "clubs": "AQ4"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "1NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09B15A01DB0EA2901876EFC52CE4",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 6
+          }
+        },
+        {
+          "hand": {
+            "spades": "QT6",
+            "hearts": "AQT2",
+            "diamonds": "A7",
+            "clubs": "QT95"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "1NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "29EA07ADCFAD11771B8451543CE4",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 35
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q92",
+            "hearts": "AQT",
+            "diamonds": "JT4",
+            "clubs": "KT97"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "1NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "29E2D1A23B698D7E151F0478DF84",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 38
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spiral_Raises_Wolpert-6",
+      "type": "bidding",
+      "title": "Exercise Six — Opener's Rebid after 1♥",
+      "prompt": "You open 1♦, partner responds 1♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AJ62",
+            "hearts": "QJ52",
+            "diamonds": "J94",
+            "clubs": "A5"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "099D4320AA4C0B1ECC96E1DA34A4",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "4",
+            "hearts": "AT72",
+            "diamonds": "AQJ87",
+            "clubs": "Q74"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "2H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0860C70112EAD8D2617707853E6C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "64",
+            "hearts": "K62",
+            "diamonds": "AKT65",
+            "clubs": "Q92"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "1NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "094B28DD16DB41FF32A80A9CC6E5",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 9
+          }
+        },
+        {
+          "hand": {
+            "spades": "73",
+            "hearts": "KQ5",
+            "diamonds": "AQT4",
+            "clubs": "J963"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "1NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A06EEE639067173831DE8748953",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 15
+          }
+        },
+        {
+          "hand": {
+            "spades": "6",
+            "hearts": "J95",
+            "diamonds": "AKQ84",
+            "clubs": "A743"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "2C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0B3DDF4FE474EA5C118A264D4138",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 10
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ32",
+            "hearts": "T95",
+            "diamonds": "AKT8",
+            "clubs": "87"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1H",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "180290BBDF602AF1055A6406948C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "Spiral_Raises_Wolpert-7",
+      "type": "bidding",
+      "title": "Exercise Seven — Opener's Rebid after 1♠",
+      "prompt": "You open 1♦, partner responds 1♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "A732",
+            "hearts": "7",
+            "diamonds": "AKQ74",
+            "clubs": "T86"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A841677CE597E3DA40133D49BB8",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 5
+          }
+        },
+        {
+          "hand": {
+            "spades": "KQ43",
+            "hearts": "Q4",
+            "diamonds": "QT72",
+            "clubs": "AT5"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "2S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0B45BBACC4FD52140F1AF1A3923C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "K986",
+            "hearts": "QJ53",
+            "diamonds": "AKJ8",
+            "clubs": "7"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08D3802BE23EBF80D5BB26462E7C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 11
+          }
+        },
+        {
+          "hand": {
+            "spades": "AT87",
+            "hearts": "J",
+            "diamonds": "KQ9764",
+            "clubs": "A8"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3B95FF0E20B75F91BE7C5A3F08C0",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 52
+          }
+        },
+        {
+          "hand": {
+            "spades": "754",
+            "hearts": "KQ7",
+            "diamonds": "AQJ9",
+            "clubs": "Q86"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "1NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "190AE4293B52CA45A0FDB7907234",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 19
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK7",
+            "hearts": "5",
+            "diamonds": "Q9752",
+            "clubs": "K764"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P",
+              "1S",
+              "P"
+            ]
+          },
+          "answer": "2C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "6B8B994C3713FE729DD12FD5483C",
+            "event": "Spiral_Raises_Wolpert",
+            "board": 103
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+[Event "Double_Squeeze"]
+[Site ""]
+[Board "1"]
+[OriginalBoard "153"]
+[OriginalScenario "3N"]
+% 99A98849325378067DE3D17EFE87
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:J8.KQ82.JT65.T62 QT974.T5.82.J843 AK2.A6.AKQ9.AQ75 653.J9743.743.K9"]
+[Declarer "S"]
+[Contract "6N"]
+[Result "12"]
+[Score "NS 990"]
+[Scoring "MP"]
+[Auction "S"]
+3N    Pass  6N    Pass
+Pass  Pass
+[Play "W"]
+H4 H2 HT HA
+H9 HQ H5 H6
+D3 D5 D2 DQ
+D4 D6 D8 DK
+C9 C2 C3 CA
+CK C6 C4 C5
+S3 S8 S9 SK
+D7 DT S4 DA
+H3 CT C8 CQ
+S5 DJ S7 D9
+H7 HK ST C7
+S6 SJ SQ SA
+HJ H8 CJ S2
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \H4, fourth-best from your longest and strongest — the classic start against notrump.
+
+[ROLE declarer][STAGE auction-end] You are in 6NT needing twelve tricks. Count: two spades, three hearts, four diamonds, and the club ace make ten; the club queen would be eleven if the finesse worked — and it does not, the king is offside. So the twelfth trick exists nowhere in the high cards. It will have to be GROWN: give the defense its club trick early, run everything you own, and make both defenders answer the same impossible question. Keep your eye on the smallest card in your hand — the two of spades.
+
+[ROLE declarer][STAGE post-lead] Win the heart ace, cross to the queen, and cash two top diamonds. Now the key move: club ace, then a LOW club, conceding to West's king while you still control every suit — the count is rectified. Win the spade return, cash the diamond ace, the club queen, the fourth diamond, dummy's heart king. Watch what the run does: East must hold the \CJ (your \C7 sits ready to grow), West must hold the \HJ (dummy's \H8 is watching him), so spade after spade rains out of both hands — East started with FIVE, West with three. Ace and king of spades, and at trick thirteen the \S2 — the smallest card in the deck's oldest suit — wins the slam.
+
+[ROLE declarer][STAGE post-play] That was a DOUBLE squeeze: the simple squeeze needs one defender guarding two suits; here EACH defender guarded his own suit — East the clubs, West the hearts — so NEITHER could keep the third. Your spade deuce needed every one of their eight spades to leave first, and the run collected all eight. Note the parts: one menace against East (the club seven), one against West (dummy's heart eight), and a LENGTH menace in the common suit that both defenders had to abandon. Rectify, run, and the deuce does the rest.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Double_Squeeze"]
+[Site ""]
+[Board "2"]
+[OriginalBoard "176"]
+[OriginalScenario "Smolen"]
+% A92B0BA674D154C63ABD697C0F08
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:AK732.K832.T.AK3 J954.T9.QJ98.Q87 Q6.AQ5.AK752.T65 T8.J764.643.J942"]
+[Declarer "S"]
+[Contract "6N"]
+[Result "12"]
+[Score "NS 990"]
+[Scoring "MP"]
+[Auction "S"]
+1N    Pass  2C    Pass
+2D    Pass  3H    Pass
+3N    Pass  6N    Pass
+Pass  Pass
+[Play "W"]
+H4 H2 H9 HQ
+H6 HK HT H5
+S8 S2 S4 SQ
+ST SK S5 S6
+C2 SA S9 D2
+D3 S3 SJ D5
+D4 DT DJ DK
+C4 CK C7 C5
+D6 S7 D8 C6
+H7 H3 C8 HA
+C9 H8 D9 DA
+CJ CA CQ CT
+HJ C3 DQ D7
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \H4, fourth-best from your longest and strongest — the classic start against notrump.
+
+[ROLE declarer][STAGE auction-end] Smolen carried you to 6NT and the lead comes to your A-Q-5. Count: three top spades, three hearts, two diamonds, two clubs — ten, eleven if the fifth spade behind A-K-7-3-2 can be built. Twelve is not in sight. The plan has three moves you now know by name: rectify the count with the spade the suit owes anyway, cash the long spade and everything after it, and watch two defenders try to guard three suits between them.
+
+[ROLE declarer][STAGE post-lead] The heart four rides to your queen; cross to the king. Spades now — queen first to unblock, king, ace (West is out on the third round), and CONCEDE the fourth to East's jack: the count is rectified, and dummy's fifth spade is a winner. Win the diamond return with the king, cash the club king, and play that fifth spade — East lets a diamond go. Heart ace — East lets a club go. Diamond ace — and here is the double squeeze at full pressure: West must keep the \HJ behind dummy's \H8, so he releases a club; East must keep the \DQ over your \D7, so he releases another diamond. Now the club ace — and BOTH remaining club honors, West's jack and East's queen, crash under it together. Dummy's \C3 takes trick thirteen.
+
+[ROLE declarer][STAGE post-play] The same machine as the last hand, with the menaces split between the two hands: dummy's heart eight held West at his post, your diamond seven held East at his, and the club length in dummy was the suit nobody could afford. The moment worth replaying is the club ace gathering the jack and queen in one trick — neither defender erred; each kept what he HAD to keep, and the three grew up regardless. When each opponent is busy in his own suit, count your smallest cards in the third: one of them is your slam.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Double_Squeeze"]
+[Site ""]
+[Board "3"]
+[OriginalBoard "444"]
+[OriginalScenario "Impossible_2S"]
+% BA6DE328CF5295FBBE97523FE821
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:Q42.J.AJ74.KJ864 AT5.T965.Q83.T75 976.AKQ32.96.A92 KJ83.874.KT52.Q3"]
+[Declarer "S"]
+[Contract "4C"]
+[Result "10"]
+[Score "NS 130"]
+[Scoring "MP"]
+[Auction "S"]
+1H    Pass  1N    Pass
+2C    Pass  2S    Pass
+3H    Pass  4C    Pass
+Pass  Pass
+[Play "W"]
+S3 S2 ST S6
+SK S4 S5 S9
+S8 SQ SA S7
+DK DA D3 D6
+C3 C4 C5 CA
+CQ CK C7 C2
+D2 CJ CT C9
+H4 C6 H5 H2
+H7 HJ H6 HQ
+H8 D4 H9 HK
+D5 D7 HT HA
+DT DJ D8 H3
+SJ C8 DQ D9
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \S3, fourth-best — their 2\S was artificial, so the suit is really yours.
+
+[ROLE declarer][STAGE auction-end] A quiet 4\C, and the point of this hand: squeezes are not slam furniture. Ten tricks need the diamond ace, four trump tricks plus a ruff, and FOUR heart tricks from A-K-Q-3-2 — but the defenders hold seven hearts between them, so the fourth round loses by every ordinary reckoning. Let them cash their spades; count what falls; and notice that dummy's modest \DJ-7 will end up commanding two defenders at once.
+
+[ROLE declarer][STAGE post-lead] Three rounds of spades — the defense takes them and, without meaning to, rectifies the count for you. East shifts to a diamond; take dummy's ace as West's king pops up. Now trumps: ace, king felling West's queen, the jack felling East's ten, and the FOURTH trump is the squeeze card. East must keep the \DQ behind dummy's jack; West must keep the \DT behind dummy's seven; so East parts with a heart and West parts with a heart — the only cards they can spare, and exactly the cards they cannot afford. Overtake the heart jack with the queen, cash the king and ace — everyone follows — and the \H3 wins trick twelve. Ruff your last diamond in dummy for ten.
+
+[ROLE declarer][STAGE post-play] A double squeeze to make a PART-SCORE, with both side menaces stacked in ONE suit at two heights: the jack tortured East's queen while the seven tortured West's ten, and the common suit was your own ragged five-card heart holding. West began with three hearts above your three, East with four; the trump run made both of them shorter than your suit. The count, the run, the watch — the machine is the same at every level of the auction; carry it with you below the slam line.}
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Double_Squeeze"]
+[Site ""]
+[Board "4"]
+[OriginalBoard "351"]
+[OriginalScenario "SCS_Impossible_Negative"]
+% 5A272B45B21AC28D30EAF7E647FA
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:AKT7.Q983.8.AK53 Q3.T.KT62.JT9642 J8.AK64.AQ543.Q8 96542.J752.J97.7"]
+[Declarer "S"]
+[Contract "7H"]
+[Result "13"]
+[Score "NS 2210"]
+[Scoring "MP"]
+[Auction "S"]
+1C =1=    Pass  2N =2=    Pass
+3C =3=    Pass  3D =4=    Pass
+3H    Pass  4N =5=    Pass
+5C =6=    Pass  5N =7=    Pass
+6C =8=    Pass  7H    Pass
+Pass  Pass
+[Play "W"]
+C7 CK C2 C8
+H2 H3 HT HK
+S2 SK S3 S8
+H5 H8 D2 HA
+HJ HQ C4 H4
+H7 H9 D6 H6
+S4 C3 C6 CQ
+S5 SA SQ SJ
+D7 CA C9 D3
+D9 D8 DT DQ
+DJ S7 DK DA
+S6 C5 CT D4
+S9 ST CJ D5
+{[show NESW]
+[ROLE leader][STAGE pre-lead] Lead the \C7, your singleton. Against a grand slam the first rule is safety — with two points and no sequence, the short suit gives nothing away.
+
+[ROLE declarer][STAGE auction-end] The relay auction told the whole story — a strong club, partner's 2NT showing some 4-4-4-1, the asks locating his singleton diamond and the heart fit, Blackwood confirming every keycard — and 7\H needs all thirteen. Count: four trump tricks even through West's jack-fourth, two top spades and a third when the queen falls, three clubs, the diamond ace-queen. Twelve. The thirteenth hides in your ragged diamonds — A-Q-5-4-3 opposite dummy's bare eight, seven of them out against you. For little diamonds to score, BOTH defenders must abandon the suit: that is the double squeeze, and this hand plays it for the biggest prize in the game.
+
+[ROLE declarer][STAGE post-lead] Dummy's club king wins trick one. Trumps: king, ace, the queen over West's jack, the nine drawing his last — and East, out after one round, has already let two diamonds go. Spades next: the king, then the jack overtaken by the ace as East's doubleton queen crashes — dummy's ten and seven now tower over West's nine-six, so West is pinned to spades for the rest of his cards. Club queen, club ace — East must cling to his clubs against dummy's five, so West's third diamond leaves instead. Now the harvest: the eight to your QUEEN through East's ten, and the ACE — king and jack fall on it TOGETHER, both guards in one trick. Your FOUR and FIVE of diamonds — the two smallest cards of the suit — win tricks twelve and thirteen. Grand slam.
+
+[ROLE declarer][STAGE post-play] The full double squeeze, one level up from the lesson's other boards: East welded to clubs by dummy's fourth-round five, West welded to spades by dummy's ten-seven, and the common suit — your own five ragged diamonds — abandoned by both because neither had a card to spare. Notice how early the pressure began: East's diamonds went at tricks four and six, under the trumps, long before anything looked dangerous. And the ace gathering king and jack together is the double squeeze's signature — both defenders convicted in the same instant. When the auction buys a grand, the play must supply perfection; this is the machine that manufactures it.}
+[Note "1:16+ HCP"]
+[Note "2:any 4441"]
+[Note "3:artificial ask"]
+[Note "4:artificial"]
+[Note "5:Blackwood 0314, for !H"]
+[Note "6:A=0/5 or 3/5"]
+[Note "7:King ask by 5NT"]
+[Note "8:K=0"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

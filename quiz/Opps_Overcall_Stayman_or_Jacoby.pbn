@@ -191,7 +191,7 @@ Partner opens 1NT. What do you bid with each of these hands?}
 [Date ""]
 {<b>Exercise Two — Opener's Rebid after 2\D</b>
 
-You open 1NT, partner responds 2\D, opponent bids 2\H. What do you bid with each of these hands?}
+You open 1NT, partner responds 2\D, RHO bids 2\H. What do you bid with each of these hands?}
 [Board "2"]
 [West ""]
 [North ""]
@@ -617,7 +617,7 @@ You open 1NT, partner responds 2\D, opponent bids 2\H. What do you bid with each
 [Date ""]
 {<b>Exercise Three — Opener's Rebid after 2\D</b>
 
-You open 1NT, partner responds 2\D, opponent bids 2\S. What do you bid with each of these hands?}
+You open 1NT, partner responds 2\D, RHO bids 2\S. What do you bid with each of these hands?}
 [Board "3"]
 [West ""]
 [North ""]
@@ -782,7 +782,7 @@ You open 1NT, partner responds 2\D, opponent bids 2\S. What do you bid with each
 [Date ""]
 {<b>Exercise Four — Opener's Rebid after 2\D</b>
 
-You open 1NT, partner responds 2\D, opponent bids 3\C. What do you bid with each of these hands?}
+You open 1NT, partner responds 2\D, RHO bids 3\C. What do you bid with each of these hands?}
 [Board "4"]
 [West ""]
 [North ""]
@@ -1245,7 +1245,7 @@ You open 1NT, partner responds 2\D, opponent bids 3\C. What do you bid with each
 [Date ""]
 {<b>Exercise Five — Opener's Rebid after 2\D</b>
 
-You open 1NT, partner responds 2\D, opponent bids 3\D. What do you bid with each of these hands?}
+You open 1NT, partner responds 2\D, RHO bids 3\D. What do you bid with each of these hands?}
 [Board "5"]
 [West ""]
 [North ""]
@@ -1350,7 +1350,7 @@ You open 1NT, partner responds 2\D, opponent bids 3\D. What do you bid with each
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:A84.AQ54.Q2.KQ95 ... ... ..."]
+[Deal "S:AJ8.AT86.T87.AK8 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -1369,7 +1369,7 @@ You open 1NT, partner responds 2\D, opponent bids 3\D. What do you bid with each
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AKQ85.QJ9.JT7.A9 ... ... ..."]
+[Deal "S:A84.AQ54.Q2.KQ95 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -1410,7 +1410,7 @@ You open 1NT, partner responds 2\D, opponent bids 3\D. What do you bid with each
 [Date ""]
 {<b>Exercise Six — Opener's Rebid after 2\D</b>
 
-You open 1NT, partner responds 2\D, opponent bids 3\S. What do you bid with each of these hands?}
+You open 1NT, partner responds 2\D, RHO bids 3\S. What do you bid with each of these hands?}
 [Board "6"]
 [West ""]
 [North ""]
@@ -1799,7 +1799,7 @@ You open 1NT, partner responds 2\D, opponent bids 3\S. What do you bid with each
 [Date ""]
 {<b>Exercise Seven — Opener's Rebid after 2\H</b>
 
-You open 1NT, partner responds 2\H, opponent bids 2\S. What do you bid with each of these hands?}
+You open 1NT, partner responds 2\H, RHO bids 2\S. What do you bid with each of these hands?}
 [Board "7"]
 [West ""]
 [North ""]
@@ -1852,7 +1852,7 @@ You open 1NT, partner responds 2\H, opponent bids 2\S. What do you bid with each
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<i>3\S</i>}
+{<i>X</i>}
 [BCFlags "60001b"]
 [Hidden "NEW"]
 
@@ -1897,25 +1897,6 @@ You open 1NT, partner responds 2\H, opponent bids 2\S. What do you bid with each
 [Event ""]
 [Site ""]
 [Date ""]
-[Board "7-5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "S"]
-[Vulnerable "None"]
-[Deal "S:AQ8.AT2.93.AJ942 ... ... ..."]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<i>Pass</i>}
-[BCFlags "60001b"]
-[Hidden "NEW"]
-
-[Event ""]
-[Site ""]
-[Date ""]
 [Board "spacer"]
 [West ""]
 [North ""]
@@ -1945,7 +1926,7 @@ You open 1NT, partner responds 2\H, opponent bids 2\S. What do you bid with each
 [Date ""]
 {<b>Exercise Eight — Opener's Rebid after 2\H</b>
 
-You open 1NT, partner responds 2\H, opponent bids 3\C. What do you bid with each of these hands?}
+You open 1NT, partner responds 2\H, RHO bids 3\C. What do you bid with each of these hands?}
 [Board "8"]
 [West ""]
 [North ""]
@@ -2164,7 +2145,7 @@ You open 1NT, partner responds 2\H, opponent bids 3\C. What do you bid with each
 [Declarer ""]
 [Contract ""]
 [Result ""]
-{<b>7-2)</b> <i>3\S</i>}
+{<b>7-2)</b> <i>X</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -2201,24 +2182,6 @@ You open 1NT, partner responds 2\H, opponent bids 3\C. What do you bid with each
 [Contract ""]
 [Result ""]
 {<b>7-4)</b> <i>Pass</i>}
-[BCFlags "17"]
-
-[Event ""]
-[Site ""]
-[Date ""]
-[Board "7-5"]
-[West ""]
-[North ""]
-[East ""]
-[South ""]
-[Dealer "N"]
-[Vulnerable "None"]
-[Deal ""]
-[Scoring ""]
-[Declarer ""]
-[Contract ""]
-[Result ""]
-{<b>7-5)</b> <i>Pass</i>}
 [BCFlags "17"]
 
 [Event ""]
@@ -2390,7 +2353,7 @@ You open 1NT, partner responds 2\H, opponent bids 3\C. What do you bid with each
 [Date ""]
 {<b>Exercise Nine — Opener's Rebid after 2\H</b>
 
-You open 1NT, partner responds 2\H, opponent bids 3\D. What do you bid with each of these hands?}
+You open 1NT, partner responds 2\H, RHO bids 3\D. What do you bid with each of these hands?}
 [Board "9"]
 [West ""]
 [North ""]
@@ -2555,7 +2518,7 @@ You open 1NT, partner responds 2\H, opponent bids 3\D. What do you bid with each
 [Date ""]
 {<b>Exercise Ten — Opener's Rebid after 2\H</b>
 
-You open 1NT, partner responds 2\H, opponent bids 3\H. What do you bid with each of these hands?}
+You open 1NT, partner responds 2\H, RHO bids 3\H. What do you bid with each of these hands?}
 [Board "10"]
 [West ""]
 [North ""]
@@ -2622,7 +2585,7 @@ You open 1NT, partner responds 2\H, opponent bids 3\H. What do you bid with each
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:75.AT96.A852.AQJ ... ... ..."]
+[Deal "S:T3.K75.A62.AKQ85 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]
@@ -2641,7 +2604,7 @@ You open 1NT, partner responds 2\H, opponent bids 3\H. What do you bid with each
 [South ""]
 [Dealer "S"]
 [Vulnerable "None"]
-[Deal "S:AK97.9874.KQ.A32 ... ... ..."]
+[Deal "S:AKQ2.65.QT62.A72 ... ... ..."]
 [Scoring ""]
 [Declarer ""]
 [Contract ""]

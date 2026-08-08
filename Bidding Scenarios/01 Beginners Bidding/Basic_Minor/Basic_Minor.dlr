@@ -4,6 +4,7 @@
 # gib-works: true
 # bba-works: true
 # auction-filter: Auction.....\n1[CD] +Pass +(1[DHSN]|2N|[2345][CD])
+# curate: kind=bidding
 # convention-card-ns: Basic-Bridge
 # convention-card-ew: Basic-Bridge
 
@@ -22,6 +23,12 @@ North's responses:
 • 4 or 5 of opener's minor — preemptive
 
 Reference: https://www.bridgebum.com/responses_to_one_of_a_minor.php
+4NT is Blackwood, asking for aces, or quantitative (inviting 6NT) after a natural notrump bid. Responses:
+  • 5!C = 0 or 4 aces
+  • 5!D = 1 ace
+  • 5!H = 2 aces
+  • 5!S = 3 aces
+  • 5NT then asks for kings the same way
 @chat*/
 
 dealer south

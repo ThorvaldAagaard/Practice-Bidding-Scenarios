@@ -1,0 +1,341 @@
+{
+  "schema": "quiz-lesson/v1",
+  "id": "Basic_NT",
+  "title": "Basic 1NT (Natural)",
+  "provenance": {
+    "source": "Practice-Bidding-Scenarios",
+    "pipeline_version": "1.0.0",
+    "generated": "2026-07-30",
+    "source_quiz": "Basic_NT"
+  },
+  "exercises": [
+    {
+      "id": "Basic_NT-1",
+      "type": "bidding",
+      "title": "Exercise One — Responding to 1NT",
+      "prompt": "Partner opens 1NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "63",
+            "hearts": "J76",
+            "diamonds": "A954",
+            "clubs": "Q762"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08699067C2905AA0C707B95A36FF",
+            "event": "Basic_NT",
+            "board": 1
+          }
+        },
+        {
+          "hand": {
+            "spades": "86",
+            "hearts": "KT4",
+            "diamonds": "9864",
+            "clubs": "QJT7"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "59AE86FBAFCBA2127F22DAC1F5F6",
+            "event": "Basic_NT",
+            "board": 82
+          }
+        },
+        {
+          "hand": {
+            "spades": "A5",
+            "hearts": "K43",
+            "diamonds": "T764",
+            "clubs": "QT65"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A2984DBF56F94757C7F1BCC44BA",
+            "event": "Basic_NT",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "KT9",
+            "hearts": "KQ2",
+            "diamonds": "QT5",
+            "clubs": "KT62"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0AE1074DA83F1466E897DCFAD943",
+            "event": "Basic_NT",
+            "board": 5
+          }
+        },
+        {
+          "hand": {
+            "spades": "K93",
+            "hearts": "T94",
+            "diamonds": "J52",
+            "clubs": "AT54"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A735F9F28B0A79E49DD3C71E50",
+            "event": "Basic_NT",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "832",
+            "hearts": "Q42",
+            "diamonds": "AKT2",
+            "clubs": "862"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P"
+            ]
+          },
+          "answer": "2NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A27184E5F2AA3F5CFB5D451D03",
+            "event": "Basic_NT",
+            "board": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "Basic_NT-2",
+      "type": "bidding",
+      "title": "Exercise Two — Opener's Rebid after 2NT",
+      "prompt": "You open 1NT, partner responds 2NT. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "AT6",
+            "hearts": "A7",
+            "diamonds": "QT98",
+            "clubs": "KQ86"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A735F9F28B0A79E49DD3C71E50",
+            "event": "Basic_NT",
+            "board": 3
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ9",
+            "hearts": "AJ9",
+            "diamonds": "96",
+            "clubs": "KJ543"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "09A27184E5F2AA3F5CFB5D451D03",
+            "event": "Basic_NT",
+            "board": 6
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK73",
+            "hearts": "K86",
+            "diamonds": "96",
+            "clubs": "AQ42"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "P",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "08BDAA39467732649C63C7C59F19",
+            "event": "Basic_NT",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "A5",
+            "hearts": "AT83",
+            "diamonds": "AKQ",
+            "clubs": "5432"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0BAF5FDFF3EA0024D0548515E179",
+            "event": "Basic_NT",
+            "board": 13
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ43",
+            "hearts": "AKJ6",
+            "diamonds": "KQ4",
+            "clubs": "T2"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "1926A8FBA3554043C0E4D4BAB735",
+            "event": "Basic_NT",
+            "board": 25
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQ3",
+            "hearts": "QJT4",
+            "diamonds": "85",
+            "clubs": "AKT7"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1NT",
+              "P",
+              "2NT",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "2991D5A02FE11EDB757FCB24B046",
+            "event": "Basic_NT",
+            "board": 34
+          }
+        }
+      ]
+    }
+  ]
+}

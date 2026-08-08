@@ -1,0 +1,1349 @@
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "1"]
+% 32B9849D26658B98F6F810FF6740
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J5.K92.KJT73.AQT T32.Q85.52.K8652 AKQ98.JT3.Q4.943 764.A764.A986.J7"]
+{Shape 2353 3325 5323 3442}
+{HCP 14 5 12 9}
+{Losers 7 9 8 9}
+[Declarer "N"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS 630"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 1
+bidding: textbook
+bidding-note: NMF finds no spade fit and no extra major; twelve balanced belongs in 3NT.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+3D    Pass  3N    Pass
+Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card major; you use New Minor Forcing to learn whether a spade fit exists before choosing your game.
+[BID 1D] Partner opens 1\D.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 3D] Partner bids 3\D, showing extra diamond length and no three-card spade support.
+[BID 3N] With no eight-card fit and twelve balanced points, you place the contract in 3\N.
+[show NESW]Your strong \SAKQ98 and partner's diamonds gave notrump plenty of tricks, and 3\N rolled home with an overtrick. Once the fit was ruled out, notrump was the only sensible game.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "2"]
+% 3C65A00F170B003271884D293A44
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:A5.KJ975.K5.7653 J974.A4.QJ72.982 T63.Q82.AT4.KQJT KQ82.T63.9863.A4"]
+{Shape 2524 4243 3334 4342}
+{HCP 11 8 12 9}
+{Losers 7 9 8 8}
+[Declarer "N"]
+[Contract "3H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 1
+bidding: textbook
+bidding-note: Opener holds three hearts with a minimum, so the answer to New Minor Forcing is a simple 2H.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1C    Pass  1H    Pass
+1N    Pass  2D =1=    Pass
+2H =2=    Pass  3H    Pass
+Pass  Pass
+{Partner opened a minor and you rebid 1NT over partner's five-card major; now partner checks back with New Minor Forcing, and your job is to answer honestly about your support.
+[BID 1C] You open 1\C.
+[BID 1H] Partner responds 1\H, showing five or more hearts.
+[BID 1N] You rebid 1NT, a balanced minimum that denies four hearts.
+[BID 2D] Partner bids the other minor, 2\D, New Minor Forcing, asking whether you hold three hearts.
+[BID 2H] With Q-eight-two you do have the third heart, and your twelve is a bare minimum, so you answer 2\H to show three-card support without extras.
+[BID 3H] Content that the eight-card fit is there, partner invites with 3\H.
+[show NESW]Your honest 2\H found the heart fit, and partner's invitation lifted the pair to a comfortable spot. Showing the three-card support was the whole point of the checkback, and you delivered it.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "3"]
+% 02086FCD3BA0BBD58780F2943248
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AJ3.AQ762.874.Q8 K2.84.T653.AT642 T9764.KT.KQ.KJ97 Q85.J953.AJ92.53"]
+{Shape 3532 2245 5224 3442}
+{HCP 13 7 12 8}
+{Losers 8 8 7 9}
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[Score "NS -100"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 1
+bidding: textbook
+bidding-note: Partner jumps to show three spades with extras; twelve accepts and bids game.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1H    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+3S =2=    Pass  4S    Pass
+Pass  Pass
+{Partner opened a major and rebid 1NT over your five-card spade suit; you use New Minor Forcing to hunt for a three-card fit before settling the level.
+[BID 1H] Partner opens 1\H.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 3S] Partner jumps to 3\S, showing three-card spade support with extra values.
+[BID 4S] The jump promises more than a bare minimum, and your twelve points are plenty, so you accept and bid 4\S.
+[show NESW]The trumps behaved unkindly and 4\S came up a trick short, but partner's jump invited game and your values were an easy acceptance. On the honest description the contract was the right one to reach.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "4"]
+% 693E1CC945304B361264F8D738BE
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:KJ732.KT98.96.A6 98.742.KJ74.KT82 A6.AJ6.A53.J7543 QT54.Q53.QT82.Q9"]
+{Shape 5422 2344 2335 4342}
+{HCP 11 7 14 8}
+{Losers 7 9 8 8}
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 600"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 1
+bidding: textbook
+bidding-note: Opener has no three-card spade support but a maximum balanced hand, so the answer is a jump to 3NT.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1C    Pass  1S    Pass
+1N    Pass  2D =1=    Pass
+3N    Pass  Pass  Pass
+{Partner opened a minor and you rebid 1NT over partner's five-card major; now partner checks back with New Minor Forcing, and both your support and your strength shape the answer.
+[BID 1C] You open 1\C.
+[BID 1S] Partner responds 1\S, showing five or more spades.
+[BID 1N] You rebid 1NT, a balanced twelve to fourteen that denies four spades.
+[BID 2D] Partner bids the other minor, 2\D, New Minor Forcing, asking whether you hold three spades.
+[BID 3N] Holding only a doubleton spade you cannot raise, but with a fourteen-count you sit at the top of your range, so you jump straight to 3NT to deny support and advertise the maximum.
+[show NESW]Denying the spade fit steered the pair into 3NT, which brought home nine tricks. Showing the maximum with the jump let partner stop worrying about game, exactly what the checkback was meant to settle.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "5"]
+% 00295FC6D1A4B08CA812258E59FE
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A65.Q84.J96.AJ53 K3.KJ63.QT5.T987 T9874.AT75.A73.K QJ2.92.K842.Q642"]
+{Shape 3334 2434 5431 3244}
+{HCP 12 9 11 8}
+{Losers 9 8 8 8}
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 1
+bidding: judgment
+also-ok: 3S
+bidding-note: Eleven with a 5-3 fit is a borderline invite; passing 2S is safe, 3S is defensible.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1C    Pass  1S    Pass
+1N    Pass  2D =1=    Pass
+2S =2=    Pass  Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card spade suit; you use New Minor Forcing to find out whether a three-card fit is there, and once partner shows a bare minimum with support you decide whether eleven points is worth an invitation or a quiet partscore.
+[BID 1C] Partner opens 1\C.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2D] You bid the other minor, 2\D, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 2S] Partner shows three-card spade support with a minimum by bidding 2\S. With eleven points opposite that minimum you have an eight-card fit but not quite the values to push, so you pass and settle for the partscore.
+[show NESW]Two aces and a fifth trump let 2\S bring home an extra trick. Inviting with 3\S would also have been reasonable; opposite this minimum, staying low kept you out of a game that was never solid.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "6"]
+% 8B47991CAFC48DF0E1F0CC8BC72E
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:J2.AK763.J2.Q964 KT74.JT9.Q764.87 A53.82.AKT85.KT3 Q986.Q54.93.AJ52"]
+{Shape 2524 4342 3253 4324}
+{HCP 11 6 14 9}
+{Losers 7 9 7 8}
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 400"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 1
+bidding: standard
+bidding-note: No heart support and a strong five-card diamond suit, so opener rebids the minor to show extra length.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1D    Pass  1H    Pass
+1N    Pass  2C =1=    Pass
+3D    Pass  3N    Pass
+Pass  Pass
+{Partner opened a minor and you rebid 1NT over partner's five-card major; now partner checks back with New Minor Forcing, and your shape tells you how to answer.
+[BID 1D] You open 1\D.
+[BID 1H] Partner responds 1\H, showing five or more hearts.
+[BID 1N] You rebid 1NT, a balanced minimum that denies four hearts.
+[BID 2C] Partner bids the other minor, 2\C, New Minor Forcing, asking whether you hold three hearts.
+[BID 3D] With only a doubleton heart you have no support to show, but A-K-T-eight-five is a real source of tricks, so you rebid 3\D to spotlight the extra diamond length.
+[BID 3N] Reassured about the diamonds, partner places the contract in 3NT.
+[show NESW]Your 3\D pointed partner at the long minor, and 3NT rolled in for nine tricks. Rebidding the diamonds was the honest picture once the heart fit was ruled out.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "7"]
+% 4EFBA28C76351D7AC83403D47A16
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:AK742.KJ7.T42.T4 JT3.T532.763.AK2 Q86.A94.KQ8.J985 95.Q86.AJ95.Q763"]
+{Shape 5332 3433 3334 2344}
+{HCP 11 8 12 9}
+{Losers 8 10 8 8}
+[Declarer "N"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 1
+bidding: textbook
+bidding-note: Opener holds three spades with a minimum, so the answer to New Minor Forcing is a simple 2S.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1C    Pass  1S    Pass
+1N    Pass  2D =1=    Pass
+2S =2=    Pass  Pass  Pass
+{Partner opened a minor and you rebid 1NT over partner's five-card major; now partner checks back with New Minor Forcing, and your job is to answer honestly about your support.
+[BID 1C] You open 1\C.
+[BID 1S] Partner responds 1\S, showing five or more spades.
+[BID 1N] You rebid 1NT, a balanced minimum that denies four spades.
+[BID 2D] Partner bids the other minor, 2\D, New Minor Forcing, asking whether you hold three spades.
+[BID 2S] With Q-eight-six you have the third spade, and twelve is a plain minimum, so you answer 2\S to show three-card support without extras.
+[show NESW]Your 2\S uncovered the eight-card spade fit, and partner settled for a partscore that produced nine tricks. Showing the support at the two level painted the minimum accurately and let partner judge the level.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "8"]
+% 2019B26FB05779F9948E2E8511E6
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A53.64.KJ3.A9843 QT9.AT73.T742.J7 KJ764.Q52.A98.QT 82.KJ98.Q65.K652"]
+{Shape 3235 3442 5332 2434}
+{HCP 12 7 12 9}
+{Losers 8 9 8 8}
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[Score "NS -50"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: judgment
+also-ok: 4S
+bidding-note: Twelve with a 5-3 fit is a maximum invite; 3S is standard, driving to 4S is defensible.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1C    Pass  1S    Pass
+1N    Pass  2D =1=    Pass
+2S =2=    Pass  3S    Pass
+4S    Pass  Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card spade suit; you use New Minor Forcing to locate a three-card fit before choosing the level.
+[BID 1C] Partner opens 1\C.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2D] You bid the other minor, 2\D, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 2S] Partner shows three-card spade support with a minimum by bidding 2\S.
+[BID 3S] You have found your eight-card fit and hold twelve points, enough to invite but not to insist, so you raise to 3\S.  [ACCEPT 4S]
+[BID 4S] Liking its values, partner carries on to game.
+[show NESW]The trumps split badly and 4\S slipped a trick, but with twelve opposite a hand that could hold fourteen, inviting was the honest call and partner was right to accept. On another layout that game rolls in.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "9"]
+% FC36F65EB5DC4971875EB599F6EC
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:QT653.AK4.Q54.92 A97.QT87.93.KT54 J4.J95.AJT8.AJ83 K82.632.K762.Q76"]
+{Shape 5332 3424 2344 3343}
+{HCP 11 9 12 8}
+{Losers 7 8 9 9}
+[Declarer "S"]
+[Contract "2N"]
+[Result "8"]
+[Score "NS 120"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: textbook
+bidding-note: No spade support and a minimum balanced hand, so opener denies with the cheapest notrump, 2NT.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+2N    Pass  Pass  Pass
+{Partner opened a minor and you rebid 1NT over partner's five-card major; now partner checks back with New Minor Forcing, and both your support and your strength shape the answer.
+[BID 1D] You open 1\D.
+[BID 1S] Partner responds 1\S, showing five or more spades.
+[BID 1N] You rebid 1NT, a balanced twelve to fourteen that denies four spades.
+[BID 2C] Partner bids the other minor, 2\C, New Minor Forcing, asking whether you hold three spades.
+[BID 2N] Holding only J-four in spades you cannot raise, and with a balanced twelve you are at the bottom of your range, so you sign off in the cheapest notrump, 2NT, to deny support and show the min.
+[show NESW]Your 2NT told the true story, no spade fit and nothing extra, and partner respected it by passing for eight tricks. Distinguishing the minimum from the maximum is exactly what the two-level answer versus the jump is for.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "10"]
+% 1020B56938D543D28EBF469DBF60
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AJ.975.A982.KQT4 Q952.T84.KT5.AJ2 K7643.AQ2.QJ.963 T8.KJ63.7643.875"]
+{Shape 2344 4333 5323 2443}
+{HCP 14 10 12 4}
+{Losers 7 9 8 10}
+[Declarer "N"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 400"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: textbook
+bidding-note: Partner's 3NT shows a maximum with no three spades; with no fit you pass.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+3N    Pass  Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card spade suit; you use New Minor Forcing to check for a three-card fit before settling the game.
+[BID 1D] Partner opens 1\D.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 3N] Partner jumps to 3\N, showing a maximum balanced hand with no three-card spade support.
+[show NESW]With no eight-card fit and partner announcing a maximum, notrump was the place to be, and 3\N brought home nine tricks. Once the spade fit was ruled out, there was nothing to add.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "11"]
+% 752B9D6206DBF87796BF70ACE8E7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:A7.A9875.Q74.J53 KJ53.QJ4.53.7642 Q94.K63.KJT9.KQ8 T862.T2.A862.AT9"]
+{Shape 2533 4324 3343 4243}
+{HCP 11 7 14 8}
+{Losers 8 9 7 9}
+[Declarer "N"]
+[Contract "4H"]
+[Result "9"]
+[Score "NS -100"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: judgment
+also-ok: 2H
+bidding-note: Three hearts with a flat maximum; jump to 3H or show the fit with 2H by judgment.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1D    Pass  1H    Pass
+1N    Pass  2C =1=    Pass
+3H =2=    Pass  4H    Pass
+Pass  Pass
+{You opened a minor and rebid a balanced minimum, and now partner has used New Minor Forcing to hunt for a heart fit; you have three of them and must judge how high to show them.
+[BID 1D] You open 1\D with fourteen high card points and no five-card major.
+[BID 1H] Partner responds 1\H, promising five or more hearts.
+[BID 1N] You rebid 1NT, showing a balanced twelve to fourteen and denying four hearts.
+[BID 2C] Partner bids the other minor, 2\C, New Minor Forcing, asking whether you hold three hearts.
+[BID 3H] Holding K-six-three you do have three-card support, and with a full fourteen you jump to 3\H to show the fit and the extra values. A quiet 2\H would down-value the same points; the hand is flat and soft, so the jump is a close call.  [ACCEPT 2H]
+[BID 4H] Encouraged, partner carries on to game.
+[show NESW]This time the flat honors and no ruffing value left 4\H a trick short. Showing the maximum was reasonable, and the calmer two-level answer would have been just as defensible on a hand this square.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "12"]
+% 233CA9AB42C5C8665439DDD3EE23
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:A62.JT9.A53.KT65 J87.754.KQ96.A97 KQ.KQ832.T87.Q42 T9543.A6.J42.J83"]
+{Shape 3334 3343 2533 5233}
+{HCP 12 10 12 6}
+{Losers 9 9 7 10}
+[Declarer "S"]
+[Contract "3H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: judgment
+also-ok: 4H
+bidding-note: Twelve with a five-three heart fit found; invite with three, driving game is close but an overbid on a flat minimum.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1C    Pass  1H    Pass
+1N    Pass  2D =1=    Pass
+2H =2=    Pass  3H    Pass
+Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card heart suit; with invitational values you use New Minor Forcing to hunt for a three-card fit before choosing the level.
+[BID 1C] Partner opens 1\C.
+[BID 1H] You respond 1\H, showing five or more hearts.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four hearts.
+[BID 2D] You bid the other minor, 2\D, New Minor Forcing, artificial, asking whether partner holds three hearts.
+[BID 2H] Partner shows three-card heart support with a minimum by bidding 2\H.
+[BID 3H] With twelve and a balanced hand you have your eight-card fit but not the values to insist on game, so you invite with. Driving to 4\H would strain a bare invitational hand.  [ACCEPT 4H]
+[show NESW]Partner had just enough beyond the minimum to bring ten tricks home, so game was there this time, but inviting was the disciplined description. Opposite a true minimum three of the major would have been the limit, and both readings were sound.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "13"]
+% CD4A54B738AE51DDBCF75F1B26DA
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AQJ52.95.K2.J872 974.K64.Q975.KT6 K6.AJT82.A84.Q94 T83.Q73.JT63.A53"]
+{Shape 5224 3343 2533 3343}
+{HCP 11 8 14 7}
+{Losers 7 9 7 10}
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 400"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: textbook
+bidding-note: No third spade with a balanced maximum; deny support and show the extra values by jumping to 3NT.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1H    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+3N    Pass  Pass  Pass
+{Partner has used New Minor Forcing to look for a spade fit after your balanced rebid, but you have only two spades; with a full fourteen you can still tell partner about your strength.
+[BID 1H] You open 1\H with fourteen high card points and a five-card suit.
+[BID 1S] Partner responds 1\S, promising five or more spades.
+[BID 1N] You rebid 1NT, showing a balanced twelve to fourteen and denying four spades.
+[BID 2C] Partner bids the other minor, 2\C, New Minor Forcing, asking whether you hold three spades.
+[BID 3N] Holding only K-six in spades you cannot show support, so you deny the third trump. Because your fourteen is a clear maximum, you jump straight to 3\N rather than settling for 2NT.
+[show NESW]The extra values were exactly what 3\N needed, and the honest denial steered you into the making game instead of a doomed spade contract. Showing the top of your range let partner leave you there with confidence.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "14"]
+% 0102924F1968B7B66F8A95E438D8
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AJ3.AQ6.JT632.J5 QT7.KJ52.Q7.T432 K9865.T74.AK.Q97 42.983.9854.AK86"]
+{Shape 3352 3424 5323 2344}
+{HCP 13 8 12 7}
+{Losers 8 9 7 9}
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 420"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: textbook
+bidding-note: Partner's jump to three spades invites; with twelve and two aces you accept and bid game.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+3S =2=    Pass  4S    Pass
+Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card spade suit; with invitational values you use New Minor Forcing to hunt for a three-card fit before choosing the level.
+[BID 1D] Partner opens 1\D.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 3S] Partner jumps to 3\S, showing three-card spade support with extra values.
+[BID 4S] Partner has invited you to game, and with twelve points and two quick aces you have more than enough to accept, so you bid 4\S.
+[show NESW]The nine-card fit and partner's extras brought ten tricks in comfortably. When partner jumps to show support with values, a full-strength invitational hand always carries on to game.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "15"]
+% C61E47C5698862C286BD19D2620A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:A6432.Q32.AJ3.J2 987.A965.876.KT6 QT5.JT.KT9.AQ954 KJ.K874.Q542.873"]
+{Shape 5332 3433 3235 2443}
+{HCP 12 7 12 9}
+{Losers 8 10 7 8}
+[Declarer "N"]
+[Contract "3S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: textbook
+bidding-note: Three spades with a dead minimum; show the fit at the two level, then pass the invitation.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1C    Pass  1S    Pass
+1N    Pass  2D =1=    Pass
+2S =2=    Pass  3S    Pass
+Pass  Pass
+{Partner has used New Minor Forcing to search for a spade fit after your balanced rebid; you have three spades but nothing to spare, and you must show the fit without promising extras.
+[BID 1C] You open 1\C with a twelve count and your longest suit.
+[BID 1S] Partner responds 1\S, promising five or more spades.
+[BID 1N] You rebid 1NT, showing a balanced twelve to fourteen and denying four spades.
+[BID 2D] Partner bids the other minor, 2\D, New Minor Forcing, asking whether you hold three spades.
+[BID 2S] With Q-ten-five you have the third trump but a bare minimum, so you show the fit cheaply at 2\S rather than jumping.
+[BID 3S] Partner invites game by raising to 3\S.
+[show NESW]With nothing beyond your minimum you pass, and 3\S was the right level. The cheap two-level answer told the exact story, and jumping would have carried you past a partscore that was already high enough.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "16"]
+% 20698DDDF6FE64950328E8AE1543
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:763.K72.72.AKQ83 A92.Q83.J983.965 K84.A9654.A65.72 QJT5.JT.KQT4.JT4"]
+{Shape 3325 3343 3532 4243}
+{HCP 12 7 11 10}
+{Losers 7 10 8 8}
+[Declarer "S"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: standard
+bidding-note: A five-three fit but only eleven with a flat hand; accept partner's minimum and pass 2H.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1C    Pass  1H    Pass
+1N    Pass  2D =1=    Pass
+2H =2=    Pass  Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card heart suit; with a shapely eleven you use New Minor Forcing to hunt for a three-card fit before settling the level.
+[BID 1C] Partner opens 1\C.
+[BID 1H] You respond 1\H, showing five or more hearts.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four hearts.
+[BID 2D] You bid the other minor, 2\D, New Minor Forcing, artificial, asking whether partner holds three hearts.
+[BID 2H] Partner shows three-card heart support with a minimum by bidding 2\H.
+[show NESW]With only eleven facing a hand that has already announced its minimum, you have found the fit but not the values, so you pass and rest in 2\H. Chasing a game here would be an overbid; the friendly lie of the cards let it drift to ten tricks, but the two-level was the honest resting spot.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "17"]
+% 334D06ECC6D8A035BEA3664F507D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:973.KT753.A7.A97 A42.J96.QJ9.Q862 KJ8.A4.864.KJ543 QT65.Q82.KT532.T"]
+{Shape 3523 3334 3235 4351}
+{HCP 11 10 12 7}
+{Losers 8 9 8 7}
+[Declarer "S"]
+[Contract "3C"]
+[Result "10"]
+[Score "NS 130"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: textbook
+bidding-note: Over New Minor Forcing, with two hearts and a genuine five-card club suit, rebid 3C to show the length and deny three-card heart support.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1C    Pass  1H    Pass
+1N    Pass  2D =1=    Pass
+3C    Pass  Pass  Pass
+{Partner responded in a major and then used New Minor Forcing to ask about your support; your job is to answer honestly about your hearts and your shape.
+[BID 1C] You open 1\C.
+[BID 1H] Partner responds 1\H, showing five or more hearts.
+[BID 1N] You rebid 1NT, a balanced minimum that denies four hearts.
+[BID 2D] Partner bids the other minor, 2\D, New Minor Forcing, asking whether you hold three hearts.
+[BID 3C] You hold only two hearts, so there is no fit to show. With a genuine five-card club suit you describe that extra length by rebidding 3\C, denying three-card heart support.
+[show NESW]Partner had nothing extra and passed 3\C, the honest resting spot. Bidding your fifth club told the true story better than a balanced notrump answer would have.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "18"]
+% 60243B8DF04013E66AEDDD6348B6
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AK9.QT3.JT94.Q65 T743.95.A82.AJT3 Q2.A8764.K73.K94 J865.KJ2.Q65.872"]
+{Shape 3343 4234 2533 4333}
+{HCP 12 9 12 7}
+{Losers 8 9 8 10}
+[Declarer "S"]
+[Contract "3H"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: standard
+bidding-note: 5-3 heart fit found; twelve balanced points is a clean invite, not enough to drive game.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1D    Pass  1H    Pass
+1N    Pass  2C =1=    Pass
+2H =2=    Pass  3H    Pass
+Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card major; with invitational values you use New Minor Forcing to hunt for a three-card fit before choosing the level.
+[BID 1D] Partner opens 1\D.
+[BID 1H] You respond 1\H, showing five or more hearts.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four hearts.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three hearts.
+[BID 2H] Partner shows three-card heart support with a minimum by bidding 2\H.
+[BID 3H] With twelve balanced points you have found your eight-card fit but not the values to drive game, so you invite with 3\H. Bidding four would be an overbid opposite a shown minimum.
+[show NESW]Partner had just enough to bring 3\H home for nine tricks. Inviting was the honest description; on a bare invitational hand opposite a minimum, three of the major is the right ceiling.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "19"]
+% 8CC04DFA4DCC0685F9A2640FBB7C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:Q965.AQ862.J9.Q6 A74.K97.8652.T82 82.J53.AKQT.KJ74 KJT3.T4.743.A953"]
+{Shape 4522 3343 2344 4234}
+{HCP 11 7 14 8}
+{Losers 7 10 7 9}
+[Declarer "N"]
+[Contract "4H"]
+[Result "9"]
+[Score "NS -100"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: judgment
+also-ok: 2H
+bidding-note: Three small hearts with a solid-diamond fourteen; jump to 3H or show the fit with 2H by judgment.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1D    Pass  1H    Pass
+1N    Pass  2C =1=    Pass
+3H =2=    Pass  4H    Pass
+Pass  Pass
+{Partner has used New Minor Forcing to look for a heart fit after your balanced rebid, and you hold three hearts and a strong minor; the question is how much to promise.
+[BID 1D] You open 1\D on a fourteen count built around a solid diamond suit.
+[BID 1H] Partner responds 1\H, promising five or more hearts.
+[BID 1N] You rebid 1NT, showing a balanced twelve to fourteen and denying four hearts.
+[BID 2C] Partner bids the other minor, 2\C, New Minor Forcing, asking whether you hold three hearts.
+[BID 3H] Your J-five-three is three-card support, and with a full fourteen and running diamonds you jump to 3\H to show the fit with extras. The trumps are ragged, so signing off with 2\H would be an equally honest read of the hand.  [ACCEPT 2H]
+[BID 4H] Trusting the extras, partner bids game.
+[show NESW]The soft trump support left 4\H one short here. The strong diamonds justified showing a maximum, and the quieter two-level answer would have described the thin support just as well.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "20"]
+% 80DB200C8234A643D8875A9EFD8D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQT.QJ862.KJ8.32 85.A754.T96.KQT7 J9642.K9.A75.A86 A73.T3.Q432.J954"]
+{Shape 3532 2434 5233 3244}
+{HCP 12 9 12 7}
+{Losers 7 8 8 9}
+[Declarer "S"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: judgment
+also-ok: 4S
+bidding-note: Three aces and a fifth spade make this a strong twelve; inviting is sound, and driving to game is defensible.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1H    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+2S =2=    Pass  3S    Pass
+Pass  Pass
+{Partner opened a major and rebid 1NT over your five-card spades; with invitational values you use New Minor Forcing to hunt for a three-card fit before choosing the level.
+[BID 1H] Partner opens 1\H.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 2S] Partner shows three-card spade support with a minimum by bidding 2\S.
+[BID 3S] You have twelve points and the eight-card fit, so you invite with 3\S. Because your points are three quick aces, driving all the way to game would also be defensible.  [ACCEPT 4S]
+[show NESW]Partner accepted the picture and ten tricks rolled in, so game was there this time. Inviting kept you safe opposite a dead minimum; on this much prime, either the invitation or the game drive was a sound choice.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "21"]
+% BB3DF34CEBE023CE448F9EC57DCC
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:K9542.K8.KT9.Q76 Q83.J74.AQ74.932 A6.QT952.J65.AJ5 JT7.A63.832.KT84"]
+{Shape 5233 3343 2533 3334}
+{HCP 11 9 12 8}
+{Losers 7 9 8 10}
+[Declarer "S"]
+[Contract "2N"]
+[Result "8"]
+[Score "NS 120"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: textbook
+bidding-note: Two spades and a bare minimum, so answer New Minor Forcing with 2NT.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1H    Pass  1S    Pass
+1N    Pass  2D =1=    Pass
+2N    Pass  Pass  Pass
+{Partner responded in a major and then used New Minor Forcing to ask about your support; with only two of the major and a minimum, you steer the pair to the safest strain.
+[BID 1H] You open 1\H with your five-card heart suit.
+[BID 1S] Partner responds 1\S, showing five or more spades.
+[BID 1N] You rebid 1NT with your balanced twelve, denying four spades.
+[BID 2D] Partner bids the other minor, 2\D, New Minor Forcing, asking whether you hold three spades.
+[BID 2N] You hold only two spades and a plain minimum, so you deny support and cap the strength by bidding 2\N. Three of the major would promise the third spade you do not have.
+[show NESW]With no eight-card major fit and a minimum opposite invitational values, notrump at the two level was the honest resting place, and it brought home its eight tricks.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "22"]
+% 71570789B21DE4BEA8903AE96CFD
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:KT5.KQ.Q754.QT42 A3.AT6.T832.9763 QJ876.9743.J6.AK 942.J852.AK9.J85"]
+{Shape 3244 2344 5422 3433}
+{HCP 12 8 11 9}
+{Losers 7 9 7 10}
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: standard
+bidding-note: Eleven points opposite a shown minimum with the fit found means pass 2S; there is no invitation here.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+2S =2=    Pass  Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card spades; you use New Minor Forcing to find out where you belong before settling the contract.
+[BID 1D] Partner opens 1\D.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 2S] Partner shows three-card spade support with a minimum by bidding 2\S. You have your eight-card fit at the two level, and with only eleven points opposite a shown minimum there is no game, so you pass and rest in 2\S.
+[show NESW]Nine tricks came home for a comfortable partscore. Passing was the disciplined choice; an invitation on eleven points opposite a minimum would have risked climbing past a contract that was already right.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "23"]
+% 82193FE3B402AF46D9F080C38998
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AKT.T8543.J8.A73 8.A72.QT654.J652 J9532.Q9.K9.KQ94 Q764.KJ6.A732.T8"]
+{Shape 3523 1354 5224 4342}
+{HCP 12 7 11 10}
+{Losers 8 8 7 8}
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: standard
+bidding-note: Eleven points and the five-three fit found opposite a minimum; pass 2S rather than invite.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1H    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+2S =2=    Pass  Pass  Pass
+{Partner opened a major and rebid 1NT over your five-card spades; you use New Minor Forcing to find out where you belong before settling the contract.
+[BID 1H] Partner opens 1\H.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 2S] Partner shows three-card spade support with a minimum by bidding 2\S. You have the eight-card fit, but eleven points across from a shown minimum are short of an invitation, so you pass and settle in 2\S.
+[show NESW]Two spades made an overtrick for a smooth partscore. Passing was right; pushing to the three level on eleven points opposite a minimum would only have jeopardized a sound spot.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "24"]
+% B1C38A145EA94FA4FE286966D335
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:Q62.AK9.KT65.T52 J954.QJ3.J97.Q86 KT8.T8654.A3.A93 A73.72.Q842.KJ74"]
+{Shape 3343 4333 3523 3244}
+{HCP 12 7 11 10}
+{Losers 8 10 8 8}
+[Declarer "S"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 2
+bidding: standard
+bidding-note: Eleven points with the five-three heart fit found opposite a minimum; pass 2H, do not invite.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1D    Pass  1H    Pass
+1N    Pass  2C =1=    Pass
+2H =2=    Pass  Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card hearts; you use New Minor Forcing to find out where you belong before settling the contract.
+[BID 1D] Partner opens 1\D.
+[BID 1H] You respond 1\H, showing five or more hearts.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four hearts.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three hearts.
+[BID 2H] Partner shows three-card heart support with a minimum by bidding 2\H. You have found the eight-card fit, but eleven points opposite a shown minimum are not enough to invite, so you pass and rest in 2\H.
+[show NESW]Nine tricks brought in a solid partscore. Passing was the disciplined call; on eleven points across from a minimum, inviting would have risked overreaching a contract that was already the right level.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "25"]
+% 23AE9E7D3B008513D99AB8FCE566
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:JT8.T9.AKQ4.Q973 Q2.K876.J765.T54 AK965.A32.932.J8 743.QJ54.T8.AK62"]
+{Shape 3244 2443 5332 3424}
+{HCP 12 6 12 10}
+{Losers 7 10 8 8}
+[Declarer "S"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 3
+bidding: judgment
+also-ok: 4S
+bidding-note: Twelve with a five-three spade fit; invite with three, but the two aces make driving game a defensible close call.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+2S =2=    Pass  3S    Pass
+Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card spade suit; with invitational values you use New Minor Forcing to hunt for a three-card fit before choosing the level.
+[BID 1D] Partner opens 1\D.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 2S] Partner shows three-card spade support with a minimum by bidding 2\S.
+[BID 3S] With twelve you have found your eight-card fit but not clear game values, so you invite with 3\S. The two aces tempt you toward game, yet opposite a minimum an invitation is the sound description.  [ACCEPT 4S]
+[show NESW]Partner declined the invitation, and the hand came to ten tricks on the friendly layout, so game would have made this time. Still, inviting on a balanced twelve opposite a known minimum was honest, and either call was defensible here.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "26"]
+% 9426977134BEBC7183FC4140A2C5
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:AJT63.QT87.65.A8 7542.J32.A9.QJT4 K98.AK5.KJ83.932 Q.964.QT742.K765"]
+{Shape 5422 4324 3343 1354}
+{HCP 11 8 14 7}
+{Losers 7 9 8 8}
+[Declarer "N"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS 650"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 3
+bidding: textbook
+bidding-note: Three spades plus a maximum fourteen, so jump to 3S to show support with extras.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+3S =2=    Pass  4S    Pass
+Pass  Pass
+{Partner used New Minor Forcing to hunt for a spade fit, and you hold the third trump along with the top of your range, so you tell the whole story at once.
+[BID 1D] You open 1\D.
+[BID 1S] Partner responds 1\S, showing five or more spades.
+[BID 1N] You rebid 1NT with your balanced hand, denying four spades.
+[BID 2C] Partner bids the other minor, 2\C, New Minor Forcing, asking whether you hold three spades.
+[BID 3S] With three spades and a maximum fourteen you have both the fit and the extra values, so you jump to 3\S. A simple 2\S would understate your strength and might talk partner out of a good game.
+[BID 4S] Encouraged by your extras, partner raises to game.
+[show NESW]The jump to 3\S showed the eight-card fit and the upper range in one breath, and partner had an easy raise to a game that rolled in with an overtrick.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "27"]
+% 2282D789A7F1DA5904EC5CA8BD34
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:72.AQ7.KJ72.QT83 85.K985.AT.76542 AQJ43.J64.653.KJ KT96.T32.Q984.A9"]
+{Shape 2344 2425 5332 4342}
+{HCP 12 7 12 9}
+{Losers 7 8 8 8}
+[Declarer "N"]
+[Contract "2N"]
+[Result "9"]
+[Score "NS 150"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 3
+bidding: standard
+bidding-note: NMF found no fit and no extras; pass partner's 2NT with a balanced twelve.
+declarer: reject
+defense: reject
+}
+[Auction "N"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+2N    Pass  Pass  Pass
+{Partner opened a minor and rebid 1NT over your five-card spade suit; with invitational values you use New Minor Forcing to check for a three-card fit before choosing where to play.
+[BID 1D] Partner opens 1\D.
+[BID 1S] You respond 1\S, showing five or more spades.
+[BID 1N] Partner rebids 1NT, a balanced minimum that denies four spades.
+[BID 2C] You bid the other minor, 2\C, New Minor Forcing, artificial, asking whether partner holds three spades.
+[BID 2N] Partner bids 2NT, denying three-card spade support and showing a balanced minimum.
+[show NESW]Partner has told you there is no eight-card major fit and no extra strength, so with a balanced twelve you pass and play 2NT. Notrump is your spot once the fit search comes up empty, and nine tricks rolled in for a fine result.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "28"]
+% 2C9E0C37698163C58892DBF7383A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:J8542.K83.QJ.A63 T3.QJ95.A74.JT94 A9.A62.KT82.K852 KQ76.T74.9653.Q7"]
+{Shape 5323 2434 2344 4342}
+{HCP 11 8 14 7}
+{Losers 9 9 7 9}
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 600"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 3
+bidding: textbook
+bidding-note: Two spades but a maximum fourteen, so deny support at the top of the range with 3NT.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+3N    Pass  Pass  Pass
+{Partner used New Minor Forcing to ask for spade support; you cannot offer a fit, but you are sitting on the top of your notrump range and want partner to know it.
+[BID 1D] You open 1\D.
+[BID 1S] Partner responds 1\S, showing five or more spades.
+[BID 1N] You rebid 1NT with your balanced hand, denying four spades.
+[BID 2C] Partner bids the other minor, 2\C, New Minor Forcing, asking whether you hold three spades.
+[BID 3N] You hold only two spades, so you cannot raise, but with a maximum fourteen you jump to 3\N rather than crawl to 2\N. That extra step shows the values that carry the pair to game.
+[show NESW]With no eight-card major fit, notrump was the place to play, and describing the maximum drove the pair to the game that made nine tricks.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "29"]
+% D7466385302766638365FCCE3456
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:T9854.A3.KT84.AJ 63.JT94.A93.K975 AQJ.Q72.J75.Q832 K72.K865.Q62.T64"]
+{Shape 5242 2434 3334 3433}
+{HCP 12 8 12 8}
+{Losers 7 9 8 9}
+[Declarer "N"]
+[Contract "3S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 3
+bidding: textbook
+bidding-note: Three spades and a minimum twelve, so show the fit quietly with 2S.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1C    Pass  1S    Pass
+1N    Pass  2D =1=    Pass
+2S =2=    Pass  3S    Pass
+Pass  Pass
+{Partner used New Minor Forcing to look for a spade fit, and you have the third trump but nothing to spare, so you show the fit at the cheapest level.
+[BID 1C] You open 1\C.
+[BID 1S] Partner responds 1\S, showing five or more spades.
+[BID 1N] You rebid 1NT with your balanced twelve, denying four spades.
+[BID 2D] Partner bids the other minor, 2\D, New Minor Forcing, asking whether you hold three spades.
+[BID 2S] You hold three spades but only a minimum twelve, so you show the eight-card fit with a simple 2\S. Jumping to 3\S would promise extra values you do not have.
+[BID 3S] Partner tries once more with 3\S, inviting game, but with a dead minimum you have nothing to add and pass.
+[show NESW]The quiet 2\S found the eight-card fit without overstating your hand, and partner, holding only invitational values, settled in a partscore that brought home nine tricks.}
+[Note "1:New Minor Forcing"]
+[Note "2:3 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+
+[Event "New_Minor_Forcing"]
+[Site ""]
+[Board "30"]
+% D1F499A62C98981A9E677B7C8614
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:A9842.K8.Q7.QJ94 Q5.AQJ3.T842.T85 K7.T76.AK653.A73 JT63.9542.J9.K62"]
+{Shape 5224 2443 2353 4423}
+{HCP 12 9 14 5}
+{Losers 7 9 7 10}
+[Declarer "S"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 600"]
+[Scoring "MP"]
+{Curate
+class: intended
+difficulty: 3
+bidding: judgment
+also-ok: 3N
+bidding-note: No spade support but a fifth diamond, so 3D shows the shape; a direct 3NT max is also sound.
+declarer: reject
+defense: reject
+}
+[Auction "S"]
+1D    Pass  1S    Pass
+1N    Pass  2C =1=    Pass
+3D    Pass  3N    Pass
+Pass  Pass
+{Partner used New Minor Forcing to ask about spade support; you have none to offer, but your opening was not quite the balanced hand your 1NT suggested, and now you can fill in the pic.
+[BID 1D] You open 1\D with your five-card diamond suit.
+[BID 1S] Partner responds 1\S, showing five or more spades.
+[BID 1N] You rebid 1NT with your balanced-looking fourteen, denying four spades.
+[BID 2C] Partner bids the other minor, 2\C, New Minor Forcing, asking whether you hold three spades.
+[BID 3D] You cannot raise with only two spades, so you rebid 3\D to reveal the fifth diamond and the extra values, letting partner place the contract. Jumping straight to 3\N with the maximum would also be reasonable.  [ACCEPT 3N]
+[BID 3N] Holding the spade stopper you lacked, partner chooses notrump for the pair.
+[show NESW]Showing the diamond length first let partner weigh the strain and land in the game that made nine tricks; a direct 3\N would have reached the same spot.}
+[Note "1:New Minor Forcing"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+

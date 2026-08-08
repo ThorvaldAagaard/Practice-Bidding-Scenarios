@@ -1,0 +1,28 @@
+[
+ {
+  "scenario": "Responsive_Double",
+  "kind": "bidding",
+  "coaching": {
+   "boards": 17,
+   "dd": {
+    "ok": 13,
+    "down_both": 4
+   },
+   "regex_matched": 17,
+   "in_bba_filtered": 2,
+   "regex_vs_filtered_disagree": 15,
+   "dupes": 0
+  },
+  "pool": {
+   "boards": 500,
+   "dd": {
+    "down_both": 237,
+    "ok": 263
+   },
+   "regex_matched": 94,
+   "in_bba_filtered": 94,
+   "regex_vs_filtered_disagree": 0,
+   "dupes": 0
+  }
+ }
+]

@@ -1,0 +1,985 @@
+{
+  "schema": "quiz-lesson/v1",
+  "id": "Non_Leaping_Michaels_After_2-Bid",
+  "title": "NLM after 2-Bid & Raise",
+  "provenance": {
+    "source": "Practice-Bidding-Scenarios",
+    "pipeline_version": "1.0.0",
+    "generated": "2026-07-30",
+    "source_quiz": "Non_Leaping_Michaels_After_2-Bid"
+  },
+  "exercises": [
+    {
+      "id": "Non_Leaping_Michaels_After_2-Bid-1",
+      "type": "bidding",
+      "title": "Exercise One — Your Rebid in Competition",
+      "prompt": "RHO opens 2♦, you pass, LHO bids 2♥, partner bids 3♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "6",
+            "hearts": "QT943",
+            "diamonds": "T53",
+            "clubs": "9863"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "2H",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "17FAFE2E5F22641C36BC73E520CE",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 15
+          }
+        },
+        {
+          "hand": {
+            "spades": "K4",
+            "hearts": "J862",
+            "diamonds": "J94",
+            "clubs": "Q754"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "2H",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "4C",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B43ABAF02679F72BD0EA00845F2A",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 83
+          }
+        },
+        {
+          "hand": {
+            "spades": "KJ8",
+            "hearts": "J7632",
+            "diamonds": "J",
+            "clubs": "8762"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "2H",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A439BADEA6737AB0E8683F12292C",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 201
+          }
+        },
+        {
+          "hand": {
+            "spades": "9653",
+            "hearts": "9632",
+            "diamonds": "982",
+            "clubs": "K9"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "2H",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "B4FA3039315EA44772AABA19AA27",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 208
+          }
+        }
+      ]
+    },
+    {
+      "id": "Non_Leaping_Michaels_After_2-Bid-2",
+      "type": "bidding",
+      "title": "Exercise Two — Your Rebid in Competition",
+      "prompt": "RHO opens 2♦, you pass, partner bids 3♦. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "QJ93",
+            "hearts": "83",
+            "diamonds": "954",
+            "clubs": "QJ54"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "P",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "040932B88C01B56A43DB3404A97B",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "T52",
+            "hearts": "972",
+            "diamonds": "J872",
+            "clubs": "432"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "P",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "84C2094B05BBE106275989D830A4",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 60
+          }
+        },
+        {
+          "hand": {
+            "spades": "J5",
+            "hearts": "QT86",
+            "diamonds": "985",
+            "clubs": "T765"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "P",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "04CA3A2189687525182C94C14BC3",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 8
+          }
+        },
+        {
+          "hand": {
+            "spades": "98",
+            "hearts": "Q863",
+            "diamonds": "J854",
+            "clubs": "AT3"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "P",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "270C3E2EC1C486A31DED51412C77",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 18
+          }
+        },
+        {
+          "hand": {
+            "spades": "T2",
+            "hearts": "T2",
+            "diamonds": "AJ75",
+            "clubs": "76542"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "P",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "3H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "54C6CA09F7AA191B04D074F803A0",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 35
+          }
+        },
+        {
+          "hand": {
+            "spades": "643",
+            "hearts": "872",
+            "diamonds": "J3",
+            "clubs": "AQJ72"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2D",
+              "P",
+              "P",
+              "3D",
+              "P"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "26CC053418354627ECB17783896C",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 140
+          }
+        }
+      ]
+    },
+    {
+      "id": "Non_Leaping_Michaels_After_2-Bid-3",
+      "type": "bidding",
+      "title": "Exercise Three — Your Rebid in Competition",
+      "prompt": "RHO opens 2♥, you pass, LHO bids 2NT, partner bids 3♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "K54",
+            "hearts": "KJ73",
+            "diamonds": "43",
+            "clubs": "JT73"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "2NT",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "14D1AE1DEC1C53312873BE97245D",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 11
+          }
+        },
+        {
+          "hand": {
+            "spades": "J94",
+            "hearts": "82",
+            "diamonds": "T9432",
+            "clubs": "J65"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "2NT",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "441DDDFF8C17B629C31CF8951765",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 148
+          }
+        },
+        {
+          "hand": {
+            "spades": "84",
+            "hearts": "932",
+            "diamonds": "T7643",
+            "clubs": "AK5"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "2NT",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "E4DC10FED3772A92453710956622",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 108
+          }
+        },
+        {
+          "hand": {
+            "spades": "T",
+            "hearts": "J876",
+            "diamonds": "J842",
+            "clubs": "QT96"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "2NT",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "263E1FD0EA9010EBE6241DFA57FA",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 138
+          }
+        },
+        {
+          "hand": {
+            "spades": "QJ842",
+            "hearts": "T5",
+            "diamonds": "K985",
+            "clubs": "52"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "2NT",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "2432159D9A295597D332248A7280",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 136
+          }
+        }
+      ]
+    },
+    {
+      "id": "Non_Leaping_Michaels_After_2-Bid-4",
+      "type": "bidding",
+      "title": "Exercise Four — Your Rebid in Competition",
+      "prompt": "RHO opens 2♥, you pass, partner bids 3♥. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "K2",
+            "hearts": "K63",
+            "diamonds": "9654",
+            "clubs": "J932"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "06D2AF11CCD1181775691B3AE0B0",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 9
+          }
+        },
+        {
+          "hand": {
+            "spades": "4",
+            "hearts": "AJ62",
+            "diamonds": "J853",
+            "clubs": "7532"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "262E151EEA5211D914EF38BE7864",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 17
+          }
+        },
+        {
+          "hand": {
+            "spades": "8432",
+            "hearts": "432",
+            "diamonds": "AK8",
+            "clubs": "T93"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "051EFE1B3950189E3355C9AAA4A2",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 10
+          }
+        },
+        {
+          "hand": {
+            "spades": "T765",
+            "hearts": "T75",
+            "diamonds": "98",
+            "clubs": "KJT7"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "3S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "25F6D41308A87E1EA8BAA25B191B",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 22
+          }
+        },
+        {
+          "hand": {
+            "spades": "A97",
+            "hearts": "842",
+            "diamonds": "A7",
+            "clubs": "T8642"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "27911A361DDCBD2881DCFB681568",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 20
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q95",
+            "hearts": "932",
+            "diamonds": "AK5",
+            "clubs": "T985"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2H",
+              "P",
+              "P",
+              "3H",
+              "P"
+            ]
+          },
+          "answer": "4S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "37011396165CA83C395B90F9E9ED",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "Non_Leaping_Michaels_After_2-Bid-5",
+      "type": "bidding",
+      "title": "Exercise Five — Your Rebid in Competition",
+      "prompt": "RHO opens 2♠, you pass, LHO bids 2NT, partner bids 3♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "T953",
+            "hearts": "T64",
+            "diamonds": "K54",
+            "clubs": "J82"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "2NT",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "06C17A7550A78E4441ED8BE98370",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "K9",
+            "hearts": "J95",
+            "diamonds": "J752",
+            "clubs": "J987"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "2NT",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "144D81416409ACD8540D657EFFD7",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 16
+          }
+        },
+        {
+          "hand": {
+            "spades": "7543",
+            "hearts": "Q75",
+            "diamonds": "Q64",
+            "clubs": "K42"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "2NT",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "64FE7866CDCE4151AF45A994BB4C",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 46
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q95",
+            "hearts": "83",
+            "diamonds": "QT95",
+            "clubs": "7432"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "2NT",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "A47E7D85434585E9184D955CECC8",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 74
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q976",
+            "hearts": "K9",
+            "diamonds": "Q63",
+            "clubs": "6542"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "2NT",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "644D61B7CD4FAB7E8EB478F056C8",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 162
+          }
+        },
+        {
+          "hand": {
+            "spades": "T754",
+            "hearts": "94",
+            "diamonds": "A2",
+            "clubs": "T8762"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "2NT",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "94C65142CAB06F78B04882AE49D4",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 187
+          }
+        }
+      ]
+    },
+    {
+      "id": "Non_Leaping_Michaels_After_2-Bid-6",
+      "type": "bidding",
+      "title": "Exercise Six — Your Rebid in Competition",
+      "prompt": "RHO opens 2♠, you pass, partner bids 3♠. What do you bid with each of these hands?",
+      "questions": [
+        {
+          "hand": {
+            "spades": "JT64",
+            "hearts": "K6532",
+            "diamonds": "Q5",
+            "clubs": "K5"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "3546644E8987F2F743A56C9B69E9",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 26
+          }
+        },
+        {
+          "hand": {
+            "spades": "A9",
+            "hearts": "JT84",
+            "diamonds": "Q932",
+            "clubs": "Q65"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4789554069298125D948CC6BD373",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 27
+          }
+        },
+        {
+          "hand": {
+            "spades": "K63",
+            "hearts": "J872",
+            "diamonds": "K7",
+            "clubs": "Q654"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "4H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4642894CED35C5E76B80707C9263",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 33
+          }
+        },
+        {
+          "hand": {
+            "spades": "T97",
+            "hearts": "54",
+            "diamonds": "7632",
+            "clubs": "AT82"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "54CC724F4298923885F66A6945F4",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 39
+          }
+        },
+        {
+          "hand": {
+            "spades": "763",
+            "hearts": "A",
+            "diamonds": "98762",
+            "clubs": "Q732"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "642D4E507FCB55F7B485D24DBC44",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 41
+          }
+        },
+        {
+          "hand": {
+            "spades": "Q97",
+            "hearts": "73",
+            "diamonds": "T73",
+            "clubs": "KJ653"
+          },
+          "seat": "S",
+          "dealer": "E",
+          "vulnerability": "NS",
+          "context": {
+            "dealer": "E",
+            "calls": [
+              "2S",
+              "P",
+              "P",
+              "3S",
+              "P"
+            ]
+          },
+          "answer": "3NT",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "6641708F004B87F5A9F0D07E684F",
+            "event": "Non_Leaping_Michaels_After_2-Bid",
+            "board": 44
+          }
+        }
+      ]
+    }
+  ]
+}
