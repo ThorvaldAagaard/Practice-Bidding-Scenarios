@@ -66,8 +66,8 @@ sp = hcp(east,spades)
 hp = hcp(east,hearts)
 
 # Semi-solid: 2 of the top 3 honors plus at least one of the jack or ten
-eS = spades(east)>6 and top3(east,spades)>1 and top5(east,spades)>2 and hearts(east)<4
-eH = hearts(east)>6 and top3(east,hearts)>1 and top5(east,hearts)>2 and spades(east)<4
+eS = spades(east)>7 and top3(east,spades)>1 and top5(east,spades)>2 and hearts(east)<4
+eH = hearts(east)>7 and top3(east,hearts)>1 and top5(east,hearts)>2 and spades(east)<4
 
 # Preemptive values -- most of the strength sits in the long suit
 sValues = eS and 2 * sp > tp
@@ -75,11 +75,11 @@ hValues = eH and 2 * hp > tp
 
 ePreempts = (sValues or hValues) and hcp(east)>6 and hcp(east)<11
 
-# Level exactly-7 trumps against 8-or-more
-seven  = spades(east)==7 or hearts(east)==7
-longer = not seven
+# Level exactly-8 trumps against 9-or-more
+eight  = spades(east)==8 or hearts(east)==8
+longer = not eight
 
-levelTheDeal = (seven and keep25) or (longer and keep)
+levelTheDeal = (eight and keep11) or (longer and keep)
 
 ePreempts and levelTheDeal
 
@@ -87,14 +87,14 @@ produce 40
 action printoneline,
 average "4S opening   " 100 * sValues,
 average "4H opening   " 100 * hValues,
-average "7-card suit  " 100 * seven,
-average "8+ card suit " 100 * longer,
+average "8-card suit  " 100 * eight,
+average "9+ card suit " 100 * longer,
 `, "E", true)
 Script
 Button,Preempt 4M,\n\
---- East opens a 4-level major preempt holding a 7+ card semi-solid heart or spade suit.\n\
+--- East opens a 4-level major preempt holding an 8+ card semi-solid heart or spade suit.\n\
 Semi-solid means two of the top three honors plus the jack or ten，with most of the\n\
-strength in the long suit. Half the deals give East exactly 7 trumps and half give 8 or\n\
-more，so both flavors of the preempt come up equally often. North and South must decide\n\
-whether to double，bid on，or pass it out.\n\
+strength in the long suit and fewer than 11 HCP. Half the deals give East exactly 8\n\
+trumps and half give 9 or more，so both flavors of the preempt come up equally often.\n\
+North and South must decide whether to double，bid on，or pass it out.\n\
 %Preempt4M%
