@@ -73,7 +73,7 @@ eH = hearts(east)>6 and top3(east,hearts)>1 and top5(east,hearts)>2 and spades(e
 sValues = eS and 2 * sp > tp
 hValues = eH and 2 * hp > tp
 
-ePreempts = (sValues or hValues) and hcp(east)>6 and hcp(east)<12
+ePreempts = (sValues or hValues) and hcp(east)>6 and hcp(east)<11
 
 # Level exactly-7 trumps against 8-or-more
 seven  = spades(east)==7 or hearts(east)==7
