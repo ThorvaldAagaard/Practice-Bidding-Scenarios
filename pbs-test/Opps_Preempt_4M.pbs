@@ -1,7 +1,7 @@
-Script,Preempt4M
-window.currentPBSScenario = 'Preempt4M';
-window.currentPBSScenarioFilename = 'Preempt_4M';
-console.log('PBS: Logging scenario selection for Preempt4M');
+Script,OppsPreempt4M
+window.currentPBSScenario = 'OppsPreempt4M';
+window.currentPBSScenarioFilename = 'Opps_Preempt_4M';
+console.log('PBS: Logging scenario selection for OppsPreempt4M');
 fetch('https://bba.harmonicsystems.com/api/scenario/select', {
     method: 'POST',
     headers: {
@@ -9,7 +9,7 @@ fetch('https://bba.harmonicsystems.com/api/scenario/select', {
         'X-Client-Version': '1.0.0'
     },
     body: JSON.stringify({
-        scenario: 'Preempt4M',
+        scenario: 'OppsPreempt4M',
         user: whoAmI() || 'anonymous'
     })
 }).then(function(r){ console.log('PBS: Server response', r.status); }).catch(function(e){ console.log('PBS: Fetch error', e); });
@@ -20,7 +20,7 @@ convention-card-ns: 21GF-DEFAULT
 convention-card-ew: 21GF-GIB
 auction-filter: Auction.....\n4[HS]
 */
-# Preempt 4M
+# Opps Preempt 4M
 dealer east
 
 ### Imported Leveling Code ###
@@ -87,9 +87,9 @@ average "4H opening   " 100 * hValues,
 average "8-card suit  " 100 * eight,
 `, "E", true)
 Script
-Button,Preempt 4M,\n\
+Button,Opps Preempt 4M,\n\
 --- East opens a 4-level major preempt holding an 8+ card semi-solid heart or spade suit.\n\
 Semi-solid means two of the top three honors plus the jack or ten，with most of the\n\
 strength in the long suit and fewer than 11 HCP. North and South must decide whether to\n\
 double，bid on，or pass it out.\n\
-%Preempt4M%
+%OppsPreempt4M%
