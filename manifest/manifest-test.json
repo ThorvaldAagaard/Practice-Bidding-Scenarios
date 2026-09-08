@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "tier": "test",
-  "generatedAtCommit": "348e8c4d593108828d835a4e7a8b6f3ac12eb69d",
+  "generatedAtCommit": "6de8c7a598c7a92f462c9d593b365bc47ba64b81",
   "sources": {
     "layout": "btn/-button-layout-beta.txt",
     "pbs": [
@@ -1484,6 +1484,20 @@
       "type": "row",
       "buttons": [
         {
+          "name": "Opps_Preempt_4M",
+          "color": null,
+          "width": "50%",
+          "grouped": false
+        },
+        {
+          "name": "---"
+        }
+      ]
+    },
+    {
+      "type": "row",
+      "buttons": [
+        {
           "name": "Preempt_Keycard",
           "color": null,
           "width": "50%",
@@ -1878,10 +1892,24 @@
           "grouped": false
         },
         {
+          "name": "After_Partner_Takeout_Double",
+          "color": null,
+          "width": "50%",
+          "grouped": false
+        }
+      ]
+    },
+    {
+      "type": "row",
+      "buttons": [
+        {
           "name": "Opp_Redoubles",
           "color": null,
           "width": "50%",
           "grouped": false
+        },
+        {
+          "name": "---"
         }
       ]
     },
@@ -5050,6 +5078,16 @@
       "conventionCardEW": "21GF-GIB",
       "missing": false
     },
+    "Opps_Preempt_4M": {
+      "buttonText": "Opps Preempt 4M",
+      "chat": "\\n--- East opens a 4-level major preempt holding an 8+ card semi-solid heart or spade suit.\\nSemi-solid means two of the top three honors plus the jack or ten，with most of the\\nstrength in the long suit and fewer than 11 HCP. North and South must decide whether to\\ndouble，bid on，or pass it out.\\n",
+      "alias": "OppsPreempt4M",
+      "gibWorks": true,
+      "bbaWorks": true,
+      "conventionCardNS": "21GF-DEFAULT",
+      "conventionCardEW": "21GF-GIB",
+      "missing": false
+    },
     "Preempt_Keycard": {
       "buttonText": "Preempt Keycard",
       "chat": "\\n--- Keycard after Preempts\\nAfter a preemptive opening，4!C is keycard-ask. EXCEPTION: After 3!C opening，4!D is keycard-ask.\\nThe responses are 0，1-without，1-with，2-without，2-with.\\nAfter a weak two 4!C Keycard-Ask may be used after a feature-ask sequence such as 2!H - 2N - 3!D - 4!C.\\nhttps://www.advinbridge.com/this-week-in-bridge/578\\n",
@@ -5444,6 +5482,16 @@
       "buttonText": "Takeout Doubles",
       "chat": "\\n--- Takeout Doubles\\n",
       "alias": "TakeoutDoubles",
+      "gibWorks": true,
+      "bbaWorks": true,
+      "conventionCardNS": "21GF-DEFAULT",
+      "conventionCardEW": "21GF-GIB",
+      "missing": false
+    },
+    "After_Partner_Takeout_Double": {
+      "buttonText": "After Partner's Takeout X",
+      "chat": "\\n--- Advancing Partner's Takeout Double\\nWest opens 1!C，1!D，1!H，or 1!S. Your partner (North) makes a takeout\\ndouble，and East passes. You — the advancer — must respond. You are NOT\\nallowed to pass a takeout double for penalty here; partner is asking you to\\nbid，so describe your hand.\\n\\nTwo jobs as advancer: bid your longest suit，and show your strength by the\\nLEVEL you choose，not by bidding longer.\\n\\n• 0-8 HCP  — bid your longest unbid suit as cheaply as possible.\\n• 8-11 HCP — JUMP in your longest suit (the jump shows values，not length).\\n• 12+ HCP  — cuebid opener's suit，forcing to game.\\n\\nWith a stopper in opener's suit you may bid notrump instead of a suit:\\n• 1NT — 8-11 HCP with a stopper.\\n• 2NT — 12-13 HCP with a stopper.\\n• 3NT — 14 HCP with a stopper.\\n\\nPartner (the doubler) then shows any extra by raising your suit (4-card\\nsupport) or cuebidding opener's suit (only 3-card support but extra values).\\n\\nLevel: intermediate.\\nReference: https://www.advinbridge.com/this-week-in-bridge/642\\n",
+      "alias": "AfterPartnerTakeoutDouble",
       "gibWorks": true,
       "bbaWorks": true,
       "conventionCardNS": "21GF-DEFAULT",
@@ -17570,11 +17618,34 @@
     ]
   },
   "counts": {
-    "referenced": 340,
-    "scenarios": 340,
+    "referenced": 342,
+    "scenarios": 342,
     "missing": 0,
     "orphans": 5,
-    "testOnly": 0
+    "testOnly": 2
   },
-  "testScenarios": []
+  "testScenarios": [
+    {
+      "buttonText": "Lebensohl2",
+      "chat": "\\n--- Lebensohl\\nAfter we open 1N and RHO overcalls 2!D，2!H，or 2!S...\\n• A suit at the 2-level is natural and not forcing.\\n• 2N is a relay to 3!C and after the opener's 3!C bid...\\n◦ Pass to play 3!C.\\n◦ A new lower-ranking suit is to play.\\n◦ A cue bid is Stayman WITH A STOP.\\n◦ A new higher-ranking suit is constructive.\\n◦ 3N is to play WITH A STOP.\\n• A new suit at the 3-level is game-forcing.\\n• A cue bid is Stayman WITHOUT a stop.\\n• 3N is natural，WITHOUT a STOP -- opener should pass or scramble.\\nhttps://www.larryco.com/bridge-articles/lebensohl\\nhttps://www.larryco.com/bridge-articles/transfer-lebensohl\\n",
+      "alias": "Lebensohl2",
+      "gibWorks": true,
+      "bbaWorks": true,
+      "conventionCardNS": "21GF-SPECIALS",
+      "conventionCardEW": "21GF-GIB",
+      "missing": false,
+      "name": "Lebensohl2"
+    },
+    {
+      "buttonText": "Opps Preempt 4M",
+      "chat": "\\n--- East opens a 4-level major preempt holding an 8+ card semi-solid heart or spade suit.\\nSemi-solid means two of the top three honors plus the jack or ten，with most of the\\nstrength in the long suit and fewer than 11 HCP. North and South must decide whether to\\ndouble，bid on，or pass it out.\\n",
+      "alias": "OppsPreempt4M",
+      "gibWorks": true,
+      "bbaWorks": true,
+      "conventionCardNS": "21GF-DEFAULT",
+      "conventionCardEW": "21GF-GIB",
+      "missing": false,
+      "name": "Opps_Preempt_4M"
+    }
+  ]
 }

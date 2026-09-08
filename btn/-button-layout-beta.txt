@@ -112,6 +112,7 @@ Opps_Weak_Two,                        McCabe_After_Weak_2
 Multi_2D,                             Opps_Multi_2D
 Lars_Multi_2D,                        ---
 Preempts,                             Opps_Preempt
+Opps_Preempt_4M,                      ---
 Preempt_Keycard,                      Slam_after_Preempt
 Gambling_3N,                          Opps_Gambling_3N
 3N_over_RHO_3x,                       3N_over_LHO_3x
@@ -138,7 +139,8 @@ We_Overcall_NT_then_Jacoby,           We_Overcall_NT_then_Smolen
 We_Overcall_NT_then_Texas,            We_Overcall_NT_then_MSS
 We_Overcall_NT_then_MST,              ---
 We_Overcall_Their_2C,                 ---
-Takeout_Double,                       Opp_Redoubles
+Takeout_Double,                       After_Partner_Takeout_Double
+Opp_Redoubles,                        ---
 Double_Showing_2_Suits,               Double_by_Advancer
 Trap_Pass_Opener,                     Trap_Pass_Opener_Maybe
 W2_X_XX,                              Preempt_X_XX

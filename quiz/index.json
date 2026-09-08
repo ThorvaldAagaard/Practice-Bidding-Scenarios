@@ -1,6 +1,6 @@
 {
   "schema": "quiz-index/v1",
-  "generated": "2026-07-30",
+  "generated": "2026-08-27",
   "pipeline_version": "1.0.0",
   "lessons": [
     {
@@ -177,6 +177,13 @@
       "exercise_count": 80,
       "question_count": 331,
       "file": "After_Partner_Overcalls.json"
+    },
+    {
+      "id": "After_Partner_Takeout_Double",
+      "title": "After Partner's Takeout X",
+      "exercise_count": 27,
+      "question_count": 142,
+      "file": "After_Partner_Takeout_Double.json"
     },
     {
       "id": "Any_5422_with_15-16",
@@ -832,9 +839,16 @@
     {
       "id": "Lebensohl",
       "title": "Lebensohl",
-      "exercise_count": 14,
-      "question_count": 72,
+      "exercise_count": 16,
+      "question_count": 75,
       "file": "Lebensohl.json"
+    },
+    {
+      "id": "Lebensohl2",
+      "title": "Lebensohl2",
+      "exercise_count": 12,
+      "question_count": 62,
+      "file": "Lebensohl2.json"
     },
     {
       "id": "Lebensohl_vs_Opps_W2_Bal",

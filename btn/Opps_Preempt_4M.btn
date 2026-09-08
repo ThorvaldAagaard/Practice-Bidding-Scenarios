@@ -1,0 +1,44 @@
+# alias: OppsPreempt4M
+# button-text: Opps Preempt 4M
+# gib-works: true
+# bba-works: true
+# auction-filter: Auction.....\n4[HS]
+# convention-card-ns: 21GF-DEFAULT
+# convention-card-ew: 21GF-GIB
+
+/*@chat
+--- East opens a 4-level major preempt holding an 8+ card semi-solid heart or spade suit.
+Semi-solid means two of the top three honors plus the jack or ten, with most of the
+strength in the long suit and fewer than 11 HCP. North and South must decide whether to
+double, bid on, or pass it out.
+@chat*/
+
+# Opps Preempt 4M
+dealer east
+
+#include "script/Leveling"
+
+tp = hcp(east)
+sp = hcp(east,spades)
+hp = hcp(east,hearts)
+
+# Semi-solid: 2 of the top 3 honors plus at least one of the jack or ten
+eS = spades(east)>7 and top3(east,spades)>1 and top5(east,spades)>2 and hearts(east)<4
+eH = hearts(east)>7 and top3(east,hearts)>1 and top5(east,hearts)>2 and spades(east)<4
+
+# Preemptive values -- most of the strength sits in the long suit
+sValues = eS and 2 * sp > tp
+hValues = eH and 2 * hp > tp
+
+ePreempts = (sValues or hValues) and hcp(east)>6 and hcp(east)<11
+
+# Thin out the exactly-8 card suits so the longer ones get some air
+eight = spades(east)==8 or hearts(east)==8
+
+ePreempts and (keep44 or not eight)
+
+produce 40
+action
+average "4S opening   " 100 * sValues,
+average "4H opening   " 100 * hValues,
+average "8-card suit  " 100 * eight,
