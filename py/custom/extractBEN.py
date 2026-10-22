@@ -151,8 +151,8 @@ def process_extracted_text(extracted_text, dealer):
 
         if line.startswith("Import"):
             # Splitting the string by comma to get the URL
-            split_string = line.replace("github.com","raw.githubusercontent.com").replace("blob/", "").split(',').trim()
-            url = split_string[1]  # Assuming the URL is at index 1 after splitting
+            split_string = line.replace("github.com","raw.githubusercontent.com").replace("blob/", "").split(',')
+            url = split_string[1].strip()  # Assuming the URL is at index 1 after splitting
             # Fetching the content from the URL
             response = requests.get(url)            
             # Checking if the request was successful (status code 200)           
