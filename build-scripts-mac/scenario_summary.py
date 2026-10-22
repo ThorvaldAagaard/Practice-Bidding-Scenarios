@@ -18,6 +18,7 @@ from datetime import datetime, timezone
 # Add parent directory to path for imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+from utils.leveling import leveled_or_original
 from config import FOLDERS, OPERATIONS_ORDER, PROJECT_ROOT
 from utils.properties import get_bba_works, get_btn_property, get_chat_text
 
@@ -27,7 +28,7 @@ OUTPUT_FILE = os.path.join(PROJECT_ROOT, "docs", "Scenario_Summary.html")
 # Columns for ET: operation names and their short display headers
 OP_COLUMNS = [
     ("dlr", "dlr"),
-    ("pbs", "pbs"),
+    ("level", "level"),
     ("pbn", "pbn"),
     ("rotate", "rotate"),
     ("bba", "bba"),
@@ -172,7 +173,9 @@ def generate_summary(pattern: str = "*"):
     # Collect data for each scenario
     rows = []
     for scenario in scenarios:
-        deals = count_boards(os.path.join(FOLDERS["pbn"], f"{scenario}.pbn"))
+        # The dealt file downstream reads: pbn-leveled/ for a leveled scenario,
+        # which since 2026-09 is the only one such a scenario has.
+        deals = count_boards(leveled_or_original(scenario, "pbn"))
         filtered = count_boards(os.path.join(FOLDERS["bba_filtered"], f"{scenario}.pbn"))
         filtered_out = count_boards(os.path.join(FOLDERS["bba_filtered_out"], f"{scenario}.pbn"))
 
@@ -309,11 +312,13 @@ def generate_summary(pattern: str = "*"):
     h.append('</head>')
     h.append('<body>')
     h.append('  <h1>Scenario Summary</h1>')
-    utc_ts = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    # The dashboard job sets PBS_GENERATED_AT so every page it writes shows one time.
+    utc_ts = os.environ.get('PBS_GENERATED_AT') or datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     h.append(f'  <p class="subtitle">{len(rows)} scenarios &mdash; Generated <span id="gen-time" data-utc="{utc_ts}"></span>')
     h.append(f'    &mdash; <a class="nav-btn" href="./">Dashboard</a>')
     h.append(f'    <a class="nav-btn nav-btn-active" href="Scenario_Summary.html">Scenario Summary</a>')
-    h.append(f'    <a class="nav-btn" href="Convention_Card_Summary.html">Convention Cards</a></p>')
+    h.append(f'    <a class="nav-btn" href="Convention_Card_Summary.html">Convention Cards</a>')
+    h.append(f'    <a class="nav-btn" href="Curation_Summary.html">Curation</a></p>')
 
     # Side-by-side summaries
     h.append('  <div class="summaries">')

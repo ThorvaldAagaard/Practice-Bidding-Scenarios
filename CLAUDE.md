@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Practice Bidding Scenarios (PBS) is a bridge bidding training platform that integrates with Bridge Base Online (BBO). Users author bidding scenarios as `.btn` files in `btn/` (the master source), generate practice hands with constraints using dealer language, and practice bidding with robots or partners. The system transforms scenario definitions through a multi-stage pipeline into bidding sheets and BBO-compatible formats. (The `.pbs` format still exists, but only as a generated, distributable artifact in `pbs-release/` — see the pipeline below.)
+Practice Bidding Scenarios (PBS) is a bridge bidding training platform that integrates with Bridge Base Online (BBO). Users author bidding scenarios as `.btn` files in `btn/` (the master source), generate practice hands with constraints using dealer language, and practice bidding with robots or partners. The system transforms scenario definitions through a multi-stage pipeline into bidding sheets and BBO-compatible formats. BBO and Bridge Classroom load each scenario's dealer script straight from `dlr/<name>.dlr` on `main`, so a push to `main` publishes it.
 
 **Repository home:** this repo lives at `github.com/bridge-craftwork/Practice-Bidding-Scenarios` (transferred from `ADavidBailey/` in 2026; GitHub redirects the old URLs, so stale references keep working). Consumers — the BBO browser extension and Bridge Classroom — read its files at runtime from `raw.githubusercontent.com/bridge-craftwork/Practice-Bidding-Scenarios/main/`. The local working copy is still `~/Practice-Bidding-Scenarios` — the transfer changed only the GitHub URL, not local paths.
 
@@ -15,7 +15,7 @@ The Bridge Play Trainer is a **separate repo** (`~/AI-Bridge-Play-Trainer`, gith
 - **This repo = content + pipeline**: scenarios, the dealer pipeline, the `coaching/*.pbn` tutorial prose, the `btn/` menu layout, the VS Code extension, BBO integration.
 - **AI-Bridge-Play-Trainer = engine + UI**: FastAPI server, web UI, card-play mechanics, scoring, the coaching-marker parser.
 
-At runtime the trainer **reads** this repo's files via `BRIDGE_DATA_ROOT` (default this directory) → `coaching/*.pbn` + `btn/`. It never writes back, and this repo doesn't depend on the trainer. Rule of thumb: anything about a *particular hand or what it teaches* belongs here; anything about *how the app behaves for every hand* belongs in the trainer. The one shared seam is the coaching markers (`[show X]`, `[BID xxx]`, `\S\H\D\C`) — prose authored here, parser in the trainer's `server.py`. See [Bridge Play Trainer.md](Bridge Play Trainer.md) for the full trainer write-up.
+At runtime the trainer **reads** this repo's files via `BRIDGE_DATA_ROOT` (default this directory) → `coaching/*.pbn` + `btn/`. It never writes back, and this repo doesn't depend on the trainer. Rule of thumb: anything about a *particular hand or what it teaches* belongs here; anything about *how the app behaves for every hand* belongs in the trainer. The one shared seam is the coaching markers (`[show X]`, `[BID xxx]`, `\S\H\D\C`) — prose authored here, parser in the trainer's `server.py`. See [Bridge Play Trainer.md](notes/Bridge%20Play%20Trainer.md) for the full trainer write-up.
 
 ### Coaching: staging vs. served (`coaching-curated/` → `coaching/`)
 
@@ -32,8 +32,8 @@ A curation stage is being built between `filter` and coaching authoring.
 Before working on anything touching `bba/`, `bba-curated/`, `coaching/`, or
 `py/curate|annotate|select|auction_diff|spiral_auction|coach.py`, read:
 
-- the most recent `bookmark-curation-*.md` (current status + open items)
-- `pbn-curation-plan.md` (design) and `bba-curated/README.md` (the
+- the most recent `notes/bookmarks/bookmark-curation-*.md` (current status + open items)
+- `notes/plans/pbn-curation-plan.md` (design) and `bba-curated/README.md` (the
   `{Curate}` block format and the `py/select.py` filter)
 
 Convention/spiral scenarios (e.g. `Spiral_Raises_*`) take a different path and do
@@ -50,7 +50,7 @@ and `select.py` take the scenario as a positional argument.
 
 ### Development Environment Setup
 
-Required environment variables (add to `~/.zshrc`):
+Environment variables (add to `~/.zshrc`). The whole pipeline runs on the Mac by default; the four Windows variables are needed only with `PBS_DEALER_PLATFORM="windows"`, which runs `dealer.exe` on the VM over SSH:
 ```bash
 export WINDOWS_HOST="your-windows-ip"
 export WINDOWS_USER="your-windows-username"
@@ -88,15 +88,48 @@ python3 pbs-pipeline-mac.py "Weak_2_Bids" "pbn"
 
 Pipeline operations in order:
 1. `dlr` - Extract dealer code from the `.btn` master file
-2. `pbs` - Render the `.dlr` into a `.pbs` file in `pbs-test/`
+2. `level` - Write `dlr-leveled/<name>.dlr` for a scenario that declares hand types (`HandType_*`)
 3. `pbn` - Generate hands using dealer
-4. `rotate` - Create 4-player rotations (PBN and LIN formats)
-5. `bba` - Analyze bidding with Bridge Base Archive
-6. `filter` - Filter by auction patterns
-7. `filterStats` - Generate statistics
-8. `biddingSheet` - Generate PDF bidding sheets
+4. `solve` - Add double-dummy tables and par to every deal
+5. `rotate` - Create 4-player rotations (PBN and LIN formats)
+6. `bba` - Analyze bidding with Bridge Base Archive
+7. `filter` - Filter by auction patterns
+8. `filterStats` - Generate statistics
+9. `biddingSheet` - Generate PDF bidding sheets
 
-The default `*` order continues past `biddingSheet` with `quiz` (generate quiz PBN/PDF/JSON) and `package` (copy artifacts into the Bidding Scenarios hierarchy). The `release` and `release-layout` operations are NOT in the default order — invoke them explicitly; `release` promotes `pbs-test/` → `pbs-release/`.
+**Leveling (issue #322).** `level` runs `dealer3 --write-leveled` on a `.dlr` that names `HandType_*` variables. It skips every other scenario, and removes leftover leveled files when a scenario stops declaring hand types. Where `dlr-leveled/<name>.dlr` exists, it wins downstream. `pbn` writes `pbn-leveled/<name>.pbn` (interleaved by hand type) and, for a leveled scenario, only that: the natural mix in `pbn/<name>.pbn` was a second full dealer run, about 30 seconds a scenario, producing a file nothing downstream reads -- it existed to show what leveling changed, a comparison nobody was making. `PBS_NATURAL_MIX=1` deals it as well, which is what to set when leveling itself is what you are investigating; otherwise `pbn` removes a leftover one, as `level` does with its own. Unleveled scenarios are unaffected: `pbn/<name>.pbn` is their only dealt file. `rotate`, `bba`, `gib`, `package` and the manifest read the leveled files. One resolver decides this: `leveled_or_original()` in `build-scripts-mac/utils/leveling.py`. The leveled file's first line stamps the sha256 of the `.dlr` it came from. `level` skips a file that is still current, `pbn` refuses a stale one, and the `check-leveled` workflow fails CI on either a stale file or a missing one. `# level-budget: N` in a `.btn` caps the leveling cost.
+
+**Solving (issue #341).** `solve` runs the `bridge-solver` CLI over a scenario's
+deals and writes four tags into the deal file itself, leaving every other byte
+alone: `[OptimumResultTable]` and `[DoubleDummyTricks]`, the same table in two
+encodings, and `[OptimumScore]` and `[ParContract]`, the par computed from that
+table at no extra solving cost. bridge-wrangler had an `analyze` until its
+v0.11.0; it solved one board at a time on one thread, and was removed rather than
+kept as a slower second implementation of bridge-solver's job. bridge-solver uses
+every core (`-j`, overridable with `PBS_SOLVE_THREADS`) and gives identical bytes
+at any thread count: a 500-deal scenario takes about 8 seconds rather than 70.
+
+The tags depend only on the deal, so everything downstream inherits them: `rotate`
+turns all four with the hands, and bba-cli keeps them beside the auction it
+generates. A file whose deals are all solved is skipped, and within a file
+bridge-solver leaves an already-analysed board as it found it, so no deal is
+solved twice.
+
+A solved file says so in its header: `% solved: 500/500 deals, bridge-solver`.
+Solving writes into the deal file rather than a file of its own, so no path or
+timestamp distinguishes a solved file from an unsolved one -- the stamp does,
+the way `dlr-leveled/<name>.dlr` records the `.dlr` it came from. `solve` reads
+it instead of counting tags through a quarter of a megabyte, the VS Code panel's
+`dd` row reads it to show "500 deals solved" or "dealt, not solved", and it
+survives into `bba/`, where it is equally true. Stamping a file that was already
+solved keeps the file's timestamp, since its deals and tables have not changed
+and everything downstream would otherwise be told to rebuild for a header line. Dealing new hands rewrites the file without them, which is what
+makes the next `solve` redo them. `bba-direct` scenarios skip it along with `pbn`
+and `rotate`, having no dealt hands of their own.
+
+The default `*` order continues past `biddingSheet` with `quiz` (generate quiz PBN/PDF/JSON) and `package` (copy artifacts into the Bidding Scenarios hierarchy). The `release` and `release-layout` operations are NOT in the default order — invoke them explicitly. `release` publishes a scenario: it regenerates and levels the `.dlr`, commits the `.btn`, the `.dlr` and `dlr-leveled/<name>.dlr` if there is one (only those files), and pushes `main`. It refuses to run on any other branch. `release-layout` copies `btn/-button-layout-beta.txt` over `-button-layout-release.txt` and pushes; the two layout files decide which buttons each channel shows. To try a script before releasing it, use `bbo-demo`, which loads the local `.dlr` into BBO without going through GitHub.
+
+`gib` and `gibReport` are also explicit-only. They are a **report on how well a scenario matches GIB**, not a second lesson pipeline; BBA stays the source everything downstream is built from. `gib` runs `py/gib_capture.py`, which has BBO's robots bid 30 deals from the scenario's `.dlr` on a live account (Mac, Playwright test profile), replaces `GIB/<name>.pbn`, then runs `gibReport`. `gibReport` filters that capture by the `auction-filter` into `GIB-filtered/` and `GIB-filtered-out/` (PBN + PDF) and writes `GIB-report/<name>.md` plus `GIB-report/-summary.md`. It touches only local files, so it also works on the hand-collected captures. `bbo-demo` (also explicit-only; `py/gib_capture.py --demo`) sets up the same four-robot table with the scenario's script loaded and captures nothing. It leaves the browser open so a person can test the script by hand: redealing, reading the robots' bid explanations. Closing the BBO tab ends it. The pipeline refuses `gib` or `bbo-demo` on more than one scenario at a time: we are guests on BBO, so keep live runs to about 30 boards. **Which filter form to use.** A filter that anchors on BBA's `Note` tags (`Note...:Multi-Landy`) is the preferred form wherever it works: it is far easier for a person to read and verify than a regex over the auction, and it matches the convention BBA actually bid rather than a sequence that resembles it. A GIB capture carries no `Note` tags, so a Note-anchored filter matches nothing there and `gibReport` flags it — which matters only for a scenario GIB can actually bid. So: `gib-works: true` wants an auction-only filter; `gib-works: false` keeps its Note filter, because GIB never bids that convention and there is nothing to report on. Rewriting a working Note filter as a regex trades readability for nothing in that case. The exception is a Note filter that is simply wrong — `Gerber_By_Responder`'s `Note....A=` matched any ace-count answer, Blackwood included — where the auction-only form is narrower and more correct.
 
 ### Testing
 
@@ -120,11 +153,13 @@ The system follows a linear transformation pipeline:
 ```
 btn file (master scenario definition: dealer code + button metadata)
     ↓ [dlr] Extract dealer code
-dlr file (dealer language constraints)
-    ↓ [pbs] Render .pbs into pbs-test/  (separate [release] op promotes it to pbs-release/)
-pbs file (generated artifact)
+dlr file (dealer language constraints; what BBO loads, published by [release] = git push)
+    ↓ [level] dealer3 --write-leveled, only for scripts that declare HandType_ variables
+dlr-leveled file (wins downstream wherever it exists)
     ↓ [pbn] Generate hands via dealer (500 per scenario)
-pbn file (Portable Bridge Notation)
+pbn file (Portable Bridge Notation; pbn-leveled/ too, when leveled)
+    ↓ [solve] Add the double-dummy tags and par to every deal, in place
+pbn file, now carrying its double-dummy tables and par
     ↓ [rotate] Create 4-player rotations
 pbn-rotated & lin-rotated files
     ↓ [bba] Analyze bidding with BBA
@@ -141,9 +176,9 @@ bidding-sheets (final output)
 
 The system bridges Mac and Windows environments:
 
-- **Mac**: Python orchestrator, native dealer tool, wkhtmltopdf for PDFs
-- **Windows VM**: Windows-only tools (dealer.exe, BBA.exe/bba-cli, Filter.js, SetDealerMulti.js)
-- **Communication**: SSH with UNC path mapping, file-based queuing for GUI apps
+- **Mac**: Python orchestrator and every pipeline tool: dealer3, bba-cli, bridge-solver (double dummy and par), bridge-wrangler (rotate, filter, and every PDF via `to-pdf`)
+- **Windows VM**: optional. Used only to run `dealer.exe` when `PBS_DEALER_PLATFORM="windows"`
+- **Communication**: SSH with UNC path mapping, for that `dealer.exe` path only
 
 Drive mappings (Mac → Windows):
 - `G:` → GitHub folder (parent of project)
@@ -176,8 +211,8 @@ Extension provides:
 
 **Generated (Intermediate):**
 - `dlr/` - Extracted dealer code
-- `pbs-test/` - `.pbs` files rendered from `.dlr` by the `pbs` operation
-- `pbs-release/` - Distributable `.pbs` files promoted from `pbs-test/` by the separate `release` operation
+- `dlr-leveled/` - Leveled copies of the `.dlr` files that declare hand types, from the `level` operation (issue #322). Committed, stamped with their source's hash; where one exists it wins downstream
+- `pbn-leveled/` - Hands dealt from `dlr-leveled/`, interleaved by hand type. For a leveled scenario this is the only dealt file; see `PBS_NATURAL_MIX` above
 - `pbn/` - Bridge Portable Notation files (~500 hands each)
 - `pbn-rotated-for-4-players/` - Rotated PBN for 4-player practice
 - `lin-rotated-for-4-players/` - LIN format for BBO
@@ -185,11 +220,13 @@ Extension provides:
 - `bba-filtered/` - Filtered BBA files by auction pattern
 - `bba-filtered-out/` - BBA files that were filtered out
 - `bba-summary/` - Statistics summaries
+- `GIB/` - Auctions bid by BBO's GIB robots, one PBN capture per scenario: older ones hand-collected, new ones from `py/gib_capture.py` (issue #323). Stored in BBA's notation (`1N`, `[Contract "3N"]`, not `1NT`), so one `auction-filter` works on both BBA and GIB auctions
+- `GIB-filtered/`, `GIB-filtered-out/`, `GIB-report/` - `gibReport` output: the capture split by `auction-filter` (PBN + PDF), and a match report per scenario
 
 **Generated (Final Output):**
 - `bidding-sheets/` - PDF bidding sheets for practice
 - `quiz/` - Bidding quizzes in three forms, all from the `quiz` operation: `{Scenario}.pbn` (print layout), `{Scenario}.pdf`, and `{Scenario}.json` — one `quiz-lesson/v1` file per scenario, plus an `index.json` manifest. The JSON is hierarchical (lesson → exercise, which owns the shared prompt → question, a hand + its answer) and is what lesson-studio embeds by value. Its shape is fixed by Contract 3 (`documentation/contracts/quiz-json-schema.md` in the lesson-studio repo), so change it there first. **Generated — never hand-edit.**
-- `manifest/` - Pre-built deal-source menu manifests (`manifest-{release,beta,test}.json`), generated by `py/build_manifest.py` via a GitHub Action so the BBO extension / Bridge Classroom build their menu from ONE fetch instead of scanning ~400 `.btn`/`.pbs` files. **Generated — never hand-edit** (see `manifest/README.md`).
+- `manifest/` - Pre-built deal-source menu manifests (`manifest-{release,beta}.json`), generated by `py/build_manifest.py` via a GitHub Action so the BBO extension / Bridge Classroom build their menu from ONE fetch; on a click they fetch the scenario's `dlr` path (`dlr-leveled/<name>.dlr` when leveled, else `dlr/<name>.dlr`). **Generated — never hand-edit** (see `manifest/README.md`).
 
 **Source Code:**
 - `build-scripts-mac/` - Python pipeline orchestration and operations
@@ -198,9 +235,13 @@ Extension provides:
 - `js/` - JavaScript for BBO automation
 
 **Configuration:**
-- `GIB/` - GIB convention card definitions
 - `bbsa/` - Bridge Base Scenario Archive
 - `.vscode/` - VS Code workspace settings
+
+**Working notes:**
+- `notes/` - Reference docs and status write-ups (e.g. `Bridge Play Trainer.md`, `scenario-seating.md`)
+- `notes/plans/` - Design docs, proposals, and plans
+- `notes/bookmarks/` - Session bookmarks (`bookmark-<topic>-YYYY-MM-DD.md`)
 
 ### Key Python Modules
 
@@ -219,7 +260,7 @@ Pipeline operations in `build-scripts-mac/operations/`:
 ### Data Formats
 
 1. **BTN (Button / master scenario)**: The authored source format — combines dealer constraints with button metadata for BBO integration. Lives in `btn/`; everything else is derived from it.
-2. **PBS (Practice Bidding Scenario)**: Generated, distributable rendering of a `.btn` master (in `pbs-release/`); not hand-edited
+2. **PBS (Practice Bidding Scenario)**: Retired. The old BBOalert wrapper around a `.dlr`; nothing generates or reads one now (issue #321). The name survives in `-PBS.txt` and the VS Code extension
 3. **DLR (Dealer)**: Dealer language for hand generation constraints - a DSL for expressing bridge hand requirements
 4. **PBN (Portable Bridge Notation)**: Standard bridge hand format, ~160-170KB per file (~500 hands)
 5. **BBA (Bridge Base Archive)**: PBN with bidding analysis, ~300-340KB per file
@@ -230,7 +271,7 @@ Pipeline operations in `build-scripts-mac/operations/`:
 Central configuration in [build-scripts-mac/config.py](build-scripts-mac/config.py):
 - SSH host/user for Windows VM
 - Drive mappings (P:, S: drives with UNC paths)
-- Tool paths (dealer, bba-cli, wkhtmltopdf)
+- Tool paths (dealer, bba-cli, bridge-wrangler)
 - Default convention cards: `21GF-DEFAULT`, `21GF-GIB`
 - Dealer parameters: seed=5, generate=300000000, produce=500
 - Pipeline operations order
@@ -239,14 +280,14 @@ Central configuration in [build-scripts-mac/config.py](build-scripts-mac/config.
 
 ### Working with Scenario (.btn) Files
 
-- `.btn` files live in the `btn/` directory and are the single master source. Everything else (`dlr/`, `pbs-release/`, `pbn/`, etc.) is derived — the pipeline does not auto-cascade, so regenerate downstream artifacts explicitly after editing a `.btn`.
+- `.btn` files live in the `btn/` directory and are the single master source. Everything else (`dlr/`, `pbn/`, etc.) is derived — the pipeline does not auto-cascade, so regenerate downstream artifacts explicitly after editing a `.btn`.
 - Each `.btn` file defines a bidding scenario with:
   - Dealer language code for hand generation constraints
   - Button metadata for BBO integration (`@chat`, `@convention-card-ns`, `@convention-card-ew`, `@include`, etc.)
   - Optional filtering rules for auction patterns
 - The `-PBS.txt` file lists all scenarios and their organization
 - When creating new scenarios, follow the existing `.btn` structure
-- **Commas in scenario chat**: Use plain regular commas in `.btn` files. The pipeline converts them to wide commas (，) downstream when rendering the `.pbs`; do not hand-type wide commas in `.btn` files.
+- **Commas in scenario chat**: Use plain regular commas in `.btn` files; they reach BBO chat as plain commas. Do not hand-type wide commas (，) in `.btn` files.
 
 ### Working with the Pipeline
 
@@ -254,7 +295,6 @@ Central configuration in [build-scripts-mac/config.py](build-scripts-mac/config.
 - Each operation reads from its input folder and writes to its output folder
 - The pipeline can be resumed from any operation using the "+" suffix (e.g., "bba+" runs from bba to end)
 - Always test pipeline changes on a single scenario before running on all scenarios
-- File-based queueing is used for GUI tools (BBA.exe) that can't run headless
 
 ### Working with the VS Code Extension
 
@@ -266,9 +306,8 @@ Central configuration in [build-scripts-mac/config.py](build-scripts-mac/config.
 
 ### Cross-Platform Considerations
 
-- Mac is the primary development platform; Windows VM handles Windows-only tools
-- SSH runner handles drive mapping and UNC path conversion automatically
-- Test Windows tool execution when modifying pipeline operations
+- Mac is the primary development platform, and by default the whole pipeline runs there
+- The Windows VM is used only by `pbn` when `PBS_DEALER_PLATFORM="windows"`; `ssh_runner.py` handles drive mapping and UNC path conversion for it
 - UNC paths must be used for SSH execution (mapped drives don't persist in SSH sessions)
 
 ### File Naming Conventions
@@ -277,6 +316,16 @@ Central configuration in [build-scripts-mac/config.py](build-scripts-mac/config.
 - Generated files maintain the same base name with different extensions
 - Scenario names are used as keys throughout the system
 - Avoid spaces in scenario names; use underscores instead
+
+### Keep the Repo Root Clean
+
+The root holds only `-PBS*.txt`, `-PBS README.md`, `README.md`, `CLAUDE.md`, and the data/source folders. **Never create new files at the root.**
+
+- Plans, proposals, design docs → `notes/plans/`
+- Session bookmarks / status handoffs → `notes/bookmarks/`
+- Other durable reference or status docs → `notes/`
+- Reusable Python tools → `py/`
+- Session logs, draft emails/notes to people, and throwaway analysis scripts → the session scratchpad, not the repo. Only commit them if they record a decision someone will need later.
 
 ## BBO Integration
 
@@ -287,7 +336,7 @@ The system integrates with Bridge Base Online through:
 3. **Button Grid**: Each scenario becomes a clickable button that imports dealer code to BBO
 4. **Deal Source**: Dealer code is automatically set in BBO's "Deal source/Advanced" section
 5. **Practice Tables**: Scripts can automatically create bidding or teaching tables with proper settings
-6. **Deal-source manifest**: `manifest/manifest-{release,beta,test}.json` (built by `py/build_manifest.py` on push) hands consumers the whole menu in one fetch — the button layout plus each scenario's button text, chat, `gib-works`/`bba-works`, and the missing/orphan deltas — replacing the legacy per-`.btn`/`.pbs` scan
+6. **Deal-source manifest**: `manifest/manifest-{release,beta}.json` (built by `py/build_manifest.py` on push) hands consumers the whole menu in one fetch — the button layout plus each scenario's button text, chat, `gib-works`/`bba-works`, and the missing/orphan deltas. Clicking a button fetches `dlr/<name>.dlr`
 
 Key JavaScript automation functions:
 - `setBiddingTable` - Creates and configures a bidding practice table

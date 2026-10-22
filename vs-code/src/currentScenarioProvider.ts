@@ -2,35 +2,7 @@ import * as vscode from 'vscode';
 import * as path from 'path';
 import * as fs from 'fs';
 import { getBtnMetadata, clearMetadataCache } from './btnParser';
-
-/**
- * Find the PBS directory (handles both 'PBS' and 'pbs' case)
- */
-function findPbsDir(workspaceRoot: string): string {
-    const upperPath = path.join(workspaceRoot, 'PBS');
-    const lowerPath = path.join(workspaceRoot, 'pbs');
-    if (fs.existsSync(upperPath)) {
-        return upperPath;
-    }
-    if (fs.existsSync(lowerPath)) {
-        return lowerPath;
-    }
-    return upperPath; // default to uppercase if neither exists
-}
-
-/**
- * Check if a directory name is a PBS directory (case-insensitive)
- */
-function isPbsDir(dirName: string): boolean {
-    return dirName.toLowerCase() === 'pbs';
-}
-
-/**
- * Check if a directory name is a btn directory
- */
-function isBtnDir(dirName: string): boolean {
-    return dirName.toLowerCase() === 'btn';
-}
+import { getScenarioFromPath, isLeveled, pbnFor } from './scenarioPaths';
 
 /**
  * Find the first packaged PBN file for a scenario in the Bidding Scenarios hierarchy.
@@ -56,38 +28,78 @@ function findPackagePath(scenario: string, root: string): string {
 
 // Define all artifacts in pipeline order with their dependencies
 // requiresBba indicates artifacts that need bba-works=true to be shown
+// requiresLeveled indicates artifacts only a leveled scenario has (issue #322)
 const ARTIFACTS = [
     {
         name: 'dlr',
         shortName: 'dlr',
         requiresBba: false,
+        requiresLeveled: false,
         getPath: (s: string, r: string) => path.join(r, 'dlr', `${s}.dlr`),
         getSourcePath: (s: string, r: string) => path.join(r, 'btn', `${s}.btn`),
         command: 'pbs.runDlr'
     },
-    // PBS is handled specially in getChildren() to show pbs-test and pbs-release separately
     {
+        name: 'dlr-leveled',
+        shortName: 'lvl',
+        requiresBba: false,
+        requiresLeveled: true,
+        getPath: (s: string, r: string) => path.join(r, 'dlr-leveled', `${s}.dlr`),
+        getSourcePath: (s: string, r: string) => path.join(r, 'dlr', `${s}.dlr`),
+        command: 'pbs.runLevel'
+    },
+    {
+        // The natural mix, dealt only for a scenario that is NOT leveled: a
+        // leveled one is dealt into pbn-leveled/ alone, so showing this row
+        // would report a file that is not supposed to exist as missing.
         name: 'pbn',
         shortName: 'pbn',
         requiresBba: false,
+        requiresLeveled: false,
+        requiresUnleveled: true,
         getPath: (s: string, r: string) => path.join(r, 'pbn', `${s}.pbn`),
         getSourcePath: (s: string, r: string) => path.join(r, 'dlr', `${s}.dlr`),
         command: 'pbs.runPbn'
     },
     {
+        name: 'pbn-leveled',
+        shortName: 'pbnL',
+        requiresBba: false,
+        requiresLeveled: true,
+        getPath: (s: string, r: string) => path.join(r, 'pbn-leveled', `${s}.pbn`),
+        getSourcePath: (s: string, r: string) => path.join(r, 'dlr-leveled', `${s}.dlr`),
+        command: 'pbs.runPbn'
+    },
+    {
+        // Solving writes into the deal file rather than a file of its own, so
+        // there is no artifact whose mtime could answer "is this solved?".
+        // The file's `% solved: n/m deals` stamp answers it instead, which is
+        // why this row reads a header rather than comparing timestamps.
+        name: 'solve',
+        shortName: 'dd',
+        requiresBba: false,
+        requiresLeveled: false,
+        getPath: (s: string, r: string) => pbnFor(s, r),
+        getSourcePath: (s: string, r: string) => pbnFor(s, r),
+        command: 'pbs.runSolve',
+        fromStamp: true
+    },
+    {
         name: 'rotate',
         shortName: 'rot',
         requiresBba: false,
+        requiresLeveled: false,
         getPath: (s: string, r: string) => path.join(r, 'pbn-rotated-for-4-players', `${s}.pbn`),
-        getSourcePath: (s: string, r: string) => path.join(r, 'pbn', `${s}.pbn`),
+        getSourcePath: (s: string, r: string) => pbnFor(s, r),
         command: 'pbs.runRotate'
     },
     {
         name: 'bba',
         shortName: 'bba',
         requiresBba: true,
+        requiresLeveled: false,
         getPath: (s: string, r: string) => path.join(r, 'bba', `${s}.pbn`),
-        getSourcePath: (s: string, r: string) => path.join(r, 'pbn', `${s}.pbn`),
+        getSourcePath: (s: string, r: string) => pbnFor(s, r),
         command: 'pbs.runBba'
     },
     {
@@ -123,7 +135,7 @@ const ARTIFACTS = [
             // Package copies from bba-filtered (with pbn fallback), so compare against actual source
             const filtered = path.join(r, 'bba-filtered', `${s}.pbn`);
             if (fs.existsSync(filtered)) { return filtered; }
-            return path.join(r, 'pbn', `${s}.pbn`);
+            return pbnFor(s, r);
         },
         command: 'pbs.runPackage'
     }
@@ -137,62 +149,41 @@ type ArtifactStatus = 'fresh' | 'stale' | 'missing' | 'unchecked';
 // were written in the same pipeline run.
 const FRESHNESS_TOLERANCE_MS = 1000;
 
+/**
+ * What a deal file's `% solved: n/m deals` stamp says, or null if it has none.
+ *
+ * Only the header is read: the stamp is in the first few lines, and the
+ * alternative -- counting double-dummy tags through a quarter of a megabyte --
+ * would be paid on every refresh of this panel.
+ */
+function readSolvedStamp(pbnPath: string): { deals: number, solved: number } | null {
+    let head = '';
+    try {
+        const fd = fs.openSync(pbnPath, 'r');
+        try {
+            const buf = Buffer.alloc(4096);
+            const read = fs.readSync(fd, buf, 0, buf.length, 0);
+            head = buf.toString('utf8', 0, read);
+        } finally {
+            fs.closeSync(fd);
+        }
+    } catch {
+        return null;
+    }
+
+    const m = head.match(/^% solved: (\d+)\/(\d+) deals/m);
+    if (!m) { return null; }
+    return { solved: parseInt(m[1], 10), deals: parseInt(m[2], 10) };
+}
+
 interface ArtifactInfo {
     name: string;
     shortName: string;
     status: ArtifactStatus;
     command: string;
     artifactPath: string;
-}
-
-/**
- * Extract scenario name from a file path in any pipeline directory
- */
-function getScenarioFromPath(filePath: string): string | undefined {
-    const dirName = path.dirname(filePath);
-    const baseName = path.basename(filePath);
-    const parentDir = path.basename(dirName);
-
-    // Check each known directory type
-    if (isPbsDir(parentDir)) {
-        // PBS files have no extension
-        return baseName;
-    }
-
-    if (isBtnDir(parentDir)) {
-        // btn/Scenario.btn
-        return baseName.replace(/\.btn$/, '');
-    }
-
-    if (parentDir === 'pbs-test' || parentDir === 'pbs-release') {
-        // pbs-test/Scenario.pbs or pbs-release/Scenario.pbs
-        return baseName.replace(/\.pbs$/, '');
-    }
-
-    if (parentDir === 'dlr') {
-        // dlr/Scenario.dlr
-        return baseName.replace(/\.dlr$/, '');
-    }
-
-    if (parentDir === 'pbn' || parentDir === 'pbn-rotated-for-4-players' ||
-        parentDir === 'bba' || parentDir === 'bba-filtered') {
-        // pbn/Scenario.pbn
-        return baseName.replace(/\.pbn$/, '');
-    }
-
-    if (parentDir === 'quiz') {
-        // quiz/Scenario.pbn or quiz/Scenario.pdf
-        return baseName.replace(/\.(pbn|pdf)$/, '');
-    }
-
-    if (parentDir === 'bidding-sheets') {
-        // bidding-sheets/Scenario Bidding Sheets.pdf or .html
-        return baseName
-            .replace(/ Bidding Sheets\.(pdf|html)$/, '')
-            .replace(/\.pbn$/, '');
-    }
-
-    return undefined;
+    /** For a stamped artifact: what its stamp claims, for the tooltip. */
+    detail?: string;
 }
 
 /**
@@ -239,9 +230,14 @@ export class ScenarioTreeItem extends vscode.TreeItem {
             }
 
             // Tooltip with path and status
-            const statusText = artifactInfo.status === 'fresh' ? 'Up to date' :
+            let statusText = artifactInfo.status === 'fresh' ? 'Up to date' :
                 artifactInfo.status === 'stale' ? 'Needs rebuild' :
                 artifactInfo.status === 'unchecked' ? 'Stale warning muted' : 'Not yet built';
+            // A stamped artifact says how much of itself is done, which is more
+            // use than "up to date" on its own.
+            if (artifactInfo.detail) {
+                statusText = `${statusText} — ${artifactInfo.detail}`;
+            }
             const clickAction = artifactInfo.status === 'missing' ? '' : '\n\n*Click to open*';
             this.tooltip = new vscode.MarkdownString(`**${artifactInfo.name}**\n\n${statusText}\n\n\`${artifactInfo.artifactPath}\`${clickAction}`);
             this.contextValue = 'artifact';
@@ -312,6 +308,16 @@ export class CurrentScenarioProvider implements vscode.TreeDataProvider<Scenario
         if (oldScenario !== this.currentScenario) {
             this._onDidChangeTreeData.fire();
         }
+    }
+
+    /**
+     * The scenario this panel is showing, which is the last scenario file the
+     * editor was on. It is deliberately sticky -- switching to a README does
+     * not clear it -- so it answers "which scenario am I working on?" when the
+     * active editor cannot, such as from the command palette or a tree view.
+     */
+    getCurrentScenario(): string | undefined {
+        return this.currentScenario;
     }
 
     refresh(): void {
@@ -414,9 +420,12 @@ export class CurrentScenarioProvider implements vscode.TreeDataProvider<Scenario
             // Get scenario metadata to filter artifacts
             const metadata = getBtnMetadata(this.currentScenario!, this.workspaceRoot!);
 
-            // Filter artifacts based on bbaWorks
+            // Filter artifacts based on bbaWorks, and on whether the scenario is leveled
+            const leveled = isLeveled(this.currentScenario!, this.workspaceRoot!);
             const visibleArtifacts = ARTIFACTS.filter(artifact =>
-                !artifact.requiresBba || metadata.bbaWorks
+                (!artifact.requiresBba || metadata.bbaWorks) &&
+                (!artifact.requiresLeveled || leveled) &&
+                (!(artifact as { requiresUnleveled?: boolean }).requiresUnleveled || !leveled)
             );
 
             // Build artifact children
@@ -430,12 +439,6 @@ export class CurrentScenarioProvider implements vscode.TreeDataProvider<Scenario
                     false,
                     info
                 ));
-
-                // After DLR, insert PBS test/release entries
-                if (artifact.name === 'dlr') {
-                    const pbsItems = this.getPbsArtifactItems(this.currentScenario!, this.workspaceRoot!);
-                    items.push(...pbsItems);
-                }
             }
 
             // When this scenario's stale warnings are muted, lead with a loud,
@@ -466,6 +469,36 @@ export class CurrentScenarioProvider implements vscode.TreeDataProvider<Scenario
         const sourcePath = artifact.getSourcePath(scenario, root);
 
         let status: ArtifactStatus = 'missing';
+        let detail: string | undefined;
+
+        if ((artifact as { fromStamp?: boolean }).fromStamp) {
+            // The deal file is both the artifact and its own source here, so
+            // the stamp decides, not the timestamps.
+            if (fs.existsSync(artifactPath)) {
+                const stamp = readSolvedStamp(artifactPath);
+                if (stamp && stamp.solved >= stamp.deals) {
+                    status = 'fresh';
+                    detail = `${stamp.deals} deals solved`;
+                } else if (stamp) {
+                    status = 'stale';
+                    detail = `${stamp.solved} of ${stamp.deals} deals solved`;
+                } else {
+                    status = 'stale';
+                    detail = 'dealt, not solved';
+                }
+                if (status === 'stale' && this.isMuted(scenario)) {
+                    status = 'unchecked';
+                }
+            }
+            return {
+                name: artifact.name,
+                shortName: artifact.shortName,
+                status,
+                command: artifact.command,
+                artifactPath,
+                detail
+            };
+        }
 
         if (fs.existsSync(artifactPath)) {
             // Artifact exists - check if fresh or stale
@@ -490,90 +523,5 @@ export class CurrentScenarioProvider implements vscode.TreeDataProvider<Scenario
             command: artifact.command,
             artifactPath
         };
-    }
-
-    /**
-     * Build tree items for PBS artifacts (pbs-test and/or pbs-release).
-     * Shows each that exists, with labels to distinguish them.
-     * If neither exists, shows a single "pbs" as missing.
-     */
-    private getPbsArtifactItems(scenario: string, root: string): ScenarioTreeItem[] {
-        const dlrPath = path.join(root, 'dlr', `${scenario}.dlr`);
-        const testPath = path.join(root, 'pbs-test', `${scenario}.pbs`);
-        const releasePath = path.join(root, 'pbs-release', `${scenario}.pbs`);
-        const testExists = fs.existsSync(testPath);
-        const releaseExists = fs.existsSync(releasePath);
-
-        if (!testExists && !releaseExists) {
-            // Neither exists - show single missing entry
-            return [new ScenarioTreeItem(
-                'pbs',
-                vscode.TreeItemCollapsibleState.None,
-                false,
-                {
-                    name: 'pbs',
-                    shortName: 'pbs',
-                    status: 'missing',
-                    command: 'pbs.runPbsOp',
-                    artifactPath: testPath
-                }
-            )];
-        }
-
-        const items: ScenarioTreeItem[] = [];
-
-        if (testExists) {
-            const status = this.getFileStatus(testPath, dlrPath);
-            items.push(new ScenarioTreeItem(
-                'pbs-test',
-                vscode.TreeItemCollapsibleState.None,
-                false,
-                {
-                    name: 'pbs-test',
-                    shortName: 'pbs-test',
-                    status,
-                    command: 'pbs.runPbsOp',
-                    artifactPath: testPath
-                }
-            ));
-        }
-
-        if (releaseExists) {
-            const status = this.getFileStatus(releasePath, dlrPath);
-            items.push(new ScenarioTreeItem(
-                'pbs-release',
-                vscode.TreeItemCollapsibleState.None,
-                false,
-                {
-                    name: 'pbs-release',
-                    shortName: 'pbs-release',
-                    status,
-                    command: 'pbs.runRelease',
-                    artifactPath: releasePath
-                }
-            ));
-        }
-
-        return items;
-    }
-
-    /**
-     * Get freshness status of a file relative to its source.
-     */
-    private getFileStatus(filePath: string, sourcePath: string): ArtifactStatus {
-        if (!fs.existsSync(filePath)) {
-            return 'missing';
-        }
-        let status: ArtifactStatus = 'fresh';
-        if (fs.existsSync(sourcePath)) {
-            const fileMtime = fs.statSync(filePath).mtimeMs;
-            const sourceMtime = fs.statSync(sourcePath).mtimeMs;
-            status = fileMtime >= sourceMtime - FRESHNESS_TOLERANCE_MS ? 'fresh' : 'stale';
-        }
-        // Muting silences only the STALE warnings.
-        if (status === 'stale' && this.isMuted(this.currentScenario)) {
-            return 'unchecked';
-        }
-        return status;
     }
 }

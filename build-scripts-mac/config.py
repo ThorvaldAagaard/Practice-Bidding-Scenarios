@@ -21,6 +21,11 @@ WINDOWS_SSH_HOST = os.environ.get("WINDOWS_HOST")
 WINDOWS_SSH_USER = os.environ.get("WINDOWS_USER")
 UNC_PREFIX = os.environ.get("PBS_UNC_PREFIX")
 BCSCRIPT_PATH = os.environ.get("PBS_BCSCRIPT_PATH")
+# Optional extra or replacement drive mappings, one variable per letter:
+#   export WINDOWS_DRIVE_E="/Volumes/External/Development=\\Mac\External\Development"
+# The value is "<Mac path>=<Windows UNC path>". A variable for G:, P: or S:
+# replaces the built-in mapping for that letter.
+DRIVE_ENV_PREFIX = "WINDOWS_DRIVE_"
 
 def require_windows_config():
     """Validate that Windows VM environment variables are set.
@@ -56,6 +61,23 @@ def _mac_to_unc(mac_path: str) -> str:
         return UNC_PREFIX + relative.replace("/", "\\")
     return expanded.replace("/", "\\")
 
+def _env_drive_mappings(defaults):
+    """Read WINDOWS_DRIVE_<letter> variables. Drops any default that uses the same letter."""
+    extra = {}
+    for name, value in sorted(os.environ.items()):
+        letter = name[len(DRIVE_ENV_PREFIX):]
+        if not name.startswith(DRIVE_ENV_PREFIX) or len(letter) != 1 or not letter.isalpha():
+            continue
+        mac_path, sep, unc_path = value.partition("=")
+        if not sep or not mac_path or not unc_path:
+            print(f"Warning: ignoring {name}; expected \"<Mac path>=<UNC path>\"")
+            continue
+        drive = letter.upper() + ":"
+        for key in [k for k, (d, _) in defaults.items() if d == drive]:
+            del defaults[key]
+        extra[os.path.expanduser(mac_path).rstrip("/")] = (drive, unc_path)
+    return extra
+
 # Drive mappings are built lazily since they require Windows config
 _DRIVE_MAPPINGS = None
 
@@ -73,6 +95,7 @@ def get_drive_mappings():
             # S: drive maps to BridgeComposer scripts folder
             _bcscript_expanded: ("S:", _mac_to_unc(_bcscript_expanded)),
         }
+        _DRIVE_MAPPINGS.update(_env_drive_mappings(_DRIVE_MAPPINGS))
     return _DRIVE_MAPPINGS
 
 # For backward compatibility
@@ -82,16 +105,22 @@ DRIVE_MAPPINGS = None  # Use get_drive_mappings() instead
 FOLDERS = {
     "btn": os.path.join(PROJECT_ROOT, "btn"),
     "pbs": os.path.join(PROJECT_ROOT, "PBS"),
-    "pbs_test": os.path.join(PROJECT_ROOT, "pbs-test"),
-    "pbs_release": os.path.join(PROJECT_ROOT, "pbs-release"),
     "dlr": os.path.join(PROJECT_ROOT, "dlr"),
+    # Leveled copies (issue #322); where one exists it wins downstream
+    "dlr_leveled": os.path.join(PROJECT_ROOT, "dlr-leveled"),
     "pbn": os.path.join(PROJECT_ROOT, "pbn"),
+    "pbn_leveled": os.path.join(PROJECT_ROOT, "pbn-leveled"),
     "pbn_rotated": os.path.join(PROJECT_ROOT, "pbn-rotated-for-4-players"),
     "lin_rotated": os.path.join(PROJECT_ROOT, "lin-rotated-for-4-players"),
     "bba": os.path.join(PROJECT_ROOT, "bba"),
     "bba_summary": os.path.join(PROJECT_ROOT, "bba-summary"),
     "bba_filtered": os.path.join(PROJECT_ROOT, "bba-filtered"),
     "bba_filtered_out": os.path.join(PROJECT_ROOT, "bba-filtered-out"),
+    # GIB robot captures (py/gib_capture.py) and what gibReport derives from them
+    "gib": os.path.join(PROJECT_ROOT, "GIB"),
+    "gib_filtered": os.path.join(PROJECT_ROOT, "GIB-filtered"),
+    "gib_filtered_out": os.path.join(PROJECT_ROOT, "GIB-filtered-out"),
+    "gib_report": os.path.join(PROJECT_ROOT, "GIB-report"),
     "bidding_sheets": os.path.join(PROJECT_ROOT, "bidding-sheets"),
     "quiz": os.path.join(PROJECT_ROOT, "quiz"),
     "bbsa": os.path.join(PROJECT_ROOT, "bbsa"),
@@ -106,7 +135,6 @@ WINDOWS_TOOLS = {
     "filter_js": "S:\\Filter.js",
     "set_dealer_multi_js": "S:\\SetDealerMulti.js",
     "bidding_sheets_wsf": "S:\\BiddingSheets.wsf",
-    "wkhtmltopdf": "wkhtmltopdf",  # Assumes wkhtmltopdf is in Windows PATH
 }
 
 # Mac tool paths
@@ -123,10 +151,13 @@ WINDOWS_TOOLS = {
 # in @executable_path).
 MAC_TOOLS = {
     "python": "python3",
-    "wkhtmltopdf": "/opt/homebrew/bin/wkhtmltopdf",  # Adjust if installed elsewhere
     "dealer": "/Applications/Bridge Utilities/dealer3",  # Mac version of dealer
     "bridge_wrangler": "/Applications/Bridge Utilities/bridge-wrangler",
     "bba_cli": "/Applications/Bridge Utilities/bba-cli",
+    # Double-dummy solving (the solve operation). bridge-wrangler had an
+    # `analyze` until its v0.11.0, solving one board at a time on one thread;
+    # this is the tool that owns double dummy, and it uses every core.
+    "bridge_solver": "/Applications/Bridge Utilities/bridge-solver",
 }
 
 # Where to run dealer: "mac" (default) or "windows"
@@ -141,6 +172,18 @@ SEED_OFFSET = 1          # Increment to regenerate all scenarios with fresh deal
 DEALER_GENERATE = 300000000
 DEALER_PRODUCE = 500
 
+# Leveling parameters (the level operation, issue #322). The seed is fixed so a
+# rebuild is byte-identical. The timeout is set well past what measuring takes,
+# because a run the clock stops won't reproduce.
+LEVEL_SEED = 1
+LEVEL_TIMEOUT = 600      # seconds
+# Most deals to generate while measuring. dealer3's own default, 10,000,000,
+# stops a scenario whose condition keeps one deal in 100,000 after about 100
+# qualifying deals, a few dozen sightings of its rarest type (issue #294).
+# A generate limit stops on the same deal on every run, so the file still
+# rebuilds byte-identical; the clock does not.
+LEVEL_GENERATE = 2000000000
+
 # Bidding sheet parameters
 BIDDING_SHEET_MAX_BOARDS = 50  # Max boards to include in bidding sheets PDF
 
@@ -154,8 +197,9 @@ def dealer_seed(scenario: str) -> int:
 # Pipeline operations in order
 OPERATIONS_ORDER = [
     "dlr",      # Generate DLR from BTN
-    "pbs",      # Generate PBS from DLR
+    "level",    # Leveled DLR, for a scenario that declares hand types (issue #322)
     "pbn",
+    "solve",    # Double-dummy table on every deal (issue #341)
     "rotate",
     "bba",
     "filter",

@@ -5,7 +5,7 @@
   "provenance": {
     "source": "Practice-Bidding-Scenarios",
     "pipeline_version": "1.0.0",
-    "generated": "2026-07-30",
+    "generated": "2026-09-16",
     "source_quiz": "Support_Double"
   },
   "exercises": [
@@ -17,42 +17,6 @@
       "questions": [
         {
           "hand": {
-            "spades": "AT8",
-            "hearts": "T96",
-            "diamonds": "AKJT42",
-            "clubs": "8"
-          },
-          "seat": "S",
-          "dealer": "S",
-          "vulnerability": "None",
-          "answer": "1D",
-          "board": {
-            "repo": "Practice-Bidding-Scenarios",
-            "id": "088352F852A02F85CC674BF378D2",
-            "event": "Support_Double",
-            "board": 1
-          }
-        },
-        {
-          "hand": {
-            "spades": "KQT",
-            "hearts": "Q84",
-            "diamonds": "KT64",
-            "clubs": "Q82"
-          },
-          "seat": "S",
-          "dealer": "S",
-          "vulnerability": "NS",
-          "answer": "1D",
-          "board": {
-            "repo": "Practice-Bidding-Scenarios",
-            "id": "0A7396A91FB4D32D3B76DC24CB51",
-            "event": "Support_Double",
-            "board": 2
-          }
-        },
-        {
-          "hand": {
             "spades": "AT6",
             "hearts": "K6",
             "diamonds": "QJ4",
@@ -60,21 +24,21 @@
           },
           "seat": "S",
           "dealer": "S",
-          "vulnerability": "NS",
+          "vulnerability": "None",
           "answer": "1C",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "0A992B14568F31D309A20B75D1F0",
+            "id": "089D2F10528B35D70DA60F71D5F4",
             "event": "Support_Double",
-            "board": 4
+            "board": 1
           }
         },
         {
           "hand": {
-            "spades": "J953",
-            "hearts": "KJ7",
-            "diamonds": "Q2",
-            "clubs": "KQ95"
+            "spades": "532",
+            "hearts": "KQ2",
+            "diamonds": "Q",
+            "clubs": "AKT543"
           },
           "seat": "S",
           "dealer": "S",
@@ -82,9 +46,9 @@
           "answer": "1C",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "0B53293DA244B97B684785F28ADF",
+            "id": "0B4169EF420133F64ADB8575B9A8",
             "event": "Support_Double",
-            "board": 6
+            "board": 9
           }
         },
         {
@@ -96,31 +60,67 @@
           },
           "seat": "S",
           "dealer": "S",
-          "vulnerability": "EW",
+          "vulnerability": "NS",
           "answer": "1H",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "092E95222201F6107BBC982265FC",
+            "id": "0A22992E2E0DFA1C77B0942E69F0",
+            "event": "Support_Double",
+            "board": 2
+          }
+        },
+        {
+          "hand": {
+            "spades": "AK6",
+            "hearts": "KQ763",
+            "diamonds": "9732",
+            "clubs": "7"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "NS",
+          "answer": "1H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0A8AA82AD233361FE5A8783FE447",
             "event": "Support_Double",
             "board": 5
           }
         },
         {
           "hand": {
-            "spades": "873",
-            "hearts": "AKJT74",
-            "diamonds": "T",
-            "clubs": "KQ3"
+            "spades": "A8",
+            "hearts": "K52",
+            "diamonds": "AKJ874",
+            "clubs": "Q8"
           },
           "seat": "S",
           "dealer": "S",
-          "vulnerability": "EW",
-          "answer": "1H",
+          "vulnerability": "Both",
+          "answer": "1D",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "0962251D6CE83E83A077F76EB507",
+            "id": "0B8E6E750CDB368D1ED8E34FF866",
             "event": "Support_Double",
-            "board": 8
+            "board": 4
+          }
+        },
+        {
+          "hand": {
+            "spades": "J92",
+            "hearts": "K65",
+            "diamonds": "AQT9",
+            "clubs": "Q64"
+          },
+          "seat": "S",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "answer": "1D",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0B7F224D82CF9FF83AE167194A88",
+            "event": "Support_Double",
+            "board": 6
           }
         }
       ]
@@ -140,31 +140,6 @@
           },
           "seat": "N",
           "dealer": "S",
-          "vulnerability": "NS",
-          "context": {
-            "dealer": "S",
-            "calls": [
-              "1C",
-              "P"
-            ]
-          },
-          "answer": "1S",
-          "board": {
-            "repo": "Practice-Bidding-Scenarios",
-            "id": "0A992B14568F31D309A20B75D1F0",
-            "event": "Support_Double",
-            "board": 4
-          }
-        },
-        {
-          "hand": {
-            "spades": "T763",
-            "hearts": "J76",
-            "diamonds": "KJ98",
-            "clubs": "A8"
-          },
-          "seat": "N",
-          "dealer": "S",
           "vulnerability": "None",
           "context": {
             "dealer": "S",
@@ -176,17 +151,17 @@
           "answer": "1S",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "186FB95DC82D999B0505F2DC3D74",
+            "id": "089D2F10528B35D70DA60F71D5F4",
             "event": "Support_Double",
-            "board": 10
+            "board": 1
           }
         },
         {
           "hand": {
-            "spades": "QT42",
-            "hearts": "754",
-            "diamonds": "J42",
-            "clubs": "KQ6"
+            "spades": "QJT64",
+            "hearts": "A87",
+            "diamonds": "542",
+            "clubs": "82"
           },
           "seat": "N",
           "dealer": "S",
@@ -201,17 +176,42 @@
           "answer": "1S",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "8A99BB2B6C3562E1487B890CF83D",
+            "id": "2A4A96292411F9CB81109E2D70FF",
             "event": "Support_Double",
-            "board": 81
+            "board": 30
           }
         },
         {
           "hand": {
-            "spades": "KQ",
-            "hearts": "T653",
-            "diamonds": "T65",
-            "clubs": "A862"
+            "spades": "AQ865",
+            "hearts": "Q73",
+            "diamonds": "J9",
+            "clubs": "876"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "EW",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "1S",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "4926650DD2E4F02F8B3B3E5585BE",
+            "event": "Support_Double",
+            "board": 64
+          }
+        },
+        {
+          "hand": {
+            "spades": "T9",
+            "hearts": "AJT75",
+            "diamonds": "854",
+            "clubs": "Q96"
           },
           "seat": "N",
           "dealer": "S",
@@ -226,42 +226,17 @@
           "answer": "1H",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "0B53293DA244B97B684785F28ADF",
+            "id": "0B4169EF420133F64ADB8575B9A8",
             "event": "Support_Double",
-            "board": 6
+            "board": 9
           }
         },
         {
           "hand": {
-            "spades": "QT73",
-            "hearts": "J653",
-            "diamonds": "A92",
-            "clubs": "T2"
-          },
-          "seat": "N",
-          "dealer": "S",
-          "vulnerability": "None",
-          "context": {
-            "dealer": "S",
-            "calls": [
-              "1C",
-              "P"
-            ]
-          },
-          "answer": "1H",
-          "board": {
-            "repo": "Practice-Bidding-Scenarios",
-            "id": "486A623D402F79BC31C5C650057B",
-            "event": "Support_Double",
-            "board": 38
-          }
-        },
-        {
-          "hand": {
-            "spades": "K82",
-            "hearts": "Q987",
-            "diamonds": "KJ",
-            "clubs": "J743"
+            "spades": "KQT4",
+            "hearts": "7542",
+            "diamonds": "JT8",
+            "clubs": "87"
           },
           "seat": "N",
           "dealer": "S",
@@ -276,9 +251,34 @@
           "answer": "1H",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "6A9A2D44FFD08409CB66E9739B31",
+            "id": "1A9A2911BE2CD17F47F88101AAC8",
             "event": "Support_Double",
-            "board": 58
+            "board": 16
+          }
+        },
+        {
+          "hand": {
+            "spades": "K5",
+            "hearts": "AK954",
+            "diamonds": "85",
+            "clubs": "T963"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1C",
+              "P"
+            ]
+          },
+          "answer": "1H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "2BC101615CDFC3A470FB0549AB9A",
+            "event": "Support_Double",
+            "board": 40
           }
         }
       ]
@@ -291,14 +291,14 @@
       "questions": [
         {
           "hand": {
-            "spades": "9",
-            "hearts": "A875",
-            "diamonds": "Q53",
-            "clubs": "A9654"
+            "spades": "J97",
+            "hearts": "AJ84",
+            "diamonds": "Q92",
+            "clubs": "T54"
           },
           "seat": "N",
           "dealer": "S",
-          "vulnerability": "None",
+          "vulnerability": "Both",
           "context": {
             "dealer": "S",
             "calls": [
@@ -309,34 +309,9 @@
           "answer": "1H",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "088352F852A02F85CC674BF378D2",
+            "id": "0B8E6E750CDB368D1ED8E34FF866",
             "event": "Support_Double",
-            "board": 1
-          }
-        },
-        {
-          "hand": {
-            "spades": "Q983",
-            "hearts": "AJT9",
-            "diamonds": "Q9",
-            "clubs": "T76"
-          },
-          "seat": "N",
-          "dealer": "S",
-          "vulnerability": "NS",
-          "context": {
-            "dealer": "S",
-            "calls": [
-              "1D",
-              "P"
-            ]
-          },
-          "answer": "1H",
-          "board": {
-            "repo": "Practice-Bidding-Scenarios",
-            "id": "1A45562CC9470E2AB3B7E2B016F2",
-            "event": "Support_Double",
-            "board": 12
+            "board": 4
           }
         },
         {
@@ -359,21 +334,46 @@
           "answer": "1H",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "1B7F224D82CF9FF83AE167194A88",
+            "id": "0B7F224D82CF9FF83AE167194A88",
             "event": "Support_Double",
-            "board": 16
+            "board": 6
           }
         },
         {
           "hand": {
-            "spades": "J874",
-            "hearts": "3",
-            "diamonds": "J85",
-            "clubs": "AJ973"
+            "spades": "4",
+            "hearts": "AJ75",
+            "diamonds": "974",
+            "clubs": "KQ653"
           },
           "seat": "N",
           "dealer": "S",
-          "vulnerability": "NS",
+          "vulnerability": "None",
+          "context": {
+            "dealer": "S",
+            "calls": [
+              "1D",
+              "P"
+            ]
+          },
+          "answer": "1H",
+          "board": {
+            "repo": "Practice-Bidding-Scenarios",
+            "id": "0845635FC1B5FA60CA73C33AAFD6",
+            "event": "Support_Double",
+            "board": 7
+          }
+        },
+        {
+          "hand": {
+            "spades": "AQJT62",
+            "hearts": "952",
+            "diamonds": "K3",
+            "clubs": "94"
+          },
+          "seat": "N",
+          "dealer": "S",
+          "vulnerability": "Both",
           "context": {
             "dealer": "S",
             "calls": [
@@ -384,17 +384,17 @@
           "answer": "1S",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "0A7396A91FB4D32D3B76DC24CB51",
+            "id": "0B1EB5101D2E4BA1583ACAFB940D",
             "event": "Support_Double",
-            "board": 2
+            "board": 12
           }
         },
         {
           "hand": {
-            "spades": "K87643",
-            "hearts": "AT5",
-            "diamonds": "J9",
-            "clubs": "98"
+            "spades": "K9863",
+            "hearts": "742",
+            "diamonds": "J8",
+            "clubs": "A62"
           },
           "seat": "N",
           "dealer": "S",
@@ -409,9 +409,9 @@
           "answer": "1S",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "49493A96E0C4E33F3A1A8E3826BA",
+            "id": "19A73A76E2A91A32CC1BADC43E4F",
             "event": "Support_Double",
-            "board": 40
+            "board": 17
           }
         },
         {
@@ -423,7 +423,7 @@
           },
           "seat": "N",
           "dealer": "S",
-          "vulnerability": "None",
+          "vulnerability": "NS",
           "context": {
             "dealer": "S",
             "calls": [
@@ -434,71 +434,9 @@
           "answer": "1S",
           "board": {
             "repo": "Practice-Bidding-Scenarios",
-            "id": "583E836292DB3624206F97C8C0D2",
+            "id": "1A3A876696DF3220246B93CCC4D6",
             "event": "Support_Double",
-            "board": 55
-          }
-        }
-      ]
-    },
-    {
-      "id": "Support_Double-4",
-      "type": "bidding",
-      "title": "Exercise Four — Opener's Rebid after 1♠",
-      "prompt": "You open 1♣, partner responds 1♠, RHO bids 2NT. What do you bid with each of these hands?",
-      "questions": [
-        {
-          "hand": {
-            "spades": "AT4",
-            "hearts": "Q74",
-            "diamonds": "A8",
-            "clubs": "QJ873"
-          },
-          "seat": "S",
-          "dealer": "S",
-          "vulnerability": "Both",
-          "context": {
-            "dealer": "S",
-            "calls": [
-              "1C",
-              "P",
-              "1S",
-              "2NT"
-            ]
-          },
-          "answer": "P",
-          "board": {
-            "repo": "Practice-Bidding-Scenarios",
-            "id": "FB9F5B2571B314DD21FB33A0C1D4",
-            "event": "Support_Double",
-            "board": 143
-          }
-        },
-        {
-          "hand": {
-            "spades": "KQJ",
-            "hearts": "K2",
-            "diamonds": "A52",
-            "clubs": "JT532"
-          },
-          "seat": "S",
-          "dealer": "S",
-          "vulnerability": "None",
-          "context": {
-            "dealer": "S",
-            "calls": [
-              "1C",
-              "P",
-              "1S",
-              "2NT"
-            ]
-          },
-          "answer": "X",
-          "board": {
-            "repo": "Practice-Bidding-Scenarios",
-            "id": "F812A79C9DDD18DC0734313F7921",
-            "event": "Support_Double",
-            "board": 146
+            "board": 27
           }
         }
       ]

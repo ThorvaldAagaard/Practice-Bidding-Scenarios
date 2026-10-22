@@ -1,0 +1,554 @@
+
+[Event "autoCapture"]
+[Board "1"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QJ962.AJT3.Q8.K3 AKT843.Q.K974.92 75.K98.AJ5.AQJT6 .76542.T632.8754"]
+{Shape 5422 6142 2335 0544}
+{HCP 13 12 15 0}
+{TP 13 14 16 3}
+{Losers 7 6 7 9}
+[Contract "2SX"]
+[Declarer "E"]
+[Auction "S"]
+1N     Pass    2C      2S
+Pass    Pass    X       Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "2"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:KQ965.A873.K42.K JT8.96.J76.AQT32 A3.KJT.AQ3.J9874 742.Q542.T985.65"]
+{Shape 5431 3235 2335 3442}
+{HCP 15 8 15 2}
+{TP 16 9 15 3}
+{Losers 6 9 7 10}
+[Contract "4N"]
+[Declarer "S"]
+[Auction "S"]
+1N     Pass    2C      X
+Pass    Pass    3S      Pass
+3N     Pass    4N     Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "3"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AK63.AQT53.T85.T 52.7.Q643.AJ9763 J8.J42.AKJ9.KQ82 QT974.K986.72.54"]
+{Shape 4531 2146 2344 5422}
+{HCP 13 7 15 5}
+{TP 15 10 15 7}
+{Losers 6 7 7 8}
+[Contract "5H"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+Pass    Pass    3H      Pass
+4H      Pass    4N     Pass
+5D      Pass    5H      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "4"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:KJT7.KJ943.7.QJ7 Q.AQ.KQJT832.653 A63.765.A654.AK4 98542.T82.9.T982"]
+{Shape 4513 1273 3343 5314}
+{HCP 11 14 15 0}
+{TP 13 15 15 2}
+{Losers 7 6 8 10}
+[Contract "4H"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      3D
+Pass    Pass    4H      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "5"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:AT83.Q7543.A.Q32 92.KJ62.KJ9743.7 KJ6.A98.T86.AK84 Q754.T.Q52.JT965"]
+{Shape 4513 2461 3334 4135}
+{HCP 12 8 15 5}
+{TP 13 11 15 7}
+{Losers 6 7 8 8}
+[Contract "3N"]
+[Declarer "S"]
+[Auction "S"]
+1N     Pass    2C      2D
+Pass    3D      3N     Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "6"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:K9874.KQ73..KT43 A.92.AQJ87543.J6 QJ3.AJ8.K92.AQ85 T652.T654.T6.972"]
+{Shape 5404 1282 3334 4423}
+{HCP 11 12 17 0}
+{TP 14 14 17 1}
+{Losers 5 5 7 11}
+[Contract "6S"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      3D
+Pass    Pass    4S      Pass
+4N     Pass    6D      Pass
+6S      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "7"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:QJ42.AJ543.KJ94. 76.T96.75.AK7543 A95.KQ2.AQ.JT986 KT83.87.T8632.Q2"]
+{Shape 4540 2326 3325 4252}
+{HCP 12 7 16 5}
+{TP 15 9 16 6}
+{Losers 6 8 7 9}
+[Contract "4H"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+Pass    Pass    3H      Pass
+4H      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "8"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AK962.K642.4.765 5.AQT53.QT973.K4 T84.J8.AK5.AQJ98 QJ73.97.J862.T32"]
+{Shape 5413 1552 3235 4243}
+{HCP 10 11 15 4}
+{TP 12 13 15 5}
+{Losers 7 5 7 10}
+[Contract "3N"]
+[Declarer "S"]
+[Auction "S"]
+1N     Pass    2C      2H
+Pass    Pass    2S      Pass
+3C      Pass    3N     Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "9"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:AK932.KJ94.753.8 JT54.62.K8.KQJ63 Q7.AQ8.AJ94.AT75 86.T753.QT62.942"]
+{Shape 5431 4225 2344 2443}
+{HCP 11 10 17 2}
+{TP 13 11 17 3}
+{Losers 7 7 7 10}
+[Contract "3N"]
+[Declarer "S"]
+[Auction "S"]
+1N     Pass    2C      X
+Pass    Pass    3S      X
+3N     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "10"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AQ94.AJ632.J32.T K763.94.98.KQJ98 85.K85.AKQ6.A654 JT2.QT7.T754.732"]
+{Shape 4531 4225 2344 3343}
+{HCP 12 9 16 3}
+{TP 14 11 17 3}
+{Losers 7 7 6 11}
+[Contract "4H"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+Pass    Pass    3H      Pass
+4H      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "11"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AK852.7652.AK9.9 Q7.QT.754.QJT843 643.AK8.Q2.AK652 JT9.J943.JT863.7"]
+{Shape 5431 2236 3325 3451}
+{HCP 14 7 16 3}
+{TP 16 7 16 5}
+{Losers 6 9 7 10}
+[Contract "6S"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+XX      Pass    3S      Pass
+4S      Pass    5D      Pass
+5H      Pass    5S      Pass
+6C      Pass    6S      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "12"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A842.AKT83.A963. Q653.9.J5.AQ9853 KJT.Q42.KQ2.KJT4 97.J765.T874.762"]
+{Shape 4540 4126 3334 2443}
+{HCP 15 9 15 1}
+{TP 18 11 15 2}
+{Losers 5 6 7 11}
+[Contract "6H"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+XX      Pass    3H      Pass
+4H      Pass    6H      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "13"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AT43.Q9765.A9.K8 Q72.T.82.AQJ6543 KJ5.AJ8.KQJT7.T9 986.K432.6543.72"]
+{Shape 4522 3127 3352 3442}
+{HCP 13 9 15 3}
+{TP 13 12 16 4}
+{Losers 6 6 7 10}
+[Contract "3N"]
+[Declarer "S"]
+[Auction "S"]
+1N     Pass    2C      3C
+Pass    Pass    3N     Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "14"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:AKJ2.JT763.K3.92 Q9.KQ94.AJT852.3 T54.A52.Q6.AKQJ5 8763.8.974.T8764"]
+{Shape 4522 2461 3325 4135}
+{HCP 12 12 16 0}
+{TP 13 14 16 2}
+{Losers 7 6 7 10}
+[Contract "3N"]
+[Declarer "S"]
+[Auction "S"]
+1N     Pass    2C      2D
+Pass    Pass    3N     Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "15"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:AKT98.T942.64.QJ 4.KJ8763.AJ73.K8 Q63.AQ.K92.AT932 J752.5.QT85.7654"]
+{Shape 5422 1642 3235 4144}
+{HCP 10 12 15 3}
+{TP 11 14 15 5}
+{Losers 8 6 7 9}
+[Contract "4S"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      2H
+Pass    Pass    3S      Pass
+4S      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "16"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AQ74.K9874.QJT3. 53.Q.765.QJT8654 J98.T53.AK9.AK32 KT62.AJ62.842.97"]
+{Shape 4540 2137 3334 4432}
+{HCP 12 5 15 8}
+{TP 15 7 15 9}
+{Losers 5 8 8 9}
+[Contract "4H"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+XX      Pass    3H      Pass
+4H      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "17"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:KJ862.A986.Q6.86 743.743.52.AKQ72 Q9.KQ2.AKJ8.J953 AT5.JT5.T9743.T4"]
+{Shape 5422 3325 2344 3352}
+{HCP 10 9 16 5}
+{TP 11 10 16 6}
+{Losers 8 8 7 10}
+[Contract "3N"]
+[Declarer "S"]
+[Auction "S"]
+1N     Pass    2C      X
+Pass    Pass    3S      Pass
+3N     Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "18"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:KJ65.AKQ75.Q985. QT.8.JT42.KQT632 A87.J96.AK6.A987 9432.T432.73.J54"]
+{Shape 4540 2146 3334 4423}
+{HCP 15 8 16 1}
+{TP 18 10 16 2}
+{Losers 4 7 8 11}
+[Contract "6H"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+Pass    Pass    3H      Pass
+4H      Pass    5C      Pass
+5D      Pass    6H      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "19"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:Q875.KQ985.K4.J5 J64.AT.AQJT98.43 AK2.72.765.AKQ86 T93.J643.32.T972"]
+{Shape 4522 3262 3235 3424}
+{HCP 11 12 16 1}
+{TP 11 13 17 2}
+{Losers 6 7 6 11}
+[Contract "4H"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      2D
+Pass    Pass    3H      Pass
+4H      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "20"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:QJ84.AKQ95.732.4 AT962..Q98.AKT98 K5.JT8.AKJT4.QJ6 73.76432.65.7532"]
+{Shape 4531 5035 2353 2524}
+{HCP 12 13 15 0}
+{TP 14 16 15 2}
+{Losers 6 5 7 10}
+[Contract "3N"]
+[Declarer "S"]
+[Auction "S"]
+1N     Pass    2C      2S
+Pass    Pass    3N     Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "21"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:A9754.KT73.AJT7. J6.Q9.952.KQT863 KQT.A65.K64.A752 832.J842.Q83.J94"]
+{Shape 5440 2236 3334 3433}
+{HCP 12 8 16 4}
+{TP 15 8 16 4}
+{Losers 6 8 7 11}
+[Contract "6S"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+Pass    Pass    3S      Pass
+4S      Pass    4N     Pass
+5C      Pass    5D      Pass
+6D      Pass    6S      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "22"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:J9862.KQJ8.K94.7 .9752.AJ.KJT9543 AK7.T3.Q653.AQ86 QT543.A64.T872.2"]
+{Shape 5431 0427 3244 5341}
+{HCP 10 9 15 6}
+{TP 12 12 16 8}
+{Losers 7 6 6 8}
+[Contract "4S"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+XX      Pass    3S      Pass
+4S      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "23"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:AK764.K982.AK6.7 T5.T74.53.QJT832 Q83.AJ6.QT8.AK94 J92.Q53.J9742.65"]
+{Shape 5431 2326 3334 3352}
+{HCP 17 3 16 4}
+{TP 19 5 16 5}
+{Losers 5 9 7 10}
+[Contract "6S"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      X
+XX      Pass    3S      Pass
+4S      Pass    4N     Pass
+5S      Pass    5N     Pass
+6C      Pass    6S      Pass
+Pass    Pass    
+
+
+[Event "autoCapture"]
+[Board "24"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:J642.KQJ98.J.Q92 K53.6.KQ98763.J4 QT8.A52.AT.AKT86 A97.T743.542.753"]
+{Shape 4513 3172 3325 3433}
+{HCP 10 9 17 4}
+{TP 11 11 17 4}
+{Losers 7 6 6 11}
+[Contract "5H"]
+[Declarer "N"]
+[Auction "S"]
+1N     Pass    2C      3D
+Pass    Pass    4H      Pass
+4N     Pass    5D      Pass
+5H      Pass    Pass    Pass
+
+
+
+[Event "autoCapture"]
+[Board "25"]
+[West "Basic GIBBO 2/1"]
+[North "Basic GIBBO 2/1"]
+[East "Basic GIBBO 2/1"]
+[South "Basic GIBBO 2/1"]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QJ75.QT943.K2.Q8 62.A85.AJT8764.4 A83.KJ7.Q5.AJT52 KT94.62.93.K9763"]
+{Shape 4522 2371 3325 4225}
+{HCP 10 9 15 6}
+{TP 10 12 15 8}
+{Losers 7 7 8 8}
+[Contract "3N"]
+[Declarer "S"]
+[Auction "S"]
+1N     Pass    2C      3D
+Pass    Pass    3N     Pass
+Pass    Pass    
+
+

@@ -36,36 +36,42 @@ def print_error(msg: str):
     print(f"{RED}{msg}{RESET}")
 
 # Import operations
+from operations.level import run_level
 from operations.pbn_from_dlr import run_pbn
+from operations.solve import run_solve
 from operations.rotate import run_rotate
 from operations.bba_from_pbn import run_bba
 from operations.filter import run_filter
 from operations.filter_stats import run_filter_stats
 from operations.bidding_sheet import run_bidding_sheet
 from operations.dlr_from_btn import run_dlr
-from operations.pbs_from_dlr import run_pbs
 from operations.quiz import run_quiz
 from operations.release import run_release
 from operations.release_layout import run_release_layout
 from operations.package import run_package
-from scenario_summary import generate_summary
+from operations.gib import run_gib, run_gib_report, run_bbo_demo
 
 
 # Map operation names to functions
 OPERATIONS = {
     "dlr": run_dlr,         # Generate DLR from BTN
-    "pbs": run_pbs,         # Generate PBS from DLR
+    "level": run_level,     # Leveled copy of a DLR that declares hand types
     "pbn": run_pbn,
+    "solve": run_solve,   # Double-dummy table on every deal
     "rotate": run_rotate,
     "bba": run_bba,
     "filter": run_filter,
     "filterStats": run_filter_stats,
     "biddingSheet": run_bidding_sheet,
     "quiz": run_quiz,
-    # release, release-layout, and package are NOT in OPERATIONS_ORDER, so they won't run with "*" or "op+"
+    # release and release-layout are NOT in OPERATIONS_ORDER, so they won't run with "*" or "op+"
     "release": run_release,
     "release-layout": run_release_layout,
     "package": run_package,
+    # gib drives a live BBO account (issue #323); like release, never in "*" or "op+"
+    "gib": run_gib,
+    "gibReport": run_gib_report,
+    "bbo-demo": run_bbo_demo,
 }
 
 # Create case-insensitive lookup: lowercase -> canonical name
@@ -171,8 +177,8 @@ def format_duration(seconds: float) -> str:
 BBA_AND_DOWNSTREAM = {'bba', 'filter', 'filterStats', 'biddingSheet', 'quiz'}
 
 # Dealer-side operations skipped for bba-direct scenarios (curated bba files).
-# dlr/pbs still run so the BTN's @chat metadata flows to BBO via the PBS file.
-BBA_DIRECT_SKIP = {'pbn', 'rotate', 'bba'}
+# dlr still runs: BBO loads the scenario from the .dlr.
+BBA_DIRECT_SKIP = {'pbn', 'solve', 'rotate', 'bba'}
 
 
 def filter_operations_for_scenario(scenario: str, operations: list) -> list:
@@ -359,14 +365,27 @@ Examples:
 
 Operations (in order):
     dlr         - Generate DLR from BTN file (outputs to dlr/)
-    pbs         - Generate PBS from DLR file (outputs to pbs-test/)
-    pbn         - Generate PBN hands from DLR using dealer
+    level       - For a DLR that declares HandType_ variables, write the leveled
+                  copy to dlr-leveled/; it wins downstream wherever it exists
+    pbn         - Generate PBN hands from DLR using dealer (and pbn-leveled/
+                  from dlr-leveled/, when the scenario is leveled)
     rotate      - Create rotated PBN/LIN files for 4-player practice
     bba         - Analyze bidding with BBA
     filter      - Filter hands by auction pattern
     filterStats - Show filter statistics
     biddingSheet - Generate bidding sheets PDF
     quiz        - Generate quiz PBN/PDF from filtered BBA
+
+Run explicitly (not part of "*"):
+    release     - Publish: regenerate the DLR, commit the BTN and DLR, push main.
+                  BBO loads dlr/ from main, so this puts the scenario live.
+    release-layout - Copy btn/-button-layout-beta.txt to -release.txt, commit, push
+    gib         - Capture GIB robot auctions on live BBO into GIB/, then gibReport.
+                  One scenario at a time.
+    gibReport   - Filter GIB/ capture into GIB-filtered/ and GIB-filtered-out/
+                  (PBN + PDF), report to GIB-report/
+    bbo-demo    Open the gib table on live BBO with the script loaded and leave
+                  it for testing by hand. Captures nothing. One scenario at a time.
         """,
     )
 
@@ -398,6 +417,14 @@ Operations (in order):
     operations = expand_operations(args.operations)
     if not operations:
         print(f"No valid operations specified: {args.operations}")
+        sys.exit(1)
+
+    # gib and bbo-demo run robots on a live BBO account, where we are guests:
+    # never let a pattern turn them into back-to-back sessions.
+    live = [op for op in ("gib", "bbo-demo") if op in operations]
+    if live and len(scenarios) > 1:
+        print_error(f"{live[0]} runs on live BBO, one scenario at a time; "
+                    f"'{args.scenario_pattern}' matches {len(scenarios)}")
         sys.exit(1)
 
     if verbose:
@@ -432,10 +459,6 @@ Operations (in order):
 
     # Persist timing data
     _save_timing_data(all_durations)
-
-    # Update Scenario Summary report (skip for non-pipeline operations like release)
-    if set(operations) & set(OPERATIONS_ORDER):
-        generate_summary()
 
     # Final summary
     if len(scenarios) > 1:

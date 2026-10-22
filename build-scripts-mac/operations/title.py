@@ -1,6 +1,6 @@
 """
 Title operation: Set title metadata in PBN files from the PBS Button text.
-Sets both %HRTitleEvent header comment (for pbn-to-pdf) and [Event] tags.
+Sets both %HRTitleEvent header comment (the PDF title for bridge-wrangler to-pdf) and [Event] tags.
 Runs after PBN generation to ensure proper titles in output files.
 """
 import os
@@ -44,12 +44,12 @@ def get_title_from_pbs(scenario: str) -> str:
     return scenario
 
 
-def run_title(scenario: str, verbose: bool = True) -> bool:
+def run_title(scenario: str, verbose: bool = True, pbn_path: str = None) -> bool:
     """
     Update title metadata in the PBN file with the title from PBS.
 
     Sets:
-    - %HRTitleEvent header comment (used by pbn-to-pdf for PDF title)
+    - %HRTitleEvent header comment (used by bridge-wrangler to-pdf for PDF title)
     - [Event "..."] tags on each board
 
     pbn/{scenario}.pbn -> pbn/{scenario}.pbn (updated)
@@ -57,6 +57,7 @@ def run_title(scenario: str, verbose: bool = True) -> bool:
     Args:
         scenario: Scenario name (e.g., "Smolen")
         verbose: Whether to print progress
+        pbn_path: The file to update, if not pbn/{scenario}.pbn
 
     Returns:
         True if successful, False otherwise
@@ -71,7 +72,7 @@ def run_title(scenario: str, verbose: bool = True) -> bool:
         print(f"  Title: {title}")
 
     # Update PBN file
-    pbn_path = os.path.join(FOLDERS["pbn"], f"{scenario}.pbn")
+    pbn_path = pbn_path or os.path.join(FOLDERS["pbn"], f"{scenario}.pbn")
 
     if not os.path.exists(pbn_path):
         print(f"Error: PBN file not found: {pbn_path}")

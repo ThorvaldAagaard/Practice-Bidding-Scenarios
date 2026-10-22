@@ -15,8 +15,9 @@ def get_drive_mapping_commands() -> str:
     """
     commands = []
     for mac_base, (drive_letter, unc_path) in get_drive_mappings().items():
-        # Use net use to map the drive (ignore errors if already mapped)
-        commands.append(f"net use {drive_letter} {unc_path} >nul 2>&1")
+        # Use net use to map the drive (ignore errors if already mapped).
+        # /persistent:no keeps SSH-side mappings out of the desktop's remembered drives.
+        commands.append(f"net use {drive_letter} {unc_path} /persistent:no >nul 2>&1")
     return " & ".join(commands)
 
 
@@ -25,7 +26,7 @@ def mac_to_windows_path(mac_path: str) -> str:
     Convert a Mac path to a Windows path using drive mappings.
 
     Example:
-        /Users/rick/Development/GitHub/Practice-Bidding-Scenarios/pbn/Smolen.pbn
+        /Volumes/Express2T/Development/GitHub/Practice-Bidding-Scenarios/pbn/Smolen.pbn
         -> P:\\pbn\\Smolen.pbn
     """
     # Normalize the path
@@ -50,7 +51,7 @@ def windows_to_mac_path(windows_path: str) -> str:
 
     Example:
         P:\\pbn\\Smolen.pbn
-        -> /Users/rick/Development/GitHub/Practice-Bidding-Scenarios/pbn/Smolen.pbn
+        -> /Volumes/Express2T/Development/GitHub/Practice-Bidding-Scenarios/pbn/Smolen.pbn
     """
     # Normalize the path
     windows_path = windows_path.replace("/", "\\")

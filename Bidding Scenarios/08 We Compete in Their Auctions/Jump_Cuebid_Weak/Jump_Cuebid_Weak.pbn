@@ -84,6 +84,33 @@ Pass
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
 [Board "4"]
+% 07479C04F826F3D7188344BC4978
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:QT7.AQ653.J732.T A532.K87.K4.A986 K64.T.96.KQJ7542 J98.J942.AQT85.3"]
+{Shape 3541 4324 3127 3451}
+{HCP 9 14 9 8}
+{Losers 7 7 6 8}
+[Declarer "E"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1H
+1S    2C    2D    X
+Pass  Pass  2S    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "5"]
 % 0670DC146DFB1F75001B308CC886
 [North "EPBot"]
 [East "EPBot"]
@@ -109,7 +136,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "5"]
+[Board "6"]
+% 05CED05FCE4F01ED87F98CD20C71
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:93.AJT9753.7.AJ4 QT2.KQ4.K942.QT7 75.8.AQJT853.K53 AKJ864.62.6.9862"]
+{Shape 2713 3343 2173 6214}
+{HCP 10 12 10 8}
+{Losers 7 7 6 7}
+[Declarer "N"]
+[Contract "3H"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    3H
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "7"]
 % 0742DE40B99520DF417336C2DE30
 [North "EPBot"]
 [East "EPBot"]
@@ -136,7 +188,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "6"]
+[Board "8"]
 % 04431C00102411734F88D0BDA3C8
 [North "EPBot"]
 [East "EPBot"]
@@ -163,7 +215,7 @@ Pass  2S    3D    Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "7"]
+[Board "9"]
 % 05DC42C47BA4D244BCFADF143833
 [North "EPBot"]
 [East "EPBot"]
@@ -189,7 +241,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "8"]
+[Board "10"]
 % 07D74868C8D1B8694CC83F33CC95
 [North "EPBot"]
 [East "EPBot"]
@@ -217,7 +269,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "9"]
+[Board "11"]
 % 04105033FA6C6FB640003FFB38AC
 [North "EPBot"]
 [East "EPBot"]
@@ -244,7 +296,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "10"]
+[Board "12"]
 % 0670C477CE43B0DC2BD4C092DCEA
 [North "EPBot"]
 [East "EPBot"]
@@ -270,7 +322,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "11"]
+[Board "13"]
 % 071D4161E0C3C21E278DFE12B1CF
 [North "EPBot"]
 [East "EPBot"]
@@ -296,7 +348,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "12"]
+[Board "14"]
 % 045D8745F40705DADE55E5E24AB8
 [North "EPBot"]
 [East "EPBot"]
@@ -323,7 +375,34 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "13"]
+[Board "15"]
+% 061087F43FC09C0FCB0877F4089D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AJ863.KT8763.AT. 5.A92.KQ54.KJ875 K92..763.AQT9643 QT74.QJ54.J982.2"]
+{Shape 5620 1345 3037 4441}
+{HCP 12 13 9 6}
+{Losers 5 6 6 8}
+[Declarer "W"]
+[Contract "2N"]
+[Result "6"]
+[Score "NS 100"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    2H
+X =1=    Pass  2N    Pass
+Pass  Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "16"]
 % 0540D44936DB66331CF8EB2C84D0
 [North "EPBot"]
 [East "EPBot"]
@@ -349,7 +428,33 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "14"]
+[Board "17"]
+% 1410D01F68E0513F4A827F34A000
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AQ842.762.Q85.76 J975.AKQ9.J7.Q85 63.JT3.4.AKJT432 KT.854.AKT9632.9"]
+{Shape 5332 4423 2317 2371}
+{HCP 8 13 9 10}
+{Losers 8 7 7 6}
+[Declarer "W"]
+[Contract "2D"]
+[Result "10"]
+[Score "NS -130"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1S
+Pass  2C    2D    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "18"]
 % 1650332C5B5128E4F1BC34300F5E
 [North "EPBot"]
 [East "EPBot"]
@@ -376,7 +481,34 @@ Pass  3D    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "15"]
+[Board "19"]
+% 153047486CB4F9D44F10099435E3
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:A653.KQ75.KT843. KQJ7.864.A62.K72 T4.J2.J7.AQJT864 982.AT93.Q95.953"]
+{Shape 4450 4333 2227 3433}
+{HCP 12 13 9 6}
+{Losers 5 8 7 10}
+[Declarer "W"]
+[Contract "2H"]
+[Result "6"]
+[Score "NS 200"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    2D
+X =1=    Pass  2H    Pass
+Pass  Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "20"]
 % 17877854DC886D28E5CB381456C3
 [North "EPBot"]
 [East "EPBot"]
@@ -402,7 +534,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "16"]
+[Board "21"]
+% 16D6DAFA8B4516FD4A3B6835889E
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:964.JT73..AKQ972 T75.AK92.AT94.J6 J32.5.KQJ7653.53 AKQ8.Q864.82.T84"]
+{Shape 3406 3442 3172 4423}
+{HCP 10 12 7 11}
+{Losers 6 8 7 7}
+[Declarer "W"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    2C
+2H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "22"]
 % 1558142AB747348CC8CDB051F077
 [North "EPBot"]
 [East "EPBot"]
@@ -428,7 +585,33 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "17"]
+[Board "23"]
+% 1748587C04D0A527FF387AD3CC29
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J862.AJ3.AK652.5 AKQ5.KT4.Q73.874 9.982.T4.AKQJT63 T743.Q765.J98.92"]
+{Shape 4351 4333 1327 4432}
+{HCP 13 14 10 3}
+{Losers 7 7 6 10}
+[Declarer "N"]
+[Contract "2D"]
+[Result "8"]
+[Score "NS 90"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  Pass  X
+1S    2C    Pass  2D
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "24"]
 % 145050F08D35A0387C23086D0B1F
 [North "EPBot"]
 [East "EPBot"]
@@ -454,7 +637,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "18"]
+[Board "25"]
 % 15F790045888D0CFB4C94324CE59
 [North "EPBot"]
 [East "EPBot"]
@@ -480,7 +663,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "19"]
+[Board "26"]
 % 173444575EC43E10E3E878C8F38B
 [North "EPBot"]
 [East "EPBot"]
@@ -509,7 +692,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "20"]
+[Board "27"]
 % 14D0CB3C7703480D5220FB843474
 [North "EPBot"]
 [East "EPBot"]
@@ -535,7 +718,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "21"]
+[Board "28"]
 % 165A350BDEF91AC4F97A208A57B4
 [North "EPBot"]
 [East "EPBot"]
@@ -561,7 +744,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "22"]
+[Board "29"]
 % 17131142FEC0C3C2B13D441C2D97
 [North "EPBot"]
 [East "EPBot"]
@@ -588,7 +771,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "23"]
+[Board "30"]
 % 147837FC40BF8BC45C904DD3BD0C
 [North "EPBot"]
 [East "EPBot"]
@@ -614,7 +797,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "24"]
+[Board "31"]
 % 16F718103CDA400CD03FB3C7F864
 [North "EPBot"]
 [East "EPBot"]
@@ -641,7 +824,7 @@ X     Pass =1=    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "25"]
+[Board "32"]
 % 157458277FE8D9015084E886CB14
 [North "EPBot"]
 [East "EPBot"]
@@ -667,7 +850,60 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "26"]
+[Board "33"]
+% 245003400CF4FD8FCF57C058ACF7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KJ.KQJ875.J9873. AQ64.A64.4.K8762 83.3.T62.AQJT543 T9752.T92.AKQ5.9"]
+{Shape 2650 4315 2137 5341}
+{HCP 11 13 7 9}
+{Losers 5 6 7 7}
+[Declarer "W"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1S    2N =1=
+3S    Pass  Pass  Pass
+[Note "1:Unusual 2NT"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "34"]
+% 26C77BC8083D1788195A4D08B5F6
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:JT974.AQJ854..62 K65.976.A932.AK9 83..KQJ8764.QJ84 AQ2.KT32.T5.T753"]
+{Shape 5602 3343 2074 3424}
+{HCP 8 14 9 9}
+{Losers 6 8 5 8}
+[Declarer "S"]
+[Contract "2D"]
+[Result "8"]
+[Score "NS 90"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    1S
+X =1=    2D    Pass  Pass
+Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "35"]
 % 25F30F7EDE6D83323DB64E6EF0FF
 [North "EPBot"]
 [East "EPBot"]
@@ -694,7 +930,32 @@ X     Pass =1=    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "27"]
+[Board "36"]
+% 272D130351B90D91328F34FD1162
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AKQ9753.Q96.T.72 J2.KJ83.A964.KQ6 T86.A2.KQJ8732.5 4.T754.5.AJT9843"]
+{Shape 7312 2443 3271 1417}
+{HCP 11 14 10 5}
+{Losers 5 7 6 7}
+[Declarer "N"]
+[Contract "4SX"]
+[Result "9"]
+[Score "NS -200"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    4S
+X     Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "37"]
 % 26451948B93618DDBFC9C28A4758
 [North "EPBot"]
 [East "EPBot"]
@@ -720,7 +981,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "28"]
+[Board "38"]
 % 25185876ECC819E8B7C7876310C4
 [North "EPBot"]
 [East "EPBot"]
@@ -746,7 +1007,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "29"]
+[Board "39"]
 % 2771620FF78A6DC1D21191207D0E
 [North "EPBot"]
 [East "EPBot"]
@@ -773,7 +1034,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "30"]
+[Board "40"]
 % 2473C8001C6DD6876C34F0F35E18
 [North "EPBot"]
 [East "EPBot"]
@@ -799,7 +1060,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "31"]
+[Board "41"]
 % 25413E7F4DF4228EBF11D7E27CCD
 [North "EPBot"]
 [East "EPBot"]
@@ -825,7 +1086,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "32"]
+[Board "42"]
 % 2741729D0FD0628D1ACD313117A1
 [North "EPBot"]
 [East "EPBot"]
@@ -851,7 +1112,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "33"]
+[Board "43"]
 % 24D8DCCFE1904F873A5C4C34B3C0
 [North "EPBot"]
 [East "EPBot"]
@@ -877,7 +1138,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "34"]
+[Board "44"]
 % 26DB40C074F3DF4E16A8CC8CE4C3
 [North "EPBot"]
 [East "EPBot"]
@@ -904,7 +1165,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "35"]
+[Board "45"]
 % 271342047C12045D0251F0BD2DF1
 [North "EPBot"]
 [East "EPBot"]
@@ -930,7 +1191,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "36"]
+[Board "46"]
 % 245C4DC05C330848DCBDF3348BE4
 [North "EPBot"]
 [East "EPBot"]
@@ -957,7 +1218,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "37"]
+[Board "47"]
 % 266411C0337CE3E838D85C0E7F13
 [North "EPBot"]
 [East "EPBot"]
@@ -985,7 +1246,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "38"]
+[Board "48"]
 % 2502D074D424DFA7F828CFFA4550
 [North "EPBot"]
 [East "EPBot"]
@@ -1013,7 +1274,32 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "39"]
+[Board "49"]
+% 347F70081CDCE7207C98C1AD1FFF
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:QJ83.Q5.AJT7432. AK7.JT63.Q6.A932 64.984.9.KQJT876 T952.AK72.K85.54"]
+{Shape 4270 3424 2317 4432}
+{HCP 10 14 6 10}
+{Losers 6 8 7 8}
+[Declarer "W"]
+[Contract "3H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    3D
+3H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "50"]
 % 3614EF7C8F16FCC832DB4C07B048
 [North "EPBot"]
 [East "EPBot"]
@@ -1040,7 +1326,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "40"]
+[Board "51"]
 % 35D61F4CCD41430F32E0CEBDF87C
 [North "EPBot"]
 [East "EPBot"]
@@ -1066,7 +1352,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "41"]
+[Board "52"]
 % 37F37E403F19C12F43E2A176B23E
 [North "EPBot"]
 [East "EPBot"]
@@ -1092,7 +1378,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "42"]
+[Board "53"]
 % 361A79DB71C517CAF1878AC8ABE6
 [North "EPBot"]
 [East "EPBot"]
@@ -1118,7 +1404,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "43"]
+[Board "54"]
 % 35DF0D573C0D01B8413131AE7E5C
 [North "EPBot"]
 [East "EPBot"]
@@ -1144,7 +1430,34 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "44"]
+[Board "55"]
+% 3752FDC3EEC31FB019F2B1024F30
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:9742.QT43.7.AJ64 A3.A97.KJ93.QT93 85.J.AQT86542.82 KQJT6.K8652..K75"]
+{Shape 4414 2344 2182 5503}
+{HCP 7 14 7 12}
+{Losers 8 7 6 5}
+[Declarer "E"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS -600"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    Pass
+2C    Pass  2H =1=    Pass
+3N    Pass  Pass  Pass
+[Note "1:Fourth suit"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "56"]
 % 34CC7B18C3800C3854C47297FCD2
 [North "EPBot"]
 [East "EPBot"]
@@ -1170,7 +1483,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "45"]
+[Board "57"]
 % 35D87554D000CC8B95C7E423E80B
 [North "EPBot"]
 [East "EPBot"]
@@ -1199,7 +1512,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "46"]
+[Board "58"]
 % 371558700058ECB530C61FFB8B3C
 [North "EPBot"]
 [East "EPBot"]
@@ -1225,7 +1538,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "47"]
+[Board "59"]
 % 3450FBCC20047076981CFF2F0573
 [North "EPBot"]
 [East "EPBot"]
@@ -1251,7 +1564,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "48"]
+[Board "60"]
 % 36595A3939D731F658E70AA8F682
 [North "EPBot"]
 [East "EPBot"]
@@ -1277,7 +1590,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "49"]
+[Board "61"]
 % 37D897344BD4AC0D33E048143D49
 [North "EPBot"]
 [East "EPBot"]
@@ -1303,7 +1616,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "50"]
+[Board "62"]
 % 347C55305C6CECF83329BEB30B1C
 [North "EPBot"]
 [East "EPBot"]
@@ -1330,7 +1643,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "51"]
+[Board "63"]
 % 361A759999274AF9DFA20432797A
 [North "EPBot"]
 [East "EPBot"]
@@ -1356,7 +1669,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "52"]
+[Board "64"]
 % 351F5DFD3EA87E4DDDDE02217227
 [North "EPBot"]
 [East "EPBot"]
@@ -1382,7 +1695,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "53"]
+[Board "65"]
 % 4459361435B2259A466D045B33F5
 [North "EPBot"]
 [East "EPBot"]
@@ -1408,7 +1721,60 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "54"]
+[Board "66"]
+% 460C5404913DCC0C68C73B5FA0D1
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AQT85.AQ986.J32. K74.KJ42.KQ6.654 J3.73.75.AKQ9873 962.T5.AT984.JT2"]
+{Shape 5530 3433 2227 3253}
+{HCP 13 12 10 5}
+{Losers 5 8 6 10}
+[Declarer "S"]
+[Contract "2H"]
+[Result "8"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    2C =1=
+Pass  2H    Pass  Pass
+Pass
+[Note "1:Michaels Cuebid"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "67"]
+% 45CF717D6FDF8E052133FECD8410
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:8762.A9843.83.95 KQJ.T2.K762.AJT6 93.J7.AQJT954.32 AT54.KQ65..KQ874"]
+{Shape 4522 3244 2272 4405}
+{HCP 4 14 8 14}
+{Losers 9 7 7 4}
+[Declarer "W"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS -630"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  2C    Pass
+3C    Pass  3N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "68"]
 % 47014FF333052C9DC16632925EE1
 [North "EPBot"]
 [East "EPBot"]
@@ -1434,7 +1800,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "55"]
+[Board "69"]
 % 461C74CFD8E8138CF1A4C7401F0E
 [North "EPBot"]
 [East "EPBot"]
@@ -1460,7 +1826,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "56"]
+[Board "70"]
 % 454455B811771728FA3C7083A4C8
 [North "EPBot"]
 [East "EPBot"]
@@ -1487,7 +1853,32 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "57"]
+[Board "71"]
+% 4752F22F8E3C71F31A9DF05902E1
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:QT73.J3.74.AKJ73 A94.A764.QJT6.Q8 J6.Q2.AK98532.T5 K852.KT985..9642"]
+{Shape 4225 3442 2272 4504}
+{HCP 11 13 10 6}
+{Losers 7 8 7 7}
+[Declarer "W"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    Pass
+2H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "72"]
 % 441659B545E9342906F34AE61815
 [North "EPBot"]
 [East "EPBot"]
@@ -1513,7 +1904,34 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "58"]
+[Board "73"]
+% 450E1F42D19DCAFFF1AC07722DDC
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AK53.AQ95.5.AQ94 Q4.KJT2.QJ74.K85 T6.63.AKT8632.62 J9872.874.9.JT73"]
+{Shape 4414 2443 2272 5314}
+{HCP 19 12 7 2}
+{Losers 4 8 7 10}
+[Declarer "N"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  Pass  X
+1H    2D    Pass  2H =1=
+Pass  Pass  Pass
+[Note "1:strength cue bid"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "74"]
 % 47C07F54097846B5C4280C1FA794
 [North "EPBot"]
 [East "EPBot"]
@@ -1539,7 +1957,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "59"]
+[Board "75"]
+% 44F7166A4F465905C9E2F6909435
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K82.JT87.J.KQT65 QJT9.K943.Q97.AJ 43.Q6.AKT8532.43 A765.A52.64.9872"]
+{Shape 3415 4432 2272 4324}
+{HCP 10 13 9 8}
+{Losers 7 7 7 9}
+[Declarer "W"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    Pass
+2S    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "76"]
 % 461B3974CD4A548A1BAE78363935
 [North "EPBot"]
 [East "EPBot"]
@@ -1565,7 +2008,32 @@ Pass  Pass  3H    Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "60"]
+[Board "77"]
+% 473F621131B03C0D3296C01FD543
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AQJ9874.852..K76 K2.Q643.A984.A42 T6.K.KQJT752.T95 53.AJT97.63.QJ83"]
+{Shape 7303 2443 2173 2524}
+{HCP 10 13 9 8}
+{Losers 6 7 7 8}
+[Declarer "N"]
+[Contract "3S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    3S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "78"]
 % 44D558F6D65444EACA370582E9CF
 [North "EPBot"]
 [East "EPBot"]
@@ -1591,7 +2059,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "61"]
+[Board "79"]
 % 46F47807560FFC38EB9212C8707C
 [North "EPBot"]
 [East "EPBot"]
@@ -1617,7 +2085,32 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "62"]
+[Board "80"]
+% 457410F7187414EC64C7BBD3C6BD
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:KJ9.63.AQT9763.3 AT7.KJ94.K4.Q654 52.87.82.AKJT987 Q8643.AQT52.J5.2"]
+{Shape 3271 3424 2227 5521}
+{HCP 10 13 8 9}
+{Losers 6 7 7 6}
+[Declarer "N"]
+[Contract "3D"]
+[Result "9"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1S    3D
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "81"]
 % 54C755C9CDC7DC67CAB546BAA6CB
 [North "EPBot"]
 [East "EPBot"]
@@ -1643,7 +2136,59 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "63"]
+[Board "82"]
+% 56C415DC8F510860BF40C40879CF
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:K94.AJ96542.T86. T863.KQT.AK5.J72 J7.8.943.AQ98654 AQ52.73.QJ72.KT3"]
+{Shape 3730 4333 2137 4243}
+{HCP 8 13 7 12}
+{Losers 7 8 7 7}
+[Declarer "N"]
+[Contract "3H"]
+[Result "7"]
+[Score "NS -200"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    3H
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "83"]
+% 55110F0D4C4DFB0192FD9D6136AF
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AKQ83.KQJT8.3.73 JT4.A75.A874.K92 752.42.KQJT652.J 96.963.9.AQT8654"]
+{Shape 5512 3343 3271 2317}
+{HCP 15 12 7 6}
+{Losers 4 9 7 7}
+[Declarer "S"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1N    2D =1=
+Pass  2S    Pass  Pass
+Pass
+[Note "1:Michaels Cuebid"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "84"]
 % 573C47783BD8250C7F9637A03870
 [North "EPBot"]
 [East "EPBot"]
@@ -1669,7 +2214,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "64"]
+[Board "85"]
 % 560C775035F3CB284C289F3C12F4
 [North "EPBot"]
 [East "EPBot"]
@@ -1696,7 +2241,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "65"]
+[Board "86"]
 % 551D93CE38CEC2CD7CE04B7CDE56
 [North "EPBot"]
 [East "EPBot"]
@@ -1723,7 +2268,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "66"]
+[Board "87"]
 % 5711CE93F3EAC1AE4A6DD031CE73
 [North "EPBot"]
 [East "EPBot"]
@@ -1749,7 +2294,134 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "67"]
+[Board "88"]
+% 545E004CD887D0710214B0FFEC6B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K76.KQT7.AQ43.A7 AQ82.AJ96.J2.T42 T5.32.T6.KQJ9653 J943.854.K9875.8"]
+{Shape 3442 4423 2227 4351}
+{HCP 18 12 6 4}
+{Losers 5 8 7 9}
+[Declarer "N"]
+[Contract "3N"]
+[Result "8"]
+[Score "NS -50"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    X
+1H    2C    Pass  3N
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "89"]
+% 555433E4CC961C74F43B731C49CD
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:K964.J32.AQT87.T A853.AT94.K5.K65 T.Q.J942.AQJ9874 QJ72.K8765.63.32"]
+{Shape 4351 4423 1147 4522}
+{HCP 10 14 10 6}
+{Losers 7 7 6 8}
+[Declarer "W"]
+[Contract "2H"]
+[Result "8"]
+[Score "NS -110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    Pass
+2H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "90"]
+% 575C043866F44124D7FB3B9C2348
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KQ853.K92.Q652.J AJ92.A74.A4.7653 4.J83.93.AKQT842 T76.QT65.KJT87.9"]
+{Shape 5341 4324 1327 3451}
+{HCP 11 13 10 6}
+{Losers 6 8 6 8}
+[Declarer "N"]
+[Contract "2N"]
+[Result "7"]
+[Score "NS -100"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1S
+1N    2C    Pass  2N
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "91"]
+% 54CBC8F0402C6037F74CC7031CD7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:T843.AKJ654.T63. J96.32.AK.A87542 .T9.8752.KQJT963 AKQ752.Q87.QJ94."]
+{Shape 4630 3226 0247 6340}
+{HCP 8 12 6 14}
+{Losers 7 7 6 4}
+[Declarer "W"]
+[Contract "4S"]
+[Result "11"]
+[Score "NS -450"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  2S    Pass
+4S    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "92"]
+% 563417203843F17D7420E0395F18
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AKQJ642.T.QT965. T873.K32.AK7.KT3 .Q65.J42.AQJ7652 95.AJ9874.83.984"]
+{Shape 7150 4333 0337 2623}
+{HCP 12 13 10 5}
+{Losers 3 8 6 9}
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[Score "NS 620"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    4S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "93"]
 % 576DF45814FE0001F71FC8E08B58
 [North "EPBot"]
 [East "EPBot"]
@@ -1775,7 +2447,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "68"]
+[Board "94"]
+% 547C1F40B3F31EDFB3E4142CC838
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K9542.Q3.AK984.9 AQ.K985.32.KJT87 J7.64.65.AQ65432 T863.AJT72.QJT7."]
+{Shape 5251 2425 2227 4540}
+{HCP 12 13 7 8}
+{Losers 6 7 7 7}
+[Declarer "W"]
+[Contract "3H"]
+[Result "11"]
+[Score "NS -200"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    2N =1=
+3H    Pass  Pass  Pass
+[Note "1:Unusual 2NT"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "95"]
 % 5650D00300E4EDCFACF3D0291477
 [North "EPBot"]
 [East "EPBot"]
@@ -1802,7 +2500,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "69"]
+[Board "96"]
 % 5547308CD0D84ADBF2B664CC37DC
 [North "EPBot"]
 [East "EPBot"]
@@ -1829,7 +2527,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "70"]
+[Board "97"]
 % 64D8D072F7030C48533CC49D8440
 [North "EPBot"]
 [East "EPBot"]
@@ -1856,7 +2554,7 @@ X     Pass =1=    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "71"]
+[Board "98"]
 % 669F0B49CA1DEA643595FB3A2AD6
 [North "EPBot"]
 [East "EPBot"]
@@ -1882,7 +2580,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "72"]
+[Board "99"]
 % 654DDFC1BECD6D2CC68FD143CED2
 [North "EPBot"]
 [East "EPBot"]
@@ -1909,7 +2607,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "73"]
+[Board "100"]
 % 677C3D102ED044410BD4883B67F4
 [North "EPBot"]
 [East "EPBot"]
@@ -1935,7 +2633,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "74"]
+[Board "101"]
+% 6616497AF9A41E8A240639DBF955
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:A9765.K86..AQ986 KQ2.A942.AT762.4 T8.T7.KQJ8543.T7 J43.QJ53.9.KJ532"]
+{Shape 5305 3451 2272 3415}
+{HCP 13 13 6 8}
+{Losers 5 6 7 8}
+[Declarer "W"]
+[Contract "3H"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    2N =1=
+3H    Pass  Pass  Pass
+[Note "1:Unusual 2NT"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "102"]
 % 654410D437D0182307C8B87D88FF
 [North "EPBot"]
 [East "EPBot"]
@@ -1962,7 +2686,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "75"]
+[Board "103"]
 % 6754850C5C1F6483C41B39C4E528
 [North "EPBot"]
 [East "EPBot"]
@@ -1988,7 +2712,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "76"]
+[Board "104"]
 % 64DC5E60F89F2BE03704F2C30C50
 [North "EPBot"]
 [East "EPBot"]
@@ -2014,7 +2738,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "77"]
+[Board "105"]
 % 655874C8935854C8CF0C35B38904
 [North "EPBot"]
 [East "EPBot"]
@@ -2040,7 +2764,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "78"]
+[Board "106"]
 % 6752F1417D82BC9B32CF3239618F
 [North "EPBot"]
 [East "EPBot"]
@@ -2066,7 +2790,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "79"]
+[Board "107"]
+% 644C4093613480DF1802FB88C083
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:T76.AK96432.A8.6 AKJ.Q87.754.Q852 Q942.J.T.AKT9743 853.T5.KQJ9632.J"]
+{Shape 3721 3334 4117 3271}
+{HCP 11 12 10 7}
+{Losers 6 8 5 7}
+[Declarer "N"]
+[Contract "3H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    3H
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "108"]
 % 66DA4959E65AE5A1223BFA1772B9
 [North "EPBot"]
 [East "EPBot"]
@@ -2092,7 +2841,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "80"]
+[Board "109"]
 % 6711C3DFA65EF15FC20EC030B039
 [North "EPBot"]
 [East "EPBot"]
@@ -2118,7 +2867,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "81"]
+[Board "110"]
 % 64DFF45CFCBC59C483EBDE0A4CB0
 [North "EPBot"]
 [East "EPBot"]
@@ -2144,7 +2893,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "82"]
+[Board "111"]
 % 663B59F437DA3BA826F5087E46CA
 [North "EPBot"]
 [East "EPBot"]
@@ -2170,7 +2919,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "83"]
+[Board "112"]
 % 657FFD62CE2CC24FEF12FDD2D4E6
 [North "EPBot"]
 [East "EPBot"]
@@ -2196,7 +2945,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "84"]
+[Board "113"]
 % 74D83C138CBC132C7879F442E74D
 [North "EPBot"]
 [East "EPBot"]
@@ -2222,7 +2971,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "85"]
+[Board "114"]
 % 7659C7FA8E883ACAE55E4BBBC695
 [North "EPBot"]
 [East "EPBot"]
@@ -2249,7 +2998,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "86"]
+[Board "115"]
 % 7533DE8E7F3C219E0E495C31FDD2
 [North "EPBot"]
 [East "EPBot"]
@@ -2276,7 +3025,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "87"]
+[Board "116"]
 % 77085F44889AAC2FF445BBD4F8C7
 [North "EPBot"]
 [East "EPBot"]
@@ -2303,7 +3052,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "88"]
+[Board "117"]
 % 763F7054C48F370B31AC6C2CC0C7
 [North "EPBot"]
 [East "EPBot"]
@@ -2330,7 +3079,7 @@ Pass  3H    X     Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "89"]
+[Board "118"]
 % 75CB5C182880C870811F9675F7C4
 [North "EPBot"]
 [East "EPBot"]
@@ -2356,7 +3105,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "90"]
+[Board "119"]
 % 77711F21B2D2224E1F7581FAC150
 [North "EPBot"]
 [East "EPBot"]
@@ -2382,7 +3131,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "91"]
+[Board "120"]
 % 741B34C7F4652A7B7CF9760F2536
 [North "EPBot"]
 [East "EPBot"]
@@ -2408,7 +3157,59 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "92"]
+[Board "121"]
+% 750304D0E40F78CF5DFCC8173198
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AKT43.AKT85.KJ4. 97.Q742.AQ3.AT84 2.J.T876.KQJ9652 QJ865.963.952.73"]
+{Shape 5530 2434 1147 5332}
+{HCP 18 12 7 3}
+{Losers 4 7 6 10}
+[Declarer "N"]
+[Contract "2S"]
+[Result "7"]
+[Score "NS -50"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  Pass  X
+1H    2C    Pass  2S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "122"]
+% 77560C2894C4A34BC4CBBC14FF76
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KQ4.KT876.Q86.A2 A82.AJ4.K53.9863 J95.Q9.9.KQJT754 T763.532.AJT742."]
+{Shape 3532 3334 3217 4360}
+{HCP 14 12 9 5}
+{Losers 6 9 7 8}
+[Declarer "N"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 600"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1H
+Pass  2C    Pass  3N
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "123"]
 % 744C38CBDDDD2368D42CECC5305F
 [North "EPBot"]
 [East "EPBot"]
@@ -2435,7 +3236,33 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "93"]
+[Board "124"]
+% 763B59CF44B6038BB575D92ACAEA
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:A94.QJ983.9.T432 KJ6.K5.JT76.AQ98 T87.42.AK85432.J Q532.AT76.Q.K765"]
+{Shape 3514 3244 3271 4414}
+{HCP 7 14 8 11}
+{Losers 8 7 7 7}
+[Declarer "W"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS -400"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    Pass
+2C    Pass  2N    Pass
+3N    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "125"]
 % 7770DB380FE0EA4C793CD14430DB
 [North "EPBot"]
 [East "EPBot"]
@@ -2461,7 +3288,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "94"]
+[Board "126"]
+% 745C8BFCC2F0A210489027524003
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:852.KJ732.AQ.J94 A743.A864.K7.K52 K96.95.5.AQT8763 QJT.QT.JT986432."]
+{Shape 3523 4423 3217 3280}
+{HCP 11 14 9 6}
+{Losers 9 7 6 7}
+[Declarer "W"]
+[Contract "2D"]
+[Result "11"]
+[Score "NS -150"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1H
+1S    2C    2D    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "127"]
 % 767F9C100CF74C8237F026A8DF1C
 [North "EPBot"]
 [East "EPBot"]
@@ -2488,7 +3341,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "95"]
+[Board "128"]
 % 75D873E428C49A5680F31CF60F78
 [North "EPBot"]
 [East "EPBot"]
@@ -2514,7 +3367,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "96"]
+[Board "129"]
 % 84154729C7DAB9C67AE4C4EAC63B
 [North "EPBot"]
 [East "EPBot"]
@@ -2541,7 +3394,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "97"]
+[Board "130"]
 % 86DC5CF33C60D006E71B7E388124
 [North "EPBot"]
 [East "EPBot"]
@@ -2567,7 +3420,34 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "98"]
+[Board "131"]
+% 85345194C368669BA803F6C8D4F4
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:A6.J64.AQ9532.95 KT9.KQ83.KJ6.J86 Q87.T97..AQT7432 J5432.A52.T874.K"]
+{Shape 2362 3433 3307 5341}
+{HCP 11 13 8 8}
+{Losers 7 8 6 9}
+[Declarer "W"]
+[Contract "2S"]
+[Result "8"]
+[Score "NS -110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1S    2D
+X =1=    Pass  2S    Pass
+Pass  Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "132"]
 % 877414546A08DBDC03A7F86CE5CA
 [North "EPBot"]
 [East "EPBot"]
@@ -2593,7 +3473,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "99"]
+[Board "133"]
+% 86044C7F4CD0BB509BDC0A0035BD
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:A543.AKJ54.T84.5 KQJ8.T876.A3.Q97 972..975.AKJT864 T6.Q932.KQJ62.32"]
+{Shape 4531 4423 3037 2452}
+{HCP 12 12 8 8}
+{Losers 7 7 7 7}
+[Declarer "W"]
+[Contract "1N"]
+[Result "7"]
+[Score "NS -90"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1H
+1S    Pass  1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "134"]
 % 85127820D416E82058C7F5AFF44B
 [North "EPBot"]
 [East "EPBot"]
@@ -2619,7 +3525,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "100"]
+[Board "135"]
 % 87D2FFF25CC610615D4E00FAB2C0
 [North "EPBot"]
 [East "EPBot"]
@@ -2648,7 +3554,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "101"]
+[Board "136"]
+% 847518752A353BA104504515D60A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KJT9742.752..J32 AQ65.K643.KJ92.9 8.J8.AQT7543.K76 3.AQT9.86.AQT854"]
+{Shape 7303 4441 1273 1426}
+{HCP 5 13 10 12}
+{Losers 8 6 6 5}
+[Declarer "W"]
+[Contract "3C"]
+[Result "10"]
+[Score "NS -130"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  3C =1=    Pass
+Pass  Pass
+[Note "1:Inviting Jump Shifts"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "137"]
 % 853D7FD364D265DD4C0DECC1163E
 [North "EPBot"]
 [East "EPBot"]
@@ -2676,7 +3608,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "102"]
+[Board "138"]
 % 8718DC0C7427E8D7F696BC48046B
 [North "EPBot"]
 [East "EPBot"]
@@ -2702,7 +3634,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "103"]
+[Board "139"]
 % 84D01FD0C7E330F83C442C6E4AEB
 [North "EPBot"]
 [East "EPBot"]
@@ -2728,7 +3660,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "104"]
+[Board "140"]
 % 868FD41C1044BF603733F0B08DD0
 [North "EPBot"]
 [East "EPBot"]
@@ -2754,7 +3686,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "105"]
+[Board "141"]
 % 874C483CF3B8C33BCBD1944014D9
 [North "EPBot"]
 [East "EPBot"]
@@ -2781,7 +3713,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "106"]
+[Board "142"]
 % 84CAD87068F01E13257C2F8443C0
 [North "EPBot"]
 [East "EPBot"]
@@ -2807,7 +3739,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "107"]
+[Board "143"]
 % 86761A78CBC33ADAE6A5F459B33A
 [North "EPBot"]
 [East "EPBot"]
@@ -2834,7 +3766,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "108"]
+[Board "144"]
+% 85F0D092080B4FE76438588C09CB
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:JT63.JT9432.87.Q 975.KQ5.AKQ.T982 Q4.87.94.AKJ7654 AK82.A6.JT6532.3"]
+{Shape 4621 3334 2227 4261}
+{HCP 4 14 10 12}
+{Losers 9 7 7 6}
+[Declarer "E"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS -600"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    2H
+Pass  Pass  2S    Pass
+3N    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "145"]
 % 9417158A0EA77A66E939F657F4FD
 [North "EPBot"]
 [East "EPBot"]
@@ -2861,7 +3819,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "109"]
+[Board "146"]
 % 96137004482F3C3BDFAB3CF4F406
 [North "EPBot"]
 [East "EPBot"]
@@ -2887,7 +3845,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "110"]
+[Board "147"]
 % 95D04BB424F8F6CC7AC4176B9F40
 [North "EPBot"]
 [East "EPBot"]
@@ -2913,7 +3871,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "111"]
+[Board "148"]
 % 97593C3C94CF389857CAF64020F3
 [North "EPBot"]
 [East "EPBot"]
@@ -2939,7 +3897,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "112"]
+[Board "149"]
 % 965A34FA1B36EA3F457999F08852
 [North "EPBot"]
 [East "EPBot"]
@@ -2965,7 +3923,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "113"]
+[Board "150"]
 % 954493C4F47474F9D7167DAC83C0
 [North "EPBot"]
 [East "EPBot"]
@@ -2991,7 +3949,60 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "114"]
+[Board "151"]
+% 973C4843452FE3A9CC14F8C41417
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AT632.KQJ74.K85. KQJ.632.AT7.QT92 8.T98.Q9.AK76543 9754.A5.J6432.J8"]
+{Shape 5530 3334 1327 4252}
+{HCP 13 12 9 6}
+{Losers 5 8 7 9}
+[Declarer "S"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    2C =1=
+Pass  2H    Pass  Pass
+Pass
+[Note "1:Michaels Cuebid"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "152"]
+% 94161A14A9CAB3C555F50B35EB26
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AKQ542.T85..AKT2 7.AKQ7.KJT53.953 J9.J32.AQ87642.Q T863.964.9.J8764"]
+{Shape 6304 1453 2371 4315}
+{HCP 16 13 10 1}
+{Losers 4 6 7 10}
+[Declarer "N"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS 170"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  Pass  X
+1H    2D    Pass  2S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "153"]
 % 957FFED30AF4318E7EEF3E134CB0
 [North "EPBot"]
 [East "EPBot"]
@@ -3019,7 +4030,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "115"]
+[Board "154"]
 % 971CC4EF14C0FB77E8AC481BE97A
 [North "EPBot"]
 [East "EPBot"]
@@ -3045,7 +4056,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "116"]
+[Board "155"]
 % 94387FC8432CA0C0FCF72D53541E
 [North "EPBot"]
 [East "EPBot"]
@@ -3071,7 +4082,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "117"]
+[Board "156"]
 % 9649F7EB6AE5CB8A36EC1316D9CA
 [North "EPBot"]
 [East "EPBot"]
@@ -3097,7 +4108,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "118"]
+[Board "157"]
 % 97F750DCF4346438182BA92B4EDE
 [North "EPBot"]
 [East "EPBot"]
@@ -3123,7 +4134,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "119"]
+[Board "158"]
 % 944D1844D0DFEE2770CABC3874FF
 [North "EPBot"]
 [East "EPBot"]
@@ -3150,7 +4161,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "120"]
+[Board "159"]
 % 96DFC4ECD04E50C0F71700382BAD
 [North "EPBot"]
 [East "EPBot"]
@@ -3177,7 +4188,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "121"]
+[Board "160"]
 % 95F8474033141E38015BFCFC84EF
 [North "EPBot"]
 [East "EPBot"]
@@ -3203,7 +4214,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "122"]
+[Board "161"]
 % A4F0DF1897C0170C3C8370B308BA
 [North "EPBot"]
 [East "EPBot"]
@@ -3234,7 +4245,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "123"]
+[Board "162"]
 % A67B369ACB1644FAF9E9962BE2D1
 [North "EPBot"]
 [East "EPBot"]
@@ -3260,7 +4271,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "124"]
+[Board "163"]
 % A5FF1E335786BEC23CDDF3BD811C
 [North "EPBot"]
 [East "EPBot"]
@@ -3292,7 +4303,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "125"]
+[Board "164"]
 % A7F151EF56621503CC21DE000172
 [North "EPBot"]
 [East "EPBot"]
@@ -3318,7 +4329,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "126"]
+[Board "165"]
 % A600549F7C3EA3BECC0418FF0558
 [North "EPBot"]
 [East "EPBot"]
@@ -3345,7 +4356,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "127"]
+[Board "166"]
 % A57E5CFB418FF11D5EC926EC120C
 [North "EPBot"]
 [East "EPBot"]
@@ -3371,7 +4382,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "128"]
+[Board "167"]
 % A77CB8CB4D07C05C8822F724DB74
 [North "EPBot"]
 [East "EPBot"]
@@ -3397,7 +4408,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "129"]
+[Board "168"]
 % A48B70DC3804CB37E0C34F1CE835
 [North "EPBot"]
 [East "EPBot"]
@@ -3423,7 +4434,34 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "130"]
+[Board "169"]
+% A5D008C0637B0D5C39EA3F0C1448
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:K97543.KQ942.3.6 JT82.A83.AQJ.JT5 .J6.9854.AKQ8432 AQ6.T75.KT762.97"]
+{Shape 6511 4333 0247 3352}
+{HCP 8 13 10 9}
+{Losers 5 9 5 8}
+[Declarer "N"]
+[Contract "2S"]
+[Result "7"]
+[Score "NS -50"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    2C =1=
+Pass  2H    Pass  2S
+Pass  Pass  Pass
+[Note "1:Michaels Cuebid"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "170"]
 % A752D13DB1729CC2B36DE2CF070A
 [North "EPBot"]
 [East "EPBot"]
@@ -3449,7 +4487,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "131"]
+[Board "171"]
 % A478108310201840823267CCE319
 [North "EPBot"]
 [East "EPBot"]
@@ -3476,7 +4514,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "132"]
+[Board "172"]
 % A604447C263BC36CD058DECCAF0D
 [North "EPBot"]
 [East "EPBot"]
@@ -3503,7 +4541,33 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "133"]
+[Board "173"]
+% A7441BD8F70029B4238D4D1C54F8
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KT974.AT65.KQ92. A53.KQ43.654.KJ7 86.97.T7.AQT8432 QJ2.J82.AJ83.965"]
+{Shape 5440 3433 2227 3343}
+{HCP 12 13 6 9}
+{Losers 5 8 7 10}
+[Declarer "W"]
+[Contract "1N"]
+[Result "7"]
+[Score "NS -90"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1S
+Pass  Pass  1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "174"]
 % A4D9366794D5164A89C5006542FA
 [North "EPBot"]
 [East "EPBot"]
@@ -3529,7 +4593,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "134"]
+[Board "175"]
 % A6DC4C6786C3FDC04BF820C09451
 [North "EPBot"]
 [East "EPBot"]
@@ -3555,7 +4619,32 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "135"]
+[Board "176"]
+% A55ECFCFC6CBCD52B3A1CCBE4D81
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:.KQJT9532.J.AJ84 A83.A8.8762.KQT7 7642.6.AKQ9543.5 KQJT95.74.T.9632"]
+{Shape 0814 3244 4171 6214}
+{HCP 12 13 9 6}
+{Losers 4 7 5 7}
+[Declarer "N"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    4H
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "177"]
 % B41FC8443CCFF3231010A83BE441
 [North "EPBot"]
 [East "EPBot"]
@@ -3581,7 +4670,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "136"]
+[Board "178"]
 % B679163BF84B99D6C299A036C6FB
 [North "EPBot"]
 [East "EPBot"]
@@ -3607,7 +4696,34 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "137"]
+[Board "179"]
+% B54855F005A8E3AB1C00773734D8
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:J7643.AJ6.KJ543. AK5.K72.Q96.9854 T8.T98.7.AQT7632 Q92.Q543.AT82.KJ"]
+{Shape 5350 3334 2317 3442}
+{HCP 10 12 6 12}
+{Losers 7 8 7 7}
+[Declarer "W"]
+[Contract "2N"]
+[Result "8"]
+[Score "NS -120"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1S
+Pass  Pass  X     Pass
+2D    Pass  2N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "180"]
 % B77794FC34182E3C704AD43BA79A
 [North "EPBot"]
 [East "EPBot"]
@@ -3636,7 +4752,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "138"]
+[Board "181"]
+% B64CD0131C7024AD6EE8370EF473
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:QJ954.A4.KQT2.74 AT72.KQJ.953.Q52 8.9876.6.AKJT963 K63.T532.AJ874.8"]
+{Shape 5242 4333 1417 3451}
+{HCP 12 12 8 8}
+{Losers 6 8 6 8}
+[Declarer "W"]
+[Contract "2D"]
+[Result "8"]
+[Score "NS -90"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1S
+Pass  2C    2D    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "182"]
 % B55878C9A037803064DB05982776
 [North "EPBot"]
 [East "EPBot"]
@@ -3662,7 +4804,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "139"]
+[Board "183"]
 % B77C8EC4D3284807BAC414945375
 [North "EPBot"]
 [East "EPBot"]
@@ -3688,7 +4830,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "140"]
+[Board "184"]
 % B440DFBC19567CFC87044910B3FC
 [North "EPBot"]
 [East "EPBot"]
@@ -3714,7 +4856,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "141"]
+[Board "185"]
 % B53F40FF3E1E017993CCFCBF4681
 [North "EPBot"]
 [East "EPBot"]
@@ -3740,7 +4882,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "142"]
+[Board "186"]
 % B7DCC47B448449D4B3CCA60C42DB
 [North "EPBot"]
 [East "EPBot"]
@@ -3766,7 +4908,32 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "143"]
+[Board "187"]
+% B45C38CE73809F1075300EB860D7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K865.QT5.AQ95.Q5 AJ73.A982.K4.J92 T94.3.72.AKT8643 Q2.KJ764.JT863.7"]
+{Shape 4342 4423 3127 2551}
+{HCP 13 13 7 7}
+{Losers 7 8 7 8}
+[Declarer "W"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    Pass
+2H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "188"]
 % B65936094D3BFFC8BA27198746E8
 [North "EPBot"]
 [East "EPBot"]
@@ -3794,7 +4961,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "144"]
+[Board "189"]
 % B7D45D880A43E9B4B818F8673C7F
 [North "EPBot"]
 [East "EPBot"]
@@ -3820,7 +4987,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "145"]
+[Board "190"]
 % B4D8F74C0FF094EDB00A7F4812D4
 [North "EPBot"]
 [East "EPBot"]
@@ -3846,7 +5013,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "146"]
+[Board "191"]
 % B6FA5B32553856158DA90C3BC87A
 [North "EPBot"]
 [East "EPBot"]
@@ -3872,7 +5039,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "147"]
+[Board "192"]
 % B5081354D4CB9CECF97444F4433E
 [North "EPBot"]
 [East "EPBot"]
@@ -3898,7 +5065,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "148"]
+[Board "193"]
 % C43C53D8C74FF87CBE01F4A4400B
 [North "EPBot"]
 [East "EPBot"]
@@ -3924,7 +5091,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "149"]
+[Board "194"]
 % C6F95A7559B61089680132D8C7CB
 [North "EPBot"]
 [East "EPBot"]
@@ -3954,7 +5121,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "150"]
+[Board "195"]
 % C5FFC3DEC5DD0E74133CAE0CB173
 [North "EPBot"]
 [East "EPBot"]
@@ -3980,7 +5147,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "151"]
+[Board "196"]
 % C7640FF4DBCB38CC8036542B5CB1
 [North "EPBot"]
 [East "EPBot"]
@@ -4006,7 +5173,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "152"]
+[Board "197"]
 % C6507CDCD2D24C3F8003BCA4B749
 [North "EPBot"]
 [East "EPBot"]
@@ -4032,7 +5199,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "153"]
+[Board "198"]
 % C5FD43DD225117CECCE413AE0DFD
 [North "EPBot"]
 [East "EPBot"]
@@ -4058,7 +5225,58 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "154"]
+[Board "199"]
+% C73C7C03DA146404D1C7C3B8133C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AQT832.Q865.J4.J K9.JT73.AK2.Q653 4.9.Q753.AKT9842 J765.AK42.T986.7"]
+{Shape 6421 2434 1147 4441}
+{HCP 10 13 9 8}
+{Losers 6 7 5 8}
+[Declarer "W"]
+[Contract "3H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    2S
+3H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "200"]
+% C4003B507B4DE18CA4CCD8429C33
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AK2.AT864.T863.4 QJT4.Q53.KJ5.KJ2 873.97.7.AQ87653 965.KJ2.AQ942.T9"]
+{Shape 3541 4333 3217 3352}
+{HCP 11 13 6 10}
+{Losers 7 8 7 8}
+[Declarer "W"]
+[Contract "1N"]
+[Result "8"]
+[Score "NS -120"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1H
+1S    Pass  1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "201"]
 % C5D04FCEFDDC3E3231CE3E60611F
 [North "EPBot"]
 [East "EPBot"]
@@ -4085,7 +5303,7 @@ X     Pass =1=    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "155"]
+[Board "202"]
 % C7D3FE610212C72CCC10341FF141
 [North "EPBot"]
 [East "EPBot"]
@@ -4111,7 +5329,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "156"]
+[Board "203"]
 % C450F90808853F624084C054C3DF
 [North "EPBot"]
 [East "EPBot"]
@@ -4139,7 +5357,87 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "157"]
+[Board "204"]
+% C63B55C94DE9142BDA27C336C988
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:A9864.QJ532.5.74 KJ.K97.K964.A865 2.T86.AQT8732.92 QT753.A4.J.KQJT3"]
+{Shape 5512 2344 1372 5215}
+{HCP 7 14 6 13}
+{Losers 7 7 7 5}
+[Declarer "E"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS -430"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    Pass
+2C    Pass  2H =1=    Pass
+3N    Pass  Pass  Pass
+[Note "1:Fourth suit"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "205"]
+% C7533AF2CC2D912F00F37237CD92
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KT874.J73.K.KQ52 A5.A92.JT83.A864 92.T8.AQ97652.J7 QJ63.KQ654.4.T93"]
+{Shape 5314 2344 2272 4513}
+{HCP 12 13 7 8}
+{Losers 7 8 7 7}
+[Declarer "W"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    1S
+X =1=    Pass  2H    Pass
+Pass  Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "206"]
+% C4F80B40207FF0501F25205CCCEA
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KJ765.KQ3.T743.2 QT84.874.AK2.KT7 .J652.6.AQJ98543 A932.AT9.QJ985.6"]
+{Shape 5341 4333 0418 4351}
+{HCP 9 12 8 11}
+{Losers 7 8 5 7}
+[Declarer "W"]
+[Contract "2D"]
+[Result "10"]
+[Score "NS -130"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1S
+Pass  2C    2D    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "207"]
 % C645DA19CB19C6E4797007AA72F8
 [North "EPBot"]
 [East "EPBot"]
@@ -4165,7 +5463,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "158"]
+[Board "208"]
 % C52055743B008FD84B57F804B888
 [North "EPBot"]
 [East "EPBot"]
@@ -4192,7 +5490,7 @@ X     Pass =1=    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "159"]
+[Board "209"]
 % D45F30B8FC22131F28BC61C8107C
 [North "EPBot"]
 [East "EPBot"]
@@ -4219,7 +5517,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "160"]
+[Board "210"]
 % D60404D46FA0D04D40CC0BDBFFBE
 [North "EPBot"]
 [East "EPBot"]
@@ -4248,7 +5546,34 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "161"]
+[Board "211"]
+% D5411D3EAF41CD37B13EEF501AEE
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:KQ863.AT9.8.Q632 AT4.K43.AT74.J85 J7.J52.KQJ9652.4 952.Q876.3.AKT97"]
+{Shape 5314 3343 2371 3415}
+{HCP 11 12 8 9}
+{Losers 6 9 7 7}
+[Declarer "S"]
+[Contract "2D"]
+[Result "9"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    1S
+X =1=    2D    Pass  Pass
+Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "212"]
 % D718D4DB710F783C84389738CCB3
 [North "EPBot"]
 [East "EPBot"]
@@ -4275,7 +5600,7 @@ Pass  3S    X     Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "162"]
+[Board "213"]
 % D674DC0023CBC4914E8CF049DB74
 [North "EPBot"]
 [East "EPBot"]
@@ -4301,7 +5626,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "163"]
+[Board "214"]
 % D5CFD1CE59CC0FE21E03319C6EF8
 [North "EPBot"]
 [East "EPBot"]
@@ -4327,7 +5652,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "164"]
+[Board "215"]
 % D751FD708296CFC262FFE23A5610
 [North "EPBot"]
 [East "EPBot"]
@@ -4353,7 +5678,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "165"]
+[Board "216"]
 % D418F84CD6FC77F44D3F1B10A234
 [North "EPBot"]
 [East "EPBot"]
@@ -4380,7 +5705,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "166"]
+[Board "217"]
 % D57DB11F5E0D0F05E14EE3F11DAE
 [North "EPBot"]
 [East "EPBot"]
@@ -4406,7 +5731,32 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "167"]
+[Board "218"]
+% D7D14A4310B6D273FE6DD8C03D82
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J3.KQ42.K5.KT972 KQ86.AJ95.763.Q8 T2.6.AQJ9842.J54 A9754.T873.T.A63"]
+{Shape 2425 4432 2173 5413}
+{HCP 12 12 8 8}
+{Losers 6 8 7 8}
+[Declarer "W"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    Pass
+2S    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "219"]
 % D47D0757257926F8264A3AF017B5
 [North "EPBot"]
 [East "EPBot"]
@@ -4432,7 +5782,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "168"]
+[Board "220"]
 % D6143C1052BFF084213F5CFB4A78
 [North "EPBot"]
 [East "EPBot"]
@@ -4458,7 +5808,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "169"]
+[Board "221"]
 % D73B4C8CC89700DE7460F807C7D4
 [North "EPBot"]
 [East "EPBot"]
@@ -4485,7 +5835,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "170"]
+[Board "222"]
 % D4085040083BE4DDD11F067FE0B4
 [North "EPBot"]
 [East "EPBot"]
@@ -4511,7 +5861,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "171"]
+[Board "223"]
 % D60F60D49CF9BC4C37022063F35C
 [North "EPBot"]
 [East "EPBot"]
@@ -4537,7 +5887,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "172"]
+[Board "224"]
 % D540F89B4B5C069AF3483C36BC18
 [North "EPBot"]
 [East "EPBot"]
@@ -4566,7 +5916,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "173"]
+[Board "225"]
 % E4D47E5053340413006FF02AF83C
 [North "EPBot"]
 [East "EPBot"]
@@ -4592,7 +5942,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "174"]
+[Board "226"]
 % E67C740313F2342EEC34B3B85C4B
 [North "EPBot"]
 [East "EPBot"]
@@ -4618,7 +5968,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "175"]
+[Board "227"]
 % E55F3EC6AE32F13C056F72DD7FA1
 [North "EPBot"]
 [East "EPBot"]
@@ -4644,7 +5994,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "176"]
+[Board "228"]
 % E7DB44340CEAB30FD83FD068E9D4
 [North "EPBot"]
 [East "EPBot"]
@@ -4671,7 +6021,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "177"]
+[Board "229"]
 % E6F0D4135073790CC570D9BB0880
 [North "EPBot"]
 [East "EPBot"]
@@ -4697,7 +6047,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "178"]
+[Board "230"]
 % E579D0483C1B2E3C20CB47F86417
 [North "EPBot"]
 [East "EPBot"]
@@ -4723,7 +6073,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "179"]
+[Board "231"]
 % E7D3F7B2915C7E42F551C802000C
 [North "EPBot"]
 [East "EPBot"]
@@ -4750,7 +6100,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "180"]
+[Board "232"]
 % E4D6755ACA879D68C677B53AC6C0
 [North "EPBot"]
 [East "EPBot"]
@@ -4777,7 +6127,34 @@ Pass  3C    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "181"]
+[Board "233"]
+% E504D3D42064083AFB83CFD5BC58
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AJ98.A965.AQT4.8 T2.KQ42.KJ6.K765 63.JT.53.AQJT932 KQ754.873.9872.4"]
+{Shape 4441 2434 2227 5341}
+{HCP 15 12 8 5}
+{Losers 6 7 7 8}
+[Declarer "S"]
+[Contract "2C"]
+[Result "10"]
+[Score "NS 130"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1S    X
+Pass =1=    2C    Pass  Pass
+Pass
+[Note "1:max 2 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "234"]
 % E77C14253370C4CC18780C3B97BB
 [North "EPBot"]
 [East "EPBot"]
@@ -4803,7 +6180,7 @@ Pass  Pass  3H    Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "182"]
+[Board "235"]
 % E41F080438B7F6DF905174F8CC42
 [North "EPBot"]
 [East "EPBot"]
@@ -4832,7 +6209,34 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "183"]
+[Board "236"]
+% E66730005CD7A800F31DFB76F08C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:KQ86.Q82.KQ873.4 AJ4.JT6.AT4.AT75 92.A9.95.KQJ9832 T753.K7543.J62.6"]
+{Shape 4351 3334 2227 4531}
+{HCP 12 14 10 4}
+{Losers 5 9 6 9}
+[Declarer "W"]
+[Contract "2H"]
+[Result "7"]
+[Score "NS 50"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    2D
+X =1=    Pass  2H    Pass
+Pass  Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "237"]
 % E70B7C640CCC9BD4758005107BC4
 [North "EPBot"]
 [East "EPBot"]
@@ -4858,7 +6262,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "184"]
+[Board "238"]
 % E4454FA6DA87D609C82BF5DFC5B5
 [North "EPBot"]
 [East "EPBot"]
@@ -4886,7 +6290,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "185"]
+[Board "239"]
+% E6746E0010A7F7134BFD3C2CF018
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:QJ8542.Q7.QJ83.K AK7.J82.AT9.T987 T.KT4.72.AQJ5432 963.A9653.K654.6"]
+{Shape 6241 3334 1327 3541}
+{HCP 11 12 10 7}
+{Losers 7 9 6 8}
+[Declarer "N"]
+[Contract "2S"]
+[Result "8"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    2S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "240"]
 % E5430CD43896F4F74CDDB41378CF
 [North "EPBot"]
 [East "EPBot"]
@@ -4913,7 +6342,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "186"]
+[Board "241"]
 % F470183063EC17CCA81A0C63D2C1
 [North "EPBot"]
 [East "EPBot"]
@@ -4939,7 +6368,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "187"]
+[Board "242"]
 % F6C344C4DCE48D2F6CD24C10AF0F
 [North "EPBot"]
 [East "EPBot"]
@@ -4966,7 +6395,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "188"]
+[Board "243"]
 % F554493C7614E067F43B2820DDD7
 [North "EPBot"]
 [East "EPBot"]
@@ -4993,7 +6422,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "189"]
+[Board "244"]
 % F7DB5438B43B8EA87F54CA3470BE
 [North "EPBot"]
 [East "EPBot"]
@@ -5019,7 +6448,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "190"]
+[Board "245"]
 % F6761C9C3C573CC3E683A0CC1871
 [North "EPBot"]
 [East "EPBot"]
@@ -5045,7 +6474,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "191"]
+[Board "246"]
+% F51D7B4E064381DC90FDFE3CDE48
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AJ4.QJT92.J.QJ53 KQT2.A873.T97.KT 97..AQ86543.8742 8653.K654.K2.A96"]
+{Shape 3514 4432 2074 4423}
+{HCP 12 12 6 10}
+{Losers 7 7 6 8}
+[Declarer "W"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    Pass
+2H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "247"]
 % F71BECD86844488716A7F6743D98
 [North "EPBot"]
 [East "EPBot"]
@@ -5071,7 +6525,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "192"]
+[Board "248"]
 % F446756B07F29A9AD7C4C1BAC685
 [North "EPBot"]
 [East "EPBot"]
@@ -5099,7 +6553,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "193"]
+[Board "249"]
 % F55D303E62543FEFD16D0D3A359E
 [North "EPBot"]
 [East "EPBot"]
@@ -5125,7 +6579,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "194"]
+[Board "250"]
 % F733CF71D61C4A0255C29DA1C070
 [North "EPBot"]
 [East "EPBot"]
@@ -5151,7 +6605,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "195"]
+[Board "251"]
 % F4DFF89CBC7BB6CCFC7F14301C43
 [North "EPBot"]
 [East "EPBot"]
@@ -5179,7 +6633,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "196"]
+[Board "252"]
 % F67C4013B44AC044DA90FBC81DFF
 [North "EPBot"]
 [East "EPBot"]
@@ -5205,7 +6659,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "197"]
+[Board "253"]
 % F713085444CCC4DCFB00B5446BCC
 [North "EPBot"]
 [East "EPBot"]
@@ -5231,7 +6685,33 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "198"]
+[Board "254"]
+% F4160E57784CC535E88709D5F578
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AK85.KT965.KT.AK QJT2.AQ4.J752.Q6 6.7.AQ98643.JT72 9743.J832..98543"]
+{Shape 4522 4342 1174 4405}
+{HCP 20 12 7 1}
+{Losers 4 8 6 9}
+[Declarer "N"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  Pass  X
+1S    2D    Pass  2H
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "255"]
 % F67BF5EAC7A1FA8924F35A0A167B
 [North "EPBot"]
 [East "EPBot"]
@@ -5257,7 +6737,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "199"]
+[Board "256"]
 % F53870542338C5A8AC18075ACB5A
 [North "EPBot"]
 [East "EPBot"]
@@ -5283,7 +6763,84 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "200"]
+[Board "257"]
+% 04F30898C86CC42C835200727293
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:K85.KJ975.T8.643 T643.Q62.KQJ.A72 Q72.T8.9.KQJT985 AJ9.A43.A765432."]
+{Shape 3523 4333 3217 3370}
+{HCP 7 12 8 13}
+{Losers 9 8 6 6}
+[Declarer "W"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS -430"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  2D    Pass
+2S    Pass  3N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "258"]
+% 061937DA6099761C75BFC96A0A09
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AK832.532.J.Q943 J974.AQT8.K97.K6 T6.J4.AQT5432.J8 Q5.K976.86.AT752"]
+{Shape 5314 4432 2272 2425}
+{HCP 10 13 8 9}
+{Losers 7 7 7 8}
+[Declarer "W"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    1S
+2H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "259"]
+% 05C01BD8D708386B005AB5642C3F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:KT9732.AT7.J54.6 864.KQJ6.A7.KJ82 5.843.32.AQT9743 AQJ.952.KQT986.5"]
+{Shape 6331 3424 1327 3361}
+{HCP 8 14 6 12}
+{Losers 8 7 7 6}
+[Declarer "W"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS -630"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  2D    Pass
+2H    Pass  2N    Pass
+3N    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "260"]
 % 07D8745C053EABE4BB170B2CF468
 [North "EPBot"]
 [East "EPBot"]
@@ -5309,7 +6866,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "201"]
+[Board "261"]
 % 06701308071DCC53AC0F7CE871D8
 [North "EPBot"]
 [East "EPBot"]
@@ -5335,7 +6892,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "202"]
+[Board "262"]
 % 05CE73DD71013C046E0BBF41BFBE
 [North "EPBot"]
 [East "EPBot"]
@@ -5361,7 +6918,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "203"]
+[Board "263"]
 % 0773C1FE4E83FC12B8FE10C0113F
 [North "EPBot"]
 [East "EPBot"]
@@ -5387,7 +6944,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "204"]
+[Board "264"]
 % 043A96579633453B84C9F7F50AA2
 [North "EPBot"]
 [East "EPBot"]
@@ -5414,7 +6971,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "205"]
+[Board "265"]
 % 054F3C3242ED1D71FC1B027EBCB7
 [North "EPBot"]
 [East "EPBot"]
@@ -5441,7 +6998,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "206"]
+[Board "266"]
 % 07071C60C47850443FD2B9C7EC3A
 [North "EPBot"]
 [East "EPBot"]
@@ -5467,7 +7024,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "207"]
+[Board "267"]
 % 0440DC6F837FC0400D1980E91490
 [North "EPBot"]
 [East "EPBot"]
@@ -5493,7 +7050,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "208"]
+[Board "268"]
 % 0650F4FCD4C3B7611AA33C807C42
 [North "EPBot"]
 [East "EPBot"]
@@ -5519,7 +7076,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "209"]
+[Board "269"]
 % 07D18E512DFE600EF4C25110CE72
 [North "EPBot"]
 [East "EPBot"]
@@ -5545,7 +7102,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "210"]
+[Board "270"]
 % 0443E05CBC84D6438DD879083F30
 [North "EPBot"]
 [East "EPBot"]
@@ -5571,7 +7128,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "211"]
+[Board "271"]
 % 06047F7CD990837EC43C8AE7D040
 [North "EPBot"]
 [East "EPBot"]
@@ -5599,7 +7156,32 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "212"]
+[Board "272"]
+% 05DEDF1DB20EFBEF166E3C8381F1
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:QT75.T43.7.AJT76 6.AKQ7.J432.K984 J43.86.AKQT865.5 AK982.J952.9.Q32"]
+{Shape 4315 1444 3271 5413}
+{HCP 7 13 10 10}
+{Losers 8 6 6 7}
+[Declarer "E"]
+[Contract "2C"]
+[Result "8"]
+[Score "NS -90"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    Pass
+2C    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "273"]
 % 145E15652576A9D96BC602F6C58B
 [North "EPBot"]
 [East "EPBot"]
@@ -5627,7 +7209,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "213"]
+[Board "274"]
 % 16D7CA38DB4618F94A24F9E6B34E
 [North "EPBot"]
 [East "EPBot"]
@@ -5653,7 +7235,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "214"]
+[Board "275"]
 % 15FE114F417EFA21CCA0400FFFCE
 [North "EPBot"]
 [East "EPBot"]
@@ -5679,7 +7261,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "215"]
+[Board "276"]
 % 17D3F4781C48C4D43A037C2BBB70
 [North "EPBot"]
 [East "EPBot"]
@@ -5706,7 +7288,7 @@ X     Pass =1=    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "216"]
+[Board "277"]
 % 16563928FAD97A295E41CB16E584
 [North "EPBot"]
 [East "EPBot"]
@@ -5732,7 +7314,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "217"]
+[Board "278"]
 % 153E4F1F4037B0221D7CDDEAFEF2
 [North "EPBot"]
 [East "EPBot"]
@@ -5759,7 +7341,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "218"]
+[Board "279"]
 % 17528F3232E232C2A1BDFD9D5FCE
 [North "EPBot"]
 [East "EPBot"]
@@ -5785,7 +7367,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "219"]
+[Board "280"]
 % 14D118C89C877CBEC759C3B0CC4C
 [North "EPBot"]
 [East "EPBot"]
@@ -5813,7 +7395,7 @@ Pass  3D    3H =2=    Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "220"]
+[Board "281"]
 % 150F726D11CF4CFAECDDDEE2761E
 [North "EPBot"]
 [East "EPBot"]
@@ -5840,7 +7422,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "221"]
+[Board "282"]
 % 17FC5479EB082DC0245453D8FB8A
 [North "EPBot"]
 [East "EPBot"]
@@ -5867,7 +7449,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "222"]
+[Board "283"]
+% 14700B100F0410842BF017F9D670
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KQJT975.KJT8.J.3 A2.Q953.K74.KJ75 8.7.T853.AQT9862 643.A642.AQ962.4"]
+{Shape 7411 2434 1147 3451}
+{HCP 11 13 6 10}
+{Losers 5 7 6 7}
+[Declarer "N"]
+[Contract "3S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    3S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "284"]
 % 16D05C4C5C0FCCBC00AB019F254F
 [North "EPBot"]
 [East "EPBot"]
@@ -5897,7 +7504,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "223"]
+[Board "285"]
 % 17C31F02F0E3E100CD05DE4853BD
 [North "EPBot"]
 [East "EPBot"]
@@ -5924,7 +7531,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "224"]
+[Board "286"]
 % 14D0183841D75F3FF52C7C88203C
 [North "EPBot"]
 [East "EPBot"]
@@ -5951,7 +7558,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "225"]
+[Board "287"]
 % 16D9194678378D328BDBB8E6C51A
 [North "EPBot"]
 [East "EPBot"]
@@ -5977,7 +7584,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "226"]
+[Board "288"]
 % 157E91FF01D6F34C4C0DDDE3863C
 [North "EPBot"]
 [East "EPBot"]
@@ -6003,7 +7610,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "227"]
+[Board "289"]
 % 247838107C7E233B8550C49200EF
 [North "EPBot"]
 [East "EPBot"]
@@ -6029,7 +7636,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "228"]
+[Board "290"]
 % 260FF454BCA3CC69121CCB04C37C
 [North "EPBot"]
 [East "EPBot"]
@@ -6055,7 +7662,33 @@ Pass  2C    3D    Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "229"]
+[Board "291"]
+% 25DD4F920EDEF7342F03FCE1DC31
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:J8762.KJ6.98.QJT K.AQT3.Q642.K976 Q.74.AKJT753.853 AT9543.9852..A42"]
+{Shape 5323 1444 1273 6403}
+{HCP 8 14 10 8}
+{Losers 9 6 7 7}
+[Declarer "W"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    Pass
+2C    Pass  2S    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "292"]
 % 2768590C3924144427FB1723FC70
 [North "EPBot"]
 [East "EPBot"]
@@ -6081,7 +7714,33 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "230"]
+[Board "293"]
+% 260C24775700C36FEFEC8D3038D0
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AKT43.AT95.T942. QJ8.J2.KQJ.QJ987 5.K876.3.AKT6432 9762.Q43.A8765.5"]
+{Shape 5440 3235 1417 4351}
+{HCP 11 13 10 6}
+{Losers 6 7 5 8}
+[Declarer "N"]
+[Contract "2H"]
+[Result "11"]
+[Score "NS 200"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1S
+1N    2C    Pass  2H
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "294"]
 % 254D4ED1DCFCE08EF2755D0CC613
 [North "EPBot"]
 [East "EPBot"]
@@ -6107,7 +7766,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "231"]
+[Board "295"]
 % 277111CF3CD20B3D81E7E091424E
 [North "EPBot"]
 [East "EPBot"]
@@ -6133,7 +7792,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "232"]
+[Board "296"]
 % 241A3704556C5905D80531F47629
 [North "EPBot"]
 [East "EPBot"]
@@ -6159,7 +7818,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "233"]
+[Board "297"]
 % 255434F3BCA60BC91847FC7E1070
 [North "EPBot"]
 [East "EPBot"]
@@ -6185,7 +7844,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "234"]
+[Board "298"]
 % 270CDF34B8A8FA295B78FCE35407
 [North "EPBot"]
 [East "EPBot"]
@@ -6212,7 +7871,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "235"]
+[Board "299"]
 % 2413C8F044CA7CC3243C174CE8D3
 [North "EPBot"]
 [East "EPBot"]
@@ -6238,7 +7897,33 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "236"]
+[Board "300"]
+% 2604701F7F2096DC20044CF1DBBC
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AQT76.A65.KT74.9 KJ5.Q983.A96.QJ3 92.T7.3.AKT87652 843.KJ42.QJ852.4"]
+{Shape 5341 3433 2218 3451}
+{HCP 13 13 7 7}
+{Losers 6 8 6 8}
+[Declarer "N"]
+[Contract "3N"]
+[Result "8"]
+[Score "NS -100"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1S
+Pass  2C    Pass  3N
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "301"]
 % 2744130C39775499E4143C0B8461
 [North "EPBot"]
 [East "EPBot"]
@@ -6265,7 +7950,33 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "237"]
+[Board "302"]
+% 2408077C5824234009B0F1FCBF5F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AKT97.AK87.Q432. QJ82.J2.AJ7.K932 63.T9.KT.AQJT864 54.Q6543.9865.75"]
+{Shape 5440 4234 2227 2542}
+{HCP 16 12 10 2}
+{Losers 4 8 6 9}
+[Declarer "N"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS 430"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  Pass  X
+1S    2C    Pass  3N
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "303"]
 % 26F44D34532C13F89C21C8430D64
 [North "EPBot"]
 [East "EPBot"]
@@ -6291,7 +8002,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "238"]
+[Board "304"]
 % 254114BC18D7C5F83C77E123144C
 [North "EPBot"]
 [East "EPBot"]
@@ -6318,7 +8029,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "239"]
+[Board "305"]
 % 34CC6B381E9C7CDFE9C06110E73C
 [North "EPBot"]
 [East "EPBot"]
@@ -6345,7 +8056,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "240"]
+[Board "306"]
 % 365C0F80045DDF982F8438CC4D36
 [North "EPBot"]
 [East "EPBot"]
@@ -6372,7 +8083,7 @@ Pass  2S    3D    3H
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "241"]
+[Board "307"]
 % 35F05817F83628883697649340F8
 [North "EPBot"]
 [East "EPBot"]
@@ -6398,7 +8109,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "242"]
+[Board "308"]
 % 37CC44BF750304E87A72901C37D8
 [North "EPBot"]
 [East "EPBot"]
@@ -6424,7 +8135,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "243"]
+[Board "309"]
 % 365CDC0F0450FBAC70B63209F463
 [North "EPBot"]
 [East "EPBot"]
@@ -6450,7 +8161,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "244"]
+[Board "310"]
 % 3554F47D5F80070DFB1408B840E1
 [North "EPBot"]
 [East "EPBot"]
@@ -6476,7 +8187,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "245"]
+[Board "311"]
 % 370CDBFCFC68F43613B802577018
 [North "EPBot"]
 [East "EPBot"]
@@ -6503,7 +8214,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "246"]
+[Board "312"]
 % 34762B0599154969C3A116C63587
 [North "EPBot"]
 [East "EPBot"]
@@ -6531,7 +8242,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "247"]
+[Board "313"]
 % 35324E5F9C1EEA30927D7DC2EDCA
 [North "EPBot"]
 [East "EPBot"]
@@ -6557,7 +8268,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "248"]
+[Board "314"]
 % 37DEC372F1824E9101711CEEC3D8
 [North "EPBot"]
 [East "EPBot"]
@@ -6586,7 +8297,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "249"]
+[Board "315"]
 % 340C5B30BCE1443BBB520CBCF4DF
 [North "EPBot"]
 [East "EPBot"]
@@ -6613,7 +8324,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "250"]
+[Board "316"]
 % 367AFB169D298BC8C9B7374A0915
 [North "EPBot"]
 [East "EPBot"]
@@ -6640,7 +8351,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "251"]
+[Board "317"]
 % 370C169C70D7C753E8F43042CACC
 [North "EPBot"]
 [East "EPBot"]
@@ -6667,7 +8378,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "252"]
+[Board "318"]
 % 343C5B203A7AD37CAF903C30C7BC
 [North "EPBot"]
 [East "EPBot"]
@@ -6694,7 +8405,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "253"]
+[Board "319"]
 % 36DB0BC6BBCAA2E1FAC8156555DA
 [North "EPBot"]
 [East "EPBot"]
@@ -6720,7 +8431,86 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "254"]
+[Board "320"]
+% 35033EDC7F2B8247318D413C7DED
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AKT74.A9865.8.K9 J853.Q.A975.AJT8 96.T2.KQJ6432.Q4 Q2.KJ743.T.76532"]
+{Shape 5512 4144 2272 2515}
+{HCP 14 12 8 6}
+{Losers 5 8 7 8}
+[Declarer "N"]
+[Contract "3N"]
+[Result "8"]
+[Score "NS -50"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    1S
+Pass =1=    2D    Pass  3N
+Pass  Pass  Pass
+[Note "1:max 2 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "321"]
+% 444C4B3C40DD12C4B7682383F0DC
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:Q95.AKJ84.AQT2.9 AKJ6.T92.K6.K754 74.65.87.AQJ8632 T832.Q73.J9543.T"]
+{Shape 3541 4324 2227 4351}
+{HCP 16 14 7 3}
+{Losers 5 7 7 9}
+[Declarer "N"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 400"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1H
+1S    2C    Pass  3N
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "322"]
+% 461C0F4414FB10B8EF0D6076E07E
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AKJ96.KQ6.953.42 Q542.AJ9.QJ4.KT7 8.753.T8.AQJ9853 T73.T842.AK762.6"]
+{Shape 5332 4333 1327 3451}
+{HCP 13 13 7 7}
+{Losers 7 8 7 8}
+[Declarer "S"]
+[Contract "2C"]
+[Result "9"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1S
+Pass  2C    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "323"]
 % 4514549B38CB68039AEB7C482836
 [North "EPBot"]
 [East "EPBot"]
@@ -6748,7 +8538,32 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "255"]
+[Board "324"]
+% 474E5121F0B143913E221E055785
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:Q7654.A942..A765 AK93.K853.A75.93 T82.Q6.KQJT986.J J.JT7.432.KQT842"]
+{Shape 5404 4432 3271 1336}
+{HCP 10 14 9 7}
+{Losers 6 7 7 8}
+[Declarer "W"]
+[Contract "1N"]
+[Result "7"]
+[Score "NS -90"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "325"]
 % 46594EC8EB7FF62AFB96CAF4864A
 [North "EPBot"]
 [East "EPBot"]
@@ -6776,7 +8591,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "256"]
+[Board "326"]
 % 453F4FF325DC010EACC1FFEFC142
 [North "EPBot"]
 [East "EPBot"]
@@ -6803,7 +8618,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "257"]
+[Board "327"]
 % 47D3D2FE9A4F42DE3DE1F14289A0
 [North "EPBot"]
 [East "EPBot"]
@@ -6829,7 +8644,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "258"]
+[Board "328"]
 % 441A66150454F98285763FD7BAF9
 [North "EPBot"]
 [East "EPBot"]
@@ -6856,7 +8671,34 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "259"]
+[Board "329"]
+% 4500744F3B344B4409E0D3FCA83F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AJT72.AQ987.KT8. KQ98.5.A65.QJ952 3.63.Q42.AKT8643 654.KJT42.J973.7"]
+{Shape 5530 4135 1237 3541}
+{HCP 14 12 9 5}
+{Losers 5 6 6 9}
+[Declarer "N"]
+[Contract "3N"]
+[Result "8"]
+[Score "NS -50"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    1S
+Pass =1=    2C    Pass  3N
+Pass  Pass  Pass
+[Note "1:max 2 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "330"]
 % 4779501240433D2D11163132ACF7
 [North "EPBot"]
 [East "EPBot"]
@@ -6882,7 +8724,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "260"]
+[Board "331"]
 % 4438D877006F1F22F0D7BC62103C
 [North "EPBot"]
 [East "EPBot"]
@@ -6908,7 +8750,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "261"]
+[Board "332"]
 % 46737C1020E7F3D2FC481DD02A64
 [North "EPBot"]
 [East "EPBot"]
@@ -6934,7 +8776,59 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "262"]
+[Board "333"]
+% 478F0302D2E982DDEED1F32C3DD3
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KQ43.AKQ9.T.QJ97 .J862.A8743.AK52 A9.T74.KQJ9652.4 JT87652.53..T863"]
+{Shape 4414 0454 2371 7204}
+{HCP 17 12 10 1}
+{Losers 4 6 6 8}
+[Declarer "W"]
+[Contract "2S"]
+[Result "7"]
+[Score "NS 100"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    X
+2C    Pass  2S    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "334"]
+% 44054B078A15FF34D9E4FB450470
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AQT83.AKQJ43.9.J K42.T7.KJ75.KQ95 J.6.AQT8643.8632 9765.9852.2.AT74"]
+{Shape 5611 3244 1174 4414}
+{HCP 17 12 7 4}
+{Losers 3 7 6 9}
+[Declarer "N"]
+[Contract "2H"]
+[Result "11"]
+[Score "NS 200"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    2H
+Pass =1=    Pass  Pass
+[Note "1:max 2 !H"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "335"]
 % 465C61D03005BC00BF6FD40721D8
 [North "EPBot"]
 [East "EPBot"]
@@ -6960,7 +8854,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "263"]
+[Board "336"]
 % 4558440837539B3C26F1C5A88870
 [North "EPBot"]
 [East "EPBot"]
@@ -6986,7 +8880,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "264"]
+[Board "337"]
 % 54DCD3ECAB3FDC4930327B4C24C4
 [North "EPBot"]
 [East "EPBot"]
@@ -7012,7 +8906,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "265"]
+[Board "338"]
 % 563054EF50A3F43F8C57320CE8F2
 [North "EPBot"]
 [East "EPBot"]
@@ -7038,7 +8932,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "266"]
+[Board "339"]
 % 553048D7179C78749520BFF93446
 [North "EPBot"]
 [East "EPBot"]
@@ -7065,7 +8959,32 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "267"]
+[Board "340"]
+% 575C0A34480D1397DCB0F47436AB
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KQT93.KJT.KJ2.K3 AJ4.A987.AT7.982 862.2.96.AQJ7654 75.Q6543.Q8543.T"]
+{Shape 5332 3433 3127 2551}
+{HCP 16 13 7 4}
+{Losers 6 9 7 7}
+[Declarer "W"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    1S
+2H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "341"]
 % 5672DC58180F3CE3C8469EF7C438
 [North "EPBot"]
 [East "EPBot"]
@@ -7091,7 +9010,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "268"]
+[Board "342"]
 % 5578D338B7A49370C8481A05EE14
 [North "EPBot"]
 [East "EPBot"]
@@ -7117,7 +9036,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "269"]
+[Board "343"]
+% 57DC087B779AE698C3355C70C830
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:K62.K73.KQT83.T9 QJ54.AT85.A5.QJ7 T8.9.742.AK85432 A973.QJ642.J96.6"]
+{Shape 3352 4423 2137 4531}
+{HCP 11 14 7 8}
+{Losers 7 7 7 8}
+[Declarer "W"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    Pass
+2H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "344"]
 % 54FBF66786C67A33E714861A89D1
 [North "EPBot"]
 [East "EPBot"]
@@ -7143,7 +9087,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "270"]
+[Board "345"]
 % 555704382C89D03BE70C3B335CF0
 [North "EPBot"]
 [East "EPBot"]
@@ -7170,7 +9114,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "271"]
+[Board "346"]
 % 575C36E833FFB91FE880D834544A
 [North "EPBot"]
 [East "EPBot"]
@@ -7196,7 +9140,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "272"]
+[Board "347"]
+% 541C10DBEFB830477CECA8C2CED3
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AK9.843.AJ763.43 87.AKQ2.QT5.QJ82 T5.J65.8.AKT9765 QJ6432.T97.K942."]
+{Shape 3352 2434 2317 6340}
+{HCP 12 14 8 6}
+{Losers 8 6 7 7}
+[Declarer "N"]
+[Contract "2D"]
+[Result "6"]
+[Score "NS -100"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1S    2D
+Pass =1=    Pass  Pass
+[Note "1:max 2 !S"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "348"]
 % 5671441CFC288AC71872147BFCC3
 [North "EPBot"]
 [East "EPBot"]
@@ -7222,7 +9192,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "273"]
+[Board "349"]
 % 57D8433CFB00579B8BF134F83058
 [North "EPBot"]
 [East "EPBot"]
@@ -7253,7 +9223,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "274"]
+[Board "350"]
 % 54407A4CF4D7078FF490C3CCDC52
 [North "EPBot"]
 [East "EPBot"]
@@ -7279,7 +9249,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "275"]
+[Board "351"]
 % 560659EB6AC5FEC4787B3A9926D2
 [North "EPBot"]
 [East "EPBot"]
@@ -7305,7 +9275,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "276"]
+[Board "352"]
 % 55747F3059848602174CF8FCB8D3
 [North "EPBot"]
 [East "EPBot"]
@@ -7333,7 +9303,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "277"]
+[Board "353"]
 % 647FD88CC010ABBF3F1123B03C18
 [North "EPBot"]
 [East "EPBot"]
@@ -7360,7 +9330,33 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "278"]
+[Board "354"]
+% 6676CB19B80BFA84CEBA2737C57B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:QT54.KT873..A976 A2.Q.A8543.KT542 J86.5.KQJT962.J8 K973.AJ9642.7.Q3"]
+{Shape 4504 2155 3172 4612}
+{HCP 9 13 8 10}
+{Losers 6 6 7 7}
+[Declarer "W"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    Pass
+2C    Pass  2H    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "355"]
 % 65DD5D7E1EA3DD05B1EEC1E20F4E
 [North "EPBot"]
 [East "EPBot"]
@@ -7386,7 +9382,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "279"]
+[Board "356"]
 % 6713C376E11E1E43BEB6DC32C1B0
 [North "EPBot"]
 [East "EPBot"]
@@ -7412,7 +9408,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "280"]
+[Board "357"]
 % 665A8F0AFBCC351A54B9192E7876
 [North "EPBot"]
 [East "EPBot"]
@@ -7439,7 +9435,33 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "281"]
+[Board "358"]
+% 657FC17D1C0F0E10C09A3FCDC3B8
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:JT985.KT9743..96 AQ.J86.K873.AT53 62..AQJT954.J872 K743.AQ52.62.KQ4"]
+{Shape 5602 2344 2074 4423}
+{HCP 4 14 8 14}
+{Losers 7 8 6 6}
+[Declarer "W"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS -630"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    Pass
+2C    Pass  3N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "359"]
 % 67FC174CE81404AF40C3D4D9413A
 [North "EPBot"]
 [East "EPBot"]
@@ -7465,7 +9487,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "282"]
+[Board "360"]
 % 64D8FF406068F3C9633C0E859C1C
 [North "EPBot"]
 [East "EPBot"]
@@ -7491,7 +9513,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "283"]
+[Board "361"]
 % 6570FBE4E31F3498487A140AE324
 [North "EPBot"]
 [East "EPBot"]
@@ -7517,7 +9539,57 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "284"]
+[Board "362"]
+% 6772D1DE1021FD829D0005734C07
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:JT652.86532..AQ8 A43.KQJ7.Q973.42 87.T.AKJT864.J63 KQ9.A94.52.KT975"]
+{Shape 5503 3442 2173 3325}
+{HCP 7 12 9 12}
+{Losers 7 7 7 7}
+[Declarer "W"]
+[Contract "2N"]
+[Result "9"]
+[Score "NS -150"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  2N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "363"]
+% 641C7348ACAD9DFBF04F8CCDDC50
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:A.Q654.AJT96543. KQ62.A932.Q8.K86 JT95.JT..AQJ7532 8743.K87.K72.T94"]
+{Shape 1480 4423 4207 4333}
+{HCP 11 14 9 6}
+{Losers 4 7 6 10}
+[Declarer "N"]
+[Contract "5DX"]
+[Result "9"]
+[Score "NS -300"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1S    5D
+X     Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "364"]
 % 66047F708B489F77CCE20CC81FF0
 [North "EPBot"]
 [East "EPBot"]
@@ -7543,7 +9615,34 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "285"]
+[Board "365"]
+% 677E8233502D52FD389FF2817205
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:QT72.K42.7.AK953 AJ93.J96.AT86.Q6 K64.T.KQJ9543.J7 85.AQ8753.2.T842"]
+{Shape 4315 4342 3172 2614}
+{HCP 12 12 10 6}
+{Losers 6 9 6 7}
+[Declarer "W"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    2C
+X =1=    2D    2H    Pass
+Pass  Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "366"]
 % 64407DC81BB4EF43D0EB42300CAC
 [North "EPBot"]
 [East "EPBot"]
@@ -7569,7 +9668,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "286"]
+[Board "367"]
 % 661A0799F846053C783A5E59EAE5
 [North "EPBot"]
 [East "EPBot"]
@@ -7596,7 +9695,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "287"]
+[Board "368"]
 % 65304440973900D86814391FEF89
 [North "EPBot"]
 [East "EPBot"]
@@ -7623,7 +9722,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "288"]
+[Board "369"]
 % 74152AD76A26C80DE905D733B577
 [North "EPBot"]
 [East "EPBot"]
@@ -7649,7 +9748,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "289"]
+[Board "370"]
 % 767CF7901044AEEE2217D070FBCC
 [North "EPBot"]
 [East "EPBot"]
@@ -7675,7 +9774,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "290"]
+[Board "371"]
 % 75DF493F0D40CE8D39E36CE2325E
 [North "EPBot"]
 [East "EPBot"]
@@ -7701,7 +9800,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "291"]
+[Board "372"]
 % 77530A40F07E703DC3CFE006C3BD
 [North "EPBot"]
 [East "EPBot"]
@@ -7727,7 +9826,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "292"]
+[Board "373"]
 % 76C3F444789CD2A11FCE6BCC40C4
 [North "EPBot"]
 [East "EPBot"]
@@ -7753,7 +9852,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "293"]
+[Board "374"]
 % 75E1DF4D5DFE338176090C40EC1E
 [North "EPBot"]
 [East "EPBot"]
@@ -7779,7 +9878,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "294"]
+[Board "375"]
 % 774443D8D43F2BC44BEC17F8B821
 [North "EPBot"]
 [East "EPBot"]
@@ -7805,7 +9904,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "295"]
+[Board "376"]
 % 744817FCFC07EE781CC4F7EEDBD0
 [North "EPBot"]
 [East "EPBot"]
@@ -7831,7 +9930,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "296"]
+[Board "377"]
 % 757D075FCDEE3FFE7181D0928C0A
 [North "EPBot"]
 [East "EPBot"]
@@ -7857,7 +9956,33 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "297"]
+[Board "378"]
+% 774C0B2848C694E8B096FF57D8F7
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KQ.AKJT.KQJ83.T6 AJ4.9643.A5.K542 976.Q8.7.AQJ9873 T8532.752.T9642."]
+{Shape 2452 3424 3217 5350}
+{HCP 19 12 9 0}
+{Losers 5 8 7 9}
+[Declarer "N"]
+[Contract "2D"]
+[Result "9"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  Pass  X
+1H    2C    Pass  2D
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "379"]
 % 741449F70AD5DEF477C50964980D
 [North "EPBot"]
 [East "EPBot"]
@@ -7883,7 +10008,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "298"]
+[Board "380"]
 % 763017502EBD005CF0B47FBE8463
 [North "EPBot"]
 [East "EPBot"]
@@ -7912,7 +10037,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "299"]
+[Board "381"]
 % 77507634CF1BFA28240C4495DCE3
 [North "EPBot"]
 [East "EPBot"]
@@ -7938,7 +10063,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "300"]
+[Board "382"]
 % 74DC3BF41F3CB45C3C64094CF379
 [North "EPBot"]
 [East "EPBot"]
@@ -7965,7 +10090,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "301"]
+[Board "383"]
 % 76E3444C1CAF0D9C14B3FC36438C
 [North "EPBot"]
 [East "EPBot"]
@@ -7992,7 +10117,34 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "302"]
+[Board "384"]
+% 757324C830147308BA9B4FECF618
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:KJT82.Q85.KT3.73 A95.T62.AJ9.A965 76.K4.54.KQJT842 Q43.AJ973.Q8762."]
+{Shape 5332 3334 2227 3550}
+{HCP 9 13 9 9}
+{Losers 8 9 6 6}
+[Declarer "W"]
+[Contract "2H"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    1S
+X =1=    2C    2H    Pass
+Pass  Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "385"]
 % 84365A04595546870C3111E7F5A9
 [North "EPBot"]
 [East "EPBot"]
@@ -8018,7 +10170,33 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "303"]
+[Board "386"]
+% 8615D9FAEB0B6B7985B50E40340B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AT532.T7542.4.Q5 984.AK.A763.JT92 76.J9.KQJT982.43 KQJ.Q863.5.AK876"]
+{Shape 5512 3244 2272 3415}
+{HCP 6 12 7 15}
+{Losers 8 8 7 5}
+[Declarer "W"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS -430"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  2C    Pass
+3C    Pass  3N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "387"]
 % 851FCBCD7F662DE1C00D926D7E32
 [North "EPBot"]
 [East "EPBot"]
@@ -8044,7 +10222,32 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "304"]
+[Board "388"]
+% 8747D20392017EF260DDB2FC7EBA
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:QT.AQT.2.KJ98532 A973.KJ6.9643.AQ J52.7.KQJT875.74 K864.985432.A.T6"]
+{Shape 2317 4342 3172 4612}
+{HCP 12 14 7 7}
+{Losers 6 8 7 7}
+[Declarer "N"]
+[Contract "3C"]
+[Result "8"]
+[Score "NS -100"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    3C
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "389"]
 % 861C76FC57234028243C238FFCDE
 [North "EPBot"]
 [East "EPBot"]
@@ -8075,7 +10278,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "305"]
+[Board "390"]
 % 857F027EBD034B8E9101CE58BCFD
 [North "EPBot"]
 [East "EPBot"]
@@ -8101,7 +10304,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "306"]
+[Board "391"]
 % 87485C399877C41C3168E037E91B
 [North "EPBot"]
 [East "EPBot"]
@@ -8128,7 +10331,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "307"]
+[Board "392"]
 % 84181CFD1A4CB4C370BE80EC6353
 [North "EPBot"]
 [East "EPBot"]
@@ -8154,7 +10357,33 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "308"]
+[Board "393"]
+% 854DC3BE93187DEFF18E8E56FEC2
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:T.AK652.4.Q65432 A94.JT4.KJ72.KJ8 QJ65.8.AQ98653.T K8732.Q973.T.A97"]
+{Shape 1516 3343 4171 5413}
+{HCP 9 13 9 9}
+{Losers 5 9 5 7}
+[Declarer "N"]
+[Contract "2N"]
+[Result "6"]
+[Score "NS -100"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    2N =1=
+Pass  Pass  Pass
+[Note "1:Unusual 2NT"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "394"]
 % 870F44D03498B2E5FCD8045B8F07
 [North "EPBot"]
 [East "EPBot"]
@@ -8180,7 +10409,34 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "309"]
+[Board "395"]
+% 8418403FF7C76C2B90FC8DDCC05D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:AQ8.KT53.Q96542. K92.A742.A8.QJT8 75.98.JT.AK97643 JT643.QJ6.K73.52"]
+{Shape 3460 3424 2227 5332}
+{HCP 11 14 8 7}
+{Losers 5 7 7 9}
+[Declarer "W"]
+[Contract "2S"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1S    2D
+X =1=    Pass  2S    Pass
+Pass  Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "396"]
 % 867995FA51B5D3C908152A0A6963
 [North "EPBot"]
 [East "EPBot"]
@@ -8206,7 +10462,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "310"]
+[Board "397"]
 % 874381FFF6FDCDC35226621C0290
 [North "EPBot"]
 [East "EPBot"]
@@ -8233,7 +10489,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "311"]
+[Board "398"]
 % 8417C61A56F5867B7EF5CA28F0A7
 [North "EPBot"]
 [East "EPBot"]
@@ -8259,7 +10515,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "312"]
+[Board "399"]
 % 864C1403ADE4F3F43F7BA01C001F
 [North "EPBot"]
 [East "EPBot"]
@@ -8286,7 +10542,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "313"]
+[Board "400"]
 % 85215E4D4DDF3AAC11BEC6FA3C53
 [North "EPBot"]
 [East "EPBot"]
@@ -8312,7 +10568,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "314"]
+[Board "401"]
 % 94156A4536A959E5398AD5C6C69F
 [North "EPBot"]
 [East "EPBot"]
@@ -8338,7 +10594,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "315"]
+[Board "402"]
 % 967A4BDA34D879861A698FE2DEC5
 [North "EPBot"]
 [East "EPBot"]
@@ -8364,7 +10620,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "316"]
+[Board "403"]
 % 95C018715FF43C888823644AFB07
 [North "EPBot"]
 [East "EPBot"]
@@ -8390,7 +10646,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "317"]
+[Board "404"]
+% 97017F7318033D0DE1E0402DD237
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AJT9842.AT85.J.3 KQ5.J3.K984.KQT2 .764.AQT7653.J65 763.KQ92.2.A9874"]
+{Shape 7411 3244 0373 3415}
+{HCP 10 14 7 9}
+{Losers 6 6 7 7}
+[Declarer "N"]
+[Contract "3S"]
+[Result "9"]
+[Score "NS 140"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    3S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "405"]
 % 96466A192AC4FB19D48BF9D54EC0
 [North "EPBot"]
 [East "EPBot"]
@@ -8417,7 +10698,32 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "318"]
+[Board "406"]
+% 954ECFD2C0404E2DBC1943FBCCCD
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:86.AKJT9532..AQ9 AT95.Q6.QJT5.K54 7.8.AK98732.JT73 KQJ432.74.64.862"]
+{Shape 2803 4243 1174 6223}
+{HCP 14 12 8 6}
+{Losers 4 8 6 8}
+[Declarer "N"]
+[Contract "4H"]
+[Result "12"]
+[Score "NS 480"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    4H
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "407"]
 % 97447417D8BC870E0118E8533474
 [North "EPBot"]
 [East "EPBot"]
@@ -8443,7 +10749,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "319"]
+[Board "408"]
 % 9411C754D6F236647B0546D98800
 [North "EPBot"]
 [East "EPBot"]
@@ -8469,7 +10775,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "320"]
+[Board "409"]
+% 95F46B584B3BCFB4803008B3442A
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:T652.J9753.A83.2 KQJ3.Q.764.KJT94 874.K2.9.AQ87653 A9.AT864.KQJT52."]
+{Shape 4531 4135 3217 2560}
+{HCP 5 12 9 14}
+{Losers 9 7 6 4}
+[Declarer "W"]
+[Contract "3N"]
+[Result "10"]
+[Score "NS -630"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  2D    Pass
+2S    Pass  3N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "410"]
 % 97CF7103C1E1FCD142528D3C920B
 [North "EPBot"]
 [East "EPBot"]
@@ -8495,7 +10827,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "321"]
+[Board "411"]
 % 945C1C0D90FFF08CDCBCF7C86F7B
 [North "EPBot"]
 [East "EPBot"]
@@ -8522,7 +10854,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "322"]
+[Board "412"]
 % 967937FB4ACA2926AA69570EF4D1
 [North "EPBot"]
 [East "EPBot"]
@@ -8549,7 +10881,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "323"]
+[Board "413"]
 % 97711ED284CE95330D510130603F
 [North "EPBot"]
 [East "EPBot"]
@@ -8575,7 +10907,7 @@ Pass  Pass  3C    Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "324"]
+[Board "414"]
 % 947C797C40E8101C302D93AEC38B
 [North "EPBot"]
 [East "EPBot"]
@@ -8603,7 +10935,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "325"]
+[Board "415"]
 % 9639578AC84A0A9975B6F81972DF
 [North "EPBot"]
 [East "EPBot"]
@@ -8629,7 +10961,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "326"]
+[Board "416"]
+% 951FD2BE3CE5B80DCDD2411FEF03
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AJ842.8752.T.KQ6 5.AK64.K652.A432 Q9.T3.AQJ8743.J9 KT763.QJ9.9.T875"]
+{Shape 5413 1444 2272 5314}
+{HCP 10 14 10 6}
+{Losers 7 6 7 8}
+[Declarer "E"]
+[Contract "2C"]
+[Result "9"]
+[Score "NS -110"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    Pass
+2C    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "417"]
 % A4E5FB560BBA76D5FE4685568589
 [North "EPBot"]
 [East "EPBot"]
@@ -8656,7 +11013,7 @@ X     Pass =1=    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "327"]
+[Board "418"]
 % A6DCF0546F0F2DD240EC33338864
 [North "EPBot"]
 [East "EPBot"]
@@ -8682,7 +11039,7 @@ X     Pass =1=    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "328"]
+[Board "419"]
 % A511DE8F0D7070BD5ACEC23CCF81
 [North "EPBot"]
 [East "EPBot"]
@@ -8708,7 +11065,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "329"]
+[Board "420"]
 % A7770CEC7470387300192B19FC33
 [North "EPBot"]
 [East "EPBot"]
@@ -8734,7 +11091,83 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "330"]
+[Board "421"]
+% A65B81C9C52A1AF6A6BD4BD25879
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T9.KQJ5.K4.T9874 A532.A943.J87.A5 K76.T7.AQT9532.3 QJ84.862.6.KQJ62"]
+{Shape 2425 4432 3271 4315}
+{HCP 9 13 9 9}
+{Losers 7 8 6 7}
+[Declarer "W"]
+[Contract "2S"]
+[Result "10"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1S    Pass
+2S    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "422"]
+% A57F31DD32C3F16E2C3CAD46110F
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:KJ7632.T42.4.J84 A84.Q3.KJT93.AT2 5.875.AQ87652.76 QT9.AKJ96..KQ953"]
+{Shape 6313 3253 1372 3505}
+{HCP 5 14 6 15}
+{Losers 9 8 7 4}
+[Declarer "W"]
+[Contract "3N"]
+[Result "11"]
+[Score "NS -660"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  2H    Pass
+3D    Pass  3N    Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "423"]
+% A7CC4E7858E8F437D71F122580B8
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:8654.AK3.QJT2.K5 KQJ.J765.AK6.876 32.T4.53.AQJT932 AT97.Q982.9874.4"]
+{Shape 4342 3433 2227 4441}
+{HCP 13 14 7 6}
+{Losers 7 8 7 8}
+[Declarer "W"]
+[Contract "2H"]
+[Result "8"]
+[Score "NS -110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    Pass
+2H    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "424"]
 % A4D0DA980C071CF340FCBD406823
 [North "EPBot"]
 [East "EPBot"]
@@ -8760,7 +11193,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "331"]
+[Board "425"]
 % A577D818D8417175C7C4142F24AC
 [North "EPBot"]
 [East "EPBot"]
@@ -8786,7 +11219,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "332"]
+[Board "426"]
 % A70F48C890C8F471BC58C543D3DA
 [North "EPBot"]
 [East "EPBot"]
@@ -8814,7 +11247,34 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "333"]
+[Board "427"]
+% A459C4C00C30446DDB200B3CA373
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:JT654.KQJ95.J84. A982.A7.A75.7532 3.863.K9.KQJT964 KQ7.T42.QT632.A8"]
+{Shape 5530 4234 1327 3352}
+{HCP 8 12 9 11}
+{Losers 7 8 6 7}
+[Declarer "S"]
+[Contract "2H"]
+[Result "7"]
+[Score "NS -50"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    2C =1=
+Pass  2H    Pass  Pass
+Pass
+[Note "1:Michaels Cuebid"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "428"]
 % A67C401F5BC421F41048C5AFF180
 [North "EPBot"]
 [East "EPBot"]
@@ -8841,7 +11301,32 @@ Pass  3H    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "334"]
+[Board "429"]
+% A7D843783CEC14CDFB649BEBC928
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:J92.K83.AQ75432. KQ6.A95.JT8.K754 5.T642.K.AQJT962 AT8743.QJ7.96.83"]
+{Shape 3370 3334 1417 6322}
+{HCP 10 13 10 7}
+{Losers 6 8 6 8}
+[Declarer "N"]
+[Contract "3D"]
+[Result "11"]
+[Score "NS 150"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1S    3D
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "430"]
 % A4700B884FF45290C3E458320CC0
 [North "EPBot"]
 [East "EPBot"]
@@ -8869,7 +11354,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "335"]
+[Board "431"]
 % A64C9F7CC0C85B3CA1F7204F061C
 [North "EPBot"]
 [East "EPBot"]
@@ -8895,7 +11380,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "336"]
+[Board "432"]
 % A5563FEE0FD0FFCD40FAE2FE9F22
 [North "EPBot"]
 [East "EPBot"]
@@ -8922,7 +11407,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "337"]
+[Board "433"]
 % B45EC6D746E549FB8BC6E635EBAD
 [North "EPBot"]
 [East "EPBot"]
@@ -8949,7 +11434,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "338"]
+[Board "434"]
 % B640D72CB02D04D36843D3DC2CCD
 [North "EPBot"]
 [East "EPBot"]
@@ -8975,7 +11460,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "339"]
+[Board "435"]
 % B5D473A8CB46E8C308C75764E83C
 [North "EPBot"]
 [East "EPBot"]
@@ -9001,7 +11486,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "340"]
+[Board "436"]
 % B73C7B04133AC05E70CCD47AB3B4
 [North "EPBot"]
 [East "EPBot"]
@@ -9027,7 +11512,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "341"]
+[Board "437"]
 % B61A5509DEB94A552B2B3E7185A9
 [North "EPBot"]
 [East "EPBot"]
@@ -9055,7 +11540,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "342"]
+[Board "438"]
 % B54718F870E024193A57B4B087B7
 [North "EPBot"]
 [East "EPBot"]
@@ -9082,7 +11567,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "343"]
+[Board "439"]
 % B7FDE352D28100154D7F443800D2
 [North "EPBot"]
 [East "EPBot"]
@@ -9108,7 +11593,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "344"]
+[Board "440"]
 % B45C1238EE94CF63DC387CB82FF1
 [North "EPBot"]
 [East "EPBot"]
@@ -9134,7 +11619,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "345"]
+[Board "441"]
 % B55D194DFEEDAF00F2C6CF1C8143
 [North "EPBot"]
 [East "EPBot"]
@@ -9160,7 +11645,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "346"]
+[Board "442"]
 % B70CDC38586802B897FB10E777F9
 [North "EPBot"]
 [East "EPBot"]
@@ -9188,7 +11673,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "347"]
+[Board "443"]
 % B4733C983CE47108DDFC8F485782
 [North "EPBot"]
 [East "EPBot"]
@@ -9214,7 +11699,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "348"]
+[Board "444"]
 % B6FBF55815B6854B2B3A0A10B5C9
 [North "EPBot"]
 [East "EPBot"]
@@ -9245,7 +11730,33 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "349"]
+[Board "445"]
+% B7DC0734742CB0305B311F014815
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KQT86542.K43.73. J73.A752.AT5.K75 9.T.9864.AQJT983 A.QJ986.KQJ2.642"]
+{Shape 8320 3433 1147 1543}
+{HCP 8 12 7 13}
+{Losers 5 9 6 6}
+[Declarer "N"]
+[Contract "4SX"]
+[Result "9"]
+[Score "NS -200"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    4S
+Pass  Pass  X     Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "446"]
 % B45516C7084BF4E13AA6FA66FB36
 [North "EPBot"]
 [East "EPBot"]
@@ -9273,7 +11784,7 @@ Pass  3C    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "350"]
+[Board "447"]
 % B647FA69BA0AEE145B0C3679F837
 [North "EPBot"]
 [East "EPBot"]
@@ -9300,7 +11811,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "351"]
+[Board "448"]
 % B5F7547C94B8B828C14213C8140B
 [North "EPBot"]
 [East "EPBot"]
@@ -9327,7 +11838,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "352"]
+[Board "449"]
 % C4D00B1C34EC70CFD983EC0398BF
 [North "EPBot"]
 [East "EPBot"]
@@ -9353,7 +11864,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "353"]
+[Board "450"]
 % C67AD7BABA88387D07C70FD59A3A
 [North "EPBot"]
 [East "EPBot"]
@@ -9379,7 +11890,59 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "354"]
+[Board "451"]
+% C54E22DFDEE33ABDB67D0F83316D
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:K953.A54.7.AKJ97 A62.QJ.KT43.QT54 874.KT2.AQJ8652. QJT.98763.9.8632"]
+{Shape 4315 3244 3370 3514}
+{HCP 15 12 10 3}
+{Losers 6 8 6 9}
+[Declarer "S"]
+[Contract "2D"]
+[Result "10"]
+[Score "NS 130"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  Pass  X
+Pass  2D    Pass  Pass
+Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "452"]
+% C74B243C1C54CDC0A744D08A7736
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KQJ2.A9864.A4.42 AT63.JT5.QJ9.A73 74.K7.85.KQJT865 985.Q32.KT7632.9"]
+{Shape 4522 4333 2227 3361}
+{HCP 14 12 9 5}
+{Losers 6 9 6 8}
+[Declarer "N"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 600"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1H
+1S    2C    Pass  3N
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "453"]
 % C6CB0B59C63E6A3BB7396645E989
 [North "EPBot"]
 [East "EPBot"]
@@ -9406,7 +11969,7 @@ X     Pass =1=    Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "355"]
+[Board "454"]
 % C5F8105127E0C48F45F85A0FD4B4
 [North "EPBot"]
 [East "EPBot"]
@@ -9432,7 +11995,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "356"]
+[Board "455"]
 % C77ED2C173180CC1E9B1C3205E59
 [North "EPBot"]
 [East "EPBot"]
@@ -9458,7 +12021,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "357"]
+[Board "456"]
 % C45AF624053BC659B3DD34BAD627
 [North "EPBot"]
 [East "EPBot"]
@@ -9485,7 +12048,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "358"]
+[Board "457"]
 % C54FFD71379E10BEC51340BD8EFE
 [North "EPBot"]
 [East "EPBot"]
@@ -9518,7 +12081,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "359"]
+[Board "458"]
 % C7D8CFE858D82CE7090C407171FB
 [North "EPBot"]
 [East "EPBot"]
@@ -9544,7 +12107,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "360"]
+[Board "459"]
 % C43368D0040C7598D5405F3F2CFD
 [North "EPBot"]
 [East "EPBot"]
@@ -9571,7 +12134,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "361"]
+[Board "460"]
 % C61B362A45EF39C6AB59F7BE0A78
 [North "EPBot"]
 [East "EPBot"]
@@ -9598,7 +12161,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "362"]
+[Board "461"]
 % C73CD3784534BBADC318C838786F
 [North "EPBot"]
 [East "EPBot"]
@@ -9624,7 +12187,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "363"]
+[Board "462"]
 % C475B7095A45CBE8CF3436292545
 [North "EPBot"]
 [East "EPBot"]
@@ -9651,7 +12214,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "364"]
+[Board "463"]
 % C613C044A460C8E35DC1C910DC7F
 [North "EPBot"]
 [East "EPBot"]
@@ -9680,7 +12243,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "365"]
+[Board "464"]
 % C558F0F433B43F1934AE471C0851
 [North "EPBot"]
 [East "EPBot"]
@@ -9711,7 +12274,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "366"]
+[Board "465"]
 % D4065937FAF580F4467ABA66CF97
 [North "EPBot"]
 [East "EPBot"]
@@ -9738,7 +12301,7 @@ Pass =1=    2D    2H    3C
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "367"]
+[Board "466"]
 % D67C344F40B03240F89C9F20D7C5
 [North "EPBot"]
 [East "EPBot"]
@@ -9764,7 +12327,86 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "368"]
+[Board "467"]
+% D53854305371CFE41CB6C4790F28
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:AQ732.953.K865.6 KJT4.KJ7.QJT.J93 6.82.973.AKQ8752 985.AQT64.A42.T4"]
+{Shape 5341 4333 1237 3532}
+{HCP 9 12 9 10}
+{Losers 7 9 6 8}
+[Declarer "W"]
+[Contract "2H"]
+[Result "9"]
+[Score "NS -140"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    1S
+X =1=    2C    2H    Pass
+Pass  Pass
+[Note "1:Support double redouble"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "468"]
+% D7DA4C18DCC1232B7C3477340590
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:Q98643.KT3.AQ8.A K75.AQJ2.KJ7.985 2.98.T92.KQJ7642 AJT.7654.6543.T3"]
+{Shape 6331 3433 1237 3442}
+{HCP 15 14 6 5}
+{Losers 5 8 7 10}
+[Declarer "N"]
+[Contract "2S"]
+[Result "8"]
+[Score "NS 110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1H    1S
+2H    Pass  Pass  2S
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "469"]
+% D659C93B16B7217541A8C9FB4806
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:QJ92.K7532.97.J2 A873.AJ.JT82.QT4 T6.96.AKQ6543.63 K54.QT84..AK9875"]
+{Shape 4522 4243 2272 3406}
+{HCP 7 12 9 12}
+{Losers 8 8 6 5}
+[Declarer "W"]
+[Contract "3C"]
+[Result "12"]
+[Score "NS -170"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  3C =1=    Pass
+Pass  Pass
+[Note "1:Inviting Jump Shifts"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "470"]
 % D51EC3DE7ED43F79649E71812E3D
 [North "EPBot"]
 [East "EPBot"]
@@ -9790,7 +12432,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "369"]
+[Board "471"]
 % D741DB73F01D718D30820FD08D06
 [North "EPBot"]
 [East "EPBot"]
@@ -9816,7 +12458,34 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "370"]
+[Board "472"]
+% D440085010040277F6E3C317FC98
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KJT94.AKT95.3.97 AQ8.QJ42.K2.8654 2.6.T874.AKQJT32 7653.873.AQJ965."]
+{Shape 5512 3424 1147 4360}
+{HCP 11 12 10 7}
+{Losers 6 7 5 7}
+[Declarer "W"]
+[Contract "2D"]
+[Result "9"]
+[Score "NS -110"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    2C =1=
+Pass  Pass  2D    Pass
+Pass  Pass
+[Note "1:Michaels Cuebid"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "473"]
 % D5F0DC3379075A4CB88C0BC12454
 [North "EPBot"]
 [East "EPBot"]
@@ -9842,7 +12511,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "371"]
+[Board "474"]
 % D752C342FEB3700DF8E0F65F300E
 [North "EPBot"]
 [East "EPBot"]
@@ -9869,7 +12538,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "372"]
+[Board "475"]
 % D44DD8FC780C508C96FBC48FB311
 [North "EPBot"]
 [East "EPBot"]
@@ -9896,7 +12565,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "373"]
+[Board "476"]
 % D67F40DC80E28120DBECC4144F5D
 [North "EPBot"]
 [East "EPBot"]
@@ -9924,7 +12593,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "374"]
+[Board "477"]
 % D7433252FDFD102D5B40E9B29932
 [North "EPBot"]
 [East "EPBot"]
@@ -9953,7 +12622,7 @@ X     Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "375"]
+[Board "478"]
 % D4159A45B127360A4975F49A8B35
 [North "EPBot"]
 [East "EPBot"]
@@ -9982,7 +12651,33 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "376"]
+[Board "479"]
+% D64B39153E24E99B1D15850AF84B
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:KQJT764.A542..J4 A2.Q876.QT65.A82 85.T9.AK98432.T3 93.KJ3.J7.KQ9765"]
+{Shape 7402 2443 2272 2326}
+{HCP 11 12 7 10}
+{Losers 5 7 7 7}
+[Declarer "W"]
+[Contract "4C"]
+[Result "9"]
+[Score "NS 50"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  3C =1=    3S
+4C    Pass  Pass  Pass
+[Note "1:Inviting Jump Shifts"]
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "480"]
 % D5785874C09B8618876230C8C8E7
 [North "EPBot"]
 [East "EPBot"]
@@ -10008,7 +12703,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "377"]
+[Board "481"]
 % E456F336CAE5D8D224E6D7874A3A
 [North "EPBot"]
 [East "EPBot"]
@@ -10034,7 +12729,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "378"]
+[Board "482"]
 % E61BF852C645560C89C9E8FA5D2B
 [North "EPBot"]
 [East "EPBot"]
@@ -10060,7 +12755,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "379"]
+[Board "483"]
 % E51EDF478DF04DE1CE1EFD10756E
 [North "EPBot"]
 [East "EPBot"]
@@ -10087,7 +12782,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "380"]
+[Board "484"]
 % E71958D870E0F80A0F456BBCE7FC
 [North "EPBot"]
 [East "EPBot"]
@@ -10113,7 +12808,7 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "381"]
+[Board "485"]
 % E6C749F81AD64EE4C62B057948F8
 [North "EPBot"]
 [East "EPBot"]
@@ -10139,7 +12834,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "382"]
+[Board "486"]
 % E5D4D0964548A4BBF0C5C40F7368
 [North "EPBot"]
 [East "EPBot"]
@@ -10166,7 +12861,32 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "383"]
+[Board "487"]
+% E75592029112F28271FEF87F672E
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:QT2.Q8.5.KQT9862 A743.AKJT.642.43 KJ8.32.KQJT987.5 965.97654.A3.AJ7"]
+{Shape 3217 4432 3271 3523}
+{HCP 9 12 10 9}
+{Losers 6 8 6 9}
+[Declarer "N"]
+[Contract "3C"]
+[Result "7"]
+[Score "NS -200"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    3C
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "488"]
 % E44658C510E747D63AC1543C35BA
 [North "EPBot"]
 [East "EPBot"]
@@ -10192,7 +12912,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "384"]
+[Board "489"]
 % E5D3C88884863454B95338FC1365
 [North "EPBot"]
 [East "EPBot"]
@@ -10218,7 +12938,33 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "385"]
+[Board "490"]
+% E777911202F033CE312F3C3FA1CF
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:QJ97654.J82..QJ8 A.KQ.86542.A9642 K3.63.KQJT973.T5 T82.AT9754.A.K73"]
+{Shape 7303 1255 2272 3613}
+{HCP 7 13 9 11}
+{Losers 7 6 6 7}
+[Declarer "N"]
+[Contract "3SX"]
+[Result "8"]
+[Score "NS -200"]
+[Scoring "MP"]
+[Auction "E"]
+1D    Pass  1H    3S
+Pass  Pass  X     Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "491"]
 % E41040D3D0FC094CAB47E2B8400C
 [North "EPBot"]
 [East "EPBot"]
@@ -10244,7 +12990,7 @@ Pass  Pass  2S    Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "386"]
+[Board "492"]
 % E6707344BEFF0308D4E45C2ABCC3
 [North "EPBot"]
 [East "EPBot"]
@@ -10270,7 +13016,32 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "387"]
+[Board "493"]
+% E7EC4754F5170BBF84682CE83618
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:T9532.K97.9642.3 KQ6.QT2.A85.KT98 87.A654..AQ76542 AJ4.J83.KQJT73.J"]
+{Shape 5341 3334 2407 3361}
+{HCP 3 14 10 13}
+{Losers 9 7 5 7}
+[Declarer "E"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS -600"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  2D    Pass
+3N    Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "494"]
 % E4D5560AF6EA6805F5C7EA255D9F
 [North "EPBot"]
 [East "EPBot"]
@@ -10296,7 +13067,7 @@ Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "388"]
+[Board "495"]
 % E6170C8C2077CE5B23BCCD7C3064
 [North "EPBot"]
 [East "EPBot"]
@@ -10322,7 +13093,33 @@ Pass  Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "389"]
+[Board "496"]
+% E5400BA41B54F44738880BE0F17C
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:KJ75.AK865.QT98. AT82.JT.A43.KJ85 Q6.Q4.2.AQT97642 943.9732.KJ765.3"]
+{Shape 4540 4234 2218 3451}
+{HCP 13 13 10 4}
+{Losers 5 8 6 9}
+[Declarer "N"]
+[Contract "3N"]
+[Result "9"]
+[Score "NS 400"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    1H
+1S    2C    Pass  3N
+Pass  Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]
+
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "497"]
 % F4FB7C341CF1DCFA5F0468142F35
 [North "EPBot"]
 [East "EPBot"]
@@ -10349,7 +13146,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "390"]
+[Board "498"]
 % F634543EDE7FA3EEFC1073086090
 [North "EPBot"]
 [East "EPBot"]
@@ -10378,7 +13175,7 @@ Pass  Pass
 
 [Event "Jump_Cuebid_Weak"]
 [Site ""]
-[Board "391"]
+[Board "499"]
 % F5D877303CDEC2658750C88468CB
 [North "EPBot"]
 [East "EPBot"]
@@ -10403,3 +13200,28 @@ Pass  Pass
 [BidSystemEW "2/1GF - 2/1 Game Force"]
 [BidSystemNS "2/1GF - 2/1 Game Force"]
 
+[Event "Jump_Cuebid_Weak"]
+[Site ""]
+[Board "500"]
+% F74447FC82CC0889F447E71058BF
+[North "EPBot"]
+[East "EPBot"]
+[South "EPBot"]
+[West "EPBot"]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:94.AKJT986.983.J AK63.43.QT2.K652 J82.5.J4.AQT9743 QT75.Q72.AK765.8"]
+{Shape 2731 4234 3127 4351}
+{HCP 9 12 8 11}
+{Losers 7 7 7 6}
+[Declarer "N"]
+[Contract "3HX"]
+[Result "8"]
+[Score "NS -200"]
+[Scoring "MP"]
+[Auction "E"]
+1C    Pass  1D    3H
+Pass  Pass  X     Pass
+Pass  Pass
+[BidSystemEW "2/1GF - 2/1 Game Force"]
+[BidSystemNS "2/1GF - 2/1 Game Force"]

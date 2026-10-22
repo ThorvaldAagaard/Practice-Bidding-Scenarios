@@ -10,12 +10,12 @@
 /*@chat
 --- NT Ladder (Lev)
 Practice balanced hand evaluation across the full NT opening range.
-Five HCP ranges, leveled to be roughly equal:
-• 12-14 HCP (~21%) - Open 1 of a suit, then rebid 1NT
-• 15-17 HCP (~23%) - Standard 1NT opening
-• 18-19 HCP (~20%) - Too strong for 1NT, open 1x then rebid 2NT
-• 20-21 HCP (~19%) - Open 2NT
-• 22-24 HCP (~17%) - Open 2C then rebid 2NT
+Five HCP ranges, leveled to:
+• 12-14 HCP ({{level-mix:12_14}}) - Open 1 of a suit, then rebid 1NT
+• 15-17 HCP ({{level-mix:15_17}}) - Standard 1NT opening
+• 18-19 HCP ({{level-mix:18_19}}) - Too strong for 1NT, open 1x then rebid 2NT
+• 20-21 HCP ({{level-mix:20_21}}) - Open 2NT
+• 22-24 HCP ({{level-mix:22_24}}) - Open 2C then rebid 2NT
 @chat*/
 
 produce 5000
@@ -31,52 +31,49 @@ hcp18_19 = hcp(south) >= 18 and hcp(south) <= 19
 hcp20_21 = hcp(south) >= 20 and hcp(south) <= 21
 hcp22_24 = hcp(south) >= 22 and hcp(south) <= 24
 
-### Imported Leveling Code ###
-c1 = hascard(west,2C)
-c2 = hascard(east,2D)
-c3 = hascard(west,3C)
-c4 = hascard(east,3D)
+# The five bands: what the deals are tagged, charted and interleaved by
+HandType_12_14 = hcp12_14
+HandType_15_17 = hcp15_17
+HandType_18_19 = hcp18_19
+HandType_20_21 = hcp20_21
+HandType_22_24 = hcp22_24
 
-keep06 = c1 and c2          // this is used later w/c3 & c4 expressions
-keep44 = c3 or c4           // this is used later w/c1 & c2 expressions
+# Level on each HCP, not on the band: levelling the bands alone leaves the
+# inside of each as nature had it, and a 12 is far commoner than a 14.
+# Shares keep the bands even while the values inside them are flat — a value in
+# a two-wide band is wanted half again as often as one in a three-wide band.
+LevelType_12 = hcp(south) == 12
+LevelType_13 = hcp(south) == 13
+LevelType_14 = hcp(south) == 14
+LevelType_15 = hcp(south) == 15
+LevelType_16 = hcp(south) == 16
+LevelType_17 = hcp(south) == 17
+LevelType_18 = hcp(south) == 18
+LevelType_19 = hcp(south) == 19
+LevelType_20 = hcp(south) == 20
+LevelType_21 = hcp(south) == 21
+LevelType_22 = hcp(south) == 22
+LevelType_23 = hcp(south) == 23
+LevelType_24 = hcp(south) == 24
 
-keep015 = keep06 and c3
-keep03 = keep06 and keep44
-keep045 = keep06 and not c3
-####06 = c1 and c2
-keep11 = c1 and keep44
-keep14 = c1 and not keep44
-keep19 = c1 and not c2
-keep25 = c1
-keep30 = keep06 or c3
-keep33 = c1 or (c2 and keep44)
-####44 = c3 or c4
-keep47 = keep44 or keep06
+LevelType_12_Share = 2      // 12-14, 15-17 and 22-24 are three HCP wide
+LevelType_13_Share = 2
+LevelType_14_Share = 2
+LevelType_15_Share = 2
+LevelType_16_Share = 2
+LevelType_17_Share = 2
+LevelType_18_Share = 3      // 18-19 and 20-21 are two
+LevelType_19_Share = 3
+LevelType_20_Share = 3
+LevelType_21_Share = 3
+LevelType_22_Share = 2
+LevelType_23_Share = 2
+LevelType_24_Share = 2
 
-keep53 = not keep47
-keep56 = not keep44
-keep67 = not keep33
-keep70 = not keep30
-keep75 = not keep25
-keep81 = not keep19
-keep86 = not keep14
-keep89 = not keep11
-keep94 = not keep06
-keep955 = not keep045
-keep97 = not keep03
-keep985 = not keep015
-keep   = 1
-keep0  = 0
-### End of Imported Leveling Code ###
-
-# Level the ranges (12-14 is most common, 22-24 is rarest)
-# Tuned to balance around the rarest range (22-24)
-level12_14 = hcp12_14 and keep03
-level15_17 = hcp15_17 and keep045
-level18_19 = hcp18_19 and keep19
-level20_21 = hcp20_21 and keep56
-level22_24 = hcp22_24 and keep
-levelTheDeal = level12_14 or level15_17 or level18_19 or level20_21 or level22_24
+### BEGIN GENERATED LEVELING ###
+noLeveling = 1
+levelTheDeal = noLeveling
+### END GENERATED LEVELING ###
 
 ##### Now do it #####
 condition

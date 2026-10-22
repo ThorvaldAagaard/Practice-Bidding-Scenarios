@@ -2,6 +2,15 @@
 PBN operation: Generate PBN file from DLR using dealer (Mac or Windows).
 Then run oneComment.py locally to add comments.
 Finally, set correct Event tags using title from PBS file.
+
+A leveled scenario (issue #322) gets two PBN files: pbn/{scenario}.pbn from
+the natural mix, which is how you see what leveling changed, and
+pbn-leveled/{scenario}.pbn from dlr-leveled/, which rotate and bba read.
+
+`# vulnerable: None|NS|EW|All` in the .btn fixes every board's vulnerability;
+without it dealer3 rotates through the four. A scenario whose auctions turn
+on vulnerability (sacrifices, DOPI/ROPI) can hold it favorable. Mac only:
+dealer.exe has no such switch, so the Windows path ignores it and says so.
 """
 import os
 import re
@@ -12,9 +21,22 @@ import threading
 # Add parent directory to path for imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from config import FOLDERS, MAC_TOOLS, WINDOWS_TOOLS, dealer_seed, DEALER_GENERATE, DEALER_PRODUCE, DEALER_PLATFORM
+from config import FOLDERS, MAC_TOOLS, WINDOWS_TOOLS, PROJECT_ROOT, dealer_seed, DEALER_GENERATE, DEALER_PRODUCE, DEALER_PLATFORM
 from ssh_runner import run_windows_command, mac_to_windows_path
 from operations.title import run_title
+from utils.leveling import STALE, UNLEVELED, leveled_dlr_path, leveled_pbn_path, leveled_status
+from utils.properties import get_btn_property
+
+VULNERABILITIES = ("None", "NS", "EW", "All")
+
+# A leveled scenario used to be dealt twice: once from dlr/ into pbn/, the
+# "natural mix", and once from dlr-leveled/ into pbn-leveled/, which is the file
+# every later stage reads. The natural mix was there to show what leveling
+# changed, a comparison nobody was making -- so it cost a second full dealer run
+# and 9MB of files that nothing read, rewritten on every re-deal. Set
+# PBS_NATURAL_MIX=1 to deal it anyway, which is what to do when leveling itself
+# is what you are investigating.
+NATURAL_MIX = os.environ.get("PBS_NATURAL_MIX", "").strip().lower() in ("1", "true", "yes")
 
 # ANSI color codes
 RED = '\033[91m'
@@ -87,6 +109,7 @@ def run_pbn(scenario: str, verbose: bool = True) -> bool:
     Generate PBN file from DLR file using dealer.
 
     dlr/{scenario}.dlr -> pbn/{scenario}.pbn
+    dlr-leveled/{scenario}.dlr -> pbn-leveled/{scenario}.pbn, when leveled
 
     Args:
         scenario: Scenario name (e.g., "Smolen")
@@ -101,13 +124,63 @@ def run_pbn(scenario: str, verbose: bool = True) -> bool:
         print_error(f"Error: DLR file not found: {dlr_path}")
         return False
 
+    status = leveled_status(scenario)
+    if status == STALE:
+        print_error(f"Error: dlr-leveled/{scenario}.dlr was made from an older "
+                    f"dlr/{scenario}.dlr; run level first")
+        return False
+
     pbn_path = os.path.join(FOLDERS["pbn"], f"{scenario}.pbn")
+
+    if status == UNLEVELED:
+        return _make_pbn(scenario, dlr_path, pbn_path, verbose)
+
+    if NATURAL_MIX:
+        if not _make_pbn(scenario, dlr_path, pbn_path, verbose):
+            return False
+    elif os.path.exists(pbn_path):
+        # Left by an earlier build, and now dealt from a script that has moved
+        # on. Nothing reads it, and a stale file that looks current is worse
+        # than none -- the same reason level removes its own leftovers.
+        os.remove(pbn_path)
+        if verbose:
+            print(f"  Removed pbn/{scenario}.pbn: leveled scenarios deal only "
+                  f"pbn-leveled/ (PBS_NATURAL_MIX=1 to keep both)")
+
+    os.makedirs(FOLDERS["pbn_leveled"], exist_ok=True)
+    # Interleaved, so any run of boards from the top walks through the hand types
+    return _make_pbn(scenario, leveled_dlr_path(scenario), leveled_pbn_path(scenario),
+                     verbose, interleave=True)
+
+
+def _vulnerability(scenario: str) -> str | None:
+    """The .btn's `# vulnerable:` value, normalized to dealer3's spelling."""
+    value = get_btn_property(scenario, "vulnerable")
+    if value is None:
+        return None
+    for vul in VULNERABILITIES:
+        if value.strip().lower() == vul.lower():
+            return vul
+    print_error(f"Error: # vulnerable: {value!r} in btn/{scenario}.btn; "
+                f"expected one of {', '.join(VULNERABILITIES)}")
+    return ""
+
+
+def _make_pbn(scenario: str, dlr_path: str, pbn_path: str, verbose: bool,
+              interleave: bool = False) -> bool:
+    """Deal dlr_path into pbn_path, then add the comments and title."""
+    dlr_rel = os.path.relpath(dlr_path, PROJECT_ROOT)
+    pbn_rel = os.path.relpath(pbn_path, PROJECT_ROOT)
+
+    vulnerable = _vulnerability(scenario)
+    if vulnerable == "":
+        return False
 
     if DEALER_PLATFORM == "mac":
         # Step 1: Run dealer locally on Mac
         # Note: dealer3 reads input from stdin, not as a file argument
         if verbose:
-            print(f"--------- dealer (Mac): Creating pbn/{scenario}.pbn from dlr/{scenario}.dlr")
+            print(f"--------- dealer (Mac): Creating {pbn_rel} from {dlr_rel}")
 
         seed = dealer_seed(scenario)
         dealer_cmd = [
@@ -118,6 +191,10 @@ def run_pbn(scenario: str, verbose: bool = True) -> bool:
             "-f", "printpbn",
             "-v",
         ]
+        if interleave:
+            dealer_cmd.append("--interleave")
+        if vulnerable:
+            dealer_cmd += ["--vulnerable", vulnerable]
 
         if verbose:
             print(f"  [Local] {' '.join(dealer_cmd)} < {dlr_path}")
@@ -193,7 +270,11 @@ def run_pbn(scenario: str, verbose: bool = True) -> bool:
     else:
         # Step 1: Run dealer.exe on Windows via SSH
         if verbose:
-            print(f"--------- dealer.exe (Windows): Creating pbn/{scenario}.pbn from dlr/{scenario}.dlr")
+            print(f"--------- dealer.exe (Windows): Creating {pbn_rel} from {dlr_rel}")
+            if interleave:
+                print("  (dealer.exe has no --interleave; boards stay in the order dealt)")
+            if vulnerable:
+                print(f"  (dealer.exe has no --vulnerable; ignoring # vulnerable: {vulnerable})")
 
         # Build Windows paths
         win_dlr = mac_to_windows_path(dlr_path)
@@ -222,7 +303,7 @@ def run_pbn(scenario: str, verbose: bool = True) -> bool:
 
     # Step 2: Run oneComment.py locally to add comments
     if verbose:
-        print(f"--------- oneComment.py: Adding comments to pbn/{scenario}.pbn")
+        print(f"--------- oneComment.py: Adding comments to {pbn_rel}")
 
     py_dir = FOLDERS["py"]
     comment_script = os.path.join(py_dir, "oneComment.py")
@@ -233,7 +314,7 @@ def run_pbn(scenario: str, verbose: bool = True) -> bool:
 
     try:
         result = subprocess.run(
-            [MAC_TOOLS["python"], comment_script, "--scenario", scenario],
+            [MAC_TOOLS["python"], comment_script, "--scenario", scenario, "--pbn", pbn_path],
             cwd=py_dir,
             capture_output=True,
             text=True,
@@ -250,13 +331,12 @@ def run_pbn(scenario: str, verbose: bool = True) -> bool:
         return False
 
     # Verify output was created
-    pbn_path = os.path.join(FOLDERS["pbn"], f"{scenario}.pbn")
     if not os.path.exists(pbn_path):
         print_error(f"Error: PBN file was not created: {pbn_path}")
         return False
 
     # Step 3: Set correct Event tags from PBS file
-    run_title(scenario, verbose)
+    run_title(scenario, verbose, pbn_path)
 
     return True
 
